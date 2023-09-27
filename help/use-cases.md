@@ -2,9 +2,9 @@
 title: AdobeMix Modeler の使用例
 description: AdobeMix Modeler の使用例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 5d86d07562deeb200d418000a73390616c916d7e
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ AdobeMix Modeler では、次の主なユースケースを有効にします。
 
 ### 課題
 
-この使用例で対処する課題は次のとおりです。
+これらの使用例で対処する課題は次のとおりです。
 
 * 独立したカスタマージャーニーデータ、信号損失、ウォールガーデンからの増分的なパフォーマンスを測定するのは困難です。
 * 個別の MMM および MTA の手法から得たインサイトに不整合が生じ、結果の信頼性が低下します。
@@ -30,13 +30,13 @@ AdobeMix Modeler では、次の主なユースケースを有効にします。
 
 ### アプローチ
 
-この使用例では、ステップベースのアプローチを次に示します。
+この使用例での手順に基づくアプローチは次のとおりです。
 
 | 手順 | 詳細 |
 |---|---|
-| 取り込み | 共通のスキーマでのデータソースの識別と取り込み。 <br/>Adobe AnalyticsまたはCustomer Journey Analyticsの既存の投資を活用して、迅速な導入を実現します。 |
+| 取り込み | 共通のスキーマでのデータソースの識別と取り込み。 <br/>既存の投資をAdobe AnalyticsまたはCustomer Journey Analyticsに適用し、迅速な導入を実現します。 |
 | 設定 | 特定のビジネス目標に合わせて AI（サービスとしての AI）フレームワークを使用して柔軟なモデルを構成<br/>双方向転送学習により、タッチポイントとサマリレベルの一貫性を自動的に確保します。 |
-| 分析 | マーケティング全体の ROI、個々のチャネル/サブチャネルを明確に把握します。<br/>増分コンバージョンに最も貢献するタッチポイントを明確に把握します。 |
+| 分析 | マーケティング全体の ROI、個々のチャネル/サブチャネルを明確に理解します。<br/>増分コンバージョンに最も貢献するタッチポイントを明確に把握します。 |
 
 {style="table-layout:auto"}
 
@@ -47,20 +47,20 @@ AdobeMix Modeler では、次の主なユースケースを有効にします。
 
 * 集計データ、タッチポイントデータ、外来変数を組み込み、最も豊富な測定ビューを得ます。
 * AI（サービスとしての AI）ソリューションを使用して、信頼水準のモデルの透明性を利用して成功を導くモデルをすばやく作成します。
-* サマリーレベルとタッチポイントレベルの結果を調整することで、戦略的かつ戦術的な意思決定に対する信頼性を高めます。
+* サマリーレベルとタッチポイントレベルの結果の調整を通じて、戦略的かつ戦術的な意思決定に対する信頼性を高めます。
 
 +++
 
 
 ## ROI を最適化するマーケティングプランの構築
 
-この使用例では、AI 対応のユーザーフレンドリーな最適化およびシナリオ計画ツールを活用して、ROI を最大化します。
+この使用例では、AI 対応の使いやすい最適化およびシナリオ計画ツールを使用して、ROI を最大化します。
 
 +++ 詳細
 
 ### 課題
 
-この使用例で対処する課題は次のとおりです。
+これらの使用例で対処する課題は次のとおりです。
 
 * 直感的な感覚に頼らず、効率曲線に基づいて、データドリブン型のマーケティング投資計画を作成します。
 * 複数の地域、事業部門、チャネルにわたる成果を同時に最大化します。
@@ -69,7 +69,7 @@ AdobeMix Modeler では、次の主なユースケースを有効にします。
 
 ### アプローチ
 
-この使用例では、ステップベースのアプローチを次に示します。
+この使用例での手順に基づくアプローチは次のとおりです。
 
 | 手順 | 詳細 |
 |---|---|
@@ -90,44 +90,47 @@ AdobeMix Modeler では、次の主なユースケースを有効にします。
 
 +++
 
+<!-- This use case is not supported with initial release
 
-## データ駆動型の情報を最適化する
+## Make data-driven inflight optimizations
 
-この使用例は、実際のパフォーマンスを評価し予測し、情報量を改善することで、週別の ROI を改善するのに役立ちます。
+This use case helps you to improve ROI weekly by assessing actual and forecasted performance to make inflight improvements.
 
-+++ 詳細
++++ Details
 
-### 課題
+### Challenges
 
-この使用例で対処する課題は次のとおりです。
+The challenges this use case addresses are:
 
-* 多くの場合、キャンペーンのパフォーマンスが低下するか、自信を持って最適化する必要のある精度が不足します。
-* 数十のチャネルやソースにわたる、標準化されていないメッシーなデータは、インサイトに要する時間を長くします。
-* ツールへのアクセスを民主化せず、一部の専門家や外部ベンダーに過剰依存しておらず、業績が向上しています。
+* Campaign performance is often slow, or lacks granularity need to confidently optimize.
+* Messy, non-standardized data across dozens of channels and sources drives slow time to insight.
+* No democratized access to tools and overreliance on select experts or external vendors, increasing turnaround times.
 
 
 
-### アプローチ
+### Approach
 
-この使用例では、ステップベースのアプローチを次に示します。
+The step based approach for this use case:
 
-| 手順 | 詳細 |
+| Step | Details |
 |---|---|
-| 取り込み | 共通のスキーマでデータを取り込み、モデルの更新と複数のExperience Platform・アプリケーションでの再利用を容易にします。<br/>自動調和ツールを使用して、データの配管、クリーニング、QA を合理化します。 |
-| 更新 | 使いやすいセルフサービスプラットフォームを使用して、AI/ML モデルを作成および更新します。<br/>過去の ROI や予測された ROI をチャネル別に、週単位または月単位で含む新しい結果を得ます。 |
-| 最適化 | 測定されたパフォーマンスに基づいてチャネル間で支出をシフトすることで、迅速な情報の最適化を実現します。 |
+| Ingest | Ingest data in common schemas for easy model refreshes and reusability across Experience Platform applications.<br/>Streamline data piping, cleaning & QA with automated harmonization tools. |
+| Refresh | Build and refresh AI/ML  models using a user-friendly, self-service platform.<br/>Get new results, including historic and forecasted ROIs by channel, on a weekly or monthly basis. |
+| Optimize | Make rapid inflight optimizations by shifting spend across channels based on measured performance. |
 
 {style="table-layout:auto"}
 
 
-### 影響
+### Impact 
 
-この使用を正常に実装すると、次のような影響を受ける可能性があります。
+Successful implementation of this use can have the following impact:
 
-* 標準化されたデータスキーマと共通のデータ基盤を使用して、測定および分析の使用例全体で、速度、拡張性、操作性を最大限に高めます。
-* 週次または月次の情報を迅速に最適化し、最適な ROI を予測するデータ主導型支出シフトにより、ROI を最大化します。
+* Maximize speed, scalability, and usability across measurement & analytic use cases with standardized data schemas and common data foundation.
+* Rapidly make weekly or monthly inflight optimizations and maximize ROI with data-driven spend shifts that reflect best forecasted ROIs.
 
 +++
+
+-->
 
 ## Adobe・アプリケーション全体で戦術的なインサイトを活用
 
@@ -137,20 +140,20 @@ AdobeMix Modeler では、次の主なユースケースを有効にします。
 
 ### 課題
 
-この使用例で対処する課題は次のとおりです。
+これらの使用例で対処する課題は次のとおりです。
 
 * トップダウンソリューションのみでは、きめ細かい主要最適化の機会を特定できない場合があります。
-* 測定モデルの出力は圧倒的で、過度に説明的で、インサイトや行動につながりにくくなります。
+* 測定モデルの出力は圧倒的で、過度に説明的で、簡単にインサイトや行動につながりません。
 * モデルは透明ではなく、詳細なスコアを使用できないので、アドホック分析を実行してインサイトを得ることはできません。
 
 
 ### アプローチ
 
-この使用例では、ステップベースのアプローチを次に示します。
+この使用例での手順に基づくアプローチは次のとおりです。
 
 | 手順 | 詳細 |
 |---|---|
-| モデル | 一貫した MTA タッチポイントスコアと MMM 集計結果を取得するように、AI/ML モデルを設定およびトレーニングします。 |
+| モデル | 一貫した MTA タッチポイントスコアと MMM 集計結果を取得するために、AI/ML モデルを設定およびトレーニングします。 |
 | 分析 | 増分タッチポイントスコアをCustomer Journey Analyticsまたは外部 BI ツールにエクスポートします。<br/>タッチポイントスコアを使用して、詳細な分析を実行し、高度なダッシュボードを構築します。 |
 | アクション | Real-time Customer Data Platformを使用して、上位の消費者セグメントに対するルックアライクを作成し、アクティブ化します。<br/>将来のキャンペーンに備えて、顧客セグメント別にデータドリブン型マーケティング戦略を策定します。 |
 

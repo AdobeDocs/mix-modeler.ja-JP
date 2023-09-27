@@ -1,7 +1,7 @@
 ---
 description: AdobeMix Modeler の継続的な機能リリース戦略を説明します
 title: AdobeMix Modeler リリース
-source-git-commit: 827c25486bb56c80c52e663f391d60083e094f83
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
@@ -11,7 +11,6 @@ ht-degree: 0%
 # AdobeMix Modeler リリース
 
 Adobeミックスモデラーリリースは、機能のデプロイメントに向けてスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。
-
 
 <!--
 ## Release strategy

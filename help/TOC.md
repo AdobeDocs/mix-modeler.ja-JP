@@ -2,10 +2,10 @@
 user-guide-title: 混在モデラー
 breadcrumb-title: 混在モデラー
 user-guide-description: 混在モデラーの使用方法を説明します。
-source-git-commit: 93ac820adcc4a120b54a98b5be7c23ce7cade451
+source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 32%
+source-wordcount: '67'
+ht-degree: 29%
 
 ---
 
@@ -46,10 +46,16 @@ ht-degree: 32%
 
 + [ユースケース](use-cases.md)
 
-+ 管理 {#administration}
-   + [概要](administration/overview.md)
-   + [ポリシー](administration/policies.md)
-   + [監査](administration/audits.md)
+
+<!-- Admin integration with AEP not part of first release
+
++ Administration {#administration}
+  + [Overview](administration/overview.md)
+  + [Policies](administration/policies.md)
+  + [Audits](administration/audits.md)
+  
+-->
+
 
 + リリース {#releaes}
    + [最新リリース](releases/latest.md)
