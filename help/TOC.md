@@ -2,7 +2,7 @@
 user-guide-title: 混在モデラー
 breadcrumb-title: 混在モデラー
 user-guide-description: 混在モデラーの使用方法を説明します。
-source-git-commit: afe12371a1d5ac24377d67f4941ee14c8defd683
+source-git-commit: 625ab651b676e50505f386cf70abb27f57f6c8f1
 workflow-type: tm+mt
 source-wordcount: '67'
 ht-degree: 29%
@@ -57,7 +57,7 @@ ht-degree: 29%
 -->
 
 
-+ リリース {#releaes}
++ リリース {#releases}
    + [最新リリース](releases/latest.md)
    + [2023 年リリース](releases/2023.md)
    + [リリースプロセス](releases/releases.md)
