@@ -1,16 +1,36 @@
 ---
 title: 現在のAdobeMix Modeler リリースノートを表示
 description: 最新の Mix Modeler リリースノート
-source-git-commit: 0e946d69b8edbd08bd8ea898a388b0499d146bdd
+source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 4%
+source-wordcount: '185'
+ht-degree: 5%
 
 ---
 
-# 最新のAdobeMix Modeler リリースノート（2023 年 9 月）
+# 最新のAdobe Mix Modelerリリースノート
 
-**最終更新日**：2023年9月29日（PT）.
+**最終更新日**:2023 年 10 月 5 日。
 
-これらのリリースノートでは、2023 年 9 月 1 日から 9 月 29 日のリリース期間を扱っています。  リリースは、機能のデプロイメントに向けて、よりスケーラブルで段階的なアプローチを可能にする、継続的な配信モデルで動作します。 したがって、これらのリリースノートは月に数回更新されます。 定期的に確認してください。
+これらのリリースノートでは、Adobe Mix Modelerの最初のリリースを説明します。 Adobe Mix Modelerリリースは、月次のリリースケイデンスを概算できる継続的な配信モデルで動作します。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
+
+
+## 新機能または更新された機能
+
+| 機能 | 説明 | 一般公開 |
+|---|---|---|
+| **要約されたデータ取り込み** | [要約されたデータの取り込み](../ingest-data/overview.md) （例えば、ウォールガーデンの支出データ、テレビの飛行スケジュール）Adobe Experience Platformの新しい概要クラスを使用します。 | 2023年10月4日（PT） |
+| **マーケティング投資の増分的な影響を測定** | [理解](../dashboard/overview.md) ビジネス目標または戦術的なキャンペーン目標全体でのマーケティングの増分的な ROI と効果。 | 2023年10月4日（PT） |
+| **マルチタッチアトリビューション (MTA) とマーケティングミックスモデリング (MMM) の転送学習** | MMM と MTA の統一により、より自信を持った意思決定を行う [モデル](../models/overview.md) 転送学習を通じて | 2023年10月4日（PT） |
+| **マーケティング投資シナリオの計画** | 複数の予算を作成 [プラン](../plans/overview.md) を比較し、ビジネスに最適な決定を下すために役立ちます。 | 2023年10月4日（PT） |
+
+{style="table-layout:auto"}
+
+
+>[!MORELIKETHIS]
+>
+>* [Adobe Mix Modelerの概要](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Adobe Mix ModelerExperience Leagueドキュメント](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+
+
 
