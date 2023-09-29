@@ -1,8 +1,8 @@
 ---
 title: スキーマ
 description: データを Mix Modeler に取り込むために必要なAdobeを管理する方法を説明します。
-feature: Datasets
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+feature: Schemas
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 6%

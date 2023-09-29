@@ -1,10 +1,10 @@
 ---
-title: プランの比較
-description: Mix Modeler でプランを比較する方法をAdobeします。
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+title: 管理
+description: Adobe Mix Modelerの管理方法
+source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 7%
+source-wordcount: '158'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Adobe Mix Modelerが正しく機能するには、正しい権限を設定する
 
 Adobe Experience Cloud UI で、
 
-1. 選択 **[!UICONTROL Permissions]** 下の左側のレールから **[!UICONTROL ADMINISTRATION]**.
+1. 選択 **[!UICONTROL Permissions]** 左側のレールから、その下に **[!UICONTROL ADMINISTRATION]**.
 
 1. 選択 ![人物](assets/icons/User.svg) **[!UICONTROL Roles]** を左側のパネルからクリックします。
 
