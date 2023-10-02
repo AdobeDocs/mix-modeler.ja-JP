@@ -1,7 +1,7 @@
 ---
 title: 管理
 description: Adobe Mix Modelerの管理方法
-source-git-commit: 4a6cbda1ff0a779ebf8a38a4de3f797ed9e54b00
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 8%
@@ -35,9 +35,15 @@ Adobe Experience Cloud UI で、
 
    * **[!UICONTROL Data Ingestion]**：必ず **[!UICONTROL View Sources]** および **[!UICONTROL Manage Sources]**.
 
+   <!--
+    * **[!UICONTROL Data Governance]**: ensure you select **[!UICONTROL View User Activity Log]** and **[!UICONTROL View Data Usage Policies]**.
+    -->
+
    役割に対して設定されている権限は次のようになります。
 
    ![権限](assets/permissions.png)
+
+   <!--![Permissions](assets/permissions-including-privacy.png)-->
 
    選択 **[!UICONTROL Save]** 権限を保存します。
 

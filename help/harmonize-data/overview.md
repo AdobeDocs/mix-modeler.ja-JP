@@ -2,10 +2,10 @@
 title: データを調和させる
 description: Mix Modeler でデータを調整する方法をAdobeします。
 feature: Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 17%
+source-wordcount: '804'
+ht-degree: 16%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 AdobeMix Modeler のデータは、データのソースに応じて異なる性質を持ちます。 データは次のようになります。
 
-* 集計データ（例えば、ウォールガーデンのデータソースから収集）。
+* 集計データ。例えば、ウォールガーデンのデータソースから収集したデータや、広告掲示板キャンペーン、イベント、または実際の広告キャンペーンの実行から収集された（支出など）オフライン広告データなど。
 * イベントデータ（例：ファーストパーティのデータソースから）。 このイベントデータは、Adobe AnalyticsのAdobe Analyticsソースコネクタを通じて収集したり、Adobe Experience Platform Web、Mobile SDK、Edge Network API を通じて収集したり、ソースコネクタを使用して取り込んだデータにしたりできます。
 
 AdobeMix Modeler の調和サービスは、集計とイベントのデータを一貫したデータビューに同化します。 このデータビューは、AdobeMix モデラのプランとモデルのソースです。
