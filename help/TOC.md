@@ -1,11 +1,11 @@
 ---
-user-guide-title: 混在モデラー
-breadcrumb-title: 混在モデラー
-user-guide-description: 混在モデラーの使用方法を説明します。
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+user-guide-title: AdobeMix モデラガイド
+breadcrumb-title: Mix Modeler ガイド
+user-guide-description: Adobe Mix Modelerの使用方法
+source-git-commit: d02cfdf3ad5a0872a0f9c2c9f98973e79f1a9de8
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 42%
+source-wordcount: '67'
+ht-degree: 44%
 
 ---
 
