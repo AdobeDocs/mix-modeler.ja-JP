@@ -2,9 +2,9 @@
 title: データの取得
 description: データを取り込んでMix Modelerする方法を説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '459'
 ht-degree: 16%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 16%
 
 # データの取得
 
-Adobe Mix Modelerは、イベントレベルのデータ、様々なウォールガーデンからの集計マーケティング活動データ、オフライン広告、内部要因、外部要因など、他のソースからの集計または概要データを使用します。
+Mix Modelerは、イベントレベルのデータ、様々なウォールガーデンからの集計マーケティング活動データ、オフライン広告、内部要因、外部要因など、他のソースからの集計または概要データを使用します。
 
 お客様は、Adobe Experience Platformにデータセットとして取り込まれるあらゆる種類のデータを使用できます。このデータは、XDM ExperienceEvent または XDM 概要指標を基本クラスとして使用するスキーマに基づいています。
 
