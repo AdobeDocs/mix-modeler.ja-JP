@@ -1,10 +1,10 @@
 ---
 title: データセットルール
-description: Mix Modeler でデータの調和の一環として使用するデータセットルールをAdobeする方法を説明します。
+description: Mix Modelerでのデータの調和の一環として使用するデータセットルールを定義する方法を説明します。
 feature: Harmonized Data, Dataset Rules
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # データセットルール
 
-データセットルールは、調和されたフィールドを、Mix Modeler で取り込んだデータのフィールドとマッピングする際にAdobeに役立ちます。
+データセットルールは、調和されたフィールドを、Mix Modelerで取り込んだデータのフィールドとマッピングする際に役立ちます。
 
 * Adobe Experience Platformで取り込んだ集計データについて、1 つ以上の使用可能なデータセットフィールドを、適切な調和されたフィールドにマッピングします。
 * イベントデータの場合、1 つ以上の調和されたフィールドを、データセット内のフィールドに個別にマッピングしたり、直接または条件を使用してマッピングしたりできます。
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 ## データセットのルールとマッピングの管理
 
-使用可能なデータセットマッピングのテーブルを確認するには、AdobeMix Modeler インターフェイスで次の手順を実行します。
+使用可能なデータセットマッピングの表を確認するには、Mix Modelerインターフェイスで次の手順を実行します。
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
 
@@ -32,7 +32,7 @@ ht-degree: 1%
 | ---------------------- | ----------|
 | データセット | データセットの名前。 |
 | ソース | データセットのソース。Adobe Analytics、エクスペリエンスイベント、概要（集計）、消費者エクスペリエンスイベントのいずれかです。 |
-| スキーマ | データセットが準拠するスキーマです。 スキーマ名をすばやく選択して、スキーマエディターのAdobeMix Modeler - Schemas で新しいタブでスキーマを開くことができます。 |
+| スキーマ | データセットが準拠するスキーマです。 スキーマ名をすばやく選択して、スキーマエディターの「Mix Modeler — スキーマ」で、新しいタブでスキーマを開くことができます。 |
 | 精度 | データセット内のデータの精度。 指定できる値は、日別、週別、月別、年別です。 |
 | 週の最初 | 特定のデータセットで新しい週の開始と見なされる曜日を指定します。 |
 | 最終変更日 | データセットマッピングの最後の変更のデータと時刻。 |
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ### データセットマッピングの作成
 
-データセットマッピングを作成するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modeler のインタフェースで、Adobeを選択します。 **[!UICONTROL Create Dataset Mapping]**.
+データセットマッピングを作成するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インタフェース (Mix Modeler): **[!UICONTROL Create Dataset Mapping]**.
 
 Adobe Analytics の **[!UICONTROL Create]** 画面
 
@@ -107,7 +107,7 @@ Adobe Analytics の **[!UICONTROL Create]** 画面
 
 ### データセットマッピングの編集
 
-データセットマッピングを編集するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** AdobeMix Modeler のインタフェース：
+データセットマッピングを編集するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスのMix Modeler:
 
 1. 選択 ![その他](../assets/icons/More.svg) （内） **[!UICONTROL Dataset]** 列を編集します。
 1. コンテキストメニューから、「 」を選択します。 ![編集](../assets/icons/Edit.svg) **[!UICONTROL Edit]** をクリックして、データセットマッピングの編集を開始します。 参照： [データセットマッピングの作成](#create-a-dataset-mapping) を参照してください。
@@ -115,7 +115,7 @@ Adobe Analytics の **[!UICONTROL Create]** 画面
 
 ### データセットマッピングの削除
 
-データセットマッピングを削除するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** AdobeMix Modeler のインタフェース：
+データセットマッピングを削除するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスのMix Modeler:
 
 1. 選択 ![その他](../assets/icons/More.svg) （内） **[!UICONTROL Dataset]** 列を使用して、データセットのマッピングを行います。
 1. コンテキストメニューから、「 」を選択します。 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックして、データセットマッピングを削除します。

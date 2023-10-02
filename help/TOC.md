@@ -2,20 +2,20 @@
 user-guide-title: 混在モデラー
 breadcrumb-title: 混在モデラー
 user-guide-description: 混在モデラーの使用方法を説明します。
-source-git-commit: 1eaebc6f6178270a9e8aebb6b250e0b0a6289f52
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 31%
+source-wordcount: '63'
+ht-degree: 42%
 
 ---
 
 
-# AdobeMix モデラガイド {#using}
+# Mix Modeler ガイド {#using}
 
-+ [AdobeMix モデラガイド](overview.md)
++ [Mix Modeler ガイド](overview.md)
 
 + はじめに {#get-started}
-   + [AdobeMix Modeler とは](get-started/about.md)
+   + [Mix Modelerとは](get-started/about.md)
    + [アプリケーションワークフロー](get-started/workflow.md)
 
 + ダッシュボード {#dashboard}

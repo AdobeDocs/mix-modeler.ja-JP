@@ -1,20 +1,20 @@
 ---
 title: データセット
-description: データを Mix Modeler に取り込むために必要なデータセットをAdobeする方法を説明します。
+description: データをMix Modelerに取り込むために必要なデータセットを管理する方法を説明します。
 feature: Datasets
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 21%
+source-wordcount: '63'
+ht-degree: 22%
 
 ---
 
 
 # データセット
 
-Adobe Experience Platformで取り込むデータを含むデータセットを管理し、AdobeMix Modeler で使用するには、次の手順を実行します。
+Adobe Experience Platformで取り込み、Mix Modelerで使用するデータを含むデータセットを管理するには、次の手順を実行します。
 
-1. Mix Modeler インタフェースのAdobeに移動します。
+1. 「Mix Modeler」インターフェイスに移動します。
 
 1. 選択 ![データ](../assets/icons/Data.svg) **[!UICONTROL Datasets]**，の下 **[!UICONTROL DATA MANAGEMENT]**.
 

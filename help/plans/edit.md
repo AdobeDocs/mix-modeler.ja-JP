@@ -1,10 +1,10 @@
 ---
 title: プランの編集
-description: Mix Modeler でプランを編集する方法をAdobeします。
+description: プランを編集する方法については、「Mix Modeler」を参照してください。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '312'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # プランの編集
 
-プランを編集するには、 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** AdobeMix Modeler のインターフェイスで、名前でプランを選択します。
+プランを編集するには、 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** [Mix Modeler] で、名前でプランを選択します。
 
 In [!UICONTROL Plan insights]に設定すると、プランのインサイトが作成され、 [!UICONTROL Model]、 [!UICONTROL Data range]、および [!UICONTROL Total budget] プランのベースとなる
 

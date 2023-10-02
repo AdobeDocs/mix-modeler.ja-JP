@@ -1,18 +1,20 @@
 ---
-title: 現在のAdobeMix Modeler リリースノートを表示
+title: 現在のMix Modelerリリースノート
 description: 最新の Mix Modeler リリースノート
-source-git-commit: 592d85cf9b1dfde8a9ca087d14445339fb64ecc7
+feature-set: Experience Cloud
+feature: Release Notes
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '179'
 ht-degree: 5%
 
 ---
 
-# 最新のAdobe Mix Modelerリリースノート
+# 最新のMix Modelerリリースノート
 
 **最終更新日**:2023 年 10 月 5 日。
 
-これらのリリースノートでは、Adobe Mix Modelerの最初のリリースを説明します。 Adobe Mix Modelerリリースは、月次のリリースケイデンスを概算できる継続的な配信モデルで動作します。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
+これらのリリースノートでは、Mix Modelerの最初のリリースを説明します。 Mix Modelerリリースは、月次のリリースケイデンスを概算できる継続的な配信モデルで動作します。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
 
 
 ## 新機能または更新された機能
@@ -29,8 +31,8 @@ ht-degree: 5%
 
 >[!MORELIKETHIS]
 >
->* [Adobe Mix Modelerの概要](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Adobe Mix ModelerExperience Leagueドキュメント](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
+>* [Mix Modelerの概要](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Mix ModelerExperience Leagueドキュメント](https://experienceleague.adobe.com/docs/mix-modeler.html?lang=en)
 
 
 

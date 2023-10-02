@@ -1,10 +1,10 @@
 ---
 title: 調整済みデータの概要ダッシュボード
-description: Mix Modeler で調和されたデータの概要ダッシュボードを使用する方法についてAdobeします。
+description: 調整済みデータの概要ダッシュボードをMix Modelerで使用する方法を説明します。
 feature: Dashboard, Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 調整済みデータの概要
 
-AdobeMix Modeler の概要の「Harmonized Data」タブでは、取り込んだデータと調和されたデータ設定の一部として使用するように設定した、調和されたデータに関するインサイトを提供します。
+Mix Modelerの概要の「調和済みデータ」タブには、取り込んだデータと調和済みデータの設定の一部として使用するように設定した調和済みデータに関するインサイトが表示されます。
 
 概要には、4 つの KPI ステータスカードウィジェット（上の行）と、その他 6 つの設定可能なウィジェットが表示されます。
 

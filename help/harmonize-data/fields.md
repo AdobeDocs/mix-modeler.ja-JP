@@ -1,10 +1,10 @@
 ---
 title: 調整済みフィールド
-description: AdobeMix モデラーでデータの調和の一環として使用するフィールドを定義する方法を説明します。
-feature: Harmonized Data
-source-git-commit: abbfc78e9fa774a240d000131f35d3dc257c15ea
+description: Mix Modelerでのデータの調和の一環として使用するフィールドを定義する方法を説明します。
+feature: Harmonized Data, Harmonized Fields
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '655'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 ## グローバルハーモナイゼーションフィールド
 
-Mix Modeler で使用できるデフォルトのグローバルハーモナライゼーションAdobeは次のとおりです。
+デフォルトで使用可能なグローバルハーモナイゼーションフィールドは、次のMix Modelerです。
 
 
 | フィールド名 | 表示名 | カテゴリ | データタイプ | コメント |
@@ -53,7 +53,7 @@ Mix Modeler で使用できるデフォルトのグローバルハーモナラ�
 
 ## 調整済みフィールドの管理
 
-使用可能な調整済みフィールドのテーブルを表示するには、AdobeMix Modeler インターフェイスで次の手順を実行します。
+使用可能な調和済みフィールドのテーブルを表示するには、Mix Modelerインターフェイスで次の手順を実行します。
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
 
@@ -81,7 +81,7 @@ Mix Modeler で使用できるデフォルトのグローバルハーモナラ�
 
 ### 調整済みフィールドを追加
 
-調和されたフィールドを追加するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix ModelerAdobeのインタフェース：
+調和されたフィールドを追加するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスを次のMix Modelerに設定します。
 
 1. 選択 ![追加](../assets/icons/AddCircle.svg)フィールドを追加します。
 
@@ -107,7 +107,7 @@ Mix Modeler で使用できるデフォルトのグローバルハーモナラ�
 
 作成済みのハーモナイズされたフィールドのみ編集できます。 グローバル調整済みフィールドは編集できません。
 
-調和されたフィールドを編集するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix ModelerAdobeのインタフェース：
+調和されたフィールドを編集するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスを次のMix Modelerに設定します。
 
 1. 編集する調和済みフィールドを選択します。 例：**[!UICONTROL Region]**。
 
@@ -121,7 +121,7 @@ Mix Modeler で使用できるデフォルトのグローバルハーモナラ�
 
 以前に作成した調和済みフィールドのみを削除できます。 グローバル調整済みフィールドは削除できません。
 
-調和されたフィールドを削除するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix ModelerAdobeのインタフェース：
+調和されたフィールドを削除するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスを次のMix Modelerに設定します。
 
 1. 削除する調和済みフィールドを選択します（例： ）。 **[!UICONTROL Region]**.
 

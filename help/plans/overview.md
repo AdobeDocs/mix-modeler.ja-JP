@@ -1,10 +1,10 @@
 ---
 title: プラン
-description: Mix Modeler でプランの表示、選択、およびアクションを行うAdobeを説明します。
+description: Mix Modelerのプランの表示、選択、およびアクションの方法を説明します。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '293'
 ht-degree: 2%
 
 ---
@@ -12,12 +12,12 @@ ht-degree: 2%
 
 # プラン
 
-Adobeミックスモデラーのプランを使用すると、ビジネスユニットおよびチャネルごとに予算を割り当てることができます。 計画機能は、調和したデータに基づいて、トレーニング済みモデルの結果と統合されます。
+「Mix Modelerのプラン」では、ビジネスユニットおよびチャネルごとに予算を割り当てることができます。 計画機能は、調和したデータに基づいて、トレーニング済みモデルの結果と統合されます。
 
 
 ## プランを表示
 
-現在のプランのテーブルを表示するには、AdobeMix Modeler インタフェースで次の手順を実行します。
+現在の計画の表を表示するには、Mix Modeler・インタフェースで次の手順に従います。
 
 1. 選択 ![](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** をクリックします。
 

@@ -1,10 +1,10 @@
 ---
 title: プランの概要
-description: Mix Modeler でのプランの概要の使用方法をAdobeします。
+description: 「Mix Modeler」でプランの概要を使用する方法を説明します。
 feature: Dashboard, Plans, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '70'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >[!BADGE Alpha]{type=Informative}
 
 
-AdobeMix Modeler の概要の「プラン」タブに、以下のウィジェットが表示されます。 [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] および [!UICONTROL KPI].
+「Mix Modelerの概要」の「プラン」タブに、以下のウィジェットが表示されます。 [!UICONTROL Budget], [!UICONTROL Revenue], [!UICONTROL ROI] および [!UICONTROL KPI].
 
 ウィジェットに対して表示されるデータは、次の項目によって決まります。
 

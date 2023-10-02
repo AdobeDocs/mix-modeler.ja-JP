@@ -1,27 +1,27 @@
 ---
 title: データを調和させる
-description: Mix Modeler でデータを調整する方法をAdobeします。
+description: データの調和を図る方法をMix Modeler。
 feature: Harmonized Data
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 16%
+source-wordcount: '798'
+ht-degree: 17%
 
 ---
 
 
 # データを調和させる
 
-AdobeMix Modeler のデータは、データのソースに応じて異なる性質を持ちます。 データは次のようになります。
+Mix Modeler内のデータは、データのソースに応じて異なる特性を持ちます。 データは次のようになります。
 
 * 集計データ。例えば、ウォールガーデンのデータソースから収集したデータや、広告掲示板キャンペーン、イベント、または実際の広告キャンペーンの実行から収集された（支出など）オフライン広告データなど。
 * イベントデータ（例：ファーストパーティのデータソースから）。 このイベントデータは、Adobe AnalyticsのAdobe Analyticsソースコネクタを通じて収集したり、Adobe Experience Platform Web、Mobile SDK、Edge Network API を通じて収集したり、ソースコネクタを使用して取り込んだデータにしたりできます。
 
-AdobeMix Modeler の調和サービスは、集計とイベントのデータを一貫したデータビューに同化します。 このデータビューは、AdobeMix モデラのプランとモデルのソースです。
+Mix Modelerの調和化サービスは、集計データとイベントデータを一貫したデータビューに同化します。 このデータ・ビューは、Mix Modelerのプランとモデルのソースです。
 
 ## 調和されたデータの例
 
-AdobeMix Modeler で使用できる次のデータセットがあるとします。
+次のデータセットをMix Modelerに使用できるとします。
 
 **データセット 1**
 
@@ -114,7 +114,7 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 ## 調整済みデータの表示
 
-調整済みのデータを表示するには、Mix ModelerAdobeで次の手順を実行します。
+調和したデータを表示するには、Mix Modelerインターフェイスで次の操作を実行します。
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** をクリックします。
 

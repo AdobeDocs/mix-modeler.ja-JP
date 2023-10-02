@@ -1,10 +1,10 @@
 ---
 title: 概要
-description: Mix Modeler で調和されたデータとプランの概要をAdobeします。
+description: 調整済みのデータとプランの概要をMix Modelerで確認する方法
 feature: Dashboard, Plans, Harmonized Data, Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '64'
+source-wordcount: '61'
 ht-degree: 1%
 
 ---
@@ -13,9 +13,9 @@ ht-degree: 1%
 # 概要ダッシュボード
 
 
-AdobeMix Modeler の概要ダッシュボードでは、様々な設定可能なウィジェットを使用して、調整済みのデータとプランの概要を確認できます。
+Mix Modelerの概要ダッシュボードでは、様々な設定可能なウィジェットを使用して、調和されたデータと計画の概要を確認できます。
 
-概要にアクセスするには、 ![ホーム](../assets/icons/Home.svg) **[!UICONTROL Overview]** を [AdobeMix Modeler] インタフェースの左側のレールから選択します。
+概要にアクセスするには、 ![ホーム](../assets/icons/Home.svg) **[!UICONTROL Overview]** 「Mix Modeler」インターフェイスの左パネルから。
 
 ここから、以下の詳細を取得できます。
 

@@ -1,9 +1,10 @@
 ---
 title: 管理
-description: Adobe Mix Modelerの管理方法
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+description: Mix Modelerの管理方法
+feature: Administration
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '154'
 ht-degree: 8%
 
 ---
@@ -11,9 +12,9 @@ ht-degree: 8%
 
 # 管理
 
-以下を使用します。 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) :Adobe Mix Modeler製品およびユーザーを管理します。
+以下を使用します。 [Adobe Admin Console](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) :Mix Modeler製品およびユーザーを管理します。
 
-Adobe Mix Modelerが正しく機能するには、正しい権限を設定する必要があります。
+Mix Modelerが正しく機能するには、正しい権限を設定する必要があります。
 
 Adobe Experience Cloud UI で、
 
@@ -47,4 +48,4 @@ Adobe Experience Cloud UI で、
 
    選択 **[!UICONTROL Save]** 権限を保存します。
 
-1. In **[!UICONTROL Details]** 範囲 **[!UICONTROL Role]**、適切な **[!UICONTROL Users]** および/または **[!UICONTROL User groups]** ユーザーにAdobe Mix Modelerへのアクセスを提供する。
+1. In **[!UICONTROL Details]** 範囲 **[!UICONTROL Role]**、適切な **[!UICONTROL Users]** および/または **[!UICONTROL User groups]** ユーザーにMix Modelerへのアクセスを提供する。

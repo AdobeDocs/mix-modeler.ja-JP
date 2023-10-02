@@ -1,10 +1,10 @@
 ---
 title: モデルの作成
-description: Mix Modeler でモデルを作成する方法をAdobeします。
+description: モデルを作成する方法をMix Modeler。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # モデルの作成
 
-モデルを作成するには、 ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modeler のインタフェースで、Adobeを選択します。 **[!UICONTROL Guide me]**.
+モデルを作成するには、 ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** インタフェース (Mix Modeler): **[!UICONTROL Guide me]**.
 
 カスタム AI を利用したモデルを作成するためのインターフェイスには、ステップバイステップのガイドによるモデル設定フローが用意されています。
 
 1. Adobe Analytics の **[!UICONTROL Setup]** 手順：
 
-   1. モデルを入力 **[!UICONTROL Name]**&#x200B;例： `Demo model`. を入力します。 **[!UICONTROL Description]**&#x200B;例： `Demo model to explore AI featues of Adobe Mix Modeler`.
+   1. モデルを入力 **[!UICONTROL Name]**&#x200B;例： `Demo model`. を入力します。 **[!UICONTROL Description]**&#x200B;例： `Demo model to explore AI featues of Mix Modeler`.
 
       ![モデル名と説明](../assets/model-name-description.png)
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 
    1. Adobe Analytics の **[!UICONTROL Define training window]** セクション、次の中から選択
 
-      * **[!UICONTROL Have Adobe Mix Modeler select a helpful training window]** および
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** および
 
       * **[!UICONTROL Manually input a training window]**。選択した場合、年数を **[!UICONTROL Include events the following years prior to a conversion]**.
 

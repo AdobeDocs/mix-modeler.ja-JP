@@ -1,8 +1,8 @@
 ---
 title: モデルインサイト
-description: 履歴の概要、モデルのインサイト、モデルの品質など、モデルの詳細をAdobeMix モデラーで取得する方法を説明します。
+description: 履歴の概要、モデルのインサイト、Mix Modelerのモデルの品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # モデルインサイト
 
-モデルのインサイトを表示するには、 ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** AdobeMix Modeler のインタフェース：
+モデルのインサイトを表示するには、 ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスのMix Modeler:
 
 1. モデルの名前を **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** から **[!UICONTROL Models]** 表。
 
@@ -68,5 +68,7 @@ ht-degree: 0%
 * MAPE（平均絶対率誤差）：予測精度を測定するために最もよく使用される KPI の 1 つで、予測誤差を実際の値に対する割合で表します。
 
 * RMSE(Root Mean Square Error)：平均「エラー」を、エラーの平方に従って重み付けした値として示します。
+
+![モデルの品質](../assets/model-quality.png)
 
 

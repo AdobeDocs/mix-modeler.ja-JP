@@ -1,15 +1,15 @@
 ---
-title: AdobeMix Modeler の用語集
-description: AdobeMix Modeler の用語集。
+title: Mix Modeler用語集
+description: Mix Modelerの用語集。
 feature: Datasets, Conversions, Marketing Touch Points, Harmonized Data
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 14%
+source-wordcount: '218'
+ht-degree: 15%
 
 ---
 
-# AdobeMix Modeler の用語集
+# Mix Modeler用語集
 
 このドキュメントでは、次の用語と略語を使用します。
 

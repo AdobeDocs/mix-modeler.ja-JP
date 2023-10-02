@@ -1,10 +1,11 @@
 ---
-title: AdobeMix Modeler の概要
-description: キャンペーンを測定し、AdobeMix Modeler を使用して、すべてのチャネルにわたって計画を総合的に最適化する方法を説明します。
-source-git-commit: 9e89d9820c28021e151ad31874ac3bcbaa008f9c
+title: Mix Modelerの概要
+description: Mix Modelerを使用して、キャンペーンを測定し、すべてのチャネルにわたって全体的に計画を最適化する方法を説明します。
+feature: Harmonized Data, Models, Plans
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 2%
+source-wordcount: '96'
+ht-degree: 3%
 
 ---
 
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 ![バナー](assets/mix-modeler-banner.png)
 
-このテクニカルドキュメントガイドでは、 **AdobeMix Modeler**. Adobeミックスモデラーは、キャンペーンを測定し、有料、有料、所有などのすべてのチャネルをまたいで計画を総合的に最適化するAdobe Experience Cloudアプリケーションです。 AdobeMix Modeler は、Adobe Experience Platformの上に構築され、Adobe Senseiを活用しています。
+このテクニカルドキュメントガイドでは、 **AdobeMix Modeler**. Mix Modelerは、キャンペーンを測定し、有料、獲得および所有のすべてのチャネルをまたいで計画を全体的に最適化するAdobe Experience Cloudアプリケーションです。 Mix ModelerはAdobe Experience Platformをベースに構築され、Adobe Senseiを活用しています。
 
 >[!AVAILABILITY]
 >
@@ -21,7 +22,7 @@ ht-degree: 2%
 
 ## 基本を学ぶ
 
-* 説明 [AdobeMix Modeler](get-started/about.md)?
+* 説明 [ミックスモデラー](get-started/about.md)?
 
 * 典型的な内容 [アプリケーションワークフロー](get-started/workflow.md)?
 

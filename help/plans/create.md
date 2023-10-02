@@ -1,10 +1,10 @@
 ---
 title: プランの作成
-description: Mix Modeler でプランを作成する方法をAdobeします。
+description: プランを作成する方法については、Mix Modelerを参照してください。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '318'
 ht-degree: 1%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 1%
 
 # プランの作成
 
-AdobeMix Modeler では、プランキャンバスを使用してプランを作成します。 「計画」キャンバスで、計画および計画に使用する基になるモデルの詳細と予算を設定できます。 詳細、予算、モデルを指定したら、AI 推奨プランを実行するか、チャネル別に支出を編集できます。
+Mix Modelerで、プランキャンバスを使用してプランを作成します。 「計画」キャンバスで、計画および計画に使用する基になるモデルの詳細と予算を設定できます。 詳細、予算、モデルを指定したら、AI 推奨プランを実行するか、チャネル別に支出を編集できます。
 
-プランを作成するには、 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** Mix Modeler のインタフェースで、Adobeを選択します。 **[!UICONTROL Open plan canvas]**.
+プランを作成するには、 ![PLan](../assets/icons/FileChart.svg) **[!UICONTROL Plans]** インタフェース (Mix Modeler): **[!UICONTROL Open plan canvas]**.
 
 1. プラン作成画面で、次の操作をおこないます。
 

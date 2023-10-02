@@ -1,18 +1,18 @@
 ---
 title: プランの比較
-description: Mix Modeler でプランを比較する方法をAdobeします。
+description: プランの比較方法については、Mix Modelerを参照してください。
 feature: Plans
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 3%
+source-wordcount: '100'
+ht-degree: 4%
 
 ---
 
 
 # プランの比較
 
-Mix Modeler Plans インタフェースでAdobeを比較するには、次の手順に従います。
+「計画のMix Modeler」インタフェースで計画を比較する手順は、次のとおりです。
 
 * 選択 ![比較](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. 「計画の比較」で、各計画の計画を選択します。 **[!UICONTROL _プランを選択_]**.
 

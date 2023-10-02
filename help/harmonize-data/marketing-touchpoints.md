@@ -1,10 +1,10 @@
 ---
 title: マーケティングタッチポイント
-description: Mix Modeler でデータの調和の一環として使用するマーケティングタッチポイントを作成するAdobeを説明します。
+description: Mix Modelerでのデータの調和の一環として使用するマーケティングタッチポイントを作成する方法を説明します。
 feature: Harmonized Data, Marketing Touch Points
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '259'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## マーケティングタッチポイントの管理
 
-AdobeMix Modeler インターフェイスで使用可能なマーケティングタッチポイントの表を確認するには：
+Mix Modelerインターフェイスで使用可能なマーケティングタッチポイントの表を確認するには：
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
 
@@ -38,7 +38,7 @@ AdobeMix Modeler インターフェイスで使用可能なマーケティング
 
 ## マーケティングタッチポイントの追加
 
-マーケティングタッチポイントを追加するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** AdobeMix Modeler のインタフェース：
+マーケティングタッチポイントを追加するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Marketing touchpoint]** インターフェイスのMix Modeler:
 
 1. 選択 ![追加](../assets/icons/AddCircle.svg) マーケティングタッチポイントの追加。
 

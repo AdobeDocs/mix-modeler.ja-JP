@@ -1,10 +1,10 @@
 ---
 title: コンバージョン数
-description: Mix Modeler でデータの調和の一環として使用するコンバージョンを作成するAdobeを説明します。
+description: Mix Modelerでのデータの調和の一環として使用するコンバージョンを作成する方法を説明します。
 feature: Harmonized Data, Conversions
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '241'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 ## コンバージョンの管理
 
-使用可能な変換のテーブルを確認するには、AdobeMix Modeler インターフェイスで次の操作を実行します。
+「Mix Modeler」インターフェイスで使用可能な変換の表を確認するには、次の手順を実行します。
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
 
@@ -38,7 +38,7 @@ ht-degree: 4%
 
 ## コンバージョンの追加
 
-コンバージョンを追加するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** AdobeMix Modeler のインタフェース：
+コンバージョンを追加するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Conversion]** インターフェイスのMix Modeler:
 
 1. 選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 

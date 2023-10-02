@@ -1,10 +1,10 @@
 ---
 title: スキーマ
-description: データを Mix Modeler に取り込むために必要なAdobeを管理する方法を説明します。
+description: データをスキーマに取り込むために必要なスキーマをMix Modelerする方法を説明します。
 feature: Schemas
-source-git-commit: b5b277e3476bdf6c0c0da85425bba19bea00c594
+source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 8%
 
 ---
@@ -12,9 +12,9 @@ ht-degree: 8%
 
 # スキーマ
 
-スキーマを管理するには、Adobe Experience Platformで取り込むデータをサポートし、AdobeMix Modeler で使用します。
+スキーマを管理し、Adobe Experience Platformで取り込んでMix Modelerで使用するデータをサポートするには、次の手順を実行します。
 
-1. Mix Modeler インタフェースのAdobeに移動します。
+1. 「Mix Modeler」インターフェイスに移動します。
 
 1. 選択 ![スキーマ](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，の下 **[!UICONTROL DATA MANAGEMENT]**.
 
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 ## データの集計または概要
 
-Experience Platformで取り込み、AdobeMix Modeler で使用する集計または概要データの基になるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
+Experience Platformで取り込み、Mix Modelerで使用する集計または概要データの基になるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
 
 XDM 概要指標クラスは、次の場合に使用します。
 

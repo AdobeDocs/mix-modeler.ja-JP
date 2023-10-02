@@ -1,10 +1,10 @@
 ---
 title: モデル
-description: Mix Modeler でモデルを設定して使用する方法をAdobeします。
+description: Mix Modelerでモデルを設定および使用する方法について説明します。
 feature: Models
-source-git-commit: ac17f5a9fcf036c8e689879578e4b745b789cea3
+source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '346'
 ht-degree: 3%
 
 ---
@@ -12,15 +12,15 @@ ht-degree: 3%
 
 # モデル
 
-Adobeミックスモデラーのモデル機能を使用すると、ビジネス目標に特有の AI/ML モデルを設定、トレーニング、スコアリングでき、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動型の転送学習に対応できます。
+Mix Modelerのモデル機能を使用すると、ビジネス目標に特有の AI/ML モデルの設定、トレーニング、スコアリングをおこなえます。また、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動型の転送学習に対応します。
 
-モデルは、Mix Modeler アプリケーションワークフローの一部として作成した調整済みAdobeに基づいています。
+モデルは、調和されたデータに基づいており、Mix Modelerの適用ワークフローの一部として作成します。
 
 モデルを作成するには、選択時に使用できる Mix Modeler ステップバイステップのガイド付きモデル設定フローを使用します。 **[!UICONTROL Guide me]**. 詳しくは、 [モデルの作成](create.md) を参照してください。
 
 ## モデルの管理
 
-現在のモデルのテーブルを表示するには、AdobeMix Modeler インタフェースで次の手順を実行します。
+現在のモデルの表を表示するには、Mix Modeler・インタフェースで次の手順に従います。
 
 1. 選択 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** をクリックします。
 
@@ -64,14 +64,14 @@ Adobeミックスモデラーのモデル機能を使用すると、ビジネス
 
 >[!NOTE]
 >
->この選択は、成功したトレーニング済みモデル（前回の実行ステータスが「成功」のモデル）でのみ使用できます。
+>この選択は、成功したトレーニング済みモデルでのみ使用できます。
 >
 
-モデルのインサイトを表示するには、AdobeMix Modeler インタフェースで次の操作を行います。
+モデルのインサイトを表示するには、Mix Modelerインターフェイスで次の操作を実行します。
 
 1. 選択 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** をクリックします。
 
-1. モデルの名前を **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** から **[!UICONTROL Models]** 表
+1. モデルの名前を **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** から **[!UICONTROL Models]** 表。
 
 1. コンテキストメニューから、「 」を選択します。 **[!UICONTROL Model Insights]**. 次にリダイレクトされます： [モデルインサイト](insights.md).
 
