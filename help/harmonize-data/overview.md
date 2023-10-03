@@ -2,20 +2,20 @@
 title: データを調和させる
 description: データの調和を図る方法をMix Modeler。
 feature: Harmonized Data
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 17%
+source-wordcount: '801'
+ht-degree: 16%
 
 ---
-
 
 # データを調和させる
 
 Mix Modeler内のデータは、データのソースに応じて異なる特性を持ちます。 データは次のようになります。
 
-* 集計データ。例えば、ウォールガーデンのデータソースから収集したデータや、広告掲示板キャンペーン、イベント、または実際の広告キャンペーンの実行から収集された（支出など）オフライン広告データなど。
-* イベントデータ（例：ファーストパーティのデータソースから）。 このイベントデータは、Adobe AnalyticsのAdobe Analyticsソースコネクタを通じて収集したり、Adobe Experience Platform Web、Mobile SDK、Edge Network API を通じて収集したり、ソースコネクタを使用して取り込んだデータにしたりできます。
+* 集計データや概要データ。例えば、ウォールガーデンのデータソースから収集されたデータや、広告掲示板のキャンペーン、イベント、または物理的な広告キャンペーンの実行から収集された（支出など）オフライン広告データ。
+* イベントデータ（例：ファーストパーティのデータソースから）。 このイベントデータは、Adobe AnalyticsのAdobe Analyticsソースコネクタを通じて収集したり、Experience PlatformWeb SDK、Mobile SDK、Edge Network API を通じて収集したり、ソースコネクタを使用して取り込んだデータにすることができます。
 
 Mix Modelerの調和化サービスは、集計データとイベントデータを一貫したデータビューに同化します。 このデータ・ビューは、Mix Modelerのプランとモデルのソースです。
 
@@ -122,7 +122,7 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
    1. 調整済みデータの概要の基となる期間を再定義するには、次の期間の日付範囲を入力します。 **[!UICONTROL Date range]** または、 ![カレンダー](../assets/icons/Calendar.svg) をクリックして、データ範囲を選択します。
 
-   1. 「ハーモナイズされたデータ」テーブルに表示される列を変更するには、 ![設定](../assets/icons/Setting.svg) 開く **[!UICONTROL Column settings]** ダイアログ。
+   1. 調和済みデータテーブルに表示される調和済みフィールド列を変更するには、 ![設定](../assets/icons/Setting.svg) 開く **[!UICONTROL Column settings]** ダイアログ。
 
       1. 選択 ![SelectBox](../assets/icons/SelectBox.svg) 1 つ以上の列 **[!UICONTROL AVAILABLE COLUMNS]** とを使用します。 ![シェブロン右](../assets/icons/ChevronRight.svg) 次の列を追加： **[!UICONTROL SELECTED COLUMNS]**.
 
@@ -133,5 +133,3 @@ facebookのマーケティング活動データセットが含まれ、集計デ
       1. 表示される列の順序を変更するには、列を **[!UICONTROL SELECTED COLUMNS]** 上下にドラッグ&amp;ドロップします。
 
    1. 選択 **[!UICONTROL Submit]** をクリックして、列設定の変更を送信します。 選択 **[!UICONTROL Close]** をクリックして、行った変更をキャンセルします。
-
-

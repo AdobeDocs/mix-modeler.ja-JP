@@ -2,13 +2,13 @@
 title: プラン
 description: Mix Modelerのプランの表示、選択、およびアクションの方法を説明します。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 2%
 
 ---
-
 
 # プラン
 
@@ -45,7 +45,7 @@ ht-degree: 2%
 
 1 つ以上のプランを選択すると、「プラン」アクションバーが表示されます。 アクションバーを使用すると、プランを削除、比較または複製できます。
 
-「プラン」(Plans) テーブルのすべての選択項目を削除するには、 ![閉じる](../assets/icons/Close.svg) アクションバー内
+「プラン」(Plans) テーブルのすべての選択を削除するには、 ![閉じる](../assets/icons/Close.svg) アクションバー内
 
 ![プランアクションバー](../assets/plans-action-bar.png)
 
@@ -69,7 +69,8 @@ ht-degree: 2%
 計画を削除する手順は、次のとおりです。
 
 1. テーブルから 1 つ以上のプランを選択します。
-1. 選択 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックします。 プランは直ちに削除されます。
+1. 選択 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックします。
 
-
-
+   >[!WARNING]
+   >
+   >   選択したプランは直ちに削除されます。

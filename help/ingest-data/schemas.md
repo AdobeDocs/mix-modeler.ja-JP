@@ -2,17 +2,17 @@
 title: スキーマ
 description: データをスキーマに取り込むために必要なスキーマをMix Modelerする方法を説明します。
 feature: Schemas
-source-git-commit: c145754ecd6a6d8f5aab333ced739c4053aeaae5
+exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '345'
 ht-degree: 8%
 
 ---
 
-
 # スキーマ
 
-スキーマを管理し、Adobe Experience Platformで取り込んでMix Modelerで使用するデータをサポートするには、次の手順を実行します。
+スキーマで取り込み、Mix Modelerで使用するデータをサポートするExperience Platformを管理するには、次の手順を実行します。
 
 1. 「Mix Modeler」インターフェイスに移動します。
 
@@ -40,7 +40,7 @@ XDM 概要指標クラスは、次の場合に使用します。
 
 ![外部要因スキーマ](../assets/external-factors-schema.png)
 
-このシンプルなスキーマは、次のデータを含むデータセットを取り込むために使用できます。
+この単純なスキーマは、次のようなデータを含むデータセットを取り込むために使用できます。
 
 - 競合相手のインデックスデータ
 

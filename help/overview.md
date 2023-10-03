@@ -1,14 +1,15 @@
 ---
 title: Mix Modelerガイド
 description: Mix Modelerを使用して、キャンペーンを測定し、すべてのチャネルにわたって全体的に計画を最適化する方法を説明します。
+short-description: Mix Modelerを使用して、キャンペーンを測定し、すべてのチャネルにわたって全体的に計画を最適化する方法を説明します。
 feature: Harmonized Data, Models, Plans
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
+source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 3%
+source-wordcount: '112'
+ht-degree: 2%
 
 ---
-
 
 # AdobeMix Modeler ガイド
 
