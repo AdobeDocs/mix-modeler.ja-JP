@@ -4,10 +4,10 @@ description: Mix Modelerを使用して、キャンペーンを測定し、す�
 short-description: Mix Modelerを使用して、キャンペーンを測定し、すべてのチャネルにわたって全体的に計画を最適化する方法を説明します。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 5ade7901230b62a48a9e2320a992f566fa762ede
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 2%
+source-wordcount: '99'
+ht-degree: 3%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 2%
 ![バナー](assets/mix-modeler-banner.png)
 
 このテクニカルドキュメントガイドでは、Adobeに関するセルフサポートを提供します **ミックスモデラー**. Mix Modelerは、キャンペーンを測定し、有料、獲得および所有のすべてのチャネルをまたいで計画を全体的に最適化するAdobe Experience Cloudアプリケーションです。 Mix ModelerはAdobe Experience Platformをベースに構築され、Adobe Senseiを活用しています。
-
->[!AVAILABILITY]
->
->製品は 2023 年後半に提供される予定です。 下書きのドキュメントは、こちらを参照してください。
 
 ## 基本を学ぶ
 
