@@ -1,13 +1,13 @@
 ---
 title: Mix Modelerの概要
-description: Mix Modelerの機能と機能の概要を説明します。
-short-description: Mix Modelerの機能と機能の概要を説明します。
+description: Mix Modeler の機能の概要を説明します。
+short-description: Mix Modeler の機能の概要を説明します。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
 source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
