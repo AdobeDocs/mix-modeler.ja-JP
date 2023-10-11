@@ -2,13 +2,13 @@
 title: モデルの作成
 description: モデルを作成する方法をMix Modeler。
 feature: Models
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
+source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
-
 
 # モデルの作成
 
@@ -127,9 +127,9 @@ ht-degree: 0%
 
       1. 「**[!UICONTROL Rule type]**」を選択します。
 
-      1. 配分率を、以下に示す各チャネルに対して割合を割り当てます。 **[!UICONTROL Name]**、 **[!UICONTROL Contribution proportion]** 列。 割合の合計配分の合計が 100%になるようにします。
+      1. の下に表示される任意のチャネルの貢献度の割合を指定します。 **[!UICONTROL Name]**、 **[!UICONTROL Contribution proportion]** 列。
 
-      1. 各チャネルに対して、 **[!UICONTROL Level of confidence]** 割合。
+      1. 必要に応じて、各チャネルに **[!UICONTROL Level of confidence]** 割合。
 
       1. 必要に応じて、 **[!UICONTROL Clear all]** すべての入力値をクリアするには **[!UICONTROL Contribution proportion]** および **[!UICONTROL Level of confidence]** 列。
 
@@ -146,4 +146,3 @@ ht-degree: 0%
    選択 **[!UICONTROL Back]** 前の手順に戻ります。
 
    選択 **[!UICONTROL Cancel]** をクリックして、モデル設定をキャンセルします。
-
