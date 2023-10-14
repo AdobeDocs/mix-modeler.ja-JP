@@ -3,16 +3,21 @@ title: Mix Modelerワークフロー
 description: Mix Modelerの一般的なワークフローを理解する。
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 4%
+source-wordcount: '191'
+ht-degree: 3%
 
 ---
 
 # Mix Modelerワークフロー
 
-一般的なワークフローは、次のようなMix Modelerになります。
+Mix Modelerのユーザーワークフローの概要については、このビデオを参照してください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+
+
+機能的な観点から、Mix Modelerの典型的なワークフローは、次のアクティビティで構成されます。
 
 ![代替テキスト](../assets/ApplicationWorkflow.svg)
 

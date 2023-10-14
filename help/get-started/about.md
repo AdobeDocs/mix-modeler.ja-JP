@@ -4,14 +4,18 @@ description: Mix Modeler の機能の概要を説明します。
 short-description: Mix Modeler の機能の概要を説明します。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 9%
+source-wordcount: '282'
+ht-degree: 8%
 
 ---
 
 # Mix Modelerの概要
+
+Mix Modeler機能の概要については、このビデオを参照してください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424872/?learn=on)
 
 Adobe Senseiを活用したMix Modelerにより、マーケターは、キャンペーンを測定し、有料、有料、所有など、すべてのチャネルにわたって計画を総合的に最適化できます。 統合された手法は、マーケティングタッチポイントと集計レベルの両方で段階的に測定し、一貫した結果を確実に得ることができます。
 
