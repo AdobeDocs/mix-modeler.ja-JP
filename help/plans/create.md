@@ -2,7 +2,8 @@
 title: プランの作成
 description: プランを作成する方法については、Mix Modelerを参照してください。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
+source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -70,6 +71,3 @@ Mix Modelerで、プランキャンバスを使用してプランを作成しま
    1. 終了したら「**[!UICONTROL Create]**」を選択します。
 
    1. Adobe Analytics の **[!UICONTROL Create plan]** ダイアログ、選択 **[!UICONTROL Create plan]** をクリックして、プランを作成します。 選択 **[!UICONTROL Cancel]** ：プランの作成をキャンセルします。
-
-
-

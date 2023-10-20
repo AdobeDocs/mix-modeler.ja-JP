@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: 7778c235b4d34bc91869098961b053b2455ff5b3
+source-git-commit: 101029c8b6095b3ec9842228913fac3720132cdf
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 60%
+source-wordcount: '70'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 60%
 + プラン {#plans}
    + [概要](plans/overview.md)
    + [プランの作成](plans/create.md)
+   + [プランの編集](plans/edit.md)
+   + [プランの比較](plans/compare.md)
 
 + データを調和させる {#harmonize-data}
    + [概要](harmonize-data/overview.md)
