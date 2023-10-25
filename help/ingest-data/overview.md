@@ -3,16 +3,16 @@ title: データの取得
 description: データを取り込んでMix Modelerする方法を説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 1dbdee00f518d98241fc042e2aabc0e40d5a9153
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 16%
 
 ---
 
 # データの取得
 
-Mix Modelerは、イベントレベルのデータ、様々なウォールガーデンからの集計マーケティング活動データ、オフライン広告、内部要因、外部要因など、他のソースからの集計または概要データを使用します。
+Mix Modelerは、イベントレベルのデータ、様々なウォールガーデンからの 1 つのサマリマーケティング活動データを集計し、オフライン広告、内部要因、外部要因など、他のソースからの集計または概要データを使用します。
 
 お客様は、Experience Platformにデータセットとして取り込まれるあらゆる種類のデータを使用できます。このデータは、XDM ExperienceEvent または XDM 概要指標を基本クラスとして使用するスキーマに基づいています。
 
@@ -20,8 +20,8 @@ Mix Modelerは、イベントレベルのデータ、様々なウォールガー
 
 * Adobe Analyticsソースコネクタを使用して収集され、Adobe Analyticsスキーマのデフォルトバージョンまたはカスタムバージョンに従ってデータセットに変換されたデータ、または
 * web、モバイルまたはその他の種類のExperience Platformでの顧客インタラクションを収集するために、Web SDK、Mobile SDK、または Edge Network Server API を使用して収集されるデータ。
-* ウォールガーデン (Facebook、YouTubeなど )、トラフィックソース、オフライン広告データからのデータの集計。
-* 非マーケティング集計または概要データには、モデルの構築に役立つ内部または外部要因が含まれます。
+* ウォールガーデン (Facebook、YouTubeなど )、トラフィックソース、オフライン広告データからの集計データまたは概要データ。
+* 非マーケティング集計または概要データ。モデルの構築に役立つ内部または外部要因が含まれます。
 
 Experience Platformがサポートするあらゆる種類のメカニズムを使用して、エクスペリエンスのイベントレベル、集計マーケティング活動データ、および他のソースからのデータを取り込むことができます。 Experience PlatformSDK、API、ソースコネクタ、ストリーミングおよびバッチ取り込みなど。
 
