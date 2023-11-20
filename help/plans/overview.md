@@ -3,9 +3,9 @@ title: プラン
 description: Mix Modelerのプランの表示、選択、およびアクションの方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '417'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 1%
    | 列名 | 詳細 |
    |---|---|
    | 名前 | プランの名前 |
-   | 説明 | モデルの説明 |
    | モデル | プランの基準として使用されるモデル。 |
    | 日付範囲 | プランの全日付範囲。 |
    | 予算 | プランの合計予算です。 |
@@ -62,6 +61,7 @@ ht-degree: 1%
 ## プランの編集
 
 プランを編集するには、テーブルからプランの名前を選択します。 詳しくは、 [プランの編集](edit.md) を参照してください。
+
 
 ## プランの選択と操作
 

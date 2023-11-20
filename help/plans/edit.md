@@ -2,13 +2,13 @@
 title: プランの編集
 description: プランを編集する方法については、「Mix Modeler」を参照してください。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 91385595-284f-4fcb-b54b-9539905e552b
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
-
 
 # プランの編集
 
@@ -16,13 +16,24 @@ ht-degree: 0%
 
 In [!UICONTROL Plan insights]に設定すると、プランのインサイトが作成され、 [!UICONTROL Model]、 [!UICONTROL Data range]、および [!UICONTROL Total budget] プランのベースとなる
 
-取得が完了すると、のビジュアライゼーションを使用したプランの概要が表示されます。 [!UICONTROL Forecasted ROI] および [!UICONTROL Forecasted revenue].
+取得が完了すると、プランの概要が表示されます。概要は次のとおりです。
+
+- [!UICONTROL Forecasted paid channel ROI] 視覚化
+- [!UICONTROL Forecasted revenue] 視覚化
+- [!UICONTROL Data range breakdown] プランのテーブル、次の列を表示
+
+   - チャネル
+   - ROI
+   - CPA
+   - 売上高
+   - コンバージョン目標
+   - 費用
+
+![プランの概要](../assets/overview-plan.png)
 
 1. 選択 **[!UICONTROL Close]** をクリックして、Plans インタフェースに戻ります。
 
-1. （オプション）を選択します。 **[!UICONTROL Plan breakdown]** をクリックして、プランの内訳テーブルを確認します。
-
-   ![プランの概要](../assets/overview-plan.png)
+1. 日付範囲の分類のデータを含む CSV ファイルをダウンロードするには、「 ![ダウンロード](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
 
 1. プランを編集するには、 **[!UICONTROL Edit plan]**:
 
@@ -65,4 +76,3 @@ In [!UICONTROL Plan insights]に設定すると、プランのインサイトが
 1. プランの更新をキャンセルするには、「 」を選択します。 **[!UICONTROL Cancel]**.
 
    Adobe Analytics の **[!UICONTROL No work will be saved]** ダイアログ、選択 **[!UICONTROL Cancel]** プランの作業を続けるか、「 **[!UICONTROL OK]** をクリックして、Plans インタフェースに戻ります。
-

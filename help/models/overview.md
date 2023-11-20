@@ -3,9 +3,9 @@ title: モデル
 description: Mix Modelerでモデルを設定および使用する方法について説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f445cb2b1ec04ffe9247e858c048587802bffe9c
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '501'
 ht-degree: 2%
 
 ---
@@ -52,10 +52,9 @@ Mix Modelerのモデルとは、マーケターの投資に基づいて特定の
    | 名前 | モデルの名前 |
    | 説明 | モデルの説明 |
    | コンバージョンイベント | モデルに対して選択した変換。 |
-   | データセット | モデルがトレーニングとスコアリングに使用するデータセット。 デフォルトでは、調整済みデータセットです。 |
    | 実行頻度 | モデルのトレーニング実行頻度。 |
    | 前回の実行 | モデルの最後のトレーニングの日時。 |
-   | 前回の実行ステータス | モデルのトレーニングの最後の実行のステータス。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> トレーニングの問題<br/> <span style="color:orange">●</span> トレーニング待ち <br/><span style="color:red">●</span> 失敗 |
+   | ステータス | モデルのトレーニングの最後の実行のステータス。 <br/><span style="color:green">●</span> 成功<br/><span style="color:orange">●</span> トレーニングの問題<br/> <span style="color:orange">●</span> トレーニング待ち <br/><span style="color:red">●</span> 失敗 |
 
    {style="table-layout:auto"}
 
@@ -73,9 +72,7 @@ Mix Modelerのモデルとは、マーケターの投資に基づいて特定の
 
 モデルの詳細を表示するには：
 
-1. 詳細を表示するモデルの名前を選択します。
-
-1. コンテキストメニューから、「 」を選択します。 **[!UICONTROL More]**. 選択したモデルの詳細が右側のペインに表示されます。
+1. 選択 ![情報](../assets/icons/Info.svg) モデルが詳細と共にポップアップを表示するために使用します。
 
 
 
@@ -93,3 +90,20 @@ Mix Modelerのモデルとは、マーケターの投資に基づいて特定の
 1. モデルの名前を **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** から **[!UICONTROL Models]** 表。
 
 1. コンテキストメニューから、「 」を選択します。 **[!UICONTROL Model Insights]**. 次にリダイレクトされます： [モデルインサイト](insights.md).
+
+
+### 再スコア
+
+>[!NOTE]
+>
+>この選択は、正常にトレーニングされたモデルでのみ使用できます。
+>
+
+モデルのスコアを再設定するには、Mix Modelerインターフェイスで次の手順を実行します。
+
+1. 選択 ![](../assets/icons/FileData.svg) **[!UICONTROL Models]** をクリックします。
+
+1. モデルの名前を **[!UICONTROL Last run status]** / <span style="color:green">●</span> **[!UICONTROL Success]** から **[!UICONTROL Models]** 表。
+
+1. コンテキストメニューから、「 」を選択します。 **[!UICONTROL Re-score]**. モデルのステータスが更新されるまでに数分かかる場合があります。
+

@@ -3,7 +3,7 @@ title: モデルの作成
 description: モデルを作成する方法をMix Modeler。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: eab3818b97bf65164eb586bc443a970794583b55
+source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # モデルの作成
 
-モデルを作成するには、 ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** インタフェース (Mix Modeler): **[!UICONTROL Guide me]**.
+モデルを作成するには、 ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** インタフェース (Mix Modeler): **[!UICONTROL Open model canvas]**.
 
 カスタム AI を利用したモデルを作成するためのインターフェイスには、ステップバイステップのガイドによるモデル設定フローが用意されています。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
    1. 選択 **[!UICONTROL Next]** をクリックして、次の手順に進みます。 選択 **[!UICONTROL Cancel]** をクリックして、モデル設定をキャンセルします。
 
-1. Adobe Analytics の **[!UICONTROL Configure]** 手順：
+1. Adobe Analytics の **[!UICONTROL Configured]** 手順：
 
    1. Adobe Analytics の **[!UICONTROL Conversion goal]** セクション内の次の操作をおこないます。
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
       * マーケティングタッチポイントコンテナを追加するには、「 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
 
-      * マーケティングタッチポイントコンテナを削除するには、コンテナ内で ![その他](../assets/icons/More.svg) を選択し、 **[!UICONTROL Remove container]** を選択します。
+      * マーケティングタッチポイントコンテナを削除するには、コンテナ内で ![その他](../assets/icons/More.svg)をクリックし、次を選択します。 **[!UICONTROL Remove container]** を選択します。
 
         ![モデル — マーケティングタッチポイント — ステップ](../assets/model-marketing-touchpoint-step.png)
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
       * 適格なデータ母集団コンテナを追加するには、「 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
 
-      * 適格なデータ母集団コンテナを削除するには、コンテナ内で「 」を選択します。 ![その他](../assets/icons/More.svg) を選択し、 **[!UICONTROL Remove container]** を選択します。
+      * 適格なデータ母集団コンテナを削除するには、コンテナ内で「 」を選択します。 ![その他](../assets/icons/More.svg)をクリックし、次を選択します。 **[!UICONTROL Remove container]** を選択します。
 
         ![モデル — 適格なデータ母集団](../assets/model-eligible-data-population-step.png)
 
@@ -86,7 +86,7 @@ ht-degree: 0%
 
       * 外部要因データセットコンテナを追加するには、「 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
 
-      * 外部要因データセットコンテナを削除するには、コンテナ内で「 」を選択します。 ![その他](../assets/icons/More.svg) を選択し、 **[!UICONTROL Remove container]** を選択します。
+      * 外部要因データセットコンテナを削除するには、コンテナ内で「 」を選択します。 ![その他](../assets/icons/More.svg)をクリックし、次を選択します。 **[!UICONTROL Remove container]** を選択します。
 
         ![モデル — 外部要因データセット](../assets/model-external-factors-dataset-step.png)
 
@@ -101,7 +101,7 @@ ht-degree: 0%
 
       * 内部要因データセットコンテナを追加するには、「 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
 
-      * 追加の内部要因データセットコンテナを削除するには、コンテナ内で「 」を選択します。 ![その他](../assets/icons/More.svg) および **[!UICONTROL Remove container]** を選択します。
+      * 追加の内部要因データセットコンテナを削除するには、コンテナ内で「 」を選択します。 ![その他](../assets/icons/More.svg)、および **[!UICONTROL Remove container]** を選択します。
 
         ![モデル — 内部要因データセット](../assets/model-internal-factors-dataset-step.png)
 
