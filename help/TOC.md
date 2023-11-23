@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: 101029c8b6095b3ec9842228913fac3720132cdf
+source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 55%
+source-wordcount: '72'
+ht-degree: 56%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 55%
    + [概要](models/overview.md)
    + [モデルの作成](models/create.md)
    + [モデルインサイト](models/insights.md)
+   + [スコアリングデータ](models/scoring-data.md)
 
 + プラン {#plans}
    + [概要](plans/overview.md)
