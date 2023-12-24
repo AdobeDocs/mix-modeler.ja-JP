@@ -3,10 +3,10 @@ title: スキーマ
 description: データをスキーマに取り込むために必要なスキーマをMix Modelerする方法を説明します。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 8%
+source-wordcount: '377'
+ht-degree: 5%
 
 ---
 
@@ -46,20 +46,20 @@ XDM 概要指標クラスは、次の場合に使用します。
 
   | タイムスタンプ | date_type | 要因 | 値 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | 週間 | competitor_index | 289.8 |
-  | 2020-12-05T00:00:00.000Z | 週間 | competitor_index | 291.2 |
-  | 2020-12-12T00:00:00.000Z | 週間 | competitor_index | 280.07 |
+  | 2020-11-28T00:00:00.000Z | 週 | competitor_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | 週 | competitor_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | 週 | competitor_index | 280.07 |
   | ... | ... | ... | ... |
 
 - 公開休日データ
 
   | タイムスタンプ | date_type | 要因 | 値 |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
-  | 2020-12-05T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
-  | 2020-12-12T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
-  | 2020-12-19T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
-  | 2020-12-26T00:00:00.000Z | 週間 | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | 週 | all_holidays_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
@@ -68,3 +68,18 @@ XDM 概要指標クラスは、次の場合に使用します。
 ![概要スキーマ](../assets/summary-schema.png)
 
 プロファイル取り込みの非同期性を考慮すると、外部ソースから集計データや概要データを収集する場合は、「外部ソースシステム監査の詳細」フィールドグループをスキーマの一部として使用することをお勧めします。 このフィールドグループは、外部ソースの監査プロパティのセットを定義します。
+
+
+## サポートされるデータタイプ
+
+現在、Mix ModelerはExperience Platformデータ型のサブセットをサポートしています。 次に示す基本的なデータタイプ（フィールド）( [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)、がサポートされています。
+
+- 文字列
+- 整数
+- Double
+- ブール値
+- Long
+- Short
+- Byte
+- Date
+- Date-time
