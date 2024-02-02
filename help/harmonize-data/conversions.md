@@ -2,13 +2,13 @@
 title: コンバージョン数
 description: Mix Modelerでのデータの調和の一環として使用するコンバージョンを作成する方法を説明します。
 feature: Harmonized Data, Conversions
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 4%
+source-wordcount: '318'
+ht-degree: 1%
 
 ---
-
 
 # コンバージョン数
 
@@ -31,6 +31,7 @@ ht-degree: 4%
 | 名前 | 変換の名前。 |
 | 売上高 | コンバージョンによる売上高の計算に使用する調整済みデータ指標。 |
 | コンバージョン指標 | 分析のコンバージョン指標として使用するデータ指標を調整します。 |
+| カテゴリ | コンバージョンのコンバージョンカテゴリ。 |
 | 作成日 | コンバージョンが作成された日時。 |
 | 最終変更日 | 変換が最後に変更された日時。 |
 
@@ -42,13 +43,13 @@ ht-degree: 4%
 
 1. 選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion]**.
 
-1. Adobe Analytics の **[!UICONTROL Create Conversion]** ダイアログ：
+1. Adobe Analytics の **[!UICONTROL Create conversion]** ダイアログ：
 
    1. 名前を入力 **[!UICONTROL Conversion]**&#x200B;例： `Store Conversions`.
 
    1. 次を定義： **[!UICONTROL Conversion category]**.
 
-      1. 値の選択元 **[!UICONTROL *調和を選択…*]**例： `Conversion Type`.
+      1. 値の選択元 **[!UICONTROL *調和を選択…*]**例： `Conversion types`.
 
       1. 演算子の値を選択 ![シェブロン](../assets/icons/ChevronDown.svg)例： **[!UICONTROL is]**.
 
@@ -58,8 +59,25 @@ ht-degree: 4%
 
    1. 次の中から調和されたフィールドを選択： **[!UICONTROL Revenue field]**&#x200B;例： **[!UICONTROL Gross Demand]**.
 
-   1. コンバージョンを作成するには、「 **[!UICONTROL Create]**. 変換処理の作成をキャンセルする場合は、 **[!UICONTROL Cancel]**.
+   1. 変換を作成するには、 **[!UICONTROL Create]**. 変換処理の作成をキャンセルする場合は、 **[!UICONTROL Cancel]**.
 
       ![代替テキスト](../assets/create-conversion.png)
 
 1. 変換処理が作成されると、変換処理がコンバージョンテーブルに追加されます。
+
+
+## コンバージョンを表示する
+
+コンバージョンを表示するには：
+
+1. 選択 ![その他](../assets/icons/More.svg) 表のコンバージョン名の上にマウスポインターを置くとき。
+
+1. 選択 ![表示](../assets/icons/ViewDetail.svg) **表示**. 変換の詳細がダイアログに表示されます。 詳しくは、 [コンバージョンの追加](#add-a-conversion) を参照してください。 選択 **[!UICONTROL Cancel]** をクリックしてダイアログを閉じます。
+
+
+## コンバージョンの削除
+
+コンバージョンを削除するには：
+
+1. 選択 ![削除](../assets/icons/Delete.svg) **削除** 表のコンバージョン名の上にマウスポインターを置くとき。
+1. Adobe Analytics の **[!UICONTROL Delete conversion]** ダイアログの確認ダイアログを選択 **[!UICONTROL Delete]** をクリックして、変換後のデータを完全に削除します。

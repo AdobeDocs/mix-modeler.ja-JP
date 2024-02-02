@@ -3,9 +3,9 @@ title: プラン
 description: Mix Modelerのプランの表示、選択、およびアクションの方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 1%
    | 予算 | プランの合計予算です。 |
    | 予測リターン | 予測された計画の戻り値 |
    | 予測 ROI | 計画の ROI の予測です。 |
-   | ステータス | プランのステータス。 |
+   | ステータス | プランのステータス： <p><span style="color:red">●</span> 失敗、 <p><span style="color:blue">●</span> 処理中、または <p><span style="color:green">●</span> 完了。 |
 
    {style="table-layout:auto"}
 
@@ -78,6 +78,11 @@ ht-degree: 1%
 1. テーブルから 1 つのプランを選択します。
 1. 選択 ![コピー](../assets/icons/Copy.svg) **[!UICONTROL Duplicate]** をクリックします。 元のプランの名前にが付いた新しいプラン **[!UICONTROL (Copy)]**&#x200B;をテーブルの上部に追加します。
 
+または、次の方法もあります。
+
+1. 選択 ![その他](../assets/icons/More.svg) テーブルの中のプランに対して
+1. 選択 **[!UICONTROL Duplicate]** を選択します。 元のプランの名前にが付いた新しいプラン **[!UICONTROL (Copy)]**&#x200B;をテーブルの上部に追加します。
+
 ### プランの比較
 
 計画を比較する手順は、次のとおりです。
@@ -92,6 +97,11 @@ ht-degree: 1%
 
 1. テーブルから 1 つ以上のプランを選択します。
 1. 選択 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックします。
+
+または、次の方法もあります。
+
+1. 選択 ![その他](../assets/icons/More.svg) テーブルの中のプランに対して
+1. 選択 **[!UICONTROL Delete]** を選択します。 元のプランの名前にが付いた新しいプラン **[!UICONTROL (Copy)]**&#x200B;をテーブルの上部に追加します。
 
    >[!WARNING]
    >

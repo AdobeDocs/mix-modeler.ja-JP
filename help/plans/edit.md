@@ -3,9 +3,9 @@ title: プランの編集
 description: プランを編集する方法については、「Mix Modeler」を参照してください。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: cbe4b4bf17773a42e4a13d4777443e5f1f50dc6e
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,11 @@ In [!UICONTROL Plan insights]に設定すると、プランのインサイトが
 
 1. 選択 **[!UICONTROL Close]** をクリックして、Plans インタフェースに戻ります。
 
+1. 選択 **[!UICONTROL X]** または **[!UICONTROL  %]** ～する方法に関して **[!UICONTROL View ROI]**.
+
 1. 日付範囲の分類のデータを含む CSV ファイルをダウンロードするには、「 ![ダウンロード](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**.
+
+1. チャネルのカテゴリ別の日付範囲の分類を表示するには、 **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**&#x200B;または **[!UICONTROL Non-paid channels]** から **[!UICONTROL View]** 選択。
 
 1. プランを編集するには、 **[!UICONTROL Edit plan]**:
 
@@ -53,7 +57,7 @@ In [!UICONTROL Plan insights]に設定すると、プランのインサイトが
 
          1. を変更します。 **[!UICONTROL Date range]** 日付を入力するか、 ![カレンダー](../assets/icons/Calendar.svg).
 
-         1. を変更します。 **[!UICONTROL Budget]** プランの日付範囲の 1 つ以上。
+         1. を変更します。 **[!UICONTROL Budget]** ：プランの日付範囲の 1 つ以上に対して。
 
          予算を含む日付範囲をさらに追加するには、「 ![CalendarAdd](../assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**.
 

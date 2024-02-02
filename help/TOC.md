@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: a16438f55c0f819c63a3252dbf1de7297ea23b35
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 56%
+source-wordcount: '75'
+ht-degree: 44%
 
 ---
 
@@ -41,8 +41,9 @@ ht-degree: 56%
    + [データセットルール](harmonize-data/dataset-rules.md)
    + [マーケティングタッチポイント](harmonize-data/marketing-touchpoints.md)
    + [コンバージョン数](harmonize-data/conversions.md)
+   + [使用状況レポート](harmonize-data/usage-report.md)
 
-+ データの取得 {#ingest-data}
++ データの取り込み {#ingest-data}
    + [概要](ingest-data/overview.md)
    + [スキーマ](ingest-data/schemas.md)
    + [データセット](ingest-data/datasets.md)

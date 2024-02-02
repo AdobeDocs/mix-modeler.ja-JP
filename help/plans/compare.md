@@ -2,13 +2,13 @@
 title: プランの比較
 description: プランの比較方法については、Mix Modelerを参照してください。
 feature: Plans
-source-git-commit: 08cfd4239f6bcaf885565f3ae04cbd51869e8c00
+exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 4%
+source-wordcount: '102'
+ht-degree: 3%
 
 ---
-
 
 # プランの比較
 
@@ -23,9 +23,9 @@ ht-degree: 4%
 * プラン
 * 日付範囲
 * モデル
-* 予算
-* 混合タイプ
-* 支出の内訳
+* 合計予算
+* チャネルのバッジ： **[!UICONTROL AI automated]** または **[!UICONTROL Custom + AI]**
+* 予定支出
 * 予測 ROI
 * ROI の分類
 * 予測リターン

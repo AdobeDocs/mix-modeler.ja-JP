@@ -3,10 +3,10 @@ title: データを調和させる
 description: データの調和を図る方法をMix Modeler。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 16%
+source-wordcount: '854'
+ht-degree: 9%
 
 ---
 
@@ -17,7 +17,7 @@ Mix Modeler内のデータは、データのソースに応じて異なる特性
 * 集計データや概要データ。例えば、ウォールガーデンのデータソースから収集されたデータや、広告掲示板のキャンペーン、イベント、または物理的な広告キャンペーンの実行から収集された（支出など）オフライン広告データ。
 * イベントデータ（例：ファーストパーティのデータソースから）。 このイベントデータは、Adobe AnalyticsのAdobe Analyticsソースコネクタを通じて収集したり、Experience PlatformWeb SDK、Mobile SDK、Edge Network API を通じて収集したり、ソースコネクタを使用して取り込んだデータにすることができます。
 
-Mix Modelerの調和化サービスは、集計データとイベントデータを一貫したデータビューに同化します。 このデータ・ビューは、Mix Modelerのプランとモデルのソースです。
+Mix Modelerの調和化サービスは、集計データとイベントデータを一貫したデータビューに同化します。 このデータビューは、内部および外部の要因データと組み合わされ、Mix Modelerのモデルのソースになります。
 
 ## 調和されたデータの例
 
@@ -43,10 +43,10 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 | 日付 | 日付タイプ | チャネル | Campaign | ジオ | クリック数 | 費用 |
 |--- |:---:|--- |---|---|---:|---:|
-| 01-01-2022 | 週間 | Facebook | FB_Fall_01 | US | 8000 | 100 |
-| 01-08-2022 | 週間 | Facebook | FB_Fall_02 | US | 1000 | 10 |
-| 01-08-2022 | 週間 | Facebook | FB_Fall_01 | US | 7000 | 100 |
-| 01-16-2022 | 週間 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
+| 01-01-2022 | 週 | Facebook | FB_Fall_01 | US | 8000 | 100 |
+| 01-08-2022 | 週 | Facebook | FB_Fall_02 | US | 1000 | 10 |
+| 01-08-2022 | 週 | Facebook | FB_Fall_01 | US | 7000 | 100 |
+| 01-16-2022 | 週 | Facebook | FB_Summer_01 | CA | 10000 | 80 |
 
 {style="table-layout:auto"}
 
@@ -85,19 +85,19 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 | 日付 | 日付タイプ | チャネル | Campaign | ブランド | ジオ | 目標 | クリック数 | 費用 | 売上高 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
-| 12-27-2021 | 週間 | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
-| 01-03-2022 | 週間 | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
-| 01-03-2022 | 週間 | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
-| 01-01-2022 | 週間 | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
-| 01-08-2022 | 週間 | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
-| 01-08-2022 | 週間 | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
-| 01-16-2022 | 週間 | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
-| 12-27-2021 | 週間 | Null | Null | Null | US | ファッション | Null | Null | 200 |
-| 01-03-2022 | 週間 | Null | Null | Null | US | ファッション | Null | Null | 10 |
-| 01-03-2022 | 週間 | Null | Null | Null | US | 宝飾品 | Null | Null | 1100 |
-| 01-10-2022 | 週間 | Null | Null | Null | CA | 宝飾品 | Null | Null | 80 |
-| 01-01-2022 | 週間 | CSE | Null | Null | Null | Null | 2 | Null | Null |
-| 01-08-2022 | 週間 | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 12-27-2021 | 週 | YouTube | Y_Fall_02 | BrandX | US | Null | 11000 | 110 | Null |
+| 01-03-2022 | 週 | YouTube | Y_Fall_01 | BrandY | CA | Null | 10000 | 100 | Null |
+| 01-03-2022 | 週 | YouTube | Y_Summer_01 | Null | CA | Null | 9000 | 80 | Null |
+| 01-01-2022 | 週 | Facebook | FB_Fall_01 | Null | US | Null | 8000 | 100 | Null |
+| 01-08-2022 | 週 | Facebook | FB_Fall_02 | Null | US | Null | 1000 | 10 | Null |
+| 01-08-2022 | 週 | Facebook | FB_Fall_01 | Null | US | Null | 7000 | 100 | Null |
+| 01-16-2022 | 週 | Facebook | FB_Summer_01 | Null | CA | Null | 10000 | 80 | Null |
+| 12-27-2021 | 週 | Null | Null | Null | US | ファッション | Null | Null | 200 |
+| 01-03-2022 | 週 | Null | Null | Null | US | ファッション | Null | Null | 10 |
+| 01-03-2022 | 週 | Null | Null | Null | US | 宝飾品 | Null | Null | 1100 |
+| 01-10-2022 | 週 | Null | Null | Null | CA | 宝飾品 | Null | Null | 80 |
+| 01-01-2022 | 週 | CSE | Null | Null | Null | Null | 2 | Null | Null |
+| 01-08-2022 | 週 | CSE | Null | Null | Null | Null | 2 | Null | Null |
 
 {style="table-layout:auto"}
 
@@ -130,6 +130,8 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
       1. 次の中から列を選択： **[!UICONTROL DEFAULT SORT]** と切り替えて **[!UICONTROL Ascending]** または **[!UICONTROL Descending]**.
 
-      1. 表示される列の順序を変更するには、列を **[!UICONTROL SELECTED COLUMNS]** 上下にドラッグ&amp;ドロップします。
+      1. 表示される列の順序を変更するには、列を **[!UICONTROL SELECTED COLUMNS]** ドラッグ&amp;ドロップで上下に移動
 
    1. 選択 **[!UICONTROL Submit]** をクリックして、列設定の変更を送信します。 選択 **[!UICONTROL Close]** をクリックして、行った変更をキャンセルします。
+
+1. 他のページが利用可能な場合は、 ![左向き矢印](../assets/icons/ChevronLeft.svg) または ![右向き矢印](../assets/icons/ChevronRight.svg) 時刻 **[!UICONTROL Page _x _/_x_]** ページ間を移動するには

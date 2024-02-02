@@ -3,10 +3,10 @@ title: 調整済みフィールド
 description: Mix Modelerでのデータの調和の一環として使用するフィールドを定義する方法を説明します。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: 33883626d8e7aca2eecc3571593be53ef41ac458
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 11%
+source-wordcount: '685'
+ht-degree: 10%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 11%
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
 
-1. 選択 **[!UICONTROL Fields]** 上部のバーから。 調和されたフィールドのテーブルが表示されます。
+1. 選択 **[!UICONTROL Fields]** 上部のバーから。 調和されたフィールドのテーブルが表示されます。 他のページが利用可能な場合は、 ![左向き矢印](../assets/icons/ChevronLeft.svg) または ![右向き矢印](../assets/icons/ChevronRight.svg) 時刻 **[!UICONTROL Page _x _/_x_]** をクリックして、テーブルのページ間を移動します。
 
    テーブルの列には、調和されたフィールドの詳細が指定されます
 
@@ -66,10 +66,10 @@ ht-degree: 11%
    | フィールド名 | 調和済みフィールドの名前。 |
    | 表示名 | 調和されたフィールドの表示名。 この表示名は、データセットルール、マーケティングタッチポイントおよびコンバージョンの定義を定義する際に使用されます。 |
    | カテゴリ | 調和されたデータフィールドが [!UICONTROL Dimension], a [!UICONTROL Metric] または [!UICONTROL Derived]. 派生カテゴリは、指標ベースの数式定義を使用して調整されたフィールドです。 |
-   | 所有者 | 調和されたフィールドがデフォルトのフィールドかどうかを示します ([!UICONTROL Global])、またはユーザーが定義した ([!UICONTROL Client]) をクリックします。 |
    | データタイプ | データタイプを指定します ([!UICONTROL Number], [!UICONTROL String], [!UICONTROL Currency], [!UICONTROL DateTime]) をクリックします。 |
-   | 作成日時 | 調和されたフィールドの作成日時。 |
-   | 最終変更日時 | 調和されたフィールドの最後の変更のデータと時刻。 |
+   | 作成日 | 調和されたフィールドの作成日時。 |
+   | 所有者 | 調和されたフィールドがデフォルトのフィールドかどうかを示します ([!UICONTROL Global])、またはユーザーが定義した ([!UICONTROL Client]) をクリックします。 |
+   | 最終変更日 | 調和されたフィールドの最後の変更のデータと時刻。 |
    | 数式 | 派生カテゴリに基づいて、調和されたフィールドの数式を指定します。 |
 
    {style="table-layout:auto"}
@@ -77,13 +77,11 @@ ht-degree: 11%
 1. 特定の調整済みフィールドを検索するには、 ![検索](../assets/icons/Search.svg) **[!UICONTROL *調整済みフィールドを検索&#x200B;*]**.
 
 
-
-
 ### 調整済みフィールドを追加
 
 調和されたフィールドを追加するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスを次のMix Modelerに設定します。
 
-1. 選択 ![追加](../assets/icons/AddCircle.svg)フィールドを追加します。
+1. 選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. Adobe Analytics の **[!UICONTROL Create]** ダイアログ：
 
@@ -105,13 +103,13 @@ ht-degree: 11%
 
 ### 調整済みフィールドの編集
 
-作成済みのハーモナイズされたフィールドのみ編集できます。 グローバル調整済みフィールドは編集できません。
+作成済みの調整済みフィールドのみ編集できます（所有者はクライアント）。 グローバル調整済みフィールドは編集できません。
 
 調和されたフィールドを編集するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスを次のMix Modelerに設定します。
 
 1. 編集する調和済みフィールドを選択します。 例：**[!UICONTROL Region]**。
 
-1. Adobe Analytics の **[!UICONTROL Edit harmonization values]** ペイン、値を変更する **[!UICONTROL Display name]**, **[!UICONTROL Category]**、および **[!UICONTROL Data type]**.
+1. Adobe Analytics の **[!UICONTROL Edit harmonization values]** ペイン、値を変更する **[!UICONTROL Display name]**, **[!UICONTROL Category]**、および **[!UICONTROL Data type]**. 詳しくは、 [調整済みフィールドを追加](#add-a-harmonized-field) を参照してください。
 
 1. 選択 **[!UICONTROL Submit]** ：調和されたフィールドに変更を適用します。
 
@@ -119,10 +117,15 @@ ht-degree: 11%
 
 ### 調和済みフィールドの削除
 
-以前に作成した調和済みフィールドのみを削除できます。 グローバル調整済みフィールドは削除できません。
+以前に作成した調和済みフィールドのみを削除できます（所有者はクライアント）。 グローバル調整済みフィールドは削除できません。
 
 調和されたフィールドを削除するには、「 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** インターフェイスを次のMix Modelerに設定します。
 
 1. 削除する調和済みフィールドを選択します（例： ）。 **[!UICONTROL Region]**.
 
 1. 選択 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** から **[!UICONTROL Edit harmonization values]** 左側のウィンドウ
+
+   >[!WARNING]
+   >
+   >   フィールドは直ちに削除されます。
+

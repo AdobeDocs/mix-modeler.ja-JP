@@ -2,13 +2,13 @@
 title: スコアリングデータ
 description: モデルのスコアリングデータをMix Modelerで保持する方法を説明します。
 feature: Models
-source-git-commit: 3596b83937b3f61ac453940f3a666d8aaf713679
+exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 10%
+source-wordcount: '247'
+ht-degree: 8%
 
 ---
-
 
 # スコアリングデータ
 
@@ -40,3 +40,4 @@ ht-degree: 10%
 | **touchpointName** | 文字列 | タッチポイントの定義の設定手順中に作成されたタッチポイントの名前です。 現在、タッチポイントはメディアチャネルで定義されています。 |
 | **touchpointStartDate** | 日付 | タッチポイントウィンドウの開始日です。 |
 
+詳しくは、 [スキーマ](../ingest-data/schemas.md) を参照してください。

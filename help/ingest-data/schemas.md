@@ -3,7 +3,7 @@ title: スキーマ
 description: データをスキーマに取り込むために必要なスキーマをMix Modelerする方法を説明します。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: e40d1eb484f3ee6d289adbe1355455bbb202825a
+source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 1. 「Mix Modeler」インターフェイスに移動します。
 
-1. 選択 ![スキーマ](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，の下 **[!UICONTROL DATA MANAGEMENT]**.
+1. 選択 ![スキーマ](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，の下 **[!UICONTROL SETUP]**.
 
 詳しくは、 [スキーマ UI の概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.htm?lang=ja) を参照してください。
 
