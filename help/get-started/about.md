@@ -4,10 +4,10 @@ description: Mix Modeler の機能の概要を説明します。
 short-description: Mix Modeler の機能の概要を説明します。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 512cc28a9fab81438d54e30bb6e20f05da5265d1
+source-git-commit: 18bb0bb50d5045536a58cb36cc9b99ccb9b17e25
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,3 +50,7 @@ Mix Modelerは、次の機能を提供します。
 | **予算シナリオの作成と比較** | 複数の予算計画を作成し、その影響を比較して、ビジネスに最適な意思決定を下します。 |
 
 {style="table-layout:auto"}
+
+>[!MORELIKETHIS]
+>
+>[ワークフローのMix Modeler](workflow.md)
