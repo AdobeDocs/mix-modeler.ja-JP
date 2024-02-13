@@ -3,9 +3,9 @@ title: モデルインサイト
 description: 履歴の概要、モデルのインサイト、Mix Modelerのモデルの品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 73534d1aecb6d1513f6f3b5f1801b497ad73278f
+source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 
 * マーケティングパフォーマンスの概要。
 
+* 限界応答曲線。
+
 ![モデル — モデルインサイト](../assets/model-model-insights.png)
 
 各ウィジェットの個々のグラフ要素の上にマウスポインターを置くと、ポップオーバーに詳細情報を表示できます。
 
 ウィジェットのデータを含む CSV ファイルをダウンロードするには、「 」を選択します。 ![ダウンロード](../assets/icons/Download.svg).
+
+完全なモデルインサイトデータをMicrosoft® Excel 形式でダウンロードするには、「 ![ダウンロード](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
 
