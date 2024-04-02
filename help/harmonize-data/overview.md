@@ -3,10 +3,10 @@ title: データを調和させる
 description: データの調和を図る方法をMix Modeler。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 9%
+source-wordcount: '893'
+ht-degree: 8%
 
 ---
 
@@ -17,7 +17,7 @@ Mix Modeler内のデータは、データのソースに応じて異なる特性
 * 集計データや概要データ。例えば、ウォールガーデンのデータソースから収集されたデータや、広告掲示板のキャンペーン、イベント、または物理的な広告キャンペーンの実行から収集された（支出など）オフライン広告データ。
 * イベントデータ（例：ファーストパーティのデータソースから）。 このイベントデータは、Adobe AnalyticsのAdobe Analyticsソースコネクタを通じて収集したり、Experience PlatformWeb SDK、Mobile SDK、Edge Network API を通じて収集したり、ソースコネクタを使用して取り込んだデータにすることができます。
 
-Mix Modelerの調和化サービスは、集計データとイベントデータを一貫したデータビューに同化します。 このデータビューは、内部および外部の要因データと組み合わされ、Mix Modelerのモデルのソースになります。
+Mix Modelerの調和化サービスは、集計データとイベントデータを一貫したデータビューに同化します。 このデータビューは、内部および外部の要因データと組み合わされ、Mix Modelerのモデルのソースになります。 サービスは、様々なデータセットで最も高い精度を使用します。 例えば、1 つのデータセットに月単位の精度があり、残りのデータセットの精度が週単位および日単位の精度である場合、調和化サービスは月単位の精度を使用してデータビューを作成します。
 
 ## 調和されたデータの例
 
@@ -118,7 +118,7 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** をクリックします。
 
-1. 選択 **[!UICONTROL Harmonized Data]** 上部のバーから。 定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて、調和されたデータの概要が表示されます。
+1. 選択 **[!UICONTROL Harmonized Data]** 上部のバーから。 調和したデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
 
    1. 調整済みデータの概要の基となる期間を再定義するには、次の期間の日付範囲を入力します。 **[!UICONTROL Date range]** または、 ![カレンダー](../assets/icons/Calendar.svg) をクリックして、データ範囲を選択します。
 

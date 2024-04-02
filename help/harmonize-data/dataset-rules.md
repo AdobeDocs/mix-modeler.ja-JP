@@ -3,9 +3,9 @@ title: データセットルール
 description: Mix Modelerでのデータの調和の一環として使用するデータセットルールを定義する方法を説明します。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '980'
+source-wordcount: '998'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 1%
 
 Adobe Analytics の **[!UICONTROL Create]** 画面
 
-1. In **[!UICONTROL Dataset details]**、次の中からデータセットを選択します。 **[!UICONTROL Select dataset]** をクリックして設定を開始します。 リストでは、データセットは **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** および **[!UICONTROL Summary]**.
+1. In **[!UICONTROL Dataset details]**、次の中からデータセットを選択します。 **[!UICONTROL Select dataset]** をクリックして設定を開始します。 リストでは、データセットは **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** そして **[!UICONTROL Summary]**.
 
 1. 日付を選択 **[!UICONTROL Start of the week]**.
 
@@ -54,11 +54,13 @@ Adobe Analytics の **[!UICONTROL Create]** 画面
 
 1. 次のデータセットを選択した場合： **[!UICONTROL Summary]** カテゴリ：
 
+   1. データセットのデータを集計する必要があるか、既存のデータを置き換えるかを定義するには、 **[!UICONTROL Aggregation]** または **[!UICONTROL Replacement]** 対象： **[!UICONTROL Data restatement is by]**.
+
    1. 各 **[!UICONTROL Available dataset fields]** 対応する **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. データセットフィールドを調整済みのフィールドにマッピングしない場合は、「 **[!UICONTROL -- None --]**.
 
    1. リストから利用できない、新しく調和されたフィールドが必要な場合は、「 」を選択します。 **[!UICONTROL Create New]** 新しく調和されたフィールドを作成します。 ダイアログが表示されます。詳しくは、 [新しい調整済みフィールドを追加](fields.md#add-a-harmonized-field) 新しい調和済みフィールドをすばやく追加できます。
 
-   1. ルールのすべてのフィールドのマッピングが完了したら、 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存するには、以下を実行します。 **[!UICONTROL Save]** ルールを保存してアクティブ化します。  選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
+   1. ルールのすべてのフィールドのマッピングが完了したら、 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存するには、以下を実行します。 **[!UICONTROL Save]** ルールを保存してアクティブ化します。 選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
 
       ![データセットルールの作成](../assets/dataset-create-summary.png)
 
@@ -103,7 +105,7 @@ Adobe Analytics の **[!UICONTROL Create]** 画面
 
 1. 選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** をクリックして、追加のフィールドを定義します。
 
-終了したら、「 」を選択します。 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存するには、以下を実行します。 **[!UICONTROL Save]** ルールを保存してアクティブ化します。  選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
+終了したら、「 」を選択します。 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存するには、以下を実行します。 **[!UICONTROL Save]** ルールを保存してアクティブ化します。 選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
 
 
 ### データセットルールの編集
@@ -119,7 +121,7 @@ Adobe Analytics の **[!UICONTROL Create]** 画面
 データセットルールを削除するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスのMix Modeler:
 
 1. 選択 ![その他](../assets/icons/More.svg) （内） **[!UICONTROL Dataset]** 」列に追加します。
-1. コンテキストメニューから、「 」を選択します。 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックして、データセットルールを削除します。 確認を求めるメッセージが表示されます。 選択 **[!UICONTROL Delete]** 選択したデータセットルールを完全に削除するには…
+1. コンテキストメニューから、「 」を選択します。 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックして、データセットルールを削除します。 確認を求めるメッセージが表示されます。 選択 **[!UICONTROL Delete]** 選択したデータセットルールを完全に削除します。
 
 
 ## データを同期
@@ -130,7 +132,7 @@ Adobe Analytics の **[!UICONTROL Create]** 画面
 
 1. 次から： **[!UICONTROL Sync data for dataset rules]** ダイアログで、次のいずれかを選択します。 **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**&#x200B;または **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
 
-1. 選択 **[!UICONTROL Sync]** ：定義済みのデータセットルールに基づいて同期を開始し、データセット内の調整済みのデータとデータの間で同期を開始します。 同期をキャンセルする場合は、 **[!UICONTROL Cancel]**.
+1. データセット内のデータと調和したデータの定義済みデータセットルールに基づいて同期を開始するには、 **[!UICONTROL Sync]**. 同期をキャンセルする場合は、 **[!UICONTROL Cancel]**.
 
    ![データを同期](../assets/sync-data.png)
 

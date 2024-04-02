@@ -3,9 +3,9 @@ title: モデルインサイト
 description: 履歴の概要、モデルのインサイト、Mix Modelerのモデルの品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 17d4609f251808f68372185ac90530e164024b5f
+source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 「モデルインサイト」タブには、以下のウィジェットが表示されます。
 
-* 日付別およびベースメディア別の貢献度。 積み重ねグラフは順番に並べられます。下部に基づいて表示され、中央に非支出チャネル、上部に支出チャネルが表示されます。
+* 日付別およびベースメディア別の貢献度。 積み重ねグラフは順番に並べられます。下部に基づくチャネル、中央に支出なしチャネル、上部に支出チャネルがあります。
 
 * チャネル別の貢献度。
 
@@ -62,18 +62,29 @@ ht-degree: 0%
 完全なモデルインサイトデータをMicrosoft® Excel 形式でダウンロードするには、「 ![ダウンロード](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
 
 
-
-
 ## モデルの品質
 
-「モデル品質」タブには、以下の測定用のウィジェットが表示されます。
+![モデル品質評価](/help/assets/model-quality-assessment.png)
+「モデル品質」タブには、
 
-* R2 （R-2 乗）：データが回帰モデル（適合度）にどの程度適合するかを示します。
+* [!UICONTROL Model Assessment] ビジュアライゼーション：実際のコンバージョンと予測コンバージョンまたは残差コンバージョンの内訳を表示できます。
 
-* MAPE（平均絶対率誤差）：予測精度を測定するために最もよく使用される KPI の 1 つで、予測誤差を実際の値に対する割合で表します。
+  ビジュアライゼーションを分類するには、「 **[!UICONTROL Actual vs. Predicted]** または **[!UICONTROL Residuals]** から **[!UICONTROL Breakdown]** リスト。
 
-* RMSE(Root Mean Square Error)：平均「エラー」を、エラーの平方に従って重み付けした値として示します。
+* [!UICONTROL Model fitting metrics] 表に、各コンバージョン指標の次の列を表示します。
 
-![モデルの品質](../assets/model-quality.png)
+   * 実際のコンバージョン
 
-ウィジェットのデータを含む CSV ファイルをダウンロードするには、「 」を選択します。 ![その他](../assets/icons/More.svg) ウィジェットで、コンテキストメニューからを選択します。 ![ダウンロード](../assets/icons/Download.svg) **[!UICONTROL Download as CSV]**.
+   * モデル化された変換
+
+   * 残差コンバージョン（実際のコンバージョンとモデル化されたコンバージョンの違い）
+
+   * モデル品質スコア値：
+
+      * R2 （R-2 乗）：データが回帰モデル（適合度）にどの程度適合するかを示します。
+
+      * MAPE（平均絶対率誤差）：予測精度を測定するために最もよく使用される KPI の 1 つで、予測誤差を実際の値に対する割合で表します。
+
+      * RMSE(Root Mean Square Error)：平均「エラー」を、エラーの平方に従って重み付けした値として示します。
+
+  テーブルのデータを含む CSV ファイルをダウンロードするには、「 ![ダウンロード](../assets/icons/Download.svg).
