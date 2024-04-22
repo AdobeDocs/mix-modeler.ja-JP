@@ -3,9 +3,9 @@ title: プランを編集
 description: Mix Modelerでプランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: b2719da8b49441c00d86f47596546fd7341f16bd
+source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ ht-degree: 0%
 
 1. を選択 **[!UICONTROL X]** または **[!UICONTROL  %]** ～する方法について **[!UICONTROL View ROI]**.
 
-1. 日付範囲の分類のデータを含んだ CSV ファイルをダウンロードするには、次を選択します。 ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. コンテキストメニューから、 ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** （CSV 形式の詳細データの場合） ![Download](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** （CSV 形式の概要データ用）。
+1. 日付範囲の分類のデータを含んだ CSV ファイルをダウンロードするには、次を選択します。 ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. コンテキストメニューから、次の操作を行います。
+
+   - を選択 ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** 詳細なデータを CSV 形式で表示する場合、または
+   - を選択 ![Download](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** （CSV 形式の概要データ用）。
+
+   詳細データは、週別にキー設定された粒度の高いデータです。 概要データは、モデルが指定した日付範囲でキー設定されたデータです。
 
 1. チャネルのカテゴリ別に日付範囲の分類を表示するには、次を選択します。 **[!UICONTROL All channels]**, **[!UICONTROL Paid channels]**、または **[!UICONTROL Non-paid channels]** から **[!UICONTROL View]** 選択。
 
