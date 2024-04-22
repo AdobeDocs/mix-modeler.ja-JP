@@ -3,9 +3,9 @@ title: プランを編集
 description: Mix Modelerでプランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3e2330ffe0337c4ac9ef09fda3cd611656179d29
+source-git-commit: 128a548af9b22e6b14794b1ba94def6431e97c51
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 1. 日付範囲の分類のデータを含んだ CSV ファイルをダウンロードするには、次を選択します。 ![Download](../assets/icons/Download.svg) **[!UICONTROL Download CSV]**. コンテキストメニューから、次の操作を行います。
 
-   - を選択 ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** 詳細なデータを CSV 形式で表示する場合、または
+   - を選択 ![Download](../assets/icons/Download.svg) **[!UICONTROL Detailed CSV]** （CSV 形式の詳細データ）。
    - を選択 ![Download](../assets/icons/Download.svg) **[!UICONTROL Summary CSV]** （CSV 形式の概要データ用）。
 
    詳細データは、週別にキー設定された粒度の高いデータです。 概要データは、モデルが指定した日付範囲でキー設定されたデータです。
