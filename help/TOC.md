@@ -2,9 +2,9 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: eb7bf2fcd5b4c001ab9147f4489e87c718210294
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '77'
 ht-degree: 44%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 44%
    + [Mix Modelerとは](get-started/about.md)
    + [アプリケーションワークフロー](get-started/workflow.md)
 
-+ ダッシュボード {#dashboard}
++ Dashboard {#dashboard}
    + [概要](dashboard/overview.md)
-   + [調整済みデータ](dashboard/harmonized-data.md)
+   + [調和されたデータ](dashboard/harmonized-data.md)
    + [プラン](dashboard/plans.md)
 
 + モデル {#models}
@@ -31,11 +31,11 @@ ht-degree: 44%
 
 + プラン {#plans}
    + [概要](plans/overview.md)
-   + [プランの作成](plans/create.md)
-   + [プランの編集](plans/edit.md)
-   + [プランの比較](plans/compare.md)
+   + [プランを作成](plans/create.md)
+   + [プランを編集](plans/edit.md)
+   + [計画の比較](plans/compare.md)
 
-+ データを調和させる {#harmonize-data}
++ データのハーモナイズ {#harmonize-data}
    + [概要](harmonize-data/overview.md)
    + [フィールド](harmonize-data/fields.md)
    + [データセットルール](harmonize-data/dataset-rules.md)
@@ -49,6 +49,9 @@ ht-degree: 44%
    + [データセット](ingest-data/datasets.md)
 
 + [ユースケース](use-cases.md)
+
++ プライバシー {#privacy}
+   + [監査](privacy/audit.md)
 
 + [管理](administration.md)
 
