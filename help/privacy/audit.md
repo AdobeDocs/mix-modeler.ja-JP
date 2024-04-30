@@ -2,7 +2,7 @@
 title: 監査
 description: Mix Modelerの監査方法を説明します。
 feature: Administration
-source-git-commit: 44e37f385241d90da87e1fd85fb4ce9024b67250
+source-git-commit: e1ef6f2b54ae7c80cb115b417909b154b6153ce2
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 6%
@@ -50,3 +50,4 @@ Mix Modelerの監査インターフェイスの一部やExperience PlatformUI �
 1. アクティビティ・ログに表示される列を変更するには、 ![列](../assets/icons/ColumnSetting.svg) および **[!UICONTROL Customize table]** ダイアログ表示する列を選択します。 を選択 **[!UICONTROL Apply]** 選択を適用するには、 **[!UICONTROL Cancel]** をクリックして選択をキャンセルします。
 
 1. 監査ログをダウンロードするには、次を選択します ![Download](../assets/icons/Download.svg) **[!UICONTROL Download log]**. が含まれる **[!UICONTROL Download log]** ダイアログ次のいずれかを選択 **[!UICONTROL CSV]** または **[!UICONTROL JSON]** 形式として、を選択します。 **[!UICONTROL Download]**.
+
