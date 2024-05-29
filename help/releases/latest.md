@@ -4,10 +4,10 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: e90ddd25ba7b78bd360096dda4e3af80304a5176
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 6%
+source-wordcount: '240'
+ht-degree: 7%
 
 ---
 
@@ -22,7 +22,12 @@ ht-degree: 6%
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
 | **データ結合環境設定** [!BADGE ベータ] | [データ結合環境設定](../harmonize-data/dataset-rules.md#data-merge-preferences) 要約されたデータソースとイベントデータソースのデータが結合される際の競合の解決に役立ちます。 | 2024 年 5 月 29 日（Pt） |
-| **フィールドレベルのアクセス制御** | データセットルールを定義する場合、のExperience Platform [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) に適用されます [フィールドレベル](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024 年 5 月 29 日（Pt） |
+
+{style="table-layout:auto"}
+
+<!--
+| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
+-->
 
 
 ## 2024年4月

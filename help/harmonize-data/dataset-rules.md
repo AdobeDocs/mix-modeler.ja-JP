@@ -3,9 +3,9 @@ title: データセットルール
 description: Mix Modeler内のデータの調和の一部として使用するデータセットルールを定義する方法について説明します。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
+source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1094'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
 >[!NOTE]
 >
->[!BADGE Beta]{type=Informative}
+>[!BADGE ベータ]{type=Informative}
 
 データ結合の環境設定は、要約されたデータソースとイベントデータソースのデータが結合される際の競合の解決に役立ちます。 ユースケースは次のとおりです。
 
@@ -153,9 +153,9 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
 モデルを正確に予測するために、以下の方法でデータ結合の環境設定を定義できます。
 
-1. を選択 ![データ結合環境設定](../assets/icons/Merge.svg) [!BADGE ベータ] **データ結合環境設定**.
+1. を選択 ![データ結合環境設定](../assets/icons/Merge.svg) [!BADGE ベータ].
 
-1. が含まれる **[!UICONTROL Data merge preferences]** ダイアログ：
+1. が含まれる **[!UICONTROL Data merge preferences]** [!BADGE ベータ]{type=Informative}
 
    ![データ結合環境設定](../assets/data-merge-preferences.png)
 
@@ -168,12 +168,12 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
          1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。リストで「」を選択します。 **[!UICONTROL All]** または特定のチャネルやコンバージョンタイプです。
          1. を選択 **[!UICONTROL Summary]** または **[!UICONTROL Event]** データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に対して概要データまたはイベントデータを優先するかどうかを指定します。
 
-1 つ以上のチャネルまたはコンバージョンタイプを追加するには：
+         1 つ以上のチャネルまたはコンバージョンタイプを追加するには：
 
          1. を選択 ![プラス](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** または ![プラス](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
          1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択します。
 
-チャネルまたはコンバージョンタイプを削除するには： select ![間](../assets/icons/Close.svg).
+         チャネルまたはコンバージョンタイプを削除するには、以下を選択します。 ![間](../assets/icons/Close.svg).
 
       1. 指標に基づいた環境設定をさらに具体的に追加するには、前の手順を繰り返します。
 
@@ -181,10 +181,13 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
 1. を選択 **[!UICONTROL Save]** データ結合の環境設定を保存します。 データの再同期が開始されます。 <br/>を選択 **[!UICONTROL Cancel]** をキャンセルします。
 
-## フィールドレベルのアクセス制御
+<!--
+## Field-level access control
 
-統一データセットのデータセットルールを設定する場合、Experience Platform [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) はフィールドレベルで適用されます。 ラベルがスキーマフィールドに添付され、そのフィールドへのアクセスを拒否するアクティブなポリシーが有効になっている場合、フィールドは制限されます。 その結果、次のようになります。
+When configuring dataset rules for harmonized datasets, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a field-level. A field is restricted when a label is attached to a schema field and an active policy is enabled that denies access for you to that field. As a result:
 
-* データセットルールを作成する際に、制限されているスキーマフィールドが表示されません。
-* 自身に対して制限されている 1 つ以上のスキーマフィールドのマッピングを表示または編集できません。 このような制限されたフィールドを含むデータセットルールを編集または表示すると、次の画面が表示されます。
-  ![アクションが許可されていません](../assets/action-not-permitted.png)
+* you do not see the schema fields that are restricted for you when you create a dataset rule, 
+* you are not able to view or edit the mapping of one or more schema fields that are restricted for you. When you edit or view a dataset rule containing such restricted fields, you see the following screen.
+  ![Action not permitted](../assets/action-not-permitted.png)
+
+-->
