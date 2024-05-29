@@ -1,161 +1,190 @@
 ---
 title: データセットルール
-description: Mix Modelerでのデータの調和の一環として使用するデータセットルールを定義する方法を説明します。
+description: Mix Modeler内のデータの調和の一部として使用するデータセットルールを定義する方法について説明します。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 4f4c7f05e90d73a0ab4865150b1ec4c2af88fc12
+source-git-commit: e86e0d64db01eb98c68c3f6877f5a7cc8b855b88
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1207'
 ht-degree: 1%
 
 ---
 
 # データセットルール
 
-データセットルールは、調和されたフィールドを、Mix Modelerで取り込んだデータのフィールドとマッピングする際に役立ちます。
+データセットルールは、統一されたフィールドを、Mix Modelerに取り込んだデータのフィールドとマッピングする際に役立ちます。
 
-* Adobe Experience Platformで取り込んだ集計データについて、1 つ以上の使用可能なデータセットフィールドを、適切な調和されたフィールドにマッピングします。
-* イベントデータの場合、1 つ以上の調和されたフィールドを、データセット内のフィールドに個別にマッピングしたり、直接または条件を使用してマッピングしたりできます。
+* Adobe Experience Platformに取り込んだ集計データについて、1 つ以上の使用可能なデータセットフィールドを適切な統一されたフィールドにマッピングします。
+* イベントデータの場合は、1 つ以上の統一されたフィールドを、直接または条件を使用して、データセットのフィールドに個別にマッピングできます。
 
 
 ## データセットルールの管理
 
-使用可能なデータセットルールの表を確認するには、Mix Modelerインターフェイスで次の操作を実行します。
+Mix Modelerインターフェイスで使用可能なデータセットルールのテーブルを表示するには、次の手順を実行します。
 
-1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
+1. を選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 左パネルから。
 
-1. 選択 **[!UICONTROL Dataset rules]** 上部のバーから。 データセットルールの表が表示されます。
+1. を選択 **[!UICONTROL Dataset rules]** 上部バーから。 データセットルールのテーブルが表示されます。
 
-テーブルの列には、データセットルールの詳細が示されます。
+テーブルの列には、データセットルールの詳細が表示されます。
 
 | 列名 | 詳細 |
 | ---------------------- | ----------|
 | データセット | データセットの名前。 |
-| ソース | データセットのソース。Adobe Analytics、エクスペリエンスイベント、概要（集計）、消費者エクスペリエンスイベントのいずれかです。 |
-| スキーマ | データセットが準拠するスキーマです。 スキーマ名をすばやく選択して、スキーマエディターの「Mix Modeler — スキーマ」で、新しいタブでスキーマを開くことができます。 |
-| 精度 | データセット内のデータの精度。 指定できる値は、日別、週別、月別、年別です。 |
-| 週の最初 | 特定のデータセットで新しい週の開始と見なされる曜日を指定します。 |
-| ステータス | フィールドのステータス： <p><span style="color:gray">●</span> 下書きまたは <p><span style="color:green">●</span> アクティブ |
-| 最終変更日 | データセットルールの最後の変更のデータと時刻。 |
+| ソース | データセットのソース：Adobe Analytics、エクスペリエンスイベント、概要（集計）またはコンシューマーエクスペリエンスイベント。 |
+| スキーマ | データセットが準拠するスキーマ。 スキーマ名をすばやく選択して、のスキーマエディターの新しいタブでスキーマを開くことができます ![スキーマ](../assets/icons/Schemas.svg) [スキーマ](../ingest-data/schemas.md). |
+| 精度 | データセット内のデータの精度。 指定可能な値は、Daily、Weekly、Monthly、Yearly です。 |
+| 週の開始日 | 特定のデータセットについて、新しい週の開始日と見なされる曜日を指定します。 |
+| ステータス | フィールドのステータス： <p><span style="color:gray">●</span> ドラフトまたは <p><span style="color:green">●</span> アクティブ |
+| 最終変更日 | データセットルールの最終変更日時。 |
 
 {style="table-layout:auto"}
 
 ### データセットルールの作成
 
-データセットルールを作成するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インタフェース (Mix Modeler): **[!UICONTROL Create Dataset rule]** （内） **[!UICONTROL Dataset rules configuration]** ウィザード。
+データセットルールを作成するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modelerのインターフェイスで、を選択します **[!UICONTROL Create a dataset rule]** が含まれる **[!UICONTROL Dataset rules configuration]** ウィザード。
 
-Adobe Analytics の **[!UICONTROL Create]** 画面
+が含まれる **[!UICONTROL Create]** 画面、
 
-1. In **[!UICONTROL Dataset details]**、次の中からデータセットを選択します。 **[!UICONTROL Select dataset]** をクリックして設定を開始します。 リストでは、データセットは **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** そして **[!UICONTROL Summary]**.
+1. 対象： **[!UICONTROL Dataset details]**&#x200B;からデータセットを選択します **[!UICONTROL Select dataset]** 設定を開始します。 リストでは、データセットは次のように分類されます **[!UICONTROL Consumer Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Experience Event]** また、 **[!UICONTROL Summary]**.
 
-1. 日付を選択 **[!UICONTROL Start of the week]**.
+1. 次の期間の日を選択： **[!UICONTROL Start of the week]**.
 
-1. 選択 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** または **[!UICONTROL Yearly]** 対象： **[!UICONTROL Granularity]**.
+1. を選択 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** または **[!UICONTROL Yearly]** （用） **[!UICONTROL Granularity]**.
 
-1. 次のデータセットを選択した場合： **[!UICONTROL Summary]** カテゴリ：
+1. のデータセットを選択した場合 **[!UICONTROL Summary]** カテゴリ：
 
-   1. データセットのデータを集計する必要があるか、既存のデータを置き換えるかを定義するには、 **[!UICONTROL Aggregation]** または **[!UICONTROL Replacement]** 対象： **[!UICONTROL Data restatement is by]**.
+   1. データセットのデータを集計するか、既存のデータを置き換えるかを定義するには、次を選択します **[!UICONTROL Aggregation]** または **[!UICONTROL Replacement]** （用） **[!UICONTROL Data restatement is by]**.
 
-   1. 各 **[!UICONTROL Available dataset fields]** 対応する **[!UICONTROL Standard harmonized fields]** in **[!UICONTROL Map to harmonized fields]**. データセットフィールドを調整済みのフィールドにマッピングしない場合は、「 **[!UICONTROL -- None --]**.
+   1. 各の **[!UICONTROL Available dataset fields]** 対応する **[!UICONTROL Standard harmonized fields]** 。対象： **[!UICONTROL Map to harmonized fields]**. データセットフィールドを統一フィールドにマッピングしない場合は、を明示的に選択します **[!UICONTROL -- None --]**.
 
-   1. リストから利用できない、新しく調和されたフィールドが必要な場合は、「 」を選択します。 **[!UICONTROL Create New]** 新しく調和されたフィールドを作成します。 ダイアログが表示されます。詳しくは、 [新しい調整済みフィールドを追加](fields.md#add-a-harmonized-field) 新しい調和済みフィールドをすばやく追加できます。
+   1. リストから利用できない新しい統一フィールドが必要な場合は、次を選択します **[!UICONTROL Create New]** 新しい統一フィールドを作成します。 ダイアログは、で説明されているように表示されます。 [新しい統一フィールドを追加](fields.md#add-a-harmonized-field).
 
-   1. ルールのすべてのフィールドのマッピングが完了したら、 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存するには、以下を実行します。 **[!UICONTROL Save]** ルールを保存してアクティブ化します。 選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
+   1. ルールのすべてのフィールドに対してマッピングが完了したら、 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存する場合、または **[!UICONTROL Save]** ルールを保存してアクティブにします。 を選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
 
       ![データセットルールの作成](../assets/dataset-create-summary.png)
 
-1. イベントカテゴリデータセット (**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**)、の下のボックス **[!UICONTROL Map to harmonized fields]**:
+1. イベントカテゴリデータセット（**[!UICONTROL Experience Events]**, **[!UICONTROL Adobe Analytics]**, **[!UICONTROL Consumer Experience Events]**）、の下のボックス **[!UICONTROL Map to harmonized fields]**:
 
-   1. 次の中から調和されたフィールドを選択： **[!UICONTROL Standard harmonized field]**.
+   1. から統一フィールドを選択 **[!UICONTROL Standard harmonized field]**.
 
-   1. 選択した調和済みフィールドのタイプが指標の場合：
+   1. 選択した統一フィールドが指標タイプの場合：
 
-      1. 選択 **[!UICONTROL Count]** または **[!UICONTROL Sum]** から **[!UICONTROL Mapping type]**.
+      1. を選択 **[!UICONTROL Count]** または **[!UICONTROL Sum]** から **[!UICONTROL Mapping type]**.
 
-      1. を選択します。 **[!UICONTROL *AEP データセットフィールド&#x200B;*]**調和されたフィールドをデフォルトでマッピングする
+      1. を選択 **[!UICONTROL *AEP データセットフィールド&#x200B;*]**統一フィールドをデフォルトでマッピングする宛先。
 
-   1. 選択したフィールドのタイプが次の場合：
+   1. 選択したフィールドのタイプがディメンションの場合：
 
-      1. 選択 **[!UICONTROL Map Into]** または **[!UICONTROL Case]** から **[!UICONTROL Mapping type]**.
+      1. を選択 **[!UICONTROL Map Into]** または **[!UICONTROL Case]** から **[!UICONTROL Mapping type]**.
 
-      1. 次を選択した場合： **[!UICONTROL Map Into]**&#x200B;を選択します。 **[!UICONTROL Field]** および **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**「調和済み」フィールドのデフォルト値は、データセットフィールドまたは入力値に、デフォルトで調和済みフィールドをマッピングするデフォルト値です。
+      1. を選択した場合 **[!UICONTROL Map Into]**&#x200B;を選択 **[!UICONTROL Field]** および **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**統一フィールドをデフォルトでデータセットフィールドまたは入力された値にマッピングするためのデフォルト値。
 
-      1. 次の項目を選択した場合： **[!UICONTROL Case]**&#x200B;を選択します。 **[!UICONTROL Field]** および **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**「調和済み」フィールドのデフォルト値は、データセットフィールドまたは入力値に、デフォルトで調和済みフィールドをマッピングするデフォルト値です。
+      1. 選択した場合 **[!UICONTROL Case]**&#x200B;を選択 **[!UICONTROL Field]** および **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**統一フィールドをデフォルトでデータセットフィールドまたは入力された値にマッピングするためのデフォルト値。
 
-         1. また、値を明示的に設定する 1 つ以上の条件で構成される、1 つ以上のケースを定義します。 各条件は、特定の **[!UICONTROL *AEP データセットフィールド&#x200B;*]**どうか&#x200B;**[!UICONTROL Exists]**または&#x200B;**[!UICONTROL Not Exists]**または&#x200B;**[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**または&#x200B;**[!UICONTROL Ends With]**次の場所に入力された値：**[!UICONTROL *&#x200B;入力値を入力&#x200B;*]**.
+         1. 値を明示的に設定するには、1 つ以上の条件で構成される 1 つ以上のケースを定義します。 各条件は、特定のを確認できます **[!UICONTROL *AEP データセットフィールド&#x200B;*]**かどうか&#x200B;**[!UICONTROL Exists]**または&#x200B;**[!UICONTROL Not Exists]**またはかどうか&#x200B;**[!UICONTROL Contains]**,**[!UICONTROL Not Contains]**,**[!UICONTROL Equals]**,**[!UICONTROL Not Equals]**,**[!UICONTROL Starts With]**、または&#x200B;**[!UICONTROL Ends With]**に入力された値**[!UICONTROL *&#x200B;入力値を入力&#x200B;*]**.
 
-         1. 別のケースを追加するには、「 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**、別の条件を追加するには、「 」を選択します。 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
+         1. 別のケースを追加するには、を選択します ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;で別の条件を追加するには、次を選択します ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**.
 
-         1. ケースまたは条件を削除する場合は、「 ![閉じる](../assets/icons/Close.svg) を指定します。
+         1. ケースまたは条件を削除するには、 ![閉じる](../assets/icons/Close.svg) 対応するコンテナ内。
 
-         1. 1 つのケースに対して、いずれかの条件を適用するかすべての条件を適用するかを選択するには、 **[!UICONTROL Any of]** または **[!UICONTROL All of]**.
+         1. 条件の一部または全部をケースに適用するかどうかを選択するには、 **[!UICONTROL Any of]** または **[!UICONTROL All of]**.
 
-         1. ケースの結果の値を設定するには、値を **[!UICONTROL Then]**.
+         1. ケースの結果値を設定するには、次の場所に値を入力します： **[!UICONTROL Then]**.
 
-      次の例
+      以下の例
 
-      * はを使用します **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** 地図を作る **[!UICONTROL Channel Type At Source]** 調和された分野 **[!UICONTROL channel_type]** フィールド **[!DNL Luma Transactions]** データセット。
+      * はを使用します **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** をマッピングします **[!UICONTROL Channel Type At Source]** 統一フィールドを **[!UICONTROL channel_type]** からのフィールド **[!DNL Luma Transactions]** データセット。
 
-      * はを使用します **[!UICONTROL Case]** **[!UICONTROL Mapping type]** 条件付きでの **[!UICONTROL marketing.campaignName]** フィールド **[!DNL Luma Transactions]** データセットを **[!UICONTROL Campaign]** 調和されたフィールド。 「キャンペーンの調和済み」フィールドは次のように設定されます。
+      * はを使用します **[!UICONTROL Case]** **[!UICONTROL Mapping type]** の値を条件付きでマッピングするには： **[!UICONTROL marketing.campaignName]** のフィールド **[!DNL Luma Transactions]** データセットをに **[!UICONTROL Campaign]** 統一フィールド。 Campaign 統一フィールドは次のように設定されます。
 
-         * `Black Friday` 時に **[!UICONTROL marketing.campaignName]** 次に該当 `_black_friday` または `BlackFriday`.
-         * を **[!UICONTROL marketing.campaignName]** 他のすべての場合には
+         * `Black Friday` いつ **[!UICONTROL marketing.campaignName]** 等しい `_black_friday` または `BlackFriday`.
+         * の値に **[!UICONTROL marketing.campaignName]** それ以外の場合は。
 
         ![データセットルールイベント](../assets/dataset-create-event.png)
 
-1. 選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** をクリックして、追加のフィールドを定義します。
+1. を選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]** 追加のフィールドを定義します。
 
-終了したら、「 」を選択します。 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存するには、以下を実行します。 **[!UICONTROL Save]** ルールを保存してアクティブ化します。 選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
+終了したら、 **[!UICONTROL Save as draft]** ルールのドラフトバージョンを保存する場合、または **[!UICONTROL Save]** ルールを保存してアクティブにします。 を選択 **[!UICONTROL Cancel]** をクリックして、ルール設定をキャンセルします。
 
 
 ### データセットルールの編集
 
-データセットルールを編集するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスのMix Modeler:
+データセットルールを編集するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modelerのインターフェイス：
 
-1. 選択 ![その他](../assets/icons/More.svg) （内） **[!UICONTROL Dataset]** 列を編集します。
-1. コンテキストメニューから、「 」を選択します。 ![編集](../assets/icons/Edit.svg) **[!UICONTROL Edit]** 」をクリックして、データセットルールの編集を開始します。 参照： [データセットルールの作成](#create-a-dataset-rule) を参照してください。
+1. を選択 ![詳細](../assets/icons/More.svg) が含まれる **[!UICONTROL Dataset]** 編集するデータセットルールの列。
+1. コンテキストメニューから、 ![編集](../assets/icons/Edit.svg) **[!UICONTROL Edit]** データセットルールの編集を開始します。 こちらを参照してください [データセットルールの作成](#create-a-dataset-rule) を参照してください。
 
 
 ### データセットルールの削除
 
-データセットルールを削除するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスのMix Modeler:
+データセットルールを削除するには、で ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** Mix Modelerのインターフェイス：
 
-1. 選択 ![その他](../assets/icons/More.svg) （内） **[!UICONTROL Dataset]** 」列に追加します。
-1. コンテキストメニューから、「 」を選択します。 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** をクリックして、データセットルールを削除します。 確認を求めるメッセージが表示されます。 選択 **[!UICONTROL Delete]** 選択したデータセットルールを完全に削除します。
+1. を選択 ![詳細](../assets/icons/More.svg) が含まれる **[!UICONTROL Dataset]** 削除するデータセットルールの列。
+1. コンテキストメニューから、 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** データセットルールを削除します。 確認を求めるプロンプトが表示されます。 を選択 **[!UICONTROL Delete]** 選択したデータセットルールを完全に削除します。
 
 
 ## データを同期
 
-調和したデータと概要データセット、またはイベントデータセット間でデータを同期するには、データセットルールのすべてのロジックに従います。
+統一データと概要データセットやイベントデータセットの間でデータを同期するには、データセットルール内のすべてのロジックに従います。
 
 1. **[!UICONTROL Sync data]** を選択します。
 
-1. 次から： **[!UICONTROL Sync data for dataset rules]** ダイアログで、次のいずれかを選択します。 **[!UICONTROL Refresh harmonized data for summary datasets]**, **[!UICONTROL Refresh harmonized data for event datasets]**&#x200B;または **[!UICONTROL Refresh harmonized data for both summary + event datasets]**.
+1. から **[!UICONTROL Sync data for dataset rules]** ダイアログ、のいずれかを選択
+   * **[!UICONTROL Refresh harmonized data for summary datasets]**,
+   * **[!UICONTROL Refresh harmonized data for event datasets]**、または
+   * **[!UICONTROL Refresh harmonized data for both summary + event datasets]**。
 
-1. データセット内のデータと調和したデータの定義済みデータセットルールに基づいて同期を開始するには、 **[!UICONTROL Sync]**. 同期をキャンセルする場合は、 **[!UICONTROL Cancel]**.
+1. 統一データとデータセット内のデータの間に定義されたデータセットルールに基づいて同期を開始するには、以下を選択します **[!UICONTROL Sync]**. 同期をキャンセルするには、以下を選択します **[!UICONTROL Cancel]**.
 
    ![データを同期](../assets/sync-data.png)
 
 
 ## データ結合環境設定
 
-要約済みのデータとイベントソースが結合されたときの競合を解決する環境設定を定義できます。 その手順は次のとおりです。
+>[!NOTE]
+>
+>[!BADGE Beta]{type=Informative}
 
-1. 選択 ![データ結合環境設定](../assets/icons/Merge.svg) **データ結合環境設定**.
+データ結合の環境設定は、要約されたデータソースとイベントデータソースのデータが結合される際の競合の解決に役立ちます。 ユースケースは次のとおりです。
 
-1. Adobe Analytics の **[!UICONTROL Data merge preferences]** ダイアログ：
+* 同じ広告指標が複数のデータセットで測定およびレポートされる
+* 一部のデータセットでは指標の測定が不完全な場合がありますが、別のデータセットは特定の指標のスーパーセットである場合があり、二重カウントが発生する可能性があります。
+
+モデルを正確に予測するために、以下の方法でデータ結合の環境設定を定義できます。
+
+1. を選択 ![データ結合環境設定](../assets/icons/Merge.svg) [!BADGE ベータ] **データ結合環境設定**.
+
+1. が含まれる **[!UICONTROL Data merge preferences]** ダイアログ：
 
    ![データ結合環境設定](../assets/data-merge-preferences.png)
 
-   1. 以下からデフォルトの指標の環境設定を選択します。 **[!UICONTROL Default metric preference]** リスト。 <p>ハーモナイゼーション中に、複数のデータソースが特定のチャネルの指標フィールドを更新しようとすると、デフォルトの環境設定が適用されます。 この環境設定は、で定義された特定の指標の環境設定に対して上書きされない限り、サンドボックスレベルで適用されます。 **[!UICONTROL Metric based preference]**.
+   * を選択 **[!UICONTROL Default metric preference]**. 選択したデフォルトの指標の環境設定は、ハーモナイゼーション中に、複数のデータソースが特定のチャネルの指標フィールドを更新すると適用されます。 特定の指標ベースの環境設定で上書きされない限り、環境設定はサンドボックスレベルで適用されます。
 
-   1. 用途 ![プラス](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**、以下に 1 つ以上の指標を追加します。 **[!UICONTROL Metric based preference]**.
+   * 特定の指標ベースの環境設定を追加するには：
 
+      1. を選択 ![プラス](../assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**.
+         1. から指標を選択 **[!UICONTROL *指標の選択&#x200B;*]**リスト。
+         1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。リストで「」を選択します。 **[!UICONTROL All]** または特定のチャネルやコンバージョンタイプです。
+         1. を選択 **[!UICONTROL Summary]** または **[!UICONTROL Event]** データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に対して概要データまたはイベントデータを優先するかどうかを指定します。
 
+1 つ以上のチャネルまたはコンバージョンタイプを追加するには：
 
-      * 次から指標を選択： **[!UICONTROL _指標の選択_]** リスト、および
-      * **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択します。
+         1. を選択 ![プラス](../assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]** または ![プラス](../assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**.
+         1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択します。
 
-      用途 ![削除](../assets/icons/Close.svg) をクリックして、リストからエントリを削除します。
+チャネルまたはコンバージョンタイプを削除するには： select ![間](../assets/icons/Close.svg).
 
-   1. 選択 **[!UICONTROL Save]** をクリックして、データ結合環境設定を保存します。 選択 **[!UICONTROL Cancel]** をクリックしてキャンセルします。
+      1. 指標に基づいた環境設定をさらに具体的に追加するには、前の手順を繰り返します。
+
+   * 既存の特定の指標に基づく環境設定を削除するには、以下を選択します ![削除](../assets/icons/Delete.svg).
+
+1. を選択 **[!UICONTROL Save]** データ結合の環境設定を保存します。 データの再同期が開始されます。 <br/>を選択 **[!UICONTROL Cancel]** をキャンセルします。
+
+## フィールドレベルのアクセス制御
+
+統一データセットのデータセットルールを設定する場合、Experience Platform [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) はフィールドレベルで適用されます。 ラベルがスキーマフィールドに添付され、そのフィールドへのアクセスを拒否するアクティブなポリシーが有効になっている場合、フィールドは制限されます。 その結果、次のようになります。
+
+* データセットルールを作成する際に、制限されているスキーマフィールドが表示されません。
+* 自身に対して制限されている 1 つ以上のスキーマフィールドのマッピングを表示または編集できません。 このような制限されたフィールドを含むデータセットルールを編集または表示すると、次の画面が表示されます。
+  ![アクションが許可されていません](../assets/action-not-permitted.png)
