@@ -4,9 +4,9 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b2939a84e8f20f775663f2c46184504e44216aa
+source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '285'
 ht-degree: 7%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 7%
 
 これらのリリースノートは、Mix Modelerの最新リリースについて説明しています。 Mix Modelerリリースは、毎月のおおよそのリリースサイクルを可能にする継続的な配信モデルに基づいて機能します。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
 
+## 2024年6月
+
+| 機能 | 説明 | 一般公開 |
+|---|---|---|
+| **フィールドレベルのアクセス制御** | データセットルールを定義する場合、のExperience Platform [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) に適用されます [フィールドレベル](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024 年 6 月 12 日（Pt） |
+| P **豊富な知識のタッチポイント** | で指定されたマーケティングタッチポイントのみ [!UICONTROL Configure] ステップは、で選択できます。 [[!UICONTROL Prior Knowledge]](../models/create.md) セクション。 | 2024 年 6 月 12 日（Pt） |
+
+{style="table-layout:auto"}
+
 ## 2024年5月
 
 | 機能 | 説明 | 一般公開 |
@@ -25,9 +34,7 @@ ht-degree: 7%
 
 {style="table-layout:auto"}
 
-<!--
-| **Field-level access control** | When defining dataset rules, Experience Platform's [attribute based access control](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) is enforced on a [field-level](../harmonize-data/dataset-rules.md#field-level-access-control). | May 29, 2024 |
--->
+
 
 
 ## 2024年4月
