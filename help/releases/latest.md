@@ -4,9 +4,9 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: cefa5ccc8850e4931b2d0acffe9ca5e8c3f92e00
+source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '308'
 ht-degree: 7%
 
 ---
@@ -21,8 +21,10 @@ ht-degree: 7%
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
+| **MTA のビジュアライゼーション** | モデルインサイトが包括的で更新されました [MTA のビジュアライゼーション](../models/insights.md#attribution). | 2024 年 6 月 18 日（Pt） |
+| **CPA 指標** | CPA （アクションあたりのコスト）指標は、次の場所で使用できます [プランの比較](../plans/compare.md). | 2024 年 6 月 18 日（Pt） |
 | **フィールドレベルのアクセス制御** | データセットルールを定義する場合、のExperience Platform [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) に適用されます [フィールドレベル](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024 年 6 月 12 日（Pt） |
-| P **豊富な知識のタッチポイント** | で指定されたマーケティングタッチポイントのみ [!UICONTROL Configure] ステップは、で選択できます。 [[!UICONTROL Prior Knowledge]](../models/create.md) セクション。 | 2024 年 6 月 12 日（Pt） |
+| **事前知識タッチポイント** | で指定されたマーケティングタッチポイントのみ [!UICONTROL Configure] ステップは、で選択できます。 [[!UICONTROL Prior Knowledge]](../models/create.md) セクション。 | 2024 年 6 月 12 日（Pt） |
 
 {style="table-layout:auto"}
 

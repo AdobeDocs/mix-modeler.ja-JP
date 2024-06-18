@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: 1b228f1cf9cf46d6166812b0b59808bdaaf80a9d
+source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 43%
+source-wordcount: '78'
+ht-degree: 44%
 
 ---
 
@@ -48,9 +48,11 @@ ht-degree: 43%
    + [スキーマ](ingest-data/schemas.md)
    + [データセット](ingest-data/datasets.md)
 
-+ [ユースケース](use-cases.md)
++ プライバシー {#privacy}
+   + [ポリシー](privacy/policies.md)
+   + [監査](privacy/audits.md)
 
-+ [監査](audit.md)
++ [ユースケース](use-cases.md)
 
 + [管理](administration.md)
 
