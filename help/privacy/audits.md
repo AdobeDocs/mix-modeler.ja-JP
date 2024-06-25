@@ -3,10 +3,10 @@ title: 監査
 description: Mix Modelerから監査にアクセスする方法を説明します。
 feature: Administration
 exl-id: aa65aac5-bea4-43ff-b0d0-9e8a6a97d3ca
-source-git-commit: 28ab9273c1f606c8b685225f412d51ee305b5f31
+source-git-commit: c45f4e4412258f959726c49129c6b9b6fff48f4a
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 7%
+source-wordcount: '315'
+ht-degree: 6%
 
 ---
 
@@ -37,6 +37,15 @@ Mix ModelerUI に組み込まれたExperience Platformの一部である監査�
    | Mix Modelerモデル |  の作成 | 許可または拒否 |
    | Mix Modelerモデル | 更新 | 許可または拒否 |
    | Mix Modelerモデル | 削除 | 許可または拒否 |
+   | Mix Modelerモデル | 再スコア | 許可または拒否 |
+   | Mix Modelerモデル | クローン | 許可または拒否 |
+   | Mix Modelerモデル | トレーニング/再トレーニング | 許可または拒否 |
+   | Mix Modelerモデル | メタデータのダウンロード/保存 | 許可または拒否 |
+   | Mix Modelerプラン |  の作成 | 許可または拒否 |
+   | Mix Modelerプラン | 更新 | 許可または拒否 |
+   | Mix Modelerプラン | 関連モデルを変更 | 許可または拒否 |
+   | Mix Modelerデータの調和 | トリガー同期 | 許可または拒否 |
+
 
 1. アクティビティログでエントリを選択すると、パネルが開いて詳細を確認できます。
 
