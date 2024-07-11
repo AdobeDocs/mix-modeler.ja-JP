@@ -3,7 +3,7 @@ title: 統一フィールド
 description: Mix Modelerのデータの調和の一部として使用するフィールドを定義する方法を説明します。
 feature: Harmonized Data, Harmonized Fields
 exl-id: f051279a-1ae9-49bd-a946-abfc34c90413
-source-git-commit: fecb122f6e2e8ae532babd0e2964ad200174a032
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
@@ -24,10 +24,10 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 | フィールド名 | 表示名 | カテゴリ | データタイプ | コメント |
 | ---------------------- | ---------------------- | --------- | --------- | --------- |
 | ブランド | ブランド | ディメンション | 文字列 |           |
-| campaign | Campaign | ディメンション | 文字列 |           |
+| campaign | キャンペーン | ディメンション | 文字列 |           |
 | チャネル | チャネル | ディメンション | 文字列 |           |
 | channel_id | チャネル ID | ディメンション | 文字列 |           |
-| channel_type_at_source | ソースでのチャネルタイプ | ディメンション | 文字列 |           |
+| channel_type_at_source | Sourceのチャネルタイプ | ディメンション | 文字列 |           |
 | チャネル | チャネル | ディメンション | 文字列 |           |
 | クリック数 | クリック数 | 指標 | 数値 |           |
 | conversiontype | コンバージョンタイプ | ディメンション | 文字列 |           |
@@ -43,7 +43,7 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 | mediatype | メディアタイプ | ディメンション | 文字列 |           |
 | net_sales | 純売上高 | 指標 | 通貨 |           |
 | 注文件数 | 注文件数 | 指標 | 数値 |           |
-| sourcetype | ソースタイプ | ディメンション | 文字列 |           |
+| sourcetype | Sourceタイプ | ディメンション | 文字列 |           |
 | 費用 | 費用 | 指標 | 通貨 |           |
 | trafficsource | Traffic Source | ディメンション | 文字列 |           |
 
@@ -55,9 +55,9 @@ Mix Modelerで使用できるデフォルトのグローバル調和フィール
 
 Mix Modelerインターフェイスで使用可能な統一フィールドのテーブルを表示するには：
 
-1. を選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 左パネルから。
+1. を選択 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 左パネルから。
 
-1. を選択 **[!UICONTROL Fields]** 上部バーから。 統一フィールドのテーブルが表示されます。 他のページが使用可能な場合は、を使用します ![左矢印](../assets/icons/ChevronLeft.svg) または ![右矢印](../assets/icons/ChevronRight.svg) 時刻 **[!UICONTROL Page _x _件中_x_]** をクリックして、テーブルのページ間を移動します。
+1. を選択 **[!UICONTROL Fields]** 上部バーから。 統一フィールドのテーブルが表示されます。 他のページが使用可能な場合は、を使用します ![左矢印](/help/assets//icons/ChevronLeft.svg) または ![右矢印](/help/assets//icons/ChevronRight.svg) 時刻 **[!UICONTROL Page _x _件中_x_]** をクリックして、テーブルのページ間を移動します。
 
    テーブルの列は、統一フィールドの詳細を指定します
 
@@ -74,14 +74,14 @@ Mix Modelerインターフェイスで使用可能な統一フィールドのテ
 
    {style="table-layout:auto"}
 
-1. 特定の統一フィールドを検索するには、を使用します ![検索](../assets/icons/Search.svg) **[!UICONTROL *統一されたフィールドを検索&#x200B;*]**.
+1. 特定の統一フィールドを検索するには、を使用します ![検索](/help/assets//icons/Search.svg) **[!UICONTROL *統一されたフィールドを検索&#x200B;*]**.
 
 
 ### 統一フィールドの追加
 
-統一フィールドを追加するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modelerのインターフェイス：
+統一フィールドを追加するには、 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modelerのインターフェイス：
 
-1. を選択 ![追加](../assets/icons/AddCircle.svg) **[!UICONTROL Add field]**.
+1. を選択 ![追加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add field]**.
 
 1. が含まれる **[!UICONTROL Create]** ダイアログ：
 
@@ -98,14 +98,14 @@ Mix Modelerインターフェイスで使用可能な統一フィールドのテ
 
    1. を選択 **[!UICONTROL Submit]** 統一フィールドを追加します。 を選択 **[!UICONTROL Close]** 統一フィールドを追加せずにダイアログを閉じるには、次の手順を実行します。
 
-      ![フィールドを作成](../assets/create-field.png)
+      ![フィールドを作成](/help/assets//create-field.png)
 
 
 ### 統一フィールドの編集
 
 編集できるのは、以前に作成した統一フィールドのみです（所有者はクライアントです）。 グローバル統一フィールドは編集できません。
 
-統一フィールドを編集するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modelerのインターフェイス：
+統一フィールドを編集するには、 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modelerのインターフェイス：
 
 1. 編集する統一フィールドを選択します。 例：**[!UICONTROL Region]**。
 
@@ -113,17 +113,17 @@ Mix Modelerインターフェイスで使用可能な統一フィールドのテ
 
 1. を選択 **[!UICONTROL Submit]** 統一フィールドに変更を適用します。
 
-   ![フィールドを編集](../assets/edit-field.png)
+   ![フィールドを編集](/help/assets//edit-field.png)
 
 ### 統一フィールドの削除
 
 以前に作成した統一フィールドのみを削除できます（所有者はクライアント）。 グローバル統一フィールドは削除できません。
 
-統一フィールドを削除するには、 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modelerのインターフェイス：
+統一フィールドを削除するには、 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Fields]** Mix Modelerのインターフェイス：
 
 1. 削除する統一フィールドを選択します。例： **[!UICONTROL Region]**.
 
-1. を選択 ![削除](../assets/icons/Delete.svg) **[!UICONTROL Delete]** から **[!UICONTROL Edit harmonization values]** 左側のウィンドウ。
+1. を選択 ![削除](/help/assets//icons/Delete.svg) **[!UICONTROL Delete]** から **[!UICONTROL Edit harmonization values]** 左側のウィンドウ。
 
    >[!WARNING]
    >

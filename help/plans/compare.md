@@ -3,7 +3,7 @@ title: 計画の比較
 description: Mix Modelerでプランを比較する方法を説明します。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: eb7e964b96c87e74809d1e6182e45351a71ed13c
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 2%
@@ -14,9 +14,9 @@ ht-degree: 2%
 
 Mix Modeler計画インタフェースで計画を比較する手順は、次のとおりです。
 
-* を選択 ![を比較](../assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**. 「計画の比較」で、各計画を選択します **[!UICONTROL _プランを選択_]**.
+* を選択 ![を比較](/help/assets//icons/Compare.svg) **[!UICONTROL Compare Plans]**. 「計画の比較」で、各計画を選択します **[!UICONTROL _プランを選択_]**.
 
-* または、「プラン」 テーブルから 2 つのプランを選択し、アクションバーから ![を比較](../assets/icons/Compare.svg) **[!UICONTROL Compare]**.
+* または、「プラン」 テーブルから 2 つのプランを選択し、アクションバーから ![を比較](/help/assets//icons/Compare.svg) **[!UICONTROL Compare]**.
 
 計画の比較インターフェイスでは、次の場所に情報とウィジェットが表示されます。
 
@@ -36,7 +36,7 @@ Mix Modeler計画インタフェースで計画を比較する手順は、次の
 * CPA は、費用/増分コンバージョンとして定義されます。
 
 
-![計画の比較](../assets/compare-plans.png)
+![計画の比較](/help/assets//compare-plans.png)
 
 各ウィジェットの個々のグラフ要素にポインタを合わせると、詳細を含むポップオーバーが表示されます。
 

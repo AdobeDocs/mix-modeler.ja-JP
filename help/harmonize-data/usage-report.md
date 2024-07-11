@@ -1,27 +1,27 @@
 ---
 title: 使用状況レポート
-description: 調和したデータがモデル（トレーニングとスコアリングのため）およびコンバージョンでどのように使用されているかを確認します。
+description: 統一されたデータがモデル（トレーニングとスコアリング）とコンバージョンでどのように使用されるかを説明します。
 feature: Harmonized Data
 hide: true
 hidefromtoc: true
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+exl-id: 6c32f978-8a3e-4878-bb6b-550f1750d6b7
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 0%
 
 ---
 
-
 # 使用状況レポート
 
-調和したデータの使用状況レポートを表示するには：
+統一データの使用状況レポートを表示するには：
 
-1. 選択 ![DataSearch](../assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** をクリックします。
+1. を選択 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 左パネルから。
 
-1. 選択 **[!UICONTROL Usage report]** 上部のバーから。
+1. を選択 **[!UICONTROL Usage report]** 上部バーから。
 
-使用状況レポートには次の情報が表示されます。
+使用状況レポートの表示内容は次のとおりです。
 
-* 以下の表に、 **[!UICONTROL # of Models]** 調和されたデータを使用している
+* を一覧表示したテーブル **[!UICONTROL # of Models]** 調和されたデータを使用したことがある
 
-* 以下の表に、 **[!UICONTROL # of Conversions (last 5 years)]** 調和されたデータを使用した テーブルの精度を選択するには、 **[!UICONTROL Year]** または **[!UICONTROL Month]** から **[!UICONTROL View by selection]**.
+* を一覧表示したテーブル **[!UICONTROL # of Conversions (last 5 years)]** 統一データが使用されている テーブルの精度を選択するには、以下を選択します。 **[!UICONTROL Year]** または **[!UICONTROL Month]** から **[!UICONTROL View by selection]**.

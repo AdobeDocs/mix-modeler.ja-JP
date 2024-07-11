@@ -1,69 +1,69 @@
 ---
-title: 調整済みデータの概要ダッシュボード
-description: 調整済みデータの概要ダッシュボードをMix Modelerで使用する方法を説明します。
+title: 統一データ概要ダッシュボード
+description: Mix Modelerでの統一データ概要ダッシュボードの使用方法を説明します。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
-# 調整済みデータの概要
+# 統一データの概要
 
-Mix Modelerの概要の「調和済みデータ」タブには、取り込んだデータと調和済みデータの設定の一部として使用するように設定した調和済みデータに関するインサイトが表示されます。
+Mix Modelerの概要の「統一データ」タブには、取り込まれたデータおよび統一データ設定の一部として使用するように設定した統一データに関するインサイトが表示されます。
 
-概要には、4 つの KPI ステータスカードウィジェット（上の行）と、その他 6 つの設定可能なウィジェットが表示されます。
+この概要には、4 つの KPI ステータスカードウィジェット（一番上の行）と 6 つの他の設定可能なウィジェットが表示されます。
 
-ウィジェットに表示するデータの日付期間を変更するには、開始日と終了日を手動で入力するか、 ![カレンダー](../assets/icons/Calendar.svg).
+ウィジェットに表示されるデータの日付範囲を変更するには、開始日と終了日を手動で入力するか、を使用して期間を選択します ![カレンダー](/help/assets//icons/Calendar.svg).
 
 ## データフィルター
 
-すべてのウィジェットで表示されるデータは、 ![フィルター](../assets/icons/Filter.svg) **[!UICONTROL Category Filters]** ウィンドウ
+を使用して、すべてのウィジェットに表示されるデータをフィルタリングできます ![フィルター](/help/assets//icons/Filter.svg) **[!UICONTROL Category Filters]** ペイン。
 
-各カテゴリに対して 1 つ以上のフィルターを選択します (**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**、および **[!UICONTROL Traffic Source]**) をクリックします。
+各カテゴリに 1 つ以上のフィルターを選択します（**[!UICONTROL Brands]**, **[!UICONTROL Campaigns]**, **[!UICONTROL Cannels Type]**, **[!UICONTROL Conversion types]**, **[!UICONTROL Datasets]**, **[!UICONTROL Media types]**, **[!UICONTROL Source types]**、および **[!UICONTROL Traffic Source]**）に設定します。
 
-選択したフィルターは、次のウィジェットの上に表示されます： **[!UICONTROL FILTERING BY:]**.
+選択したフィルターは、ウィジェットの上部にある **[!UICONTROL FILTERING BY:]**.
 
-1. 個々のフィルターを削除するには、 ![閉じる](../assets/icons/Close.svg) フィルターのリスト： **[!UICONTROL FILTERING BY:]**.
+1. 個々のフィルターを削除するには、 ![閉じる](/help/assets//icons/Close.svg) フィルターで、にリストされています **[!UICONTROL FILTERING BY:]**.
 
-1. 次を使用して、すべてのフィルターをすばやくクリアできます： **[!UICONTROL Clear All]**.
+1. を使用して、すべてのフィルターをすばやくクリアできます **[!UICONTROL Clear All]**.
 
-![調整済みデータの概要](../assets/harmonized-data-overview.png)
+![統一データの概要](/help/assets//harmonized-data-overview.png)
 
 
 ## ウィジェットの設定
 
 各ウィジェットを設定できます。
 
-* KPI ステータスカードウィジェットで、次の操作を行います。
+* KPI ステータスカードウィジェットで：
 
-   1. 選択 ![編集](../assets/icons/Edit.svg) および ![編集](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** を選択します。
+   1. を選択 ![編集](/help/assets//icons/Edit.svg) および ![編集](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** コンテキストメニューから。
 
-   1. Adobe Analytics の **[!UICONTROL KPI status card]** ダイアログ：
+   1. が含まれる **[!UICONTROL KPI status card]** ダイアログ：
 
-      1. を選択します。 **[!UICONTROL KPI]** を選択します。
+      1. を選択 **[!UICONTROL KPI]** リストから。
 
-      1. 選択 **[!UICONTROL Apply]** をクリックして、変更をカードに適用します。 選択 **[!UICONTROL Cancel]** をクリックして変更をキャンセルします。
+      1. を選択 **[!UICONTROL Apply]** 変更をカードに適用します。 を選択 **[!UICONTROL Cancel]** 変更をキャンセルします。
 
-* その他の設定可能なウィジェットでは、次の手順を実行します。
+* その他の設定可能なウィジェットでは、
 
-   1. 選択 ![編集](../assets/icons/Edit.svg) および ![編集](../assets/icons/Edit.svg) **[!UICONTROL Edit data]** を選択します。
+   1. を選択 ![編集](/help/assets//icons/Edit.svg) および ![編集](/help/assets//icons/Edit.svg) **[!UICONTROL Edit data]** コンテキストメニューから。
 
-   1. Adobe Analytics の **[!UICONTROL Edit Data]** ダイアログ：
+   1. が含まれる **[!UICONTROL Edit Data]** ダイアログ：
 
-      1. 次から指標を選択： **[!UICONTROL Select a metric]**&#x200B;例： **[!UICONTROL Impressions]**.
-      1. カテゴリの選択元 **[!UICONTROL Select category]**&#x200B;例： **[!UICONTROL Media types]**.
-      1. （オプション）次の中から 2 つ目のカテゴリを選択します。 **[!UICONTROL Select second category (optional)]**&#x200B;例： **[!UICONTROL Traffic sources]**.
-      1. 選択 ![時計](../assets/icons/Clock.svg) **[!UICONTROL Time]** または ![計算ツール](../assets/icons/Calculator.svg) **[!UICONTROL Total]** を次の場所にある分析タイプとして使用 **[!UICONTROL Select analysis type]**.
+      1. から指標を選択 **[!UICONTROL Select a metric]**、例： **[!UICONTROL Impressions]**.
+      1. からカテゴリを選択 **[!UICONTROL Select category]**、例： **[!UICONTROL Media types]**.
+      1. （オプション） 2 つ目のカテゴリを次から選択します **[!UICONTROL Select second category (optional)]**、例： **[!UICONTROL Traffic sources]**.
+      1. を選択 ![時計](/help/assets//icons/Clock.svg) **[!UICONTROL Time]** または ![計算機](/help/assets//icons/Calculator.svg) **[!UICONTROL Total]** 分析タイプとしてを使用します **[!UICONTROL Select analysis type]**.
 
-         次を選択した場合、 ![時計](../assets/icons/Clock.svg) **[!UICONTROL Time]**&#x200B;に値を入力しない場合は、時間の頻度を指定できます。 選択 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** または **[!UICONTROL Quarterly]** から **[!UICONTROL Select time frequency]**.
+         を選択する場合 ![時計](/help/assets//icons/Clock.svg) **[!UICONTROL Time]**&#x200B;の場合、時間頻度を指定できます。 を選択 **[!UICONTROL Daily]**, **[!UICONTROL Weekly]**, **[!UICONTROL Monthly]** または **[!UICONTROL Quarterly]** から **[!UICONTROL Select time frequency]**.
 
-         現在の選択の更新されたプレビューが、 [!UICONTROL Preview Area] そして現在のウィジェットが [!UICONTROL Current].
+         現在の選択の更新されたプレビューが [!UICONTROL Preview Area] とその下にある現在のウィジェット [!UICONTROL Current].
 
-         ![調整済みデータウィジェットを編集](../assets/edit-harmonized-data-widget.png)
+         ![統一データウィジェットを編集](/help/assets//edit-harmonized-data-widget.png)
 
-         データが使用できずプレビューをレンダリングできない場合は、「 ![データエラー](../assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
+         データが使用できないのでプレビューをレンダリングできない場合は、次のように表示されます ![データエラー](/help/assets//icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available].
 
-      1. 選択 **[!UICONTROL Apply]** をクリックして、ウィジェットに変更を適用します。 選択 **[!UICONTROL Cancel]** 現在のウィジェットに対する変更をキャンセルする場合。
+      1. を選択 **[!UICONTROL Apply]** 変更をウィジェットに適用します。 を選択 **[!UICONTROL Cancel]** 現在のウィジェットに加えられた変更をキャンセルします。

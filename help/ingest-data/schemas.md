@@ -1,9 +1,9 @@
 ---
 title: スキーマ
-description: データをスキーマに取り込むために必要なスキーマをMix Modelerする方法を説明します。
+description: データをMix Modelerに取り込むために必要なスキーマを管理する方法を説明します。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -12,67 +12,67 @@ ht-degree: 5%
 
 # スキーマ
 
-スキーマで取り込み、Mix Modelerで使用するデータをサポートするExperience Platformを管理するには、次の手順を実行します。
+スキーマを管理して、Experience Platformで取り込み、Mix Modelerで使用するデータをサポートするには、次の手順を実行します。
 
-1. 「Mix Modeler」インターフェイスに移動します。
+1. Mix Modelerインターフェイスに移動します。
 
-1. 選択 ![スキーマ](../assets/icons/Schemas.svg) **[!UICONTROL Schemas]**，の下 **[!UICONTROL SETUP]**.
+1. を選択 ![スキーマ](/help/assets//icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;の下 **[!UICONTROL SETUP]**.
 
-詳しくは、 [スキーマ UI の概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.htm?lang=ja) を参照してください。
+を参照してください。 [スキーマ UI の概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.htm?lang=ja) を参照してください。
 
-## データの集計または概要
+## 集計または概要データ
 
-Experience Platformで取り込み、Mix Modelerで使用する集計または概要データの基になるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
+Experience Platformで取り込みMix Modelerで使用する集計データまたは概要データの基礎となるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
 
-XDM 概要指標クラスは、次の場合に使用します。
+XDM Summary Metrics クラスは、次の場合に使用します。
 
-- ウォールガーデンデータ (FacebookやYouTubeのデータなど )。
+- 壁に囲まれた庭のデータ（例：FacebookまたはYouTubeのデータ）。
 
-- SPX（S&amp;P 500 株価指数）のデータなどの外部要因データ、気象データ
+- spx （S&amp;P 500 株価指数）のデータや気象データなどの外部要因データ
 
-- 内部要因データ（価格の変更、休日のカレンダーなど）。
+- 内部要因データ （価格変更、休日カレンダーなど）。
 
 >[!IMPORTANT]
 >
->取得したデータに必要な指標をサポートするために、スキーマ定義には、少なくとも 1 つの数値フィールド（整数、倍精度、ブール値、その他の数値タイプを使用）が含まれている必要があります。
+>取り込んだデータに必要な指標をサポートするには、スキーマ定義に 1 つ以上の数値フィールド（整数、倍精度浮動小数点数、ブール値、その他の数値タイプを使用）を含める必要があります。
 
-を使用したスキーマ **[!DNL XDM Summary Metrics]** 基本クラスは、 **[!DNL ExternalFactorSummarySchema]** 下
+スキーマは、 **[!DNL XDM Summary Metrics]** 基本クラスは、次に示すように単純にすることができます。 **[!DNL ExternalFactorSummarySchema]** 下。
 
-![外部要因スキーマ](../assets/external-factors-schema.png)
+![外部要因スキーマ](/help/assets//external-factors-schema.png)
 
-この単純なスキーマは、次のようなデータを含むデータセットを取り込むために使用できます。
+この単純なスキーマを使用すると、次のようなデータを含んだデータセットを取り込むことができます。
 
-- 競合相手のインデックスデータ
+- 競合他社インデックスデータ
 
-  | タイムスタンプ | date_type | 要因 | 値 |
+  | タイムスタンプ | date_type | 要因 | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | 週 | competitor_index | 289.8 |
-  | 2020-12-05T00:00:00.000Z | 週 | competitor_index | 291.2 |
-  | 2020-12-12T00:00:00.000Z | 週 | competitor_index | 280.07 |
+  | 2020-11-28T00:00:00.000Z | 週間 | competitor_index | 289.8 |
+  | 2020-12-05T00:00:00.000Z | 週間 | competitor_index | 291.2 |
+  | 2020-12-12T00:00:00.000Z | 週間 | competitor_index | 280.07 |
   | ... | ... | ... | ... |
 
-- 公開休日データ
+- 祝日データ
 
-  | タイムスタンプ | date_type | 要因 | 値 |
+  | タイムスタンプ | date_type | 要因 | value |
   |---|---|---|--:|
-  | 2020-11-28T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-05T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-12T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-19T00:00:00.000Z | 週 | all_holidays_flag | 0.0 |
-  | 2020-12-26T00:00:00.000Z | 週 | all_holidays_flag | 1.0 |
+  | 2020-11-28T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
+  | 2020-12-05T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
+  | 2020-12-12T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
+  | 2020-12-19T00:00:00.000Z | 週間 | all_holidays_flag | 0.0 |
+  | 2020-12-26T00:00:00.000Z | 週間 | all_holidays_flag | 1.0 |
   | ... | ... | ... | ... |
 
 
-より包括的な **[!DNL LumaPaidMarketingSchema]** の使用 **[!DNL XDM Summary Metrics]** を基本クラスとして使用します。 スキーマは、指標 (**[!DNL AMMMetrics]**)，ディメンション (**[!DNL AMMDimensions]**) や、その他のお客様固有の情報 (**[!DNL CustomerSpecific]**) をクリックします。
+を参照してください。 **[!DNL LumaPaidMarketingSchema]** の使用 **[!DNL XDM Summary Metrics]** 基本クラスとして使用します。 スキーマは、指標に専用のフィールドグループ（色の注釈が付いています）を使用します（**[!DNL AMMMetrics]**）、ディメンション （**[!DNL AMMDimensions]**）、およびその他のお客様固有の情報（**[!DNL CustomerSpecific]**）に設定します。
 
-![概要スキーマ](../assets/summary-schema.png)
+![概要スキーマ](/help/assets//summary-schema.png)
 
-プロファイル取り込みの非同期性を考慮すると、外部ソースから集計データや概要データを収集する場合は、「外部ソースシステム監査の詳細」フィールドグループをスキーマの一部として使用することをお勧めします。 このフィールドグループは、外部ソースの監査プロパティのセットを定義します。
+プロファイル取り込みは非同期なので、外部ソースから集計データや概要データを収集する場合は、外部Source システム監査の詳細フィールドグループをスキーマの一部として使用することをお勧めします。 このフィールドグループは、外部ソースの一連の監査プロパティを定義します。
 
 
 ## サポートされるデータタイプ
 
-現在、Mix ModelerはExperience Platformデータ型のサブセットをサポートしています。 次に示す基本的なデータタイプ（フィールド）( [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)、がサポートされています。
+現在、Mix Modelerでは、Experience Platformデータタイプのサブセットをサポートしています。 に記載されている次の基本的なデータタイプ（フィールド） [スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)、はサポートされています。
 
 - 文字列
 - 整数

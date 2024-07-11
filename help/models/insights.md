@@ -3,7 +3,7 @@ title: モデルインサイト
 description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: b503abc710bf3688c1b8219ddd2d242932916501
+source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # モデルインサイト
 
-モデルインサイトを表示するには、で ![モデル](../assets/icons/FileData.svg) **[!UICONTROL Models]** Mix Modelerのインターフェイス：
+モデルインサイトを表示するには、で ![モデル](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** Mix Modelerのインターフェイス：
 
 1. から **[!UICONTROL Models]** テーブルで、を持つモデルの名前を選択します。 **[!UICONTROL Last run status]** 件中 <span style="color:green">●</span> **[!UICONTROL Success]**。
 
 1. コンテキストメニューから、 **[!UICONTROL Model Insights]**.
 
-![モデルインサイトのタブバー](../assets/model-insights-tabbar.png)
+![モデルインサイトのタブバー](/help/assets//model-insights-tabbar.png)
 
 指定したモデルが最後に更新された日時が表示され、次の 4 つのタブを使用してウィジェットが表示されます。 [モデルインサイト](#model-insights), [帰属](#attribution), [診断](#diagnostics)、および [履歴の概要](#historical-overview).
 
-各タブのウィジェットの基になる期間を変更できます。 日付期間を入力または選択 ![カレンダー](../assets/icons/Calendar.svg) 日付の期間を選択します。
+各タブのウィジェットの基になる期間を変更できます。 日付期間を入力または選択 ![カレンダー](/help/assets//icons/Calendar.svg) 日付の期間を選択します。
 
 ## [!UICONTROL Model insights]
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 * 限界応答曲線。
   <br/>「」からチャネルを選択 **[!UICONTROL Channel]** 特定のチャネルのウィジェットを更新するためのドロップダウンリスト。
 
-![モデル – モデルインサイト](../assets/model-insights-insights.png)
+![モデル – モデルインサイト](/help/assets//model-insights-insights.png)
 
 各ウィジェットの個々のグラフ要素にポインタを合わせると、詳細を含むポップオーバーが表示されます。
 
-ウィジェットのデータを含む CSV ファイルをダウンロードするには、次を選択します。 ![Download](../assets/icons/Download.svg).
+ウィジェットのデータを含む CSV ファイルをダウンロードするには、次を選択します。 ![Download](/help/assets//icons/Download.svg).
 
-Microsoft® Excel 形式で完全なモデルインサイトデータをダウンロードするには、以下を選択します。 ![Download](../assets/icons/Download.svg) **[!UICONTROL Download data]**.
+Microsoft® Excel 形式で完全なモデルインサイトデータをダウンロードするには、以下を選択します。 ![Download](/help/assets//icons/Download.svg) **[!UICONTROL Download data]**.
 
 ## [!UICONTROL Attribution]
 
@@ -63,7 +63,7 @@ Microsoft® Excel 形式で完全なモデルインサイトデータをダウ�
 
 から 1 つ以上のアトリビューションモデルを選択 **[!UICONTROL Attribution Model]** ドロップダウンリスト。 選択したアトリビューションモデルは、「アトリビューション」タブのすべてのウィジェットに適用されます。
 
-![アトリビューション](../assets/model-insights-attribution.png)
+![アトリビューション](/help/assets//model-insights-attribution.png)
 
 Mix Modelerのマルチタッチ アトリビューションのきめ細かいイベントスコアは、全体的なMix Modelerスコアと ROI に一致します。 これらのスコアは、Experience Platformのデータセットとしても使用できます。
 
@@ -79,7 +79,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 この [!UICONTROL Daily trends], [!UICONTROL Weekly trends]、または [!UICONTROL Monthly trends] ウィジェットには、選択したアトリビューションモデルの、日別、週別または月別のコンバージョントレンドが表示されます。
 
-期間を選択するには、 **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** または **[!UICONTROL Monthly trends]** から ![詳細](../assets/icons/More.svg).
+期間を選択するには、 **[!UICONTROL Daily trends]**, **[!UICONTROL Weekly trends]** または **[!UICONTROL Monthly trends]** から ![詳細](/help/assets//icons/More.svg).
 
 詳細を確認するには、特定のアトリビューションモデルのデータラインにカーソルを合わせると、そのデータのコンバージョンの合計数を表示するポップオーバーが表示されます。
 
@@ -87,7 +87,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 この [!UICONTROL Breakdown] ウィジェットは、選択した各アトリビューションモデルのコンバージョンのチャネルまたはタッチポイントごとの分類です。 このウィジェットは、各チャネルまたはタッチポイントの有効性を決定するのに役立ちます。
 
-分類タイプを選択するには、 **[!UICONTROL Breakdown by channel]** または **[!UICONTROL Breakdown by touchpoint]** から ![詳細](../assets/icons/More.svg).
+分類タイプを選択するには、 **[!UICONTROL Breakdown by channel]** または **[!UICONTROL Breakdown by touchpoint]** から ![詳細](/help/assets//icons/More.svg).
 
 詳細を表示するには、任意のグラフ要素にポインタを合わせます。
 
@@ -97,7 +97,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 チャネル、メディアタイプ、増分コンバージョンでテーブルを昇↑または降順に並べ替える↓合は、列ヘッダーを選択して並べ替えを切り替えます。
 
-別のダイアログでテーブルを展開するには、を選択します。 **[!UICONTROL Expand]** から ![詳細](../assets/icons/More.svg).
+別のダイアログでテーブルを展開するには、を選択します。 **[!UICONTROL Expand]** から ![詳細](/help/assets//icons/More.svg).
 
 展開されたトップキャンペーン ダイアログには、と同じテーブルに対する追加列が表示されます
 
@@ -166,17 +166,17 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
       * RMSE （二乗平均誤差）：誤差の二乗に従って重み付けされた、平均誤差を表示します。
 
-  テーブルのデータを含む CSV ファイルをダウンロードするには、次を選択します ![Download](../assets/icons/Download.svg).
+  テーブルのデータを含む CSV ファイルをダウンロードするには、次を選択します ![Download](/help/assets//icons/Download.svg).
 
-* [!UICONTROL Touchpoint effectiveness] Attribution AIアルゴリズムモデルの結果を表すテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 を選択 **[!UICONTROL As of *xx/xx/xx、xx:xx TZ *]**![情報](../assets/icons/InfoOutline.svg) を参照してください。
+* [!UICONTROL Touchpoint effectiveness] Attribution AIアルゴリズムモデルの結果を表すテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 を選択 **[!UICONTROL As of *xx/xx/xx、xx:xx TZ *]**![情報](/help/assets//icons/InfoOutline.svg) を参照してください。
 
-  ビジュアライゼーションには、の降順で表示されます [!UICONTROL Efficiency measure] ![降順](../assets/icons/SortOrderDown.svg)、タッチポイントごとに：
+  ビジュアライゼーションには、の降順で表示されます [!UICONTROL Efficiency measure] ![降順](/help/assets//icons/SortOrderDown.svg)、タッチポイントごとに：
 
    * [!UICONTROL Paths touched]：コンバージョンを達成するパスの割合とコンバージョンを達成しないパスの割合を視覚化します。 タッチポイントの場合、アトリビューションコンバージョン率が高いと、より多くのアトリビューションコンバージョンが表示されます。 この比率では、コンバージョンにつながるパスの割合と、コンバージョンにつながるパスの割合が比較されます *ではない* コンバージョンにつながります。
    * [!UICONTROL Efficiency measure]：アルゴリズムアトリビューションモデルによって生成される効率測定は、タッチポイント量に関係なく、コンバージョンに対するタッチポイントの相対的な重要度を示します。 効率は 1～5 のスケールで測定されます。 タッチポイント量が多いからといって、効率測定が高くなるとは限りません。
    * [!UICONTROL Total volume]：ユーザーがタッチポイントにタッチした合計回数。 この数は、コンバージョンを達成するパスとパスに現れるタッチポイントを含みます *ではない* その結果、コンバージョンが発生しました。
 
-![診断](../assets/model-insights-diagnostics.png)
+![診断](/help/assets//model-insights-diagnostics.png)
 
 
 ## [!UICONTROL Historical overview]
@@ -195,4 +195,4 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
   このウィジェットに表示する別のボリュームベースのチャネルを選択できます。 チャネルを選択 **[!UICONTROL Channels]**.
 
-![モデル – 履歴の概要](../assets/model-insights-historical-overview.png)
+![モデル – 履歴の概要](/help/assets//model-insights-historical-overview.png)
