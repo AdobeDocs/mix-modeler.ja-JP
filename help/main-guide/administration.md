@@ -3,9 +3,9 @@ title: 管理
 description: Mix Modelerの管理方法を説明します。
 feature: Administration
 exl-id: 76d6d15d-a838-4ee2-9929-e55ea8946b80
-source-git-commit: 995f15b6d2dd99d5304a4cda7b1fa5f8a1d00023
+source-git-commit: 4d84c93121fc476cc6610ad572bab161bbacfc23
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '184'
 ht-degree: 2%
 
 ---
@@ -20,9 +20,9 @@ Adobe Experience Cloud UI で、次の操作を行います。
 
 1. を選択 **[!UICONTROL Permissions]** 左パネルの下から **[!UICONTROL ADMINISTRATION]**.
 
-1. を選択 {{user}} **[!UICONTROL Roles]** 左パネルから。
+1. を選択 ![ユーザー](/help/assets/icons/User.svg) **[!UICONTROL Roles]** 左パネルから。
 
-1. 既存の役割を選択するか、を使用して役割を作成します **[!UICONTROL Create role]** （例： **Mix Modeler**）に設定します。 既存の役割を選択する場合は、 {{edit}} **[!UICONTROL Edit]** ：役割の権限を編集します。 参照： [役割の管理](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
+1. 既存の役割を選択するか、を使用して役割を作成します **[!UICONTROL Create role]** （例： **Mix Modeler**）に設定します。 既存の役割を選択する場合は、 ![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]** ：役割の権限を編集します。 参照： [役割の管理](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
 
 1. その役割に 1 つ以上のサンドボックスを選択していることを確認してください。
 
