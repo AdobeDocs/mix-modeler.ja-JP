@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: 20d1fe74bfcdaca9ed994002f18011ce73042eb1
+source-git-commit: 63e57b6a9d48281691f9f2951ab1d6156ae5ed0b
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 44%
+source-wordcount: '80'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 + [Mix Modeler ガイド](/help/overview.md)
 
-+ はじめに {#get-started}
++ {#get-started} の基本を学ぶ
    + [Mix Modelerとは](/help/get-started/about.md)
    + [アプリケーションワークフロー](/help/get-started/workflow.md)
 
@@ -29,13 +29,13 @@ ht-degree: 44%
    + [モデルインサイト](/help/models/insights.md)
    + [スコアリングデータ](/help/models/scoring-data.md)
 
-+ プラン {#plans}
++ 計画 {#plans}
    + [概要](/help/plans/overview.md)
    + [プランを作成](/help/plans/create.md)
    + [プランを編集](/help/plans/edit.md)
    + [計画の比較](/help/plans/compare.md)
 
-+ データのハーモナイズ {#harmonize-data}
++ データ {#harmonize-data} ースのハーモナイズ
    + [概要](/help/harmonize-data/overview.md)
    + [フィールド](/help/harmonize-data/fields.md)
    + [データセットルール](/help/harmonize-data/dataset-rules.md)
@@ -59,6 +59,8 @@ ht-degree: 44%
 + リリース {#releases}
    + [最新リリース](/help/releases/latest.md)
    + [2023 年リリース](/help/releases/2023.md)
+
++ [スペクトルのテスト](/help/main-guide/test-spectrum.md)
 
 + [用語集](/help/main-guide/glossary.md)
 
