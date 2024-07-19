@@ -21,10 +21,10 @@ ht-degree: 7%
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
-| **MTA のビジュアライゼーション** | モデルインサイトが包括的で更新されました [MTA のビジュアライゼーション](../models/insights.md#attribution). | 2024 年 6 月 18 日（Pt） |
-| **CPA 指標** | CPA （アクションあたりのコスト）指標は、次の場所で使用できます [プランの比較](../plans/compare.md). | 2024 年 6 月 18 日（Pt） |
-| **フィールドレベルのアクセス制御** | データセットルールを定義する場合、のExperience Platform [属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) に適用されます [フィールドレベル](../harmonize-data/dataset-rules.md#field-level-access-control). | 2024 年 6 月 12 日（Pt） |
-| **事前知識タッチポイント** | で指定されたマーケティングタッチポイントのみ [!UICONTROL Configure] ステップは、で選択できます。 [[!UICONTROL Prior Knowledge]](../models/create.md) セクション。 | 2024 年 6 月 12 日（Pt） |
+| **MTA ビジュアライゼーション** | モデルインサイトが包括的な [MTA ビジュアライゼーション ](../models/insights.md#attribution) で更新されました。 | 2024 年 6 月 18 日（Pt） |
+| **CPA 指標** | CPA （アクションあたりのコスト）指標は、[ プランを比較 ](../plans/compare.md) で使用できます。 | 2024 年 6 月 18 日（Pt） |
+| **フィールドレベルのアクセス制御** | データセットルールを定義する場合、Experience Platformの [ 属性ベースのアクセス制御 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) が [ フィールドレベル ](../harmonize-data/dataset-rules.md#field-level-access-control) で適用されます。 | 2024 年 6 月 12 日（Pt） |
+| **事前知識タッチポイント** | [!UICONTROL Configure] の手順で指定したマーケティングタッチポイントのみが、「[[!UICONTROL Prior Knowledge]](../models/create.md)」セクションで選択できます。 | 2024 年 6 月 12 日（Pt） |
 
 {style="table-layout:auto"}
 
@@ -32,7 +32,7 @@ ht-degree: 7%
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
-| **データ結合環境設定** [!BADGE ベータ] | [データ結合環境設定](../harmonize-data/dataset-rules.md#data-merge-preferences) 要約されたデータソースとイベントデータソースのデータが結合される際の競合の解決に役立ちます。 | 2024 年 5 月 29 日（Pt） |
+| **データ結合環境設定**[!BADGE  ベータ版 ] | [ データ結合環境設定 ](../harmonize-data/dataset-rules.md#data-merge-preferences) は、要約されたデータソースとイベントデータソースのデータが結合される際の競合の解決に役立ちます。 | 2024 年 5 月 29 日（Pt） |
 
 {style="table-layout:auto"}
 
@@ -43,24 +43,24 @@ ht-degree: 7%
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
-| **日付再表示オプション** | 集計データセットの場合、を定義すると [個のルール](../harmonize-data/dataset-rules.md)を使用する場合、データの書き換えが集計によるものか置換によるものかを定義できます。 | 2024 年 4 月 1 日（Pt） |
-| **モデル品質の更新** | [モデル品質](/help/models/insights.md) モデルインサイトのに、モデル評価のビジュアライゼーションと、モデル適合指標を含むテーブルが表示されるようになりました。 | 2024 年 4 月 1 日（Pt） |
+| **日付修正再表示のオプション** | 集計データセットの場合、[ ルール ](../harmonize-data/dataset-rules.md) を定義する際に、データの書き換えが集計によるものか置換によるものかを定義できます。 | 2024 年 4 月 1 日（Pt） |
+| **モデル品質の更新** | モデルインサイトの [ モデル品質 ](/help/models/insights.md) に、モデル評価のビジュアライゼーションと、モデル適合指標を含むテーブルが表示されるようになりました。 | 2024 年 4 月 1 日（Pt） |
 
 
 ## 2024年1月
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
-| **ダウンロードの強化** | 次のことができます [完全なモデルインサイトのダウンロード](../models/insights.md) Microsoft®Excel フォーマット | 2024 年 1 月 31 日（Pt） |
-| **限界応答曲線** | [モデルインサイト](../models/insights.md) 限界応答曲線を表示する追加のウィジェットを提供します。 | 2024 年 1 月 31 日（Pt） |
-| **データ結合環境設定** | 以下を定義できます。 [データ結合環境設定](../harmonize-data/dataset-rules.md#data-merge-preferences) 統一データセットのデータセットルール用。 | 2024 年 1 月 31 日（Pt） |
-| **使用状況レポート** | 統一データセット UI には、追加のがあります [使用状況レポート](../harmonize-data/usage-report.md) タブ：モデルとコンバージョンの使用状況に関する追加のインサイトが表示されます。 | 2024 年 1 月 31 日（Pt） |
-| **プランインサイト UI の更新** | プランインサイト UI が更新され、レポートする ROI とチャネルを選択できるようになりました。 | 2024 年 1 月 31 日（Pt） |
+| **ダウンロードの強化** | Microsoft® Excel 形式で [ 完全なモデルインサイトをダウンロード ](../models/insights.md) できます | 2024 年 1 月 31 日（Pt） |
+| **限界反応曲線** | [ モデルインサイト ](../models/insights.md) には、限界応答曲線を表示する追加のウィジェットが用意されています。 | 2024 年 1 月 31 日（Pt） |
+| **データ結合環境設定** | 統一データセットのデータセットルールの [ データ結合環境設定 ](../harmonize-data/dataset-rules.md#data-merge-preferences) を定義できます。 | 2024 年 1 月 31 日（Pt） |
+| **使用状況レポート** | 統一データセット UI には、「[ 使用状況レポート ](../harmonize-data/usage-report.md) タブが追加され、モデルとコンバージョンの使用状況に関する追加のインサイトが提供されます。 | 2024 年 1 月 31 日（Pt） |
+| **更新されたプランインサイト UI** | プランインサイト UI が更新され、レポートする ROI とチャネルを選択できるようになりました。 | 2024 年 1 月 31 日（Pt） |
 
 {style="table-layout:auto"}
 
 
 >[!MORELIKETHIS]
 >
->* [Mix Modelerの概要](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
->* [Mix ModelerExperience Leagueドキュメント](https://experienceleague.adobe.com/ja/docs/mix-modeler)
+>* [Mix Modelerの概要 ](https://business.adobe.com/products/experience-platform/planning-and-measurement.html)
+>* [Mix ModelerExperience Leagueドキュメント ](https://experienceleague.adobe.com/ja/docs/mix-modeler)

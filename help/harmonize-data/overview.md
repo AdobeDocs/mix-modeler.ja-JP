@@ -27,7 +27,7 @@ Mix Modelerに使用できるデータセットが次のような場合を考え
 
 YouTubeのマーケティング活動データセットが含まれ、集計データセットの精度が日次に設定されます。
 
-| 日付 | 日付タイプ | チャネル | キャンペーン | ブランド | ジオ | クリック数 | 費用 |
+| 日付 | 日付タイプ | チャネル | Campaign | ブランド | ジオ | クリック数 | 費用 |
 |---|:--:|---|---|---|---|---:|---:|
 | 12-31-2021 | 日 | YouTube | Y_Fall_02 | BrandX | US | 10000 | 100 |
 | 01-01-2022 | 日 | YouTube | Y_Fall_02 | BrandX | US | 1000 | 10 |
@@ -41,7 +41,7 @@ YouTubeのマーケティング活動データセットが含まれ、集計デ�
 
 facebookのマーケティング活動データセットが含まれ、集計データセットの精度が毎週に設定されます。
 
-| 日付 | 日付タイプ | チャネル | キャンペーン | ジオ | クリック数 | 費用 |
+| 日付 | 日付タイプ | チャネル | Campaign | ジオ | クリック数 | 費用 |
 |--- |:---:|--- |---|---|---:|---:|
 | 01-01-2022 | 週間 | Facebook | FB_Fall_01 | US | 8000 | 100 |
 | 01-08-2022 | 週間 | Facebook | FB_Fall_02 | US | 1000 | 10 |
@@ -83,7 +83,7 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 **統一データセット**
 
-| 日付 | 日付タイプ | チャネル | キャンペーン | ブランド | ジオ | 目標 | クリック数 | 費用 | 収益 |
+| 日付 | 日付タイプ | チャネル | Campaign | ブランド | ジオ | 目標 | クリック数 | 費用 | 収益 |
 |--- |:---:|--- |--- |--- |---|---|---:|---:|---:|
 | 12-27-2021 | 週間 | YouTube | Y_Fall_02 | BrandX | US | ヌル | 11000 | 110 | ヌル |
 | 01-03-2022 | 週間 | YouTube | Y_Fall_01 | ブランド Y | CA | ヌル | 10000 | 100 | ヌル |
@@ -104,34 +104,34 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 ## 統一データの設定
 
-簡略化されたのように、統一されたデータセットを作成する場合 [例](#an-example-of-harmonized-data)は、次の手順に従う必要があります。
+簡略化された [ 例 ](#an-example-of-harmonized-data) のように統一データセットを作成するには、次の手順に従う必要があります。
 
-1. 追加の定義 [統一フィールド](fields.md) 既に使用可能なグローバル統一フィールド以外に使用する。
-1. の設定 [データセットルール](dataset-rules.md) 集計またはエクスペリエンスイベントデータセットのフィールドを統一されたフィールドにマッピングします。
-1. 定義 [マーケティングタッチポイント](marketing-touchpoints.md) 定義した標準および追加の統一フィールドを使用します。
-1. 定義 [コンバージョン](conversions.md) 定義した標準および追加の統一フィールドを使用します。
+1. 既に使用可能なグローバルな統一フィールドの他に使用する追加の [ 統一フィールド ](fields.md) を定義します。
+1. [ データセットルール ](dataset-rules.md) を設定して、集計またはエクスペリエンスイベントデータセットのフィールドを統一されたフィールドにマッピングします。
+1. 定義した標準および追加の統一フィールドを使用して [ マーケティングタッチポイント ](marketing-touchpoints.md) を定義します。
+1. 定義した標準フィールドと追加の統一フィールドを使用して、[ コンバージョン ](conversions.md) を定義します。
 
 
 ## 統一データの表示
 
 統一されたデータを表示するには、Mix Modelerインターフェイスで次の手順を実行します。
 
-1. を選択 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** 左パネルから。
+1. 左パネルから ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** を選択します。
 
-1. を選択 **[!UICONTROL Harmonized Data]** 上部バーから。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
+1. 上部バーの「**[!UICONTROL Harmonized Data]**」を選択します。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
 
-   1. 統一データの要約のベースとなる期間を再定義するには、次の日付範囲を入力します **[!UICONTROL Date range]** または使用 ![カレンダー](/help/assets//icons/Calendar.svg) をクリックしてデータ範囲を選択します。
+   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![ カレンダ ](/help/assets//icons/Calendar.svg) を使用してデータ範囲を選択します。
 
-   1. 統一データテーブルに表示される統一フィールド列を変更するには、を使用します ![設定](/help/assets//icons/Setting.svg) を開きます **[!UICONTROL Column settings]** ダイアログ。
+   1. 統一データテーブルに表示される統一フィールド列を変更するには、![ 設定 ](/help/assets//icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
 
-      1. を選択 ![SelectBox](/help/assets//icons/SelectBox.svg) からの 1 列以上 **[!UICONTROL AVAILABLE COLUMNS]** および使用 ![山形（右）](/help/assets//icons/ChevronRight.svg) これらの列を追加： **[!UICONTROL SELECTED COLUMNS]**.
+      1. **[!UICONTROL AVAILABLE COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets//icons/SelectBox.svg) 選択し、![ 右に山形 ](/help/assets//icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
 
-      1. を選択 ![SelectBox](/help/assets//icons/SelectBox.svg) からの 1 列以上 **[!UICONTROL SELECTED COLUMNS]** および使用 ![山形（左）](/help/assets//icons/ChevronLeft.svg) 選択した列を削除し、それらの列をに戻すには： **[!UICONTROL AVAILABLE COLUMNS]**.
+      1. **[!UICONTROL SELECTED COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets//icons/SelectBox.svg) 選択し、![ 左に山形記号 ](/help/assets//icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
 
-      1. 列を選択 **[!UICONTROL DEFAULT SORT]** との切り替え **[!UICONTROL Ascending]** または **[!UICONTROL Descending]**.
+      1. **[!UICONTROL DEFAULT SORT]** から列を選択し、**[!UICONTROL Ascending]** または **[!UICONTROL Descending]** を切り替えます。
 
-      1. 表示される列の順序を変更するには、で列を移動します **[!UICONTROL SELECTED COLUMNS]** ドラッグ&amp;ドロップで上下に移動します。
+      1. 表示される列の順序を変更するには、ドラッグ&amp;ドロップで列 **[!UICONTROL SELECTED COLUMNS]** 上下に移動します。
 
-   1. を選択 **[!UICONTROL Submit]** 列設定の変更を送信します。 を選択 **[!UICONTROL Close]** をクリックして変更をキャンセルします。
+   1. **[!UICONTROL Submit]** を選択して、列設定の変更を送信します。 「**[!UICONTROL Close]**」を選択して、加えた変更をキャンセルします。
 
-1. 他のページが使用可能な場合は、を使用します ![左矢印](/help/assets//icons/ChevronLeft.svg) または ![右矢印](/help/assets//icons/ChevronRight.svg) 時刻 **[!UICONTROL Page _x _件中_x_]** ページ間を移動する
+1. 他のページが使用可能な場合は、![x](/help/assets//icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets//icons/ChevronRight.svg) または_ 右向き矢印_]** を使用してページ間を移動します。

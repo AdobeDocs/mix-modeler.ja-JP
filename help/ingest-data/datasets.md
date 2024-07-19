@@ -16,11 +16,11 @@ Experience Platformで取り込み、Mix Modelerで使用するデータを含�
 
 1. Mix Modelerインターフェイスに移動します。
 
-1. を選択 ![データ](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]**&#x200B;の下 **[!UICONTROL SETUP]**.
+1. **[!UICONTROL SETUP]** の下の ![Data](/help/assets//icons/Data.svg) **[!UICONTROL Datasets]** を選択します。
 
-を参照してください。 [データセット UI ガイド](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) を参照してください。
+詳しくは、[ データセット UI ガイド ](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/user-guide.html?lang=en) を参照してください。
 
 >[!MORELIKETHIS]
 >
->* [データの取り込み](overview.md)
+>* [ データの取り込み ](overview.md)
 >* [スキーマ](schemas.md)

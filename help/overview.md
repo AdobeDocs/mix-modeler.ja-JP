@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # Adobe Mix Modelerガイド
 
-この技術ドキュメントガイドでは、Adobeに関するセルフヘルプの支援を提供します **Mix Modeler**. Mix Modelerは、キャンペーンを測定し、有料、獲得、所有などのすべてのチャネルにわたって計画を総合的に最適化するAdobe Experience Cloud アプリケーションです。 Mix ModelerはAdobe Experience Platformをベースに構築され、Adobe Senseiを活用しています。
+この技術ドキュメントガイドでは、Adobe **のMix Modeler** に関するセルフヘルプの支援を提供します。 Mix Modelerは、キャンペーンを測定し、有料、獲得、所有などのすべてのチャネルにわたって計画を総合的に最適化するAdobe Experience Cloud アプリケーションです。 Mix ModelerはAdobe Experience Platformをベースに構築され、Adobe Senseiを活用しています。
 
 ## 基本について学ぶ
 
@@ -21,20 +21,20 @@ ht-degree: 18%
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong>クイックスタート</strong><br/>Mix Modelerのワークフローの概要とインサイトを説明します。</div>
+    <div><strong> クイックスタート </strong><br/>Mix Modelerのワークフローの概要とインサイトを取得します。</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong>データの取り込み</strong><br/>イベントおよび集計または概要データをMix Modelerに取り込む方法を説明します。</div>
+    <div><strong> データの取り込み </strong><br/> イベントおよび集計または概要データをMix Modelerに取り込む方法を説明します。</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
-    <div><strong>データのハーモナイズ</strong><br/>集計データとイベントデータを一貫性のあるデータビューに同化する方法を説明します。 
+    <div><strong> データの調和 </strong><br/> 集計データとイベントデータを一貫性のあるデータビューに同化する方法を説明します。 
     </div>
     </td>
     <td>
     <a href="/help/models/overview.md"><img src="assets/models-mm.png"></a>
-    <div><strong>モデルとプラン</strong><br/>モデルのトレーニングとスコアリングを行い、マーケティングプランにインサイトを使用します。</div>
+    <div><strong> モデルとプラン </strong><br/> モデルのトレーニングとスコアリングを行い、マーケティングプランにインサイトを使用します。</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -52,29 +52,29 @@ ht-degree: 18%
   <tr style="border: 0;">
     <td>
       <img src="assets/Data.svg" width="35px"><br/>
-      <strong>データの取り込み</strong><br/><a href="/help/ingest-data/overview.md">概要</a> - <a href="/help/ingest-data/schemas.md">スキーマ</a> - <a href="/help/ingest-data/datasets.md">データセット</a> 
+      <strong> データの取り込み </strong><br/><a href="/help/ingest-data/overview.md"> 概要 </a> - <a href="/help/ingest-data/schemas.md"> スキーマ </a> - <a href="/help/ingest-data/datasets.md"> データセット </a> 
     </td>
     <td>
       <img src="assets/DataCheck.svg" width="35px"><br/>
-      <strong>データのハーモナイズ</strong><br/><a href="/help/harmonize-data/overview.md">概要</a> - <a href="/help/harmonize-data/fields.md">フィールド</a>  - <a href="/help/harmonize-data/dataset-rules.md">データセットルール</a> - <a href="/help/harmonize-data/marketing-touchpoints.md">マーケティングタッチポイント</a> - <a href="/help/harmonize-data/conversions.md">コンバージョン</a> - <a href="/help/harmonize-data/usage-report.md">使用状況レポート</a>  
+      <strong> データの調和 </strong><br/><a href="/help/harmonize-data/overview.md"> 概要 </a> - <a href="/help/harmonize-data/fields.md"> フィールド </a> - <a href="/help/harmonize-data/dataset-rules.md"> データセットルール </a> - <a href="/help/harmonize-data/marketing-touchpoints.md"> マーケティングタッチポイント </a> - <a href="/help/harmonize-data/conversions.md"> コンバージョン </a> - <a href="/help/harmonize-data/usage-report.md"> 使用状況レポート </a>  
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong>モデル</strong><br/><a href="/help/models/overview.md">概要</a> - <a href="/help/models/create.md">モデルの作成</a> - <a href="/help/models/insights.md">モデルインサイト</a> - <a href="/help/models/scoring-data.md">スコアリングデータ</a>
+      <strong> モデル </strong><br/><a href="/help/models/overview.md"> 概要 </a> - <a href="/help/models/create.md"> モデルを作成 </a> - <a href="/help/models/insights.md"> モデルインサイト </a> - <a href="/help/models/scoring-data.md"> スコアリングデータ </a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong>プラン</strong><br/><a href="/help/plans/overview.md">プラン</a> - <a href="/help/plans/create.md">プランを作成</a> - <a href="/help/plans/compare.md">計画の比較</a> - <a href="/help/plans/edit.md">プランを編集</a>
+      <strong> 計画 </strong><br/><a href="/help/plans/overview.md"> 計画 </a> - <a href="/help/plans/create.md"> 計画の作成 </a> - <a href="/help/plans/compare.md"> 計画の比較 </a> - <a href="/help/plans/edit.md"> 計画の編集 </a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>
-      <strong>概要</strong><br/><a href="/help/dashboard/overview.md">スキーマ</a> - <a href="/help/dashboard/harmonized-data.md">統一データ</a> - <a href="/help/dashboard/plans.md">プラン</a>
+      <strong> 概要 </strong><br/><a href="/help/dashboard/overview.md"> スキーマ </a> - <a href="/help/dashboard/harmonized-data.md"> 統一データ </a> - <a href="/help/dashboard/plans.md"> 計画 </a>
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">概要</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en">ユースケース</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en">ユーザーワークフロー</a>  - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en">ユーザーインターフェイスツアー</a>
+      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en"> 概要 </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en"> ユースケース </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en"> ユーザーワークフロー </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en"> ユーザーインターフェイスツアー </a>
     </td>
   </tr>
 </table>

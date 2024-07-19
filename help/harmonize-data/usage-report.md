@@ -16,12 +16,12 @@ ht-degree: 0%
 
 統一データの使用状況レポートを表示するには：
 
-1. を選択 ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** 左パネルから。
+1. 左パネルから ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** を選択します。
 
-1. を選択 **[!UICONTROL Usage report]** 上部バーから。
+1. 上部バーの「**[!UICONTROL Usage report]**」を選択します。
 
 使用状況レポートの表示内容は次のとおりです。
 
-* を一覧表示したテーブル **[!UICONTROL # of Models]** 調和されたデータを使用したことがある
+* 統一データを使用した **[!UICONTROL # of Models]** の一覧表
 
-* を一覧表示したテーブル **[!UICONTROL # of Conversions (last 5 years)]** 統一データが使用されている テーブルの精度を選択するには、以下を選択します。 **[!UICONTROL Year]** または **[!UICONTROL Month]** から **[!UICONTROL View by selection]**.
+* 統一データを使用した **[!UICONTROL # of Conversions (last 5 years)]** の一覧表 テーブルの精度を選択するには、**[!UICONTROL View by selection]** ールバーから「**[!UICONTROL Year]**」または「**[!UICONTROL Month]**」を選択します。

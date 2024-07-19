@@ -19,16 +19,16 @@ Mix Modelerのユーザーワークフローの概要については、このビ
 
 Mix Modelerの一般的なワークフローは、次のアクティビティで構成されます。
 
-![代替テキスト](/help/assets//ApplicationWorkflow.svg)
+![ 代替テキスト ](/help/assets//ApplicationWorkflow.svg)
 
 |  | Activity | 説明 |
 |---|---|---|
 | ![データ](/help/assets//icons/Data.svg){width="100"} | [**データの取り込み**](../ingest-data/overview.md) | Experience Platform（Adobe Analytics、Web SDK、その他のソースなど）からのイベントデータ、マーケティングチャネル（テレビ、壁庭、メール、所有および運営アクティビティなど）からの集計データ、顧客からの外部要因データ（購読サービスの価格変化など）および内部要因データ（休暇プランなど）を取り込みます。 |
-| ![DataCheck](/help/assets//icons/DataCheck.svg){width="100"} | [**データのハーモナイズ**](../harmonize-data/overview.md) | マッピングルールと競合解決ルールを設定して、Mix Modelerでキャンペーンのパフォーマンスを測定および計画するために必要な様々なマーケティングデータセットを結合します。 |
+| ![ データチェック ](/help/assets//icons/DataCheck.svg){width="100"} | [**データのハーモナイズ**](../harmonize-data/overview.md) | マッピングルールと競合解決ルールを設定して、Mix Modelerでキャンペーンのパフォーマンスを測定および計画するために必要な様々なマーケティングデータセットを結合します。 |
 | ![FileConfig](/help/assets//icons/FileGear.svg){width="100"} | [**モデルの設定**](../models/create.md) | マーケティングタッチポイント（チャネルなど）、コンバージョン定義、内部要因および外部要因を持つモデルインスタンスを設定します。 |
 | ![FileData](/help/assets//icons/FileData.svg){width="100"} | [**モデルのトレーニングとスコアリング**](../models/overview.md) | 機械学習のトレーニングとスコアリングを使用して、集計レベルとイベントレベルのスコアを作成します。 |
 | ![FileChart](/help/assets//icons/FileChart.svg){width="100"} | [**プランの作成**](../plans/overview.md) | Mix Modelerのモデルの出力を使用して、ビジネス目標を達成するためのマーケティング資金の最適な配分を決定します。 |
-| ![Dashboard](/help/assets//icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 様々な設定可能なウィジェットを使用して、統一されたデータ、モデルおよびプランに関するインサイトを取得します。 |
+| ![ ダッシュボード ](/help/assets//icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 様々な設定可能なウィジェットを使用して、統一されたデータ、モデルおよびプランに関するインサイトを取得します。 |
 
 {style="table-layout:auto"}
 
@@ -47,4 +47,4 @@ Mix Modelerの一般的なワークフローは、次のアクティビティで
 
 * マルチタッチのアトリビューションイベントスコアは、後続のモデル設定、トレーニングおよびスコアリングで使用するために、Experience Platformデータレイクにフィードバックされる可能性があります。
 
-![包括的なワークフロー](/help/assets//comprehensive-workflow.svg)
+![ 包括的なワークフロー ](/help/assets//comprehensive-workflow.svg)

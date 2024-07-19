@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Mix Modelerの概要ダッシュボードを使用すると、様々な設定可能なウィジェットを使用して、統一されたデータと計画の概要を把握できます。
 
-概要にアクセスするには、を選択します ![ホーム](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** Mix Modelerインターフェイスの左パネルから。
+概要にアクセスするには、Mix Modelerインターフェイスの左パネルから ![Home](/help/assets//icons/Home.svg) **[!UICONTROL Overview]** を選択します。
 
 ここから、次の項目に関する詳細を取得できます。
 

@@ -1,6 +1,6 @@
 ---
 title: スコアリングデータ
-description: モデルのスコアリングデータをMix Modelerで保持する方法を説明します。
+description: Mix Modelerでのモデルのスコアリングデータの保持方法を説明します。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
 source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
@@ -12,32 +12,32 @@ ht-degree: 8%
 
 # スコアリングデータ
 
-モデルのスコアリングの一環として、スコアリングデータは、データセット内のExperience Platformに保持されます。 このデータセットは、スキーマインスタンスの各モデルに対して作成されたMix Modelerに準拠します。
+モデルのスコアリングの一環として、スコアリングデータはExperience Platformのデータセット内に保持されます。 このデータセットは、Mix Modelerインスタンスの各モデル用に作成されたスキーマに準拠しています。
 
-スコアリングデータのスキーマの名前は、次のようになります。 `AMM AI Schema - <name of model> <id>`. 例：`AMM AI Schema - Model for Online Conversion 10120`。
+スコアリングデータのスキーマには、`AMM AI Schema - <name of model> <id>` のような名前が付けられます。 例：`AMM AI Schema - Model for Online Conversion 10120`。
 
-モデルのスコアリングデータを保持するデータセットの名前は、次のようになります。 `AMM AI Aggregrate Scores - <id>`例： `AMM AI Aggregrate Scores - 10120`.
+モデルのスコアリングデータを保持するデータセットには、`AMM AI Aggregrate Scores - <id>` のような名前が付けられます（例：`AMM AI Aggregrate Scores - 10120`）。
 
 
 ## スキーマ
 
-スキーマには、スコアに関する詳細を含むオブジェクトを持つフィールドグループが含まれます。 このオブジェクトは、次のフィールドで構成されます。
+スキーマには、スコアに関する詳細を含むオブジェクトを持つフィールドグループが含まれています。 オブジェクトは、次のフィールドで構成されます。
 
 | フィールド名 | タイプ | 定義 |
 |---|---|---|
 | **campaignGroup** | 文字列 | キャンペーングループの名前。 |
 | **campaignName** | 文字列 | キャンペーンの名前。 |
-| **投稿** | Double | 特定のタッチポイントに対するこのコンバージョンに起因する貢献度。 |
-| **conversionEndDate** | 日付 | 変換ウィンドウの終了日です。 |
-| **conversionName** | 文字列 | 変換定義の設定手順で作成された変換の名前。 |
-| **conversionStartDate** | 日付 | 変換ウィンドウの開始日です。 |
-| **地域** | 文字列 | コンバージョンが発生した地理的な場所。 |
+| **投稿** | Double | 特定のタッチポイントに対してこのコンバージョンに起因する貢献度。 |
+| **conversionEndDate** | 日付 | コンバージョンウィンドウの終了日。 |
+| **conversionName** | 文字列 | コンバージョン定義の設定手順で作成されたコンバージョンの名前。 |
+| **conversionStartDate** | 日付 | コンバージョンウィンドウの開始日。 |
+| **geo** | 文字列 | コンバージョンが発生した地理的位置。 |
 | **mediaChannel** | 文字列 | タッチポイントの設定手順で使用されたチャネルの名前。 |
 | **mediaSubChannel** | 文字列 | サブチャネルの名前。 |
-| **売上高** | Double | 特定のタッチポイントに対するこのコンバージョンに起因する売上高。 |
+| **売上高** | Double | 特定のタッチポイントに対してこのコンバージョンに起因する収益。 |
 | **scoreCreatedTime** | 日時 | このスコアレコードが作成された時間。 |
-| **touchpointEndDate** | 日付 | タッチポイントウィンドウの終了日です。 |
-| **touchpointName** | 文字列 | タッチポイントの定義の設定手順中に作成されたタッチポイントの名前です。 現在、タッチポイントはメディアチャネルで定義されています。 |
-| **touchpointStartDate** | 日付 | タッチポイントウィンドウの開始日です。 |
+| **touchpointEndDate** | 日付 | タッチポイントウィンドウの終了日。 |
+| **touchpointName** | 文字列 | タッチポイント定義の設定手順で作成されたタッチポイントの名前。 現在、タッチポイントはメディアチャネルで定義されています。 |
+| **touchpointStartDate** | 日付 | タッチポイントウィンドウの開始日。 |
 
-詳しくは、 [スキーマ](../ingest-data/schemas.md) を参照してください。
+詳しくは、[ スキーマ ](../ingest-data/schemas.md) を参照してください。

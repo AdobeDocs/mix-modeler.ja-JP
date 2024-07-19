@@ -12,137 +12,137 @@ ht-degree: 0%
 
 # モデルの作成
 
-モデルを作成するには、 ![モデル](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** Mix Modelerのインターフェイスで、を選択します **[!UICONTROL Open model canvas]**.
+モデルを作成するには、Mix Modelerの ![ モデル ](/help/assets//icons/FileData.svg)**[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
 
 AI を利用したカスタムモデルを作成するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
 
-1. が含まれる **[!UICONTROL Setup]** 手順：
+1. **[!UICONTROL Setup]** の手順で、次の操作を行います。
 
-   1. モデルを入力 **[!UICONTROL Name]**、例： `Demo model`. を入力 **[!UICONTROL Description]**、例： `Demo model to explore AI featues of Mix Modeler`.
+   1. モデル **[!UICONTROL Name]** （例：`Demo model`）を入力します。 **[!UICONTROL Description]** （例：`Demo model to explore AI featues of Mix Modeler`）を入力します。
 
-      ![モデルの名前と説明](/help/assets//model-name-description.png)
+      ![ モデルの名前と説明 ](/help/assets//model-name-description.png)
 
-   1. を選択 **[!UICONTROL Next]** をクリックして、次の手順に進みます。 を選択 **[!UICONTROL Cancel]** をクリックして、モデル設定をキャンセルします。
+   1. 「**[!UICONTROL Next]**」を選択して、次の手順に進みます。 モデル設定をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
-1. が含まれる **[!UICONTROL Configure]** 手順：
+1. **[!UICONTROL Configure]** の手順で、次の操作を行います。
 
-   1. が含まれる **[!UICONTROL Conversion goal]** セクションのコンテナ内：
+   1. **[!UICONTROL Conversion goal]** セクションのコンテナ内で：
 
-      1. を入力 **[!UICONTROL Conversion name]** 変換用（例：） `Conversion`
+      1. コンバージョンの **[!UICONTROL Conversion name]** を入力します（例：`Conversion`）。
 
-      1. コンバージョンを次から選択 **[!UICONTROL *統一フィールドを選択&#x200B;*]**。の一部として定義した使用可能なコンバージョンが含まれます。 [コンバージョン](../harmonize-data/conversions.md) 。対象： [!UICONTROL Harmonized datasets]. 例：**[!UICONTROL Online Conversion]**。
+      1. コンバージョンの **[!UICONTROL *コンバージョン&#x200B;*]**の一部として定義した使用可能なコンバージョンを含む、[ 統一フィールドを選択 ](../harmonize-data/conversions.md) からコンバージョンを選 [!UICONTROL Harmonized datasets] します。 例：**[!UICONTROL Online Conversion]**。
 
-      1. 以下を選択できます。 ![返信](/help/assets//icons/Reply.svg) **[!UICONTROL Create new conversion]** を使用して、モデル設定内から直接コンバージョンを作成します。
+      1. ![ 返信 ](/help/assets//icons/Reply.svg)**[!UICONTROL Create new conversion]** を選択して、モデル設定内から直接コンバージョンを作成できます。
 
-         ![モデル – コンバージョンステップ](/help/assets//model-conversion-step.png)
+         ![ モデル – コンバージョンステップ ](/help/assets//model-conversion-step.png)
 
-   1. が含まれる **[!UICONTROL Marketing touchpoints]** セクションには、一部として定義したマーケティングタッチポイントに対応する、多数のマーケティングタッチポイントコンテナが表示されます [マーケティングタッチポイント](../harmonize-data/marketing-touchpoints.md) 。対象： [!UICONTROL Harmonized datasets].
+   1. **[!UICONTROL Marketing touchpoints]** のセクションには、[!UICONTROL Harmonized datasets] で [ マーケティングタッチポイント ](../harmonize-data/marketing-touchpoints.md) の一部として定義したマーケティングタッチポイントに対応するマーケティングタッチポイントコンテナが多数表示されます。
 
       * コンテナごとに、次の手順を実行します。
 
-         1. を変更できます **[!UICONTROL Marketing touchpoint name]**.
+         1. **[!UICONTROL Marketing touchpoint name]** を変更できます。
 
-         1. 次の中からマーケティングタッチポイントを選択 **[!UICONTROL _マーケティングタッチポイントを選択_]**.
+         1. **[!UICONTROL _マーケティングタッチポイントを選択_]** からマーケティングタッチポイントを選択します。
 
-         1. 以下を選択できます。 ![返信](/help/assets//icons/Reply.svg) **[!UICONTROL Create new marketing touchpoint]** モデル設定内から直接マーケティングタッチポイントを作成します。
+         1. ![ 返信 ](/help/assets//icons/Reply.svg)**[!UICONTROL Create new marketing touchpoint]** を選択して、モデル設定内から直接マーケティングタッチポイントを作成できます。
 
-      * マーケティングタッチポイントコンテナを追加するには、を選択します ![追加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add marketing touchpoint]**.
+      * マーケティングタッチポイントコンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」を選択 **[!UICONTROL Add marketing touchpoint]** ます。
 
-      * マーケティングタッチポイントコンテナを削除するには、コンテナ内で、以下を選択します ![詳細](/help/assets//icons/More.svg)を選択し、 **[!UICONTROL Remove container]** コンテキストメニューから。
+      * マーケティングタッチポイントコンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから **[!UICONTROL Remove container]** を選択します。
 
-        ![モデル – マーケティングタッチポイントステップ](/help/assets//model-marketing-touchpoint-step.png)
+        ![ モデル – マーケティングタッチポイントステップ ](/help/assets//model-marketing-touchpoint-step.png)
 
-   1. デフォルトでは、統一ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットにのみスコアを付けるには、のコンテナを使用して 1 つ以上のフィルターを定義します。 **[!UICONTROL Eligible data population]** セクション。
+   1. デフォルトでは、統一ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットにのみスコアを付けるには、「**[!UICONTROL Eligible data population]**」セクションのコンテナを使用して 1 つ以上のフィルターを定義します。
 
       * 各コンテナに対して 1 つ以上のイベントを定義します。
 
          1. 各イベントに対して：
 
-            1. 指標またはディメンションを次から選択 **[!UICONTROL _統一フィールドを選択_]**.
+            1. **[!UICONTROL _統一フィールドを選択_]** から指標またはディメンションを選択します。
 
-            1. 適切な演算子を選択します。 **[!UICONTROL equals]**, **[!UICONTROL not equals]**, **[!UICONTROL less than]**, **[!UICONTROL greater than]**, **[!UICONTROL starts with]**, **[!UICONTROL doesn't start with]**, **[!UICONTROL ends with]**, **[!UICONTROL doesn't end with]**, **[!UICONTROL contains]**, **[!UICONTROL doesn't contain]**, **[!UICONTROL is in]**、または **[!UICONTROL is not in]**.
+            1. 適切な演算子（**[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]** または **[!UICONTROL is not in]**）を選択します。
 
-            1. で値を入力または選択 **[!UICONTROL _値を入力または選択_]**.
+            1. **[!UICONTROL _値を入力または選択_]** で値を入力または選択します。
 
-         1. コンテナにイベントを追加するには、以下を選択します ![追加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add event]**.
+         1. コンテナにイベントを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」を選択し **[!UICONTROL Add event]** す。
 
-         1. コンテナからイベントを削除するには、以下を選択します ![閉じる](/help/assets//icons/Close.svg).
+         1. コンテナからイベントを削除するには、「![ 閉じる ](/help/assets//icons/Close.svg) を選択します。
 
-         1. コンテナで定義されたすべてのイベントまたは複数のイベントを使用してフィルタリングするには、以下を選択します。 **[!UICONTROL Any of]** または **[!UICONTROL All of]**. それに応じて、ラベルは次のように変更されます。 **[!UICONTROL Include ... Or ...]** 対象： **[!UICONTROL Include ... And ...]**.
+         1. コンテナで定義したすべてのイベントまたは複数のイベントを使用してフィルタリングするには、「**[!UICONTROL Any of]**」または「**[!UICONTROL All of]**」を選択します。 それに応じて、ラベルが **[!UICONTROL Include ... Or ...]** から **[!UICONTROL Include ... And ...]** に変更されます。
 
-      * 適格なデータ母集団コンテナを追加するには、 ![追加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add eligible population]**.
+      * 適格なデータ母集団コンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」 **[!UICONTROL Add eligible population]** を選択します。
 
-      * 適格なデータ母集団コンテナを削除するには、コンテナ内で、 ![詳細](/help/assets//icons/More.svg)を選択し、 **[!UICONTROL Remove marketing touchpoint]** コンテキストメニューから。
+      * 適格なデータ母集団コンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove marketing touchpoint]**」を選択します。
 
-        ![モデル – 対象データ母集団](/help/assets//model-eligible-data-population-step.png)
+        ![ モデル – 適格なデータ母集団 ](/help/assets//model-eligible-data-population-step.png)
 
-   1. 外部要因を含むデータセットをモデルに追加するには、内の 1 つ以上のコンテナを使用します **[!UICONTROL External factors dataset]** セクション。
-
-      * コンテナごとに、次の手順を実行します。
-
-         1. を入力 **[!UICONTROL Factor name]** 時刻 **[!UICONTROL _係数を入力_]**.
-
-         1. からデータセットを選択 **[!UICONTROL _データセットを選択_]**. 以下を選択できます。 ![データ](/help/assets//icons/Data.svg) でデータセットを管理します。 参照： [データセット](../ingest-data/datasets.md) を参照してください。
-
-      * 外部要因データセットコンテナを追加するには、以下を選択します ![追加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add external factor]**.
-
-      * 外部要因データセットコンテナを削除するには、コンテナ内で、次を選択します ![詳細](/help/assets//icons/More.svg)を選択し、 **[!UICONTROL Remove external factor]** コンテキストメニューから。
-
-        ![モデル – 外部要因データセット](/help/assets//model-external-factors-dataset-step.png)
-
-
-   1. 内部要因を含むデータセットをモデルに追加するには、内の 1 つ以上のコンテナを使用します **[!UICONTROL Internal factors dataset]** セクション。
+   1. 外部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL External factors dataset]**」セクションの 1 つ以上のコンテナを使用します。
 
       * コンテナごとに、次の手順を実行します。
 
-         1. を入力 **[!UICONTROL Factor name]** 時刻 **[!UICONTROL _係数を入力_]**.
+         1. **[!UICONTROL _係数を入力_]** で **[!UICONTROL Factor name]** を入力します。
 
-         1. からデータセットを選択 **[!UICONTROL _データセットを選択_]**. 以下を選択できます。 ![データ](/help/assets//icons/Data.svg) でデータセットを管理します。 参照： [データセット](../ingest-data/datasets.md) を参照してください。
+         1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets//icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
-      * 内部要因データセットコンテナを追加するには、以下を選択します ![追加](/help/assets//icons/AddCircle.svg) **[!UICONTROL Add internal factor]**.
+      * 追加の外部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」 **[!UICONTROL Add external factor]** プションを選択します。
 
-      * 追加の内部要因データセットコンテナを削除するには、コンテナ内で、次のオプションを選択します ![詳細](/help/assets//icons/More.svg)、および **[!UICONTROL Remove internal factor]** コンテキストメニューから。
+      * 外部要因データセットコンテナを削除するには、コンテナ内で ![ その他 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove external factor]**」を選択します。
 
-        ![モデル – 内部要因データセット](/help/assets//model-internal-factors-dataset-step.png)
+        ![ モデル – 外部要因データセット ](/help/assets//model-external-factors-dataset-step.png)
 
-   1. モデルのルックバックウィンドウを定義するには、以下の値を入力します `1` および `52` 。対象： **[!UICONTROL Give contribution credit to touchpoints occurring within]** ... **[!UICONTROL weeks prior to the conversion]**.
 
-   1. を選択 **[!UICONTROL Next]** をクリックして、次の手順に進みます。 さらに設定が必要な場合は、赤いアウトラインとテキストで、必要な追加設定を説明します。 <br/>を選択 **[!UICONTROL Back]** 前の手順に戻ります。 <br/>を選択 **[!UICONTROL Cancel]** をクリックして、モデル設定をキャンセルします。
+   1. 内部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL Internal factors dataset]**」セクションの 1 つ以上のコンテナを使用します。
 
-1. が含まれる **[!UICONTROL Advanced]** 手順：
+      * コンテナごとに、次の手順を実行します。
 
-   1. が含まれる **[!UICONTROL Define training window]** セクション、次から選択
+         1. **[!UICONTROL _係数を入力_]** で **[!UICONTROL Factor name]** を入力します。
 
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** および
+         1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets//icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
-      * **[!UICONTROL Manually input a training window]**。選択した場合、で年数を定義します **[!UICONTROL Include events the following years prior to a conversion]**.
+      * 内部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」 **[!UICONTROL Add internal factor]** プションを選択します。
 
-        ![モデル – トレーニングウィンドウを定義](/help/assets//model-define-training-window.png)
+      * 追加の内部要因データセットコンテナを削除するには、コンテナ内で ![ その他 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから **[!UICONTROL Remove internal factor]** を選択します。
 
-   1. が含まれる **[!UICONTROL Spend share]** セクション：
+        ![ モデル – 内部要因データセット ](/help/assets//model-internal-factors-dataset-step.png)
 
-      * マーケティング・データが疎の場合にマーケティング投資比率の履歴を使用してモデルに通知するには、次をアクティブ化します **[!UICONTROL Allow spend share]**.
+   1. モデルのルックバックウィンドウを定義するには、... **[!UICONTROL weeks prior to the conversion]** ードに `1` ～ `52` の値 **[!UICONTROL Give contribution credit to touchpoints occurring within]** 入力します。
 
-   1. が含まれる **[!UICONTROL Prior knowledge]** セクション：
+   1. 「**[!UICONTROL Next]**」を選択して、次の手順に進みます。 さらに設定が必要な場合は、赤いアウトラインとテキストで、必要な追加設定を説明します。 <br/> 「**[!UICONTROL Back]**」を選択して前の手順に戻ります。 <br/> 「**[!UICONTROL Cancel]**」を選択すると、モデル設定がキャンセルされます。
+
+1. **[!UICONTROL Advanced]** の手順で、次の操作を行います。
+
+   1. **[!UICONTROL Define training window]** セクションで、次のいずれかを選択します
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** と
+
+      * **[!UICONTROL Manually input a training window]**。選択した場合、年 **[!UICONTROL Include events the following years prior to a conversion]** を定義します。
+
+        ![ モデル – トレーニングウィンドウを定義 ](/help/assets//model-define-training-window.png)
+
+   1. **[!UICONTROL Spend share]** のセクションで以下を実行します。
+
+      * マーケティングデータが分散している場合にマーケティング投資率の履歴を使用してモデルに通知するには、**[!UICONTROL Allow spend share]** をアクティブ化します。
+
+   1. **[!UICONTROL Prior knowledge]** のセクションで以下を実行します。
 
       1. 「**[!UICONTROL Rule type]**」を選択します。
 
-      1. の下にリストされているいずれかのチャネルについて、貢献度の割合を指定します。 **[!UICONTROL Name]**、を使用 **[!UICONTROL Contribution proportion]** 列。
+      1. **[!UICONTROL Contribution proportion]** 列を使用して、**[!UICONTROL Name]** の下にリストされているすべてのチャネルの貢献度の割合を指定します。
 
-      1. 必要に応じて、各チャネルのに **[!UICONTROL Level of confidence]** 割合。
+      1. 必要に応じて、各チャネルに **[!UICONTROL Level of confidence]** の割合を追加できます。
 
-      1. 必要に応じて、を使用します **[!UICONTROL Clear all]** すべての入力値を消去する手順は、次のとおりです： **[!UICONTROL Contribution proportion]** および **[!UICONTROL Level of confidence]** 列。
+      1. 必要に応じて、**[!UICONTROL Clear all]** を使用して、**[!UICONTROL Contribution proportion]** 列と **[!UICONTROL Level of confidence]** 列のすべての入力値をクリアします。
 
-         ![モデル – 予備知識](/help/assets//model-prior-knowledge-step.png)
+         ![ モデル – 予備知識 ](/help/assets//model-prior-knowledge-step.png)
 
-1. を選択 **[!UICONTROL Finish]** モデルの設定を完了します。
+1. 「**[!UICONTROL Finish]**」を選択すると、モデルの設定が完了します。
 
-   * が含まれる **[!UICONTROL Create instance?]** ダイアログ、選択 **[!UICONTROL Ok]** トレーニング実行とスコアリング実行の最初のセットをすぐにトリガーするには： モデルがステータスと共に表示されます <span style="color:orange">●</span> **[!UICONTROL Awaiting training]**。
+   * **[!UICONTROL Create instance?]** ダイアログで、「**[!UICONTROL Ok]**」を選択して、トレーニング実行とスコアリング実行の最初のセットをすぐにトリガーにします。 モデルがステータス <span style="color:orange">●</span> で表示されます **[!UICONTROL Awaiting training]**。
 
-     を選択 **[!UICONTROL Cancel]** をキャンセルします。
+     キャンセルする **[!UICONTROL Cancel]** を選択します。
 
    * さらに設定が必要な場合は、赤いアウトラインとテキストで、必要な追加設定を説明します。
 
-   を選択 **[!UICONTROL Back]** 前の手順に戻ります。
+   「**[!UICONTROL Back]**」を選択して前の手順に戻ります。
 
-   を選択 **[!UICONTROL Cancel]** をクリックして、モデル設定をキャンセルします。
+   モデル設定をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。

@@ -14,7 +14,7 @@ ht-degree: 8%
 
 ## ThreeDMaterial {#threedmaterial}
 
-![3D マテリアル](/help/assets/icons/3DMaterial.svg)
+![3D マテリアル ](/help/assets/icons/3DMaterial.svg)
 
 ## ABC {#abc}
 
@@ -34,11 +34,11 @@ ht-degree: 8%
 
 ## 広告プリント {#adprint}
 
-![広告プリント](/help/assets/icons/AdPrint.svg)
+![AdPrint](/help/assets/icons/AdPrint.svg)
 
 ## 追加 {#add}
 
-![追加](/help/assets/icons/Add.svg)
+![ 追加 ](/help/assets/icons/Add.svg)
 
 ## AddCircle {#addcircle}
 
@@ -58,7 +58,7 @@ ht-degree: 8%
 
 ## 飛行機 {#airplane}
 
-![飛行機](/help/assets/icons/Airplane.svg)
+![ 飛行機 ](/help/assets/icons/Airplane.svg)
 
 ## アラート {#alert}
 
@@ -82,11 +82,11 @@ ht-degree: 8%
 
 ## アルゴリズム {#algorithm}
 
-![アルゴリズム](/help/assets/icons/Algorithm.svg)
+![ アルゴリズム ](/help/assets/icons/Algorithm.svg)
 
 ## エイリアス {#alias}
 
-![アリア](/help/assets/icons/Alias.svg)
+![ アリア ](/help/assets/icons/Alias.svg)
 
 ## AlignBottom {#alignbottom}
 
@@ -102,7 +102,7 @@ ht-degree: 8%
 
 ## 中央揃え {#alignmiddle}
 
-![中央揃え](/help/assets/icons/AlignMiddle.svg)
+![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
 ## AlignRight {#alignright}
 
@@ -110,15 +110,15 @@ ht-degree: 8%
 
 ## 上揃え {#aligntop}
 
-![上揃え](/help/assets/icons/AlignTop.svg)
+![AlignTop](/help/assets/icons/AlignTop.svg)
 
 ## Amusementpark {#amusementpark}
 
-![Amusementpark](/help/assets/icons/Amusementpark.svg)
+![ アムセメントパーク ](/help/assets/icons/Amusementpark.svg)
 
 ## アンカー {#anchor}
 
-![アンカー](/help/assets/icons/Anchor.svg)
+![ アンカー ](/help/assets/icons/Anchor.svg)
 
 ## AnchorSelect {#anchorselect}
 
@@ -126,7 +126,7 @@ ht-degree: 8%
 
 ## 注釈 {#annotate}
 
-![注釈](/help/assets/icons/Annotate.svg)
+![ 注釈 ](/help/assets/icons/Annotate.svg)
 
 ## AnnotatePen {#annotatepen}
 
@@ -134,7 +134,7 @@ ht-degree: 8%
 
 ## 回答 {#answer}
 
-![回答](/help/assets/icons/Answer.svg)
+![ 回答 ](/help/assets/icons/Answer.svg)
 
 ## AnswerFavorite {#answerfavorite}
 
@@ -142,7 +142,7 @@ ht-degree: 8%
 
 ## アプリ {#app}
 
-![アプリ](/help/assets/icons/App.svg)
+![ アプリ ](/help/assets/icons/App.svg)
 
 ## AppRefresh {#apprefresh}
 
@@ -170,35 +170,35 @@ ht-degree: 8%
 
 ## 下矢印 {#arrowdown}
 
-![下矢印](/help/assets/icons/ArrowDown.svg)
+![ 下矢印 ](/help/assets/icons/ArrowDown.svg)
 
 ## 左矢印 {#arrowleft}
 
-![左矢印](/help/assets/icons/ArrowLeft.svg)
+![ 左矢印 ](/help/assets/icons/ArrowLeft.svg)
 
 ## 右矢印 {#arrowright}
 
-![右矢印](/help/assets/icons/ArrowRight.svg)
+![ 右矢印 ](/help/assets/icons/ArrowRight.svg)
 
 ## 上矢印 {#arrowup}
 
-![上矢印](/help/assets/icons/ArrowUp.svg)
+![ 上矢印 ](/help/assets/icons/ArrowUp.svg)
 
 ## 上矢印 {#arrowupright}
 
-![上矢印](/help/assets/icons/ArrowUpRight.svg)
+![ArrowUpRight](/help/assets/icons/ArrowUpRight.svg)
 
 ## アートボード {#artboard}
 
-![アートボード](/help/assets/icons/Artboard.svg)
+![ アートボード ](/help/assets/icons/Artboard.svg)
 
 ## 記事 {#article}
 
-![記事](/help/assets/icons/Article.svg)
+![ 記事 ](/help/assets/icons/Article.svg)
 
 ## アセット {#asset}
 
-![アセット](/help/assets/icons/Asset.svg)
+![ アセット ](/help/assets/icons/Asset.svg)
 
 ## AssetCheck {#assetcheck}
 
@@ -226,19 +226,19 @@ ht-degree: 8%
 
 ## 公開済みアセット {#assetspublished}
 
-![公開済みアセット](/help/assets/icons/AssetsPublished.svg)
+![AssetsPublished](/help/assets/icons/AssetsPublished.svg)
 
 ## アスタリスク {#asterisk}
 
-![アスタリスク](/help/assets/icons/Asterisk.svg)
+![ アスタリスク ](/help/assets/icons/Asterisk.svg)
 
 ## 時刻 {#at}
 
-![時刻](/help/assets/icons/At.svg)
+![At](/help/assets/icons/At.svg)
 
 ## 添付 {#attach}
 
-![添付](/help/assets/icons/Attach.svg)
+![ 添付 ](/help/assets/icons/Attach.svg)
 
 ## AttachmentExclude {#attachmentexclude}
 
@@ -246,11 +246,11 @@ ht-degree: 8%
 
 ## 属性 {#attribute}
 
-![属性](/help/assets/icons/Attribute.svg)
+![ 属性 ](/help/assets/icons/Attribute.svg)
 
 ## オーディオ {#audio}
 
-![音声](/help/assets/icons/Audio.svg)
+![ オーディオ ](/help/assets/icons/Audio.svg)
 
 ## AutomatedSegment {#automatedsegment}
 
@@ -258,11 +258,11 @@ ht-degree: 8%
 
 ## 戻る {#back}
 
-![戻る](/help/assets/icons/Back.svg)
+![ 戻る ](/help/assets/icons/Back.svg)
 
 ## 戻る 30 秒 {#back30second}
 
-![戻る 30 秒](/help/assets/icons/Back30Second.svg)
+![ 戻る 30 秒 ](/help/assets/icons/Back30Second.svg)
 
 ## BackAndroid {#backandroid}
 
@@ -270,7 +270,7 @@ ht-degree: 8%
 
 ## ビーカー {#beaker}
 
-![ビーカー](/help/assets/icons/Beaker.svg)
+![ ビーカー ](/help/assets/icons/Beaker.svg)
 
 ## BeakerCheck {#beakercheck}
 
@@ -282,7 +282,7 @@ ht-degree: 8%
 
 ## ベル {#bell}
 
-![ベル](/help/assets/icons/Bell.svg)
+![ ベル ](/help/assets/icons/Bell.svg)
 
 ## BidRule {#bidrule}
 
@@ -294,19 +294,19 @@ ht-degree: 8%
 
 ## ブロワ {#blower}
 
-![ブロワ](/help/assets/icons/Blower.svg)
+![ ブロワ ](/help/assets/icons/Blower.svg)
 
 ## Blur {#blur}
 
-![ブラー](/help/assets/icons/Blur.svg)
+![ ブラー ](/help/assets/icons/Blur.svg)
 
 ## 本 {#book}
 
-![本](/help/assets/icons/Book.svg)
+![ 本 ](/help/assets/icons/Book.svg)
 
 ## ブックマーク {#bookmark}
 
-![ブックマーク](/help/assets/icons/Bookmark.svg)
+![ ブックマーク ](/help/assets/icons/Bookmark.svg)
 
 ## BookmarkSingle {#bookmarksingle}
 
@@ -326,15 +326,15 @@ ht-degree: 8%
 
 ## ブール値 {#boolean}
 
-![ブール値](/help/assets/icons/Boolean.svg)
+![ ブール値 ](/help/assets/icons/Boolean.svg)
 
 ## 境界線 {#border}
 
-![境界線](/help/assets/icons/Border.svg)
+![ 境界線 ](/help/assets/icons/Border.svg)
 
 ## ボックス {#box}
 
-![Box](/help/assets/icons/Box.svg)
+![ ボックス ](/help/assets/icons/Box.svg)
 
 ## BoxAdd {#boxadd}
 
@@ -350,7 +350,7 @@ ht-degree: 8%
 
 ## ブラケット {#bracket}
 
-![ブラケット](/help/assets/icons/Bracket.svg)
+![ 括弧 ](/help/assets/icons/Bracket.svg)
 
 ## BracketsSquare {#bracketssquare}
 
@@ -358,15 +358,15 @@ ht-degree: 8%
 
 ## ブランチ 1 {#branch1}
 
-![ブランチ 1](/help/assets/icons/Branch1.svg)
+![ ブランチ 1](/help/assets/icons/Branch1.svg)
 
 ## 分岐 2 {#branch2}
 
-![分岐 2](/help/assets/icons/Branch2.svg)
+![ 分岐 2](/help/assets/icons/Branch2.svg)
 
 ## 分岐 3 {#branch3}
 
-![分岐 3](/help/assets/icons/Branch3.svg)
+![ ブランチ 3](/help/assets/icons/Branch3.svg)
 
 ## BranchCircle {#branchcircle}
 
@@ -374,7 +374,7 @@ ht-degree: 8%
 
 ## パンくずナビゲーション {#breadcrumbnavigation}
 
-![パンくずナビゲーション](/help/assets/icons/BreadcrumbNavigation.svg)
+![ パンくずナビゲーション ](/help/assets/icons/BreadcrumbNavigation.svg)
 
 ## 分類 {#breakdown}
 
@@ -382,11 +382,11 @@ ht-degree: 8%
 
 ## BreakdownAdd {#breakdownadd}
 
-![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
+![ 分類の追加 ](/help/assets/icons/BreakdownAdd.svg)
 
 ## ブリーフケース {#briefcase}
 
-![ブリーフケース](/help/assets/icons/Briefcase.svg)
+![ ブリーフケース ](/help/assets/icons/Briefcase.svg)
 
 ## 参照 {#browse}
 
@@ -394,15 +394,15 @@ ht-degree: 8%
 
 ## ブラシ {#brush}
 
-![ブラシ](/help/assets/icons/Brush.svg)
+![ ブラシ ](/help/assets/icons/Brush.svg)
 
 ## バグ {#bug}
 
-![バグ](/help/assets/icons/Bug.svg)
+![ バグ ](/help/assets/icons/Bug.svg)
 
 ## ビルド {#building}
 
-![ビルド](/help/assets/icons/Building.svg)
+![ 建物 ](/help/assets/icons/Building.svg)
 
 ## BulkEditUser {#bulkedituser}
 
@@ -410,23 +410,23 @@ ht-degree: 8%
 
 ## ボタン {#button}
 
-![ボタン](/help/assets/icons/Button.svg)
+![ ボタン ](/help/assets/icons/Button.svg)
 
 ## ライブラリ {#cclibrary}
 
-![ライブラリ](/help/assets/icons/CCLibrary.svg)
+![ ライブラリ ](/help/assets/icons/CCLibrary.svg)
 
 ## 計算機 {#calculator}
 
-![計算機](/help/assets/icons/Calculator.svg)
+![ 計算ツール ](/help/assets/icons/Calculator.svg)
 
 ## カレンダー {#calendar}
 
-![カレンダー](/help/assets/icons/Calendar.svg)
+![ カレンダー ](/help/assets/icons/Calendar.svg)
 
 ## CalendarAdd {#calendaradd}
 
-![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
+![ カレンダー追加 ](/help/assets/icons/CalendarAdd.svg)
 
 ## CalendarLocked {#calendarlocked}
 
@@ -438,11 +438,11 @@ ht-degree: 8%
 
 ## コールセンター {#callcenter}
 
-![コールセンター](/help/assets/icons/CallCenter.svg)
+![ コールセンター ](/help/assets/icons/CallCenter.svg)
 
 ## カメラ {#camera}
 
-![カメラ](/help/assets/icons/Camera.svg)
+![ カメラ ](/help/assets/icons/Camera.svg)
 
 ## CameraFlip {#cameraflip}
 
@@ -452,7 +452,7 @@ ht-degree: 8%
 
 ![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
 
-## キャンペーン {#campaign}
+## Campaign {#campaign}
 
 ![Campaign](/help/assets/icons/Campaign.svg)
 
@@ -462,7 +462,7 @@ ht-degree: 8%
 
 ## CampaignClose {#campaignclose}
 
-![CampaignClose](/help/assets/icons/CampaignClose.svg)
+![ キャンペーンクローズ ](/help/assets/icons/CampaignClose.svg)
 
 ## CampaignDelete {#campaigndelete}
 
@@ -478,19 +478,19 @@ ht-degree: 8%
 
 ## 資本金 {#capital}
 
-![資本金](/help/assets/icons/Capital.svg)
+![ 資本金 ](/help/assets/icons/Capital.svg)
 
 ## キャプチャ {#captcha}
 
-![キャプチャ](/help/assets/icons/Captcha.svg)
+![Captcha](/help/assets/icons/Captcha.svg)
 
 ## Car {#car}
 
-![Car](/help/assets/icons/Car.svg)
+![ 車 ](/help/assets/icons/Car.svg)
 
 ## カード {#card}
 
-![カード](/help/assets/icons/Card.svg)
+![ カード ](/help/assets/icons/Card.svg)
 
 ## チャネル {#channel}
 
@@ -498,7 +498,7 @@ ht-degree: 8%
 
 ## チャット {#chat}
 
-![チャット](/help/assets/icons/Chat.svg)
+![ チャット ](/help/assets/icons/Chat.svg)
 
 ## ChatAdd {#chatadd}
 
@@ -510,7 +510,7 @@ ht-degree: 8%
 
 ## チェックマーク {#checkmark}
 
-![チェックマーク](/help/assets/icons/Checkmark.svg)
+![ チェックマーク ](/help/assets/icons/Checkmark.svg)
 
 ## CheckmarkCircle {#checkmarkcircle}
 
@@ -526,7 +526,7 @@ ht-degree: 8%
 
 ## 山形 DoubleRight {#chevrondoubleright}
 
-![山形 DoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
+![ChevronDoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
 
 ## ChevronDown {#chevrondown}
 
@@ -534,15 +534,15 @@ ht-degree: 8%
 
 ## 山形の左 {#chevronleft}
 
-![山形の左](/help/assets/icons/ChevronLeft.svg)
+![ChevronLeft](/help/assets/icons/ChevronLeft.svg)
 
 ## 山形の右 {#chevronright}
 
-![山形の右](/help/assets/icons/ChevronRight.svg)
+![ 山形 ](/help/assets/icons/ChevronRight.svg)
 
 ## ChevronUp {#chevronup}
 
-![ChevronUp](/help/assets/icons/ChevronUp.svg)
+![ シェブロンアップ ](/help/assets/icons/ChevronUp.svg)
 
 ## ChevronUpDown {#chevronupdown}
 
@@ -558,7 +558,7 @@ ht-degree: 8%
 
 ## 時計 {#clock}
 
-![時計](/help/assets/icons/Clock.svg)
+![ 時計 ](/help/assets/icons/Clock.svg)
 
 ## ClockCheck {#clockcheck}
 
@@ -570,11 +570,11 @@ ht-degree: 8%
 
 ## 閉じる {#close}
 
-![閉じる](/help/assets/icons/Close.svg)
+![ 閉じる ](/help/assets/icons/Close.svg)
 
 ## Close キャプション {#closecaption}
 
-![Close キャプション](/help/assets/icons/CloseCaption.svg)
+![CloseCaption](/help/assets/icons/CloseCaption.svg)
 
 ## CloseCircle {#closecircle}
 
@@ -582,11 +582,11 @@ ht-degree: 8%
 
 ## Cloud {#cloud}
 
-![Cloud](/help/assets/icons/Cloud.svg)
+![ クラウド ](/help/assets/icons/Cloud.svg)
 
 ## CloudDisconnect {#clouddisconnected}
 
-![CloudDisconnect](/help/assets/icons/CloudDisconnected.svg)
+![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
 ## CloudError {#clouderror}
 
@@ -602,7 +602,7 @@ ht-degree: 8%
 
 ## Collection {#collection}
 
-![Collection](/help/assets/icons/Collection.svg)
+![ コレクション ](/help/assets/icons/Collection.svg)
 
 ## CollectionAdd {#collectionadd}
 
@@ -634,7 +634,7 @@ ht-degree: 8%
 
 ## ColorPalette {#colorpalette}
 
-![ColorPalette](/help/assets/icons/ColorPalette.svg)
+![ カラーパレット ](/help/assets/icons/ColorPalette.svg)
 
 ## ColorWheel {#colorwheel}
 
@@ -642,7 +642,7 @@ ht-degree: 8%
 
 ## 列設定 {#columnsetting}
 
-![列設定](/help/assets/icons/ColumnSetting.svg)
+![ 列設定 ](/help/assets/icons/ColumnSetting.svg)
 
 ## ColumnTwoA {#columntwoa}
 
@@ -658,15 +658,15 @@ ht-degree: 8%
 
 ## コメント {#comment}
 
-![コメント](/help/assets/icons/Comment.svg)
+![ コメント ](/help/assets/icons/Comment.svg)
 
 ## を比較 {#compare}
 
-![を比較](/help/assets/icons/Compare.svg)
+![ 比較 ](/help/assets/icons/Compare.svg)
 
 ## 互換 {#compas}
 
-![互換](/help/assets/icons/Compas.svg)
+![Compas](/help/assets/icons/Compas.svg)
 
 ## 条件 {#condition}
 
@@ -690,7 +690,7 @@ ht-degree: 8%
 
 ## コントラスト {#contrast}
 
-![コントラスト](/help/assets/icons/Contrast.svg)
+![ コントラスト ](/help/assets/icons/Contrast.svg)
 
 ## ConversionFunnel {#conversionfunnel}
 
@@ -698,7 +698,7 @@ ht-degree: 8%
 
 ## コピー {#copy}
 
-![コピー](/help/assets/icons/Copy.svg)
+![ コピー ](/help/assets/icons/Copy.svg)
 
 ## CoverImage {#coverimage}
 
@@ -710,7 +710,7 @@ ht-degree: 8%
 
 ## 切り抜き {#crop}
 
-![切り抜き](/help/assets/icons/Crop.svg)
+![ トリミング ](/help/assets/icons/Crop.svg)
 
 ## CropLightning {#croplightning}
 
@@ -722,19 +722,19 @@ ht-degree: 8%
 
 ## 十字線 {#crosshair}
 
-![十字線](/help/assets/icons/Crosshair.svg)
+![ 十字線 ](/help/assets/icons/Crosshair.svg)
 
 ## キュレーション {#curate}
 
-![キュレーション](/help/assets/icons/Curate.svg)
+![ キュレーション ](/help/assets/icons/Curate.svg)
 
 ## カット {#cut}
 
-![カット](/help/assets/icons/Cut.svg)
+![ カット ](/help/assets/icons/Cut.svg)
 
 ## ダッシュボード {#dashboard}
 
-![Dashboard](/help/assets/icons/Dashboard.svg)
+![ ダッシュボード ](/help/assets/icons/Dashboard.svg)
 
 ## データ {#data}
 
@@ -746,11 +746,11 @@ ht-degree: 8%
 
 ## DataBook {#databook}
 
-![DataBook](/help/assets/icons/DataBook.svg)
+![ データブック ](/help/assets/icons/DataBook.svg)
 
 ## DataCheck {#datacheck}
 
-![DataCheck](/help/assets/icons/DataCheck.svg)
+![ データチェック ](/help/assets/icons/DataCheck.svg)
 
 ## DataCorrelated {#datacorrelated}
 
@@ -774,11 +774,11 @@ ht-degree: 8%
 
 ## DataRemove {#dataremove}
 
-![DataRemove](/help/assets/icons/DataRemove.svg)
+![ データ削除 ](/help/assets/icons/DataRemove.svg)
 
 ## データ設定 {#datasetting}
 
-![データ設定](/help/assets/icons/DataSetting.svg)
+![ データ設定 ](/help/assets/icons/DataSetting.svg)
 
 ## DataUnavailable {#dataunavailable}
 
@@ -794,7 +794,7 @@ ht-degree: 8%
 
 ## 日付 {#date}
 
-![日付](/help/assets/icons/Date.svg)
+![ 日付 ](/help/assets/icons/Date.svg)
 
 ## DateInput {#dateinput}
 
@@ -802,11 +802,11 @@ ht-degree: 8%
 
 ## 重複排除 {#deduplication}
 
-![重複排除](/help/assets/icons/Deduplication.svg)
+![ 重複排除 ](/help/assets/icons/Deduplication.svg)
 
 ## 委任 {#delegate}
 
-![委任](/help/assets/icons/Delegate.svg)
+![ 委任 ](/help/assets/icons/Delegate.svg)
 
 ## 削除 {#delete}
 
@@ -818,11 +818,11 @@ ht-degree: 8%
 
 ## 人口統計 {#demographic}
 
-![人口統計](/help/assets/icons/Demographic.svg)
+![ 人口統計 ](/help/assets/icons/Demographic.svg)
 
 ## 選択を解除 {#deselect}
 
-![選択を解除](/help/assets/icons/Deselect.svg)
+![ 選択を解除 ](/help/assets/icons/Deselect.svg)
 
 ## DeselectCircular {#deselectcircular}
 
@@ -830,11 +830,11 @@ ht-degree: 8%
 
 ## デスクトップとモバイル {#desktopandmobile}
 
-![デスクトップとモバイル](/help/assets/icons/DesktopAndMobile.svg)
+![ デスクトップとモバイル ](/help/assets/icons/DesktopAndMobile.svg)
 
 ## デバイス {#device}
 
-![デバイス](/help/assets/icons/Device.svg)
+![ デバイス ](/help/assets/icons/Device.svg)
 
 ## DeviceDesktop {#devicedesktop}
 
@@ -890,7 +890,7 @@ ht-degree: 8%
 
 ## 水平方向に均等配置 {#distributehorizontally}
 
-![水平方向に均等配置](/help/assets/icons/DistributeHorizontally.svg)
+![ 水平方向に分布 ](/help/assets/icons/DistributeHorizontally.svg)
 
 ## DistributeLeftEdge {#distributeleftedge}
 
@@ -918,11 +918,11 @@ ht-degree: 8%
 
 ## 垂直方向に均等割り付け {#distributevertically}
 
-![垂直方向に均等割り付け](/help/assets/icons/DistributeVertically.svg)
+![DistributeVertically](/help/assets/icons/DistributeVertically.svg)
 
 ## 除算 {#divide}
 
-![除算](/help/assets/icons/Divide.svg)
+![ 除算 ](/help/assets/icons/Divide.svg)
 
 ## DividePath {#dividepath}
 
@@ -930,7 +930,7 @@ ht-degree: 8%
 
 ## ドキュメント {#document}
 
-![文書](/help/assets/icons/Document.svg)
+![ ドキュメント ](/help/assets/icons/Document.svg)
 
 ## DocumentFragment {#documentfragment}
 
@@ -950,7 +950,7 @@ ht-degree: 8%
 
 ## ドリー {#dolly}
 
-![ドリー](/help/assets/icons/Dolly.svg)
+![ ドリー ](/help/assets/icons/Dolly.svg)
 
 ## ダウンロード {#download}
 
@@ -966,23 +966,23 @@ ht-degree: 8%
 
 ## ドラフト {#draft}
 
-![ドラフト](/help/assets/icons/Draft.svg)
+![ ドラフト ](/help/assets/icons/Draft.svg)
 
 ## DragHandle {#draghandle}
 
 ![DragHandle](/help/assets/icons/DragHandle.svg)
 
-## Draw {#draw}
+## 描画 {#draw}
 
-![Draw](/help/assets/icons/Draw.svg)
+![ 描画 ](/help/assets/icons/Draw.svg)
 
 ## ドロップダウン {#dropdown}
 
-![ドロップダウン](/help/assets/icons/Dropdown.svg)
+![ ドロップダウン ](/help/assets/icons/Dropdown.svg)
 
 ## 複製 {#duplicate}
 
-![複製](/help/assets/icons/Duplicate.svg)
+![ 複製 ](/help/assets/icons/Duplicate.svg)
 
 ## 編集 {#edit}
 
@@ -1006,19 +1006,19 @@ ht-degree: 8%
 
 ## 教育 {#education}
 
-![教育](/help/assets/icons/Education.svg)
+![ 教育 ](/help/assets/icons/Education.svg)
 
 ## 効果 {#effect}
 
-![効果](/help/assets/icons/Effect.svg)
+![ 効果 ](/help/assets/icons/Effect.svg)
 
 ## 効率的 {#efficient}
 
-![効率的](/help/assets/icons/Efficient.svg)
+![ 効率的 ](/help/assets/icons/Efficient.svg)
 
 ## 楕円 {#ellipse}
 
-![楕円](/help/assets/icons/Ellipse.svg)
+![ 楕円 ](/help/assets/icons/Ellipse.svg)
 
 ## メール {#email}
 
@@ -1050,7 +1050,7 @@ ht-degree: 8%
 
 ## EmailKey {#emailkey}
 
-![EmailKey](/help/assets/icons/EmailKey.svg)
+![ メールキー ](/help/assets/icons/EmailKey.svg)
 
 ## EmailKeyOutline {#emailkeyoutline}
 
@@ -1074,7 +1074,7 @@ ht-degree: 8%
 
 ## EmailSchedule {#emailschedule}
 
-![EmailSchedule](/help/assets/icons/EmailSchedule.svg)
+![ メールスケジュール ](/help/assets/icons/EmailSchedule.svg)
 
 ## エンゲージメント {#engagement}
 
@@ -1086,7 +1086,7 @@ ht-degree: 8%
 
 ## 削除 {#erase}
 
-![削除](/help/assets/icons/Erase.svg)
+![ 消去 ](/help/assets/icons/Erase.svg)
 
 ## イベント {#events}
 
@@ -1094,7 +1094,7 @@ ht-degree: 8%
 
 ## イベント {#event}
 
-![イベント](/help/assets/icons/Event.svg)
+![ イベント ](/help/assets/icons/Event.svg)
 
 ## EventExclude {#eventexclude}
 
@@ -1106,11 +1106,11 @@ ht-degree: 8%
 
 ## ExcludeOverlap {#excludeoverlap}
 
-![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
+![Exclude オーバーラップ ](/help/assets/icons/ExcludeOverlap.svg)
 
 ## 経験 {#experience}
 
-![経験](/help/assets/icons/Experience.svg)
+![ エクスペリエンス ](/help/assets/icons/Experience.svg)
 
 ## ExperienceAdd {#experienceadd}
 
@@ -1118,7 +1118,7 @@ ht-degree: 8%
 
 ## ExperienceAddto {#experienceaddto}
 
-![ExperienceAddto](/help/assets/icons/ExperienceAddTo.svg)
+![ExperienceAddTo](/help/assets/icons/ExperienceAddTo.svg)
 
 ## ExperienceExport {#experienceexport}
 
@@ -1138,19 +1138,19 @@ ht-degree: 8%
 
 ## 照射線量 {#exposure}
 
-![照射線量](/help/assets/icons/Exposure.svg)
+![ 露出 ](/help/assets/icons/Exposure.svg)
 
 ## 拡張機能 {#extension}
 
-![拡張機能](/help/assets/icons/Extension.svg)
+![ 拡張機能 ](/help/assets/icons/Extension.svg)
 
 ## 速い {#fast}
 
-![速い](/help/assets/icons/Fast.svg)
+![ 高速 ](/help/assets/icons/Fast.svg)
 
 ## FastForward {#fastforward}
 
-![FastForward](/help/assets/icons/FastForward.svg)
+![ 早送り ](/help/assets/icons/FastForward.svg)
 
 ## FastForwardCircle {#fastforwardcircle}
 
@@ -1186,7 +1186,7 @@ ht-degree: 8%
 
 ## FilePaign {#filecampaign}
 
-![FilePaign](/help/assets/icons/FileCampaign.svg)
+![ ファイルキャンペーン ](/help/assets/icons/FileCampaign.svg)
 
 ## FileChart {#filechart}
 
@@ -1226,7 +1226,7 @@ ht-degree: 8%
 
 ## ファイル重要 {#fileimportant}
 
-![ファイル重要](/help/assets/icons/FileImportant.svg)
+![FileImportant](/help/assets/icons/FileImportant.svg)
 
 ## FileJson {#filejson}
 
@@ -1242,7 +1242,7 @@ ht-degree: 8%
 
 ## FileShare {#fileshare}
 
-![FileShare](/help/assets/icons/FileShare.svg)
+![ ファイル共有 ](/help/assets/icons/FileShare.svg)
 
 ## FileSingleWebPage {#filesinglewebpage}
 
@@ -1278,11 +1278,11 @@ ht-degree: 8%
 
 ## FilingCabinet {#filingcabinet}
 
-![FilingCabinet](/help/assets/icons/FilingCabinet.svg)
+![ ファイリングキャビネット ](/help/assets/icons/FilingCabinet.svg)
 
 ## フィルムロール {#filmroll}
 
-![フィルムロール](/help/assets/icons/Filmroll.svg)
+![ フィルムロール ](/help/assets/icons/Filmroll.svg)
 
 ## FilmrollAutoAdd {#filmrollautoadd}
 
@@ -1346,27 +1346,27 @@ ht-degree: 8%
 
 ## 懐中電灯 {#flashlight}
 
-![懐中電灯](/help/assets/icons/Flashlight.svg)
+![ 懐中電灯 ](/help/assets/icons/Flashlight.svg)
 
 ## FlashlightOff {#flashlightoff}
 
-![FlashlightOff](/help/assets/icons/FlashlightOff.svg)
+![ 懐中電灯オフ ](/help/assets/icons/FlashlightOff.svg)
 
 ## 懐中電灯オン {#flashlighton}
 
-![懐中電灯オン](/help/assets/icons/FlashlightOn.svg)
+![ 懐中電灯オン ](/help/assets/icons/FlashlightOn.svg)
 
 ## 水平方向に反転 {#fliphorizontal}
 
-![水平方向に反転](/help/assets/icons/FlipHorizontal.svg)
+![FlipHorizontal](/help/assets/icons/FlipHorizontal.svg)
 
 ## FlipVertical {#flipvertical}
 
-![FlipVertical](/help/assets/icons/FlipVertical.svg)
+![ 垂直方向に反転 ](/help/assets/icons/FlipVertical.svg)
 
 ## フォルダー {#folder}
 
-![フォルダー](/help/assets/icons/Folder.svg)
+![ フォルダー ](/help/assets/icons/Folder.svg)
 
 ## Folder2Color {#folder2color}
 
@@ -1422,11 +1422,11 @@ ht-degree: 8%
 
 ## フォロー {#follow}
 
-![フォロー](/help/assets/icons/Follow.svg)
+![ フォロー ](/help/assets/icons/Follow.svg)
 
 ## FollowOff {#followoff}
 
-![FollowOff](/help/assets/icons/FollowOff.svg)
+![ フォローオフ ](/help/assets/icons/FollowOff.svg)
 
 ## ForPlacementOnly {#forplacementonly}
 
@@ -1434,7 +1434,7 @@ ht-degree: 8%
 
 ## 予測 {#forecast}
 
-![予測](/help/assets/icons/Forecast.svg)
+![ 予測 ](/help/assets/icons/Forecast.svg)
 
 ## フォーム {#form}
 
@@ -1442,11 +1442,11 @@ ht-degree: 8%
 
 ## 転送 {#forward}
 
-![転送](/help/assets/icons/Forward.svg)
+![ 進む ](/help/assets/icons/Forward.svg)
 
 ## FullScreen {#fullscreen}
 
-![FullScreen](/help/assets/icons/FullScreen.svg)
+![ 全画面表示 ](/help/assets/icons/FullScreen.svg)
 
 ## FullScreenExit {#fullscreenexit}
 
@@ -1462,27 +1462,27 @@ ht-degree: 8%
 
 ## ゲージ 1 {#gauge1}
 
-![ゲージ 1](/help/assets/icons/Gauge1.svg)
+![ ゲージ 1](/help/assets/icons/Gauge1.svg)
 
 ## ゲージ 2 {#gauge2}
 
-![ゲージ 2](/help/assets/icons/Gauge2.svg)
+![ ゲージ 2](/help/assets/icons/Gauge2.svg)
 
 ## ゲージ 3 {#gauge3}
 
-![ゲージ 3](/help/assets/icons/Gauge3.svg)
+![ ゲージ 3](/help/assets/icons/Gauge3.svg)
 
 ## ゲージ 4 {#gauge4}
 
-![ゲージ 4](/help/assets/icons/Gauge4.svg)
+![Gage4](/help/assets/icons/Gauge4.svg)
 
 ## ゲージ 5 {#gauge5}
 
-![ゲージ 5](/help/assets/icons/Gauge5.svg)
+![ ゲージ 5](/help/assets/icons/Gauge5.svg)
 
 ## 歯車 {#gear}
 
-![歯車](/help/assets/icons/Gear.svg)
+![ 歯車 ](/help/assets/icons/Gear.svg)
 
 ## GearsAdd {#gearsadd}
 
@@ -1506,11 +1506,11 @@ ht-degree: 8%
 
 ## 贈与 {#gift}
 
-![贈与](/help/assets/icons/Gift.svg)
+![ ギフト ](/help/assets/icons/Gift.svg)
 
 ## グローブ {#globe}
 
-![グローブ](/help/assets/icons/Globe.svg)
+![ グローブ ](/help/assets/icons/Globe.svg)
 
 ## GlobeCheck {#globecheck}
 
@@ -1546,7 +1546,7 @@ ht-degree: 8%
 
 ## GlobeStrike {#globestrike}
 
-![GlobeStrike](/help/assets/icons/GlobeStrike.svg)
+![ グローブストライク ](/help/assets/icons/GlobeStrike.svg)
 
 ## GlobeStrikeClock {#globestrikeclock}
 
@@ -1554,11 +1554,11 @@ ht-degree: 8%
 
 ## 政府 {#government}
 
-![政府](/help/assets/icons/Government.svg)
+![ 政府 ](/help/assets/icons/Government.svg)
 
 ## グラデーション {#gradient}
 
-![グラデーション](/help/assets/icons/Gradient.svg)
+![ グラデーション ](/help/assets/icons/Gradient.svg)
 
 ## GraphArea {#grapharea}
 
@@ -1570,7 +1570,7 @@ ht-degree: 8%
 
 ## グラフ横棒グラフ {#graphbarhorizontal}
 
-![グラフ横棒グラフ](/help/assets/icons/GraphBarHorizontal.svg)
+![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
 ## GraphBarHorizontalAdd {#graphbarhorizontaladd}
 
@@ -1578,11 +1578,11 @@ ht-degree: 8%
 
 ## GraphBarHorizontalStack {#graphbarhorizontalstacked}
 
-![GraphBarHorizontalStack](/help/assets/icons/GraphBarHorizontalStacked.svg)
+![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)
 
 ## グラフ縦棒 {#graphbarvertical}
 
-![グラフ縦棒](/help/assets/icons/GraphBarVertical.svg)
+![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
 ## GraphBarVerticalAdd {#graphbarverticaladd}
 
@@ -1606,7 +1606,7 @@ ht-degree: 8%
 
 ## グラフドーナツ {#graphdonut}
 
-![グラフドーナツ](/help/assets/icons/GraphDonut.svg)
+![ グラフドーナツ ](/help/assets/icons/GraphDonut.svg)
 
 ## GraphDonutAdd {#graphdonutadd}
 
@@ -1618,11 +1618,11 @@ ht-degree: 8%
 
 ## Graph ヒストグラム {#graphhistogram}
 
-![Graph ヒストグラム](/help/assets/icons/GraphHistogram.svg)
+![GraphHistogram](/help/assets/icons/GraphHistogram.svg)
 
 ## GraphPath {#graphpathing}
 
-![GraphPath](/help/assets/icons/GraphPathing.svg)
+![ グラフパス ](/help/assets/icons/GraphPathing.svg)
 
 ## GraphPie {#graphpie}
 
@@ -1670,23 +1670,23 @@ ht-degree: 8%
 
 ## グラフィック {#graphic}
 
-![グラフィック](/help/assets/icons/Graphic.svg)
+![ グラフィック ](/help/assets/icons/Graphic.svg)
 
 ## グループ {#group}
 
-![グループ](/help/assets/icons/Group.svg)
+![ グループ ](/help/assets/icons/Group.svg)
 
 ## ハンマー {#hammer}
 
-![ハンマー](/help/assets/icons/Hammer.svg)
+![ ハンマー ](/help/assets/icons/Hammer.svg)
 
 ## 手 {#hand}
 
-![手](/help/assets/icons/Hand.svg)
+![ ハンド ](/help/assets/icons/Hand.svg)
 
 ## 手 0 {#hand0}
 
-![手 0](/help/assets/icons/Hand0.svg)
+![Hand0](/help/assets/icons/Hand0.svg)
 
 ## Hand1 {#hand1}
 
@@ -1706,15 +1706,15 @@ ht-degree: 8%
 
 ## ヒール {#heal}
 
-![ヒール](/help/assets/icons/Heal.svg)
+![ ヒール ](/help/assets/icons/Heal.svg)
 
 ## 心 {#heart}
 
-![心](/help/assets/icons/Heart.svg)
+![ ハート ](/help/assets/icons/Heart.svg)
 
 ## ヘルプ {#help}
 
-![ヘルプ](/help/assets/icons/Help.svg)
+![ ヘルプ ](/help/assets/icons/Help.svg)
 
 ## HelpOutline {#helpoutline}
 
@@ -1722,11 +1722,11 @@ ht-degree: 8%
 
 ## ヒストグラム {#histogram}
 
-![ヒストグラム](/help/assets/icons/Histogram.svg)
+![ ヒストグラム ](/help/assets/icons/Histogram.svg)
 
 ## 履歴 {#history}
 
-![履歴](/help/assets/icons/History.svg)
+![ 履歴 ](/help/assets/icons/History.svg)
 
 ## ホーム {#home}
 
@@ -1734,15 +1734,15 @@ ht-degree: 8%
 
 ## ホームページ {#homepage}
 
-![ホームページ](/help/assets/icons/Homepage.svg)
+![ ホームページ ](/help/assets/icons/Homepage.svg)
 
 ## HotFixe {#hotfixe}
 
-![HotFixe](/help/assets/icons/HotFixe.svg)
+![ ホットフィックス ](/help/assets/icons/HotFixe.svg)
 
 ## ホテル ベッド {#hotelbed}
 
-![ホテル ベッド](/help/assets/icons/HotelBed.svg)
+![ ホテルベッド ](/help/assets/icons/HotelBed.svg)
 
 ## IdentityService {#identityservice}
 
@@ -1750,7 +1750,7 @@ ht-degree: 8%
 
 ## 画像 {#images}
 
-![画像 2](/help/assets/icons/Images.svg)
+![ 画像 2](/help/assets/icons/Images.svg)
 
 ## 画像 {#image}
 
@@ -1814,31 +1814,31 @@ ht-degree: 8%
 
 ## インボックス {#inbox}
 
-![受信トレイ](/help/assets/icons/Inbox.svg)
+![ インボックス ](/help/assets/icons/Inbox.svg)
 
 ## 個人 {#individual}
 
-![個人](/help/assets/icons/Individual.svg)
+![ 個人 ](/help/assets/icons/Individual.svg)
 
 ## 情報 {#info}
 
-![情報](/help/assets/icons/Info.svg)
+![ 情報 ](/help/assets/icons/Info.svg)
 
 ## InfoOutline {#infooutline}
 
-![InfoOutline](/help/assets/icons/InfoOutline.svg)
+![ 情報アウトライン ](/help/assets/icons/InfoOutline.svg)
 
 ## IntersectOverlap {#intersectoverlap}
 
-![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
+![Intersect オーバーラップ ](/help/assets/icons/IntersectOverlap.svg)
 
 ## In バート調整 {#invertadj}
 
-![In バート調整](/help/assets/icons/InvertAdj.svg)
+![InvertAdj](/help/assets/icons/InvertAdj.svg)
 
 ## 招待 {#invite}
 
-![招待](/help/assets/icons/Invite.svg)
+![ 招待 ](/help/assets/icons/Invite.svg)
 
 ## ジャーニー {#journey}
 
@@ -1862,7 +1862,7 @@ ht-degree: 8%
 
 ## JourneyReport {#journeyreport}
 
-![JourneyReport](/help/assets/icons/JourneyReport.svg)
+![ ジャーニーレポート ](/help/assets/icons/JourneyReport.svg)
 
 ## JourneyVoyager {#journeyvoyager}
 
@@ -1870,7 +1870,7 @@ ht-degree: 8%
 
 ## 上に移動 {#jumptotop}
 
-![上に移動](/help/assets/icons/JumpToTop.svg)
+![JumpToTop](/help/assets/icons/JumpToTop.svg)
 
 ## キー {#key}
 
@@ -1894,7 +1894,7 @@ ht-degree: 8%
 
 ## ラベル {#label}
 
-![ラベル](/help/assets/icons/Label.svg)
+![ ラベル ](/help/assets/icons/Label.svg)
 
 ## LabelExclude {#labelexclude}
 
@@ -1910,11 +1910,11 @@ ht-degree: 8%
 
 ## レイヤー {#layer}
 
-![レイヤー](/help/assets/icons/Layer.svg)
+![ レイヤー ](/help/assets/icons/Layer.svg)
 
 ## LayersBack {#layersbackward}
 
-![LayersBack](/help/assets/icons/LayersBackward.svg)
+![LayersBackward](/help/assets/icons/LayersBackward.svg)
 
 ## LayersBringToFront {#layersbringtofront}
 
@@ -1922,7 +1922,7 @@ ht-degree: 8%
 
 ## LayersFront {#layersforward}
 
-![LayersFront](/help/assets/icons/LayersForward.svg)
+![LayersForward](/help/assets/icons/LayersForward.svg)
 
 ## LayersSendToBack {#layerssendtoback}
 
@@ -1930,7 +1930,7 @@ ht-degree: 8%
 
 ## 学ぶ {#learn}
 
-![学ぶ](/help/assets/icons/Learn.svg)
+![ 詳細 ](/help/assets/icons/Learn.svg)
 
 ## LeftRight {#leftright}
 
@@ -1938,11 +1938,11 @@ ht-degree: 8%
 
 ## 軽い {#light}
 
-![軽い](/help/assets/icons/Light.svg)
+![ ライト ](/help/assets/icons/Light.svg)
 
 ## ライン {#line}
 
-![ライン](/help/assets/icons/Line.svg)
+![ 行 ](/help/assets/icons/Line.svg)
 
 ## LineHeight {#lineheight}
 
@@ -1954,7 +1954,7 @@ ht-degree: 8%
 
 ## リンク {#link}
 
-![リンク](/help/assets/icons/Link.svg)
+![ リンク ](/help/assets/icons/Link.svg)
 
 ## LinkCheck {#linkcheck}
 
@@ -1966,7 +1966,7 @@ ht-degree: 8%
 
 ## リンクナビゲーション {#linknav}
 
-![リンクナビゲーション](/help/assets/icons/LinkNav.svg)
+![ リンクナビゲーション ](/help/assets/icons/LinkNav.svg)
 
 ## LinkOff {#linkoff}
 
@@ -2006,7 +2006,7 @@ ht-degree: 8%
 
 ## LockClose {#lockclosed}
 
-![LockClose](/help/assets/icons/LockClosed.svg)
+![LockClosed](/help/assets/icons/LockClosed.svg)
 
 ## LockOpen {#lockopen}
 
@@ -2014,19 +2014,19 @@ ht-degree: 8%
 
 ## ログアウト {#logout}
 
-![ログアウト](/help/assets/icons/LogOut.svg)
+![ ログアウト ](/help/assets/icons/LogOut.svg)
 
 ## ログイン {#login}
 
-![ログイン](/help/assets/icons/Login.svg)
+![ ログイン ](/help/assets/icons/Login.svg)
 
 ## 検索 {#look}
 
-![検索](/help/assets/icons/Look.svg)
+![ 見て ](/help/assets/icons/Look.svg)
 
 ## ルーペビュー {#loupeview}
 
-![ルーペビュー](/help/assets/icons/LoupeView.svg)
+![LoupeView](/help/assets/icons/LoupeView.svg)
 
 ## MBox {#mbox}
 
@@ -2034,15 +2034,15 @@ ht-degree: 8%
 
 ## 自動選択 {#magicwand}
 
-![自動選択](/help/assets/icons/MagicWand.svg)
+![MagicWand](/help/assets/icons/MagicWand.svg)
 
 ## 拡大 {#magnify}
 
-![拡大](/help/assets/icons/Magnify.svg)
+![ 拡大 ](/help/assets/icons/Magnify.svg)
 
 ## メールボックス {#mailbox}
 
-![メールボックス](/help/assets/icons/Mailbox.svg)
+![ メールボックス ](/help/assets/icons/Mailbox.svg)
 
 ## MapView {#mapview}
 
@@ -2062,15 +2062,15 @@ ht-degree: 8%
 
 ## MarginTop {#margintop}
 
-![MarginTop](/help/assets/icons/MarginTop.svg)
+![ 上余白 ](/help/assets/icons/MarginTop.svg)
 
 ## MarketingActivity {#marketingactivitie}
 
-![MarketingActivity](/help/assets/icons/MarketingActivitie.svg)
+![ マーケティングアクティビティ ](/help/assets/icons/MarketingActivitie.svg)
 
 ## 最大化 {#maximize}
 
-![最大化](/help/assets/icons/Maximize.svg)
+![ 最大化 ](/help/assets/icons/Maximize.svg)
 
 ## 測定 {#measure}
 
@@ -2078,11 +2078,11 @@ ht-degree: 8%
 
 ## メニュー {#menu}
 
-![メニュー](/help/assets/icons/Menu.svg)
+![ メニュー ](/help/assets/icons/Menu.svg)
 
 ## 結合 {#merge}
 
-![結合](/help/assets/icons/Merge.svg)
+![ 結合 ](/help/assets/icons/Merge.svg)
 
 ## MergeLayer {#mergelayer}
 
@@ -2094,7 +2094,7 @@ ht-degree: 8%
 
 ## 最小化 {#minimize}
 
-![最小化](/help/assets/icons/Minimize.svg)
+![ 最小化 ](/help/assets/icons/Minimize.svg)
 
 ## MobileService {#mobileservice}
 
@@ -2106,7 +2106,7 @@ ht-degree: 8%
 
 ## お金 {#money}
 
-![お金](/help/assets/icons/Money.svg)
+![ 金額 ](/help/assets/icons/Money.svg)
 
 ## 監視 {#monitoring}
 
@@ -2114,7 +2114,7 @@ ht-degree: 8%
 
 ## 月 {#moon}
 
-![月](/help/assets/icons/Moon.svg)
+![ 月 ](/help/assets/icons/Moon.svg)
 
 ## 詳細 {#more}
 
@@ -2122,7 +2122,7 @@ ht-degree: 8%
 
 ## MoreCircle {#morecircle}
 
-![MoreCircle](/help/assets/icons/MoreCircle.svg)
+![ その他の円 ](/help/assets/icons/MoreCircle.svg)
 
 ## MoreSmall {#moresmall}
 
@@ -2138,11 +2138,11 @@ ht-degree: 8%
 
 ## 縦に移動 {#morevertical}
 
-![縦に移動](/help/assets/icons/MoreVertical.svg)
+![ その他の垂直方向 ](/help/assets/icons/MoreVertical.svg)
 
 ## 移動 {#move}
 
-![移動](/help/assets/icons/Move.svg)
+![ 移動 ](/help/assets/icons/Move.svg)
 
 ## MoveLeftRight {#moveleftright}
 
@@ -2150,7 +2150,7 @@ ht-degree: 8%
 
 ## MoveTo {#moveto}
 
-![MoveTo](/help/assets/icons/MoveTo.svg)
+![ 移動先 ](/help/assets/icons/MoveTo.svg)
 
 ## MoveUpDown {#moveupdown}
 
@@ -2158,11 +2158,11 @@ ht-degree: 8%
 
 ## MovieCamera {#moviecamera}
 
-![MovieCamera](/help/assets/icons/MovieCamera.svg)
+![ ムービーカメラ ](/help/assets/icons/MovieCamera.svg)
 
 ## 複数 {#multiple}
 
-![複数](/help/assets/icons/Multiple.svg)
+![ 複数 ](/help/assets/icons/Multiple.svg)
 
 ## MultipleAdd {#multipleadd}
 
@@ -2190,7 +2190,7 @@ ht-degree: 8%
 
 ## NewPlan {#newplan}
 
-![NewPlan](/help/assets/icons/NewPlan.svg)
+![ 新規プラン ](/help/assets/icons/NewPlan.svg)
 
 ## NewsAdd {#newsadd}
 
@@ -2198,15 +2198,15 @@ ht-degree: 8%
 
 ## 編集なし {#noedit}
 
-![編集なし](/help/assets/icons/NoEdit.svg)
+![ 編集なし ](/help/assets/icons/NoEdit.svg)
 
 ## 注意 {#note}
 
-![注意](/help/assets/icons/Note.svg)
+![ 注 ](/help/assets/icons/Note.svg)
 
 ## NoteAdd {#noteadd}
 
-![NoteAdd](/help/assets/icons/NoteAdd.svg)
+![ メモ追加 ](/help/assets/icons/NoteAdd.svg)
 
 ## O {#o}
 
@@ -2214,11 +2214,11 @@ ht-degree: 8%
 
 ## オファー {#offer}
 
-![オファー](/help/assets/icons/Offer.svg)
+![ オファー ](/help/assets/icons/Offer.svg)
 
 ## OfferActivity {#offeractivities}
 
-![OfferActivity](/help/assets/icons/OfferActivities.svg)
+![ オファーアクティビティ ](/help/assets/icons/OfferActivities.svg)
 
 ## OfferDelete {#offerdelete}
 
@@ -2250,15 +2250,15 @@ ht-degree: 8%
 
 ## オービット {#orbit}
 
-![オービット](/help/assets/icons/Orbit.svg)
+![ オービット ](/help/assets/icons/Orbit.svg)
 
 ## 組織 {#organisation}
 
-![組織](/help/assets/icons/Organisation.svg)
+![ 組織 ](/help/assets/icons/Organisation.svg)
 
 ## 整理 {#organize}
 
-![整理](/help/assets/icons/Organize.svg)
+![ 整理 ](/help/assets/icons/Organize.svg)
 
 ## OutlinePath {#outlinepath}
 
@@ -2282,7 +2282,7 @@ ht-degree: 8%
 
 ## PageBreak {#pagebreak}
 
-![PageBreak](/help/assets/icons/PageBreak.svg)
+![ 改ページ ](/help/assets/icons/PageBreak.svg)
 
 ## PageExclude {#pageexclude}
 
@@ -2298,7 +2298,7 @@ ht-degree: 8%
 
 ## PageShare {#pageshare}
 
-![PageShare](/help/assets/icons/PageShare.svg)
+![ ページ共有 ](/help/assets/icons/PageShare.svg)
 
 ## PageTag {#pagetag}
 
@@ -2310,15 +2310,15 @@ ht-degree: 8%
 
 ## パン {#pan}
 
-![パン](/help/assets/icons/Pan.svg)
+![ パン ](/help/assets/icons/Pan.svg)
 
 ## パネル {#panel}
 
-![パネル](/help/assets/icons/Panel.svg)
+![ パネル ](/help/assets/icons/Panel.svg)
 
 ## ペースト {#paste}
 
-![ペースト](/help/assets/icons/Paste.svg)
+![ ペースト ](/help/assets/icons/Paste.svg)
 
 ## PasteHTML {#pastehtml}
 
@@ -2334,11 +2334,11 @@ ht-degree: 8%
 
 ## パターン {#pattern}
 
-![パターン](/help/assets/icons/Pattern.svg)
+![ パターン ](/help/assets/icons/Pattern.svg)
 
 ## 一時停止 {#pause}
 
-![一時停止](/help/assets/icons/Pause.svg)
+![ 一時停止 ](/help/assets/icons/Pause.svg)
 
 ## PauseCircle {#pausecircle}
 
@@ -2346,11 +2346,11 @@ ht-degree: 8%
 
 ## ポーン {#pawn}
 
-![ポーン](/help/assets/icons/Pawn.svg)
+![ ポーン ](/help/assets/icons/Pawn.svg)
 
 ## 保留中 {#pending}
 
-![保留中](/help/assets/icons/Pending.svg)
+![ 保留中 ](/help/assets/icons/Pending.svg)
 
 ## PeopleGroup {#peoplegroup}
 
@@ -2358,27 +2358,27 @@ ht-degree: 8%
 
 ## PersonalizationField {#personalizationfield}
 
-![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
+![ パーソナライゼーションフィールド ](/help/assets/icons/PersonalizationField.svg)
 
 ## 透視投影 {#perspective}
 
-![透視投影](/help/assets/icons/Perspective.svg)
+![ 分析観点 ](/help/assets/icons/Perspective.svg)
 
 ## ピン留め {#pinoff}
 
-![ピン留め](/help/assets/icons/PinOff.svg)
+![ ピン留め ](/help/assets/icons/PinOff.svg)
 
 ## ピン留め {#pinon}
 
-![ピン留め](/help/assets/icons/PinOn.svg)
+![ ピン留め ](/help/assets/icons/PinOn.svg)
 
 ## ピボット {#pivot}
 
-![ピボット](/help/assets/icons/Pivot.svg)
+![ ピボット ](/help/assets/icons/Pivot.svg)
 
 ## プレースホルダー {#placeholder}
 
-![プレースホルダー](/help/assets/icons/Placeholder.svg)
+![ プレースホルダー ](/help/assets/icons/Placeholder.svg)
 
 ## PlatformDataMapping {#platformdatamapping}
 
@@ -2386,7 +2386,7 @@ ht-degree: 8%
 
 ## 再生 {#play}
 
-![再生](/help/assets/icons/Play.svg)
+![ 再生 ](/help/assets/icons/Play.svg)
 
 ## PlayCircle {#playcircle}
 
@@ -2394,11 +2394,11 @@ ht-degree: 8%
 
 ## プラグ {#plug}
 
-![プラグ](/help/assets/icons/Plug.svg)
+![ プラグ ](/help/assets/icons/Plug.svg)
 
 ## 多角形 {#polygon}
 
-![多角形](/help/assets/icons/Polygon.svg)
+![ 多角形 ](/help/assets/icons/Polygon.svg)
 
 ## PolygonSelect {#polygonselect}
 
@@ -2414,15 +2414,15 @@ ht-degree: 8%
 
 ## プリセット {#preset}
 
-![プリセット](/help/assets/icons/Preset.svg)
+![ プリセット ](/help/assets/icons/Preset.svg)
 
 ## プレビュー {#preview}
 
-![プレビュー](/help/assets/icons/Preview.svg)
+![ プレビュー ](/help/assets/icons/Preview.svg)
 
 ## 印刷 {#print}
 
-![印刷](/help/assets/icons/Print.svg)
+![ 印刷 ](/help/assets/icons/Print.svg)
 
 ## PrintPreview {#printpreview}
 
@@ -2430,7 +2430,7 @@ ht-degree: 8%
 
 ## プロジェクト {#project}
 
-![プロジェクト](/help/assets/icons/Project.svg)
+![ プロジェクト ](/help/assets/icons/Project.svg)
 
 ## ProjectAdd {#projectadd}
 
@@ -2446,11 +2446,11 @@ ht-degree: 8%
 
 ## 昇格 {#promote}
 
-![昇格](/help/assets/icons/Promote.svg)
+![ 昇格 ](/help/assets/icons/Promote.svg)
 
 ## プロパティ {#propertie}
 
-![プロパティ](/help/assets/icons/Propertie.svg)
+![ プロパティ ](/help/assets/icons/Propertie.svg)
 
 ## PropertiesCopy {#propertiescopy}
 
@@ -2482,11 +2482,11 @@ ht-degree: 8%
 
 ## Question {#question}
 
-![Question](/help/assets/icons/Question.svg)
+![ 質問 ](/help/assets/icons/Question.svg)
 
 ## QuickSelect {#quickselect}
 
-![QuickSelect](/help/assets/icons/QuickSelect.svg)
+![ クイック選択 ](/help/assets/icons/QuickSelect.svg)
 
 ## RSS {#rss}
 
@@ -2526,7 +2526,7 @@ ht-degree: 8%
 
 ## 範囲マスク {#rangemask}
 
-![範囲マスク](/help/assets/icons/RangeMask.svg)
+![RangeMask](/help/assets/icons/RangeMask.svg)
 
 ## RealTimeCustomerProfile {#realtimecustomerprofile}
 
@@ -2538,15 +2538,15 @@ ht-degree: 8%
 
 ## 長方形 {#rectangle}
 
-![長方形](/help/assets/icons/Rectangle.svg)
+![ 長方形 ](/help/assets/icons/Rectangle.svg)
 
 ## やり直し {#redo}
 
-![やり直し](/help/assets/icons/Redo.svg)
+![ やり直し ](/help/assets/icons/Redo.svg)
 
 ## 更新 {#refresh}
 
-![更新](/help/assets/icons/Refresh.svg)
+![ 更新 ](/help/assets/icons/Refresh.svg)
 
 ## RegionSelect {#regionselect}
 
@@ -2554,11 +2554,11 @@ ht-degree: 8%
 
 ## 関連度 {#relevance}
 
-![関連度](/help/assets/icons/Relevance.svg)
+![ 関連度 ](/help/assets/icons/Relevance.svg)
 
 ## 削除 {#remove}
 
-![削除](/help/assets/icons/Remove.svg)
+![ 削除 ](/help/assets/icons/Remove.svg)
 
 ## RemoveCircle {#removecircle}
 
@@ -2566,23 +2566,23 @@ ht-degree: 8%
 
 ## 名前を変更 {#rename}
 
-![名前を変更](/help/assets/icons/Rename.svg)
+![ 名前を変更 ](/help/assets/icons/Rename.svg)
 
 ## 並べ替え {#reorder}
 
-![並べ替え](/help/assets/icons/Reorder.svg)
+![ 並べ替え ](/help/assets/icons/Reorder.svg)
 
 ## 再生 {#replay}
 
-![再生](/help/assets/icons/Replay.svg)
+![ 再生 ](/help/assets/icons/Replay.svg)
 
 ## Replie {#replie}
 
-![Replie](/help/assets/icons/Replie.svg)
+![ 再準備 ](/help/assets/icons/Replie.svg)
 
 ## 返信 {#reply}
 
-![返信](/help/assets/icons/Reply.svg)
+![ 返信 ](/help/assets/icons/Reply.svg)
 
 ## ReplyAll {#replyall}
 
@@ -2598,19 +2598,19 @@ ht-degree: 8%
 
 ## サイズ変更 {#resize}
 
-![サイズ変更](/help/assets/icons/Resize.svg)
+![ サイズ変更 ](/help/assets/icons/Resize.svg)
 
 ## ResolvedComment {#resolvedcomment}
 
-![ResolvedComment](/help/assets/icons/ResolvedComment.svg)
+![ResolvedComments](/help/assets/icons/ResolvedComment.svg)
 
 ## リツイート {#retweet}
 
-![リツイート](/help/assets/icons/Retweet.svg)
+![ リツイート ](/help/assets/icons/Retweet.svg)
 
 ## 再利用 {#reuse}
 
-![再利用](/help/assets/icons/Reuse.svg)
+![ 再利用 ](/help/assets/icons/Reuse.svg)
 
 ## 収益 {#revenue}
 
@@ -2618,11 +2618,11 @@ ht-degree: 8%
 
 ## 復元 {#revert}
 
-![復元](/help/assets/icons/Revert.svg)
+![ 復元 ](/help/assets/icons/Revert.svg)
 
 ## 巻き戻し {#rewind}
 
-![巻き戻し](/help/assets/icons/Rewind.svg)
+![ 巻き戻し ](/help/assets/icons/Rewind.svg)
 
 ## RewindCircle {#rewindcircle}
 
@@ -2630,7 +2630,7 @@ ht-degree: 8%
 
 ## リボン {#ribbon}
 
-![リボン](/help/assets/icons/Ribbon.svg)
+![ リボン ](/help/assets/icons/Ribbon.svg)
 
 ## RotateCCW {#rotateccw}
 
@@ -2658,7 +2658,7 @@ ht-degree: 8%
 
 ## 右に回転 {#rotateright}
 
-![右に回転](/help/assets/icons/RotateRight.svg)
+![ 右に回転 ](/help/assets/icons/RotateRight.svg)
 
 ## RotateRightOutline {#rotaterightoutline}
 
@@ -2674,7 +2674,7 @@ ht-degree: 8%
 
 ## SMSLlightning {#smslightning}
 
-![SMSLlightning](/help/assets/icons/SMSLightning.svg)
+![SMSLightning](/help/assets/icons/SMSLightning.svg)
 
 ## SMSRefresh {#smsrefresh}
 
@@ -2690,7 +2690,7 @@ ht-degree: 8%
 
 ## サンドボックス {#sandbox}
 
-![Sandbox](/help/assets/icons/Sandbox.svg)
+![ サンドボックス ](/help/assets/icons/Sandbox.svg)
 
 ## SaveAsFloppy {#saveasfloppy}
 
@@ -2714,7 +2714,7 @@ ht-degree: 8%
 
 ## 手書き {#scribble}
 
-![手書き](/help/assets/icons/Scribble.svg)
+![ 手書き ](/help/assets/icons/Scribble.svg)
 
 ## 検索 {#search}
 
@@ -2722,7 +2722,7 @@ ht-degree: 8%
 
 ## シート {#seat}
 
-![シート](/help/assets/icons/Seat.svg)
+![ シート ](/help/assets/icons/Seat.svg)
 
 ## SeatAdd {#seatadd}
 
@@ -2730,7 +2730,7 @@ ht-degree: 8%
 
 ## セグメント {#segment}
 
-![セグメント](/help/assets/icons/Segment.svg)
+![ セグメント ](/help/assets/icons/Segment.svg)
 
 ## セグメント化 {#segmentation}
 
@@ -2738,7 +2738,7 @@ ht-degree: 8%
 
 ## 選択 {#select}
 
-![を選択](/help/assets/icons/Select.svg)
+![ 選択 ](/help/assets/icons/Select.svg)
 
 ## SelectAdd {#selectadd}
 
@@ -2750,7 +2750,7 @@ ht-degree: 8%
 
 ## 選択ボックスすべて {#selectboxall}
 
-![選択ボックスすべて](/help/assets/icons/SelectBoxAll.svg)
+![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
 
 ## SelectCircular {#selectcircular}
 
@@ -2774,7 +2774,7 @@ ht-degree: 8%
 
 ## 選択 {#selection}
 
-![選択](/help/assets/icons/Selection.svg)
+![ 選択 ](/help/assets/icons/Selection.svg)
 
 ## SelectionChecked {#selectionchecked}
 
@@ -2786,27 +2786,27 @@ ht-degree: 8%
 
 ## 送信 {#send}
 
-![送信](/help/assets/icons/Send.svg)
+![ 送信 ](/help/assets/icons/Send.svg)
 
 ## センチメント陰性 {#sentimentnegative}
 
-![センチメント陰性](/help/assets/icons/SentimentNegative.svg)
+![ センチメント否定的 ](/help/assets/icons/SentimentNegative.svg)
 
 ## センチメント中立 {#sentimentneutral}
 
-![センチメント中立](/help/assets/icons/SentimentNeutral.svg)
+![ センチメント中立 ](/help/assets/icons/SentimentNeutral.svg)
 
 ## センチメント陽性 {#sentimentpositive}
 
-![センチメント陽性](/help/assets/icons/SentimentPositive.svg)
+![ センチメント陽性 ](/help/assets/icons/SentimentPositive.svg)
 
 ## 区切り記号 {#separator}
 
-![区切り記号](/help/assets/icons/Separator.svg)
+![ 区切り記号 ](/help/assets/icons/Separator.svg)
 
 ## サーバー {#server}
 
-![サーバー](/help/assets/icons/Server.svg)
+![ サーバー ](/help/assets/icons/Server.svg)
 
 ## 設定 {#setting}
 
@@ -2814,11 +2814,11 @@ ht-degree: 8%
 
 ## 形状 {#shape}
 
-![形状](/help/assets/icons/Shape.svg)
+![ 形状 ](/help/assets/icons/Shape.svg)
 
 ## 共有 {#share}
 
-![共有](/help/assets/icons/Share.svg)
+![ 共有 ](/help/assets/icons/Share.svg)
 
 ## ShareAndroid {#shareandroid}
 
@@ -2838,19 +2838,19 @@ ht-degree: 8%
 
 ## シャープ {#sharpen}
 
-![シャープ](/help/assets/icons/Sharpen.svg)
+![ シャープ ](/help/assets/icons/Sharpen.svg)
 
 ## シールド {#shield}
 
-![シールド](/help/assets/icons/Shield.svg)
+![ シールド ](/help/assets/icons/Shield.svg)
 
 ## 船舶 {#ship}
 
-![船舶](/help/assets/icons/Ship.svg)
+![ 船舶 ](/help/assets/icons/Ship.svg)
 
 ## ショップ {#shop}
 
-![ショップ](/help/assets/icons/Shop.svg)
+![ ショップ ](/help/assets/icons/Shop.svg)
 
 ## ShoppingCart {#shoppingcart}
 
@@ -2870,15 +2870,15 @@ ht-degree: 8%
 
 ## シャッフル {#shuffle}
 
-![シャッフル](/help/assets/icons/Shuffle.svg)
+![ シャッフル ](/help/assets/icons/Shuffle.svg)
 
 ## スライス {#slice}
 
-![スライス](/help/assets/icons/Slice.svg)
+![ スライス ](/help/assets/icons/Slice.svg)
 
 ## 遅い {#slow}
 
-![遅い](/help/assets/icons/Slow.svg)
+![ 遅い ](/help/assets/icons/Slow.svg)
 
 ## SmallCap {#smallcap}
 
@@ -2886,11 +2886,11 @@ ht-degree: 8%
 
 ## スナップショット {#snapshot}
 
-![スナップショット](/help/assets/icons/Snapshot.svg)
+![ スナップショット ](/help/assets/icons/Snapshot.svg)
 
 ## SocialNetwork {#socialnetwork}
 
-![SocialNetwork](/help/assets/icons/SocialNetwork.svg)
+![ ソーシャルネットワーク ](/help/assets/icons/SocialNetwork.svg)
 
 ## SortOrderDown {#sortorderdown}
 
@@ -2902,15 +2902,15 @@ ht-degree: 8%
 
 ## スパム {#spam}
 
-![スパム](/help/assets/icons/Spam.svg)
+![ スパム ](/help/assets/icons/Spam.svg)
 
 ## Spellcheck {#spellcheck}
 
-![Spellcheck](/help/assets/icons/Spellcheck.svg)
+![ スペルチェック ](/help/assets/icons/Spellcheck.svg)
 
 ## スピン {#spin}
 
-![スピン](/help/assets/icons/Spin.svg)
+![ スピン ](/help/assets/icons/Spin.svg)
 
 ## SplitView {#splitview}
 
@@ -2922,31 +2922,31 @@ ht-degree: 8%
 
 ## スタジアム {#stadium}
 
-![スタジアム](/help/assets/icons/Stadium.svg)
+![ スタジアム ](/help/assets/icons/Stadium.svg)
 
 ## 段階 {#stage}
 
-![ステージ](/help/assets/icons/Stage.svg)
+![ ステージ ](/help/assets/icons/Stage.svg)
 
 ## スタンプ {#stamp}
 
-![スタンプ](/help/assets/icons/Stamp.svg)
+![ スタンプ ](/help/assets/icons/Stamp.svg)
 
 ## つ星 {#star}
 
-![つ星](/help/assets/icons/Star.svg)
+![ 星 ](/help/assets/icons/Star.svg)
 
 ## StarOutline {#staroutline}
 
-![StarOutline](/help/assets/icons/StarOutline.svg)
+![ 星の輪郭 ](/help/assets/icons/StarOutline.svg)
 
 ## スターバースト {#starburst}
 
-![スターバースト](/help/assets/icons/Starburst.svg)
+![ スターバースト ](/help/assets/icons/Starburst.svg)
 
 ## StepBack {#stepbackward}
 
-![StepBack](/help/assets/icons/StepBackward.svg)
+![StepBackward](/help/assets/icons/StepBackward.svg)
 
 ## StepBackwardCircle {#stepbackwardcircle}
 
@@ -2954,7 +2954,7 @@ ht-degree: 8%
 
 ## StepFront {#stepforward}
 
-![StepFront](/help/assets/icons/StepForward.svg)
+![StepForward](/help/assets/icons/StepForward.svg)
 
 ## StepForwardCircle {#stepforwardcircle}
 
@@ -2962,7 +2962,7 @@ ht-degree: 8%
 
 ## 停止 {#stop}
 
-![停止](/help/assets/icons/Stop.svg)
+![ 停止 ](/help/assets/icons/Stop.svg)
 
 ## StopCircle {#stopcircle}
 
@@ -2970,23 +2970,23 @@ ht-degree: 8%
 
 ## ストップウォッチ {#stopwatch}
 
-![ストップウォッチ](/help/assets/icons/Stopwatch.svg)
+![ ストップウォッチ ](/help/assets/icons/Stopwatch.svg)
 
 ## まっすぐにする {#straighten}
 
-![まっすぐにする](/help/assets/icons/Straighten.svg)
+![ 角度補正 ](/help/assets/icons/Straighten.svg)
 
 ## アウトラインの直線化 {#straightenoutline}
 
-![アウトラインの直線化](/help/assets/icons/StraightenOutline.svg)
+![ アウトラインの直線化 ](/help/assets/icons/StraightenOutline.svg)
 
 ## StrokeWidth {#strokewidth}
 
-![StrokeWidth](/help/assets/icons/StrokeWidth.svg)
+![ 線幅 ](/help/assets/icons/StrokeWidth.svg)
 
 ## 登録 {#subscribe}
 
-![登録](/help/assets/icons/Subscribe.svg)
+![ 登録 ](/help/assets/icons/Subscribe.svg)
 
 ## SubtractBackPath {#subtractbackpath}
 
@@ -3002,23 +3002,23 @@ ht-degree: 8%
 
 ## 成功指標 {#successmetric}
 
-![成功指標](/help/assets/icons/SuccessMetric.svg)
+![ 成功指標 ](/help/assets/icons/SuccessMetric.svg)
 
 ## 要約 {#summarize}
 
-![要約](/help/assets/icons/Summarize.svg)
+![ 要約 ](/help/assets/icons/Summarize.svg)
 
 ## 調査 {#survey}
 
-![調査](/help/assets/icons/Survey.svg)
+![ 調査 ](/help/assets/icons/Survey.svg)
 
 ## 切り替え {#switch}
 
-![切り替え](/help/assets/icons/Switch.svg)
+![ 切り替え ](/help/assets/icons/Switch.svg)
 
 ## 同期 {#sync}
 
-![同期](/help/assets/icons/Sync.svg)
+![ 同期 ](/help/assets/icons/Sync.svg)
 
 ## SyncRemove {#syncremove}
 
@@ -3026,7 +3026,7 @@ ht-degree: 8%
 
 ## テーブル {#table}
 
-![テーブル](/help/assets/icons/Table.svg)
+![ テーブル ](/help/assets/icons/Table.svg)
 
 ## TableAdd {#tableadd}
 
@@ -3110,7 +3110,7 @@ ht-degree: 8%
 
 ## タグ下線 {#tagunderline}
 
-![タグ下線](/help/assets/icons/TagUnderline.svg)
+![ タグアンダーライン ](/help/assets/icons/TagUnderline.svg)
 
 ## Target {#target}
 
@@ -3118,19 +3118,19 @@ ht-degree: 8%
 
 ## ターゲット {#targeted}
 
-![ターゲット](/help/assets/icons/Targeted.svg)
+![ ターゲット ](/help/assets/icons/Targeted.svg)
 
 ## TaskList {#tasklist}
 
-![TaskList](/help/assets/icons/TaskList.svg)
+![ タスクリスト ](/help/assets/icons/TaskList.svg)
 
 ## ティーポット {#teapot}
 
-![ティーポット](/help/assets/icons/Teapot.svg)
+![ ティーポット ](/help/assets/icons/Teapot.svg)
 
 ## 温度 {#temperature}
 
-![温度](/help/assets/icons/Temperature.svg)
+![ 温度 ](/help/assets/icons/Temperature.svg)
 
 ## TestAB {#testab}
 
@@ -3182,7 +3182,7 @@ ht-degree: 8%
 
 ## テキスト太字 {#textbold}
 
-![テキスト太字](/help/assets/icons/TextBold.svg)
+![TextBold](/help/assets/icons/TextBold.svg)
 
 ## TextBulleted {#textbulleted}
 
@@ -3222,7 +3222,7 @@ ht-degree: 8%
 
 ## TextIndentDecore {#textindentdecrease}
 
-![TextIndentDecore](/help/assets/icons/TextIndentDecrease.svg)
+![TextIndentDecrease](/help/assets/icons/TextIndentDecrease.svg)
 
 ## TextIndentIncrease {#textindentincrease}
 
@@ -3230,11 +3230,11 @@ ht-degree: 8%
 
 ## 斜体 {#textitalic}
 
-![斜体](/help/assets/icons/TextItalic.svg)
+![TextItalic](/help/assets/icons/TextItalic.svg)
 
 ## TextKerning {#textkerning}
 
-![TextKerning](/help/assets/icons/TextKerning.svg)
+![ テキストカーニング ](/help/assets/icons/TextKerning.svg)
 
 ## TextLetteredLowerCase {#textletteredlowercase}
 
@@ -3246,15 +3246,15 @@ ht-degree: 8%
 
 ## TextNumbers {#textnumbered}
 
-![TextNumbers](/help/assets/icons/TextNumbered.svg)
+![TextNumbered](/help/assets/icons/TextNumbered.svg)
 
 ## TextParagram {#textparagraph}
 
-![TextParagram](/help/assets/icons/TextParagraph.svg)
+![TextParagraph](/help/assets/icons/TextParagraph.svg)
 
 ## TextRoman 小文字 {#textromanlowercase}
 
-![TextRoman 小文字](/help/assets/icons/TextRomanLowercase.svg)
+![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg)
 
 ## TextRomanUppercase {#textromanuppercase}
 
@@ -3278,7 +3278,7 @@ ht-degree: 8%
 
 ## 取り消し線 {#textstrikethrough}
 
-![取り消し線](/help/assets/icons/TextStrikethrough.svg)
+![ 取り消し線 ](/help/assets/icons/TextStrikethrough.svg)
 
 ## TextStroke {#textstroke}
 
@@ -3294,11 +3294,11 @@ ht-degree: 8%
 
 ## TextSuperscript {#textsuperscript}
 
-![TextSuperscript](/help/assets/icons/TextSuperscript.svg)
+![ 上付き文字 ](/help/assets/icons/TextSuperscript.svg)
 
 ## TextTracking {#texttracking}
 
-![TextTracking](/help/assets/icons/TextTracking.svg)
+![ テキストトラッキング ](/help/assets/icons/TextTracking.svg)
 
 ## TextUnderline {#textunderline}
 
@@ -3314,7 +3314,7 @@ ht-degree: 8%
 
 ## Thumbup {#thumbup}
 
-![Thumbup](/help/assets/icons/ThumbUp.svg)
+![ThumbUp](/help/assets/icons/ThumbUp.svg)
 
 ## ThumbUpOutline {#thumbupoutline}
 
@@ -3322,7 +3322,7 @@ ht-degree: 8%
 
 ## トレイン {#train}
 
-![トレイン](/help/assets/icons/Train.svg)
+![ トレイン ](/help/assets/icons/Train.svg)
 
 ## TransferToPlatform {#transfertoplatform}
 
@@ -3330,11 +3330,11 @@ ht-degree: 8%
 
 ## 透明度 {#transparency}
 
-![透明度](/help/assets/icons/Transparency.svg)
+![ 透明化 ](/help/assets/icons/Transparency.svg)
 
 ## トラップ {#trap}
 
-![トラップ](/help/assets/icons/Trap.svg)
+![ トラップ ](/help/assets/icons/Trap.svg)
 
 ## TreeCollapse {#treecollapse}
 
@@ -3366,7 +3366,7 @@ ht-degree: 8%
 
 ## トロフィー {#trophy}
 
-![トロフィー](/help/assets/icons/Trophy.svg)
+![ トロフィー ](/help/assets/icons/Trophy.svg)
 
 ## タイプ {#type}
 
@@ -3374,27 +3374,27 @@ ht-degree: 8%
 
 ## 米国 {#usa}
 
-![米国](/help/assets/icons/USA.svg)
+![ 米国 ](/help/assets/icons/USA.svg)
 
 ## 下線 {#underline}
 
-![下線](/help/assets/icons/Underline.svg)
+![ アンダーライン ](/help/assets/icons/Underline.svg)
 
 ## 取り消し {#undo}
 
-![取り消し](/help/assets/icons/Undo.svg)
+![ 元に戻す ](/help/assets/icons/Undo.svg)
 
 ## グループ解除 {#ungroup}
 
-![グループ解除](/help/assets/icons/Ungroup.svg)
+![ グループ解除 ](/help/assets/icons/Ungroup.svg)
 
 ## リンク解除 {#unlink}
 
-![リンク解除](/help/assets/icons/Unlink.svg)
+![ リンクを解除 ](/help/assets/icons/Unlink.svg)
 
 ## Unmerge {#unmerge}
 
-![Unmerge](/help/assets/icons/Unmerge.svg)
+![ 結合解除 ](/help/assets/icons/Unmerge.svg)
 
 ## UnresolvedComment {#unresolvedcomment}
 
@@ -3418,7 +3418,7 @@ ht-degree: 8%
 
 ## UserAdd {#useradd}
 
-![UserAdd](/help/assets/icons/UserAdd.svg)
+![ ユーザー追加 ](/help/assets/icons/UserAdd.svg)
 
 ## UserAdmin {#useradmin}
 
@@ -3426,7 +3426,7 @@ ht-degree: 8%
 
 ## ユーザー矢印 {#userarrow}
 
-![ユーザー矢印](/help/assets/icons/UserArrow.svg)
+![UserArrow](/help/assets/icons/UserArrow.svg)
 
 ## UserCheckedOut {#usercheckedout}
 
@@ -3446,7 +3446,7 @@ ht-degree: 8%
 
 ## UserGroup {#usergroup}
 
-![UserGroup](/help/assets/icons/UserGroup.svg)
+![ ユーザーグループ ](/help/assets/icons/UserGroup.svg)
 
 ## UserLock {#userlock}
 
@@ -3454,7 +3454,7 @@ ht-degree: 8%
 
 ## UserShare {#usershare}
 
-![UserShare](/help/assets/icons/UserShare.svg)
+![ ユーザー共有 ](/help/assets/icons/UserShare.svg)
 
 ## UsersAdd {#usersadd}
 
@@ -3474,7 +3474,7 @@ ht-degree: 8%
 
 ## Variable {#variable}
 
-![変数](/help/assets/icons/Variable.svg)
+![ 変数 ](/help/assets/icons/Variable.svg)
 
 ## VectorDraw {#vectordraw}
 
@@ -3558,11 +3558,11 @@ ht-degree: 8%
 
 ## ビネット {#vignette}
 
-![ビネット](/help/assets/icons/Vignette.svg)
+![ ビネット ](/help/assets/icons/Vignette.svg)
 
 ## 可視性 {#visibility}
 
-![可視性](/help/assets/icons/Visibility.svg)
+![ 可視性 ](/help/assets/icons/Visibility.svg)
 
 ## VisibilityOff {#visibilityoff}
 
@@ -3570,7 +3570,7 @@ ht-degree: 8%
 
 ## 訪問 {#visit}
 
-![訪問](/help/assets/icons/Visit.svg)
+![ 訪問 ](/help/assets/icons/Visit.svg)
 
 ## VisitShare {#visitshare}
 
@@ -3582,7 +3582,7 @@ ht-degree: 8%
 
 ## VolumeMute {#volumemute}
 
-![VolumeMute](/help/assets/icons/VolumeMute.svg)
+![ 音量ミュート ](/help/assets/icons/VolumeMute.svg)
 
 ## VolumeOne {#volumeone}
 
@@ -3598,19 +3598,19 @@ ht-degree: 8%
 
 ## ウォッチ {#watch}
 
-![ウォッチ](/help/assets/icons/Watch.svg)
+![ ウォッチ ](/help/assets/icons/Watch.svg)
 
 ## Web ページ {#webpages}
 
-![Web ページ](/help/assets/icons/WebPages.svg)
+![Web ページ ](/help/assets/icons/WebPages.svg)
 
 ## Web ページ {#webpage}
 
-![Web ページ](/help/assets/icons/WebPage.svg)
+![Web ページ ](/help/assets/icons/WebPage.svg)
 
 ## ワークフロー {#workflow}
 
-![ワークフロー](/help/assets/icons/Workflow.svg)
+![ ワークフロー ](/help/assets/icons/Workflow.svg)
 
 ## WorkflowAdd {#workflowadd}
 
@@ -3618,7 +3618,7 @@ ht-degree: 8%
 
 ## レンチ {#wrench}
 
-![レンチ](/help/assets/icons/Wrench.svg)
+![ レンチ ](/help/assets/icons/Wrench.svg)
 
 ## ZoomIn {#zoomin}
 

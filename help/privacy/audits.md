@@ -16,9 +16,9 @@ Mix ModelerUI に組み込まれたExperience Platformの一部である監査�
 
 監査ログを調べるには、Mix Modelerインターフェイスで次を実行します。
 
-1. を選択 ![タスクリスト](/help/assets/icons/TaskList.svg) **[!UICONTROL Audits]** から **[!UICONTROL PRIVACY]**.
+1. **[!UICONTROL PRIVACY]** から ![ タスクリスト ](/help/assets/icons/TaskList.svg)**[!UICONTROL Audits]** を選択します。
 
-1. 対象： **[!UICONTROL Audits]**&#x200B;を参照してください。次を見つけることができます： **[!UICONTROL Activity log]**. アクティビティログには、次のMix Modelerカテゴリ、アクション、およびステータスのエントリが表示されます。
+1. **[!UICONTROL Audits]** では、**[!UICONTROL Activity log]** を見つけることができます。 アクティビティログには、次のMix Modelerカテゴリ、アクション、およびステータスのエントリが表示されます。
 
    | カテゴリ | アクション | ステータス |
    |---|---|---|
@@ -49,11 +49,11 @@ Mix ModelerUI に組み込まれたExperience Platformの一部である監査�
 
 1. アクティビティログでエントリを選択すると、パネルが開いて詳細を確認できます。
 
-   ![Mix Modeler監査](/help/assets/mix-modeler-audit.png)
+   ![Mix Modeler監査 ](/help/assets/mix-modeler-audit.png)
 
-1. フィルタリング対象 **[!UICONTROL Category]**, **[!UICONTROL Action]**, **[!UICONTROL Request ID]**, **[!UICONTROL User]**, **[!UICONTROL Status]** または **[!UICONTROL Date]** 範囲、選択 ![フィルター](/help/assets/icons/Filter.svg).
+1. **[!UICONTROL Category]**、**[!UICONTROL Action]**、**[!UICONTROL Request ID]**、**[!UICONTROL User]**、**[!UICONTROL Status]** または **[!UICONTROL Date]** の範囲に対してフィルターを適用するには、「![ フィルター ](/help/assets/icons/Filter.svg)」を選択します。
 
-1. アクティビティ・ログに表示される列を変更するには、 ![列](/help/assets/icons/ColumnSetting.svg) および **[!UICONTROL Customize table]** ダイアログ表示する列を選択します。 を選択 **[!UICONTROL Apply]** 選択を適用するには、 **[!UICONTROL Cancel]** をクリックして選択をキャンセルします。
+1. アクティビティログに表示されている列を変更するには、「![ 列 ](/help/assets/icons/ColumnSetting.svg)」を選択し、**[!UICONTROL Customize table]** ダイアログで表示する列を選択します。 **[!UICONTROL Apply]** を選択して選択を適用するか、**[!UICONTROL Cancel]** を選択して選択をキャンセルします。
 
-1. 監査ログをダウンロードするには、次を選択します ![Download](/help/assets/icons/Download.svg) **[!UICONTROL Download log]**. が含まれる **[!UICONTROL Download log]** ダイアログ次のいずれかを選択 **[!UICONTROL CSV]** または **[!UICONTROL JSON]** 形式として、を選択します。 **[!UICONTROL Download]**.
+1. 監査ログをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download log]** を選択します。 **[!UICONTROL Download log]** ダイアログで、形式として **[!UICONTROL CSV]** または **[!UICONTROL JSON]** を選択し、「**[!UICONTROL Download]**」を選択します。
 
