@@ -4,10 +4,10 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 23c83cd3576951eb5f8d64bd98f8a5b9e57286a5
+source-git-commit: 7793d32d2b2cb8ede80df9d8e3ea4df5c92d26aa
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 7%
+source-wordcount: '431'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,18 @@ ht-degree: 7%
 
 **最終更新日**:2024 年 5 月 29 日（PT）。
 
-これらのリリースノートは、Mix Modelerの最新リリースについて説明しています。 Mix Modelerリリースは、毎月のおおよそのリリースサイクルを可能にする継続的な配信モデルに基づいて機能します。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
+これらのリリースノートは、Mix Modelerの最新リリースについて説明しています。 Mix Modelerリリースは、継続的な配信モデルに基づいて機能するので、毎月のおおよそのリリースサイクルが可能になります。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
+
+## 2024年8月
+
+| 機能 | 説明 | 一般公開 |
+|---|---|---|
+| **[!UICONTROL Ad-hoc training and scoring]** | モデルインターフェイスからモデル [ 再トレーニング ](/help/models/overview.md#re-train)、[ スコア（新しいマーケティングデータの場合）または再スコア ](/help/models/overview.md#score-or-re-score) を開始できます。 | 2024 年 8 月 13 日（Pt） |
+| **[!UICONTROL Policy enforcement]** | データセットルールを設定する際や、Mix Modelerで使用される基になるデータにラベルを変更する際に、Experience Platformポリシーが適用されます。 詳しくは、[ ポリシー ](../data-governance/policies.md) を参照してください。 | 2024 年 8 月 13 日（Pt） |
+| **データハイジーン** | データハイジーンルールは、ソースデータの削除時に考慮されます。 [ ソースデータセットの削除 ](../harmonize-data/dataset-rules.md#delete-a-source-dataset) を参照してください。 | 2024 年 8 月 13 日（Pt） |
+| **要素貢献度インサイト** | [!UICONTROL Model insights] では、「[[!UICONTROL Factors]](/help/models/insights.md#factors)」タブには、外部要因に関連するインサイトが表示されます。 | 2024 年 8 月 13 日（Pt） |
+| **限界反応曲線** | モデルインサイトの [ 限界応答曲線 ](/help/models/insights.md#model-insights-1) ウィジェットは、選択したデータ範囲の変更に基づいて曲線と対応する値を更新するようになりました。 さらに、ウィジェットは限界破断のポイントを表示し、リターンが減少するポイントを表示します。 | 2024 年 8 月 20 日（Pt） |
+
 
 ## 2024年6月
 

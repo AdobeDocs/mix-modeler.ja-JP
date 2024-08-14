@@ -3,16 +3,16 @@ title: モデル
 description: Mix Modelerでモデルを設定および使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '716'
 ht-degree: 1%
 
 ---
 
 # モデル
 
-Mix Modelerのモデル機能を使用すると、ビジネス目標に固有の AI/ML モデルの設定、トレーニング、スコアリングを行えます。また、マルチタッチアトリビューションとマーケティングミックスモデリングの間で、AI 駆動のトランスファーラーニングによってサポートされます。
+Mix Modelerのモデル機能を使用すると、ビジネス目標に固有の AI/ML モデルを設定、トレーニング、スコアリングできます。 トレーニングとスコアリングは、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動の転送学習をサポートします。
 
 モデルは、Mix Modelerアプリケーションワークフローの一部として作成する統一データに基づいています。
 
@@ -20,17 +20,17 @@ Mix Modelerのモデルは、マーケターの投資に基づいて指定され
 
 モデルには次の要件があります。
 
-* 1 つのコンバージョン、
-* 概要レベルデータ、マーケティングタッチポイントデータ（イベントデータ）またはその両方で構成された 1 つ以上のマーケティングタッチポイント（チャネル）
-* の設定可能なルックバックウィンドウ
+* 1 つのコンバージョン。
+* 概要レベルデータ、マーケティングタッチポイントデータ（イベントデータ）またはその両方で構成された 1 つ以上のマーケティングタッチポイント（チャネル）です。
+* 設定可能なルックバックウィンドウ。
 * 設定可能なトレーニングウィンドウ。
 
 モデルには、オプションで次の項目を含めることができます。
 
-* 外部要因、
-* 内部要因、
-* いわゆる「優先値」（データの観測前または観測前のデータに関する知識または不確実性を表す確率分布）で、チャネル別の以前のコンバージョンをインデックス化します。
-* 支出共有：マーケティングデータが疎な場合に、相対的な支出共有をプロキシとして使用します。
+* 外部要因。
+* 内部要因。
+* 過去の関係者エクスペリエンス、増分的テスト、その他のモデルなど、他のソースからのマーケティング投稿に関する予備知識。
+* 費用共有：マーケティングデータが疎な場合に、相対的な費用共有をプロキシとして使用します。
 
 
 ## モデルの作成
@@ -54,51 +54,96 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
    | コンバージョンイベント | モデルに対して選択した変換。 |
    | 実行頻度 | モデルをトレーニングする実行頻度。 |
    | 前回の実行 | モデルの最後のトレーニングの日時。 |
-   | ステータス | モデルのトレーニングの前回の実行ステータス。 <br/><span style="color:green">●</span> Success<br/><span style="color:orange">●</span> Training の問題 <br/> <span style="color:orange">●</span> トレーニングを待機中 <br/><span style="color:red">●</span> 失敗 <br/><span style="color:gray">●</span> _ （前回の実行が進行中の場合） |
+   | ステータス | モデルのトレーニングの前回の実行ステータス。 <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg)Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) トレーニングの問題 <br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) トレーニングを待機中 <br/>![StatusRed](/help/assets/icons/StatusRed.svg) 失敗 <br/>![StatusGreen](/help/assets/icons/StatusGray.svg)_（前回の実行が処理中） |
 
    {style="table-layout:auto"}
 
 1. リストに表示される列を変更するには、「![ 列設定 ](/help/assets//icons/ColumnSetting.svg) を選択し、列のオン ![ チェック ](/help/assets//icons/Checkmark.svg) とオフを切り替えます。
 
+特定のモデルに対して次のアクションを実行できます。
 
-### モデルの詳細の表示
+### 詳細を表示
 
 モデルの詳細を表示するには：
+
+1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. モデルの ![ 情報 ](/help/assets//icons/Info.svg) を選択して、詳細を含むポップアップを表示します。
 
 
 
+### 複製
+
+モデルをすばやく複製できます。
+
+1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+
+1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Duplicate]**] を選択します。
+
+
 ### モデルインサイト
 
-Mix Modelerインターフェイスでモデルのインサイトを表示するには：
+モデルインサイト機能は、正常にトレーニングされたモデルとスコアリングされたモデルでのみ使用できます。 モデルのインサイトを表示するには：
 
 1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
-1. **[!UICONTROL Last run status]** が <span style="color:green">●</span> のモデル名を選択します **[!UICONTROL Models]** テーブルから **[!UICONTROL Success]** します。 モデルインサイトは、正常にトレーニングされたモデルでのみ使用できます。
+1. モデル名を選択します。
 
-1. コンテキストメニューから「**[!UICONTROL Model Insights]**」を選択します。 [ モデルインサイト ](insights.md) にリダイレクトされます。
-
-
-### 再スコア
+[ モデルインサイト ](insights.md) にリダイレクトされます。
 
 
-Mix Modelerインターフェイスでモデルのスコアを変更するには：
+### 再トレーニング
+
+モデルの再トレーニングは、正常にトレーニングされたモデルでのみ使用できます。 モデルを再トレーニングするには：
 
 1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
-1. **[!UICONTROL Last run status]** が <span style="color:green">●</span> のモデル名を選択します **[!UICONTROL Models]** テーブルから **[!UICONTROL Success]** します。 再スコアは、正常にトレーニングされたモデルでのみ使用できます。
+1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Train]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** を選択します。
 
-1. コンテキストメニューから「**[!UICONTROL Re-score]**」を選択します。 モデルの更新されたステータスが表示されるまで数分かかる場合があります。
+   **[!UICONTROL Train model]** ダイアログで、次の操作を実行するオプションを選択します。
+
+   * **[!UICONTROL Train model with last 2 years of marketing data]**、または
+   * **[!UICONTROL Train model using specific date range of data]**。
+日付範囲を指定します。 ![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。 最低 1 年のデータ範囲を選択する必要があります。
+
+   ![ モデルの再トレーニング ](../assets/re-train-model.png)
+
+1. **[!UICONTROL Train]** を選択してモデルを再トレーニングします。
+
+
+### スコアまたは再スコア
+
+
+新しいマーケティングデータに基づいてモデルに増分的にスコアを付けたり、特定の日付範囲でモデルを再スコア化したりできます。 モデルにスコアを付ける、または再スコアを付ける手順は、次のとおりです。
+
+1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+
+1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Score]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** を選択します。
+
+   **[!UICONTROL Score marketing data]** ダイアログで、次の操作を実行するオプションを選択します。
+
+   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**：新しいマーケティングデータを使用してモデルに増分的にスコアを付ける
+   * 特定の日付範囲に対して再スコア化する **[!UICONTROL Score specific date range of marketing data]** 要があります。
+日付範囲を指定します。 ![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。
+
+   ![ モデルの再トレーニング ](../assets/re-score-model.png)
+
+1. 「**[!UICONTROL Score]**」を選択します。 特定のデータ範囲を使用してモデルを再スコアリングすると、**[!UICONTROL Existing model is replaced]** のダイアログが表示され、選択した日付範囲の新しいスコアでモデルを置き換えるかどうかを確認するように求められます。 「**[!UICONTROL Replace model]**」を選択して確定します。
 
 
 ### モデルの削除
 
 モデルを削除するには：
 
-1. 削除するモデルの名前を選択します。
+1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
-1. 右クリック メニューから、[**[!UICONTROL Delete]**] を選択してモデルを削除します。
+1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Delete]**] を選択します。 または、青いアクションバーから ![ 削除 ](/help/assets/icons/Delete.svg)**[!UICONTROL Delete]** を選択します。
+
+複数のモデルを削除するには：
+
+1. 複数のモデルを選択します。
+
+1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択してモデルを削除します。
 
    >[!WARNING]
    >

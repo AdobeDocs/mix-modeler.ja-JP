@@ -3,9 +3,9 @@ title: モデルインサイト
 description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 6897f27520705f54d3f23018903a52536083b339
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ![ モデルインサイトのタブバー ](/help/assets//model-insights-tabbar.png)
 
-指定したモデルが最後に更新された日時を確認できます。また、次の 4 つのタブを使用してウィジェットが表示されます。[ モデルインサイト ](#model-insights)、[ アトリビューション ](#attribution)、[ 診断 ](#diagnostics)、[ 概要の履歴 ](#historical-overview)。
+指定したモデルが最後に更新された日時を確認できます。また、次の 4 つのタブを使用してウィジェットが表示されます。[ モデルインサイト ](#model-insights)、[ アトリビューション ](#attribution)、[ 要因 ](#factors)、[ 診断 ](#diagnostics)、および [ 履歴の概要 ](#historical-overview)。
 
 各タブのウィジェットの基になる期間を変更できます。 日付範囲を入力するか、「![ カレンダー ](/help/assets//icons/Calendar.svg)」を選択して日付範囲を選択します。
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 * マーケティング効果の概要。
 
-* 限界応答曲線。
+* 限界応答曲線。  選択したデータ範囲に基づいて、曲線と対応する値の両方が計算されます。 さらに、このウィジェットは、マージナルブレークのポイントを表示し、リターンが減少するポイントを示します。
   <br/> 「チャネル」ドロップダウンリストから **[!UICONTROL Channel]** ャネルを選択して、特定のチャネルのウィジェットを更新します。
 
 ![ モデル – モデルインサイト ](/help/assets//model-insights-insights.png)
@@ -141,6 +141,15 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 * チャネルごとに、アトリビューションモデルの貢献度のパーセンテージ、
 * これらのチャネルアトリビューションモデルのコントリビューションパーセンテージの合計。
 
+## **[!UICONTROL Factors]**
+
+「要因」タブには、外部要因関連のインサイトが表示されます。
+
+![ 要因 ](/help/assets/factors.png)
+
+テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets//icons/Download.svg)」を選択します。
+
+使用できるデータがない場合は、メッセージ ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** が表示されます。
 
 ## [!UICONTROL Diagnostics]
 

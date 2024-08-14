@@ -3,9 +3,9 @@ title: データセットルール
 description: Mix Modeler内のデータの調和の一部として使用するデータセットルールを定義する方法について説明します。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: a924eb080866595af3639c4976716e69ef5e7a20
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1313'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
       * では、**[!UICONTROL Map Into]** **[!UICONTROL Mapping type]** を使用して、**[!UICONTROL Channel Type At Source]** 統一フィールドを **[!DNL Luma Transactions]** データセットの **[!UICONTROL channel_type]** フィールドにマッピングします。
 
-      * では、**[!UICONTROL Case]** **[!UICONTROL Mapping type]** を使用して、**[!DNL Luma Transactions]** データセットの **[!UICONTROL marketing.campaignName]** フィールドの値を **[!UICONTROL Campaign]** の統一フィールドに条件付きでマッピングします。 Campaign 統一フィールドは次のように設定されます。
+      * では、**[!UICONTROL Case]** **[!UICONTROL Mapping type]** を使用して、**[!DNL Luma Transactions]** データセットの **[!UICONTROL marketing.campaignName]** フィールドの値を条件付きで **[!UICONTROL Campaign]** 統一フィールドにマッピングします。 Campaign 統一フィールドは次のように設定されます。
 
          * **[!UICONTROL marketing.campaignName]** が `_black_friday` または `BlackFriday` の場合に `Black Friday` します。
          * その他すべての場合、**[!UICONTROL marketing.campaignName]** の値に変換します。
@@ -126,7 +126,7 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
 ## データを同期
 
-統一データと概要データセットやイベントデータセットの間でデータを同期するには、データセットルール内のすべてのロジックに従います。
+データセットルールでロジックを適用する際に、統一データと概要データセットやイベントデータセットの間でデータを同期するには：
 
 1. **[!UICONTROL Sync data]** を選択します。
 
@@ -159,7 +159,7 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
    ![ データ結合環境設定 ](/help/assets//data-merge-preferences.png)
 
-   * **[!UICONTROL Default metric preference]** を選択します。 選択したデフォルトの指標の環境設定は、ハーモナイゼーション中に、複数のデータソースが特定のチャネルの指標フィールドを更新すると適用されます。 特定の指標ベースの環境設定で上書きされない限り、環境設定はサンドボックスレベルで適用されます。 **[!UICONTROL Summary data]**、**[!UICONTROL Event data]**、**[!UICONTROL Sum of summmary and event data]** から選択できます。
+   * **[!UICONTROL Default metric preference]** を選択します。 選択したデフォルトの指標の環境設定は、ハーモナイゼーション中に、複数のデータソースが特定のチャネルの指標フィールドを更新すると適用されます。 特定の指標ベースの環境設定で上書きされない限り、環境設定はサンドボックスレベルで適用されます。 **[!UICONTROL Summary data]**、**[!UICONTROL Event data]**、**[!UICONTROL Sum of summary and event data]** から選択できます。
 
    * 特定の指標ベースの環境設定を追加するには：
 
@@ -181,11 +181,13 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
 1. 「**[!UICONTROL Save]**」を選択して、データ結合の環境設定を保存します。 データの再同期が開始されます。 <br/> キャンセルする **[!UICONTROL Cancel]** を選択します。
 
+## ソースデータセットの削除
 
-## フィールドレベルのアクセス制御
+調和されたデータで使用されているソースデータセットを削除すると、そのソースデータセットに対する基になるエントリが [[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md) から削除されます。 ただし、削除されたソースデータセットを含むデータセットルールは、ソースデータセットが削除されたことを示すアイコン ![DataRemove](/help/assets/icons/DataRemove.svg) とともに、データセットルール設定リストに残ります。 詳細情報を取得するには：
 
-統一データセットのデータセットルールを設定する場合、Experience Platformの [ 属性ベースのアクセス制御 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview) がフィールドレベルで適用されます。 ラベルがスキーマフィールドに添付され、そのフィールドへのアクセスを拒否するアクティブなポリシーが有効になっている場合、フィールドは制限されます。 その結果、次のようになります。
+* コンテキストメニューから ![ その他 ](/help/assets/icons/More.svg) および ![ プレビュー ](/help/assets/icons/Preview.svg)**[!UICONTROL View]** を選択します。
+**[!UICONTROL Dataset rule mapping - Fields]** ダイアログには、削除されたソースデータセットと、データセットルール設定で使用されているフィールドに関する情報が表示されます。
 
-* データセットルールを作成する際に、制限されているスキーマフィールドが表示されません。
-* 自身に対して制限されている 1 つ以上のスキーマフィールドのマッピングを表示または編集できません。 このような制限されたフィールドを含むデータセットルールを編集または表示すると、次の画面が表示されます。
-  ![ アクションが許可されていません ](/help/assets//action-not-permitted.png)
+**[!UICONTROL Dataset rules]** 設定に戻ると、1 つ以上のソースデータセットが削除されたことを説明するダイアログが表示されます。 統一されたデータは、次のアドホック同期またはスケジュールされた同期で影響を受けます。 データセットルールの設定を確認します。
+
+調和されたデータは、次のアドホック同期時またはスケジュール同期時に、削除されたソースデータなしで更新される。 ただし、削除されたソースデータセットに基づいてデータセットルールを削除するように求めるアラートダイアログが引き続き表示されます。 このアラートを使用すると、ユーザーは、削除されたデータセット内の影響を受けたフィールドを表示および評価できます。 任意のモデルで使用できるマーケティングタッチポイントまたはコンバージョンへの影響を判断する場合もあります。 この影響を確認し、軽減したら、データセットルール設定リストからデータセットルールを削除する必要があります。
