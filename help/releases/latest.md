@@ -4,10 +4,10 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f75aa1e24506dbb107a519337b0163a93b196ca7
+source-git-commit: 8e04509cbdbf82fcdf3d561a3e2ebfb4ecd3e2ee
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 7%
+source-wordcount: '437'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,11 @@ ht-degree: 7%
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
-| **[!UICONTROL Ad-hoc training and scoring]** | モデルインターフェイスからモデル [ 再トレーニング ](/help/models/overview.md#re-train)、[ スコア（新しいマーケティングデータの場合）または再スコア ](/help/models/overview.md#score-or-re-score) を開始できます。 | 2024 年 8 月 13 日（Pt） |
-| **[!UICONTROL Policy enforcement]** | データセットルールを設定する際や、Mix Modelerで使用される基になるデータにラベルを変更する際に、Experience Platformポリシーが適用されます。 詳しくは、[ ポリシー ](../data-governance/policies.md) を参照してください。 | 2024 年 8 月 13 日（Pt） |
+| **要素貢献度インサイト** | [!UICONTROL Model insights] では、「[[!UICONTROL Factors]](/help/models/insights.md#factors)」タブには、外部要因に関連するインサイトが表示されます。 | 2024 年 8 月 20 日（Pt） |
+| **限界反応曲線** | モデルインサイトの [ 限界応答曲線 ](/help/models/insights.md#model-insights-1) ウィジェットは、選択したデータ範囲の変更に基づいて曲線と対応する値を更新するようになりました。 さらに、ウィジェットは限界破断のポイントを表示し、リターンが減少するポイントを表示します。 | 2024 年 8 月 20 日（Pt） |
+| **アドホックなトレーニングとスコアリング** | モデルインターフェイスからモデル [ 再トレーニング ](/help/models/overview.md#re-train)、[ スコア（新しいマーケティングデータの場合）または再スコア ](/help/models/overview.md#score-or-re-score) を開始できます。 | 2024 年 8 月 13 日（Pt） |
+| **ポリシーの適用** | データセットルールを設定する際や、Mix Modelerで使用される基になるデータにラベルを変更する際に、Experience Platformポリシーが適用されます。 詳しくは、[ ポリシー ](../data-governance/policies.md) を参照してください。 | 2024 年 8 月 13 日（Pt） |
 | **データハイジーン** | データハイジーンルールは、ソースデータの削除時に考慮されます。 [ ソースデータセットの削除 ](../harmonize-data/dataset-rules.md#delete-a-source-dataset) を参照してください。 | 2024 年 8 月 13 日（Pt） |
-
-
-
-<!--| **Factor contribution insights** | In [!UICONTROL Model insights], the [[!UICONTROL Factors]](/help/models/insights.md#factors) tab offers external factor related insights. | August 13, 2024 |
-| **Marginal response curves** | The [marginal response curves](/help/models/insights.md#model-insights-1) widget in Model insights now updates the curve and corresponding values based on changes in the selected data range. Additionally, the widget shows the point of marginal break even and the point of diminishing returns. | August 20, 2024 |-->
-
 
 ## 2024年6月
 
