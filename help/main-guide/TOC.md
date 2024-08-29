@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+source-git-commit: 31a9c2c03e982abdea8be58a7c3c5a06a93be929
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 46%
+source-wordcount: '84'
+ht-degree: 47%
 
 ---
 
@@ -61,6 +61,7 @@ ht-degree: 46%
 + リリース {#releases}
    + [最新リリース](/help/releases/latest.md)
    + [2023 年リリース](/help/releases/2023.md)
+   + [テスト](../releases/test.md)
 
 + [用語集](/help/main-guide/glossary.md)
 
