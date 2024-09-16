@@ -3,7 +3,7 @@ title: プランを編集
 description: Mix Modelerでプランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # プランを編集
 
-プランを編集するには、Mix Modelerの ![ プラン ](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** インターフェイスで、名前でプランを選択します。
+プランを編集するには、Mix Modelerの ![ プラン ](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** インターフェイスで、名前でプランを選択します。
 
 [!UICONTROL Plan insights] では、プランのインサイトが作成され、プランのベースとなる [!UICONTROL Model]、[!UICONTROL Data range] および [!UICONTROL Total budget] が表示されます。
 
@@ -29,16 +29,16 @@ ht-degree: 0%
    - コンバージョン目標
    - 費用
 
-![ 計画の概要 ](/help/assets//overview-plan.png)
+![ 計画の概要 ](/help/assets/overview-plan.png)
 
 1. 「**[!UICONTROL Close]**」を選択すると、計画インタフェースに戻ります。
 
 1. **[!UICONTROL View ROI]** り方の **[!UICONTROL X]** または **[!UICONTROL  %]** を選択してください。
 
-1. 日付範囲の分類のデータを含んだ CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets//icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。 コンテキストメニューから、次の操作を行います。
+1. 日付範囲の分類のデータを含んだ CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。 コンテキストメニューから、次の操作を行います。
 
-   - CSV 形式の詳細なデータについては、「![ ダウンロード ](/help/assets//icons/Download.svg)」 **[!UICONTROL Detailed CSV]** を選択してください。
-   - CSV 形式の概要データの場合は、「![ ダウンロード ](/help/assets//icons/Download.svg)」 **[!UICONTROL Summary CSV]** を選択します。
+   - CSV 形式の詳細なデータについては、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Detailed CSV]** を選択してください。
+   - CSV 形式の概要データの場合は、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Summary CSV]** を選択します。
 
    詳細データは、週別にキー設定された粒度の高いデータです。 概要データは、モデルが指定した日付範囲でキー設定されたデータです。
 
@@ -46,13 +46,13 @@ ht-degree: 0%
 
 1. プランを編集するには、**[!UICONTROL Edit plan]** を選択します。
 
-   1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets//icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
+   1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets/icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
 
    1. 各チャネルの予算を変更するには、「**[!UICONTROL Min]**」と「**[!UICONTROL Max]**」の値を変更するか、スライダーを使用します。
 
    1. 通貨またはパーセンテージの入力を切り替えるには、「**[!UICONTROL View spend by]**」で「**[!UICONTROL $]**」または「**[!UICONTROL %]**」を選択します。
 
-      ![ 費用の選択 ](/help/assets//spend-selection.png)
+      ![ 費用の選択 ](/help/assets/spend-selection.png)
 
    1. プランの詳細を編集するには、**[!UICONTROL Edit details]** を選択します。
 
@@ -60,13 +60,13 @@ ht-degree: 0%
 
       1. **[!UICONTROL Budget]** のセクションで以下を実行します。
 
-         1. 日付を入力するか、![ カレンダー ](/help/assets//icons/Calendar.svg) を使用して日付範囲を選択して、1 つ以上のプランの日付範囲の **[!UICONTROL Date range]** を変更します。
+         1. 日付を入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択して、1 つ以上のプランの日付範囲の **[!UICONTROL Date range]** を変更します。
 
          1. 1 つ以上のプランの日付範囲の **[!UICONTROL Budget]** を変更します。
 
-         日付範囲を追加するには、それぞれ予算と共に ![CalendarAdd](/help/assets//icons/CalendarAdd.svg) **[!UICONTROL Add row]** を選択します。
+         日付範囲を追加するには、それぞれ予算と共に ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** を選択します。
 
-         日付範囲および関連する予算を削除するには、「![ クローズ ](/help/assets//icons/Close.svg)」を選択します。
+         日付範囲および関連する予算を削除するには、「![ クローズ ](/help/assets/icons/Close.svg)」を選択します。
 
          最大予算を定義する手順は、次のとおりです。
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
       1. 「**[!UICONTROL Next]**」を選択すると、「**[!UICONTROL Spend]**」セクションに戻ります。 「**[!UICONTROL Cancel]**」を選択して、計画の概要に戻ります。
 
-         ![ 計画の詳細 ](/help/assets//plan-details.png)
+         ![ 計画の詳細 ](/help/assets/plan-details.png)
 
 
 1. 計画の編集が終了したら、「**[!UICONTROL Edit]**」を選択します。

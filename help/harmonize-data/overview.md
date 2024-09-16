@@ -3,7 +3,7 @@ title: データのハーモナイズ
 description: Mix Modelerでデータを調和させる方法を説明します。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 8%
@@ -116,17 +116,17 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
 統一されたデータを表示するには、Mix Modelerインターフェイスで次の手順を実行します。
 
-1. 左パネルから ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** を選択します。
+1. 左パネルから ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** を選択します。
 
 1. 上部バーの「**[!UICONTROL Harmonized Data]**」を選択します。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
 
-   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![ カレンダ ](/help/assets//icons/Calendar.svg) を使用してデータ範囲を選択します。
+   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![ カレンダ ](/help/assets/icons/Calendar.svg) を使用してデータ範囲を選択します。
 
-   1. 統一データテーブルに表示される統一フィールド列を変更するには、![ 設定 ](/help/assets//icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
+   1. 統一データテーブルに表示される統一フィールド列を変更するには、![ 設定 ](/help/assets/icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
 
-      1. **[!UICONTROL AVAILABLE COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets//icons/SelectBox.svg) 選択し、![ 右に山形 ](/help/assets//icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
+      1. **[!UICONTROL AVAILABLE COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets/icons/SelectBox.svg) 選択し、![ 右に山形 ](/help/assets/icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
 
-      1. **[!UICONTROL SELECTED COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets//icons/SelectBox.svg) 選択し、![ 左に山形記号 ](/help/assets//icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
+      1. **[!UICONTROL SELECTED COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets/icons/SelectBox.svg) 選択し、![ 左に山形記号 ](/help/assets/icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
 
       1. **[!UICONTROL DEFAULT SORT]** から列を選択し、**[!UICONTROL Ascending]** または **[!UICONTROL Descending]** を切り替えます。
 
@@ -134,4 +134,4 @@ facebookのマーケティング活動データセットが含まれ、集計デ
 
    1. **[!UICONTROL Submit]** を選択して、列設定の変更を送信します。 「**[!UICONTROL Close]**」を選択して、加えた変更をキャンセルします。
 
-1. 他のページが使用可能な場合は、![x](/help/assets//icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets//icons/ChevronRight.svg) または_ 右向き矢印_]** を使用してページ間を移動します。
+1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_]** を使用してページ間を移動します。

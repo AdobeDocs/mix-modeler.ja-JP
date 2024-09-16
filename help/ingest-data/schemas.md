@@ -3,7 +3,7 @@ title: スキーマ
 description: データをMix Modelerに取り込むために必要なスキーマを管理する方法を説明します。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 1. Mix Modelerインターフェイスに移動します。
 
-1. **[!UICONTROL SETUP]** の下の「![ スキーマ ](/help/assets//icons/Schemas.svg)」 **[!UICONTROL Schemas]** を選択します。
+1. **[!UICONTROL SETUP]** の下の「![ スキーマ ](/help/assets/icons/Schemas.svg)」 **[!UICONTROL Schemas]** を選択します。
 
 詳しくは、[ スキーマ UI の概要 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.htm?lang=ja) を参照してください。
 
@@ -38,7 +38,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 次の **[!DNL ExternalFactorSummarySchema]** に示すように、**[!DNL XDM Summary Metrics]** 基本クラスを使用するスキーマは単純にすることができます。
 
-![ 外部要因スキーマ ](/help/assets//external-factors-schema.png)
+![ 外部要因スキーマ ](/help/assets/external-factors-schema.png)
 
 この単純なスキーマを使用すると、次のようなデータを含んだデータセットを取り込むことができます。
 
@@ -65,7 +65,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 **[!DNL XDM Summary Metrics]** を基本クラスとして使用する **[!DNL LumaPaidMarketingSchema]** の包括的な例については、以下を参照してください。 スキーマは、指標（**[!DNL AMMMetrics]**）、ディメンション（**[!DNL AMMDimensions]**）およびその他の顧客固有の情報（**[!DNL CustomerSpecific]**）に対して、専用のフィールドグループ（色で注釈が付いています）を使用します。
 
-![ 概要スキーマ ](/help/assets//summary-schema.png)
+![ 概要スキーマ ](/help/assets/summary-schema.png)
 
 プロファイル取り込みは非同期なので、外部ソースから集計データや概要データを収集する場合は、外部Source システム監査の詳細フィールドグループをスキーマの一部として使用することをお勧めします。 このフィールドグループは、外部ソースの一連の監査プロパティを定義します。
 

@@ -3,47 +3,63 @@ title: モデルインサイト
 description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 6897f27520705f54d3f23018903a52536083b339
+source-git-commit: 09ec757a37725d4b41231076bd99432bffd6d555
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1332'
 ht-degree: 0%
 
 ---
 
 # モデルインサイト
 
-モデルインサイトを表示するには、Mix Modelerの ![ モデル ](/help/assets//icons/FileData.svg)**[!UICONTROL Models]** ーザーインターフェイスで次の操作を行います。
+モデルインサイトを表示するには、Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg)**[!UICONTROL Models]** ーザーインターフェイスで次の操作を行います。
 
 1. **[!UICONTROL Models]** テーブルから、**[!UICONTROL Last run status]** が <span style="color:green">●</span> のモデルの名前を選択します。 **[!UICONTROL Success]**。
 
 1. コンテキストメニューから「**[!UICONTROL Model Insights]**」を選択します。
 
-![ モデルインサイトのタブバー ](/help/assets//model-insights-tabbar.png)
+![ モデルインサイトのタブバー ](/help/assets/model-insights-tabbar.png)
 
-指定したモデルが最後に更新された日時を確認できます。また、次の 4 つのタブを使用してウィジェットが表示されます。[ モデルインサイト ](#model-insights)、[ アトリビューション ](#attribution)、[ 要因 ](#factors)、[ 診断 ](#diagnostics)、および [ 履歴の概要 ](#historical-overview)。
+指定したモデルが最後に更新されると、[ モデルインサイト ](#model-insights)、[ アトリビューション ](#attribution)、[ 要因 ](#factors)、[ 診断 ](#diagnostics)、[ 履歴概要 ](#historical-overview) の 4 つのタブを使用してビジュアライゼーションが表示されます。
 
-各タブのウィジェットの基になる期間を変更できます。 日付範囲を入力するか、「![ カレンダー ](/help/assets//icons/Calendar.svg)」を選択して日付範囲を選択します。
+各タブのビジュアライゼーションの基になる期間を変更できます。 日付範囲を入力するか、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して日付範囲を選択します。
 
 ## [!UICONTROL Model insights]
 
-「モデルインサイト」タブには、次のウィジェットが表示されます。
+モデルインサイト タブには、[ 日付およびベースメディア別の貢献度 ](#contribution-by-date-and-base-media)、[ チャネル別の貢献度 ](#contribution-by-channel)、[ マーケティングパフォーマンスの概要 ](#marketing-performance-summary)、および [ 限界応答曲線 ](#marginal-response-curves) のビジュアライゼーションが表示されます。
 
-* 貢献度（日付およびベースメディア別） 積み重ねグラフは順序が付けられており、下部にベース、中央に非支出チャネル、上部に支出チャネルが表示されます。
+![ モデル – モデルインサイト ](/help/assets/model-insights-insights.png)
 
-* 貢献度（チャネル別）。
+* 各ビジュアライゼーションの個々のグラフ要素にポインタを合わせると、詳細を含むポップオーバーが表示されます。
 
-* マーケティング効果の概要。
+* ビジュアライゼーションのデータを含んだ CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
-* 限界応答曲線。  選択したデータ範囲に基づいて、曲線と対応する値の両方が計算されます。 さらに、このウィジェットは、マージナルブレークのポイントを表示し、リターンが減少するポイントを示します。
-  <br/> 「チャネル」ドロップダウンリストから **[!UICONTROL Channel]** ャネルを選択して、特定のチャネルのウィジェットを更新します。
+* Microsoft® Excel 形式で完全なモデルインサイトデータをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)**[!UICONTROL Download data]** を選択します。
 
-![ モデル – モデルインサイト ](/help/assets//model-insights-insights.png)
 
-各ウィジェットの個々のグラフ要素にポインタを合わせると、詳細を含むポップオーバーが表示されます。
+### 貢献度（日付およびベースメディア別）
 
-ウィジェットのデータを含んだ CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets//icons/Download.svg)」を選択します。
+積み重ねグラフは順序が付けられており、下部にベース、中央に非支出チャネル、上部に支出チャネルが表示されます。
 
-Microsoft® Excel 形式で完全なモデルインサイトデータをダウンロードするには、「![ ダウンロード ](/help/assets//icons/Download.svg)**[!UICONTROL Download data]** を選択します。
+### 貢献度（チャネル別）
+
+ドーナツビジュアライゼーションには、貢献度の分布がチャネル別に表示されます。
+
+### マーケティング効果の概要。
+
+チャネル別の ROI パフォーマンスを表示する横棒グラフ。
+
+### 限界応答曲線。
+
+折れ線グラフは、マーケティングチャネルでの投資によって生成された限界収益を視覚化し比較します。  そして、増分利益が増分費用よりも少ない損益分岐点を特定します。 その結果、このビジュアライゼーションは、マーケティング投資の影響が小さくなり始めたタイミングを理解するのに役立ちます。
+
+選択したデータ範囲と選択したチャンネルに基づいて、カーブ、ブレークポイント、および対応する値が計算されます。
+
+チャネルを変更するには：
+
+* **[!UICONTROL Channel]** ドロップダウンメニューからチャネルを選択して、特定のチャネルのビジュアライゼーションを更新します。
+
+
 
 ## [!UICONTROL Attribution]
 
@@ -61,43 +77,43 @@ Microsoft® Excel 形式で完全なモデルインサイトデータをダウ�
 
 Mix Modelerのマルチタッチアトリビューション機能の概要については、[ マルチタッチアトリビューション ](../get-started/about.md#multi-touch-attribution) を参照してください。
 
-**[!UICONTROL Attribution Model]** ドロップダウンリストから 1 つ以上のアトリビューションモデルを選択します。 選択したアトリビューションモデルは、「アトリビューション」タブのすべてのウィジェットに適用されます。
+**[!UICONTROL Attribution Model]** ドロップダウンメニューから 1 つ以上のアトリビューションモデルを選択します。 選択したアトリビューションモデルは、「アトリビューション」タブのすべてのビジュアライゼーションに適用されます。
 
-![アトリビューション](/help/assets//model-insights-attribution.png)
+![アトリビューション](/help/assets/model-insights-attribution.png)
 
 Mix Modelerのマルチタッチ アトリビューションのきめ細かいイベントスコアは、全体的なMix Modelerスコアと ROI に一致します。 これらのスコアは、Experience Platformのデータセットとしても使用できます。
 
-「アトリビューション」タブは、次のウィジェットで構成されます。
+「アトリビューション」タブは、次のビジュアライゼーションで構成されます。
 
 ### [!UICONTROL Overview]
 
-[!UICONTROL Overview] ウィジェットには、選択したアトリビューションモデルに関して、コンバージョンの合計とパーセンテージが表示されます。 さらにモデルを選択すると、ビジュアライゼーションに円が追加され、凡例に対応する独自の色が付きます。
+[!UICONTROL Overview] のビジュアライゼーションには、選択したアトリビューションモデルに関して、コンバージョンの合計とパーセンテージが表示されます。 さらにモデルを選択すると、ビジュアライゼーションに円が追加され、凡例に対応する独自の色が付きます。
 
 アトリビューションモデルの詳細を含むポップアップを表示するには、ビジュアライゼーションの任意の円にポインタを合わせます。
 
 ### [!UICONTROL Trends]
 
-[!UICONTROL Daily trends]、[!UICONTROL Weekly trends]、[!UICONTROL Monthly trends] のウィジェットは、選択したアトリビューションモデルに関して、日別、週別、月別のコンバージョントレンドを表示します。
+[!UICONTROL Daily trends]、[!UICONTROL Weekly trends] または [!UICONTROL Monthly trends] のビジュアライゼーションは、選択したアトリビューションモデルに関して、日別、週別または月別のコンバージョンのトレンドを表示します。
 
-期間を選択するには、「**[!UICONTROL Daily trends]**」、「**[!UICONTROL Weekly trends]**」または「**[!UICONTROL Monthly trends]**」を ![ 詳細 ](/help/assets//icons/More.svg) から選択します。
+期間を選択するには、「**[!UICONTROL Daily trends]**」、「**[!UICONTROL Weekly trends]**」または「**[!UICONTROL Monthly trends]**」を ![ 詳細 ](/help/assets/icons/More.svg) から選択します。
 
 詳細を確認するには、特定のアトリビューションモデルのデータラインにカーソルを合わせると、そのデータのコンバージョンの合計数を表示するポップオーバーが表示されます。
 
 ### [!UICONTROL Breakdown]
 
-[!UICONTROL Breakdown] ウィジェットは、選択した各アトリビューションモデルのコンバージョンのチャネルまたはタッチポイントごとの分類です。 このウィジェットは、各チャネルまたはタッチポイントの有効性を決定するのに役立ちます。
+[!UICONTROL Breakdown] のビジュアライゼーションは、選択した各アトリビューションモデルのコンバージョンのチャネルまたはタッチポイントによる分類です。 このビジュアライゼーションは、各チャネルやタッチポイントの有効性を判断するのに役立ちます。
 
-分類のタイプを選択するには、「**[!UICONTROL Breakdown by channel]**」または「**[!UICONTROL Breakdown by touchpoint]**」を ![ 詳細 ](/help/assets//icons/More.svg) から選択します。
+分類のタイプを選択するには、「**[!UICONTROL Breakdown by channel]**」または「**[!UICONTROL Breakdown by touchpoint]**」を ![ 詳細 ](/help/assets/icons/More.svg) から選択します。
 
 詳細を表示するには、任意のグラフ要素にポインタを合わせます。
 
 ### [!UICONTROL Top campaigns]
 
-上位キャンペーン ウィジェットには、キャンペーン名、チャネル、メディアタイプおよび増分コンバージョン用の列を含んだ上位キャンペーンのテーブルが表示されます。 このウィジェットは、特定のチャネルに対する特定のキャンペーンの有効性をチームに伝え、さらに投資する必要があるキャンペーンに関するインサイトを提供するのに役立ちます。
+上位キャンペーンのビジュアライゼーションには、キャンペーン名、チャネル、メディアタイプおよび増分コンバージョンの列を含む上位キャンペーンのテーブルが表示されます。 このビジュアライゼーションは、特定のチャネルに対する特定のキャンペーンの有効性をチームに知らせ、さらに投資する必要のあるキャンペーンに関するインサイトを提供するのに役立ちます。
 
 チャネル、メディアタイプ、増分コンバージョンでテーブルを昇↑または降順に並べ替える↓合は、列ヘッダーを選択して並べ替えを切り替えます。
 
-別のダイアログでテーブルを展開するには、「**[!UICONTROL Expand]** 細 ![」から「詳細 ](/help/assets//icons/More.svg) を選択します。
+別のダイアログでテーブルを展開するには、「**[!UICONTROL Expand]** 細 ![」から「詳細 ](/help/assets/icons/More.svg) を選択します。
 
 展開されたトップキャンペーン ダイアログには、と同じテーブルに対する追加列が表示されます
 
@@ -147,13 +163,16 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 ![ 要因 ](/help/assets/factors.png)
 
-テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets//icons/Download.svg)」を選択します。
+このビジュアライゼーションは、様々な内部および外部の要因がコンバージョンのベースラインに与える増分的な影響を理解するのに役立ちます。 例えば、経済状況やプロモーション活動などです。
+
+
+テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
 使用できるデータがない場合は、メッセージ ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** が表示されます。
 
 ## [!UICONTROL Diagnostics]
 
-「診断」タブには、次のウィジェットが表示されます。
+「診断」タブには、次のビジュアライゼーションが表示されます。
 
 * [!UICONTROL Model Assessment] のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残差コンバージョンを分類できます。
 
@@ -175,22 +194,22 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
       * RMSE （二乗平均誤差）：誤差の二乗に従って重み付けされた、平均誤差を表示します。
 
-  テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets//icons/Download.svg)」を選択します。
+  テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
-* Attribution AIアルゴリズムモデルの結果を表す [!UICONTROL Touchpoint effectiveness] のテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets//icons/InfoOutline.svg)」を選択してください。
+* Attribution AIアルゴリズムモデルの結果を表す [!UICONTROL Touchpoint effectiveness] のテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
 
-  ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets//icons/SortOrderDown.svg) で表示されます。
+  ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets/icons/SortOrderDown.svg) で表示されます。
 
    * [!UICONTROL Paths touched]: コンバージョンを達成するパスの割合とコンバージョンを達成しないパスの割合を視覚化します。 タッチポイントの場合、アトリビューションコンバージョン率が高いと、より多くのアトリビューションコンバージョンが表示されます。 この比率では、コンバージョンにつながるパスの割合と、コンバージョンにつながる *つながらない* パスの割合が比較されます。
    * [!UICONTROL Efficiency measure]: アルゴリズムアトリビューションモデルによって生成される効率測定は、タッチポイント量に関係なく、コンバージョンに対するタッチポイントの相対的な重要度を示します。 効率は 1～5 のスケールで測定されます。 タッチポイント量が多いからといって、効率測定が高くなるとは限りません。
    * [!UICONTROL Total volume]：ユーザーがタッチポイントにタッチした合計回数。 この数は、コンバージョンを達成するパスと、コンバージョンに至るパス *ではない* に表示されるタッチポイントを含みます。
 
-![ 診断 ](/help/assets//model-insights-diagnostics.png)
+![ 診断 ](/help/assets/model-insights-diagnostics.png)
 
 
 ## [!UICONTROL Historical overview]
 
-「履歴の概要」タブには、次のウィジェットが表示されます。
+履歴の概要タブには、次のビジュアライゼーションが表示されます。
 
 * コンバージョンと支出（会計四半期および製品別）。
 
@@ -198,10 +217,10 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 * タッチポイント支出。
 
-  このウィジェットに表示する別の費用ベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
+  このビジュアライゼーションに表示する別の費用ベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
 
 * タッチポイント量。
 
-  このウィジェットに表示する別のボリュームベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
+  このビジュアライゼーションに表示する代替のボリュームベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
 
-![ モデル – 履歴の概要 ](/help/assets//model-insights-historical-overview.png)
+![ モデル – 履歴の概要 ](/help/assets/model-insights-historical-overview.png)

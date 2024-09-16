@@ -3,7 +3,7 @@ title: コンバージョン数
 description: Mix Modeler内のデータの調和の一部として使用するコンバージョンを作成する方法を説明します。
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 1%
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Mix Modelerインターフェイスで使用可能なコンバージョンのテーブルを表示するには、次の手順を実行します。
 
-1. 左パネルから ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]** を選択します。
+1. 左パネルから ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** を選択します。
 
 1. 上部バーの「**[!UICONTROL Conversions]**」を選択します。 コンバージョンのテーブルが表示されます。
 
@@ -39,9 +39,9 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
 ## コンバージョンを追加
 
-コンバージョンを追加するには、Mix Modelerの ![DataSearch](/help/assets//icons/DataCheck.svg) **[!UICONTROL Harmonized data]**/**[!UICONTROL Conversion]** インターフェイスで、次の手順を実行します。
+コンバージョンを追加するには、Mix Modelerの ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**/**[!UICONTROL Conversion]** インターフェイスで、次の手順を実行します。
 
-1. 「![ 追加 ](/help/assets//icons/AddCircle.svg)」を選択し **[!UICONTROL Add a conversion]** す。
+1. 「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択し **[!UICONTROL Add a conversion]** す。
 
 1. **[!UICONTROL Create conversion]** ダイアログで、次の手順を実行します。
 
@@ -51,7 +51,7 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
       1. **[!UICONTROL *調和を選択…*]**の値を選択します（例：`Conversion types`）。
 
-      1. 演算子 ![ 山形 ](/help/assets//icons/ChevronDown.svg) の値（例：**[!UICONTROL is]**）を選択します。
+      1. 演算子 ![ 山形 ](/help/assets/icons/ChevronDown.svg) の値（例：**[!UICONTROL is]**）を選択します。
 
       1. **[!UICONTROL *値を選択&#x200B;*]**から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
 
@@ -61,7 +61,7 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
    1. 変換を作成するには、「**[!UICONTROL Create]**」を選択します。 コンバージョンの作成をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
-      ![ 代替テキスト ](/help/assets//create-conversion.png)
+      ![ 代替テキスト ](/help/assets/create-conversion.png)
 
 1. 作成されると、変換が変換テーブルに追加されます。
 
@@ -70,14 +70,14 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
 コンバージョンを表示するには：
 
-1. テーブル内のコンバージョン名にカーソルを合わせたときに「![ 詳細 ](/help/assets//icons/More.svg)」を選択します。
+1. テーブル内のコンバージョン名にカーソルを合わせたときに「![ 詳細 ](/help/assets/icons/More.svg)」を選択します。
 
-1. ![ 表示 ](/help/assets//icons/ViewDetail.svg)**表示** を選択します。 コンバージョンの詳細を示すダイアログが表示されます。 詳しくは、[ コンバージョンの追加 ](#add-a-conversion) を参照してください。 「**[!UICONTROL Cancel]**」を選択して、ダイアログを閉じます。
+1. ![ 表示 ](/help/assets/icons/ViewDetail.svg)**表示** を選択します。 コンバージョンの詳細を示すダイアログが表示されます。 詳しくは、[ コンバージョンの追加 ](#add-a-conversion) を参照してください。 「**[!UICONTROL Cancel]**」を選択して、ダイアログを閉じます。
 
 
 ## コンバージョンの削除
 
 コンバージョンを削除するには：
 
-1. テーブル内の変換名にカーソルを合わせたときに「![ 削除 ](/help/assets//icons/Delete.svg)**削除**」を選択します。
+1. テーブル内の変換名にカーソルを合わせたときに「![ 削除 ](/help/assets/icons/Delete.svg)**削除**」を選択します。
 1. **[!UICONTROL Delete conversion]** ダイアログの確認ダイアログで、コンバージョンを完全に削除する **[!UICONTROL Delete]** を選択します。

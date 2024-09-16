@@ -2,7 +2,8 @@
 title: アクセス制御
 description: Mix Modelerでアクセス制御を設定する方法を説明します。
 feature: Administration
-source-git-commit: 6776a91563f120db1341adef923aab4b0f582c9d
+exl-id: c9ec97d9-b9a2-41f5-8626-1cf967d5d7fe
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 32%
@@ -31,5 +32,4 @@ Experience PlatformのMix Modelerユーザーおよびユーザーグループ�
 
 * データセットルールを作成する際に、制限されているスキーマフィールドが表示されません。
 * 自身に対して制限されている 1 つ以上のスキーマフィールドのマッピングを表示または編集できません。 このような制限されたフィールドを含むデータセットルールを編集または表示すると、次の画面が表示されます。
-  ![ アクションが許可されていません ](/help/assets//action-not-permitted.png)
-
+  ![ アクションが許可されていません ](/help/assets/action-not-permitted.png)

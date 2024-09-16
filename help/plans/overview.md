@@ -3,7 +3,7 @@ title: プラン
 description: Mix Modelerでプランを表示、選択およびアクションする方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 1%
@@ -33,7 +33,7 @@ Mix Modeler内のプランを使用すると、事業部門別およびチャネ
 
 Mix Modeler・インタフェースで現在の計画の表を表示する手順は、次のとおりです。
 
-1. 左パネルから ![](/help/assets//icons/FileChart.svg) **[!UICONTROL Plans]** を選択します。
+1. 左パネルから ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** を選択します。
 
 1. 現在のプランとそのステータスのテーブルが表示されます。
 
@@ -51,7 +51,7 @@ Mix Modeler・インタフェースで現在の計画の表を表示する手順
 
    {style="table-layout:auto"}
 
-1. ![ 検索 ](/help/assets//icons/Search.svg) を使用して、1 つ以上の特定のプランについてテーブルを検索およびフィルタリングします。
+1. ![ 検索 ](/help/assets/icons/Search.svg) を使用して、1 つ以上の特定のプランについてテーブルを検索およびフィルタリングします。
 
 ## プランを作成
 
@@ -67,20 +67,20 @@ Mix Modeler・インタフェースで現在の計画の表を表示する手順
 
 1 つ以上の計画を選択すると、計画アクションバーが表示されます。 アクションバーを使用すると、計画を削除、比較または複製できます。
 
-「計画」テーブルのすべての選択項目を削除するには、アクションバーで「![ 閉じる ](/help/assets//icons/Close.svg)」を選択します
+「計画」テーブルのすべての選択項目を削除するには、アクションバーで「![ 閉じる ](/help/assets/icons/Close.svg)」を選択します
 
-![ 計画アクションバー ](/help/assets//plans-action-bar.png)
+![ 計画アクションバー ](/help/assets/plans-action-bar.png)
 
 ### プランの複製
 
 計画を複製する手順は、次のとおりです。
 
 1. テーブルから 1 つのプランを選択します。
-1. アクションバーから「![ コピー ](/help/assets//icons/Copy.svg)」 **[!UICONTROL Duplicate]** を選択します。 元の計画の名前に **[!UICONTROL (Copy)]** が付いた名前の新規計画が表の一番上に追加されます。
+1. アクションバーから「![ コピー ](/help/assets/icons/Copy.svg)」 **[!UICONTROL Duplicate]** を選択します。 元の計画の名前に **[!UICONTROL (Copy)]** が付いた名前の新規計画が表の一番上に追加されます。
 
 または：
 
-1. テーブルのプランに対して ![ 詳細 ](/help/assets//icons/More.svg) を選択します。
+1. テーブルのプランに対して ![ 詳細 ](/help/assets/icons/More.svg) を選択します。
 1. コンテキストメニューから「**[!UICONTROL Duplicate]**」を選択します。 元の計画の名前に **[!UICONTROL (Copy)]** が付いた名前の新規計画が表の一番上に追加されます。
 
 ### 計画の比較
@@ -88,7 +88,7 @@ Mix Modeler・インタフェースで現在の計画の表を表示する手順
 計画を比較する手順は、次のとおりです。
 
 1. テーブルから 2 つのプランを選択します。
-1. アクションバーから ![ 比較 ](/help/assets//icons/Compare.svg)**[!UICONTROL Compare]** を選択します。 **[!UICONTROL Compare plans]** UI が表示されます。
+1. アクションバーから ![ 比較 ](/help/assets/icons/Compare.svg)**[!UICONTROL Compare]** を選択します。 **[!UICONTROL Compare plans]** UI が表示されます。
 
 
 ### 計画の削除
@@ -96,11 +96,11 @@ Mix Modeler・インタフェースで現在の計画の表を表示する手順
 計画を削除する手順は、次のとおりです。
 
 1. テーブルから 1 つ以上のプランを選択します。
-1. アクションバーから ![ 削除 ](/help/assets//icons/Delete.svg)**[!UICONTROL Delete]** を選択します。
+1. アクションバーから ![ 削除 ](/help/assets/icons/Delete.svg)**[!UICONTROL Delete]** を選択します。
 
 または：
 
-1. テーブルのプランに対して ![ 詳細 ](/help/assets//icons/More.svg) を選択します。
+1. テーブルのプランに対して ![ 詳細 ](/help/assets/icons/More.svg) を選択します。
 1. コンテキストメニューから「**[!UICONTROL Delete]**」を選択します。 元の計画の名前に **[!UICONTROL (Copy)]** が付いた名前の新規計画が表の一番上に追加されます。
 
    >[!WARNING]

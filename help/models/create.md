@@ -3,7 +3,7 @@ title: モデルの作成
 description: Mix Modelerでモデルを作成する方法を説明します。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # モデルの作成
 
-モデルを作成するには、Mix Modelerの ![ モデル ](/help/assets//icons/FileData.svg)**[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
+モデルを作成するには、Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg)**[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
 
 AI を利用したカスタムモデルを作成するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
 
@@ -20,7 +20,7 @@ AI を利用したカスタムモデルを作成するために、インター�
 
    1. モデル **[!UICONTROL Name]** （例：`Demo model`）を入力します。 **[!UICONTROL Description]** （例：`Demo model to explore AI featues of Mix Modeler`）を入力します。
 
-      ![ モデルの名前と説明 ](/help/assets//model-name-description.png)
+      ![ モデルの名前と説明 ](/help/assets/model-name-description.png)
 
    1. 「**[!UICONTROL Next]**」を選択して、次の手順に進みます。 モデル設定をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
@@ -32,9 +32,9 @@ AI を利用したカスタムモデルを作成するために、インター�
 
       1. コンバージョンの **[!UICONTROL *コンバージョン&#x200B;*]**の一部として定義した使用可能なコンバージョンを含む、[ 統一フィールドを選択 ](../harmonize-data/conversions.md) からコンバージョンを選 [!UICONTROL Harmonized datasets] します。 例：**[!UICONTROL Online Conversion]**。
 
-      1. ![ 返信 ](/help/assets//icons/Reply.svg)**[!UICONTROL Create new conversion]** を選択して、モデル設定内から直接コンバージョンを作成できます。
+      1. ![ 返信 ](/help/assets/icons/Reply.svg)**[!UICONTROL Create new conversion]** を選択して、モデル設定内から直接コンバージョンを作成できます。
 
-         ![ モデル – コンバージョンステップ ](/help/assets//model-conversion-step.png)
+         ![ モデル – コンバージョンステップ ](/help/assets/model-conversion-step.png)
 
    1. **[!UICONTROL Marketing touchpoints]** のセクションには、[!UICONTROL Harmonized datasets] で [ マーケティングタッチポイント ](../harmonize-data/marketing-touchpoints.md) の一部として定義したマーケティングタッチポイントに対応するマーケティングタッチポイントコンテナが多数表示されます。
 
@@ -44,13 +44,13 @@ AI を利用したカスタムモデルを作成するために、インター�
 
          1. **[!UICONTROL _マーケティングタッチポイントを選択_]** からマーケティングタッチポイントを選択します。
 
-         1. ![ 返信 ](/help/assets//icons/Reply.svg)**[!UICONTROL Create new marketing touchpoint]** を選択して、モデル設定内から直接マーケティングタッチポイントを作成できます。
+         1. ![ 返信 ](/help/assets/icons/Reply.svg)**[!UICONTROL Create new marketing touchpoint]** を選択して、モデル設定内から直接マーケティングタッチポイントを作成できます。
 
-      * マーケティングタッチポイントコンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」を選択 **[!UICONTROL Add marketing touchpoint]** ます。
+      * マーケティングタッチポイントコンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択 **[!UICONTROL Add marketing touchpoint]** ます。
 
-      * マーケティングタッチポイントコンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから **[!UICONTROL Remove container]** を選択します。
+      * マーケティングタッチポイントコンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets/icons/More.svg) を選択し、コンテキストメニューから **[!UICONTROL Remove container]** を選択します。
 
-        ![ モデル – マーケティングタッチポイントステップ ](/help/assets//model-marketing-touchpoint-step.png)
+        ![ モデル – マーケティングタッチポイントステップ ](/help/assets/model-marketing-touchpoint-step.png)
 
    1. デフォルトでは、統一ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットにのみスコアを付けるには、「**[!UICONTROL Eligible data population]**」セクションのコンテナを使用して 1 つ以上のフィルターを定義します。
 
@@ -64,17 +64,17 @@ AI を利用したカスタムモデルを作成するために、インター�
 
             1. **[!UICONTROL _値を入力または選択_]** で値を入力または選択します。
 
-         1. コンテナにイベントを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」を選択し **[!UICONTROL Add event]** す。
+         1. コンテナにイベントを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択し **[!UICONTROL Add event]** す。
 
-         1. コンテナからイベントを削除するには、「![ 閉じる ](/help/assets//icons/Close.svg) を選択します。
+         1. コンテナからイベントを削除するには、「![ 閉じる ](/help/assets/icons/Close.svg) を選択します。
 
          1. コンテナで定義したすべてのイベントまたは複数のイベントを使用してフィルタリングするには、「**[!UICONTROL Any of]**」または「**[!UICONTROL All of]**」を選択します。 それに応じて、ラベルが **[!UICONTROL Include ... Or ...]** から **[!UICONTROL Include ... And ...]** に変更されます。
 
-      * 適格なデータ母集団コンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」 **[!UICONTROL Add eligible population]** を選択します。
+      * 適格なデータ母集団コンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add eligible population]** を選択します。
 
-      * 適格なデータ母集団コンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove marketing touchpoint]**」を選択します。
+      * 適格なデータ母集団コンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets/icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove marketing touchpoint]**」を選択します。
 
-        ![ モデル – 適格なデータ母集団 ](/help/assets//model-eligible-data-population-step.png)
+        ![ モデル – 適格なデータ母集団 ](/help/assets/model-eligible-data-population-step.png)
 
    1. 外部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL External factors dataset]**」セクションの 1 つ以上のコンテナを使用します。
 
@@ -82,13 +82,13 @@ AI を利用したカスタムモデルを作成するために、インター�
 
          1. **[!UICONTROL _係数を入力_]** で **[!UICONTROL Factor name]** を入力します。
 
-         1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets//icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
+         1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
-      * 追加の外部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」 **[!UICONTROL Add external factor]** プションを選択します。
+      * 追加の外部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add external factor]** プションを選択します。
 
-      * 外部要因データセットコンテナを削除するには、コンテナ内で ![ その他 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove external factor]**」を選択します。
+      * 外部要因データセットコンテナを削除するには、コンテナ内で ![ その他 ](/help/assets/icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove external factor]**」を選択します。
 
-        ![ モデル – 外部要因データセット ](/help/assets//model-external-factors-dataset-step.png)
+        ![ モデル – 外部要因データセット ](/help/assets/model-external-factors-dataset-step.png)
 
 
    1. 内部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL Internal factors dataset]**」セクションの 1 つ以上のコンテナを使用します。
@@ -97,13 +97,13 @@ AI を利用したカスタムモデルを作成するために、インター�
 
          1. **[!UICONTROL _係数を入力_]** で **[!UICONTROL Factor name]** を入力します。
 
-         1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets//icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
+         1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
-      * 内部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets//icons/AddCircle.svg)」 **[!UICONTROL Add internal factor]** プションを選択します。
+      * 内部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add internal factor]** プションを選択します。
 
-      * 追加の内部要因データセットコンテナを削除するには、コンテナ内で ![ その他 ](/help/assets//icons/More.svg) を選択し、コンテキストメニューから **[!UICONTROL Remove internal factor]** を選択します。
+      * 追加の内部要因データセットコンテナを削除するには、コンテナ内で ![ その他 ](/help/assets/icons/More.svg) を選択し、コンテキストメニューから **[!UICONTROL Remove internal factor]** を選択します。
 
-        ![ モデル – 内部要因データセット ](/help/assets//model-internal-factors-dataset-step.png)
+        ![ モデル – 内部要因データセット ](/help/assets/model-internal-factors-dataset-step.png)
 
    1. モデルのルックバックウィンドウを定義するには、... **[!UICONTROL weeks prior to the conversion]** ードに `1` ～ `52` の値 **[!UICONTROL Give contribution credit to touchpoints occurring within]** 入力します。
 
@@ -117,7 +117,7 @@ AI を利用したカスタムモデルを作成するために、インター�
 
       * **[!UICONTROL Manually input a training window]**。選択した場合、年 **[!UICONTROL Include events the following years prior to a conversion]** を定義します。
 
-        ![ モデル – トレーニングウィンドウを定義 ](/help/assets//model-define-training-window.png)
+        ![ モデル – トレーニングウィンドウを定義 ](/help/assets/model-define-training-window.png)
 
    1. **[!UICONTROL Spend share]** のセクションで以下を実行します。
 
@@ -133,7 +133,7 @@ AI を利用したカスタムモデルを作成するために、インター�
 
       1. 必要に応じて、**[!UICONTROL Clear all]** を使用して、**[!UICONTROL Contribution proportion]** 列と **[!UICONTROL Level of confidence]** 列のすべての入力値をクリアします。
 
-         ![ モデル – 予備知識 ](/help/assets//model-prior-knowledge-step.png)
+         ![ モデル – 予備知識 ](/help/assets/model-prior-knowledge-step.png)
 
 1. 「**[!UICONTROL Finish]**」を選択すると、モデルの設定が完了します。
 

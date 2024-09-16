@@ -4,7 +4,7 @@ description: Mix Modeler の機能の概要を説明します。
 short-description: Mix Modeler の機能の概要を説明します。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 9085363e951a4e306c64ad28f56e2c15b4a6029a
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 4%
@@ -35,7 +35,7 @@ Mix Modelerは、戦略的および戦術的レベルで、最適化され実用
 
 AI/ML の双方向転送学習は、マーケティングミックスモデリング（MMM）とマルチタッチアトリビューション（MTA）の結果を統合して、cookie のない世界での測定と計画全体で一貫した結果を確保します。
 
-![ 双方向変換学習 ](/help/assets//birdirectional-transfer-learning.png){width="500" align="center"}
+![ 双方向変換学習 ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## 機能

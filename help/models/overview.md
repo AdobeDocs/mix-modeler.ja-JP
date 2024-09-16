@@ -3,20 +3,20 @@ title: モデル
 description: Mix Modelerでモデルを設定および使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: d5d9ec6b7b1222b3da9dcecaf3fa1cf2b2198881
+source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '805'
 ht-degree: 1%
 
 ---
 
 # モデル
 
-Mix Modelerのモデル機能を使用すると、ビジネス目標に固有の AI/ML モデルを設定、トレーニング、スコアリングできます。 トレーニングとスコアリングは、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動の転送学習をサポートします。
+Mix Modelerのモデル機能を使用すると、ビジネス目標に固有のモデルを設定、トレーニング、スコアリングできます。 トレーニングとスコアリングは、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動の転送学習をサポートします。
 
 モデルは、Mix Modelerアプリケーションワークフローの一部として作成する統一データに基づいています。
 
-Mix Modelerのモデルは、マーケターの投資に基づいて指定された成果を測定および/または予測するために使用される機械学習モデルです。 マーケティングタッチポイントおよび概要レベルデータを入力として使用できます。 Mix Modelerを使用すると、売上高、販売数量、リードなど、変数、ディメンション、結果の様々なセットに基づいてモデルのバリアントを作成できます。
+Mix Modelerのモデルは、マーケターの投資に基づいて指定された成果を測定し、予測するために使用される機械学習モデルです。 マーケティングタッチポイントおよび概要レベルデータを入力として使用できます。 Mix Modelerを使用すると、売上高、販売数量、リードなど、変数、ディメンション、結果の様々なセットに基づいてモデルのバリアントを作成できます。
 
 モデルには次の要件があります。
 
@@ -41,7 +41,7 @@ Mix Modelerのモデルは、マーケターの投資に基づいて指定され
 
 Mix Modelerインターフェイスで現在のモデルのテーブルを表示するには：
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. 現在のモデルのテーブルが表示されます。
 
@@ -58,7 +58,7 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
    {style="table-layout:auto"}
 
-1. リストに表示される列を変更するには、「![ 列設定 ](/help/assets//icons/ColumnSetting.svg) を選択し、列のオン ![ チェック ](/help/assets//icons/Checkmark.svg) とオフを切り替えます。
+1. リストに表示される列を変更するには、「![ 列設定 ](/help/assets/icons/ColumnSetting.svg) を選択し、列のオン ![ チェック ](/help/assets/icons/Checkmark.svg) とオフを切り替えます。
 
 特定のモデルに対して次のアクションを実行できます。
 
@@ -66,9 +66,9 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
 モデルの詳細を表示するには：
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
-1. モデルの ![ 情報 ](/help/assets//icons/Info.svg) を選択して、詳細を含むポップアップを表示します。
+1. モデルの ![ 情報 ](/help/assets/icons/Info.svg) を選択して、詳細を含むポップアップを表示します。
 
 
 
@@ -76,16 +76,18 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
 モデルをすばやく複製できます。
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Duplicate]**] を選択します。
 
 
 ### モデルインサイト
 
-モデルインサイト機能は、正常にトレーニングされたモデルとスコアリングされたモデルでのみ使用できます。 モデルのインサイトを表示するには：
+モデルインサイト機能は、正常にトレーニングされたモデルとスコアリングされたモデルでのみ使用できます。
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+モデルのインサイトを表示するには：
+
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. モデル名を選択します。
 
@@ -94,9 +96,16 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
 ### 再トレーニング
 
-モデルの再トレーニングは、正常にトレーニングされたモデルでのみ使用できます。 モデルを再トレーニングするには：
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+モデルの再トレーニングは、正常にトレーニングされたモデルでのみ使用できます。
+
+次のような場合に、モデルの再トレーニングを検討します。
+
+* 新しい増分マーケティングおよび要因データを含めます。 例えば、前四半期の市場力学が変更されたり、マーケティングデータ配分が大幅に変更されたりしたとします。
+
+モデルを再トレーニングするには：
+
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Train]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** を選択します。
 
@@ -114,9 +123,16 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 ### スコアまたは再スコア
 
 
-新しいマーケティングデータに基づいてモデルに増分的にスコアを付けたり、特定の日付範囲でモデルを再スコア化したりできます。 モデルにスコアを付ける、または再スコアを付ける手順は、次のとおりです。
+新しいマーケティングデータに基づいてモデルに増分的にスコアを付けたり、特定の日付範囲でモデルを再スコア化したりできます。
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+以下が必要な場合は、モデルのスコアを変更することを検討します。
+
+* 間違ったマーケティングデータを修正します。 例えば、モデルのトレーニングとスコアリングに含めた最近の有料検索データが、1 週間のデータを見逃したとします。
+* 調和されたデータの一部として設定したデータセットの更新によって利用可能になった新しい増分マーケティングデータを使用します。
+
+モデルにスコアを付ける、または再スコアを付ける手順は、次のとおりです。
+
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Score]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** を選択します。
 
@@ -135,7 +151,7 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
 モデルを削除するには：
 
-1. 左パネルから ![](/help/assets//icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
 1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Delete]**] を選択します。 または、青いアクションバーから ![ 削除 ](/help/assets/icons/Delete.svg)**[!UICONTROL Delete]** を選択します。
 
