@@ -1,7 +1,7 @@
 ---
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
-user-guide-description: Mix Modeler の使用方法を学ぶ
+user-guide-description: Mix Modeler の使用方法を学ぶ。
 source-git-commit: 014703548fc71c75e252588fb89039cd40eff666
 workflow-type: tm+mt
 source-wordcount: '84'
