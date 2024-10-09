@@ -3,7 +3,7 @@ title: データの取得
 description: データをMix Modelerに取り込む方法を説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 86732fe30637aa72ced232d9f331a3cc64baa39b
+source-git-commit: ff120c9b1dea81a5dc998cbda008fa913504970e
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 12%
@@ -12,7 +12,7 @@ ht-degree: 12%
 
 # データの取得
 
-Mix Modelerは、イベントレベルのデータ、様々な壁庭からの oe 概要マーケティング労力データの集計、オフライン広告、内部要因や外部要因などの他のソースからの集計または概要データを操作します。
+Mix Modelerは、イベントレベルのデータ、様々な壁庭からの集計または概要マーケティング労力データ、およびオフライン広告、内部要因または外部要因など、他のソースからの集計または概要データで動作します。
 
 お客様は、Experience Platformにデータセットとして取り込まれた、XDM ExperienceEvent または XDM Summary Metrics を基本クラスとして使用するスキーマに基づく、あらゆる種類のデータを使用できます。
 
