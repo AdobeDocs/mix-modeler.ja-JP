@@ -3,9 +3,9 @@ title: モデルの作成
 description: Mix Modelerでモデルを作成する方法を説明します。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 2fbf24f6ac72e24070d6c294bc25c112aeb8bdac
+source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ AI を利用したカスタムモデルを作成するために、インター�
 
    1. **[!UICONTROL MTA enabled]** のセクションで以下を実行します。
 
-      * 作成したモードで MTA 機能を有効にするには、Active **[!UICONTROL MTA enabled]** を選択します。 有効にすると、[ モデルインサイト ](insights.md) の [ アトリビューション ](insights.md#attribution) タブを使用してモデルのトレーニングとスコアリングを行ったマルチタッチのアトリビューションインサイトを使用できます。
+      * モデルの MTA 機能を有効にするには、**[!UICONTROL MTA enabled]** をアクティブにします。 MTA を有効にしている場合は、モデルのトレーニングとスコアリングが完了すると、マルチタッチのアトリビューションインサイトを利用できます。 詳しくは、[ モデルインサイト ](insights.md#attribution) の「[ アトリビューション ](insights.md)」タブを参照してください。
 
    1. **[!UICONTROL Prior knowledge]** のセクションで以下を実行します。
 
