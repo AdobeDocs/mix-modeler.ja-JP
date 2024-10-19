@@ -3,9 +3,9 @@ title: モデルインサイト
 description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,28 @@ ht-degree: 0%
 
 * **[!UICONTROL Channel]** ドロップダウンメニューからチャネルを選択して、特定のチャネルのビジュアライゼーションを更新します。
 
+
+### タッチポイント分類
+
+タッチポイント分類テーブルには、すべてのチャネルまたは選択したチャネルのタッチポイント分類が週次ベースで表示されます。
+
+![ タッチポイントの分類 ](../assets/touchpoint-breakdown.png)
+
+次の列を使用できます。
+
+| 列 | 説明 |
+|---|---|
+| **[!UICONTROL Date range]** | レポートする週。 |
+| **[!UICONTROL Touchpoint]** | 特定のタッチポイントチャネル。 |
+| **[!UICONTROL ROI]** | （**[!UICONTROL Revenue]** ～ **[!UICONTROL Spend]**） / **[!UICONTROL Spend]** の割合。 |
+| **[!UICONTROL Revenue]** | 日付範囲の売上高。 |
+| **[!UICONTROL CPA]** | **[!UICONTROL Spend]** / **[!UICONTROL Conversions]**。 |
+| **[!UICONTROL Conversions]** | 日付範囲のコンバージョン。 |
+| **[!UICONTROL Spend]** | データ範囲に対する支出。 |
+
+特定のチャネルまたはすべてのチャネルを選択するには、**[!UICONTROL View]** ドロップダウンメニューから選択します。
+
+タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
 
 ## [!UICONTROL Attribution]
