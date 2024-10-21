@@ -3,9 +3,9 @@ title: モデル
 description: Mix Modelerでモデルを設定および使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '922'
 ht-degree: 1%
 
 ---
@@ -62,25 +62,6 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
 特定のモデルに対して次のアクションを実行できます。
 
-### 詳細を表示
-
-モデルの詳細を表示するには：
-
-1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
-
-1. モデルの ![ 情報 ](/help/assets/icons/Info.svg) を選択して、詳細を含むポップアップを表示します。
-
-
-
-### 複製
-
-モデルをすばやく複製できます。
-
-1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
-
-1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Duplicate]**] を選択します。
-
-
 ### モデルインサイト
 
 モデルインサイト機能は、正常にトレーニングされたモデルとスコアリングされたモデルでのみ使用できます。
@@ -92,6 +73,52 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 1. モデル名を選択します。
 
 [ モデルインサイト ](insights.md) にリダイレクトされます。
+
+
+### 詳細を表示
+
+モデルの詳細を表示するには：
+
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+
+1. モデルの ![ 情報 ](/help/assets/icons/Info.svg) を選択して、詳細を含むポップアップを表示します。
+
+
+### 複製
+
+モデルをすばやく複製できます。
+
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+
+1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Duplicate]**] を選択します。
+
+
+### 編集
+
+モデルの名前、説明、およびトレーニングとスコアリングのスケジュールを編集できます。
+
+1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
+
+1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Edit]**] を選択します。
+
+   **[!UICONTROL Edit model]** ダイアログで、次の手順を実行します。
+
+   * 新しい **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力します。
+
+   * スケジュールを有効にするには、**[!UICONTROL Status]** を有効にします。 トレーニングおよびスコアリングされたモデルのスケジュールのみを有効にできます。
+
+      1. **[!UICONTROL Scoring frequency]** を選択：
+
+         * **[!UICONTROL Daily]**：有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
+         * **[!UICONTROL Weekly]**：曜日を選択して有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
+         * **[!UICONTROL Monthly]**: 「実行するタイミング」ドロップダウンメニューから日付を選択し、有効な時刻（例：`05:22 pm`）を入力するか、![ 時計 ](/help/assets/icons/Clock.svg) を使用します。
+
+      1. ドロップダウンメニューから **[!UICONTROL Training frequency]** （**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、**[!UICONTROL None]** のいずれか）を選択します。
+
+     ![ モデルを編集 ](../assets/model-edit.png)
+
+1. **[!UICONTROL Save]** を選択します。
+
 
 
 ### 再トレーニング

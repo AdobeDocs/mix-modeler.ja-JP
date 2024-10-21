@@ -4,10 +4,10 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: 4901d4ad2ee0943ed651a0cc556f00be436a14a1
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 8%
+source-wordcount: '497'
+ht-degree: 7%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 8%
 
 | 機能 | 説明 | 一般公開 |
 |---|---|---|
+| **トレーニングとスコアリングのスケジュール設定** | モデルのトレーニングおよびスコアリングのスケジュールを設定するには、「モデル」テーブルで [ モデルの作成 ](/help/models/create.md) および [ モデルインサイト ](/help/models/insights.md#edit) または [ モデルのコンテキストメニュー ](/help/models/overview.md#edit) からモデルを編集する際に行います。 | 2024 年 10 月 21 日（Pt） |
 | **タッチポイント分類テーブル** | [!UICONTROL Models] では、「[[!UICONTROL Model insights]](/help/models/insights.md#factors)」タブに追加の [ タッチポイント分類 ](../models/insights.md#touchpoint-breakdown) テーブルが表示されるようになりました。 | 2024 年 10 月 1 日（Pt） |
 
 ## 2024年8月

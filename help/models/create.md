@@ -3,9 +3,9 @@ title: モデルの作成
 description: Mix Modelerでモデルを作成する方法を説明します。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 1327ef083cc681b38adc086ad4f7332fd83577b5
+source-git-commit: 91dec8849d0d6fe52974024d09012d9c40d36cec
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -121,14 +121,6 @@ AI を利用したカスタムモデルを作成するために、インター�
 
 1. **[!UICONTROL Advanced]** の手順で、次の操作を行います。
 
-   1. **[!UICONTROL Define training window]** セクションで、次のいずれかを選択します
-
-      * **[!UICONTROL Have Mix Modeler select a helpful training window]** と
-
-      * **[!UICONTROL Manually input a training window]**。選択した場合、年 **[!UICONTROL Include events the following years prior to a conversion]** を定義します。
-
-        ![ モデル – トレーニングウィンドウを定義 ](/help/assets/model-define-training-window.png)
-
    1. **[!UICONTROL Spend share]** のセクションで以下を実行します。
 
       * マーケティングデータが分散している場合にマーケティング投資率の履歴を使用してモデルに通知するには、**[!UICONTROL Allow spend share]** をアクティブ化します。
@@ -150,6 +142,30 @@ AI を利用したカスタムモデルを作成するために、インター�
       1. 必要に応じて、**[!UICONTROL Clear all]** を使用して、**[!UICONTROL Contribution proportion]** 列と **[!UICONTROL Level of confidence]** 列のすべての入力値をクリアします。
 
 
+1. **[!UICONTROL Schedule]** の手順で、次の操作を行います。
+
+   1. **[!UICONTROL Schedule]** のセクションでは、モデルのトレーニングとスコアリングをスケジュールできます。
+
+      ![ スケジュール モデル ](../assets/model-schedule.png)
+
+      スケジュール済モデルのスコアリングおよびトレーニングを実行する手順は、次のとおりです。
+
+      1. **[!UICONTROL Enable scheduled model scoring and training]** をオンにします。
+      1. **[!UICONTROL Scoring frequency]** を選択：
+
+         * **[!UICONTROL Daily]**：有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
+         * **[!UICONTROL Weekly]**：曜日を選択して有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
+         * **[!UICONTROL Monthly]**: 「実行するタイミング」ドロップダウンメニューから日付を選択し、有効な時刻（例：`05:22 pm`）を入力するか、![ 時計 ](/help/assets/icons/Clock.svg) を使用します。
+
+      1. ドロップダウンメニューから **[!UICONTROL Training frequency]** （**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、**[!UICONTROL None]** のいずれか）を選択します。
+
+   1. **[!UICONTROL Define training window]** のセクションで、次のいずれかを選択します。
+
+      ![ モデル – トレーニングウィンドウを定義 ](/help/assets/model-define-training-window.png)
+
+      * **[!UICONTROL Have Mix Modeler select a helpful training window]** と
+
+      * **[!UICONTROL Manually input a training window]**。選択した場合、年 **[!UICONTROL Include events the following years prior to a conversion]** を定義します。
 
 1. 「**[!UICONTROL Finish]**」を選択して、モデルの設定を完了します。
 

@@ -3,9 +3,9 @@ title: モデルインサイト
 description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: f549f7d4d4f5c702e3ef28bceeaccc46922f7c40
+source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
 workflow-type: tm+mt
-source-wordcount: '1436'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -253,3 +253,27 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
   このビジュアライゼーションに表示する代替のボリュームベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
 
 ![ モデル – 履歴の概要 ](/help/assets/model-insights-historical-overview.png)
+
+## **[!UICONTROL Edit]**
+
+モデルの名前、説明、およびトレーニングとスコアリングのスケジュールを編集できます。
+
+1. 「![ 編集 ](/help/assets/icons/Edit.svg) 編集」を選択します
+
+1. **[!UICONTROL Edit model]** ダイアログで、次の手順を実行します。
+
+   * 新しい **[!UICONTROL Name]** と **[!UICONTROL Description]** を入力します。
+
+   * スケジュールを有効にするには、**[!UICONTROL Status]** を有効にします。 トレーニングおよびスコアリングされたモデルのスケジュールのみを有効にできます。
+
+      1. **[!UICONTROL Scoring frequency]** を選択：
+
+         * **[!UICONTROL Daily]**：有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
+         * **[!UICONTROL Weekly]**：曜日を選択して有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
+         * **[!UICONTROL Monthly]**: 「実行するタイミング」ドロップダウンメニューから日付を選択し、有効な時刻（例：`05:22 pm`）を入力するか、![ 時計 ](/help/assets/icons/Clock.svg) を使用します。
+
+      1. ドロップダウンメニューから **[!UICONTROL Training frequency]** （**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、**[!UICONTROL None]** のいずれか）を選択します。
+
+     ![ モデルを編集 ](../assets/model-edit.png)
+
+1. **[!UICONTROL Save]** を選択します。
