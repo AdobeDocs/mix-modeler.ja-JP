@@ -3,10 +3,10 @@ title: Mix Modelerワークフロー
 description: Mix Modelerの一般的なワークフローを理解する。
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: da92298bbd5b2fc14b54121f0c43dc3763f9a0a3
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Mix Modelerの一般的なワークフローは、次のアクティビティで
 
 |  | Activity | 説明 |
 |---|---|---|
-| ![データ](/help/assets/icons/Data.svg){width="100"} | [**データの取り込み**](../ingest-data/overview.md) | Experience Platform（Adobe Analytics、Web SDK、その他のソースなど）からのイベントデータ、マーケティングチャネル（テレビ、壁庭、メール、所有および運営アクティビティなど）からの集計データ、顧客からの外部要因データ（購読サービスの価格変化など）および内部要因データ（休暇プランなど）を取り込みます。 |
+| ![データ](/help/assets/icons/Data.svg){width="100"} | [**データの取り込み**](../ingest-data/overview.md) | Experience Platformからのイベントデータ（Adobe Analytics、Web SDK、その他のソースなど）、マーケティングチャネルからの集計データ（テレビ、壁庭、メール、所有および運営アクティビティなど）、顧客からの外部要因データ（購読サービスの価格変化など）、内部要因データ（休暇プランなど）を取り込みます。 |
 | ![ データチェック ](/help/assets/icons/DataCheck.svg){width="100"} | [**データのハーモナイズ**](../harmonize-data/overview.md) | マッピングルールと競合解決ルールを設定して、Mix Modelerでキャンペーンのパフォーマンスを測定および計画するために必要な様々なマーケティングデータセットを結合します。 |
 | ![FileConfig](/help/assets/icons/FileGear.svg){width="100"} | [**モデルの設定**](../models/create.md) | マーケティングタッチポイント（チャネルなど）、コンバージョン定義、内部要因および外部要因を持つモデルインスタンスを設定します。 |
 | ![FileData](/help/assets/icons/FileData.svg){width="100"} | [**モデルのトレーニングとスコアリング**](../models/overview.md) | 機械学習のトレーニングとスコアリングを使用して、集計レベルとイベントレベルのスコアを作成します。 |
@@ -32,19 +32,22 @@ Mix Modelerの一般的なワークフローは、次のアクティビティで
 
 {style="table-layout:auto"}
 
-以下の詳細なデータ指向フローチャートで、その方法を説明します。
+<!---
+The detailed data-oriented flowchart below illustrates how:
 
-* 統一されたデータは以下に基づきます。
+* harmonized data is based on:
 
-   * エクスペリエンスイベントデータ（Analytics ソースコネクタから発生し、Experience Platform SDK および API を通じて収集され、ソースコネクタを通じて取り込まれるか、ストリーミング取り込みを使用します）、
-   * ウォールガーデン（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからの集計または概要データ
-   * 統一フィールドとデータセットルールの定義。
+  * experience event data (originating from Analytics source connector, collected through Experience Platform SDKs and APIs, ingested through source connectors, or using streaming ingestion),
+  * aggregate or summary data from walled gardens (like Facebook, YouTube), traffic sources, or offline advertising data, and 
+  * definitions of harmonized fields and dataset rules.
 
-* モデルのベースは次のとおりです。
+* a model is based on:
 
-   * 統一されたデータから生成されたコンバージョンおよびマーケティングタッチポイント定義および
-   * 内部または外部要因を含む非マーケティングの集計または概要データ。
+  * the conversion and marketing touchpoint definitions resulting from the harmonized data and 
+  * non-marketing aggregate or summary data containing internal or external factors.
 
-* マルチタッチのアトリビューションイベントスコアは、後続のモデル設定、トレーニングおよびスコアリングで使用するために、Experience Platformデータレイクにフィードバックされる可能性があります。
+* mult-touch attribution event scores can potentially be fed back into Experience Platform data lake for use in subsequent model configuration, training and scoring.
 
-![ 包括的なワークフロー ](/help/assets/comprehensive-workflow.svg)
+![Comprehensive workflow](/help/assets/comprehensive-workflow.svg)
+
+-->
