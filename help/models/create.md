@@ -3,9 +3,9 @@ title: モデルの作成
 description: Mix Modelerでモデルを作成する方法を説明します。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: ab3b5b4177fff324d50463210724ef95db18e67f
+source-git-commit: 16aec67b3e0562ff766f81b8036c724fa03bba17
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '900'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,7 @@ AI を利用したカスタムモデルを作成するために、インター�
 
    * 適格なデータ母集団コンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets/icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove marketing touchpoint]**」を選択します。
 
+   * コンテナ間で **AND** および **OR** を選択し、適格なデータ母集団に対してより複雑な定義を作成します。
 
 
 1. 外部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL External factors dataset]**」セクションの 1 つ以上のコンテナを使用します。 外部要因の例としては、S&amp;P インデックスがあります。
