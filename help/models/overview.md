@@ -3,9 +3,9 @@ title: モデル
 description: Mix Modelerでモデルを設定および使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 3801d6637fee491aa295ef586c2017a503466ffc
+source-git-commit: c02d2019346932baaf481e373569e29df3d97713
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '943'
 ht-degree: 1%
 
 ---
@@ -179,17 +179,13 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 モデルを削除するには：
 
 1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
-
 1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Delete]**] を選択します。 または、青いアクションバーから ![ 削除 ](/help/assets/icons/Delete.svg)**[!UICONTROL Delete]** を選択します。
+1. **[!UICONTROL Delete model]** の確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする **[!UICONTROL Cancel]** を選択します。
 
 複数のモデルを削除するには：
 
 1. 複数のモデルを選択します。
-
 1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択してモデルを削除します。
-
-   >[!WARNING]
-   >
-   >モデルはすぐに削除されます。
+1. **[!UICONTROL Delete *x *モデル]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**を選択します。
 
 
