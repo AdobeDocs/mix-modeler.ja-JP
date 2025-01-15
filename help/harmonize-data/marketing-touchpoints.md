@@ -3,7 +3,7 @@ title: マーケティングタッチポイント
 description: Mix Modeler内のデータの調和の一部として使用するマーケティングタッチポイントを作成する方法を説明します。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
+source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -35,7 +35,6 @@ Mix Modelerインターフェイスで使用可能なマーケティングタッ
 | 作成日 | マーケティングタッチポイントの作成日時。 |
 | 最終変更日 | マーケティングタッチポイントの最終変更日時。 |
 
-{style="table-layout:auto"}
 
 ## マーケティングタッチポイントの追加
 
