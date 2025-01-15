@@ -3,7 +3,7 @@ title: プランを作成
 description: Mix Modelerでプランを作成する方法を説明します。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Mix Modelerでは、プランキャンバスを使用してプランを作成します。 プランキャンバスでは、プランの詳細と予算、およびプランに使用する基盤となるモデルを設定できます。 詳細、予算、モデルを指定したら、AI が推奨するプランを選択するか、チャネル別に費用を編集できます。
 
-プランを作成するには、Mix Modelerの ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** インターフェイスで **[!UICONTROL Open plan canvas]** を選択します。
+プランを作成するには、Mix Modelerの ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** インターフェイスで **[!UICONTROL Create plan]** を選択します。
 
 1. プラン作成画面で、次の操作を行います。
 

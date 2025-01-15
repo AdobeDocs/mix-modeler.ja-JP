@@ -3,9 +3,9 @@ title: プラン
 description: Mix Modelerでプランを表示、選択およびアクションする方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 6331bdfcbc792c03f9cc129daa4e591c2b46a8f1
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '526'
 ht-degree: 1%
 
 ---
@@ -47,9 +47,13 @@ Mix Modeler・インタフェースで現在の計画の表を表示する手順
    | 予算 | 計画の予算合計。 |
    | 予測リターン | 計画の予測リターン |
    | 予測 ROI | プランの予測 ROI。 |
+   | 予測コンバージョン | プランの予測コンバージョン |
+   | 予測 CPA | プランの予測 CPA |
    | ステータス | プランのステータス： <p><span style="color:red">●</span> 失敗しました。 <p><span style="color:blue">●</span> 処理、 <p><span style="color:green">●</span> 完了しました。 |
 
    {style="table-layout:auto"}
+
+   ![ColumnSetting](/help/assets/icons/ColumnSetting.svg) を使用して ![Checkmark](/help/assets/icons/Checkmark.svg) を選択すると、テーブルに表示する列を選択できます。
 
 1. ![ 検索 ](/help/assets/icons/Search.svg) を使用して、1 つ以上の特定のプランについてテーブルを検索およびフィルタリングします。
 
