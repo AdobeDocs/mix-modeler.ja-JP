@@ -3,9 +3,9 @@ title: モデルインサイト
 description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d4a500de13272f0b07827a0df4a386d3d757403b
+source-git-commit: fccdd908bbe6b5a2cf9182fc61cb4bbe392f92ec
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -186,14 +186,17 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 * チャネルごとに、アトリビューションモデルの貢献度のパーセンテージ、
 * これらのチャネルアトリビューションモデルのコントリビューションパーセンテージの合計。
 
-## **[!UICONTROL Factors]**
+## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
 
-「要因」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 
 このビジュアライゼーションは、様々な内部および外部の要因がコンバージョンのベースラインに与える増分的な影響を理解するのに役立ちます。 例えば、経済状況やプロモーション活動などです。
 
+**[!UICONTROL Factors]** ドロップダウンメニューを使用して、表示する要因を選択します。
+
+<!-- need to update the image when we do have a proper example -->
 
 テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
@@ -205,7 +208,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 * [!UICONTROL Model Assessment] のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残差コンバージョンを分類できます。
 
-  ビジュアライゼーションを分類するには、ビジュアライ **[!UICONTROL Breakdown]** ーションリストから「**[!UICONTROL Actual vs. Predicted]**」または「**[!UICONTROL Residuals]**」を選択します。
+ビジュアライゼーションを分類するには、ビジュアライ **[!UICONTROL Breakdown]** ーションリストから「**[!UICONTROL Actual vs. Predicted]**」または「**[!UICONTROL Residuals]**」を選択します。
 
 * 各コ [!UICONTROL Model fitting metrics] バージョン指標に関する次の列を示した表。
 
@@ -223,11 +226,11 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
       * RMSE （二乗平均誤差）：誤差の二乗に従って重み付けされた、平均誤差を表示します。
 
-  テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
+テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
 * Attribution AIアルゴリズムモデルの結果を表す [!UICONTROL Touchpoint effectiveness] のテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
 
-  ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets/icons/SortOrderDown.svg) で表示されます。
+ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets/icons/SortOrderDown.svg) で表示されます。
 
    * [!UICONTROL Paths touched]: コンバージョンを達成するパスの割合とコンバージョンを達成しないパスの割合を視覚化します。 タッチポイントの場合、アトリビューションコンバージョン率が高いと、より多くのアトリビューションコンバージョンが表示されます。 この比率では、コンバージョンにつながるパスの割合と、コンバージョンにつながる *つながらない* パスの割合が比較されます。
    * [!UICONTROL Efficiency measure]: アルゴリズムアトリビューションモデルによって生成される効率測定は、タッチポイント量に関係なく、コンバージョンに対するタッチポイントの相対的な重要度を示します。 効率は 1～5 のスケールで測定されます。 タッチポイント量が多いからといって、効率測定が高くなるとは限りません。
@@ -246,11 +249,11 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 * タッチポイント支出。
 
-  このビジュアライゼーションに表示する別の費用ベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
+このビジュアライゼーションに表示する別の費用ベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
 
 * タッチポイント量。
 
-  このビジュアライゼーションに表示する代替のボリュームベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
+このビジュアライゼーションに表示する代替のボリュームベースのチャネルを選択できます。 **[!UICONTROL Channels]** からチャネルを選択します。
 
 ![ モデル – 履歴の概要 ](/help/assets/model-insights-historical-overview.png)
 
