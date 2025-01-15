@@ -3,10 +3,10 @@ title: マーケティングタッチポイント
 description: Mix Modeler内のデータの調和の一部として使用するマーケティングタッチポイントを作成する方法を説明します。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: 665b344dfa94275d71e0ecf198d9bb9b73ea584b
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 1%
+source-wordcount: '448'
+ht-degree: 0%
 
 ---
 
@@ -66,14 +66,29 @@ Mix Modelerインターフェイスで使用可能なマーケティングタッ
 1. 作成されると、タッチポイントがマーケティングタッチポイントテーブルに追加されます。
 
 
-## マーケティングタッチポイントの表示
+## 詳細を表示
 
-マーケティングタッチポイントを表示するには：
+マーケティングタッチポイントの詳細を表示するには：
 
 1. テーブル内のマーケティングタッチポイント名にカーソルを合わせると、![ 詳細 ](/help/assets/icons/More.svg) を選択できます。
 
 1. ![ 表示 ](/help/assets/icons/ViewDetail.svg)**表示** を選択します。 マーケティングタッチポイントの詳細を示すダイアログがあります。 詳しくは [ マーケティングタッチポイントの追加 ](#add-a-marketing-touchpoint) を参照してください。 「**[!UICONTROL Cancel]**」を選択して、ダイアログを閉じます。
 
+
+## レポートを表示
+
+マーケティングタッチポイントのレポートを表示するには：
+
+1. テーブル内のマーケティングタッチポイント名にカーソルを合わせると、![ 詳細 ](/help/assets/icons/More.svg) を選択できます。
+
+1. ![GraphTrend](/help/assets/icons/GraphTrend.svg)**レポートを表示** を選択します。 マーケティングタッチポイントのレポートを示すダイアログが表示されます。
+
+   ![ マーケティングタッチポイントビューレポート ](../assets/marketingtouchpoint-view-report.png)
+
+   * レポートする精度を変更するには、**[!UICONTROL Weekly]** ドロップダウンメニューから値を選択します。
+   * レポートする期間を変更するには、開始日と終了日を入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用してカレンダーポップアップで期間を定義します。
+
+1. 「**[!UICONTROL Close]**」を選択して、ダイアログを閉じます。
 
 ## マーケティングタッチポイントの削除
 
