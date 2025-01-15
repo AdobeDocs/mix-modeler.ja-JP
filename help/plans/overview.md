@@ -3,7 +3,7 @@ title: プラン
 description: Mix Modelerでプランを表示、選択およびアクションする方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 0475c584b3963d02d9dd72f0dccf692d558463db
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 1%
@@ -101,7 +101,7 @@ Mix Modeler・インタフェースで現在の計画の表を表示する手順
 
 1. 左パネルから ![](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** を選択します。
 1. 平面図の ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Delete]**] を選択します。 または、青いアクションバーから ![ 削除 ](/help/assets/icons/Delete.svg)**[!UICONTROL Delete]** を選択します。
-1. **[!UICONTROL Delete moplandel]** の確認ダイアログで「**[!UICONTROL Delete]**」を選択して、計画を削除します。 キャンセルする **[!UICONTROL Cancel]** を選択します。
+1. **[!UICONTROL Delete plan]** の確認ダイアログで「**[!UICONTROL Delete]**」を選択して、計画を削除します。 キャンセルする **[!UICONTROL Cancel]** を選択します。
 
 複数の計画を削除する手順は、次のとおりです。
 

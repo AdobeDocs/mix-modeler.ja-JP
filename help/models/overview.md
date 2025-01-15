@@ -3,9 +3,9 @@ title: モデル
 description: Mix Modelerでモデルを設定および使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: c02d2019346932baaf481e373569e29df3d97713
+source-git-commit: a4fdfa97e9d548533a22b1b667cf336f37b83395
 workflow-type: tm+mt
-source-wordcount: '943'
+source-wordcount: '942'
 ht-degree: 1%
 
 ---
@@ -174,7 +174,7 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 1. 「**[!UICONTROL Score]**」を選択します。 特定のデータ範囲を使用してモデルを再スコアリングすると、**[!UICONTROL Existing model is replaced]** のダイアログが表示され、選択した日付範囲の新しいスコアでモデルを置き換えるかどうかを確認するように求められます。 「**[!UICONTROL Replace model]**」を選択して確定します。
 
 
-### モデルの削除
+### モデルを削除
 
 モデルを削除するには：
 
