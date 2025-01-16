@@ -5,13 +5,13 @@ feature-set: Experience Cloud
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 72b4d3606316c254a9a3ea5909633d87eb9eada6
+exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
+source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
-
 
 # テスト
 
@@ -25,10 +25,22 @@ Unicode 文字でテーブルをテストする
 
 
 
+## 数式
 
-数式もサポートしていますか？
+数式はサポートされますか？
 
 **コーシー・シュワルツ不平等**
 $$\left （\sum_{k=1}^n a_k b_k \right）^2 \leq \left （\sum_{k=1}^n a_k^2 \right） \left （\sum_{k=1}^n b_k^2 \right）$$
 
 
+
+
+## シェードボックスでのSVGの使用
+
+影付きのボックス内のSVGは適切にサポートされていないようです。 プレビュー（corp.adobe.com）と公開済みサイト（adobe.com）の違いを参照してください。
+
+>[!BEGINSHADEBOX]
+
+*この記事は、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![**Adobe Analytics**のアトリビューションパネルに関するドキュメントです。<br/> この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては ![ アトリビューションパネル**を参照してください。*
+
+>[!ENDSHADEBOX]
