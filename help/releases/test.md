@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 159a89896f7b463fdc0de663062b7e0088d9ecfc
+source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -24,6 +24,16 @@ Unicode 文字でテーブルをテストする
 {style="table-layout:fixed"}
 
 
+## シェードボックスでのSVGの使用
+
+影付きのボックス内のSVGは適切にサポートされていないようです。 プレビュー（corp.adobe.com）と公開済みサイト（adobe.com）の違いを参照してください。
+
+>[!BEGINSHADEBOX]
+
+*この記事は、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![**Adobe Analytics**のアトリビューションパネルに関するドキュメントです。<br/> この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては ![ アトリビューションパネル**を参照してください。*
+
+>[!ENDSHADEBOX]
+
 
 ## 数式
 
@@ -34,13 +44,3 @@ $$\left （\sum_{k=1}^n a_k b_k \right）^2 \leq \left （\sum_{k=1}^n a_k^2 \ri
 
 
 
-
-## シェードボックスでのSVGの使用
-
-影付きのボックス内のSVGは適切にサポートされていないようです。 プレビュー（corp.adobe.com）と公開済みサイト（adobe.com）の違いを参照してください。
-
->[!BEGINSHADEBOX]
-
-*この記事は、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![**Adobe Analytics**のアトリビューションパネルに関するドキュメントです。<br/> この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては ![ アトリビューションパネル**を参照してください。*
-
->[!ENDSHADEBOX]

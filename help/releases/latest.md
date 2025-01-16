@@ -4,7 +4,7 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 8%
@@ -25,4 +25,5 @@ ht-degree: 8%
 | **レポートの表示** | データの調和の一部として定義した [ コンバージョン ](/help/harmonize-data/conversions.md#view-report) または [ マーケティングタッチポイント ](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025年1月15日（PT） |
 | **削除の確認** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025年1月15日（PT） |
 | **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025年1月15日（PT） |
+
 
