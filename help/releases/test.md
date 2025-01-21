@@ -6,7 +6,7 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5f832a79-7a0c-43cd-87cf-a5ceceb79032
-source-git-commit: 37c452ec2f8d984e9ba32da484532c26cdc9e891
+source-git-commit: 6eb0e0aa28aa965c17f002b9b08fcbc8ae993b0b
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 1%
@@ -30,7 +30,7 @@ Unicode 文字でテーブルをテストする
 
 >[!BEGINSHADEBOX]
 
-*この記事は、{AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) ![**Adobe Analytics**のアトリビューションパネルに関するドキュメントです。<br/> この記事の [CustomerJourneyAnalytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)**Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては ![ アトリビューションパネル**を参照してください。*
+この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** のアトリビューションパネルに関するドキュメントです。この記事の <br/>CustomerJourneyAnalytics[ ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) **Customer Journey Analytics](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、![ アトリビューションパネル** を参照してください。
 
 >[!ENDSHADEBOX]
 
