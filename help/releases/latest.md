@@ -4,10 +4,10 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 7e39691cad69084b57d2b993a4eaf7b501d112d9
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
 source-wordcount: '271'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 4%
 
 | 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
 |---|---|---|---|
-| **ネストされた条件** | [ モデルの設定 ](/help/models/create.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025年1月15日（PT） | t.b.d. |
-| **レポートの表示** | データの調和の一部として定義した [ コンバージョン ](/help/harmonize-data/conversions.md#view-report) または [ マーケティングタッチポイント ](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025年1月15日（PT） | t.b.d. |
-| **削除の確認** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025年1月15日（PT） | t.b.d. |
-| **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025年1月15日（PT） | t.b.d. |
+| **ネストされた条件** | [ モデルの設定 ](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | t.b.d. |
+| **レポートの表示** | データの調和の一部として定義した [ コンバージョン ](/help/harmonize-data/conversions.md#view-report) または [ マーケティングタッチポイント ](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025 年 1 月 15 日（Pt） | t.b.d. |
+| **削除の確認** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | t.b.d. |
+| **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025 年 1 月 15 日（Pt） | t.b.d. |
 
 ## リリース方法
 

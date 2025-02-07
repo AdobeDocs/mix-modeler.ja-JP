@@ -1,16 +1,16 @@
 ---
-title: モデル
-description: Mix Modelerでモデルを設定および使用する方法を説明します。
+title: モデルの概要
+description: Mix Modelerでモデルを作成して使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 1%
 
 ---
 
-# モデル
+# モデルの概要
 
 Mix Modelerのモデル機能を使用すると、ビジネス目標に固有のモデルを設定、トレーニング、スコアリングできます。 トレーニングとスコアリングは、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動の転送学習をサポートします。
 
@@ -33,9 +33,9 @@ Mix Modelerのモデルは、マーケターの投資に基づいて指定され
 * 費用共有：マーケティングデータが疎な場合に、相対的な費用共有をプロキシとして使用します。
 
 
-## モデルの作成
+## モデルを作成
 
-モデルを作成するには、「**[!UICONTROL Open model canvas]**」を選択すると使用できるMix Modelerステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[ モデルの作成 ](create.md) を参照してください。
+モデルを作成するには、「**[!UICONTROL Open model canvas]**」を選択すると使用できるMix Modelerステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[ モデルの作成 ](build.md) を参照してください。
 
 ## モデルの管理
 

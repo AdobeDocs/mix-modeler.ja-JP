@@ -1,18 +1,18 @@
 ---
-title: 統一データ概要ダッシュボード
+title: 統一データダッシュボード
 description: Mix Modelerでの統一データ概要ダッシュボードの使用方法を説明します。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# 統一データの概要
+# 統一データ
 
-Mix Modelerの概要の「統一データ」タブには、取り込まれたデータおよび統一データ設定の一部として使用するように設定した統一データに関するインサイトが表示されます。
+Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmonized data]**」タブには、取り込んだデータ **[!UICONTROL Overview]** 統一データの一部として使用するように設定した統一データに関するインサイトが表示されます。
 
 この概要には、4 つの KPI ステータスカードのビジュアライゼーション （一番上の行）と、その他 6 つの設定可能なビジュアライゼーションが表示されます。
 

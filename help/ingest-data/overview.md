@@ -1,16 +1,16 @@
 ---
-title: データの取得
+title: データの取り込みの概要
 description: データをMix Modelerに取り込む方法を説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 2402874518001c1ae78de6a64a06a9fefa1bbc27
+source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 12%
+source-wordcount: '465'
+ht-degree: 11%
 
 ---
 
-# データの取得
+# データの取り込みの概要
 
 Mix Modelerは、イベントレベルのデータ、様々な壁庭からの集計または概要マーケティング労力データ、およびオフライン広告、内部要因または外部要因など、他のソースからの集計または概要データで動作します。
 
@@ -19,7 +19,7 @@ Mix Modelerは、イベントレベルのデータ、様々な壁庭からの集
 例：
 
 * Adobe Analytics ソースコネクタを使用して収集されたデータで、Adobe Analytics スキーマのデフォルトまたはカスタムバージョン（または）に従ったデータセットに変換されたもの
-* web、モバイル、またはその他のタイプのデバイスに対するEdge Networkインタラクションを収集するためのExperience PlatformWeb SDK、Mobile SDK またはカスタマーサーバー API を使用して収集されたデータ。
+* web、モバイル、またはその他のタイプのデバイスに対するEdge Networkのインタラクションを収集するためのExperience Platform web SDK、モバイル SDK、顧客サーバー API を使用して収集されたデータ。
 * ウォールガーデン（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データの集計または概要
 * モデルの構築に役立つ内部または外部の要因を含む、マーケティング以外の集計または概要データ。
 

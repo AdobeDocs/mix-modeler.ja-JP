@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ。
-source-git-commit: 0d6afcf18d7dcf909ae2c22ffa588c425a7148d3
+source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 46%
+source-wordcount: '85'
+ht-degree: 45%
 
 ---
 
@@ -18,24 +18,24 @@ ht-degree: 46%
    + [Mix Modelerとは](/help/get-started/about.md)
    + [アプリケーションワークフロー](/help/get-started/workflow.md)
 
-+ Dashboard {#dashboard}
-   + [概要](/help/dashboard/overview.md)
++ ホーム {#dashboard}
+   + [ホームの概要](/help/dashboard/overview.md)
    + [調和されたデータ](/help/dashboard/harmonized-data.md)
    + [プラン](/help/dashboard/plans.md)
 
 + モデル {#models}
    + [概要](/help/models/overview.md)
-   + [モデルの作成](/help/models/create.md)
+   + [モデルを作成](/help/models/build.md)
    + [モデルインサイト](/help/models/insights.md)
-   + [スコアリングデータ](/help/models/scoring-data.md)
+   + [スコアリングデータの使用](/help/models/scoring-data.md)
 
 + 計画 {#plans}
    + [概要](/help/plans/overview.md)
-   + [プランを作成](/help/plans/create.md)
-   + [プランを編集](/help/plans/edit.md)
+   + [プランの作成](/help/plans/build.md)
+   + [プランインサイト](/help/plans/insights.md)
    + [計画の比較](/help/plans/compare.md)
 
-+ データ {#harmonize-data} ースのハーモナイズ
++ のデータセット {#harmonize-data} 調和
    + [概要](/help/harmonize-data/overview.md)
    + [フィールド](/help/harmonize-data/fields.md)
    + [データセットルール](/help/harmonize-data/dataset-rules.md)

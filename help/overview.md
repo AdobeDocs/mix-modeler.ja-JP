@@ -4,10 +4,10 @@ description: Mix Modeler を使用してキャンペーンを測定し、すべ�
 short-description: Mix Modeler を使用してキャンペーンを測定し、すべてのチャネルをまたいで総合的に計画を最適化する方法について説明します。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: af315f4566c34c1961130d61ce2804b98d859b24
+source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '203'
+ht-degree: 18%
 
 ---
 
@@ -60,13 +60,13 @@ ht-degree: 0%
     </td>
     <td>
       <img src="assets/FileGear.svg" width="35px"><br/>
-      <strong> モデル </strong><br/><a href="/help/models/overview.md"> 概要 </a> - <a href="/help/models/create.md"> モデルを作成 </a> - <a href="/help/models/insights.md"> モデルインサイト </a> - <a href="/help/models/scoring-data.md"> スコアリングデータ </a>
+      <strong> モデル </strong><br/><a href="/help/models/overview.md"> 概要 </a> - <a href="/help/models/build.md"> モデルを作成 </a> - <a href="/help/models/insights.md"> モデルインサイト </a> - <a href="/help/models/scoring-data.md"> スコアリングデータの使用 </a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/FileChart.svg" width="35px"><br/>
-      <strong> 計画 </strong><br/><a href="/help/plans/overview.md"> 計画 </a> - <a href="/help/plans/create.md"> 計画の作成 </a> - <a href="/help/plans/compare.md"> 計画の比較 </a> - <a href="/help/plans/edit.md"> 計画の編集 </a>
+      <strong> 計画 </strong><br/><a href="/help/plans/overview.md"> 計画 </a> - <a href="/help/plans/build.md"> 計画の作成 </a> - <a href="/help/plans/compare.md"> 計画の比較 </a> - <a href="/help/plans/build.md"> インサイトの計画 </a>
     </td>
     <td>
       <img src="assets/Dashboard.svg" width="35px"><br/>
