@@ -3,7 +3,7 @@ title: スコアリングデータの使用
 description: Mix Modelerでのモデルのスコアリングデータの保持方法を説明します。
 feature: Models
 exl-id: 2f2c3d20-7b14-41cc-a11a-03e8ad9e5d7a
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 5f6c35816a8850bf170cb73d9710e65809e5f372
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 25%
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # スコアリングデータの使用
 
-モデルのスコアリングの一環として、スコアリングデータはExperience Platformのデータセット内に保持されます。 モデルの作成時にマルチタッチアトリビューションを有効にした場合、追加のイベントスコアデータはExperience Platformのデータセット内に保持されます。
+モデルのスコアリングの一環として、スコアリングデータはExperience Platformのデータセット内に保持されます。 モデルの作成中にマルチタッチアトリビューションを有効にすると、追加のイベントスコアデータがExperience Platformのデータセット内に保持されます。
 
 これらの各データセットは、スキーマに準拠しています。 この記事では、これらのスキーマについて説明します。
 
