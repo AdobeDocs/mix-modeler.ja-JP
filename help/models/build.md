@@ -3,9 +3,9 @@ title: モデルを作成
 description: Mix Modelerでモデルを構築する方法を説明します。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 AI を利用したカスタムモデルを作成するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
 
-Mix Modelerの ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
+Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
 
 ## セットアップ
 
@@ -93,7 +93,7 @@ Mix Modelerの ![Models](/help/assets/icons/FileData.svg) **[!UICONTROL Models]*
 
       1. **[!UICONTROL Dataset]** ドロップダウンメニューからデータセットを選択します。 ![ データ ](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
-      1. **[!UICONTROL Impact on conversion]** ドロップダウンメニューからオプション（**[!UICONTROL Auto select]**、**[!UICONTROL Positive]**、**[!UICONTROL Negative]** のいずれか）を選択します。
+      1. **[!UICONTROL Impact on conversion]** ドロップダウンメニューからオプション（**[!UICONTROL Auto select]**、**[!UICONTROL Positive]**、**[!UICONTROL Negative]** のいずれか）を選択します。 デフォルトのオプションは **[!UICONTROL Auto select]** です。このオプションを使用すると、モデルが影響を判断できます。 デフォルトの設定は上書きできます。
 
    * 追加の外部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add external factor]** プションを選択します。
 
