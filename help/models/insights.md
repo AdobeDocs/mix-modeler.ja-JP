@@ -1,18 +1,18 @@
 ---
 title: モデルインサイト
-description: 履歴の概要、モデルインサイト、Mix Modelerのモデル品質など、モデルに関する詳細を取得する方法を説明します。
+description: Mix Modelerの履歴概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 25eb18443d0bdecdb02c026aec363271618441f5
+source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
 workflow-type: tm+mt
-source-wordcount: '1552'
+source-wordcount: '1549'
 ht-degree: 0%
 
 ---
 
 # モデルインサイト
 
-モデルインサイトを表示するには、Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg)**[!UICONTROL Models]** ーザーインターフェイスで次の操作を行います。
+モデルインサイトを表示するには、Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで次の操作を行います。
 
 1. **[!UICONTROL Models]** テーブルから、**[!UICONTROL Last run status]** が <span style="color:green">●</span> のモデルの名前を選択します。 **[!UICONTROL Success]**。
 
@@ -82,12 +82,27 @@ ht-degree: 0%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
+## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
+
+「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
+
+![ 要因 ](/help/assets/factors.png)
+
+このビジュアライゼーションは、様々な内部および外部の要因がコンバージョンのベースラインに与える増分的な影響を理解するのに役立ちます。 例えば、経済状況やプロモーション活動などです。
+
+**[!UICONTROL Factors]** ドロップダウンメニューを使用して、表示する要因を選択します。
+
+<!-- need to update the image when we do have a proper example -->
+
+テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
+
+使用できるデータがない場合は、メッセージ ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** が表示されます。
 
 ## [!UICONTROL Attribution]
 
 >[!NOTE]
 >
->「アトリビューション」タブは、MTA 対応モデルでのみ使用できます。
+「アトリビューション」タブは、MTA 対応モデルでのみ使用できます。
 
 
 「[!UICONTROL Attribution]」タブを使用すると、イベントレベルのデータを持つタッチポイントとマーケティングキャンペーンの効果を把握できます。  [ モデルを作成 ](build.md) を参照してください。
@@ -110,7 +125,7 @@ Mix Modelerのマルチタッチアトリビューション機能の概要につ
 
 ![アトリビューション](/help/assets/model-insights-attribution.png)
 
-Mix Modelerのマルチタッチ アトリビューションのきめ細かいイベントスコアは、全体的なMix Modelerスコアと ROI に一致します。 これらのスコアは、Experience Platformのデータセットとしても使用できます。
+Mix Modelerのマルチタッチ アトリビューションのきめ細かいイベントスコアは、Mix Modelerの全体的なスコアと ROI に一致します。 これらのスコアは、Experience Platformのデータセットとしても使用できます。
 
 「アトリビューション」タブは、次のビジュアライゼーションで構成されます。
 
@@ -132,15 +147,15 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 [!UICONTROL Breakdown] のビジュアライゼーションは、選択した各アトリビューションモデルのコンバージョンのチャネルまたはタッチポイントによる分類です。 このビジュアライゼーションは、各チャネルやタッチポイントの有効性を判断するのに役立ちます。
 
-分類のタイプを選択するには、「**[!UICONTROL Breakdown by channel]**」または「**[!UICONTROL Breakdown by touchpoint]**」を ![ 詳細 ](/help/assets/icons/More.svg) から選択します。
+分類タイプを選択するには、 select ![ 詳細 ](/help/assets/icons/More.svg) から **[!UICONTROL Breakdown by channel]** または **[!UICONTROL Breakdown by touchpoint]**。
 
 詳細を表示するには、任意のグラフ要素にポインタを合わせます。
 
 ### [!UICONTROL Top campaigns]
 
-上位キャンペーンのビジュアライゼーションには、キャンペーン名、チャネル、メディアタイプおよび増分コンバージョンの列を含む上位キャンペーンのテーブルが表示されます。 このビジュアライゼーションは、特定のチャネルに対する特定のキャンペーンの有効性をチームに知らせ、さらに投資する必要のあるキャンペーンに関するインサイトを提供するのに役立ちます。
+上位のキャンペーン ビジュアライゼーションには、キャンペーン名、チャネル、メディアタイプの列を含む上位キャンペーンのテーブルが表示されます and 増分コンバージョン。 このビジュアライゼーションは、特定のチャネルに対する特定のキャンペーンの有効性をチームに知らせ、さらに投資する必要のあるキャンペーンに関するインサイトを提供するのに役立ちます。
 
-チャネル、メディアタイプ、増分コンバージョンでテーブルを昇↑または降順に並べ替える↓合は、列ヘッダーを選択して並べ替えを切り替えます。
+チャネルのテーブルを昇順または降↑で並べ替えるには、メディアタイプを↓します or 増分コンバージョンの場合は、列ヘッダーを選択して並べ替えを切り替えます。
 
 別のダイアログでテーブルを展開するには、「**[!UICONTROL Expand]** 細 ![」から「詳細 ](/help/assets/icons/More.svg) を選択します。
 
@@ -151,7 +166,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 * ファーストタッチコンバージョン
 * ラストタッチコンバージョン
 
-  追加の各列ヘッダーを選択して、昇順または降順でテーブルを並べ替えることができます。
+追加の各列ヘッダーを選択して、昇順または降順でテーブルを並べ替えることができます。
 
 展開された「上位キャンペーン」ダイアログを閉じるには、「**[!UICONTROL Close]**」を選択します。
 
@@ -162,7 +177,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 >[!NOTE]
 >
->すべてのタッチポイントおよびポジションにわたる属性モデルの貢献率の合計は、100 に等しくする必要があります。
+すべてのタッチポイントおよびポジションにわたる属性モデルの貢献率の合計は、100 に等しくする必要があります。
 
 
 位置 [!UICONTROL Starter]、[!UICONTROL Player] および [!UICONTROL Closer] は、次のように定義されます。
@@ -186,21 +201,6 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 * チャネルごとに、アトリビューションモデルの貢献度のパーセンテージ、
 * これらのチャネルアトリビューションモデルのコントリビューションパーセンテージの合計。
 
-## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
-
-「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
-
-![ 要因 ](/help/assets/factors.png)
-
-このビジュアライゼーションは、様々な内部および外部の要因がコンバージョンのベースラインに与える増分的な影響を理解するのに役立ちます。 例えば、経済状況やプロモーション活動などです。
-
-**[!UICONTROL Factors]** ドロップダウンメニューを使用して、表示する要因を選択します。
-
-<!-- need to update the image when we do have a proper example -->
-
-テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
-
-使用できるデータがない場合は、メッセージ ![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]** が表示されます。
 
 ## [!UICONTROL Diagnostics]
 
@@ -228,7 +228,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
-* Attribution AIアルゴリズムモデルの結果を表す [!UICONTROL Touchpoint effectiveness] のテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
+* [!UICONTROL Touchpoint effectiveness] トリビューション AI アルゴリズムモデルの結果を表したテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
 
 ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets/icons/SortOrderDown.svg) で表示されます。
 
