@@ -3,9 +3,9 @@ title: モデルの概要
 description: Mix Modelerでモデルを作成して使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: 39ea5ed145678d6ac7e5263b38255e725e488f8d
 workflow-type: tm+mt
-source-wordcount: '942'
+source-wordcount: '1090'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 Mix Modelerのモデル機能を使用すると、ビジネス目標に固有のモデルを設定、トレーニング、スコアリングできます。 トレーニングとスコアリングは、マルチタッチアトリビューションとマーケティングミックスモデリングの間の AI 駆動の転送学習をサポートします。
 
-モデルは、Mix Modelerアプリケーションワークフローの一部として作成する統一データに基づいています。
+モデルは、Mix Modeler アプリケーションワークフローの一部として作成する統一データに基づいています。
 
-Mix Modelerのモデルは、マーケターの投資に基づいて指定された成果を測定し、予測するために使用される機械学習モデルです。 マーケティングタッチポイントおよび概要レベルデータを入力として使用できます。 Mix Modelerを使用すると、売上高、販売数量、リードなど、変数、ディメンション、結果の様々なセットに基づいてモデルのバリアントを作成できます。
+Mix Modelerのモデルは、マーケターの投資に基づいて指定された成果を測定し、予測するために使用される機械学習モデルです。 マーケティングタッチポイントおよび概要レベルデータを入力として使用できます。 Mix Modelerでは、売上高、販売数量、リードなど、変数、ディメンション、結果の様々なセットに基づいてモデルのバリアントを作成できます。
 
 モデルには次の要件があります。
 
@@ -35,11 +35,11 @@ Mix Modelerのモデルは、マーケターの投資に基づいて指定され
 
 ## モデルを作成
 
-モデルを作成するには、「**[!UICONTROL Open model canvas]**」を選択すると使用できるMix Modelerステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[ モデルの作成 ](build.md) を参照してください。
+モデルを作成するには、「**[!UICONTROL Open model canvas]**」を選択すると使用できる、Mix Modeler ステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[ モデルの作成 ](build.md) を参照してください。
 
 ## モデルの管理
 
-Mix Modelerインターフェイスで現在のモデルのテーブルを表示するには：
+Mix Modeler インターフェイスで現在のモデルのテーブルを表示するには、次の手順を実行します。
 
 1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
@@ -54,9 +54,33 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
    | コンバージョンイベント | モデルに対して選択した変換。 |
    | 実行頻度 | モデルをトレーニングする実行頻度。 |
    | 前回の実行 | モデルの最後のトレーニングの日時。 |
-   | ステータス | モデルのトレーニングの前回の実行ステータス。 <br/>![StatusGreen](/help/assets/icons/StatusGreen.svg)Success<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) トレーニングの問題 <br/> ![StatusOrange](/help/assets/icons/StatusOrange.svg) トレーニングを待機中 <br/>![StatusRed](/help/assets/icons/StatusRed.svg) 失敗 <br/>![StatusGreen](/help/assets/icons/StatusGray.svg)_（前回の実行が処理中） |
+   | ステータス | モデルのステータス。 |
 
    {style="table-layout:auto"}
+
+   モデルのレポートされたステータスは、モデルがライフサイクル内のどこにあるかによって異なります。 例えば、モデルが作成されたか、正常に（再）トレーニングされたか、正常に（再）スコアリングされたかなどです。
+
+   次の表を参照してください。
+
+   * ![ チェックマーク ](/help/assets/icons/Checkmark.svg) - モデルのライフサイクルでステップが正常に実行されたことを示します。
+   * ![ クロック ](/help/assets/icons/Clock.svg) - モデルライフサイクルで現在ステップの進行中の実行を示します。
+   * ![ 閉じる ](/help/assets/icons/Close.svg) - モデルのライフサイクルでのステップの実行失敗を示します。
+
+   | ステータス |  の作成 | トレイン | スコア | 再トレーニング | 再スコア |
+   |---|:---:|:---:|:---:|:---:|:---:|
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 時計 ](/help/assets/icons/Clock.svg) | | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 時計 ](/help/assets/icons/Clock.svg) | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 時計 ](/help/assets/icons/Clock.svg) | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 時計 ](/help/assets/icons/Clock.svg) |
+   | Training failed | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 閉じる ](/help/assets/icons/Close.svg) | | | |
+   | Training failed | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 閉じる ](/help/assets/icons/Close.svg) | |
+   | Training successful | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | |
+   | Training successful | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | |
+   | スコアリングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 閉じる ](/help/assets/icons/Close.svg) | | |
+   | スコアリングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 閉じる ](/help/assets/icons/Close.svg) |
+   | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | |
+   | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) |
 
 1. リストに表示される列を変更するには、「![ 列設定 ](/help/assets/icons/ColumnSetting.svg) を選択し、列のオン ![ チェック ](/help/assets/icons/Checkmark.svg) とオフを切り替えます。
 
@@ -92,6 +116,7 @@ Mix Modelerインターフェイスで現在のモデルのテーブルを表示
 
 1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Duplicate]**] を選択します。
 
+新しいモデルを作成する手順にリダイレクトされ、提案された名前には元のモデルの名前に **[!UICONTROL (Copy)]（_n_）** が追加されます。
 
 ### 編集
 

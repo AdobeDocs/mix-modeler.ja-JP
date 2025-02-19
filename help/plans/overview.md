@@ -3,9 +3,9 @@ title: 計画の概要
 description: Mix Modelerでプランを表示、選択およびアクションする方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: 8e1c748f3e4e267038dcac5bce82f90157e88c32
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -81,7 +81,7 @@ Mix Modeler インターフェイスで現在の計画のテーブルを表示�
 - プランの ![ 詳細 ](/help/assets/icons/More.svg) を選択します。 コンテキストメニューから「**[!UICONTROL Duplicate]**」を選択します。
 - または、テーブルの ![ 選択ボックス ](/help/assets/icons/SelectBox.svg) でプランを選択し、青いアクションバーから ![ コピー ](/help/assets/icons/Copy.svg)**[!UICONTROL Duplicate]** を選択します。
 
-元の計画の名前に **[!UICONTROL (Copy)]** が付いた名前の新規計画が表の一番上に追加されます。
+元の計画名に **[!UICONTROL (Copy)]（_n_）** を付けた名前の新規計画が表の上部に追加されます。
 
 ### 計画の比較
 
