@@ -4,9 +4,9 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 13b748337ca9bfc3b4ffdb0b345bfc291c36525a
+source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '303'
 ht-degree: 2%
 
 ---
@@ -21,12 +21,12 @@ ht-degree: 2%
 
 | 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
 |---|---|---|---|
-| **ネストされた条件** | [ モデルの設定 ](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **ネストされた条件** | [ モデルの設定 ](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | t.b.d |
 | **レポートの表示** | データの調和の一部として定義した [ コンバージョン ](/help/harmonize-data/conversions.md#view-report) または [ マーケティングタッチポイント ](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **削除の確認** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **確認を削除** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **[!UICONTROL Error handling]** | データのハーモナイゼーションと計画におけるエラーシナリオに対する、使いやすいエラーメッセージと改善されたユーザーエクスペリエンス。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **[!UICONTROL Model status]** | モデルのライフサイクル全体にわたる [ モデルのステータス ](/help/models/overview.md#manage-models) の再定義。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **エラー処理** | データのハーモナイゼーションと計画におけるエラーシナリオに対する、使いやすいエラーメッセージと改善されたユーザーエクスペリエンス。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **モデルのステータス** | モデルのライフサイクル全体にわたる [ モデルのステータス ](/help/models/overview.md#manage-models) の再定義。 | 2025 年 2 月 18 日（Pt） | t.b.d. |
 
 
 ## リリース方法
