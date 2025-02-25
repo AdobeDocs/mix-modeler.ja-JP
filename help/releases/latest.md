@@ -4,7 +4,7 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 622e61b2e354bd428d6c084f29bfec9666c1a09d
+source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 2%
@@ -26,7 +26,7 @@ ht-degree: 2%
 | **確認を削除** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **エラー処理** | データのハーモナイゼーションと計画におけるエラーシナリオに対する、使いやすいエラーメッセージと改善されたユーザーエクスペリエンス。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **モデルのステータス** | モデルのライフサイクル全体にわたる [ モデルのステータス ](/help/models/overview.md#manage-models) の再定義。 | 2025 年 2 月 18 日（Pt） | t.b.d. |
+| **モデルのステータス** | モデルのライフサイクル全体にわたる [ モデルのステータス ](/help/models/overview.md#manage-models) の再定義。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
 
 
 ## リリース方法
