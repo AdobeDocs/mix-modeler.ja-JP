@@ -3,9 +3,9 @@ title: プランの作成
 description: Mix Modelerでプランを作成する方法を説明します。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: d05eccef370598ce64363ca6ae20886b0e5dccd0
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 1%
 
 ---
@@ -15,14 +15,14 @@ ht-degree: 1%
 
 Mix Modelerでは、プランキャンバスを使用してプランを作成します。 プランキャンバスでは、プランの詳細と予算、およびプランに使用する基盤となるモデルを設定できます。 詳細、予算、モデルを指定したら、AI が推奨するプランを選択するか、チャネル別に費用を編集できます。
 
-プランを作成するには、Mix Modelerの ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** インターフェイスで **[!UICONTROL Create plan]** を選択します。
+プランを作成するには、Mix Modelerの ![PLan](/help/assets/icons/FileChart.svg) **[!UICONTROL Plans]** インターフェイスで「**[!UICONTROL Create plan]**」を選択します。
 
-1. プラン作成画面で、次の操作を行います。
+1. **[!UICONTROL Plan creation]** 画面で、次の操作を行います。
 
-   1. **[!UICONTROL Setup]** セクション内
+   1. **[!UICONTROL Setup]** のセクションで以下を実行します。
 
       1. **[!UICONTROL Plan name]** （例：`Demo plan`）を入力します。 **[!UICONTROL Description]** （例：`Demo plan for Luma company`）を入力します。
-      1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**.
+      1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**
       1. ![ リンクアウト ](/help/assets/icons/LinkOut.svg)**[!UICONTROL Create model]** を選択して、プランの作成内から直接モデルを作成できます。 これにより、ブラウザーに新しいタブが開き、[ モデル ](../models/overview.md) インターフェイスが表示されます。
 
          ![ プラン設定 ](/help/assets/plan-setup.png)
