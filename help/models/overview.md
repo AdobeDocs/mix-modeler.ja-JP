@@ -3,9 +3,9 @@ title: モデルの概要
 description: Mix Modelerでモデルを作成して使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 4a154ec4c81cb6b2361a05440c56b7946f748d8c
+source-git-commit: f4333d3686d3173452f4e8ca43ccf07c269f4365
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1174'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Mix Modelerのモデルは、マーケターの投資に基づいて指定され
 * 過去の関係者エクスペリエンス、増分的テスト、その他のモデルなど、他のソースからのマーケティング投稿に関する予備知識。
 * 費用共有：マーケティングデータが疎な場合に、相対的な費用共有をプロキシとして使用します。
 
-モデルを初めて作成すると、トレーニングとスコアリングのプロセスが直ちに開始されます。 最初のトレーニングおよびスコアリング実行が完了すると、モデルインサイトをレビューできるようになります。 その後、モデルを再トレーニングしてもよい。 また、データがモデルに追加される場合もあり、その場合はモデルを手動で再スコアリングする必要があります。 再トレーニングと再スコアリングは、新しい調査結果と情報が出てくると、ビジネス目標に最も適したモデルを取得するために調整が必要になるため、反復的なプロセスになります。
+モデルを初めて作成すると、トレーニングとスコアリングのプロセスが直ちに開始されます。 最初のトレーニングおよびスコアリング実行が完了すると、モデルインサイトをレビューできます。 その後、モデルを再トレーニングしてもよい。 また、データがモデルに追加される場合もあり、その場合はモデルを手動で再スコアリングする必要があります。 再トレーニングと再スコアリングは、新しい調査結果と情報が出てくると、ビジネス目標に最も適したモデルを取得するために調整が必要になるため、反復的なプロセスになります。
 
 
 ## モデルを作成
@@ -83,6 +83,8 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
    | スコアリングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 閉じる ](/help/assets/icons/Close.svg) |
    | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | |
    | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) |
+
+   {style="table-layout:fixed"}
 
 1. リストに表示される列を変更するには、「![ 列設定 ](/help/assets/icons/ColumnSetting.svg) を選択し、列のオン ![ チェック ](/help/assets/icons/Checkmark.svg) とオフを切り替えます。
 

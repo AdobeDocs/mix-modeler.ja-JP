@@ -3,9 +3,9 @@ title: プランインサイト
 description: Mix Modelerでプランのインサイトを確認し、プランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 
 - [!UICONTROL Forecasted paid channel ROI] ビジュアライゼーション
 - [!UICONTROL Forecasted revenue] ビジュアライゼーション
+- [!UICONTROL Forecasted conversion] ビジュアライゼーション
+- [!UICONTROL Marginal channel return] ビジュアライゼーション
 - 計画の [!UICONTROL Data range breakdown] の表、次の列が表示されています
 
    - チャネル
@@ -28,11 +30,45 @@ ht-degree: 0%
    - コンバージョン目標
    - 費用
 
-![ 計画の概要 ](/help/assets/overview-plan.png)
+インターフェイスを閉じるには、「**[!UICONTROL Close]**」を選択します。
 
-1. 「**[!UICONTROL Close]**」を選択すると、計画インタフェースに戻ります。
+プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL  %]** を選択します。
 
-1. **[!UICONTROL View ROI]** り方の **[!UICONTROL X]** または **[!UICONTROL  %]** を選択してください。
+## 予測された有料チャネル支出と ROI
+
+このビジュアライゼーションでは、モデル、日付範囲、予算に基づいて、有料チャネルのフォーキャスト費用と投資回収率の散布図が表示されます。
+
+![ 予測された有料チャネル支出と ROI ビジュアライゼーション ](../assets/overview-plan-forecasted-paid-channel-send-roi.png)
+
+
+## 予測収益
+
+この棒グラフビジュアライゼーションには、モデル、日付範囲、予算に基づいて、チャネルの予測収益が表示されます。
+
+![ 予測収益ビジュアライゼーション ](../assets/overview-plan-forecasted-revenue.png)
+
+
+## 予測コンバージョン
+
+この棒グラフビジュアライゼーションは、モデル、日付範囲および予算に基づいて、チャネルの予測コンバージョンを表示します。
+
+![ 予測コンバージョンビジュアライゼーション ](../assets/overview-plan-forecasted-conversions.png)
+
+
+## マージナルチャネル再来訪
+
+この折れ線グラフビジュアライゼーションには、選択したチャネルのマージナル帰還曲線と、**[!UICONTROL Marginal break-even]** と **[!UICONTROL Return point]** のインジケーターが表示されます。 このビジュアライゼーションは、チャネルの支出が限界損益分岐点にどのように到達しているか、およびチャネルの支出を増やす余地があるか、またはチャネルの支出効率を向上させるためにチャネルへの支出を減らす必要があるかを理解するのに役立ちます。
+
+![ マージナルチャネル再来訪の視覚化 ](../assets/overview-plan-marginal-channel-return.png)
+
+ビジュアライゼーションの特定のチャネルを選択するには、チャネル ドロップダウ **[!UICONTROL View]** メニューからチャネルを選択します。
+
+
+## 日付範囲の分類
+
+[!UICONTROL Date range breakdown] の表には、[!UICONTROL ROI]、[!UICONTROL Revenue]、[!UICONTROL CPA]、[!UICONTROL Conversions] および [!UICONTROL Spend] のチャネルごとの詳細な詳細データが表示されます。
+
+![ 日付範囲の分類テーブル ](../assets/overview-plan-date-range-breakdown.png)
 
 1. 日付範囲の分類のデータを含んだ CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。 コンテキストメニューから、次の操作を行います。
 
@@ -42,6 +78,9 @@ ht-degree: 0%
    詳細データは、週別にキー設定された粒度の高いデータです。 概要データは、モデルが指定した日付範囲でキー設定されたデータです。
 
 1. チャネルのカテゴリ別に日付範囲の分類を表示するには、「**[!UICONTROL View]**」の選択から「**[!UICONTROL All channels]**」、「**[!UICONTROL Paid channels]**」または「**[!UICONTROL Non-paid channels]**」を選択します。
+
+
+## プランを編集
 
 1. プランを編集するには、「![ 編集 ](/help/assets/icons/Edit.svg)」を選択します **[!UICONTROL Edit plan]**
 
