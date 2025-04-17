@@ -1,3630 +1,3645 @@
 ---
-source-git-commit: 182f3cf46fd4871f7b27d311af1673457677d361
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 8%
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 # スニペット
 
+## リリース段階の限定的なテスト {#release-limited-testing}
 
-## OneTwoThree {#onetwothree}
+>[!AVAILABILITY]
+>
+>この記事で説明している機能は、リリースの限定的テスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般入手可能になったら、このメモは削除されます。 Mix Modeler リリースプロセスについて詳しくは、[Mix Modeler機能リリース ](/help/releases/latest.md) を参照してください。
+>
+
+## 「リリース段階の限定的テスト」節 {#release-limited-testing-section}
+
+>[!AVAILABILITY]
+>
+>この節で説明している機能は、リリースの限定的テスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般入手可能になったら、このメモは削除されます。 Mix Modeler リリースプロセスについて詳しくは、[Mix Modeler機能リリース ](/help/releases/latest.md) を参照してください。
+>
+
+<!--
+## OneTwoThree {#onetwothree} 
 
 ![123](/help/assets/icons/123.svg)
 
-## ThreeDMaterial {#threedmaterial}
+## ThreeDMaterial {#threedmaterial} 
 
-![3D マテリアル ](/help/assets/icons/3DMaterial.svg)
+![3DMaterial](/help/assets/icons/3DMaterial.svg)
 
-## ABC {#abc}
+## ABC {#abc} 
 
 ![ABC](/help/assets/icons/ABC.svg)
 
-## AEMScreen {#aemscreen}
+## AEMScreen {#aemscreen} 
 
 ![AEMScreen](/help/assets/icons/AEMScreen.svg)
 
-## アクション {#action}
+## Action {#action} 
 
-![アクション](/help/assets/icons/Action.svg)
+![Action](/help/assets/icons/Action.svg)
 
-## AdDisplay {#addisplay}
+## AdDisplay {#addisplay} 
 
 ![AdDisplay](/help/assets/icons/AdDisplay.svg)
 
-## 広告プリント {#adprint}
+## AdPrint {#adprint} 
 
 ![AdPrint](/help/assets/icons/AdPrint.svg)
 
-## 追加 {#add}
+## Add {#add} 
 
-![ 追加 ](/help/assets/icons/Add.svg)
+![Add](/help/assets/icons/Add.svg)
 
-## AddCircle {#addcircle}
+## AddCircle {#addcircle} 
 
 ![AddCircle](/help/assets/icons/AddCircle.svg)
 
-## AddTo {#addto}
+## AddTo {#addto} 
 
 ![AddTo](/help/assets/icons/AddTo.svg)
 
-## AddToSelection {#addtoselection}
+## AddToSelection {#addtoselection} 
 
 ![AddToSelection](/help/assets/icons/AddToSelection.svg)
 
-## AdobeLogo {#adobelogo}
+## AdobeLogo {#adobelogo} 
 
 ![AdobeLogo](/help/assets/icons/AdobeLogo.svg)
 
-## 飛行機 {#airplane}
+## Airplane {#airplane} 
 
-![ 飛行機 ](/help/assets/icons/Airplane.svg)
+![Airplane](/help/assets/icons/Airplane.svg)
 
-## アラート {#alert}
+## Alert {#alert} 
 
-![アラート](/help/assets/icons/Alert.svg)
+![Alert](/help/assets/icons/Alert.svg)
 
-## AlertAdd {#alertadd}
+## AlertAdd {#alertadd} 
 
 ![AlertAdd](/help/assets/icons/AlertAdd.svg)
 
-## AlertCheck {#alertcheck}
+## AlertCheck {#alertcheck} 
 
 ![AlertCheck](/help/assets/icons/AlertCheck.svg)
 
-## AlertCircle {#alertcircle}
+## AlertCircle {#alertcircle} 
 
 ![AlertCircle](/help/assets/icons/AlertCircle.svg)
 
-## AlertCircleFilled {#alertcirclefilled}
+## AlertCircleFilled {#alertcirclefilled} 
 
 ![AlertCircleFilled](/help/assets/icons/AlertCircleFilled.svg)
 
-## アルゴリズム {#algorithm}
+## Algorithm {#algorithm} 
 
-![ アルゴリズム ](/help/assets/icons/Algorithm.svg)
+![Algorithm](/help/assets/icons/Algorithm.svg)
 
-## エイリアス {#alias}
+## Alias {#alias} 
 
-![ アリア ](/help/assets/icons/Alias.svg)
+![Alia](/help/assets/icons/Alias.svg)
 
-## AlignBottom {#alignbottom}
+## AlignBottom {#alignbottom} 
 
 ![AlignBottom](/help/assets/icons/AlignBottom.svg)
 
-## AlignCenter {#aligncenter}
+## AlignCenter {#aligncenter} 
 
 ![AlignCenter](/help/assets/icons/AlignCenter.svg)
 
-## AlignLeft {#alignleft}
+## AlignLeft {#alignleft} 
 
 ![AlignLeft](/help/assets/icons/AlignLeft.svg)
 
-## 中央揃え {#alignmiddle}
+## AlignMiddle {#alignmiddle} 
 
 ![AlignMiddle](/help/assets/icons/AlignMiddle.svg)
 
-## AlignRight {#alignright}
+## AlignRight {#alignright} 
 
 ![AlignRight](/help/assets/icons/AlignRight.svg)
 
-## 上揃え {#aligntop}
+## AlignTop {#aligntop} 
 
 ![AlignTop](/help/assets/icons/AlignTop.svg)
 
-## Amusementpark {#amusementpark}
+## Amusementpark {#amusementpark} 
 
-![ アムセメントパーク ](/help/assets/icons/Amusementpark.svg)
+![Amusementpark](/help/assets/icons/Amusementpark.svg)
 
-## アンカー {#anchor}
+## Anchor {#anchor} 
 
-![ アンカー ](/help/assets/icons/Anchor.svg)
+![Anchor](/help/assets/icons/Anchor.svg)
 
-## AnchorSelect {#anchorselect}
+## AnchorSelect {#anchorselect} 
 
 ![AnchorSelect](/help/assets/icons/AnchorSelect.svg)
 
-## 注釈 {#annotate}
+## Annotate {#annotate} 
 
-![ 注釈 ](/help/assets/icons/Annotate.svg)
+![Annotate](/help/assets/icons/Annotate.svg)
 
-## AnnotatePen {#annotatepen}
+## AnnotatePen {#annotatepen} 
 
 ![AnnotatePen](/help/assets/icons/AnnotatePen.svg)
 
-## 回答 {#answer}
+## Answer {#answer} 
 
-![ 回答 ](/help/assets/icons/Answer.svg)
+![Answer](/help/assets/icons/Answer.svg)
 
-## AnswerFavorite {#answerfavorite}
+## AnswerFavorite {#answerfavorite} 
 
 ![AnswerFavorite](/help/assets/icons/AnswerFavorite.svg)
 
-## アプリ {#app}
+## App {#app} 
 
-![ アプリ ](/help/assets/icons/App.svg)
+![App](/help/assets/icons/App.svg)
 
-## AppRefresh {#apprefresh}
+## AppRefresh {#apprefresh} 
 
 ![AppRefresh](/help/assets/icons/AppRefresh.svg)
 
-## AppleFile {#applefile}
+## AppleFile {#applefile} 
 
 ![AppleFile](/help/assets/icons/AppleFile.svg)
 
-## ApplicationDelivery {#applicationdelivery}
+## ApplicationDelivery {#applicationdelivery} 
 
 ![ApplicationDelivery](/help/assets/icons/ApplicationDelivery.svg)
 
-## ApproveReject {#approvereject}
+## ApproveReject {#approvereject} 
 
 ![ApproveReject](/help/assets/icons/ApproveReject.svg)
 
-## アーカイブ {#archive}
+## Archive {#archive} 
 
-![アーカイブ](/help/assets/icons/Archive.svg)
+![Archive](/help/assets/icons/Archive.svg)
 
-## ArchiveRemove {#archiveremove}
+## ArchiveRemove {#archiveremove} 
 
 ![ArchiveRemove](/help/assets/icons/ArchiveRemove.svg)
 
-## 下矢印 {#arrowdown}
+## ArrowDown {#arrowdown} 
 
-![ 下矢印 ](/help/assets/icons/ArrowDown.svg)
+![ArrowDown](/help/assets/icons/ArrowDown.svg)
 
-## 左矢印 {#arrowleft}
+## ArrowLeft {#arrowleft} 
 
-![ 左矢印 ](/help/assets/icons/ArrowLeft.svg)
+![ArrowLeft](/help/assets/icons/ArrowLeft.svg)
 
-## 右矢印 {#arrowright}
+## ArrowRight {#arrowright} 
 
-![ 右矢印 ](/help/assets/icons/ArrowRight.svg)
+![ArrowRight](/help/assets/icons/ArrowRight.svg)
 
-## 上矢印 {#arrowup}
+## ArrowUp {#arrowup} 
 
-![ 上矢印 ](/help/assets/icons/ArrowUp.svg)
+![ArrowUp](/help/assets/icons/ArrowUp.svg)
 
-## 上矢印 {#arrowupright}
+## ArrowUpRight {#arrowupright} 
 
 ![ArrowUpRight](/help/assets/icons/ArrowUpRight.svg)
 
-## アートボード {#artboard}
+## Artboard {#artboard} 
 
-![ アートボード ](/help/assets/icons/Artboard.svg)
+![Artboard](/help/assets/icons/Artboard.svg)
 
-## 記事 {#article}
+## Article {#article} 
 
-![ 記事 ](/help/assets/icons/Article.svg)
+![Article](/help/assets/icons/Article.svg)
 
-## アセット {#asset}
+## Asset {#asset} 
 
-![ アセット ](/help/assets/icons/Asset.svg)
+![Asset](/help/assets/icons/Asset.svg)
 
-## AssetCheck {#assetcheck}
+## AssetCheck {#assetcheck} 
 
 ![AssetCheck](/help/assets/icons/AssetCheck.svg)
 
-## AssetsAdded {#assetsadded}
+## AssetsAdded {#assetsadded} 
 
 ![AssetsAdded](/help/assets/icons/AssetsAdded.svg)
 
-## AssetsDownloaded {#assetsdownloaded}
+## AssetsDownloaded {#assetsdownloaded} 
 
 ![AssetsDownloaded](/help/assets/icons/AssetsDownloaded.svg)
 
-## AssetsExpired {#assetsexpired}
+## AssetsExpired {#assetsexpired} 
 
 ![AssetsExpired](/help/assets/icons/AssetsExpired.svg)
 
-## AssetsLinkedPublished {#assetslinkedpublished}
+## AssetsLinkedPublished {#assetslinkedpublished} 
 
 ![AssetsLinkedPublished](/help/assets/icons/AssetsLinkedPublished.svg)
 
-## AssetsModified {#assetsmodified}
+## AssetsModified {#assetsmodified} 
 
 ![AssetsModified](/help/assets/icons/AssetsModified.svg)
 
-## 公開済みアセット {#assetspublished}
+## AssetsPublished {#assetspublished} 
 
 ![AssetsPublished](/help/assets/icons/AssetsPublished.svg)
 
-## アスタリスク {#asterisk}
+## Asterisk {#asterisk} 
 
-![ アスタリスク ](/help/assets/icons/Asterisk.svg)
+![Asterisk](/help/assets/icons/Asterisk.svg)
 
-## 時刻 {#at}
+## At {#at} 
 
 ![At](/help/assets/icons/At.svg)
 
-## 添付 {#attach}
+## Attach {#attach} 
 
-![ 添付 ](/help/assets/icons/Attach.svg)
+![Attach](/help/assets/icons/Attach.svg)
 
-## AttachmentExclude {#attachmentexclude}
+## AttachmentExclude {#attachmentexclude} 
 
 ![AttachmentExclude](/help/assets/icons/AttachmentExclude.svg)
 
-## 属性 {#attribute}
+## Attribute {#attribute} 
 
-![ 属性 ](/help/assets/icons/Attribute.svg)
+![Attribute](/help/assets/icons/Attribute.svg)
 
-## オーディオ {#audio}
+## Audio {#audio} 
 
-![ オーディオ ](/help/assets/icons/Audio.svg)
+![Audio](/help/assets/icons/Audio.svg)
 
-## AutomatedSegment {#automatedsegment}
+## AutomatedSegment {#automatedsegment} 
 
 ![AutomatedSegment](/help/assets/icons/AutomatedSegment.svg)
 
-## 戻る {#back}
+## Back {#back} 
 
-![ 戻る ](/help/assets/icons/Back.svg)
+![Back](/help/assets/icons/Back.svg)
 
-## 戻る 30 秒 {#back30second}
+## Back30Second {#back30second} 
 
-![ 戻る 30 秒 ](/help/assets/icons/Back30Second.svg)
+![Back30Second](/help/assets/icons/Back30Second.svg)
 
-## BackAndroid {#backandroid}
+## BackAndroid {#backandroid} 
 
 ![BackAndroid](/help/assets/icons/BackAndroid.svg)
 
-## ビーカー {#beaker}
+## Beaker {#beaker} 
 
-![ ビーカー ](/help/assets/icons/Beaker.svg)
+![Beaker](/help/assets/icons/Beaker.svg)
 
-## BeakerCheck {#beakercheck}
+## BeakerCheck {#beakercheck} 
 
 ![BeakerCheck](/help/assets/icons/BeakerCheck.svg)
 
-## BeakerShare {#beakershare}
+## BeakerShare {#beakershare} 
 
 ![BeakerShare](/help/assets/icons/BeakerShare.svg)
 
-## ベル {#bell}
+## Bell {#bell} 
 
-![ ベル ](/help/assets/icons/Bell.svg)
+![Bell](/help/assets/icons/Bell.svg)
 
-## BidRule {#bidrule}
+## BidRule {#bidrule} 
 
 ![BidRule](/help/assets/icons/BidRule.svg)
 
-## BidRuleAdd {#bidruleadd}
+## BidRuleAdd {#bidruleadd} 
 
 ![BidRuleAdd](/help/assets/icons/BidRuleAdd.svg)
 
-## ブロワ {#blower}
+## Blower {#blower} 
 
-![ ブロワ ](/help/assets/icons/Blower.svg)
+![Blower](/help/assets/icons/Blower.svg)
 
-## Blur {#blur}
+## Blur {#blur} 
 
-![ ブラー ](/help/assets/icons/Blur.svg)
+![Blur](/help/assets/icons/Blur.svg)
 
-## 本 {#book}
+## Book {#book} 
 
-![ 本 ](/help/assets/icons/Book.svg)
+![Book](/help/assets/icons/Book.svg)
 
-## ブックマーク {#bookmark}
+## Bookmark {#bookmark} 
 
-![ ブックマーク ](/help/assets/icons/Bookmark.svg)
+![Bookmark](/help/assets/icons/Bookmark.svg)
 
-## BookmarkSingle {#bookmarksingle}
+## BookmarkSingle {#bookmarksingle} 
 
 ![BookmarkSingle](/help/assets/icons/BookmarkSingle.svg)
 
-## BookmarkSingleOutline {#bookmarksingleoutline}
+## BookmarkSingleOutline {#bookmarksingleoutline} 
 
 ![BookmarkSingleOutline](/help/assets/icons/BookmarkSingleOutline.svg)
 
-## BookmarkSmall {#bookmarksmall}
+## BookmarkSmall {#bookmarksmall} 
 
 ![BookmarkSmall](/help/assets/icons/BookmarkSmall.svg)
 
-## BookmarkSmallOutline {#bookmarksmalloutline}
+## BookmarkSmallOutline {#bookmarksmalloutline} 
 
 ![BookmarkSmallOutline](/help/assets/icons/BookmarkSmallOutline.svg)
 
-## ブール値 {#boolean}
+## Boolean {#boolean} 
 
-![ ブール値 ](/help/assets/icons/Boolean.svg)
+![Boolean](/help/assets/icons/Boolean.svg)
 
-## 境界線 {#border}
+## Border {#border} 
 
-![ 境界線 ](/help/assets/icons/Border.svg)
+![Border](/help/assets/icons/Border.svg)
 
-## ボックス {#box}
+## Box {#box} 
 
-![ ボックス ](/help/assets/icons/Box.svg)
+![Box](/help/assets/icons/Box.svg)
 
-## BoxAdd {#boxadd}
+## BoxAdd {#boxadd} 
 
 ![BoxAdd](/help/assets/icons/BoxAdd.svg)
 
-## BoxExport {#boxexport}
+## BoxExport {#boxexport} 
 
 ![BoxExport](/help/assets/icons/BoxExport.svg)
 
-## BoxImport {#boximport}
+## BoxImport {#boximport} 
 
 ![BoxImport](/help/assets/icons/BoxImport.svg)
 
-## ブラケット {#bracket}
+## Bracket {#bracket} 
 
-![ 括弧 ](/help/assets/icons/Bracket.svg)
+![Bracket](/help/assets/icons/Bracket.svg)
 
-## BracketsSquare {#bracketssquare}
+## BracketsSquare {#bracketssquare} 
 
 ![BracketsSquare](/help/assets/icons/BracketsSquare.svg)
 
-## ブランチ 1 {#branch1}
+## Branch1 {#branch1} 
 
-![ ブランチ 1](/help/assets/icons/Branch1.svg)
+![Branch1](/help/assets/icons/Branch1.svg)
 
-## 分岐 2 {#branch2}
+## Branch2 {#branch2} 
 
-![ 分岐 2](/help/assets/icons/Branch2.svg)
+![Branch2](/help/assets/icons/Branch2.svg)
 
-## 分岐 3 {#branch3}
+## Branch3 {#branch3} 
 
-![ ブランチ 3](/help/assets/icons/Branch3.svg)
+![Branch3](/help/assets/icons/Branch3.svg)
 
-## BranchCircle {#branchcircle}
+## BranchCircle {#branchcircle} 
 
 ![BranchCircle](/help/assets/icons/BranchCircle.svg)
 
-## パンくずナビゲーション {#breadcrumbnavigation}
+## BreadcrumbNavigation {#breadcrumbnavigation} 
 
-![ パンくずナビゲーション ](/help/assets/icons/BreadcrumbNavigation.svg)
+![BreadcrumbNavigation](/help/assets/icons/BreadcrumbNavigation.svg)
 
-## 分類 {#breakdown}
+## Breakdown {#breakdown} 
 
-![分類](/help/assets/icons/Breakdown.svg)
+![Breakdown](/help/assets/icons/Breakdown.svg)
 
-## BreakdownAdd {#breakdownadd}
+## BreakdownAdd {#breakdownadd} 
 
-![ 分類の追加 ](/help/assets/icons/BreakdownAdd.svg)
+![BreakdownAdd](/help/assets/icons/BreakdownAdd.svg)
 
-## ブリーフケース {#briefcase}
+## Briefcase {#briefcase} 
 
-![ ブリーフケース ](/help/assets/icons/Briefcase.svg)
+![Briefcase](/help/assets/icons/Briefcase.svg)
 
-## 参照 {#browse}
+## Browse {#browse} 
 
-![参照](/help/assets/icons/Browse.svg)
+![Browse](/help/assets/icons/Browse.svg)
 
-## ブラシ {#brush}
+## Brush {#brush} 
 
-![ ブラシ ](/help/assets/icons/Brush.svg)
+![Brush](/help/assets/icons/Brush.svg)
 
-## バグ {#bug}
+## Bug {#bug} 
 
-![ バグ ](/help/assets/icons/Bug.svg)
+![Bug](/help/assets/icons/Bug.svg)
 
-## ビルド {#building}
+## Building {#building} 
 
-![ 建物 ](/help/assets/icons/Building.svg)
+![Building](/help/assets/icons/Building.svg)
 
-## BulkEditUser {#bulkedituser}
+## BulkEditUser {#bulkedituser} 
 
 ![BulkEditUser](/help/assets/icons/BulkEditUser.svg)
 
-## ボタン {#button}
+## Button {#button} 
 
-![ ボタン ](/help/assets/icons/Button.svg)
+![Button](/help/assets/icons/Button.svg)
 
-## ライブラリ {#cclibrary}
+## CCLibrary {#cclibrary} 
 
-![ ライブラリ ](/help/assets/icons/CCLibrary.svg)
+![CCLibrary](/help/assets/icons/CCLibrary.svg)
 
-## 計算機 {#calculator}
+## Calculator {#calculator} 
 
-![ 計算ツール ](/help/assets/icons/Calculator.svg)
+![Calculator](/help/assets/icons/Calculator.svg)
 
-## カレンダー {#calendar}
+## Calendar {#calendar} 
 
-![ カレンダー ](/help/assets/icons/Calendar.svg)
+![Calendar](/help/assets/icons/Calendar.svg)
 
-## CalendarAdd {#calendaradd}
+## CalendarAdd {#calendaradd} 
 
-![ カレンダー追加 ](/help/assets/icons/CalendarAdd.svg)
+![CalendarAdd](/help/assets/icons/CalendarAdd.svg)
 
-## CalendarLocked {#calendarlocked}
+## CalendarLocked {#calendarlocked} 
 
 ![CalendarLocked](/help/assets/icons/CalendarLocked.svg)
 
-## CalendarUnlocked {#calendarunlocked}
+## CalendarUnlocked {#calendarunlocked} 
 
 ![CalendarUnlocked](/help/assets/icons/CalendarUnlocked.svg)
 
-## コールセンター {#callcenter}
+## CallCenter {#callcenter} 
 
-![ コールセンター ](/help/assets/icons/CallCenter.svg)
+![CallCenter](/help/assets/icons/CallCenter.svg)
 
-## カメラ {#camera}
+## Camera {#camera} 
 
-![ カメラ ](/help/assets/icons/Camera.svg)
+![Camera](/help/assets/icons/Camera.svg)
 
-## CameraFlip {#cameraflip}
+## CameraFlip {#cameraflip} 
 
 ![CameraFlip](/help/assets/icons/CameraFlip.svg)
 
-## CameraRefresh {#camerarefresh}
+## CameraRefresh {#camerarefresh} 
 
 ![CameraRefresh](/help/assets/icons/CameraRefresh.svg)
 
-## Campaign {#campaign}
+## Campaign {#campaign} 
 
 ![Campaign](/help/assets/icons/Campaign.svg)
 
-## CampaignAdd {#campaignadd}
+## CampaignAdd {#campaignadd} 
 
 ![CampaignAdd](/help/assets/icons/CampaignAdd.svg)
 
-## CampaignClose {#campaignclose}
+## CampaignClose {#campaignclose} 
 
-![ キャンペーンクローズ ](/help/assets/icons/CampaignClose.svg)
+![CampaignClose](/help/assets/icons/CampaignClose.svg)
 
-## CampaignDelete {#campaigndelete}
+## CampaignDelete {#campaigndelete} 
 
 ![CampaignDelete](/help/assets/icons/CampaignDelete.svg)
 
-## CampaignEdit {#campaignedit}
+## CampaignEdit {#campaignedit} 
 
 ![CampaignEdit](/help/assets/icons/CampaignEdit.svg)
 
-## キャンセル {#cancel}
+## Cancel {#cancel} 
 
-![キャンセル](/help/assets/icons/Cancel.svg)
+![Cancel](/help/assets/icons/Cancel.svg)
 
-## 資本金 {#capital}
+## Capital {#capital} 
 
-![ 資本金 ](/help/assets/icons/Capital.svg)
+![Capital](/help/assets/icons/Capital.svg)
 
-## キャプチャ {#captcha}
+## Captcha {#captcha} 
 
 ![Captcha](/help/assets/icons/Captcha.svg)
 
-## Car {#car}
+## Car {#car} 
 
-![ 車 ](/help/assets/icons/Car.svg)
+![Car](/help/assets/icons/Car.svg)
 
-## カード {#card}
+## Card {#card} 
 
-![ カード ](/help/assets/icons/Card.svg)
+![Card](/help/assets/icons/Card.svg)
 
-## チャネル {#channel}
+## Channel {#channel} 
 
-![チャネル](/help/assets/icons/Channel.svg)
+![Channel](/help/assets/icons/Channel.svg)
 
-## チャット {#chat}
+## Chat {#chat} 
 
-![ チャット ](/help/assets/icons/Chat.svg)
+![Chat](/help/assets/icons/Chat.svg)
 
-## ChatAdd {#chatadd}
+## ChatAdd {#chatadd} 
 
 ![ChatAdd](/help/assets/icons/ChatAdd.svg)
 
-## CheckPause {#checkpause}
+## CheckPause {#checkpause} 
 
 ![CheckPause](/help/assets/icons/CheckPause.svg)
 
-## チェックマーク {#checkmark}
+## Checkmark {#checkmark} 
 
-![ チェックマーク ](/help/assets/icons/Checkmark.svg)
+![Checkmark](/help/assets/icons/Checkmark.svg)
 
-## CheckmarkCircle {#checkmarkcircle}
+## CheckmarkCircle {#checkmarkcircle} 
 
 ![CheckmarkCircle](/help/assets/icons/CheckmarkCircle.svg)
 
-## CheckmarkCircleOutline {#checkmarkcircleoutline}
+## CheckmarkCircleOutline {#checkmarkcircleoutline} 
 
 ![CheckmarkCircleOutline](/help/assets/icons/CheckmarkCircleOutline.svg)
 
-## ChevronDoubleLeft {#chevrondoubleleft}
+## ChevronDoubleLeft {#chevrondoubleleft} 
 
 ![ChevronDoubleLeft](/help/assets/icons/ChevronDoubleLeft.svg)
 
-## 山形 DoubleRight {#chevrondoubleright}
+## ChevronDoubleRight {#chevrondoubleright} 
 
 ![ChevronDoubleRight](/help/assets/icons/ChevronDoubleRight.svg)
 
-## ChevronDown {#chevrondown}
+## ChevronDown {#chevrondown} 
 
 ![ChevronDown](/help/assets/icons/ChevronDown.svg)
 
-## 山形の左 {#chevronleft}
+## ChevronLeft {#chevronleft} 
 
 ![ChevronLeft](/help/assets/icons/ChevronLeft.svg)
 
-## 山形の右 {#chevronright}
+## ChevronRight {#chevronright} 
 
-![ 山形 ](/help/assets/icons/ChevronRight.svg)
+![ChevronRight](/help/assets/icons/ChevronRight.svg)
 
-## ChevronUp {#chevronup}
+## ChevronUp {#chevronup} 
 
-![ シェブロンアップ ](/help/assets/icons/ChevronUp.svg)
+![ChevronUp](/help/assets/icons/ChevronUp.svg)
 
-## ChevronUpDown {#chevronupdown}
+## ChevronUpDown {#chevronupdown} 
 
 ![ChevronUpDown](/help/assets/icons/ChevronUpDown.svg)
 
-## 円 {#circle}
+## Circle {#circle} 
 
-![円](/help/assets/icons/Circle.svg)
+![Circle](/help/assets/icons/Circle.svg)
 
-## ClassicGridView {#classicgridview}
+## ClassicGridView {#classicgridview} 
 
 ![ClassicGridView](/help/assets/icons/ClassicGridView.svg)
 
-## 時計 {#clock}
+## Clock {#clock} 
 
-![ 時計 ](/help/assets/icons/Clock.svg)
+![Clock](/help/assets/icons/Clock.svg)
 
-## ClockCheck {#clockcheck}
+## ClockCheck {#clockcheck} 
 
 ![ClockCheck](/help/assets/icons/ClockCheck.svg)
 
-## CloneStamp {#clonestamp}
+## CloneStamp {#clonestamp} 
 
 ![CloneStamp](/help/assets/icons/CloneStamp.svg)
 
-## 閉じる {#close}
+## Close {#close} 
 
-![ 閉じる ](/help/assets/icons/Close.svg)
+![Close](/help/assets/icons/Close.svg)
 
-## Close キャプション {#closecaption}
+## CloseCaption {#closecaption} 
 
 ![CloseCaption](/help/assets/icons/CloseCaption.svg)
 
-## CloseCircle {#closecircle}
+## CloseCircle {#closecircle} 
 
 ![CloseCircle](/help/assets/icons/CloseCircle.svg)
 
-## Cloud {#cloud}
+## Cloud {#cloud} 
 
-![ クラウド ](/help/assets/icons/Cloud.svg)
+![Cloud](/help/assets/icons/Cloud.svg)
 
-## CloudDisconnect {#clouddisconnected}
+## CloudDisconnected {#clouddisconnected} 
 
 ![CloudDisconnected](/help/assets/icons/CloudDisconnected.svg)
 
-## CloudError {#clouderror}
+## CloudError {#clouderror} 
 
 ![CloudError](/help/assets/icons/CloudError.svg)
 
-## CloudOutline {#cloudoutline}
+## CloudOutline {#cloudoutline} 
 
 ![CloudOutline](/help/assets/icons/CloudOutline.svg)
 
-## コード {#code}
+## Code {#code} 
 
-![コード](/help/assets/icons/Code.svg)
+![Code](/help/assets/icons/Code.svg)
 
-## Collection {#collection}
+## Collection {#collection} 
 
-![ コレクション ](/help/assets/icons/Collection.svg)
+![Collection](/help/assets/icons/Collection.svg)
 
-## CollectionAdd {#collectionadd}
+## CollectionAdd {#collectionadd} 
 
 ![CollectionAdd](/help/assets/icons/CollectionAdd.svg)
 
-## CollectionAddTo {#collectionaddto}
+## CollectionAddTo {#collectionaddto} 
 
 ![CollectionAddTo](/help/assets/icons/CollectionAddTo.svg)
 
-## CollectionCheck {#collectioncheck}
+## CollectionCheck {#collectioncheck} 
 
 ![CollectionCheck](/help/assets/icons/CollectionCheck.svg)
 
-## CollectionEdit {#collectionedit}
+## CollectionEdit {#collectionedit} 
 
 ![CollectionEdit](/help/assets/icons/CollectionEdit.svg)
 
-## CollectionExclude {#collectionexclude}
+## CollectionExclude {#collectionexclude} 
 
 ![CollectionExclude](/help/assets/icons/CollectionExclude.svg)
 
-## CollectionLink {#collectionlink}
+## CollectionLink {#collectionlink} 
 
 ![CollectionLink](/help/assets/icons/CollectionLink.svg)
 
-## ColorFill {#colorfill}
+## ColorFill {#colorfill} 
 
 ![ColorFill](/help/assets/icons/ColorFill.svg)
 
-## ColorPalette {#colorpalette}
+## ColorPalette {#colorpalette} 
 
-![ カラーパレット ](/help/assets/icons/ColorPalette.svg)
+![ColorPalette](/help/assets/icons/ColorPalette.svg)
 
-## ColorWheel {#colorwheel}
+## ColorWheel {#colorwheel} 
 
 ![ColorWheel](/help/assets/icons/ColorWheel.svg)
 
-## 列設定 {#columnsetting}
+## ColumnSetting {#columnsetting} 
 
-![ 列設定 ](/help/assets/icons/ColumnSetting.svg)
+![ColumnSetting](/help/assets/icons/ColumnSetting.svg)
 
-## ColumnTwoA {#columntwoa}
+## ColumnTwoA {#columntwoa} 
 
 ![ColumnTwoA](/help/assets/icons/ColumnTwoA.svg)
 
-## ColumnTwoB {#columntwob}
+## ColumnTwoB {#columntwob} 
 
 ![ColumnTwoB](/help/assets/icons/ColumnTwoB.svg)
 
-## ColumnTwoC {#columntwoc}
+## ColumnTwoC {#columntwoc} 
 
 ![ColumnTwoC](/help/assets/icons/ColumnTwoC.svg)
 
-## コメント {#comment}
+## Comment {#comment} 
 
-![ コメント ](/help/assets/icons/Comment.svg)
+![Comment](/help/assets/icons/Comment.svg)
 
-## を比較 {#compare}
+## Compare {#compare} 
 
-![ 比較 ](/help/assets/icons/Compare.svg)
+![Compare](/help/assets/icons/Compare.svg)
 
-## 互換 {#compas}
+## Compas {#compas} 
 
 ![Compas](/help/assets/icons/Compas.svg)
 
-## 条件 {#condition}
+## Condition {#condition} 
 
-![条件](/help/assets/icons/Condition.svg)
+![Condition](/help/assets/icons/Condition.svg)
 
-## ConfidenceFour {#confidencefour}
+## ConfidenceFour {#confidencefour} 
 
 ![ConfidenceFour](/help/assets/icons/ConfidenceFour.svg)
 
-## ConfidenceOne {#confidenceone}
+## ConfidenceOne {#confidenceone} 
 
 ![ConfidenceOne](/help/assets/icons/ConfidenceOne.svg)
 
-## ConfidenceThree {#confidencethree}
+## ConfidenceThree {#confidencethree} 
 
 ![ConfidenceThree](/help/assets/icons/ConfidenceThree.svg)
 
-## ConfidenceTwo {#confidencetwo}
+## ConfidenceTwo {#confidencetwo} 
 
 ![ConfidenceTwo](/help/assets/icons/ConfidenceTwo.svg)
 
-## コントラスト {#contrast}
+## Contrast {#contrast} 
 
-![ コントラスト ](/help/assets/icons/Contrast.svg)
+![Contrast](/help/assets/icons/Contrast.svg)
 
-## ConversionFunnel {#conversionfunnel}
+## ConversionFunnel {#conversionfunnel} 
 
 ![ConversionFunnel](/help/assets/icons/ConversionFunnel.svg)
 
-## コピー {#copy}
+## Copy {#copy} 
 
-![ コピー ](/help/assets/icons/Copy.svg)
+![Copy](/help/assets/icons/Copy.svg)
 
-## CoverImage {#coverimage}
+## CoverImage {#coverimage} 
 
 ![CoverImage](/help/assets/icons/CoverImage.svg)
 
-## CreditCard {#creditcard}
+## CreditCard {#creditcard} 
 
 ![CreditCard](/help/assets/icons/CreditCard.svg)
 
-## 切り抜き {#crop}
+## Crop {#crop} 
 
-![ トリミング ](/help/assets/icons/Crop.svg)
+![Crop](/help/assets/icons/Crop.svg)
 
-## CropLightning {#croplightning}
+## CropLightning {#croplightning} 
 
 ![CropLightning](/help/assets/icons/CropLightning.svg)
 
-## CropRotate {#croprotate}
+## CropRotate {#croprotate} 
 
 ![CropRotate](/help/assets/icons/CropRotate.svg)
 
-## 十字線 {#crosshair}
+## Crosshair {#crosshair} 
 
-![ 十字線 ](/help/assets/icons/Crosshair.svg)
+![Crosshair](/help/assets/icons/Crosshair.svg)
 
-## キュレーション {#curate}
+## Curate {#curate} 
 
-![ キュレーション ](/help/assets/icons/Curate.svg)
+![Curate](/help/assets/icons/Curate.svg)
 
-## カット {#cut}
+## Cut {#cut} 
 
-![ カット ](/help/assets/icons/Cut.svg)
+![Cut](/help/assets/icons/Cut.svg)
 
-## ダッシュボード {#dashboard}
+## Dashboard {#dashboard} 
 
-![ ダッシュボード ](/help/assets/icons/Dashboard.svg)
+![Dashboard](/help/assets/icons/Dashboard.svg)
 
-## データ {#data}
+## Data {#data} 
 
-![データ](/help/assets/icons/Data.svg)
+![Data](/help/assets/icons/Data.svg)
 
-## DataAdd {#dataadd}
+## DataAdd {#dataadd} 
 
 ![DataAdd](/help/assets/icons/DataAdd.svg)
 
-## DataBook {#databook}
+## DataBook {#databook} 
 
-![ データブック ](/help/assets/icons/DataBook.svg)
+![DataBook](/help/assets/icons/DataBook.svg)
 
-## DataCheck {#datacheck}
+## DataCheck {#datacheck} 
 
-![ データチェック ](/help/assets/icons/DataCheck.svg)
+![DataCheck](/help/assets/icons/DataCheck.svg)
 
-## DataCorrelated {#datacorrelated}
+## DataCorrelated {#datacorrelated} 
 
 ![DataCorrelated](/help/assets/icons/DataCorrelated.svg)
 
-## DataDownload {#datadownload}
+## DataDownload {#datadownload} 
 
 ![DataDownload](/help/assets/icons/DataDownload.svg)
 
-## DataEdit {#dataedit}
+## DataEdit {#dataedit} 
 
 ![DataEdit](/help/assets/icons/DataEdit.svg)
 
-## DataMapping {#datamapping}
+## DataMapping {#datamapping} 
 
 ![DataMapping](/help/assets/icons/DataMapping.svg)
 
-## DataRefresh {#datarefresh}
+## DataRefresh {#datarefresh} 
 
 ![DataRefresh](/help/assets/icons/DataRefresh.svg)
 
-## DataRemove {#dataremove}
+## DataRemove {#dataremove} 
 
-![ データ削除 ](/help/assets/icons/DataRemove.svg)
+![DataRemove](/help/assets/icons/DataRemove.svg)
 
-## データ設定 {#datasetting}
+## DataSetting {#datasetting} 
 
-![ データ設定 ](/help/assets/icons/DataSetting.svg)
+![DataSetting](/help/assets/icons/DataSetting.svg)
 
-## DataUnavailable {#dataunavailable}
+## DataUnavailable {#dataunavailable} 
 
 ![DataUnavailable](/help/assets/icons/DataUnavailable.svg)
 
-## DataUpload {#dataupload}
+## DataUpload {#dataupload} 
 
 ![DataUpload](/help/assets/icons/DataUpload.svg)
 
-## DataUser {#datauser}
+## DataUser {#datauser} 
 
 ![DataUser](/help/assets/icons/DataUser.svg)
 
-## 日付 {#date}
+## Date {#date} 
 
-![ 日付 ](/help/assets/icons/Date.svg)
+![Date](/help/assets/icons/Date.svg)
 
-## DateInput {#dateinput}
+## DateInput {#dateinput} 
 
 ![DateInput](/help/assets/icons/DateInput.svg)
 
-## 重複排除 {#deduplication}
+## Deduplication {#deduplication} 
 
-![ 重複排除 ](/help/assets/icons/Deduplication.svg)
+![Deduplication](/help/assets/icons/Deduplication.svg)
 
-## 委任 {#delegate}
+## Delegate {#delegate} 
 
-![ 委任 ](/help/assets/icons/Delegate.svg)
+![Delegate](/help/assets/icons/Delegate.svg)
 
-## 削除 {#delete}
+## Delete {#delete} 
 
-![削除](/help/assets/icons/Delete.svg)
+![Delete](/help/assets/icons/Delete.svg)
 
-## DeleteOutline {#deleteoutline}
+## DeleteOutline {#deleteoutline} 
 
 ![DeleteOutline](/help/assets/icons/DeleteOutline.svg)
 
-## 人口統計 {#demographic}
+## Demographic {#demographic} 
 
-![ 人口統計 ](/help/assets/icons/Demographic.svg)
+![Demographic](/help/assets/icons/Demographic.svg)
 
-## 選択を解除 {#deselect}
+## Deselect {#deselect} 
 
-![ 選択を解除 ](/help/assets/icons/Deselect.svg)
+![Deselect](/help/assets/icons/Deselect.svg)
 
-## DeselectCircular {#deselectcircular}
+## DeselectCircular {#deselectcircular} 
 
 ![DeselectCircular](/help/assets/icons/DeselectCircular.svg)
 
-## デスクトップとモバイル {#desktopandmobile}
+## DesktopAndMobile {#desktopandmobile} 
 
-![ デスクトップとモバイル ](/help/assets/icons/DesktopAndMobile.svg)
+![DesktopAndMobile](/help/assets/icons/DesktopAndMobile.svg)
 
-## デバイス {#device}
+## Device {#device} 
 
-![ デバイス ](/help/assets/icons/Device.svg)
+![Device](/help/assets/icons/Device.svg)
 
-## DeviceDesktop {#devicedesktop}
+## DeviceDesktop {#devicedesktop} 
 
 ![DeviceDesktop](/help/assets/icons/DeviceDesktop.svg)
 
-## DeviceLaptop {#devicelaptop}
+## DeviceLaptop {#devicelaptop} 
 
 ![DeviceLaptop](/help/assets/icons/DeviceLaptop.svg)
 
-## DevicePhone {#devicephone}
+## DevicePhone {#devicephone} 
 
 ![DevicePhone](/help/assets/icons/DevicePhone.svg)
 
-## DevicePhoneRefresh {#devicephonerefresh}
+## DevicePhoneRefresh {#devicephonerefresh} 
 
 ![DevicePhoneRefresh](/help/assets/icons/DevicePhoneRefresh.svg)
 
-## DevicePreview {#devicepreview}
+## DevicePreview {#devicepreview} 
 
 ![DevicePreview](/help/assets/icons/DevicePreview.svg)
 
-## DeviceRotateLandscape {#devicerotatelandscape}
+## DeviceRotateLandscape {#devicerotatelandscape} 
 
 ![DeviceRotateLandscape](/help/assets/icons/DeviceRotateLandscape.svg)
 
-## DeviceRotatePortrait {#devicerotateportrait}
+## DeviceRotatePortrait {#devicerotateportrait} 
 
 ![DeviceRotatePortrait](/help/assets/icons/DeviceRotatePortrait.svg)
 
-## DeviceTV {#devicetv}
+## DeviceTV {#devicetv} 
 
 ![DeviceTV](/help/assets/icons/DeviceTV.svg)
 
-## DeviceTablet {#devicetablet}
+## DeviceTablet {#devicetablet} 
 
 ![DeviceTablet](/help/assets/icons/DeviceTablet.svg)
 
-## Discover {#discover}
+## Discover {#discover} 
 
 ![Discover](/help/assets/icons/Discover.svg)
 
-## DiscoverOutline {#discoveroutline}
+## DiscoverOutline {#discoveroutline} 
 
 ![DiscoverOutline](/help/assets/icons/DiscoverOutline.svg)
 
-## DistributeBottomEdge {#distributebottomedge}
+## DistributeBottomEdge {#distributebottomedge} 
 
 ![DistributeBottomEdge](/help/assets/icons/DistributeBottomEdge.svg)
 
-## DistributeHorizontalCenter {#distributehorizontalcenter}
+## DistributeHorizontalCenter {#distributehorizontalcenter} 
 
 ![DistributeHorizontalCenter](/help/assets/icons/DistributeHorizontalCenter.svg)
 
-## 水平方向に均等配置 {#distributehorizontally}
+## DistributeHorizontally {#distributehorizontally} 
 
-![ 水平方向に分布 ](/help/assets/icons/DistributeHorizontally.svg)
+![DistributeHorizontally](/help/assets/icons/DistributeHorizontally.svg)
 
-## DistributeLeftEdge {#distributeleftedge}
+## DistributeLeftEdge {#distributeleftedge} 
 
 ![DistributeLeftEdge](/help/assets/icons/DistributeLeftEdge.svg)
 
-## DistributeRightEdge {#distributerightedge}
+## DistributeRightEdge {#distributerightedge} 
 
 ![DistributeRightEdge](/help/assets/icons/DistributeRightEdge.svg)
 
-## DistributeSpaceHoriz {#distributespacehoriz}
+## DistributeSpaceHoriz {#distributespacehoriz} 
 
 ![DistributeSpaceHoriz](/help/assets/icons/DistributeSpaceHoriz.svg)
 
-## DistributeSpaceVert {#distributespacevert}
+## DistributeSpaceVert {#distributespacevert} 
 
 ![DistributeSpaceVert](/help/assets/icons/DistributeSpaceVert.svg)
 
-## DistributeTopEdge {#distributetopedge}
+## DistributeTopEdge {#distributetopedge} 
 
 ![DistributeTopEdge](/help/assets/icons/DistributeTopEdge.svg)
 
-## DistributeVerticalCenter {#distributeverticalcenter}
+## DistributeVerticalCenter {#distributeverticalcenter} 
 
 ![DistributeVerticalCenter](/help/assets/icons/DistributeVerticalCenter.svg)
 
-## 垂直方向に均等割り付け {#distributevertically}
+## DistributeVertically {#distributevertically} 
 
 ![DistributeVertically](/help/assets/icons/DistributeVertically.svg)
 
-## 除算 {#divide}
+## Divide {#divide} 
 
-![ 除算 ](/help/assets/icons/Divide.svg)
+![Divide](/help/assets/icons/Divide.svg)
 
-## DividePath {#dividepath}
+## DividePath {#dividepath} 
 
 ![DividePath](/help/assets/icons/DividePath.svg)
 
-## ドキュメント {#document}
+## Document {#document} 
 
-![ ドキュメント ](/help/assets/icons/Document.svg)
+![Document](/help/assets/icons/Document.svg)
 
-## DocumentFragment {#documentfragment}
+## DocumentFragment {#documentfragment} 
 
 ![DocumentFragment](/help/assets/icons/DocumentFragment.svg)
 
-## DocumentFragmentGroup {#documentfragmentgroup}
+## DocumentFragmentGroup {#documentfragmentgroup} 
 
 ![DocumentFragmentGroup](/help/assets/icons/DocumentFragmentGroup.svg)
 
-## DocumentOutline {#documentoutline}
+## DocumentOutline {#documentoutline} 
 
 ![DocumentOutline](/help/assets/icons/DocumentOutline.svg)
 
-## DocumentRefresh {#documentrefresh}
+## DocumentRefresh {#documentrefresh} 
 
 ![DocumentRefresh](/help/assets/icons/DocumentRefresh.svg)
 
-## ドリー {#dolly}
+## Dolly {#dolly} 
 
-![ ドリー ](/help/assets/icons/Dolly.svg)
+![Dolly](/help/assets/icons/Dolly.svg)
 
-## ダウンロード {#download}
+## Download {#download} 
 
-![ダウンロード](/help/assets/icons/Download.svg)
+![Download](/help/assets/icons/Download.svg)
 
-## DownloadFromCloud {#downloadfromcloud}
+## DownloadFromCloud {#downloadfromcloud} 
 
 ![DownloadFromCloud](/help/assets/icons/DownloadFromCloud.svg)
 
-## DownloadFromCloudOutline {#downloadfromcloudoutline}
+## DownloadFromCloudOutline {#downloadfromcloudoutline} 
 
 ![DownloadFromCloudOutline](/help/assets/icons/DownloadFromCloudOutline.svg)
 
-## ドラフト {#draft}
+## Draft {#draft} 
 
-![ ドラフト ](/help/assets/icons/Draft.svg)
+![Draft](/help/assets/icons/Draft.svg)
 
-## DragHandle {#draghandle}
+## DragHandle {#draghandle} 
 
 ![DragHandle](/help/assets/icons/DragHandle.svg)
 
-## 描画 {#draw}
+## Draw {#draw} 
 
-![ 描画 ](/help/assets/icons/Draw.svg)
+![Draw](/help/assets/icons/Draw.svg)
 
-## ドロップダウン {#dropdown}
+## Dropdown {#dropdown} 
 
-![ ドロップダウン ](/help/assets/icons/Dropdown.svg)
+![Dropdown](/help/assets/icons/Dropdown.svg)
 
-## 複製 {#duplicate}
+## Duplicate {#duplicate} 
 
-![ 複製 ](/help/assets/icons/Duplicate.svg)
+![Duplicate](/help/assets/icons/Duplicate.svg)
 
-## 編集 {#edit}
+## Edit {#edit} 
 
-![編集](/help/assets/icons/Edit.svg)
+![Edit](/help/assets/icons/Edit.svg)
 
-## EditCircle {#editcircle}
+## EditCircle {#editcircle} 
 
 ![EditCircle](/help/assets/icons/EditCircle.svg)
 
-## EditExclude {#editexclude}
+## EditExclude {#editexclude} 
 
 ![EditExclude](/help/assets/icons/EditExclude.svg)
 
-## EditIn {#editin}
+## EditIn {#editin} 
 
 ![EditIn](/help/assets/icons/EditIn.svg)
 
-## EditInLight {#editinlight}
+## EditInLight {#editinlight} 
 
 ![EditInLight](/help/assets/icons/EditInLight.svg)
 
-## 教育 {#education}
+## Education {#education} 
 
-![ 教育 ](/help/assets/icons/Education.svg)
+![Education](/help/assets/icons/Education.svg)
 
-## 効果 {#effect}
+## Effect {#effect} 
 
-![ 効果 ](/help/assets/icons/Effect.svg)
+![Effect](/help/assets/icons/Effect.svg)
 
-## 効率的 {#efficient}
+## Efficient {#efficient} 
 
-![ 効率的 ](/help/assets/icons/Efficient.svg)
+![Efficient](/help/assets/icons/Efficient.svg)
 
-## 楕円 {#ellipse}
+## Ellipse {#ellipse} 
 
-![ 楕円 ](/help/assets/icons/Ellipse.svg)
+![Ellipse](/help/assets/icons/Ellipse.svg)
 
-## メール {#email}
+## Email {#email} 
 
-![メール](/help/assets/icons/Email.svg)
+![Email](/help/assets/icons/Email.svg)
 
-## EmailCancel {#emailcancel}
+## EmailCancel {#emailcancel} 
 
 ![EmailCancel](/help/assets/icons/EmailCancel.svg)
 
-## EmailCheck {#emailcheck}
+## EmailCheck {#emailcheck} 
 
 ![EmailCheck](/help/assets/icons/EmailCheck.svg)
 
-## EmailExclude {#emailexclude}
+## EmailExclude {#emailexclude} 
 
 ![EmailExclude](/help/assets/icons/EmailExclude.svg)
 
-## EmailExcludeOutline {#emailexcludeoutline}
+## EmailExcludeOutline {#emailexcludeoutline} 
 
 ![EmailExcludeOutline](/help/assets/icons/EmailExcludeOutline.svg)
 
-## EmailGear {#emailgear}
+## EmailGear {#emailgear} 
 
 ![EmailGear](/help/assets/icons/EmailGear.svg)
 
-## EmailGearOutline {#emailgearoutline}
+## EmailGearOutline {#emailgearoutline} 
 
 ![EmailGearOutline](/help/assets/icons/EmailGearOutline.svg)
 
-## EmailKey {#emailkey}
+## EmailKey {#emailkey} 
 
-![ メールキー ](/help/assets/icons/EmailKey.svg)
+![EmailKey](/help/assets/icons/EmailKey.svg)
 
-## EmailKeyOutline {#emailkeyoutline}
+## EmailKeyOutline {#emailkeyoutline} 
 
 ![EmailKeyOutline](/help/assets/icons/EmailKeyOutline.svg)
 
-## EmailLightning {#emaillightning}
+## EmailLightning {#emaillightning} 
 
 ![EmailLightning](/help/assets/icons/EmailLightning.svg)
 
-## EmailNotification {#emailnotification}
+## EmailNotification {#emailnotification} 
 
 ![EmailNotification](/help/assets/icons/EmailNotification.svg)
 
-## EmailOutline {#emailoutline}
+## EmailOutline {#emailoutline} 
 
 ![EmailOutline](/help/assets/icons/EmailOutline.svg)
 
-## EmailRefresh {#emailrefresh}
+## EmailRefresh {#emailrefresh} 
 
 ![EmailRefresh](/help/assets/icons/EmailRefresh.svg)
 
-## EmailSchedule {#emailschedule}
+## EmailSchedule {#emailschedule} 
 
-![ メールスケジュール ](/help/assets/icons/EmailSchedule.svg)
+![EmailSchedule](/help/assets/icons/EmailSchedule.svg)
 
-## エンゲージメント {#engagement}
+## Engagement {#engagement} 
 
-![エンゲージメント](/help/assets/icons/Engagement.svg)
+![Engagement](/help/assets/icons/Engagement.svg)
 
-## エンタープライズ {#enterprise}
+## Enterprise {#enterprise} 
 
 ![Enterprise](/help/assets/icons/Enterprise.svg)
 
-## 削除 {#erase}
+## Erase {#erase} 
 
-![ 消去 ](/help/assets/icons/Erase.svg)
+![Erase](/help/assets/icons/Erase.svg)
 
-## イベント {#events}
+## Events {#events} 
 
-![イベント](/help/assets/icons/Events.svg)
+![Events](/help/assets/icons/Events.svg)
 
-## イベント {#event}
+## Event {#event} 
 
-![ イベント ](/help/assets/icons/Event.svg)
+![Event](/help/assets/icons/Event.svg)
 
-## EventExclude {#eventexclude}
+## EventExclude {#eventexclude} 
 
 ![EventExclude](/help/assets/icons/EventExclude.svg)
 
-## EventShare {#eventshare}
+## EventShare {#eventshare} 
 
 ![EventShare](/help/assets/icons/EventShare.svg)
 
-## ExcludeOverlap {#excludeoverlap}
+## ExcludeOverlap {#excludeoverlap} 
 
-![Exclude オーバーラップ ](/help/assets/icons/ExcludeOverlap.svg)
+![ExcludeOverlap](/help/assets/icons/ExcludeOverlap.svg)
 
-## 経験 {#experience}
+## Experience {#experience} 
 
-![ エクスペリエンス ](/help/assets/icons/Experience.svg)
+![Experience](/help/assets/icons/Experience.svg)
 
-## ExperienceAdd {#experienceadd}
+## ExperienceAdd {#experienceadd} 
 
 ![ExperienceAdd](/help/assets/icons/ExperienceAdd.svg)
 
-## ExperienceAddto {#experienceaddto}
+## ExperienceAddTo {#experienceaddto} 
 
 ![ExperienceAddTo](/help/assets/icons/ExperienceAddTo.svg)
 
-## ExperienceExport {#experienceexport}
+## ExperienceExport {#experienceexport} 
 
 ![ExperienceExport](/help/assets/icons/ExperienceExport.svg)
 
-## ExperienceImport {#experienceimport}
+## ExperienceImport {#experienceimport} 
 
 ![ExperienceImport](/help/assets/icons/ExperienceImport.svg)
 
-## 書き出し {#export}
+## Export {#export} 
 
-![エクスポート](/help/assets/icons/Export.svg)
+![Export](/help/assets/icons/Export.svg)
 
-## ExportOriginal {#exportoriginal}
+## ExportOriginal {#exportoriginal} 
 
 ![ExportOriginal](/help/assets/icons/ExportOriginal.svg)
 
-## 照射線量 {#exposure}
+## Exposure {#exposure} 
 
-![ 露出 ](/help/assets/icons/Exposure.svg)
+![Exposure](/help/assets/icons/Exposure.svg)
 
-## 拡張機能 {#extension}
+## Extension {#extension} 
 
-![ 拡張機能 ](/help/assets/icons/Extension.svg)
+![Extension](/help/assets/icons/Extension.svg)
 
-## 速い {#fast}
+## Fast {#fast} 
 
-![ 高速 ](/help/assets/icons/Fast.svg)
+![Fast](/help/assets/icons/Fast.svg)
 
-## FastForward {#fastforward}
+## FastForward {#fastforward} 
 
-![ 早送り ](/help/assets/icons/FastForward.svg)
+![FastForward](/help/assets/icons/FastForward.svg)
 
-## FastForwardCircle {#fastforwardcircle}
+## FastForwardCircle {#fastforwardcircle} 
 
 ![FastForwardCircle](/help/assets/icons/FastForwardCircle.svg)
 
-## 機能 {#feature}
+## Feature {#feature} 
 
-![機能](/help/assets/icons/Feature.svg)
+![Feature](/help/assets/icons/Feature.svg)
 
-## Feed {#feed}
+## Feed {#feed} 
 
 ![Feed](/help/assets/icons/Feed.svg)
 
-## FeedAdd {#feedadd}
+## FeedAdd {#feedadd} 
 
 ![FeedAdd](/help/assets/icons/FeedAdd.svg)
 
-## FeedManagement {#feedmanagement}
+## FeedManagement {#feedmanagement} 
 
 ![FeedManagement](/help/assets/icons/FeedManagement.svg)
 
-## フィードバック {#feedback}
+## Feedback {#feedback} 
 
-![フィードバック](/help/assets/icons/Feedback.svg)
+![Feedback](/help/assets/icons/Feedback.svg)
 
-## FileAdd {#fileadd}
+## FileAdd {#fileadd} 
 
 ![FileAdd](/help/assets/icons/FileAdd.svg)
 
-## FileCSV {#filecsv}
+## FileCSV {#filecsv} 
 
 ![FileCSV](/help/assets/icons/FileCSV.svg)
 
-## FilePaign {#filecampaign}
+## FileCampaign {#filecampaign} 
 
-![ ファイルキャンペーン ](/help/assets/icons/FileCampaign.svg)
+![FileCampaign](/help/assets/icons/FileCampaign.svg)
 
-## FileChart {#filechart}
+## FileChart {#filechart} 
 
 ![FileChart](/help/assets/icons/FileChart.svg)
 
-## FileCheckedOut {#filecheckedout}
+## FileCheckedOut {#filecheckedout} 
 
 ![FileCheckedOut](/help/assets/icons/FileCheckedOut.svg)
 
-## FileCode {#filecode}
+## FileCode {#filecode} 
 
 ![FileCode](/help/assets/icons/FileCode.svg)
 
-## FileData {#filedata}
+## FileData {#filedata} 
 
 ![FileData](/help/assets/icons/FileData.svg)
 
-## FileEmail {#fileemail}
+## FileEmail {#fileemail} 
 
 ![FileEmail](/help/assets/icons/FileEmail.svg)
 
-## FileFolder {#filefolder}
+## FileFolder {#filefolder} 
 
 ![FileFolder](/help/assets/icons/FileFolder.svg)
 
-## FileGear {#filegear}
+## FileGear {#filegear} 
 
 ![FileGear](/help/assets/icons/FileGear.svg)
 
-## FileGlobe {#fileglobe}
+## FileGlobe {#fileglobe} 
 
 ![FileGlobe](/help/assets/icons/FileGlobe.svg)
 
-## FileHTML {#filehtml}
+## FileHTML {#filehtml} 
 
 ![FileHTML](/help/assets/icons/FileHTML.svg)
 
-## ファイル重要 {#fileimportant}
+## FileImportant {#fileimportant} 
 
 ![FileImportant](/help/assets/icons/FileImportant.svg)
 
-## FileJson {#filejson}
+## FileJson {#filejson} 
 
 ![FileJson](/help/assets/icons/FileJson.svg)
 
-## FileKey {#filekey}
+## FileKey {#filekey} 
 
 ![FileKey](/help/assets/icons/FileKey.svg)
 
-## FileMobile {#filemobile}
+## FileMobile {#filemobile} 
 
 ![FileMobile](/help/assets/icons/FileMobile.svg)
 
-## FileShare {#fileshare}
+## FileShare {#fileshare} 
 
-![ ファイル共有 ](/help/assets/icons/FileShare.svg)
+![FileShare](/help/assets/icons/FileShare.svg)
 
-## FileSingleWebPage {#filesinglewebpage}
+## FileSingleWebPage {#filesinglewebpage} 
 
 ![FileSingleWebPage](/help/assets/icons/FileSingleWebPage.svg)
 
-## FileSpace {#filespace}
+## FileSpace {#filespace} 
 
 ![FileSpace](/help/assets/icons/FileSpace.svg)
 
-## FileTemplate {#filetemplate}
+## FileTemplate {#filetemplate} 
 
 ![FileTemplate](/help/assets/icons/FileTemplate.svg)
 
-## FileTxt {#filetxt}
+## FileTxt {#filetxt} 
 
 ![FileTxt](/help/assets/icons/FileTxt.svg)
 
-## FileUser {#fileuser}
+## FileUser {#fileuser} 
 
 ![FileUser](/help/assets/icons/FileUser.svg)
 
-## FileWorkflow {#fileworkflow}
+## FileWorkflow {#fileworkflow} 
 
 ![FileWorkflow](/help/assets/icons/FileWorkflow.svg)
 
-## FileXML {#filexml}
+## FileXML {#filexml} 
 
 ![FileXML](/help/assets/icons/FileXML.svg)
 
-## FileZip {#filezip}
+## FileZip {#filezip} 
 
 ![FileZip](/help/assets/icons/FileZip.svg)
 
-## FilingCabinet {#filingcabinet}
+## FilingCabinet {#filingcabinet} 
 
-![ ファイリングキャビネット ](/help/assets/icons/FilingCabinet.svg)
+![FilingCabinet](/help/assets/icons/FilingCabinet.svg)
 
-## フィルムロール {#filmroll}
+## Filmroll {#filmroll} 
 
-![ フィルムロール ](/help/assets/icons/Filmroll.svg)
+![Filmroll](/help/assets/icons/Filmroll.svg)
 
-## FilmrollAutoAdd {#filmrollautoadd}
+## FilmrollAutoAdd {#filmrollautoadd} 
 
 ![FilmrollAutoAdd](/help/assets/icons/FilmrollAutoAdd.svg)
 
-## フィルター {#filter}
+## Filter {#filter} 
 
-![フィルター](/help/assets/icons/Filter.svg)
+![Filter](/help/assets/icons/Filter.svg)
 
-## FilterAdd {#filteradd}
+## FilterAdd {#filteradd} 
 
 ![FilterAdd](/help/assets/icons/FilterAdd.svg)
 
-## FilterCheck {#filtercheck}
+## FilterCheck {#filtercheck} 
 
 ![FilterCheck](/help/assets/icons/FilterCheck.svg)
 
-## FilterDelete {#filterdelete}
+## FilterDelete {#filterdelete} 
 
 ![FilterDelete](/help/assets/icons/FilterDelete.svg)
 
-## FilterEdit {#filteredit}
+## FilterEdit {#filteredit} 
 
 ![FilterEdit](/help/assets/icons/FilterEdit.svg)
 
-## FilterHeart {#filterheart}
+## FilterHeart {#filterheart} 
 
 ![FilterHeart](/help/assets/icons/FilterHeart.svg)
 
-## FilterRemove {#filterremove}
+## FilterRemove {#filterremove} 
 
 ![FilterRemove](/help/assets/icons/FilterRemove.svg)
 
-## FilterStar {#filterstar}
+## FilterStar {#filterstar} 
 
 ![FilterStar](/help/assets/icons/FilterStar.svg)
 
-## FindAndReplace {#findandreplace}
+## FindAndReplace {#findandreplace} 
 
 ![FindAndReplace](/help/assets/icons/FindAndReplace.svg)
 
-## フラグ {#flag}
+## Flag {#flag} 
 
-![フラグ](/help/assets/icons/Flag.svg)
+![Flag](/help/assets/icons/Flag.svg)
 
-## FlagExclude {#flagexclude}
+## FlagExclude {#flagexclude} 
 
 ![FlagExclude](/help/assets/icons/FlagExclude.svg)
 
-## FlashAuto {#flashauto}
+## FlashAuto {#flashauto} 
 
 ![FlashAuto](/help/assets/icons/FlashAuto.svg)
 
-## FlashOff {#flashoff}
+## FlashOff {#flashoff} 
 
 ![FlashOff](/help/assets/icons/FlashOff.svg)
 
-## FlashOn {#flashon}
+## FlashOn {#flashon} 
 
 ![FlashOn](/help/assets/icons/FlashOn.svg)
 
-## 懐中電灯 {#flashlight}
+## Flashlight {#flashlight} 
 
-![ 懐中電灯 ](/help/assets/icons/Flashlight.svg)
+![Flashlight](/help/assets/icons/Flashlight.svg)
 
-## FlashlightOff {#flashlightoff}
+## FlashlightOff {#flashlightoff} 
 
-![ 懐中電灯オフ ](/help/assets/icons/FlashlightOff.svg)
+![FlashlightOff](/help/assets/icons/FlashlightOff.svg)
 
-## 懐中電灯オン {#flashlighton}
+## FlashlightOn {#flashlighton} 
 
-![ 懐中電灯オン ](/help/assets/icons/FlashlightOn.svg)
+![FlashlightOn](/help/assets/icons/FlashlightOn.svg)
 
-## 水平方向に反転 {#fliphorizontal}
+## FlipHorizontal {#fliphorizontal} 
 
 ![FlipHorizontal](/help/assets/icons/FlipHorizontal.svg)
 
-## FlipVertical {#flipvertical}
+## FlipVertical {#flipvertical} 
 
-![ 垂直方向に反転 ](/help/assets/icons/FlipVertical.svg)
+![FlipVertical](/help/assets/icons/FlipVertical.svg)
 
-## フォルダー {#folder}
+## Folder {#folder} 
 
-![ フォルダー ](/help/assets/icons/Folder.svg)
+![Folder](/help/assets/icons/Folder.svg)
 
-## Folder2Color {#folder2color}
+## Folder2Color {#folder2color} 
 
 ![Folder2Color](/help/assets/icons/Folder2Color.svg)
 
-## FolderAdd {#folderadd}
+## FolderAdd {#folderadd} 
 
 ![FolderAdd](/help/assets/icons/FolderAdd.svg)
 
-## FolderAddTo {#folderaddto}
+## FolderAddTo {#folderaddto} 
 
 ![FolderAddTo](/help/assets/icons/FolderAddTo.svg)
 
-## FolderArchive {#folderarchive}
+## FolderArchive {#folderarchive} 
 
 ![FolderArchive](/help/assets/icons/FolderArchive.svg)
 
-## FolderDelete {#folderdelete}
+## FolderDelete {#folderdelete} 
 
 ![FolderDelete](/help/assets/icons/FolderDelete.svg)
 
-## FolderGear {#foldergear}
+## FolderGear {#foldergear} 
 
 ![FolderGear](/help/assets/icons/FolderGear.svg)
 
-## FolderLocked {#folderlocked}
+## FolderLocked {#folderlocked} 
 
 ![FolderLocked](/help/assets/icons/FolderLocked.svg)
 
-## FolderOpen {#folderopen}
+## FolderOpen {#folderopen} 
 
 ![FolderOpen](/help/assets/icons/FolderOpen.svg)
 
-## FolderOpenOutline {#folderopenoutline}
+## FolderOpenOutline {#folderopenoutline} 
 
 ![FolderOpenOutline](/help/assets/icons/FolderOpenOutline.svg)
 
-## FolderOutline {#folderoutline}
+## FolderOutline {#folderoutline} 
 
 ![FolderOutline](/help/assets/icons/FolderOutline.svg)
 
-## FolderRemove {#folderremove}
+## FolderRemove {#folderremove} 
 
 ![FolderRemove](/help/assets/icons/FolderRemove.svg)
 
-## FolderSearch {#foldersearch}
+## FolderSearch {#foldersearch} 
 
 ![FolderSearch](/help/assets/icons/FolderSearch.svg)
 
-## FolderUser {#folderuser}
+## FolderUser {#folderuser} 
 
 ![FolderUser](/help/assets/icons/FolderUser.svg)
 
-## フォロー {#follow}
+## Follow {#follow} 
 
-![ フォロー ](/help/assets/icons/Follow.svg)
+![Follow](/help/assets/icons/Follow.svg)
 
-## FollowOff {#followoff}
+## FollowOff {#followoff} 
 
-![ フォローオフ ](/help/assets/icons/FollowOff.svg)
+![FollowOff](/help/assets/icons/FollowOff.svg)
 
-## ForPlacementOnly {#forplacementonly}
+## ForPlacementOnly {#forplacementonly} 
 
 ![ForPlacementOnly](/help/assets/icons/ForPlacementOnly.svg)
 
-## 予測 {#forecast}
+## Forecast {#forecast} 
 
-![ 予測 ](/help/assets/icons/Forecast.svg)
+![Forecast](/help/assets/icons/Forecast.svg)
 
-## フォーム {#form}
+## Form {#form} 
 
-![フォーム](/help/assets/icons/Form.svg)
+![Form](/help/assets/icons/Form.svg)
 
-## 転送 {#forward}
+## Forward {#forward} 
 
-![ 進む ](/help/assets/icons/Forward.svg)
+![Forward](/help/assets/icons/Forward.svg)
 
-## FullScreen {#fullscreen}
+## FullScreen {#fullscreen} 
 
-![ 全画面表示 ](/help/assets/icons/FullScreen.svg)
+![FullScreen](/help/assets/icons/FullScreen.svg)
 
-## FullScreenExit {#fullscreenexit}
+## FullScreenExit {#fullscreenexit} 
 
 ![FullScreenExit](/help/assets/icons/FullScreenExit.svg)
 
-## 関数 {#function}
+## Function {#function} 
 
-![関数](/help/assets/icons/Function.svg)
+![Function](/help/assets/icons/Function.svg)
 
-## ゲーム {#game}
+## Game {#game} 
 
-![ゲーム](/help/assets/icons/Game.svg)
+![Game](/help/assets/icons/Game.svg)
 
-## ゲージ 1 {#gauge1}
+## Gauge1 {#gauge1} 
 
-![ ゲージ 1](/help/assets/icons/Gauge1.svg)
+![Gauge1](/help/assets/icons/Gauge1.svg)
 
-## ゲージ 2 {#gauge2}
+## Gauge2 {#gauge2} 
 
-![ ゲージ 2](/help/assets/icons/Gauge2.svg)
+![Gauge2](/help/assets/icons/Gauge2.svg)
 
-## ゲージ 3 {#gauge3}
+## Gauge3 {#gauge3} 
 
-![ ゲージ 3](/help/assets/icons/Gauge3.svg)
+![Gauge3](/help/assets/icons/Gauge3.svg)
 
-## ゲージ 4 {#gauge4}
+## Gauge4 {#gauge4} 
 
-![Gage4](/help/assets/icons/Gauge4.svg)
+![Gauge4](/help/assets/icons/Gauge4.svg)
 
-## ゲージ 5 {#gauge5}
+## Gauge5 {#gauge5} 
 
-![ ゲージ 5](/help/assets/icons/Gauge5.svg)
+![Gauge5](/help/assets/icons/Gauge5.svg)
 
-## 歯車 {#gear}
+## Gear {#gear} 
 
-![ 歯車 ](/help/assets/icons/Gear.svg)
+![Gear](/help/assets/icons/Gear.svg)
 
-## GearsAdd {#gearsadd}
+## GearsAdd {#gearsadd} 
 
 ![GearsAdd](/help/assets/icons/GearsAdd.svg)
 
-## GearsDelete {#gearsdelete}
+## GearsDelete {#gearsdelete} 
 
 ![GearsDelete](/help/assets/icons/GearsDelete.svg)
 
-## GearsEdit {#gearsedit}
+## GearsEdit {#gearsedit} 
 
 ![GearsEdit](/help/assets/icons/GearsEdit.svg)
 
-## GenderFemale {#genderfemale}
+## GenderFemale {#genderfemale} 
 
 ![GenderFemale](/help/assets/icons/GenderFemale.svg)
 
-## GenderMale {#gendermale}
+## GenderMale {#gendermale} 
 
 ![GenderMale](/help/assets/icons/GenderMale.svg)
 
-## 贈与 {#gift}
+## Gift {#gift} 
 
-![ ギフト ](/help/assets/icons/Gift.svg)
+![Gift](/help/assets/icons/Gift.svg)
 
-## グローブ {#globe}
+## Globe {#globe} 
 
-![ グローブ ](/help/assets/icons/Globe.svg)
+![Globe](/help/assets/icons/Globe.svg)
 
-## GlobeCheck {#globecheck}
+## GlobeCheck {#globecheck} 
 
 ![GlobeCheck](/help/assets/icons/GlobeCheck.svg)
 
-## GlobeClock {#globeclock}
+## GlobeClock {#globeclock} 
 
 ![GlobeClock](/help/assets/icons/GlobeClock.svg)
 
-## GlobeEnter {#globeenter}
+## GlobeEnter {#globeenter} 
 
 ![GlobeEnter](/help/assets/icons/GlobeEnter.svg)
 
-## GlobeExit {#globeexit}
+## GlobeExit {#globeexit} 
 
 ![GlobeExit](/help/assets/icons/GlobeExit.svg)
 
-## GlobeGrid {#globegrid}
+## GlobeGrid {#globegrid} 
 
 ![GlobeGrid](/help/assets/icons/GlobeGrid.svg)
 
-## GlobeOutline {#globeoutline}
+## GlobeOutline {#globeoutline} 
 
 ![GlobeOutline](/help/assets/icons/GlobeOutline.svg)
 
-## GlobeRemove {#globeremove}
+## GlobeRemove {#globeremove} 
 
 ![GlobeRemove](/help/assets/icons/GlobeRemove.svg)
 
-## GlobeSearch {#globesearch}
+## GlobeSearch {#globesearch} 
 
 ![GlobeSearch](/help/assets/icons/GlobeSearch.svg)
 
-## GlobeStrike {#globestrike}
+## GlobeStrike {#globestrike} 
 
-![ グローブストライク ](/help/assets/icons/GlobeStrike.svg)
+![GlobeStrike](/help/assets/icons/GlobeStrike.svg)
 
-## GlobeStrikeClock {#globestrikeclock}
+## GlobeStrikeClock {#globestrikeclock} 
 
 ![GlobeStrikeClock](/help/assets/icons/GlobeStrikeClock.svg)
 
-## 政府 {#government}
+## Government {#government} 
 
-![ 政府 ](/help/assets/icons/Government.svg)
+![Government](/help/assets/icons/Government.svg)
 
-## グラデーション {#gradient}
+## Gradient {#gradient} 
 
-![ グラデーション ](/help/assets/icons/Gradient.svg)
+![Gradient](/help/assets/icons/Gradient.svg)
 
-## GraphArea {#grapharea}
+## GraphArea {#grapharea} 
 
 ![GraphArea](/help/assets/icons/GraphArea.svg)
 
-## GraphAreaStacked {#graphareastacked}
+## GraphAreaStacked {#graphareastacked} 
 
 ![GraphAreaStacked](/help/assets/icons/GraphAreaStacked.svg)
 
-## グラフ横棒グラフ {#graphbarhorizontal}
+## GraphBarHorizontal {#graphbarhorizontal} 
 
 ![GraphBarHorizontal](/help/assets/icons/GraphBarHorizontal.svg)
 
-## GraphBarHorizontalAdd {#graphbarhorizontaladd}
+## GraphBarHorizontalAdd {#graphbarhorizontaladd} 
 
 ![GraphBarHorizontalAdd](/help/assets/icons/GraphBarHorizontalAdd.svg)
 
-## GraphBarHorizontalStack {#graphbarhorizontalstacked}
+## GraphBarHorizontalStacked {#graphbarhorizontalstacked} 
 
 ![GraphBarHorizontalStacked](/help/assets/icons/GraphBarHorizontalStacked.svg)
 
-## グラフ縦棒 {#graphbarvertical}
+## GraphBarVertical {#graphbarvertical} 
 
 ![GraphBarVertical](/help/assets/icons/GraphBarVertical.svg)
 
-## GraphBarVerticalAdd {#graphbarverticaladd}
+## GraphBarVerticalAdd {#graphbarverticaladd} 
 
 ![GraphBarVerticalAdd](/help/assets/icons/GraphBarVerticalAdd.svg)
 
-## GraphBarVerticalStacked {#graphbarverticalstacked}
+## GraphBarVerticalStacked {#graphbarverticalstacked} 
 
 ![GraphBarVerticalStacked](/help/assets/icons/GraphBarVerticalStacked.svg)
 
-## GraphBubble {#graphbubble}
+## GraphBubble {#graphbubble} 
 
 ![GraphBubble](/help/assets/icons/GraphBubble.svg)
 
-## GraphBullet {#graphbullet}
+## GraphBullet {#graphbullet} 
 
 ![GraphBullet](/help/assets/icons/GraphBullet.svg)
 
-## GraphConfidenceBand {#graphconfidenceband}
+## GraphConfidenceBand {#graphconfidenceband} 
 
 ![GraphConfidenceBand](/help/assets/icons/GraphConfidenceBand.svg)
 
-## グラフドーナツ {#graphdonut}
+## GraphDonut {#graphdonut} 
 
-![ グラフドーナツ ](/help/assets/icons/GraphDonut.svg)
+![GraphDonut](/help/assets/icons/GraphDonut.svg)
 
-## GraphDonutAdd {#graphdonutadd}
+## GraphDonutAdd {#graphdonutadd} 
 
 ![GraphDonutAdd](/help/assets/icons/GraphDonutAdd.svg)
 
-## GraphGantt {#graphgantt}
+## GraphGantt {#graphgantt} 
 
 ![GraphGantt](/help/assets/icons/GraphGantt.svg)
 
-## Graph ヒストグラム {#graphhistogram}
+## GraphHistogram {#graphhistogram} 
 
 ![GraphHistogram](/help/assets/icons/GraphHistogram.svg)
 
-## GraphPath {#graphpathing}
+## GraphPathing {#graphpathing} 
 
-![ グラフパス ](/help/assets/icons/GraphPathing.svg)
+![GraphPathing](/help/assets/icons/GraphPathing.svg)
 
-## GraphPie {#graphpie}
+## GraphPie {#graphpie} 
 
 ![GraphPie](/help/assets/icons/GraphPie.svg)
 
-## GraphProfitCurve {#graphprofitcurve}
+## GraphProfitCurve {#graphprofitcurve} 
 
 ![GraphProfitCurve](/help/assets/icons/GraphProfitCurve.svg)
 
-## GraphScatter {#graphscatter}
+## GraphScatter {#graphscatter} 
 
 ![GraphScatter](/help/assets/icons/GraphScatter.svg)
 
-## GraphStream {#graphstream}
+## GraphStream {#graphstream} 
 
 ![GraphStream](/help/assets/icons/GraphStream.svg)
 
-## GraphStreamRanked {#graphstreamranked}
+## GraphStreamRanked {#graphstreamranked} 
 
 ![GraphStreamRanked](/help/assets/icons/GraphStreamRanked.svg)
 
-## GraphStreamRankAdd {#graphstreamrankedadd}
+## GraphStreamRankedAdd {#graphstreamrankedadd} 
 
-![GraphStreamRankAdd](/help/assets/icons/GraphStreamRankedAdd.svg)
+![GraphStreamRankedAdd](/help/assets/icons/GraphStreamRankedAdd.svg)
 
-## GraphSunburst {#graphsunburst}
+## GraphSunburst {#graphsunburst} 
 
 ![GraphSunburst](/help/assets/icons/GraphSunburst.svg)
 
-## GraphTree {#graphtree}
+## GraphTree {#graphtree} 
 
 ![GraphTree](/help/assets/icons/GraphTree.svg)
 
-## GraphTrend {#graphtrend}
+## GraphTrend {#graphtrend} 
 
 ![GraphTrend](/help/assets/icons/GraphTrend.svg)
 
-## GraphTrendAdd {#graphtrendadd}
+## GraphTrendAdd {#graphtrendadd} 
 
 ![GraphTrendAdd](/help/assets/icons/GraphTrendAdd.svg)
 
-## GraphTrendAlert {#graphtrendalert}
+## GraphTrendAlert {#graphtrendalert} 
 
 ![GraphTrendAlert](/help/assets/icons/GraphTrendAlert.svg)
 
-## グラフィック {#graphic}
+## Graphic {#graphic} 
 
-![ グラフィック ](/help/assets/icons/Graphic.svg)
+![Graphic](/help/assets/icons/Graphic.svg)
 
-## グループ {#group}
+## Group {#group} 
 
-![ グループ ](/help/assets/icons/Group.svg)
+![Group](/help/assets/icons/Group.svg)
 
-## ハンマー {#hammer}
+## Hammer {#hammer} 
 
-![ ハンマー ](/help/assets/icons/Hammer.svg)
+![Hammer](/help/assets/icons/Hammer.svg)
 
-## 手 {#hand}
+## Hand {#hand} 
 
-![ ハンド ](/help/assets/icons/Hand.svg)
+![Hand](/help/assets/icons/Hand.svg)
 
-## 手 0 {#hand0}
+## Hand0 {#hand0} 
 
 ![Hand0](/help/assets/icons/Hand0.svg)
 
-## Hand1 {#hand1}
+## Hand1 {#hand1} 
 
 ![Hand1](/help/assets/icons/Hand1.svg)
 
-## Hand2 {#hand2}
+## Hand2 {#hand2} 
 
 ![Hand2](/help/assets/icons/Hand2.svg)
 
-## Hand3 {#hand3}
+## Hand3 {#hand3} 
 
 ![Hand3](/help/assets/icons/Hand3.svg)
 
-## Hand4 {#hand4}
+## Hand4 {#hand4} 
 
 ![Hand4](/help/assets/icons/Hand4.svg)
 
-## ヒール {#heal}
+## Heal {#heal} 
 
-![ ヒール ](/help/assets/icons/Heal.svg)
+![Heal](/help/assets/icons/Heal.svg)
 
-## 心 {#heart}
+## Heart {#heart} 
 
-![ ハート ](/help/assets/icons/Heart.svg)
+![Heart](/help/assets/icons/Heart.svg)
 
-## ヘルプ {#help}
+## Help {#help} 
 
-![ ヘルプ ](/help/assets/icons/Help.svg)
+![Help](/help/assets/icons/Help.svg)
 
-## HelpOutline {#helpoutline}
+## HelpOutline {#helpoutline} 
 
 ![HelpOutline](/help/assets/icons/HelpOutline.svg)
 
-## ヒストグラム {#histogram}
+## Histogram {#histogram} 
 
-![ ヒストグラム ](/help/assets/icons/Histogram.svg)
+![Histogram](/help/assets/icons/Histogram.svg)
 
-## 履歴 {#history}
+## History {#history} 
 
-![ 履歴 ](/help/assets/icons/History.svg)
+![History](/help/assets/icons/History.svg)
 
-## ホーム {#home}
+## Home {#home} 
 
-![ホーム](/help/assets/icons/Home.svg)
+![Home](/help/assets/icons/Home.svg)
 
-## ホームページ {#homepage}
+## Homepage {#homepage} 
 
-![ ホームページ ](/help/assets/icons/Homepage.svg)
+![Homepage](/help/assets/icons/Homepage.svg)
 
-## HotFixe {#hotfixe}
+## HotFixe {#hotfixe} 
 
-![ ホットフィックス ](/help/assets/icons/HotFixe.svg)
+![HotFixe](/help/assets/icons/HotFixe.svg)
 
-## ホテル ベッド {#hotelbed}
+## HotelBed {#hotelbed} 
 
-![ ホテルベッド ](/help/assets/icons/HotelBed.svg)
+![HotelBed](/help/assets/icons/HotelBed.svg)
 
-## IdentityService {#identityservice}
+## IdentityService {#identityservice} 
 
 ![IdentityService](/help/assets/icons/IdentityService.svg)
 
-## 画像 {#images}
+## Images {#images} 
 
-![ 画像 2](/help/assets/icons/Images.svg)
+![Image 2](/help/assets/icons/Images.svg)
 
-## 画像 {#image}
+## Image {#image} 
 
-![画像](/help/assets/icons/Image.svg)
+![Image](/help/assets/icons/Image.svg)
 
-## ImageAdd {#imageadd}
+## ImageAdd {#imageadd} 
 
 ![ImageAdd](/help/assets/icons/ImageAdd.svg)
 
-## ImageAlbum {#imagealbum}
+## ImageAlbum {#imagealbum} 
 
 ![ImageAlbum](/help/assets/icons/ImageAlbum.svg)
 
-## ImageAutoMode {#imageautomode}
+## ImageAutoMode {#imageautomode} 
 
 ![ImageAutoMode](/help/assets/icons/ImageAutoMode.svg)
 
-## ImageCarousel {#imagecarousel}
+## ImageCarousel {#imagecarousel} 
 
 ![ImageCarousel](/help/assets/icons/ImageCarousel.svg)
 
-## ImageCheck {#imagecheck}
+## ImageCheck {#imagecheck} 
 
 ![ImageCheck](/help/assets/icons/ImageCheck.svg)
 
-## ImageCheckedOut {#imagecheckedout}
+## ImageCheckedOut {#imagecheckedout} 
 
 ![ImageCheckedOut](/help/assets/icons/ImageCheckedOut.svg)
 
-## ImageMapCircle {#imagemapcircle}
+## ImageMapCircle {#imagemapcircle} 
 
 ![ImageMapCircle](/help/assets/icons/ImageMapCircle.svg)
 
-## ImageMapPolygon {#imagemappolygon}
+## ImageMapPolygon {#imagemappolygon} 
 
 ![ImageMapPolygon](/help/assets/icons/ImageMapPolygon.svg)
 
-## ImageMapRectangle {#imagemaprectangle}
+## ImageMapRectangle {#imagemaprectangle} 
 
 ![ImageMapRectangle](/help/assets/icons/ImageMapRectangle.svg)
 
-## ImageNext {#imagenext}
+## ImageNext {#imagenext} 
 
 ![ImageNext](/help/assets/icons/ImageNext.svg)
 
-## ImageProfile {#imageprofile}
+## ImageProfile {#imageprofile} 
 
 ![ImageProfile](/help/assets/icons/ImageProfile.svg)
 
-## ImageSearch {#imagesearch}
+## ImageSearch {#imagesearch} 
 
 ![ImageSearch](/help/assets/icons/ImageSearch.svg)
 
-## ImageText {#imagetext}
+## ImageText {#imagetext} 
 
 ![ImageText](/help/assets/icons/ImageText.svg)
 
-## インポート {#import}
+## Import {#import} 
 
-![インポート](/help/assets/icons/Import.svg)
+![Import](/help/assets/icons/Import.svg)
 
-## インボックス {#inbox}
+## Inbox {#inbox} 
 
-![ インボックス ](/help/assets/icons/Inbox.svg)
+![Inbox](/help/assets/icons/Inbox.svg)
 
-## 個人 {#individual}
+## Individual {#individual} 
 
-![ 個人 ](/help/assets/icons/Individual.svg)
+![Individual](/help/assets/icons/Individual.svg)
 
-## 情報 {#info}
+## Info {#info} 
 
-![ 情報 ](/help/assets/icons/Info.svg)
+![Info](/help/assets/icons/Info.svg)
 
-## InfoOutline {#infooutline}
+## InfoOutline {#infooutline} 
 
-![ 情報アウトライン ](/help/assets/icons/InfoOutline.svg)
+![InfoOutline](/help/assets/icons/InfoOutline.svg)
 
-## IntersectOverlap {#intersectoverlap}
+## IntersectOverlap {#intersectoverlap} 
 
-![Intersect オーバーラップ ](/help/assets/icons/IntersectOverlap.svg)
+![IntersectOverlap](/help/assets/icons/IntersectOverlap.svg)
 
-## In バート調整 {#invertadj}
+## InvertAdj {#invertadj} 
 
 ![InvertAdj](/help/assets/icons/InvertAdj.svg)
 
-## 招待 {#invite}
+## Invite {#invite} 
 
-![ 招待 ](/help/assets/icons/Invite.svg)
+![Invite](/help/assets/icons/Invite.svg)
 
-## ジャーニー {#journey}
+## Journey {#journey} 
 
-![ジャーニー](/help/assets/icons/Journey.svg)
+![Journey](/help/assets/icons/Journey.svg)
 
-## JourneyAction {#journeyaction}
+## JourneyAction {#journeyaction} 
 
 ![JourneyAction](/help/assets/icons/JourneyAction.svg)
 
-## JourneyData {#journeydata}
+## JourneyData {#journeydata} 
 
 ![JourneyData](/help/assets/icons/JourneyData.svg)
 
-## JourneyEvent {#journeyevent}
+## JourneyEvent {#journeyevent} 
 
 ![JourneyEvent](/help/assets/icons/JourneyEvent.svg)
 
-## JourneyEvent2 {#journeyevent2}
+## JourneyEvent2 {#journeyevent2} 
 
 ![JourneyEvent2](/help/assets/icons/JourneyEvent2.svg)
 
-## JourneyReport {#journeyreport}
+## JourneyReport {#journeyreport} 
 
-![ ジャーニーレポート ](/help/assets/icons/JourneyReport.svg)
+![JourneyReport](/help/assets/icons/JourneyReport.svg)
 
-## JourneyVoyager {#journeyvoyager}
+## JourneyVoyager {#journeyvoyager} 
 
 ![JourneyVoyager](/help/assets/icons/JourneyVoyager.svg)
 
-## 上に移動 {#jumptotop}
+## JumpToTop {#jumptotop} 
 
 ![JumpToTop](/help/assets/icons/JumpToTop.svg)
 
-## キー {#key}
+## Key {#key} 
 
-![キー](/help/assets/icons/Key.svg)
+![Key](/help/assets/icons/Key.svg)
 
-## KeyClock {#keyclock}
+## KeyClock {#keyclock} 
 
 ![KeyClock](/help/assets/icons/KeyClock.svg)
 
-## KeyExclude {#keyexclude}
+## KeyExclude {#keyexclude} 
 
 ![KeyExclude](/help/assets/icons/KeyExclude.svg)
 
-## キーボード {#keyboard}
+## Keyboard {#keyboard} 
 
-![キーボード](/help/assets/icons/Keyboard.svg)
+![Keyboard](/help/assets/icons/Keyboard.svg)
 
-## ラベル {#labels}
+## Labels {#labels} 
 
-![ラベル](/help/assets/icons/Labels.svg)
+![Labels](/help/assets/icons/Labels.svg)
 
-## ラベル {#label}
+## Label {#label} 
 
-![ ラベル ](/help/assets/icons/Label.svg)
+![Label](/help/assets/icons/Label.svg)
 
-## LabelExclude {#labelexclude}
+## LabelExclude {#labelexclude} 
 
 ![LabelExclude](/help/assets/icons/LabelExclude.svg)
 
-## 横 {#landscape}
+## Landscape {#landscape} 
 
-![横](/help/assets/icons/Landscape.svg)
+![Landscape](/help/assets/icons/Landscape.svg)
 
-## Launch {#launch}
+## Launch {#launch} 
 
 ![Launch](/help/assets/icons/Launch.svg)
 
-## レイヤー {#layer}
+## Layer {#layer} 
 
-![ レイヤー ](/help/assets/icons/Layer.svg)
+![Layer](/help/assets/icons/Layer.svg)
 
-## LayersBack {#layersbackward}
+## LayersBackward {#layersbackward} 
 
 ![LayersBackward](/help/assets/icons/LayersBackward.svg)
 
-## LayersBringToFront {#layersbringtofront}
+## LayersBringToFront {#layersbringtofront} 
 
 ![LayersBringToFront](/help/assets/icons/LayersBringToFront.svg)
 
-## LayersFront {#layersforward}
+## LayersForward {#layersforward} 
 
 ![LayersForward](/help/assets/icons/LayersForward.svg)
 
-## LayersSendToBack {#layerssendtoback}
+## LayersSendToBack {#layerssendtoback} 
 
 ![LayersSendToBack](/help/assets/icons/LayersSendToBack.svg)
 
-## 学ぶ {#learn}
+## Learn {#learn} 
 
-![ 詳細 ](/help/assets/icons/Learn.svg)
+![Learn](/help/assets/icons/Learn.svg)
 
-## LeftRight {#leftright}
+## LeftRight {#leftright} 
 
 ![LeftRight](/help/assets/icons/LeftRight.svg)
 
-## 軽い {#light}
+## Light {#light} 
 
-![ ライト ](/help/assets/icons/Light.svg)
+![Light](/help/assets/icons/Light.svg)
 
-## ライン {#line}
+## Line {#line} 
 
-![ 行 ](/help/assets/icons/Line.svg)
+![Line](/help/assets/icons/Line.svg)
 
-## LineHeight {#lineheight}
+## LineHeight {#lineheight} 
 
 ![LineHeight](/help/assets/icons/LineHeight.svg)
 
-## LinearGradient {#lineargradient}
+## LinearGradient {#lineargradient} 
 
 ![LinearGradient](/help/assets/icons/LinearGradient.svg)
 
-## リンク {#link}
+## Link {#link} 
 
-![ リンク ](/help/assets/icons/Link.svg)
+![Link](/help/assets/icons/Link.svg)
 
-## LinkCheck {#linkcheck}
+## LinkCheck {#linkcheck} 
 
 ![LinkCheck](/help/assets/icons/LinkCheck.svg)
 
-## LinkGlobe {#linkglobe}
+## LinkGlobe {#linkglobe} 
 
 ![LinkGlobe](/help/assets/icons/LinkGlobe.svg)
 
-## リンクナビゲーション {#linknav}
+## LinkNav {#linknav} 
 
-![ リンクナビゲーション ](/help/assets/icons/LinkNav.svg)
+![LinkNav](/help/assets/icons/LinkNav.svg)
 
-## LinkOff {#linkoff}
+## LinkOff {#linkoff} 
 
 ![LinkOff](/help/assets/icons/LinkOff.svg)
 
-## LinkOut {#linkout}
+## LinkOut {#linkout} 
 
 ![LinkOut](/help/assets/icons/LinkOut.svg)
 
-## LinkOutLight {#linkoutlight}
+## LinkOutLight {#linkoutlight} 
 
 ![LinkOutLight](/help/assets/icons/LinkOutLight.svg)
 
-## LinkPage {#linkpage}
+## LinkPage {#linkpage} 
 
 ![LinkPage](/help/assets/icons/LinkPage.svg)
 
-## LinkUser {#linkuser}
+## LinkUser {#linkuser} 
 
 ![LinkUser](/help/assets/icons/LinkUser.svg)
 
-## ロケーション {#location}
+## Location {#location} 
 
-![場所](/help/assets/icons/Location.svg)
+![Location](/help/assets/icons/Location.svg)
 
-## LocationBasedDate {#locationbaseddate}
+## LocationBasedDate {#locationbaseddate} 
 
 ![LocationBasedDate](/help/assets/icons/LocationBasedDate.svg)
 
-## LocationBasedEvent {#locationbasedevent}
+## LocationBasedEvent {#locationbasedevent} 
 
 ![LocationBasedEvent](/help/assets/icons/LocationBasedEvent.svg)
 
-## LocationContribution {#locationcontribution}
+## LocationContribution {#locationcontribution} 
 
 ![LocationContribution](/help/assets/icons/LocationContribution.svg)
 
-## LockClose {#lockclosed}
+## LockClosed {#lockclosed} 
 
 ![LockClosed](/help/assets/icons/LockClosed.svg)
 
-## LockOpen {#lockopen}
+## LockOpen {#lockopen} 
 
 ![LockOpen](/help/assets/icons/LockOpen.svg)
 
-## ログアウト {#logout}
+## LogOut {#logout} 
 
-![ ログアウト ](/help/assets/icons/LogOut.svg)
+![LogOut](/help/assets/icons/LogOut.svg)
 
-## ログイン {#login}
+## Login {#login} 
 
-![ ログイン ](/help/assets/icons/Login.svg)
+![Login](/help/assets/icons/Login.svg)
 
-## 検索 {#look}
+## Look {#look} 
 
-![ 見て ](/help/assets/icons/Look.svg)
+![Look](/help/assets/icons/Look.svg)
 
-## ルーペビュー {#loupeview}
+## LoupeView {#loupeview} 
 
 ![LoupeView](/help/assets/icons/LoupeView.svg)
 
-## MBox {#mbox}
+## MBox {#mbox} 
 
 ![MBox](/help/assets/icons/MBox.svg)
 
-## 自動選択 {#magicwand}
+## MagicWand {#magicwand} 
 
 ![MagicWand](/help/assets/icons/MagicWand.svg)
 
-## 拡大 {#magnify}
+## Magnify {#magnify} 
 
-![ 拡大 ](/help/assets/icons/Magnify.svg)
+![Magnify](/help/assets/icons/Magnify.svg)
 
-## メールボックス {#mailbox}
+## Mailbox {#mailbox} 
 
-![ メールボックス ](/help/assets/icons/Mailbox.svg)
+![Mailbox](/help/assets/icons/Mailbox.svg)
 
-## MapView {#mapview}
+## MapView {#mapview} 
 
 ![MapView](/help/assets/icons/MapView.svg)
 
-## MarginBottom {#marginbottom}
+## MarginBottom {#marginbottom} 
 
 ![MarginBottom](/help/assets/icons/MarginBottom.svg)
 
-## MarginLeft {#marginleft}
+## MarginLeft {#marginleft} 
 
 ![MarginLeft](/help/assets/icons/MarginLeft.svg)
 
-## MarginRight {#marginright}
+## MarginRight {#marginright} 
 
 ![MarginRight](/help/assets/icons/MarginRight.svg)
 
-## MarginTop {#margintop}
+## MarginTop {#margintop} 
 
-![ 上余白 ](/help/assets/icons/MarginTop.svg)
+![MarginTop](/help/assets/icons/MarginTop.svg)
 
-## MarketingActivity {#marketingactivitie}
+## MarketingActivitie {#marketingactivitie} 
 
-![ マーケティングアクティビティ ](/help/assets/icons/MarketingActivitie.svg)
+![MarketingActivitie](/help/assets/icons/MarketingActivitie.svg)
 
-## 最大化 {#maximize}
+## Maximize {#maximize} 
 
-![ 最大化 ](/help/assets/icons/Maximize.svg)
+![Maximize](/help/assets/icons/Maximize.svg)
 
-## 測定 {#measure}
+## Measure {#measure} 
 
-![測定](/help/assets/icons/Measure.svg)
+![Measure](/help/assets/icons/Measure.svg)
 
-## メニュー {#menu}
+## Menu {#menu} 
 
-![ メニュー ](/help/assets/icons/Menu.svg)
+![Menu](/help/assets/icons/Menu.svg)
 
-## 結合 {#merge}
+## Merge {#merge} 
 
-![ 結合 ](/help/assets/icons/Merge.svg)
+![Merge](/help/assets/icons/Merge.svg)
 
-## MergeLayer {#mergelayer}
+## MergeLayer {#mergelayer} 
 
 ![MergeLayer](/help/assets/icons/MergeLayer.svg)
 
-## Messenger {#messenger}
+## Messenger {#messenger} 
 
 ![Messenger](/help/assets/icons/Messenger.svg)
 
-## 最小化 {#minimize}
+## Minimize {#minimize} 
 
-![ 最小化 ](/help/assets/icons/Minimize.svg)
+![Minimize](/help/assets/icons/Minimize.svg)
 
-## MobileService {#mobileservice}
+## MobileService {#mobileservice} 
 
 ![MobileService](/help/assets/icons/MobileService.svg)
 
-## ModernGridView {#moderngridview}
+## ModernGridView {#moderngridview} 
 
 ![ModernGridView](/help/assets/icons/ModernGridView.svg)
 
-## お金 {#money}
+## Money {#money} 
 
-![ 金額 ](/help/assets/icons/Money.svg)
+![Money](/help/assets/icons/Money.svg)
 
-## 監視 {#monitoring}
+## Monitoring {#monitoring} 
 
-![監視](/help/assets/icons/Monitoring.svg)
+![Monitoring](/help/assets/icons/Monitoring.svg)
 
-## 月 {#moon}
+## Moon {#moon} 
 
-![ 月 ](/help/assets/icons/Moon.svg)
+![Moon](/help/assets/icons/Moon.svg)
 
-## 詳細 {#more}
+## More {#more} 
 
-![詳細情報](/help/assets/icons/More.svg)
+![More](/help/assets/icons/More.svg)
 
-## MoreCircle {#morecircle}
+## MoreCircle {#morecircle} 
 
-![ その他の円 ](/help/assets/icons/MoreCircle.svg)
+![MoreCircle](/help/assets/icons/MoreCircle.svg)
 
-## MoreSmall {#moresmall}
+## MoreSmall {#moresmall} 
 
 ![MoreSmall](/help/assets/icons/MoreSmall.svg)
 
-## MoreSmallList {#moresmalllist}
+## MoreSmallList {#moresmalllist} 
 
 ![MoreSmallList](/help/assets/icons/MoreSmallList.svg)
 
-## MoreSmallListVert {#moresmalllistvert}
+## MoreSmallListVert {#moresmalllistvert} 
 
 ![MoreSmallListVert](/help/assets/icons/MoreSmallListVert.svg)
 
-## 縦に移動 {#morevertical}
+## MoreVertical {#morevertical} 
 
-![ その他の垂直方向 ](/help/assets/icons/MoreVertical.svg)
+![MoreVertical](/help/assets/icons/MoreVertical.svg)
 
-## 移動 {#move}
+## Move {#move} 
 
-![ 移動 ](/help/assets/icons/Move.svg)
+![Move](/help/assets/icons/Move.svg)
 
-## MoveLeftRight {#moveleftright}
+## MoveLeftRight {#moveleftright} 
 
 ![MoveLeftRight](/help/assets/icons/MoveLeftRight.svg)
 
-## MoveTo {#moveto}
+## MoveTo {#moveto} 
 
-![ 移動先 ](/help/assets/icons/MoveTo.svg)
+![MoveTo](/help/assets/icons/MoveTo.svg)
 
-## MoveUpDown {#moveupdown}
+## MoveUpDown {#moveupdown} 
 
 ![MoveUpDown](/help/assets/icons/MoveUpDown.svg)
 
-## MovieCamera {#moviecamera}
+## MovieCamera {#moviecamera} 
 
-![ ムービーカメラ ](/help/assets/icons/MovieCamera.svg)
+![MovieCamera](/help/assets/icons/MovieCamera.svg)
 
-## 複数 {#multiple}
+## Multiple {#multiple} 
 
-![ 複数 ](/help/assets/icons/Multiple.svg)
+![Multiple](/help/assets/icons/Multiple.svg)
 
-## MultipleAdd {#multipleadd}
+## MultipleAdd {#multipleadd} 
 
 ![MultipleAdd](/help/assets/icons/MultipleAdd.svg)
 
-## MultipleCheck {#multiplecheck}
+## MultipleCheck {#multiplecheck} 
 
 ![MultipleCheck](/help/assets/icons/MultipleCheck.svg)
 
-## MultipleExclude {#multipleexclude}
+## MultipleExclude {#multipleexclude} 
 
 ![MultipleExclude](/help/assets/icons/MultipleExclude.svg)
 
-## NamingOrder {#namingorder}
+## NamingOrder {#namingorder} 
 
 ![NamingOrder](/help/assets/icons/NamingOrder.svg)
 
-## 新規 {#new}
+## New {#new} 
 
-![新規](/help/assets/icons/New.svg)
+![New](/help/assets/icons/New.svg)
 
-## NewItem {#newitem}
+## NewItem {#newitem} 
 
 ![NewItem](/help/assets/icons/NewItem.svg)
 
-## NewPlan {#newplan}
+## NewPlan {#newplan} 
 
-![ 新規プラン ](/help/assets/icons/NewPlan.svg)
+![NewPlan](/help/assets/icons/NewPlan.svg)
 
-## NewsAdd {#newsadd}
+## NewsAdd {#newsadd} 
 
 ![NewsAdd](/help/assets/icons/NewsAdd.svg)
 
-## 編集なし {#noedit}
+## NoEdit {#noedit} 
 
-![ 編集なし ](/help/assets/icons/NoEdit.svg)
+![NoEdit](/help/assets/icons/NoEdit.svg)
 
-## 注意 {#note}
+## Note {#note} 
 
-![ 注 ](/help/assets/icons/Note.svg)
+![Note](/help/assets/icons/Note.svg)
 
-## NoteAdd {#noteadd}
+## NoteAdd {#noteadd} 
 
-![ メモ追加 ](/help/assets/icons/NoteAdd.svg)
+![NoteAdd](/help/assets/icons/NoteAdd.svg)
 
-## O {#o}
+## O {#o} 
 
 ![O](/help/assets/icons/O.svg)
 
-## オファー {#offer}
+## Offer {#offer} 
 
-![ オファー ](/help/assets/icons/Offer.svg)
+![Offer](/help/assets/icons/Offer.svg)
 
-## OfferActivity {#offeractivities}
+## OfferActivities {#offeractivities} 
 
-![ オファーアクティビティ ](/help/assets/icons/OfferActivities.svg)
+![OfferActivities](/help/assets/icons/OfferActivities.svg)
 
-## OfferDelete {#offerdelete}
+## OfferDelete {#offerdelete} 
 
 ![OfferDelete](/help/assets/icons/OfferDelete.svg)
 
-## オファー {#offers}
+## Offers {#offers} 
 
-![オファー](/help/assets/icons/Offers.svg)
+![Offers](/help/assets/icons/Offers.svg)
 
-## OnAir {#onair}
+## OnAir {#onair} 
 
 ![OnAir](/help/assets/icons/OnAir.svg)
 
-## OpenIn {#openin}
+## OpenIn {#openin} 
 
 ![OpenIn](/help/assets/icons/OpenIn.svg)
 
-## OpenInLight {#openinlight}
+## OpenInLight {#openinlight} 
 
 ![OpenInLight](/help/assets/icons/OpenInLight.svg)
 
-## OpenRecent {#openrecent}
+## OpenRecent {#openrecent} 
 
 ![OpenRecent](/help/assets/icons/OpenRecent.svg)
 
-## OpenRecentOutline {#openrecentoutline}
+## OpenRecentOutline {#openrecentoutline} 
 
 ![OpenRecentOutline](/help/assets/icons/OpenRecentOutline.svg)
 
-## オービット {#orbit}
+## Orbit {#orbit} 
 
-![ オービット ](/help/assets/icons/Orbit.svg)
+![Orbit](/help/assets/icons/Orbit.svg)
 
-## 組織 {#organisation}
+## Organisation {#organisation} 
 
-![ 組織 ](/help/assets/icons/Organisation.svg)
+![Organisation](/help/assets/icons/Organisation.svg)
 
-## 整理 {#organize}
+## Organize {#organize} 
 
-![ 整理 ](/help/assets/icons/Organize.svg)
+![Organize](/help/assets/icons/Organize.svg)
 
-## OutlinePath {#outlinepath}
+## OutlinePath {#outlinepath} 
 
 ![OutlinePath](/help/assets/icons/OutlinePath.svg)
 
-## PaddingBottom {#paddingbottom}
+## PaddingBottom {#paddingbottom} 
 
 ![PaddingBottom](/help/assets/icons/PaddingBottom.svg)
 
-## PaddingLeft {#paddingleft}
+## PaddingLeft {#paddingleft} 
 
 ![PaddingLeft](/help/assets/icons/PaddingLeft.svg)
 
-## PaddingRight {#paddingright}
+## PaddingRight {#paddingright} 
 
 ![PaddingRight](/help/assets/icons/PaddingRight.svg)
 
-## PaddingTop {#paddingtop}
+## PaddingTop {#paddingtop} 
 
 ![PaddingTop](/help/assets/icons/PaddingTop.svg)
 
-## PageBreak {#pagebreak}
+## PageBreak {#pagebreak} 
 
-![ 改ページ ](/help/assets/icons/PageBreak.svg)
+![PageBreak](/help/assets/icons/PageBreak.svg)
 
-## PageExclude {#pageexclude}
+## PageExclude {#pageexclude} 
 
 ![PageExclude](/help/assets/icons/PageExclude.svg)
 
-## PageGear {#pagegear}
+## PageGear {#pagegear} 
 
 ![PageGear](/help/assets/icons/PageGear.svg)
 
-## PageRule {#pagerule}
+## PageRule {#pagerule} 
 
 ![PageRule](/help/assets/icons/PageRule.svg)
 
-## PageShare {#pageshare}
+## PageShare {#pageshare} 
 
-![ ページ共有 ](/help/assets/icons/PageShare.svg)
+![PageShare](/help/assets/icons/PageShare.svg)
 
-## PageTag {#pagetag}
+## PageTag {#pagetag} 
 
 ![PageTag](/help/assets/icons/PageTag.svg)
 
-## PagesExclude {#pagesexclude}
+## PagesExclude {#pagesexclude} 
 
 ![PagesExclude](/help/assets/icons/PagesExclude.svg)
 
-## パン {#pan}
+## Pan {#pan} 
 
-![ パン ](/help/assets/icons/Pan.svg)
+![Pan](/help/assets/icons/Pan.svg)
 
-## パネル {#panel}
+## Panel {#panel} 
 
-![ パネル ](/help/assets/icons/Panel.svg)
+![Panel](/help/assets/icons/Panel.svg)
 
-## ペースト {#paste}
+## Paste {#paste} 
 
-![ ペースト ](/help/assets/icons/Paste.svg)
+![Paste](/help/assets/icons/Paste.svg)
 
-## PasteHTML {#pastehtml}
+## PasteHTML {#pastehtml} 
 
 ![PasteHTML](/help/assets/icons/PasteHTML.svg)
 
-## PasteList {#pastelist}
+## PasteList {#pastelist} 
 
 ![PasteList](/help/assets/icons/PasteList.svg)
 
-## PasteText {#pastetext}
+## PasteText {#pastetext} 
 
 ![PasteText](/help/assets/icons/PasteText.svg)
 
-## パターン {#pattern}
+## Pattern {#pattern} 
 
-![ パターン ](/help/assets/icons/Pattern.svg)
+![Pattern](/help/assets/icons/Pattern.svg)
 
-## 一時停止 {#pause}
+## Pause {#pause} 
 
-![ 一時停止 ](/help/assets/icons/Pause.svg)
+![Pause](/help/assets/icons/Pause.svg)
 
-## PauseCircle {#pausecircle}
+## PauseCircle {#pausecircle} 
 
 ![PauseCircle](/help/assets/icons/PauseCircle.svg)
 
-## ポーン {#pawn}
+## Pawn {#pawn} 
 
-![ ポーン ](/help/assets/icons/Pawn.svg)
+![Pawn](/help/assets/icons/Pawn.svg)
 
-## 保留中 {#pending}
+## Pending {#pending} 
 
-![ 保留中 ](/help/assets/icons/Pending.svg)
+![Pending](/help/assets/icons/Pending.svg)
 
-## PeopleGroup {#peoplegroup}
+## PeopleGroup {#peoplegroup} 
 
 ![PeopleGroup](/help/assets/icons/PeopleGroup.svg)
 
-## PersonalizationField {#personalizationfield}
+## PersonalizationField {#personalizationfield} 
 
-![ パーソナライゼーションフィールド ](/help/assets/icons/PersonalizationField.svg)
+![PersonalizationField](/help/assets/icons/PersonalizationField.svg)
 
-## 透視投影 {#perspective}
+## Perspective {#perspective} 
 
-![ 分析観点 ](/help/assets/icons/Perspective.svg)
+![Perspective](/help/assets/icons/Perspective.svg)
 
-## ピン留め {#pinoff}
+## PinOff {#pinoff} 
 
-![ ピン留め ](/help/assets/icons/PinOff.svg)
+![PinOff](/help/assets/icons/PinOff.svg)
 
-## ピン留め {#pinon}
+## PinOn {#pinon} 
 
-![ ピン留め ](/help/assets/icons/PinOn.svg)
+![PinOn](/help/assets/icons/PinOn.svg)
 
-## ピボット {#pivot}
+## Pivot {#pivot} 
 
-![ ピボット ](/help/assets/icons/Pivot.svg)
+![Pivot](/help/assets/icons/Pivot.svg)
 
-## プレースホルダー {#placeholder}
+## Placeholder {#placeholder} 
 
-![ プレースホルダー ](/help/assets/icons/Placeholder.svg)
+![Placeholder](/help/assets/icons/Placeholder.svg)
 
-## PlatformDataMapping {#platformdatamapping}
+## PlatformDataMapping {#platformdatamapping} 
 
 ![PlatformDataMapping](/help/assets/icons/PlatformDataMapping.svg)
 
-## 再生 {#play}
+## Play {#play} 
 
-![ 再生 ](/help/assets/icons/Play.svg)
+![Play](/help/assets/icons/Play.svg)
 
-## PlayCircle {#playcircle}
+## PlayCircle {#playcircle} 
 
 ![PlayCircle](/help/assets/icons/PlayCircle.svg)
 
-## プラグ {#plug}
+## Plug {#plug} 
 
-![ プラグ ](/help/assets/icons/Plug.svg)
+![Plug](/help/assets/icons/Plug.svg)
 
-## 多角形 {#polygon}
+## Polygon {#polygon} 
 
-![ 多角形 ](/help/assets/icons/Polygon.svg)
+![Polygon](/help/assets/icons/Polygon.svg)
 
-## PolygonSelect {#polygonselect}
+## PolygonSelect {#polygonselect} 
 
 ![PolygonSelect](/help/assets/icons/PolygonSelect.svg)
 
-## PopIn {#popin}
+## PopIn {#popin} 
 
 ![PopIn](/help/assets/icons/PopIn.svg)
 
-## 縦 {#portrait}
+## Portrait {#portrait} 
 
-![縦](/help/assets/icons/Portrait.svg)
+![Portrait](/help/assets/icons/Portrait.svg)
 
-## プリセット {#preset}
+## Preset {#preset} 
 
-![ プリセット ](/help/assets/icons/Preset.svg)
+![Preset](/help/assets/icons/Preset.svg)
 
-## プレビュー {#preview}
+## Preview {#preview} 
 
-![ プレビュー ](/help/assets/icons/Preview.svg)
+![Preview](/help/assets/icons/Preview.svg)
 
-## 印刷 {#print}
+## Print {#print} 
 
-![ 印刷 ](/help/assets/icons/Print.svg)
+![Print](/help/assets/icons/Print.svg)
 
-## PrintPreview {#printpreview}
+## PrintPreview {#printpreview} 
 
 ![PrintPreview](/help/assets/icons/PrintPreview.svg)
 
-## プロジェクト {#project}
+## Project {#project} 
 
-![ プロジェクト ](/help/assets/icons/Project.svg)
+![Project](/help/assets/icons/Project.svg)
 
-## ProjectAdd {#projectadd}
+## ProjectAdd {#projectadd} 
 
 ![ProjectAdd](/help/assets/icons/ProjectAdd.svg)
 
-## ProjectEdit {#projectedit}
+## ProjectEdit {#projectedit} 
 
 ![ProjectEdit](/help/assets/icons/ProjectEdit.svg)
 
-## ProjectNameEdit {#projectnameedit}
+## ProjectNameEdit {#projectnameedit} 
 
 ![ProjectNameEdit](/help/assets/icons/ProjectNameEdit.svg)
 
-## 昇格 {#promote}
+## Promote {#promote} 
 
-![ 昇格 ](/help/assets/icons/Promote.svg)
+![Promote](/help/assets/icons/Promote.svg)
 
-## プロパティ {#propertie}
+## Propertie {#propertie} 
 
-![ プロパティ ](/help/assets/icons/Propertie.svg)
+![Propertie](/help/assets/icons/Propertie.svg)
 
-## PropertiesCopy {#propertiescopy}
+## PropertiesCopy {#propertiescopy} 
 
 ![PropertiesCopy](/help/assets/icons/PropertiesCopy.svg)
 
-## PublishCheck {#publishcheck}
+## PublishCheck {#publishcheck} 
 
 ![PublishCheck](/help/assets/icons/PublishCheck.svg)
 
-## PublishPending {#publishpending}
+## PublishPending {#publishpending} 
 
 ![PublishPending](/help/assets/icons/PublishPending.svg)
 
-## PublishReject {#publishreject}
+## PublishReject {#publishreject} 
 
 ![PublishReject](/help/assets/icons/PublishReject.svg)
 
-## PublishRemove {#publishremove}
+## PublishRemove {#publishremove} 
 
 ![PublishRemove](/help/assets/icons/PublishRemove.svg)
 
-## PublishSchedule {#publishschedule}
+## PublishSchedule {#publishschedule} 
 
 ![PublishSchedule](/help/assets/icons/PublishSchedule.svg)
 
-## PushNotification {#pushnotification}
+## PushNotification {#pushnotification} 
 
 ![PushNotification](/help/assets/icons/PushNotification.svg)
 
-## Question {#question}
+## Question {#question} 
 
-![ 質問 ](/help/assets/icons/Question.svg)
+![Question](/help/assets/icons/Question.svg)
 
-## QuickSelect {#quickselect}
+## QuickSelect {#quickselect} 
 
-![ クイック選択 ](/help/assets/icons/QuickSelect.svg)
+![QuickSelect](/help/assets/icons/QuickSelect.svg)
 
-## RSS {#rss}
+## RSS {#rss} 
 
 ![RSS](/help/assets/icons/RSS.svg)
 
-## RadialGradient {#radialgradient}
+## RadialGradient {#radialgradient} 
 
 ![RadialGradient](/help/assets/icons/RadialGradient.svg)
 
-## Rail {#rail}
+## Rail {#rail} 
 
 ![Rail](/help/assets/icons/Rail.svg)
 
-## RailBottom {#railbottom}
+## RailBottom {#railbottom} 
 
 ![RailBottom](/help/assets/icons/RailBottom.svg)
 
-## RailLeft {#railleft}
+## RailLeft {#railleft} 
 
 ![RailLeft](/help/assets/icons/RailLeft.svg)
 
-## RailRight {#railright}
+## RailRight {#railright} 
 
 ![RailRight](/help/assets/icons/RailRight.svg)
 
-## RailRightClose {#railrightclose}
+## RailRightClose {#railrightclose} 
 
 ![RailRightClose](/help/assets/icons/RailRightClose.svg)
 
-## RailRightOpen {#railrightopen}
+## RailRightOpen {#railrightopen} 
 
 ![RailRightOpen](/help/assets/icons/RailRightOpen.svg)
 
-## RailTop {#railtop}
+## RailTop {#railtop} 
 
 ![RailTop](/help/assets/icons/RailTop.svg)
 
-## 範囲マスク {#rangemask}
+## RangeMask {#rangemask} 
 
 ![RangeMask](/help/assets/icons/RangeMask.svg)
 
-## RealTimeCustomerProfile {#realtimecustomerprofile}
+## RealTimeCustomerProfile {#realtimecustomerprofile} 
 
 ![RealTimeCustomerProfile](/help/assets/icons/RealTimeCustomerProfile.svg)
 
-## RectSelect {#rectselect}
+## RectSelect {#rectselect} 
 
 ![RectSelect](/help/assets/icons/RectSelect.svg)
 
-## 長方形 {#rectangle}
+## Rectangle {#rectangle} 
 
-![ 長方形 ](/help/assets/icons/Rectangle.svg)
+![Rectangle](/help/assets/icons/Rectangle.svg)
 
-## やり直し {#redo}
+## Redo {#redo} 
 
-![ やり直し ](/help/assets/icons/Redo.svg)
+![Redo](/help/assets/icons/Redo.svg)
 
-## 更新 {#refresh}
+## Refresh {#refresh} 
 
-![ 更新 ](/help/assets/icons/Refresh.svg)
+![Refresh](/help/assets/icons/Refresh.svg)
 
-## RegionSelect {#regionselect}
+## RegionSelect {#regionselect} 
 
 ![RegionSelect](/help/assets/icons/RegionSelect.svg)
 
-## 関連度 {#relevance}
+## Relevance {#relevance} 
 
-![ 関連度 ](/help/assets/icons/Relevance.svg)
+![Relevance](/help/assets/icons/Relevance.svg)
 
-## 削除 {#remove}
+## Remove {#remove} 
 
-![ 削除 ](/help/assets/icons/Remove.svg)
+![Remove](/help/assets/icons/Remove.svg)
 
-## RemoveCircle {#removecircle}
+## RemoveCircle {#removecircle} 
 
 ![RemoveCircle](/help/assets/icons/RemoveCircle.svg)
 
-## 名前を変更 {#rename}
+## Rename {#rename} 
 
-![ 名前を変更 ](/help/assets/icons/Rename.svg)
+![Rename](/help/assets/icons/Rename.svg)
 
-## 並べ替え {#reorder}
+## Reorder {#reorder} 
 
-![ 並べ替え ](/help/assets/icons/Reorder.svg)
+![Reorder](/help/assets/icons/Reorder.svg)
 
-## 再生 {#replay}
+## Replay {#replay} 
 
-![ 再生 ](/help/assets/icons/Replay.svg)
+![Replay](/help/assets/icons/Replay.svg)
 
-## Replie {#replie}
+## Replie {#replie} 
 
-![ 再準備 ](/help/assets/icons/Replie.svg)
+![Replie](/help/assets/icons/Replie.svg)
 
-## 返信 {#reply}
+## Reply {#reply} 
 
-![ 返信 ](/help/assets/icons/Reply.svg)
+![Reply](/help/assets/icons/Reply.svg)
 
-## ReplyAll {#replyall}
+## ReplyAll {#replyall} 
 
 ![ReplyAll](/help/assets/icons/ReplyAll.svg)
 
-## レポート {#report}
+## Report {#report} 
 
-![レポート](/help/assets/icons/Report.svg)
+![Report](/help/assets/icons/Report.svg)
 
-## ReportAdd {#reportadd}
+## ReportAdd {#reportadd} 
 
 ![ReportAdd](/help/assets/icons/ReportAdd.svg)
 
-## サイズ変更 {#resize}
+## Resize {#resize} 
 
-![ サイズ変更 ](/help/assets/icons/Resize.svg)
+![Resize](/help/assets/icons/Resize.svg)
 
-## ResolvedComment {#resolvedcomment}
+## ResolvedComment {#resolvedcomment} 
 
-![ResolvedComments](/help/assets/icons/ResolvedComment.svg)
+![ResolvedComment](/help/assets/icons/ResolvedComment.svg)
 
-## リツイート {#retweet}
+## Retweet {#retweet} 
 
-![ リツイート ](/help/assets/icons/Retweet.svg)
+![Retweet](/help/assets/icons/Retweet.svg)
 
-## 再利用 {#reuse}
+## Reuse {#reuse} 
 
-![ 再利用 ](/help/assets/icons/Reuse.svg)
+![Reuse](/help/assets/icons/Reuse.svg)
 
-## 収益 {#revenue}
+## Revenue {#revenue} 
 
-![売上高](/help/assets/icons/Revenue.svg)
+![Revenue](/help/assets/icons/Revenue.svg)
 
-## 復元 {#revert}
+## Revert {#revert} 
 
-![ 復元 ](/help/assets/icons/Revert.svg)
+![Revert](/help/assets/icons/Revert.svg)
 
-## 巻き戻し {#rewind}
+## Rewind {#rewind} 
 
-![ 巻き戻し ](/help/assets/icons/Rewind.svg)
+![Rewind](/help/assets/icons/Rewind.svg)
 
-## RewindCircle {#rewindcircle}
+## RewindCircle {#rewindcircle} 
 
 ![RewindCircle](/help/assets/icons/RewindCircle.svg)
 
-## リボン {#ribbon}
+## Ribbon {#ribbon} 
 
-![ リボン ](/help/assets/icons/Ribbon.svg)
+![Ribbon](/help/assets/icons/Ribbon.svg)
 
-## RotateCCW {#rotateccw}
+## RotateCCW {#rotateccw} 
 
 ![RotateCCW](/help/assets/icons/RotateCCW.svg)
 
-## RotateCCWBold {#rotateccwbold}
+## RotateCCWBold {#rotateccwbold} 
 
 ![RotateCCWBold](/help/assets/icons/RotateCCWBold.svg)
 
-## RotateCW {#rotatecw}
+## RotateCW {#rotatecw} 
 
 ![RotateCW](/help/assets/icons/RotateCW.svg)
 
-## RotateCWBold {#rotatecwbold}
+## RotateCWBold {#rotatecwbold} 
 
 ![RotateCWBold](/help/assets/icons/RotateCWBold.svg)
 
-## RotateLeft {#rotateleft}
+## RotateLeft {#rotateleft} 
 
 ![RotateLeft](/help/assets/icons/RotateLeft.svg)
 
-## RotateLeftOutline {#rotateleftoutline}
+## RotateLeftOutline {#rotateleftoutline} 
 
 ![RotateLeftOutline](/help/assets/icons/RotateLeftOutline.svg)
 
-## 右に回転 {#rotateright}
+## RotateRight {#rotateright} 
 
-![ 右に回転 ](/help/assets/icons/RotateRight.svg)
+![RotateRight](/help/assets/icons/RotateRight.svg)
 
-## RotateRightOutline {#rotaterightoutline}
+## RotateRightOutline {#rotaterightoutline} 
 
 ![RotateRightOutline](/help/assets/icons/RotateRightOutline.svg)
 
-## SM {#sm}
+## SM {#sm} 
 
 ![SM](/help/assets/icons/SM.svg)
 
-## SMSKey {#smskey}
+## SMSKey {#smskey} 
 
 ![SMSKey](/help/assets/icons/SMSKey.svg)
 
-## SMSLlightning {#smslightning}
+## SMSLightning {#smslightning} 
 
 ![SMSLightning](/help/assets/icons/SMSLightning.svg)
 
-## SMSRefresh {#smsrefresh}
+## SMSRefresh {#smsrefresh} 
 
 ![SMSRefresh](/help/assets/icons/SMSRefresh.svg)
 
-## SQLQuery {#sqlquery}
+## SQLQuery {#sqlquery} 
 
 ![SQLQuery](/help/assets/icons/SQLQuery.svg)
 
-## Sampler {#sampler}
+## Sampler {#sampler} 
 
 ![Sampler](/help/assets/icons/Sampler.svg)
 
-## サンドボックス {#sandbox}
+## Sandbox {#sandbox} 
 
-![ サンドボックス ](/help/assets/icons/Sandbox.svg)
+![Sandbox](/help/assets/icons/Sandbox.svg)
 
-## SaveAsFloppy {#saveasfloppy}
+## SaveAsFloppy {#saveasfloppy} 
 
 ![SaveAsFloppy](/help/assets/icons/SaveAsFloppy.svg)
 
-## SaveFloppy {#savefloppy}
+## SaveFloppy {#savefloppy} 
 
 ![SaveFloppy](/help/assets/icons/SaveFloppy.svg)
 
-## SaveTo {#saveto}
+## SaveTo {#saveto} 
 
 ![SaveTo](/help/assets/icons/SaveTo.svg)
 
-## SaveToLight {#savetolight}
+## SaveToLight {#savetolight} 
 
 ![SaveToLight](/help/assets/icons/SaveToLight.svg)
 
-## スキーマ {#schemas}
+## Schemas {#schemas} 
 
-![スキーマ](/help/assets/icons/Schemas.svg)
+![Schemas](/help/assets/icons/Schemas.svg)
 
-## 手書き {#scribble}
+## Scribble {#scribble} 
 
-![ 手書き ](/help/assets/icons/Scribble.svg)
+![Scribble](/help/assets/icons/Scribble.svg)
 
-## 検索 {#search}
+## Search {#search} 
 
-![検索](/help/assets/icons/Search.svg)
+![Search](/help/assets/icons/Search.svg)
 
-## シート {#seat}
+## Seat {#seat} 
 
-![ シート ](/help/assets/icons/Seat.svg)
+![Seat](/help/assets/icons/Seat.svg)
 
-## SeatAdd {#seatadd}
+## SeatAdd {#seatadd} 
 
 ![SeatAdd](/help/assets/icons/SeatAdd.svg)
 
-## セグメント {#segment}
+## Segment {#segment} 
 
-![ セグメント ](/help/assets/icons/Segment.svg)
+![Segment](/help/assets/icons/Segment.svg)
 
-## セグメント化 {#segmentation}
+## Segmentation {#segmentation} 
 
-![セグメント化](/help/assets/icons/Segmentation.svg)
+![Segmentation](/help/assets/icons/Segmentation.svg)
 
-## 選択 {#select}
+## Select {#select} 
 
-![ 選択 ](/help/assets/icons/Select.svg)
+![Select](/help/assets/icons/Select.svg)
 
-## SelectAdd {#selectadd}
+## SelectAdd {#selectadd} 
 
 ![SelectAdd](/help/assets/icons/SelectAdd.svg)
 
-## SelectBox {#selectbox}
+## SelectBox {#selectbox} 
 
 ![SelectBox](/help/assets/icons/SelectBox.svg)
 
-## 選択ボックスすべて {#selectboxall}
+## SelectBoxAll {#selectboxall} 
 
 ![SelectBoxAll](/help/assets/icons/SelectBoxAll.svg)
 
-## SelectCircular {#selectcircular}
+## SelectCircular {#selectcircular} 
 
 ![SelectCircular](/help/assets/icons/SelectCircular.svg)
 
-## SelectContainer {#selectcontainer}
+## SelectContainer {#selectcontainer} 
 
 ![SelectContainer](/help/assets/icons/SelectContainer.svg)
 
-## SelectGear {#selectgear}
+## SelectGear {#selectgear} 
 
 ![SelectGear](/help/assets/icons/SelectGear.svg)
 
-## SelectIntersect {#selectintersect}
+## SelectIntersect {#selectintersect} 
 
 ![SelectIntersect](/help/assets/icons/SelectIntersect.svg)
 
-## SelectSubtract {#selectsubtract}
+## SelectSubtract {#selectsubtract} 
 
 ![SelectSubtract](/help/assets/icons/SelectSubtract.svg)
 
-## 選択 {#selection}
+## Selection {#selection} 
 
-![ 選択 ](/help/assets/icons/Selection.svg)
+![Selection](/help/assets/icons/Selection.svg)
 
-## SelectionChecked {#selectionchecked}
+## SelectionChecked {#selectionchecked} 
 
 ![SelectionChecked](/help/assets/icons/SelectionChecked.svg)
 
-## SelectionMove {#selectionmove}
+## SelectionMove {#selectionmove} 
 
 ![SelectionMove](/help/assets/icons/SelectionMove.svg)
 
-## 送信 {#send}
+## Send {#send} 
 
-![ 送信 ](/help/assets/icons/Send.svg)
+![Send](/help/assets/icons/Send.svg)
 
-## センチメント陰性 {#sentimentnegative}
+## SentimentNegative {#sentimentnegative} 
 
-![ センチメント否定的 ](/help/assets/icons/SentimentNegative.svg)
+![SentimentNegative](/help/assets/icons/SentimentNegative.svg)
 
-## センチメント中立 {#sentimentneutral}
+## SentimentNeutral {#sentimentneutral} 
 
-![ センチメント中立 ](/help/assets/icons/SentimentNeutral.svg)
+![SentimentNeutral](/help/assets/icons/SentimentNeutral.svg)
 
-## センチメント陽性 {#sentimentpositive}
+## SentimentPositive {#sentimentpositive} 
 
-![ センチメント陽性 ](/help/assets/icons/SentimentPositive.svg)
+![SentimentPositive](/help/assets/icons/SentimentPositive.svg)
 
-## 区切り記号 {#separator}
+## Separator {#separator} 
 
-![ 区切り記号 ](/help/assets/icons/Separator.svg)
+![Separator](/help/assets/icons/Separator.svg)
 
-## サーバー {#server}
+## Server {#server} 
 
-![ サーバー ](/help/assets/icons/Server.svg)
+![Server](/help/assets/icons/Server.svg)
 
-## 設定 {#setting}
+## Setting {#setting} 
 
-![設定](/help/assets/icons/Setting.svg)
+![Setting](/help/assets/icons/Setting.svg)
 
-## 形状 {#shape}
+## Shape {#shape} 
 
-![ 形状 ](/help/assets/icons/Shape.svg)
+![Shape](/help/assets/icons/Shape.svg)
 
-## 共有 {#share}
+## Share {#share} 
 
-![ 共有 ](/help/assets/icons/Share.svg)
+![Share](/help/assets/icons/Share.svg)
 
-## ShareAndroid {#shareandroid}
+## ShareAndroid {#shareandroid} 
 
 ![ShareAndroid](/help/assets/icons/ShareAndroid.svg)
 
-## ShareCheck {#sharecheck}
+## ShareCheck {#sharecheck} 
 
 ![ShareCheck](/help/assets/icons/ShareCheck.svg)
 
-## ShareLight {#sharelight}
+## ShareLight {#sharelight} 
 
 ![ShareLight](/help/assets/icons/ShareLight.svg)
 
-## ShareWindow {#sharewindow}
+## ShareWindow {#sharewindow} 
 
 ![ShareWindow](/help/assets/icons/ShareWindow.svg)
 
-## シャープ {#sharpen}
+## Sharpen {#sharpen} 
 
-![ シャープ ](/help/assets/icons/Sharpen.svg)
+![Sharpen](/help/assets/icons/Sharpen.svg)
 
-## シールド {#shield}
+## Shield {#shield} 
 
-![ シールド ](/help/assets/icons/Shield.svg)
+![Shield](/help/assets/icons/Shield.svg)
 
-## 船舶 {#ship}
+## Ship {#ship} 
 
-![ 船舶 ](/help/assets/icons/Ship.svg)
+![Ship](/help/assets/icons/Ship.svg)
 
-## ショップ {#shop}
+## Shop {#shop} 
 
-![ ショップ ](/help/assets/icons/Shop.svg)
+![Shop](/help/assets/icons/Shop.svg)
 
-## ShoppingCart {#shoppingcart}
+## ShoppingCart {#shoppingcart} 
 
 ![ShoppingCart](/help/assets/icons/ShoppingCart.svg)
 
-## ShowAllLayer {#showalllayer}
+## ShowAllLayer {#showalllayer} 
 
 ![ShowAllLayer](/help/assets/icons/ShowAllLayer.svg)
 
-## ShowMenu {#showmenu}
+## ShowMenu {#showmenu} 
 
 ![ShowMenu](/help/assets/icons/ShowMenu.svg)
 
-## ShowOneLayer {#showonelayer}
+## ShowOneLayer {#showonelayer} 
 
 ![ShowOneLayer](/help/assets/icons/ShowOneLayer.svg)
 
-## シャッフル {#shuffle}
+## Shuffle {#shuffle} 
 
-![ シャッフル ](/help/assets/icons/Shuffle.svg)
+![Shuffle](/help/assets/icons/Shuffle.svg)
 
-## スライス {#slice}
+## Slice {#slice} 
 
-![ スライス ](/help/assets/icons/Slice.svg)
+![Slice](/help/assets/icons/Slice.svg)
 
-## 遅い {#slow}
+## Slow {#slow} 
 
-![ 遅い ](/help/assets/icons/Slow.svg)
+![Slow](/help/assets/icons/Slow.svg)
 
-## SmallCap {#smallcap}
+## SmallCap {#smallcap} 
 
 ![SmallCap](/help/assets/icons/SmallCap.svg)
 
-## スナップショット {#snapshot}
+## Snapshot {#snapshot} 
 
-![ スナップショット ](/help/assets/icons/Snapshot.svg)
+![Snapshot](/help/assets/icons/Snapshot.svg)
 
-## SocialNetwork {#socialnetwork}
+## SocialNetwork {#socialnetwork} 
 
-![ ソーシャルネットワーク ](/help/assets/icons/SocialNetwork.svg)
+![SocialNetwork](/help/assets/icons/SocialNetwork.svg)
 
-## SortOrderDown {#sortorderdown}
+## SortOrderDown {#sortorderdown} 
 
 ![SortOrderDown](/help/assets/icons/SortOrderDown.svg)
 
-## SortOrderUp {#sortorderup}
+## SortOrderUp {#sortorderup} 
 
 ![SortOrderUp](/help/assets/icons/SortOrderUp.svg)
 
-## スパム {#spam}
+## Spam {#spam} 
 
-![ スパム ](/help/assets/icons/Spam.svg)
+![Spam](/help/assets/icons/Spam.svg)
 
-## Spellcheck {#spellcheck}
+## Spellcheck {#spellcheck} 
 
-![ スペルチェック ](/help/assets/icons/Spellcheck.svg)
+![Spellcheck](/help/assets/icons/Spellcheck.svg)
 
-## スピン {#spin}
+## Spin {#spin} 
 
-![ スピン ](/help/assets/icons/Spin.svg)
+![Spin](/help/assets/icons/Spin.svg)
 
-## SplitView {#splitview}
+## SplitView {#splitview} 
 
 ![SplitView](/help/assets/icons/SplitView.svg)
 
-## SpotHeal {#spotheal}
+## SpotHeal {#spotheal} 
 
 ![SpotHeal](/help/assets/icons/SpotHeal.svg)
 
-## スタジアム {#stadium}
+## Stadium {#stadium} 
 
-![ スタジアム ](/help/assets/icons/Stadium.svg)
+![Stadium](/help/assets/icons/Stadium.svg)
 
-## 段階 {#stage}
+## Stage {#stage} 
 
-![ ステージ ](/help/assets/icons/Stage.svg)
+![Stage](/help/assets/icons/Stage.svg)
 
-## スタンプ {#stamp}
+## Stamp {#stamp} 
 
-![ スタンプ ](/help/assets/icons/Stamp.svg)
+![Stamp](/help/assets/icons/Stamp.svg)
 
-## つ星 {#star}
+## Star {#star} 
 
-![ 星 ](/help/assets/icons/Star.svg)
+![Star](/help/assets/icons/Star.svg)
 
-## StarOutline {#staroutline}
+## StarOutline {#staroutline} 
 
-![ 星の輪郭 ](/help/assets/icons/StarOutline.svg)
+![StarOutline](/help/assets/icons/StarOutline.svg)
 
-## スターバースト {#starburst}
+## Starburst {#starburst} 
 
-![ スターバースト ](/help/assets/icons/Starburst.svg)
+![Starburst](/help/assets/icons/Starburst.svg)
 
-## StepBack {#stepbackward}
+## StepBackward {#stepbackward} 
 
 ![StepBackward](/help/assets/icons/StepBackward.svg)
 
-## StepBackwardCircle {#stepbackwardcircle}
+## StepBackwardCircle {#stepbackwardcircle} 
 
 ![StepBackwardCircle](/help/assets/icons/StepBackwardCircle.svg)
 
-## StepFront {#stepforward}
+## StepForward {#stepforward} 
 
 ![StepForward](/help/assets/icons/StepForward.svg)
 
-## StepForwardCircle {#stepforwardcircle}
+## StepForwardCircle {#stepforwardcircle} 
 
 ![StepForwardCircle](/help/assets/icons/StepForwardCircle.svg)
 
-## 停止 {#stop}
+## Stop {#stop} 
 
-![ 停止 ](/help/assets/icons/Stop.svg)
+![Stop](/help/assets/icons/Stop.svg)
 
-## StopCircle {#stopcircle}
+## StopCircle {#stopcircle} 
 
 ![StopCircle](/help/assets/icons/StopCircle.svg)
 
-## ストップウォッチ {#stopwatch}
+## Stopwatch {#stopwatch} 
 
-![ ストップウォッチ ](/help/assets/icons/Stopwatch.svg)
+![Stopwatch](/help/assets/icons/Stopwatch.svg)
 
-## まっすぐにする {#straighten}
+## Straighten {#straighten} 
 
-![ 角度補正 ](/help/assets/icons/Straighten.svg)
+![Straighten](/help/assets/icons/Straighten.svg)
 
-## アウトラインの直線化 {#straightenoutline}
+## StraightenOutline {#straightenoutline} 
 
-![ アウトラインの直線化 ](/help/assets/icons/StraightenOutline.svg)
+![StraightenOutline](/help/assets/icons/StraightenOutline.svg)
 
-## StrokeWidth {#strokewidth}
+## StrokeWidth {#strokewidth} 
 
-![ 線幅 ](/help/assets/icons/StrokeWidth.svg)
+![StrokeWidth](/help/assets/icons/StrokeWidth.svg)
 
-## 登録 {#subscribe}
+## Subscribe {#subscribe} 
 
-![ 登録 ](/help/assets/icons/Subscribe.svg)
+![Subscribe](/help/assets/icons/Subscribe.svg)
 
-## SubtractBackPath {#subtractbackpath}
+## SubtractBackPath {#subtractbackpath} 
 
 ![SubtractBackPath](/help/assets/icons/SubtractBackPath.svg)
 
-## SubtractFromSelection {#subtractfromselection}
+## SubtractFromSelection {#subtractfromselection} 
 
 ![SubtractFromSelection](/help/assets/icons/SubtractFromSelection.svg)
 
-## SubtractFrontPath {#subtractfrontpath}
+## SubtractFrontPath {#subtractfrontpath} 
 
 ![SubtractFrontPath](/help/assets/icons/SubtractFrontPath.svg)
 
-## 成功指標 {#successmetric}
+## SuccessMetric {#successmetric} 
 
-![ 成功指標 ](/help/assets/icons/SuccessMetric.svg)
+![SuccessMetric](/help/assets/icons/SuccessMetric.svg)
 
-## 要約 {#summarize}
+## Summarize {#summarize} 
 
-![ 要約 ](/help/assets/icons/Summarize.svg)
+![Summarize](/help/assets/icons/Summarize.svg)
 
-## 調査 {#survey}
+## Survey {#survey} 
 
-![ 調査 ](/help/assets/icons/Survey.svg)
+![Survey](/help/assets/icons/Survey.svg)
 
-## 切り替え {#switch}
+## Switch {#switch} 
 
-![ 切り替え ](/help/assets/icons/Switch.svg)
+![Switch](/help/assets/icons/Switch.svg)
 
-## 同期 {#sync}
+## Sync {#sync} 
 
-![ 同期 ](/help/assets/icons/Sync.svg)
+![Sync](/help/assets/icons/Sync.svg)
 
-## SyncRemove {#syncremove}
+## SyncRemove {#syncremove} 
 
 ![SyncRemove](/help/assets/icons/SyncRemove.svg)
 
-## テーブル {#table}
+## Table {#table} 
 
-![ テーブル ](/help/assets/icons/Table.svg)
+![Table](/help/assets/icons/Table.svg)
 
-## TableAdd {#tableadd}
+## TableAdd {#tableadd} 
 
 ![TableAdd](/help/assets/icons/TableAdd.svg)
 
-## TableAndChart {#tableandchart}
+## TableAndChart {#tableandchart} 
 
 ![TableAndChart](/help/assets/icons/TableAndChart.svg)
 
-## TableColumnAddLeft {#tablecolumnaddleft}
+## TableColumnAddLeft {#tablecolumnaddleft} 
 
 ![TableColumnAddLeft](/help/assets/icons/TableColumnAddLeft.svg)
 
-## TableColumnAddRight {#tablecolumnaddright}
+## TableColumnAddRight {#tablecolumnaddright} 
 
 ![TableColumnAddRight](/help/assets/icons/TableColumnAddRight.svg)
 
-## TableColumnMerge {#tablecolumnmerge}
+## TableColumnMerge {#tablecolumnmerge} 
 
 ![TableColumnMerge](/help/assets/icons/TableColumnMerge.svg)
 
-## TableColumnRemoveCenter {#tablecolumnremovecenter}
+## TableColumnRemoveCenter {#tablecolumnremovecenter} 
 
 ![TableColumnRemoveCenter](/help/assets/icons/TableColumnRemoveCenter.svg)
 
-## TableColumnSplit {#tablecolumnsplit}
+## TableColumnSplit {#tablecolumnsplit} 
 
 ![TableColumnSplit](/help/assets/icons/TableColumnSplit.svg)
 
-## TableEdit {#tableedit}
+## TableEdit {#tableedit} 
 
 ![TableEdit](/help/assets/icons/TableEdit.svg)
 
-## TableHistogram {#tablehistogram}
+## TableHistogram {#tablehistogram} 
 
 ![TableHistogram](/help/assets/icons/TableHistogram.svg)
 
-## TableMergeCell {#tablemergecell}
+## TableMergeCell {#tablemergecell} 
 
 ![TableMergeCell](/help/assets/icons/TableMergeCell.svg)
 
-## TableRowAddBottom {#tablerowaddbottom}
+## TableRowAddBottom {#tablerowaddbottom} 
 
 ![TableRowAddBottom](/help/assets/icons/TableRowAddBottom.svg)
 
-## TableRowAddTop {#tablerowaddtop}
+## TableRowAddTop {#tablerowaddtop} 
 
 ![TableRowAddTop](/help/assets/icons/TableRowAddTop.svg)
 
-## TableRowMerge {#tablerowmerge}
+## TableRowMerge {#tablerowmerge} 
 
 ![TableRowMerge](/help/assets/icons/TableRowMerge.svg)
 
-## TableRowRemoveCenter {#tablerowremovecenter}
+## TableRowRemoveCenter {#tablerowremovecenter} 
 
 ![TableRowRemoveCenter](/help/assets/icons/TableRowRemoveCenter.svg)
 
-## TableRowSplit {#tablerowsplit}
+## TableRowSplit {#tablerowsplit} 
 
 ![TableRowSplit](/help/assets/icons/TableRowSplit.svg)
 
-## TableSelectColumn {#tableselectcolumn}
+## TableSelectColumn {#tableselectcolumn} 
 
 ![TableSelectColumn](/help/assets/icons/TableSelectColumn.svg)
 
-## TableSelectRow {#tableselectrow}
+## TableSelectRow {#tableselectrow} 
 
 ![TableSelectRow](/help/assets/icons/TableSelectRow.svg)
 
-## Tableau {#tableau}
+## Tableau {#tableau} 
 
 ![Tableau](/help/assets/icons/Tableau.svg)
 
-## TagBold {#tagbold}
+## TagBold {#tagbold} 
 
 ![TagBold](/help/assets/icons/TagBold.svg)
 
-## TagItalic {#tagitalic}
+## TagItalic {#tagitalic} 
 
 ![TagItalic](/help/assets/icons/TagItalic.svg)
 
-## タグ下線 {#tagunderline}
+## TagUnderline {#tagunderline} 
 
-![ タグアンダーライン ](/help/assets/icons/TagUnderline.svg)
+![TagUnderline](/help/assets/icons/TagUnderline.svg)
 
-## Target {#target}
+## Target {#target} 
 
 ![Target](/help/assets/icons/Target.svg)
 
-## ターゲット {#targeted}
+## Targeted {#targeted} 
 
-![ ターゲット ](/help/assets/icons/Targeted.svg)
+![Targeted](/help/assets/icons/Targeted.svg)
 
-## TaskList {#tasklist}
+## TaskList {#tasklist} 
 
-![ タスクリスト ](/help/assets/icons/TaskList.svg)
+![TaskList](/help/assets/icons/TaskList.svg)
 
-## ティーポット {#teapot}
+## Teapot {#teapot} 
 
-![ ティーポット ](/help/assets/icons/Teapot.svg)
+![Teapot](/help/assets/icons/Teapot.svg)
 
-## 温度 {#temperature}
+## Temperature {#temperature} 
 
-![ 温度 ](/help/assets/icons/Temperature.svg)
+![Temperature](/help/assets/icons/Temperature.svg)
 
-## TestAB {#testab}
+## TestAB {#testab} 
 
 ![TestAB](/help/assets/icons/TestAB.svg)
 
-## TestABEdit {#testabedit}
+## TestABEdit {#testabedit} 
 
 ![TestABEdit](/help/assets/icons/TestABEdit.svg)
 
-## TestABGear {#testabgear}
+## TestABGear {#testabgear} 
 
 ![TestABGear](/help/assets/icons/TestABGear.svg)
 
-## TestABRemove {#testabremove}
+## TestABRemove {#testabremove} 
 
 ![TestABRemove](/help/assets/icons/TestABRemove.svg)
 
-## TestProfile {#testprofile}
+## TestProfile {#testprofile} 
 
 ![TestProfile](/help/assets/icons/TestProfile.svg)
 
-## テキスト {#text}
+## Text {#text} 
 
-![テキスト](/help/assets/icons/Text.svg)
+![Text](/help/assets/icons/Text.svg)
 
-## TextAdd {#textadd}
+## TextAdd {#textadd} 
 
 ![TextAdd](/help/assets/icons/TextAdd.svg)
 
-## TextAlignCenter {#textaligncenter}
+## TextAlignCenter {#textaligncenter} 
 
 ![TextAlignCenter](/help/assets/icons/TextAlignCenter.svg)
 
-## TextAlignJustify {#textalignjustify}
+## TextAlignJustify {#textalignjustify} 
 
 ![TextAlignJustify](/help/assets/icons/TextAlignJustify.svg)
 
-## TextAlignLeft {#textalignleft}
+## TextAlignLeft {#textalignleft} 
 
 ![TextAlignLeft](/help/assets/icons/TextAlignLeft.svg)
 
-## TextAlignRight {#textalignright}
+## TextAlignRight {#textalignright} 
 
 ![TextAlignRight](/help/assets/icons/TextAlignRight.svg)
 
-## TextBaselineShift {#textbaselineshift}
+## TextBaselineShift {#textbaselineshift} 
 
 ![TextBaselineShift](/help/assets/icons/TextBaselineShift.svg)
 
-## テキスト太字 {#textbold}
+## TextBold {#textbold} 
 
 ![TextBold](/help/assets/icons/TextBold.svg)
 
-## TextBulleted {#textbulleted}
+## TextBulleted {#textbulleted} 
 
 ![TextBulleted](/help/assets/icons/TextBulleted.svg)
 
-## TextBulletedAttach {#textbulletedattach}
+## TextBulletedAttach {#textbulletedattach} 
 
 ![TextBulletedAttach](/help/assets/icons/TextBulletedAttach.svg)
 
-## TextBulletedHierarchy {#textbulletedhierarchy}
+## TextBulletedHierarchy {#textbulletedhierarchy} 
 
 ![TextBulletedHierarchy](/help/assets/icons/TextBulletedHierarchy.svg)
 
-## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude}
+## TextBulletedHierarchyExclude {#textbulletedhierarchyexclude} 
 
 ![TextBulletedHierarchyExclude](/help/assets/icons/TextBulletedHierarchyExclude.svg)
 
-## TextColor {#textcolor}
+## TextColor {#textcolor} 
 
 ![TextColor](/help/assets/icons/TextColor.svg)
 
-## TextDecrease {#textdecrease}
+## TextDecrease {#textdecrease} 
 
 ![TextDecrease](/help/assets/icons/TextDecrease.svg)
 
-## TextEdit {#textedit}
+## TextEdit {#textedit} 
 
 ![TextEdit](/help/assets/icons/TextEdit.svg)
 
-## TextExclude {#textexclude}
+## TextExclude {#textexclude} 
 
 ![TextExclude](/help/assets/icons/TextExclude.svg)
 
-## TextIncrease {#textincrease}
+## TextIncrease {#textincrease} 
 
 ![TextIncrease](/help/assets/icons/TextIncrease.svg)
 
-## TextIndentDecore {#textindentdecrease}
+## TextIndentDecrease {#textindentdecrease} 
 
 ![TextIndentDecrease](/help/assets/icons/TextIndentDecrease.svg)
 
-## TextIndentIncrease {#textindentincrease}
+## TextIndentIncrease {#textindentincrease} 
 
 ![TextIndentIncrease](/help/assets/icons/TextIndentIncrease.svg)
 
-## 斜体 {#textitalic}
+## TextItalic {#textitalic} 
 
 ![TextItalic](/help/assets/icons/TextItalic.svg)
 
-## TextKerning {#textkerning}
+## TextKerning {#textkerning} 
 
-![ テキストカーニング ](/help/assets/icons/TextKerning.svg)
+![TextKerning](/help/assets/icons/TextKerning.svg)
 
-## TextLetteredLowerCase {#textletteredlowercase}
+## TextLetteredLowerCase {#textletteredlowercase} 
 
 ![TextLetteredLowerCase](/help/assets/icons/TextLetteredLowerCase.svg)
 
-## TextLetteredUpperCase {#textlettereduppercase}
+## TextLetteredUpperCase {#textlettereduppercase} 
 
 ![TextLetteredUpperCase](/help/assets/icons/TextLetteredUpperCase.svg)
 
-## TextNumbers {#textnumbered}
+## TextNumbered {#textnumbered} 
 
 ![TextNumbered](/help/assets/icons/TextNumbered.svg)
 
-## TextParagram {#textparagraph}
+## TextParagraph {#textparagraph} 
 
 ![TextParagraph](/help/assets/icons/TextParagraph.svg)
 
-## TextRoman 小文字 {#textromanlowercase}
+## TextRomanLowercase {#textromanlowercase} 
 
 ![TextRomanLowercase](/help/assets/icons/TextRomanLowercase.svg)
 
-## TextRomanUppercase {#textromanuppercase}
+## TextRomanUppercase {#textromanuppercase} 
 
 ![TextRomanUppercase](/help/assets/icons/TextRomanUppercase.svg)
 
-## TextSize {#textsize}
+## TextSize {#textsize} 
 
 ![TextSize](/help/assets/icons/TextSize.svg)
 
-## TextSizeAdd {#textsizeadd}
+## TextSizeAdd {#textsizeadd} 
 
 ![TextSizeAdd](/help/assets/icons/TextSizeAdd.svg)
 
-## TextSpaceAfter {#textspaceafter}
+## TextSpaceAfter {#textspaceafter} 
 
 ![TextSpaceAfter](/help/assets/icons/TextSpaceAfter.svg)
 
-## TextSpaceBefore {#textspacebefore}
+## TextSpaceBefore {#textspacebefore} 
 
 ![TextSpaceBefore](/help/assets/icons/TextSpaceBefore.svg)
 
-## 取り消し線 {#textstrikethrough}
+## TextStrikethrough {#textstrikethrough} 
 
-![ 取り消し線 ](/help/assets/icons/TextStrikethrough.svg)
+![TextStrikethrough](/help/assets/icons/TextStrikethrough.svg)
 
-## TextStroke {#textstroke}
+## TextStroke {#textstroke} 
 
 ![TextStroke](/help/assets/icons/TextStroke.svg)
 
-## TextStyle {#textstyle}
+## TextStyle {#textstyle} 
 
 ![TextStyle](/help/assets/icons/TextStyle.svg)
 
-## TextSubscript {#textsubscript}
+## TextSubscript {#textsubscript} 
 
 ![TextSubscript](/help/assets/icons/TextSubscript.svg)
 
-## TextSuperscript {#textsuperscript}
+## TextSuperscript {#textsuperscript} 
 
-![ 上付き文字 ](/help/assets/icons/TextSuperscript.svg)
+![TextSuperscript](/help/assets/icons/TextSuperscript.svg)
 
-## TextTracking {#texttracking}
+## TextTracking {#texttracking} 
 
-![ テキストトラッキング ](/help/assets/icons/TextTracking.svg)
+![TextTracking](/help/assets/icons/TextTracking.svg)
 
-## TextUnderline {#textunderline}
+## TextUnderline {#textunderline} 
 
 ![TextUnderline](/help/assets/icons/TextUnderline.svg)
 
-## ThumbDown {#thumbdown}
+## ThumbDown {#thumbdown} 
 
 ![ThumbDown](/help/assets/icons/ThumbDown.svg)
 
-## ThumbDownOutline {#thumbdownoutline}
+## ThumbDownOutline {#thumbdownoutline} 
 
 ![ThumbDownOutline](/help/assets/icons/ThumbDownOutline.svg)
 
-## Thumbup {#thumbup}
+## ThumbUp {#thumbup} 
 
 ![ThumbUp](/help/assets/icons/ThumbUp.svg)
 
-## ThumbUpOutline {#thumbupoutline}
+## ThumbUpOutline {#thumbupoutline} 
 
 ![ThumbUpOutline](/help/assets/icons/ThumbUpOutline.svg)
 
-## トレイン {#train}
+## Train {#train} 
 
-![ トレイン ](/help/assets/icons/Train.svg)
+![Train](/help/assets/icons/Train.svg)
 
-## TransferToPlatform {#transfertoplatform}
+## TransferToPlatform {#transfertoplatform} 
 
 ![TransferToPlatform](/help/assets/icons/TransferToPlatform.svg)
 
-## 透明度 {#transparency}
+## Transparency {#transparency} 
 
-![ 透明化 ](/help/assets/icons/Transparency.svg)
+![Transparency](/help/assets/icons/Transparency.svg)
 
-## トラップ {#trap}
+## Trap {#trap} 
 
-![ トラップ ](/help/assets/icons/Trap.svg)
+![Trap](/help/assets/icons/Trap.svg)
 
-## TreeCollapse {#treecollapse}
+## TreeCollapse {#treecollapse} 
 
 ![TreeCollapse](/help/assets/icons/TreeCollapse.svg)
 
-## TreeCollapseAll {#treecollapseall}
+## TreeCollapseAll {#treecollapseall} 
 
 ![TreeCollapseAll](/help/assets/icons/TreeCollapseAll.svg)
 
-## TreeExpand {#treeexpand}
+## TreeExpand {#treeexpand} 
 
 ![TreeExpand](/help/assets/icons/TreeExpand.svg)
 
-## TreeExpandAll {#treeexpandall}
+## TreeExpandAll {#treeexpandall} 
 
 ![TreeExpandAll](/help/assets/icons/TreeExpandAll.svg)
 
-## TreeView {#treeview}
+## TreeView {#treeview} 
 
 ![TreeView](/help/assets/icons/TreeView.svg)
 
-## TrendInspect {#trendinspect}
+## TrendInspect {#trendinspect} 
 
 ![TrendInspect](/help/assets/icons/TrendInspect.svg)
 
-## TrimPath {#trimpath}
+## TrimPath {#trimpath} 
 
 ![TrimPath](/help/assets/icons/TrimPath.svg)
 
-## トロフィー {#trophy}
+## Trophy {#trophy} 
 
-![ トロフィー ](/help/assets/icons/Trophy.svg)
+![Trophy](/help/assets/icons/Trophy.svg)
 
-## タイプ {#type}
+## Type {#type} 
 
-![タイプ](/help/assets/icons/Type.svg)
+![Type](/help/assets/icons/Type.svg)
 
-## 米国 {#usa}
+## USA {#usa} 
 
-![ 米国 ](/help/assets/icons/USA.svg)
+![USA](/help/assets/icons/USA.svg)
 
-## 下線 {#underline}
+## Underline {#underline} 
 
-![ アンダーライン ](/help/assets/icons/Underline.svg)
+![Underline](/help/assets/icons/Underline.svg)
 
-## 取り消し {#undo}
+## Undo {#undo} 
 
-![ 元に戻す ](/help/assets/icons/Undo.svg)
+![Undo](/help/assets/icons/Undo.svg)
 
-## グループ解除 {#ungroup}
+## Ungroup {#ungroup} 
 
-![ グループ解除 ](/help/assets/icons/Ungroup.svg)
+![Ungroup](/help/assets/icons/Ungroup.svg)
 
-## リンク解除 {#unlink}
+## Unlink {#unlink} 
 
-![ リンクを解除 ](/help/assets/icons/Unlink.svg)
+![Unlink](/help/assets/icons/Unlink.svg)
 
-## Unmerge {#unmerge}
+## Unmerge {#unmerge} 
 
-![ 結合解除 ](/help/assets/icons/Unmerge.svg)
+![Unmerge](/help/assets/icons/Unmerge.svg)
 
-## UnresolvedComment {#unresolvedcomment}
+## UnresolvedComment {#unresolvedcomment} 
 
 ![UnresolvedComment](/help/assets/icons/UnresolvedComment.svg)
 
-## UploadToCloud {#uploadtocloud}
+## UploadToCloud {#uploadtocloud} 
 
 ![UploadToCloud](/help/assets/icons/UploadToCloud.svg)
 
-## UploadToCloudOutline {#uploadtocloudoutline}
+## UploadToCloudOutline {#uploadtocloudoutline} 
 
 ![UploadToCloudOutline](/help/assets/icons/UploadToCloudOutline.svg)
 
-## ユーザー {#user}
+## User {#user} 
 
 <img src="./assets/icons/../../../assets/icons/User.svg">
 
-## UserActivity {#useractivity}
+## UserActivity {#useractivity} 
 
 ![UserActivity](/help/assets/icons/UserActivity.svg)
 
-## UserAdd {#useradd}
+## UserAdd {#useradd} 
 
-![ ユーザー追加 ](/help/assets/icons/UserAdd.svg)
+![UserAdd](/help/assets/icons/UserAdd.svg)
 
-## UserAdmin {#useradmin}
+## UserAdmin {#useradmin} 
 
 ![UserAdmin](/help/assets/icons/UserAdmin.svg)
 
-## ユーザー矢印 {#userarrow}
+## UserArrow {#userarrow} 
 
 ![UserArrow](/help/assets/icons/UserArrow.svg)
 
-## UserCheckedOut {#usercheckedout}
+## UserCheckedOut {#usercheckedout} 
 
 ![UserCheckedOut](/help/assets/icons/UserCheckedOut.svg)
 
-## UserDeveloper {#userdeveloper}
+## UserDeveloper {#userdeveloper} 
 
 ![UserDeveloper](/help/assets/icons/UserDeveloper.svg)
 
-## UserEdit {#useredit}
+## UserEdit {#useredit} 
 
 ![UserEdit](/help/assets/icons/UserEdit.svg)
 
-## UserExclude {#userexclude}
+## UserExclude {#userexclude} 
 
 ![UserExclude](/help/assets/icons/UserExclude.svg)
 
-## UserGroup {#usergroup}
+## UserGroup {#usergroup} 
 
-![ ユーザーグループ ](/help/assets/icons/UserGroup.svg)
+![UserGroup](/help/assets/icons/UserGroup.svg)
 
-## UserLock {#userlock}
+## UserLock {#userlock} 
 
 ![UserLock](/help/assets/icons/UserLock.svg)
 
-## UserShare {#usershare}
+## UserShare {#usershare} 
 
-![ ユーザー共有 ](/help/assets/icons/UserShare.svg)
+![UserShare](/help/assets/icons/UserShare.svg)
 
-## UsersAdd {#usersadd}
+## UsersAdd {#usersadd} 
 
 ![UsersAdd](/help/assets/icons/UsersAdd.svg)
 
-## UsersExclude {#usersexclude}
+## UsersExclude {#usersexclude} 
 
 ![UsersExclude](/help/assets/icons/UsersExclude.svg)
 
-## UsersLock {#userslock}
+## UsersLock {#userslock} 
 
 ![UsersLock](/help/assets/icons/UsersLock.svg)
 
-## UsersShare {#usersshare}
+## UsersShare {#usersshare} 
 
 ![UsersShare](/help/assets/icons/UsersShare.svg)
 
-## Variable {#variable}
+## Variable {#variable} 
 
-![ 変数 ](/help/assets/icons/Variable.svg)
+![Variable](/help/assets/icons/Variable.svg)
 
-## VectorDraw {#vectordraw}
+## VectorDraw {#vectordraw} 
 
 ![VectorDraw](/help/assets/icons/VectorDraw.svg)
 
-## VerticalMasonryGridView {#verticalmasonrygridview}
+## VerticalMasonryGridView {#verticalmasonrygridview} 
 
 ![VerticalMasonryGridView](/help/assets/icons/VerticalMasonryGridView.svg)
 
-## VideoCheckedOut {#videocheckedout}
+## VideoCheckedOut {#videocheckedout} 
 
 ![VideoCheckedOut](/help/assets/icons/VideoCheckedOut.svg)
 
-## VideoFilled {#videofilled}
+## VideoFilled {#videofilled} 
 
 ![VideoFilled](/help/assets/icons/VideoFilled.svg)
 
-## VideoOutline {#videooutline}
+## VideoOutline {#videooutline} 
 
 ![VideoOutline](/help/assets/icons/VideoOutline.svg)
 
-## ViewAllTag {#viewalltag}
+## ViewAllTag {#viewalltag} 
 
 ![ViewAllTag](/help/assets/icons/ViewAllTag.svg)
 
-## ViewBiWeek {#viewbiweek}
+## ViewBiWeek {#viewbiweek} 
 
 ![ViewBiWeek](/help/assets/icons/ViewBiWeek.svg)
 
-## ViewCard {#viewcard}
+## ViewCard {#viewcard} 
 
 ![ViewCard](/help/assets/icons/ViewCard.svg)
 
-## ViewCardOneCol {#viewcardonecol}
+## ViewCardOneCol {#viewcardonecol} 
 
 ![ViewCardOneCol](/help/assets/icons/ViewCardOneCol.svg)
 
-## ViewColumn {#viewcolumn}
+## ViewColumn {#viewcolumn} 
 
 ![ViewColumn](/help/assets/icons/ViewColumn.svg)
 
-## ViewDay {#viewday}
+## ViewDay {#viewday} 
 
 ![ViewDay](/help/assets/icons/ViewDay.svg)
 
-## ViewDetail {#viewdetail}
+## ViewDetail {#viewdetail} 
 
 ![ViewDetail](/help/assets/icons/ViewDetail.svg)
 
-## ViewGrid {#viewgrid}
+## ViewGrid {#viewgrid} 
 
 ![ViewGrid](/help/assets/icons/ViewGrid.svg)
 
-## ViewList {#viewlist}
+## ViewList {#viewlist} 
 
 ![ViewList](/help/assets/icons/ViewList.svg)
 
-## ViewRow {#viewrow}
+## ViewRow {#viewrow} 
 
 ![ViewRow](/help/assets/icons/ViewRow.svg)
 
-## ViewSingle {#viewsingle}
+## ViewSingle {#viewsingle} 
 
 ![ViewSingle](/help/assets/icons/ViewSingle.svg)
 
-## ViewStack {#viewstack}
+## ViewStack {#viewstack} 
 
 ![ViewStack](/help/assets/icons/ViewStack.svg)
 
-## ViewTable {#viewtable}
+## ViewTable {#viewtable} 
 
 ![ViewTable](/help/assets/icons/ViewTable.svg)
 
-## ViewWeek {#viewweek}
+## ViewWeek {#viewweek} 
 
 ![ViewWeek](/help/assets/icons/ViewWeek.svg)
 
-## ViewedMarkA {#viewedmarka}
+## ViewedMarkA {#viewedmarka} 
 
 ![ViewedMarkA](/help/assets/icons/ViewedMarkA.svg)
 
-## ビネット {#vignette}
+## Vignette {#vignette} 
 
-![ ビネット ](/help/assets/icons/Vignette.svg)
+![Vignette](/help/assets/icons/Vignette.svg)
 
-## 可視性 {#visibility}
+## Visibility {#visibility} 
 
-![ 可視性 ](/help/assets/icons/Visibility.svg)
+![Visibility](/help/assets/icons/Visibility.svg)
 
-## VisibilityOff {#visibilityoff}
+## VisibilityOff {#visibilityoff} 
 
 ![VisibilityOff](/help/assets/icons/VisibilityOff.svg)
 
-## 訪問 {#visit}
+## Visit {#visit} 
 
-![ 訪問 ](/help/assets/icons/Visit.svg)
+![Visit](/help/assets/icons/Visit.svg)
 
-## VisitShare {#visitshare}
+## VisitShare {#visitshare} 
 
 ![VisitShare](/help/assets/icons/VisitShare.svg)
 
-## VoiceOver {#voiceover}
+## VoiceOver {#voiceover} 
 
 ![VoiceOver](/help/assets/icons/VoiceOver.svg)
 
-## VolumeMute {#volumemute}
+## VolumeMute {#volumemute} 
 
-![ 音量ミュート ](/help/assets/icons/VolumeMute.svg)
+![VolumeMute](/help/assets/icons/VolumeMute.svg)
 
-## VolumeOne {#volumeone}
+## VolumeOne {#volumeone} 
 
 ![VolumeOne](/help/assets/icons/VolumeOne.svg)
 
-## VolumeThree {#volumethree}
+## VolumeThree {#volumethree} 
 
 ![VolumeThree](/help/assets/icons/VolumeThree.svg)
 
-## VolumeTwo {#volumetwo}
+## VolumeTwo {#volumetwo} 
 
 ![VolumeTwo](/help/assets/icons/VolumeTwo.svg)
 
-## ウォッチ {#watch}
+## Watch {#watch} 
 
-![ ウォッチ ](/help/assets/icons/Watch.svg)
+![Watch](/help/assets/icons/Watch.svg)
 
-## Web ページ {#webpages}
+## WebPages {#webpages} 
 
-![Web ページ ](/help/assets/icons/WebPages.svg)
+![WebPages](/help/assets/icons/WebPages.svg)
 
-## Web ページ {#webpage}
+## WebPage {#webpage} 
 
-![Web ページ ](/help/assets/icons/WebPage.svg)
+![WebPage](/help/assets/icons/WebPage.svg)
 
-## ワークフロー {#workflow}
+## Workflow {#workflow} 
 
-![ ワークフロー ](/help/assets/icons/Workflow.svg)
+![Workflow](/help/assets/icons/Workflow.svg)
 
-## WorkflowAdd {#workflowadd}
+## WorkflowAdd {#workflowadd} 
 
 ![WorkflowAdd](/help/assets/icons/WorkflowAdd.svg)
 
-## レンチ {#wrench}
+## Wrench {#wrench} 
 
-![ レンチ ](/help/assets/icons/Wrench.svg)
+![Wrench](/help/assets/icons/Wrench.svg)
 
-## ZoomIn {#zoomin}
+## ZoomIn {#zoomin} 
 
 ![ZoomIn](/help/assets/icons/ZoomIn.svg)
 
-## ZoomOut {#zoomout}
+## ZoomOut {#zoomout} 
 
 ![ZoomOut](/help/assets/icons/ZoomOut.svg)
 
+-->

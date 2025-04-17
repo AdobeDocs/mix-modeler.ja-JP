@@ -3,9 +3,9 @@ title: モデルインサイト
 description: Mix Modelerの履歴概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: bc48dc564042890856072a07c3a9715ba9dcdb87
+source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '2040'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,14 @@ ht-degree: 0%
 指定したモデルが最後に更新されると、[ モデルインサイト ](#model-insights)、[ アトリビューション ](#attribution)、[ 要因 ](#factors)、[ 診断 ](#diagnostics)、[ 履歴概要 ](#historical-overview) の 4 つのタブを使用してビジュアライゼーションが表示されます。
 
 各タブのビジュアライゼーションの基になる期間を変更できます。 日付範囲を入力するか、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して日付範囲を選択します。
+
+## モデルドリフト
+
+{{release-limited-testing-section}}
+
+モデル上でモデルドリフトが検出された場合は、後で通知するオプションやモデルを直ちに [**[!UICONTROL Retrain]**](overview.md#retrain) 示するオプションを含む **[!UICONTROL Model drift detected]** のダイアログが表示されます。 **[!UICONTROL Remind me later]** を選択すると、次の日または次のログイン時に通知されます。
+
+![ モデルドリフト検出ダイアログ ](/help/assets/model-drift-dialog.png)
 
 ## [!UICONTROL Model insights]
 
@@ -251,6 +259,19 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
    * [!UICONTROL Total volume]：ユーザーがタッチポイントにタッチした合計回数。 この数は、コンバージョンを達成するパスと、コンバージョンに至るパス *ではない* に表示されるタッチポイントを含みます。
 
 ![ 診断 ](/help/assets/model-insights-diagnostics.png)
+
+### モデルドリフト検出
+
+>[!AVAILABILITY]
+>
+>この節で説明している機能は、リリースの限定的テスト段階にあり、お使いの環境ではまだ使用できない可能性があります。 機能が一般入手可能になったら、このメモは削除されます。 Mix Modeler リリースプロセスについて詳しくは、[Mix Modeler機能リリース ](/help/releases/latest.md) を参照してください。
+>
+
+モデルのドリフトが検出されると、上部に **[!UICONTROL Model drift detected]** の通知が表示されます。
+
+![ モデルドリフト通知 ](/help/assets/model-drift-notification.png)
+
+「**[!UICONTROL Hide]**」を選択すると、通知が非表示になります。 通知は、翌日または次回のログイン時に再び表示されます。
 
 
 ## [!UICONTROL Historical overview]

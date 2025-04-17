@@ -4,9 +4,9 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 96d56adc0a24a45797fd8a837b405a3f5329c886
+source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -17,11 +17,18 @@ ht-degree: 2%
 
 これらのリリースノートは、Mix Modelerの最新リリースをカバーしています。 Mix Modeler リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
 
+## 2025 年 3～4 月
+
+| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+|---|---|---|---|
+| **モデルドリフト検出** | モデルを開くと、[ モデルのドリフトが検出されたときにモデルを再トレーニングするように求めるプロンプト ](/help/models/insights.md#model-drift) が表示されます。 | 2025 年 4 月 3 日（Pt） | t.b.d. |
+
+
 ## 2025 年 1～2 月
 
 | 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
 |---|---|---|---|
-| **ネストされた条件** | [ モデルの設定 ](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | t.b.d |
+| **ネストされた条件** | [ モデルの設定 ](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **レポートの表示** | データの調和の一部として定義した [ コンバージョン ](/help/harmonize-data/conversions.md#view-report) または [ マーケティングタッチポイント ](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **確認を削除** | [ プラン ](/help/models/overview.md#delete-models) または [ モデル ](/help/plans/overview.md#delete-plans) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
