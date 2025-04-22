@@ -3,9 +3,9 @@ title: モデルを作成
 description: Mix Modelerでモデルを構築する方法を説明します。
 feature: Models
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
-source-git-commit: 3b6b127bfaf79cee99a869b21ff0c1a911b3ad6c
+source-git-commit: b08a24856e28a1377728bc2c511f6ea483cbd0fd
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,15 @@ Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Mod
 
 1. **[!UICONTROL Spend share]** のセクションで以下を実行します。
 
-   * マーケティングデータが分散している場合にマーケティング投資率の履歴を使用してモデルに通知するには、**[!UICONTROL Allow spend share]** をアクティブ化します。
+   * マーケティングデータが分散している場合にマーケティング投資率の履歴を使用してモデルに通知するには、**[!UICONTROL Allow spend share]** をアクティブ化します。 この設定は、特に次のシナリオで推奨されます。
+      * チャネルに十分な観測がありません（例：低い支出頻度、インプレッション数、クリック数）。
+      * データがスパースな可能性のある、スパイキーだが通常の、そして潜在的に高価なメディア（一部のブランドのテレビなど）をモデリングしている場合。
+
+     >[!NOTE]
+     >
+     >1 回限りの投資（スーパーボウル広告など）の場合は、支出配分に依存するのではなく、要因としてそのデータを取り込むことを検討します。
+     >
+
 
 1. **[!UICONTROL MTA enabled]** のセクションで以下を実行します。
 
