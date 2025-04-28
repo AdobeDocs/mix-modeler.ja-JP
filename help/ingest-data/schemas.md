@@ -3,18 +3,18 @@ title: スキーマ
 description: データをMix Modelerに取り込むために必要なスキーマを管理する方法を説明します。
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
-source-git-commit: 9a6c1f1c12ab29da80a1997cfd31ca07b38eaa22
+source-git-commit: b0306ad6fad8966822ed14c67f159a4aefb4e3f8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 5%
+source-wordcount: '378'
+ht-degree: 6%
 
 ---
 
 # スキーマ
 
-スキーマを管理して、Experience Platformで取り込み、Mix Modelerで使用するデータをサポートするには、次の手順を実行します。
+Experience Platformで取り込み、Mix Modelerで使用するデータをサポートするスキーマを管理するには：
 
-1. Mix Modelerインターフェイスに移動します。
+1. Mix Modeler インターフェイスに移動します。
 
 1. **[!UICONTROL SETUP]** の下の「![ スキーマ ](/help/assets/icons/Schemas.svg)」 **[!UICONTROL Schemas]** を選択します。
 
@@ -22,11 +22,11 @@ ht-degree: 5%
 
 ## 集計または概要データ
 
-Experience Platformで取り込みMix Modelerで使用する集計データまたは概要データの基礎となるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
+Experience Platformで取り込みMix Modelerで使用する集計または概要データの基礎となるスキーマのベースとして、XDM Summary Metrics クラスを使用することを強くお勧めします。
 
 XDM Summary Metrics クラスは、次の場合に使用します。
 
-- 壁に囲まれた庭のデータ（例：FacebookまたはYouTubeのデータ）。
+- 壁に囲まれた庭のデータ、例えば Facebook やYouTubeからのデータ。
 
 - spx （S&amp;P 500 株価指数）のデータや気象データなどの外部要因データ
 
@@ -72,7 +72,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 ## サポートされるデータタイプ
 
-現在、Mix Modelerでは、Experience Platformデータタイプのサブセットをサポートしています。 [ スキーマ構成の基本）に記載されている次の基本データタイプ（フィールド ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) がサポートされています。
+現在、Mix Modelerは、Experience Platform データタイプのサブセットをサポートしています。 [ スキーマ構成の基本）に記載されている次の基本データタイプ（フィールド ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) がサポートされています。
 
 - 文字列
 - 整数
@@ -83,3 +83,8 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 - Byte
 - Date
 - Date-time
+
+
+>[!MORELIKETHIS]
+>
+>- [スキーマ](schemas.md)

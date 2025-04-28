@@ -3,10 +3,10 @@ title: データセットの調和の概要
 description: Mix Modelerでデータを調和させる方法を説明します。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: beee5fe52188f133b71ed3ef53e40c3aea06ab9c
+source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 8%
+source-wordcount: '1013'
+ht-degree: 7%
 
 ---
 
@@ -128,7 +128,7 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
 1. 左パネルから ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized datasets]** を選択します。
 
-1. 上部バーの「**[!UICONTROL Harmonized Data]**」を選択します。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
+1. 上部バーの「**[!UICONTROL Harmonized data]**」を選択します。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
 
    1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![ カレンダ ](/help/assets/icons/Calendar.svg) を使用してデータ範囲を選択します。
 
@@ -145,3 +145,13 @@ Facebook のマーケティング活動データセットが含まれ、集計�
    1. **[!UICONTROL Submit]** を選択して、列設定の変更を送信します。 「**[!UICONTROL Close]**」を選択して、加えた変更をキャンセルします。
 
 1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_]** を使用してページ間を移動します。
+
+1. 必要に応じて、統一データをダウンロードできます。
+
+   1. 「![ ダウンロード ](/help/assets/icons/Download.svg)[!BADGE  ベータ版 ]」を選択します。
+   1. ポップアップで、「![AddCircle](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Create]** プションを選択します。
+   1. **[!UICONTROL Report name]** （例：`Test Report`）を入力します。
+   1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]** を選択します。
+
+   指定したレポート名と現在の日時に基づくタイトルを含んだ CSV レポート（例：`Test Report_2025_04_23_9-5-18.csv`）が、デフォルトのダウンロードフォルダーにダウンロードされます。
+
