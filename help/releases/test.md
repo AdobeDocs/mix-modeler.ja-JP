@@ -30,7 +30,7 @@ Unicode 文字でテーブルをテストする
 
 >[!BEGINSHADEBOX]
 
-この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** のアトリビューションパネルに関するドキュメントです。この記事の <br/>CustomerJourneyAnalytics[&#128279;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution) **Customer Journey Analytics![&#128279;](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、 アトリビューションパネル** を参照してください。
+この記事は、![AdobeAnalytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics** のアトリビューションパネルに関するドキュメントです。この記事の <br/>CustomerJourneyAnalytics[&#128279;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution) **Customer Journey Analytics![&#128279;](/help/assets/icons/CustomerJourneyAnalytics.svg) バージョンについては、 アトリビューションパネル** を参照してください。
 
 >[!ENDSHADEBOX]
 

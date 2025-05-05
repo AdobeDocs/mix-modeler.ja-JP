@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # ポリシー
 
-ワークフローを実行してモデルを作成しモデルの設定を送信したら、違反がないかどうかを [ ポリシーの適用 ](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) が確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ操作とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためです。
+ワークフローを実行してモデルを作成しモデルの設定を送信したら、違反がないかどうかを [ ポリシーの適用 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) が確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ操作とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためです。
 
 デフォルトでは、Mix Modelerは次のラベルとマーケティングアクションに関連付けられたAdobe定義ポリシーの違反をチェックします。
 
@@ -61,7 +61,7 @@ Currently,  Mix Modeler does not support all of the data governance functionalit
 
 >[!MORELIKETHIS]
 >
->[データ使用ポリシーの概要](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/overview)
+>[データ使用ポリシーの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/policies/overview)
 >
 >
 
