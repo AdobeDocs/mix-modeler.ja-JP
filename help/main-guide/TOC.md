@@ -13,7 +13,7 @@ ht-degree: 47%
 
 + [Mix Modeler ガイド](/help/overview.md)
 
-+ {#get-started} の基本を学ぶ
++ の基本を学ぶ{#get-started}
    + [Mix Modelerとは](/help/get-started/about.md)
    + [アプリケーションワークフロー](/help/get-started/workflow.md)
 
@@ -34,7 +34,7 @@ ht-degree: 47%
    + [プランインサイト](/help/plans/insights.md)
    + [計画の比較](/help/plans/compare.md)
 
-+ のデータセット {#harmonize-data} 調和
++ のデータセット 調和 {#harmonize-data}
    + [概要](/help/harmonize-data/overview.md)
    + [フィールド](/help/harmonize-data/fields.md)
    + [データセットルール](/help/harmonize-data/dataset-rules.md)

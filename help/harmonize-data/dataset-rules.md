@@ -72,17 +72,17 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
       1. **[!UICONTROL Mapping type]** から **[!UICONTROL Count]** または **[!UICONTROL Sum]** を選択します。
 
-      1. デフォルトで統一フィールドをマッピングする **[!UICONTROL *AEP データセットフィールド&#x200B;*]**を選択します。
+      1. デフォルトで統一フィールドをマッピングする **[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;を選択します。
 
    1. 選択したフィールドのタイプがディメンションの場合：
 
       1. **[!UICONTROL Mapping type]** から **[!UICONTROL Map Into]** または **[!UICONTROL Case]** を選択します。
 
-      1. **[!UICONTROL Map Into]** を選択した場合、**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力した値にマッピングします。
+      1. **[!UICONTROL Map Into]** を選択した場合、**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力した値にマッピングします。
 
-      1. **[!UICONTROL Case]** を選択する場合、「**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力した値にマッピングします。
+      1. **[!UICONTROL Case]** を選択する場合、「**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力した値にマッピングします。
 
-         1. 値を明示的に設定するには、1 つ以上の条件で構成される 1 つ以上のケースを定義します。 各条件では、特定の **[!UICONTROL *AEP データセットフィールド&#x200B;*]****[!UICONTROL Exists]**または&#x200B;**[!UICONTROL Not Exists]**、**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**、または**[!UICONTROL * 入力値を入力 *]** で入力された値を **[!UICONTROL Ends With]** るかどうかを確認できます。
+         1. 値を明示的に設定するには、1 つ以上の条件で構成される 1 つ以上のケースを定義します。 各条件では、特定の **[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;**[!UICONTROL Exists]**&#x200B;または&#x200B;**[!UICONTROL Not Exists]**、**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**、または&#x200B;**[!UICONTROL * 入力値を入力 *]** で入力された値を **[!UICONTROL Ends With]** るかどうかを確認できます。
 
          1. 別のケースを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択します **[!UICONTROL Add case]**、別の条件を追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add condition]** を選択します。
 
@@ -144,7 +144,7 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 
 >[!NOTE]
 >
->[!BADGE  ベータ版 ]{type=Informative}
+>[!BADGE &#x200B; ベータ版 &#x200B;]{type=Informative}
 
 モデルを正確に予測するには、データの結合の環境設定を定義します。 この機能を使用すると、ユーザーは概要レベルとイベントレベルのデータを結合した後に競合を解決できます。
 
@@ -168,9 +168,9 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
 データの結合の環境設定を指定するには：
 
 
-1. ![ データ結合環境設定 ](/help/assets/icons/Merge.svg)[!BADGE  ベータ版 ] を選択します。
+1. ![ データ結合環境設定 ](/help/assets/icons/Merge.svg) [!BADGE &#x200B; ベータ版 &#x200B;] を選択します。
 
-1. **[!UICONTROL Data merge preferences]**[!BADGE  ベータ版 ]{type=Informative}
+1. **[!UICONTROL Data merge preferences]**&#x200B;[!BADGE &#x200B; ベータ版 &#x200B;]{type=Informative}
 
    ![ データ結合環境設定 ](/help/assets/data-merge-preferences.png)
 
@@ -179,7 +179,7 @@ Mix Modelerインターフェイスで使用可能なデータセットルール
    * 特定の指標ベースの環境設定を追加するには：
 
       1. ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** を選択します。
-         1. **[!UICONTROL *指標選択&#x200B;*]**リストから指標を選択します。
+         1. **[!UICONTROL *指標選択&#x200B;*]**&#x200B;リストから指標を選択します。
          1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。リストから、**[!UICONTROL All]** または特定のチャネルやコンバージョンのタイプを選択します。
          1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択して、データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に対して概要データまたはイベントデータを優先するかどうかを指定します。
 

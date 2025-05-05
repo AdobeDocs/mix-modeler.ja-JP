@@ -22,7 +22,7 @@ Mix Modelerでは、プランキャンバスを使用してプランを作成し
    1. **[!UICONTROL Setup]** のセクションで以下を実行します。
 
       1. **[!UICONTROL Plan name]** （例：`Demo plan`）を入力します。 **[!UICONTROL Description]** （例：`Demo plan for Luma company`）を入力します。
-      1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**
+      1. **[!UICONTROL _オプショ&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**を選択…_.]**
       1. ![ リンクアウト ](/help/assets/icons/LinkOut.svg)**[!UICONTROL Create model]** を選択して、プランの作成内から直接モデルを作成できます。 これにより、ブラウザーに新しいタブが開き、[ モデル ](../models/overview.md) インターフェイスが表示されます。
 
          ![ プラン設定 ](/help/assets/plan-setup.png)

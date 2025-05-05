@@ -32,7 +32,7 @@ ht-degree: 0%
 
 インターフェイスを閉じるには、「**[!UICONTROL Close]**」を選択します。
 
-プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL  %]** を選択します。
+プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL &#x200B; %]** を選択します。
 
 ## 予測された有料チャネル支出と ROI
 

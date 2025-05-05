@@ -144,11 +144,11 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
    1. **[!UICONTROL Submit]** を選択して、列設定の変更を送信します。 「**[!UICONTROL Close]**」を選択して、加えた変更をキャンセルします。
 
-1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_]** を使用してページ間を移動します。
+1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用してページ間を移動します。
 
 1. 必要に応じて、統一データをダウンロードできます。
 
-   1. 「![ ダウンロード ](/help/assets/icons/Download.svg)[!BADGE  ベータ版 ]」を選択します。
+   1. 「![ ダウンロード ](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ版 &#x200B;]」を選択します。
    1. ポップアップで、「![AddCircle](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Create]** プションを選択します。
    1. **[!UICONTROL Report name]** （例：`Test Report`）を入力します。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]** を選択します。

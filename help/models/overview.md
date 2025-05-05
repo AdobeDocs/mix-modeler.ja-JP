@@ -214,5 +214,5 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
 
 1. 複数のモデルを選択します。
 1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択してモデルを削除します。
-1. **[!UICONTROL Delete *x *モデル]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**を選択します。
+1. **[!UICONTROL Delete *x *モデル]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択します。
 

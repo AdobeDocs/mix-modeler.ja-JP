@@ -57,7 +57,7 @@ Mix Modelerインターフェイスで使用可能な統一フィールドのテ
 
 1. 左パネルから ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** を選択します。
 
-1. 上部バーの「**[!UICONTROL Fields]**」を選択します。 統一フィールドのテーブルが表示されます。 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_]** を使用して、テーブルのページ間を移動します。
+1. 上部バーの「**[!UICONTROL Fields]**」を選択します。 統一フィールドのテーブルが表示されます。 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用して、テーブルのページ間を移動します。
 
    テーブルの列は、統一フィールドの詳細を指定します
 
@@ -74,7 +74,7 @@ Mix Modelerインターフェイスで使用可能な統一フィールドのテ
 
    {style="table-layout:auto"}
 
-1. 特定の統一フィールドを検索するには、![ 検索 ](/help/assets/icons/Search.svg) 統一フィールドを検索 **[!UICONTROL *を使用&#x200B;*]**ます。
+1. 特定の統一フィールドを検索するには、![ 検索 ](/help/assets/icons/Search.svg) 統一フィールドを検索 **[!UICONTROL *を使用&#x200B;*]**&#x200B;ます。
 
 
 ### 統一フィールドの追加

@@ -22,7 +22,7 @@ Mix Modelerインターフェイスで使用可能なマーケティングタッ
 
 1. 左パネルから ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** を選択します。
 
-1. 上部バーの「**[!UICONTROL Marketing touchpoint]**」を選択します。 マーケティングタッチポイントのテーブルが表示されます。 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_]** を使用して、テーブルのページ間を移動します。
+1. 上部バーの「**[!UICONTROL Marketing touchpoint]**」を選択します。 マーケティングタッチポイントのテーブルが表示されます。 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用して、テーブルのページ間を移動します。
 
 テーブル列は、マーケティングタッチポイントの詳細を指定します。
 
@@ -48,11 +48,11 @@ Mix Modelerインターフェイスで使用可能なマーケティングタッ
 
    1. **[!UICONTROL Touchpoint rule]** を定義します。
 
-      1. **[!UICONTROL *統一された値を選択&#x200B;*]**から値を選択します（例：**[!UICONTROL Brand]**）。
+      1. **[!UICONTROL *統一された値を選択&#x200B;*]**&#x200B;から値を選択します（例：**[!UICONTROL Brand]**）。
 
       1. 演算子 ![ 山形 ](/help/assets/icons/ChevronDown.svg) の値を選択します（例：**[!UICONTROL is]**）。
 
-      1. **[!UICONTROL *値を選択&#x200B;*]**から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
+      1. **[!UICONTROL *値を選択&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
 
    1. **[!UICONTROL Touchpoint volume]** から統一フィールド（例：**[!UICONTROL Impressions]**）を選択します。
 

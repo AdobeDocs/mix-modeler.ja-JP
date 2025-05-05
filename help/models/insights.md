@@ -104,9 +104,9 @@ ht-degree: 0%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
-## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
+## **[!UICONTROL Factors]** [!BADGE &#x200B; ベータ版 &#x200B;]
 
-「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE &#x200B; ベータ版 &#x200B;]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 

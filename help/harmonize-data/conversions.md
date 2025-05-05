@@ -48,11 +48,11 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
    1. **[!UICONTROL Conversion category]** を定義します。
 
-      1. **[!UICONTROL *調和を選択…*]**の値を選択します（例：`Conversion types`）。
+      1. **[!UICONTROL *調和を選択…*]**&#x200B;の値を選択します（例：`Conversion types`）。
 
       1. 演算子 ![ 山形 ](/help/assets/icons/ChevronDown.svg) の値（例：**[!UICONTROL is]**）を選択します。
 
-      1. **[!UICONTROL *値を選択&#x200B;*]**から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
+      1. **[!UICONTROL *値を選択&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
 
    1. **[!UICONTROL Conversion metric for analysis]** から統一フィールド（例：**[!UICONTROL Orders]**）を選択します。
 
