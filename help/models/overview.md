@@ -3,9 +3,9 @@ title: モデルの概要
 description: Mix Modelerでモデルを作成して使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
 workflow-type: tm+mt
-source-wordcount: '1174'
+source-wordcount: '1208'
 ht-degree: 1%
 
 ---
@@ -201,6 +201,11 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
 
 1. 「**[!UICONTROL Score]**」を選択します。 特定のデータ範囲を使用してモデルを再スコアリングすると、**[!UICONTROL Existing model is replaced]** のダイアログが表示され、選択した日付範囲の新しいスコアでモデルを置き換えるかどうかを確認するように求められます。 「**[!UICONTROL Replace model]**」を選択して確定します。
 
+>[!IMPORTANT]
+>
+>モデルの再コアを実行しても、再コアされたモデルに基づいて既に作成されているプランは変更されません。 新しい再コアモデルをプランで使用するには、新しいプランを作成する必要があります。
+
+
 
 ### モデルを削除
 
@@ -214,5 +219,5 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
 
 1. 複数のモデルを選択します。
 1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択してモデルを削除します。
-1. **[!UICONTROL Delete *x *モデル]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. **[!UICONTROL Delete *x *モデル]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**を選択します。
 
