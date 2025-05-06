@@ -89,7 +89,7 @@ Mix Modelerのデータを操作するには、データセットで収集され
 * [ 概要 ](/help/overview.md) でビジュアライゼーションを使用する。
 * 統一データセットの [ 統一データ ](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) ことができます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home) ことができます。
 
 
 >[!MORELIKETHIS]
