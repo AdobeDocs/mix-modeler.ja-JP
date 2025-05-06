@@ -3,9 +3,9 @@ title: データの取り込みの概要
 description: データをMix Modelerに取り込む方法を説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '541'
 ht-degree: 10%
 
 ---
@@ -23,8 +23,7 @@ Mix Modelerは、イベントレベルのデータ、様々な壁庭からの集
 * ウォールガーデン（Facebook、YouTubeなど）、交通源、オフライン広告データからの集計または概要データ
 * モデルの構築に役立つ内部または外部の要因を含む、マーケティング以外の集計または概要データ。
 
-Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングおよびバッチ取得など。
-
+Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 取り込みメカニズムには、Experience Platform SDK、API、ソースコネクタ、ストリーミング取り込み、バッチ取り込みが含まれます。 Adobe Mix Modelerで使用するデータをExperience Platformで取り込む方法については、[ データ取り込みの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home) を参照してください。
 
 ## ガイドライン
 
@@ -90,7 +89,7 @@ Mix Modelerのデータを操作するには、データセットで収集され
 * [ 概要 ](/help/overview.md) でビジュアライゼーションを使用する。
 * 統一データセットの [ 統一データ ](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home) ことができます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) ことができます。
 
 
 >[!MORELIKETHIS]
