@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ。
-source-git-commit: 0ee212a626986e4c721d0e58f2528d0ca1a9fdbf
+source-git-commit: 1e2a6d1bc32060d6de02b7ac7c879da3046f69e7
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 47%
+source-wordcount: '88'
+ht-degree: 54%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 47%
 
 + [Mix Modeler ガイド](/help/overview.md)
 
-+ の基本を学ぶ{#get-started}
++ はじめに {#get-started}
    + [Mix Modelerとは](/help/get-started/about.md)
    + [アプリケーションワークフロー](/help/get-started/workflow.md)
 
@@ -25,16 +25,17 @@ ht-degree: 47%
 + モデル {#models}
    + [概要](/help/models/overview.md)
    + [モデルを作成](/help/models/build.md)
+   + [モデルのトレーニングとスコアリング](/help/models/train-score.md)
    + [モデルインサイト](/help/models/insights.md)
    + [スコアリングデータの使用](/help/models/scoring-data.md)
 
-+ 計画 {#plans}
++ プラン {#plans}
    + [概要](/help/plans/overview.md)
    + [プランの作成](/help/plans/build.md)
    + [プランインサイト](/help/plans/insights.md)
    + [計画の比較](/help/plans/compare.md)
 
-+ のデータセット 調和 {#harmonize-data}
++ データセットの調和 {#harmonize-data}
    + [概要](/help/harmonize-data/overview.md)
    + [フィールド](/help/harmonize-data/fields.md)
    + [データセットルール](/help/harmonize-data/dataset-rules.md)
@@ -42,7 +43,7 @@ ht-degree: 47%
    + [コンバージョン数](/help/harmonize-data/conversions.md)
    + [使用状況レポート](/help/harmonize-data/usage-report.md)
 
-+ データの取り込み {#ingest-data}
++ データの取得 {#ingest-data}
    + [概要](/help/ingest-data/overview.md)
    + [スキーマ](/help/ingest-data/schemas.md)
    + [データセット](/help/ingest-data/datasets.md)

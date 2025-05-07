@@ -3,9 +3,9 @@ title: モデルの概要
 description: Mix Modelerでモデルを作成して使用する方法を説明します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 8b0dfbe136986bc97c6793538518679b64d7801c
+source-git-commit: 6855d19347b7f6f1477a6265310df5950b8463c9
 workflow-type: tm+mt
-source-wordcount: '1208'
+source-wordcount: '924'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
    * ![ クロック ](/help/assets/icons/Clock.svg) - モデルライフサイクルで現在ステップの進行中の実行を示します。
    * ![ 閉じる ](/help/assets/icons/Close.svg) - モデルのライフサイクルでのステップの実行失敗を示します。
 
-   | ステータス |  の作成 | トレイン | スコア | 再トレーニング | Rescore |
+   | ステータス | [ ビルド ](/help/models/build.md) | [ トレイン ](/help/models/train-score.md#train) | [スコア](/help/models/train-score.md#score) | [ 再トレーニング ](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
    | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | | |
    | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ 時計 ](/help/assets/icons/Clock.svg) | | | |
@@ -150,61 +150,14 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
 
 
 
-### 再トレーニング
+### トレイン
 
-モデルの再トレーニングは、正常にトレーニングされたモデルでのみ使用できます。
-
-次の場合は、モデルの再トレーニングを検討してください。
-
-* 新しい増分マーケティングおよび要因データを含めます。 例えば、前四半期の市場力学が変更されたり、マーケティングデータ配分が大幅に変更されたりしたとします。
-
-モデルを再トレーニングするには、次の手順に従います。
-
-1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
-
-1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Train]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** を選択します。
-
-   **[!UICONTROL Train model]** ダイアログで、次の操作を実行するオプションを選択します。
-
-   * **[!UICONTROL Train model with last 2 years of marketing data]**、または
-   * **[!UICONTROL Train model using specific date range of data]**。
-日付範囲を指定します。 ![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。 最低 1 年のデータ範囲を選択する必要があります。
-
-   ![ モデルの再トレーニング ](../assets/retrain-model.png)
-
-1. モデルを再トレーニングする **[!UICONTROL Train]** を選択します。
+新しい増分マーケティングと要因データを含める場合は、モデルの再トレーニングを検討してください。 詳しくは、[ モデルのトレーニングとスコアリング ](train-score.md#train) を参照してください。
 
 
-### スコアまたは再コア
+### スコア
 
-
-新しいマーケティングデータに基づいてモデルを増分的にスコアリングしたり、特定の日付範囲でモデルを再コア化したりできます。
-
-次の場合は、モデルの再コアを検討してください。
-
-* 間違ったマーケティングデータを修正します。 例えば、モデルのトレーニングとスコアリングに含めた最近の有料検索データが、1 週間のデータを見逃したとします。
-* 調和されたデータの一部として設定したデータセットの更新によって利用可能になった新しい増分マーケティングデータを使用します。
-
-モデルをスコアリングまたは再コアするには：
-
-1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
-
-1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Score]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** を選択します。
-
-   **[!UICONTROL Score marketing data]** ダイアログで、次の操作を実行するオプションを選択します。
-
-   * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**：新しいマーケティングデータを使用してモデルに増分的にスコアを付ける
-   * 特定の日付範囲で再コアする **[!UICONTROL Score specific date range of marketing data]**。
-日付範囲を指定します。 ![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。
-
-   ![ モデルの再コア ](../assets/rescore-model.png)
-
-1. 「**[!UICONTROL Score]**」を選択します。 特定のデータ範囲を使用してモデルを再スコアリングすると、**[!UICONTROL Existing model is replaced]** のダイアログが表示され、選択した日付範囲の新しいスコアでモデルを置き換えるかどうかを確認するように求められます。 「**[!UICONTROL Replace model]**」を選択して確定します。
-
->[!IMPORTANT]
->
->モデルの再コアを実行しても、再コアされたモデルに基づいて既に作成されているプランは変更されません。 新しい再コアモデルをプランで使用するには、新しいプランを作成する必要があります。
-
+新しいマーケティングデータに基づいてモデルを増分的にスコアリングしたり、特定の日付範囲でモデルを再コア化したりできます。 詳しくは、[ モデルのトレーニングとスコアリング ](train-score.md#score) を参照してください。
 
 
 ### モデルを削除
@@ -219,5 +172,5 @@ Mix Modeler インターフェイスで現在のモデルのテーブルを表�
 
 1. 複数のモデルを選択します。
 1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択してモデルを削除します。
-1. **[!UICONTROL Delete *x *モデル]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. **[!UICONTROL Delete *x *モデル]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、モデルを削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**を選択します。
 
