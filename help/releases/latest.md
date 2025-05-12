@@ -4,9 +4,9 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 85f9b42a775006cd3566447b2bb9d0a806fa3e73
+source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '365'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,8 @@ ht-degree: 2%
 
 | 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
 |---|---|---|---|
-| **モデルドリフト検出** | モデルを開くと、[ モデルのドリフトが検出されたときにモデルを再トレーニングするように求めるプロンプト ](/help/models/insights.md#model-drift) が表示されます。 | 2025 年 4 月 3 日（Pt） | t.b.d. |
+| **モデルドリフト検出** | モデルを開くと、[ モデルのドリフトが検出されたときに、モデルを再トレーニングするように求めるプロンプト ](/help/models/insights.md#model-drift) が表示されます。 | 2025 年 4 月 3 日（Pt） | 2025 年 5 月 7 日（Pt） |
+| **プランインサイトでの限界的なチャネルリターン** | プランインサイトに [ マージナルチャネルリターン ](/help/plans/insights.md#marginal-channel-return) ビジュアライゼーションが追加され、すべてのチャネルまたは選択したチャネルに対して、マージナルブレークが均等でプランリターンが表示されます。 | 2025 年 4 月 3 日（Pt） | 2025 年 4 月 24 日（Pt） |
 
 
 ## 2025 年 1～2 月
