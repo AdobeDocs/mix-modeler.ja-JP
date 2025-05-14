@@ -3,9 +3,9 @@ title: プランインサイト
 description: Mix Modelerでプランのインサイトを確認し、プランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: fbed53a1c394d6d110db6a8a181ca815056377de
+source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 インターフェイスを閉じるには、「**[!UICONTROL Close]**」を選択します。
 
-プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL &#x200B; %]** を選択します。
+プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL  %]** を選択します。
 
 ## 予測された有料チャネル支出と ROI
 
@@ -114,6 +114,39 @@ ht-degree: 0%
       1. 「**[!UICONTROL Next]**」を選択すると、「**[!UICONTROL Spend]**」セクションに戻ります。 「**[!UICONTROL Cancel]**」を選択して、計画の概要に戻ります。
 
          ![ 計画の詳細 ](/help/assets/plan-details.png)
+
+   1. プランの詳細設定を定義した場合は、「**[!UICONTROL Next]**」を選択します。
+
+      ![ 詳細設定を編集 ](../assets/edit-plan-advanced-configuration.png)
+
+      - 計画名、モデル、日付範囲および予算合計が要約されます。
+
+      - デフォルトでは、Mix Modelerは、最新の季節的な履歴データを使用して、コンバージョンあたりの平均売上高を自動計算します。 で **[!UICONTROL Average Revenue per conversion]**、コンバージョンごとの特定の平均売上高を定義できます。
+
+         1. 予算の日付範囲ごとに、次の操作を行います。
+            1. **[!UICONTROL Date range]** ドロップダウンメニューから日付範囲を選択します。
+            1. **[!UICONTROL Average revenue]** 値を入力します。
+
+         1. 「![AddCircle](/help/assets/icons/AddCircle.svg)」を選択し、コンバージョン単位あたりのカスタム平均売上高を追加して、日付範囲を追加します。
+         1. ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) を選択して、日付範囲を削除します。
+
+        >[!NOTE]
+        >
+        >モデルに収益履歴データが含まれていない場合は、予算に指定した日付範囲ごとに、コンバージョンごとの平均売上高を定義する必要があります。
+        >
+
+      - デフォルトでは、Mix Modelerは、最新の季節別の履歴データを使用してチャネルコストを自動計算します。 **[!UICONTROL Channel costs]** の中で、カスタムチャネルのコストを定義できます。
+
+         1. モデルのチャネルごとに、カスタムチャネルコストを定義します。
+            1. **[!UICONTROL Channel]** ドロップダウンメニューからチャネルを選択します。
+            1. 予算の日付範囲ごとに、次の操作を行います。
+               1. **[!UICONTROL Date range]** ドロップダウンメニューから日付範囲を選択します。
+               1. **[!UICONTROL Average revenue]** 値を入力します。
+            1. ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom average revenue per conversion unit]** を選択して、日付範囲を追加します。
+            1. ![RemoveCircle](/help/assets/icons/RemoveCircle.svg) を選択して、日付範囲を削除します。
+
+         1. ![AddCircle](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add custom channel cost]** を選択して、チャンネルを追加します。
+         1. ![CrossSize400](/help/assets/icons/CrossSize400.svg) を選択して、カスタムチャネルを削除します。
 
 
 1. 計画の編集が終了したら、「**[!UICONTROL Edit]**」を選択します。
