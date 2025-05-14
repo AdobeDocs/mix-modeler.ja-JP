@@ -3,7 +3,7 @@ title: プランの作成
 description: Mix Modelerでプランを作成する方法を説明します。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
+source-git-commit: 3650135ee3ed5c435593aeed94bee8952bbe6df4
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Mix Modelerでは、プランキャンバスを使用してプランを作成し
    1. **[!UICONTROL Setup]** のセクションで以下を実行します。
 
       1. **[!UICONTROL Plan name]** （例：`Demo plan`）を入力します。 **[!UICONTROL Description]** （例：`Demo plan for Luma company`）を入力します。
-      1. **[!UICONTROL _オプショ&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**を選択…_.]**
+      1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**
       1. ![ リンクアウト ](/help/assets/icons/LinkOut.svg)**[!UICONTROL Create model]** を選択して、プランの作成内から直接モデルを作成できます。 これにより、ブラウザーに新しいタブが開き、[ モデル ](../models/overview.md) インターフェイスが表示されます。
 
          ![ プラン設定 ](/help/assets/plan-setup.png)
@@ -84,10 +84,10 @@ Mix Modelerでは、プランキャンバスを使用してプランを作成し
    1. 通貨またはパーセンテージの入力を切り替えるには、「**[!UICONTROL View spend by]**」で「**[!UICONTROL $]**」または「**[!UICONTROL %]**」を選択します。
 
    1. 終了したら「**[!UICONTROL Create]**」を選択します。
-
       ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
 
    1. **[!UICONTROL Next]** を選択します。
+
 
 
 1. 「**[!UICONTROL Advanced configurations]**」セクションでは、オプションで詳細設定を入力できます。
