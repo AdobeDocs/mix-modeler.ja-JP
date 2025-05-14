@@ -3,9 +3,9 @@ title: プランインサイト
 description: Mix Modelerでプランのインサイトを確認し、プランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '926'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 インターフェイスを閉じるには、「**[!UICONTROL Close]**」を選択します。
 
-プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL &#x200B; %]** を選択します。
+プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL  %]** を選択します。
 
 ## 予測された有料チャネル支出と ROI
 
@@ -84,13 +84,27 @@ ht-degree: 0%
 
 1. プランを編集するには、「![ 編集 ](/help/assets/icons/Edit.svg)」を選択します **[!UICONTROL Edit plan]**
 
-   1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets/icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
+   **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets/icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
+
+   過去のマーケティング費用データとインサイトを使用する場合は、履歴参照データを使用できます。 次の目的で、履歴参照データを検討する必要があります。
+
+   - パフォーマンスの高いチャネルとパフォーマンスの低いチャネルを強調することで、予算割り当てを改善します。
+   - トレンド分析をサポートします。
+   - 効果的な戦略を特定し、計画の設定時にミスを避けます。
+
+   過去の参照期間を選択した場合は、以前の支出パターンの環境設定に合わせて、Mix Modelerの計画機能で期待通りの計画を作成できます。 これらの計画は、最終的に関係者の信頼を高め、マーケティング計画が戦略的かつ効率的であり、これらの計画が実績データおよびビジネスニーズに基づいていることを確認する必要があります。
+
+   ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
+
+   1. 「**[!UICONTROL Spend pattern]**」を選択します。
+
+      - デフォルトでは **[!UICONTROL Automatic]** です。
+      - 「**[!UICONTROL Historical reference]**」を選択し、**[!UICONTROL Start date]** を入力して、Mix Modelerで既に使用可能な過去のマーケティング費用データを参照します。 選択したデータ範囲に基づいて、**[!UICONTROL End date]** が自動的に決定されます。 提案された開始日は、利用可能な過去のマーケティング費用データのうち最初に利用できるものです。 存在しない履歴参照期間を選択したことを示すために、![AlertRed](/help/assets/icons/AlertRed.svg) が表示されます。
+
 
    1. 各チャネルの予算を変更するには、「**[!UICONTROL Min]**」と「**[!UICONTROL Max]**」の値を変更するか、スライダーを使用します。
 
    1. 通貨またはパーセンテージの入力を切り替えるには、「**[!UICONTROL View spend by]**」で「**[!UICONTROL $]**」または「**[!UICONTROL %]**」を選択します。
-
-      ![ 費用の選択 ](/help/assets/spend-selection.png)
 
    1. プランの詳細を編集するには、**[!UICONTROL Edit details]** を選択します。
 

@@ -4,18 +4,26 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 9b400aeac26a3b02a8dfaf1faad435e0d3ac6cd8
+source-git-commit: 58f8745a224407cfb8ce3912bde9f0f85b5d8b46
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '433'
 ht-degree: 2%
 
 ---
 
 # 最新のMix Modeler リリースノート
 
-**最終更新日**:2025 年 2 月。
+**最終更新日**:2025 年 5 月 14 日（PT）。
 
 これらのリリースノートは、Mix Modelerの最新リリースをカバーしています。 Mix Modeler リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
+
+
+## 2025 年 5 月～6 月
+
+| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+|---|---|---|---|
+| **費用パターン設定** | プランを作成する際に、各予算の日付範囲に対して支出パターンを定義する際に、[ 履歴参照 ](/help/plans/build.md) データ（過去のマーケティング支出データやインサイトなど）を使用するオプションが追加されました。 | 2025 年 5 月 14 日（Pt） | 2025 年 5 月 14 日（Pt） |
+| **高度なプラン設定** | コンバージョンあたりの平均売上高やチャネルコストなど、プランの [ 高度な設定 ](/help/plans/build.md) を定義できます。 | 2025 年 5 月 14 日（Pt） | 2025 年 5 月 14 日（Pt） |
 
 ## 2025 年 3～4 月
 

@@ -3,10 +3,10 @@ title: プランの作成
 description: Mix Modelerでプランを作成する方法を説明します。
 feature: Plans
 exl-id: 6d61d0b2-5871-4d00-9a35-73fff0a1c3e5
-source-git-commit: 3545a7045478108db4d9f6bb87df679bfede5a45
+source-git-commit: 1d017960409e5433ac6b4950a5cf7a5b3174840a
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 0%
+source-wordcount: '708'
+ht-degree: 1%
 
 ---
 
@@ -23,7 +23,7 @@ Mix Modelerでは、プランキャンバスを使用してプランを作成し
    1. **[!UICONTROL Setup]** のセクションで以下を実行します。
 
       1. **[!UICONTROL Plan name]** （例：`Demo plan`）を入力します。 **[!UICONTROL Description]** （例：`Demo plan for Luma company`）を入力します。
-      1. **[!UICONTROL _オプショ&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**を選択…_.]**
+      1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**
       1. ![ リンクアウト ](/help/assets/icons/LinkOut.svg)**[!UICONTROL Create model]** を選択して、プランの作成内から直接モデルを作成できます。 これにより、ブラウザーに新しいタブが開き、[ モデル ](../models/overview.md) インターフェイスが表示されます。
 
          ![ プラン設定 ](/help/assets/plan-setup.png)
@@ -50,7 +50,8 @@ Mix Modelerでは、プランキャンバスを使用してプランを作成し
 
    ![ 計画完了 ](/help/assets/plan-done-required-fields.png)
 
-   * 予測 ROI を持つ AI 推奨プランを生成する場合は、「![ 新規プラン ](../assets/icons/NewPlan.svg)**[!UICONTROL Create plan now]**」を選択します。
+   * 予測 ROI を持つ AI 推奨プランを生成する場合は、「![ 新規プラン ](/help/assets/icons/NewPlan.svg)**[!UICONTROL Create plan now]**」を選択します。
+
 
      「**[!UICONTROL OK]**」を選択します。 プランが作成されます。
 
@@ -61,12 +62,28 @@ Mix Modelerでは、プランキャンバスを使用してプランを作成し
 
 
 
-1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets/icons/ChevronRight.svg) の上部を使用して、そのデータ範囲のチャネル分布ビューを開きます。
+1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets/icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
+
+   過去のマーケティング費用データとインサイトを使用する場合は、履歴参照データを使用できます。 次の目的で、履歴参照データを検討する必要があります。
+
+   * パフォーマンスの高いチャネルとパフォーマンスの低いチャネルを強調することで、予算割り当てを改善します。
+   * トレンド分析をサポートします。
+   * 効果的な戦略を特定し、計画の設定時にミスを避けます。
+
+   過去の参照期間を選択した場合は、以前の支出パターンの環境設定に合わせて、Mix Modelerの計画機能で期待通りの計画を作成できます。 これらの計画は、最終的に関係者の信頼を高め、マーケティング計画が戦略的かつ効率的であり、これらの計画が実績データおよびビジネスニーズに基づいていることを確認する必要があります。
+
+   ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
+
+   1. 「**[!UICONTROL Spend pattern]**」を選択します。
+
+      * デフォルトでは **[!UICONTROL Automatic]** です。
+      * 「**[!UICONTROL Historical reference]**」を選択し、**[!UICONTROL Start date]** を入力して、Mix Modelerで既に使用可能な過去のマーケティング費用データを参照します。 **[!UICONTROL End date]** は、支出パターンを定義したデータ範囲に基づいて自動的に決定されます。 提案された開始日は、利用可能な過去のマーケティング費用データのうち最初に利用できるものです。 存在しない履歴参照期間または無効な履歴参照期間を選択したことを示すために、![AlertRed](/help/assets/icons/AlertRed.svg) が表示されます。
 
    1. 各チャネルの予算を定義するには、**[!UICONTROL Min]** と **[!UICONTROL Max]** の値を入力するか、スライダーを使用します。
 
    1. 通貨またはパーセンテージの入力を切り替えるには、「**[!UICONTROL View spend by]**」で「**[!UICONTROL $]**」または「**[!UICONTROL %]**」を選択します。
 
+   1. 終了したら「**[!UICONTROL Create]**」を選択します。
       ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
 
    1. **[!UICONTROL Next]** を選択します。
