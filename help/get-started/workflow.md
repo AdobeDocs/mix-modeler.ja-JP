@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Mix Modelerのユーザーワークフローの概要については、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3440204/?learn=on&captions=jpn)
 
 
 Mix Modelerの一般的なワークフローは、次のアクティビティで構成されます。
