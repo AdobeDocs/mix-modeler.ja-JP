@@ -1,20 +1,20 @@
 ---
-title: Mix Modelerワークフロー
-description: Mix Modelerの一般的なワークフローを理解する。
+title: Mix Modeler ワークフロー
+description: Mix Modelerの一般的なワークフローを理解する
 feature: Ingest Data, Plans, Harmonized Data, Models
 exl-id: 200ff846-5d78-4b25-a425-bfd558b88c88
-source-git-commit: f12eea7454d1c81b347dc4960f5c491d81725f7d
+source-git-commit: bdb5992ba1e6a4e5aa546b6ffb8e9673ed69be22
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 1%
+source-wordcount: '236'
+ht-degree: 0%
 
 ---
 
-# Mix Modelerワークフロー
+# Mix Modeler ワークフロー
 
 Mix Modelerのユーザーワークフローの概要については、このビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3440204/?learn=on&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3424854/?learn=on)
 
 
 Mix Modelerの一般的なワークフローは、次のアクティビティで構成されます。
@@ -27,11 +27,14 @@ Mix Modelerの一般的なワークフローは、次のアクティビティで
 | ![ データチェック ](/help/assets/icons/DataCheck.svg){width="100"} | [**データのハーモナイズ**](../harmonize-data/overview.md) | マッピングルールと競合解決ルールを設定して、Mix Modelerでキャンペーンのパフォーマンスを測定および計画するために必要な様々なマーケティングデータセットを結合します。 |
 | ![FileConfig](/help/assets/icons/FileGear.svg){width="100"} | [**モデルの作成**](../models/overview.md) | マーケティングタッチポイント（チャネルなど）、コンバージョン定義、内部要因および外部要因を持つモデルインスタンスを作成します。 |
 | ![FileData](/help/assets/icons/FileData.svg){width="100"} | [**モデルのトレーニングとスコアリング**](../models/overview.md) | 機械学習のトレーニングとスコアリングを使用して、集計レベルとイベントレベルのスコアを作成します。 |
-| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**プランの作成**](../plans/overview.md) | プランを作成および作成します。 Mix Modelerのモデルの出力を使用して、ビジネス目標を達成するためのマーケティング資金の最適な配分を決定します。 |
+| ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**プランの作成**](../plans/overview.md) | プランを作成および作成します。 Mix Modeler モデルの出力を使用して、ビジネス目標を達成するためのマーケティング資金の最適な配分を決定します。 |
 | ![ ダッシュボード ](/help/assets/icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 様々な設定可能なビジュアライゼーションを使用して、統一されたデータ、モデルおよびプランに関するインサイトを取得します。 |
 
 {style="table-layout:auto"}
 
+入力データがMix Modelerにどのように流れ込むか、およびMix Modelerが独自のインターフェイスだけでなく、Customer Journey Analyticsなどの他のソリューションの出力データを生成する方法の概要を以下に示します。
+
+![Mix Modeler入出力データフロー ](../assets/mm-input-output.png)
 <!---
 The detailed data-oriented flowchart below illustrates how:
 
