@@ -3,10 +3,10 @@ title: データセットの調和の概要
 description: Mix Modelerでデータを調和させる方法を説明します。
 feature: Harmonized Data
 exl-id: 6cb70762-e3b2-46a0-b028-1d6daf3edae5
-source-git-commit: 857641f6c1db749f79056ce2a2ea35fc4d3e3a3c
+source-git-commit: 80fbb8aea3e66342a7887f1660af0f4bf05ffcdb
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 7%
+source-wordcount: '1192'
+ht-degree: 6%
 
 ---
 
@@ -144,14 +144,38 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
    1. **[!UICONTROL Submit]** を選択して、列設定の変更を送信します。 「**[!UICONTROL Close]**」を選択して、加えた変更をキャンセルします。
 
-1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用してページ間を移動します。
+1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **[!UICONTROL Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_]** を使用してページ間を移動します。
 
 1. 必要に応じて、統一データをダウンロードできます。
 
-   1. 「![ ダウンロード ](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ版 &#x200B;]」を選択します。
+   1. 「![ ダウンロード ](/help/assets/icons/Download.svg)[!BADGE  ベータ版 ]」を選択します。
    1. ポップアップで、「![AddCircle](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Create]** プションを選択します。
    1. **[!UICONTROL Report name]** （例：`Test Report`）を入力します。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]** を選択します。
 
    指定したレポート名と現在の日時に基づくタイトルを含んだ CSV レポート（例：`Test Report_2025_04_23_9-5-18.csv`）が、デフォルトのダウンロードフォルダーにダウンロードされます。
+
+
+## ベストプラクティス
+
+統一データセットを作成する場合は、次のベストプラクティスを適用してください。
+
+### スキーマ
+
+* データタイプの不一致を回避します。 不一致は、取り込んだデータセットのレコード内のフィールドのデータタイプが、基になるスキーマでそのフィールドに設定したデータタイプに準拠していない場合に発生します。
+* 間違ったスキーマタイプを避けます。 データのスキーマに一致しないデータセットを使用して特定のタイプのデータを取り込もうとすると、間違ったスキーマタイプが発生します。 例えば、外部要因データセットを使用して概要データを取り込もうとします。
+
+### データマッピング
+
+* 各イベントデータセットの ID が正しく設定されていることを確認します。
+
+### データ品質
+
+* タイムスタンプ付きデータを必要とするデータセット内のすべてのレコードに対して、日付形式と時刻形式を一貫して使用するようにします。
+* 集計データセットまたは概要データセットのレコードに対して、同じ精度（日または週）を使用してください。
+
+### データの計算
+
+* データセット内で重複する行を避けます。
+* アップロードする各データセットが、一意のチャネルとコンバージョンタイプに固有であることを確認します。 複数のデータセットをまたいだタッチポイントまたはコンバージョンの重複は、モデルの出力と品質に影響を与えます。
 
