@@ -25,7 +25,7 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
    1. **[!UICONTROL Setup]** のセクションで以下を実行します。
 
       1. **[!UICONTROL Plan name]** （例：`Goal based plan`）を入力します。 **[!UICONTROL Description]** （例：`A goal based plan`）を入力します。
-      1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**
+      1. **[!UICONTROL _オプショ&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**を選択…_.]**
 
          ![ プラン設定 ](/help/assets/plan-setup.png)
 
@@ -108,6 +108,7 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
    1. 通貨またはパーセンテージの入力を切り替えるには、「**[!UICONTROL View spend by]**」で「**[!UICONTROL $]**」または「**[!UICONTROL %]**」を選択します。 通貨ベースではないターゲット指標を選択した場合、この切替スイッチは無効になります。
 
    1. 終了したら「**[!UICONTROL Create]**」を選択します。
+
       ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
 
    1. **[!UICONTROL Next]** を選択します。

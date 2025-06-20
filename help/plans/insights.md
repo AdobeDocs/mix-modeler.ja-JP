@@ -21,8 +21,8 @@ ht-degree: 0%
 - プランのベースとなる [!UICONTROL Model]、[!UICONTROL Data range] および [!UICONTROL Plan target] を表示するヘッダー。
    - 目標ベースのプランを定義した場合、バッジにターゲットのステータスが示されます。可能なオプションは次のとおりです。
 
-      - [!BADGE Target 達成可能 ]{type=Positive}
-      - [!BADGE Target 実現不可能 ]{type=Negative}
+      - [!BADGE Target 達成可能 &#x200B;]{type=Positive}
+      - [!BADGE Target 実現不可能 &#x200B;]{type=Negative}
 
    - ![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]** を選択すると、詳細が表示されます。
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 インターフェイスを閉じるには、「**[!UICONTROL Close]**」を選択します。
 
-プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL  %]** を選択します。
+プランの ROI の表示方法を変更するには、**[!UICONTROL View ROI]** で **[!UICONTROL X]** または **[!UICONTROL &#x200B; %]** を選択します。
 
 ## 予測された有料チャネル支出と ROI
 
@@ -120,7 +120,7 @@ ht-degree: 0%
       1. **[!UICONTROL Setup]** のセクションで以下を実行します。
 
          1. **[!UICONTROL Plan name]** （例：`Demo plan`）を入力します。 **[!UICONTROL Description]** （例：`Demo plan for Luma company`）を入力します。
-         1. **[!UICONTROL _オプショ&#x200B;**[!UICONTROL Model]**を選択…_.]**
+         1. **[!UICONTROL _オプショ&#x200B;**&#x200B;[!UICONTROL Model]&#x200B;**を選択…_.]**
 
             ![ プラン設定 ](/help/assets/plan-setup.png)
 

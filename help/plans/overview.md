@@ -114,6 +114,6 @@ Mix Modeler インターフェイスで現在の計画のテーブルを表示�
 
 1. 複数の計画を選択します。
 1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択して計画を削除します。
-1. **[!UICONTROL Delete *x *計画]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、計画を削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**を選択します。
+1. **[!UICONTROL Delete *x *計画]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、計画を削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択します。
 
 
