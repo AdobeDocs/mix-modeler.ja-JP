@@ -1,9 +1,9 @@
 ---
 title: 統一データダッシュボード
-description: Mix Modelerでの統一データ概要ダッシュボードの使用方法を説明します。
+description: Mix Modelerの統一データ概要ダッシュボードの使用方法について説明します。
 feature: Dashboard, Harmonized Data
 exl-id: fbb01613-d648-4db1-a782-a7720b7a03ad
-source-git-commit: f073e8f44fc2aa731a69725ebdb99700d1f91a91
+source-git-commit: 9776b79cfc4a8eaebecd4bce85cfc9d85329c910
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmo
 
 ![ フィルター ](/help/assets/icons/Filter.svg) データペインを使用して、すべてのビジュアライゼーションで表示される **[!UICONTROL Category Filters]** ータをフィルタリングできます。
 
-各カテゴリに対して 1 つ以上のフィルターを選択します（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Cannels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]** および **[!UICONTROL Traffic Source]**）。
+各カテゴリに対して 1 つ以上のフィルターを選択します（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Channels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]** および **[!UICONTROL Traffic Source]**）。
 
 選択したフィルターは、**[!UICONTROL FILTERING BY:]** のビジュアライゼーションの上部に表示されます。
 

@@ -3,9 +3,9 @@ title: 計画の概要
 description: Mix Modelerでプランを表示、選択およびアクションする方法を説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 09b0868cc6f631188b2609b1da81d1a6b6f0aa9f
+source-git-commit: f0871834ec665c907caf0af3edeeed4fb2549a58
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,12 @@ Mix Modeler インターフェイスで現在の計画のテーブルを表示�
    | モデル | プランのベースとして使用されるモデル。 |
    | 日付範囲 | プランの完全な日付範囲。 |
    | 予算 | 計画の予算合計。 |
+   | 目標を計画 | ターゲットベースのプランに対して定義されたターゲット指標。 |
    | 予測リターン | 計画の [ 予測収益 ](/help/main-guide/glossary.md) |
    | 予測 ROI | プランの [ 予測 ROI](/help/main-guide/glossary.md)。 |
    | 予測コンバージョン | プランの [ 予測コンバージョン ](/help/main-guide/glossary.md) |
    | 予測 CPA | 計画の [ 予測 CPA](/help/main-guide/glossary.md) |
-   | ステータス | プランのステータス： <p><span style="color:red">●</span> 失敗しました。 <p><span style="color:blue">●</span> 処理、 <p><span style="color:green">●</span> 完了しました。 |
+   | ステータス | プランのステータス： <p><span style="color:red">●</span> に失敗しました、 <p><span style="color:blue">●</span> 処理、または <p><span style="color:green">●</span> 完了。 |
 
    {style="table-layout:auto"}
 
@@ -113,6 +114,6 @@ Mix Modeler インターフェイスで現在の計画のテーブルを表示�
 
 1. 複数の計画を選択します。
 1. 青いアクションバーから、「![ 削除 ](/help/assets/icons/Delete.svg)」 **[!UICONTROL Delete]** 選択して計画を削除します。
-1. **[!UICONTROL Delete *x *計画]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、計画を削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. **[!UICONTROL Delete *x *計画]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、計画を削除します。 キャンセルする&#x200B;**[!UICONTROL Cancel]**を選択します。
 
 
