@@ -3,9 +3,9 @@ title: モデルインサイト
 description: Mix Modelerの履歴概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: d7386eb44b01fa42c2f0c501e09472af4458c4b1
+source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2255'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,19 @@ ht-degree: 0%
 
 モデルインサイトを表示するには、Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで次の操作を行います。
 
-1. **[!UICONTROL Models]** テーブルから、**[!UICONTROL Last run status]** が <span style="color:green">●</span> のモデルの名前を選択します。 **[!UICONTROL Success]**。
+1. **[!UICONTROL Models]** テーブルから、**[!UICONTROL Last run status]** が <span style="color:green">●</span> のモデルの名前を選択します **[!UICONTROL Success]**。
 
 1. コンテキストメニューから「**[!UICONTROL Model Insights]**」を選択します。
 
-![ モデルインサイトのタブバー ](/help/assets/model-insights-tabbar.png)
 
-指定したモデルが最後に更新されると、[ モデルインサイト ](#model-insights)、[ アトリビューション ](#attribution)、[ 要因 ](#factors)、[ 診断 ](#diagnostics)、[ 履歴概要 ](#historical-overview) の 4 つのタブを使用してビジュアライゼーションが表示されます。
+
+次のタブを使用できます。
+
+* [モデルインサイト](#model-insights)
+* [ 要因 ](#factors-beta)[!BADGE  ベータ版 ]
+* [ アトリビューション ](#attribution) （MTA 対応モデルのみ）
+* [ 診断 ](#diagnostics)
+* [ 履歴の概要 ](#historical-overview).
 
 各タブのビジュアライゼーションの基になる期間を変更できます。 日付範囲を入力するか、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して日付範囲を選択します。
 
@@ -36,7 +42,7 @@ ht-degree: 0%
 
 {{release-limited-testing-section}}
 
-モデル上でモデルドリフトが検出された場合は、後で通知するオプションやモデルを直ちに [**[!UICONTROL Retrain]**](overview.md#retrain) 示するオプションを含む **[!UICONTROL Model drift detected]** のダイアログが表示されます。 **[!UICONTROL Remind me later]** を選択すると、次の日または次のログイン時に通知されます。
+モデル上でモデルドリフトが検出された場合は、後で通知を受けるオプションや、モデルを直ちに **[!UICONTROL Model drift detected]** 示するオプションを含む [**[!UICONTROL Retrain]**](overview.md#retrain) ダイアログが表示されます。 **[!UICONTROL Remind me later]** を選択すると、次の日または次のログイン時に通知されます。
 
 ![ モデルドリフト検出ダイアログ ](/help/assets/model-drift-dialog.png)
 
@@ -57,9 +63,9 @@ ht-degree: 0%
 
 この積み重ねグラフのビジュアライゼーションは、次のような順序になっています。
 
-* 下部にベース。
-* 途中にある支出外のチャネル。
-* 上位にチャネルを表示します。
+* 下部にベースが表示されます。
+* 費用以外のチャネルは中央に表示されます。
+* 費用チャネルは上に表示されます。
 
 このビジュアライゼーションは、日付範囲で、ベース、支出チャネル別および非支出チャネル別に達成された貢献度の割合を表します。 このビジュアライゼーションは、増分を紹介する場合に役立ちます。 ベースは、マーケティングがまったく行われなくても発生した事象を表し、非支出チャネルと（ベースの上に）支出チャネルがマーケティングの影響に属性を与えます。 つまり、非支出と支出を足すと、マーケティング活動の増分的な影響と等しくなり、ビジュアライゼーションはマーケティングが生み出す値を簡単にinsightします。
 
@@ -104,9 +110,9 @@ ht-degree: 0%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
-## **[!UICONTROL Factors]** [!BADGE &#x200B; ベータ版 &#x200B;]
+## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
 
-「要因 [!BADGE &#x200B; ベータ版 &#x200B;]」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 
@@ -228,37 +234,51 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
 「診断」タブには、次のビジュアライゼーションが表示されます。
 
-* [!UICONTROL Model Assessment] のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残差コンバージョンを分類できます。
+* 次の要素で構成されるビジュアライゼーションを **[!UICONTROL Model Assessment]** 成します。
 
-  ビジュアライゼーションを分類するには、ビジュアライ **[!UICONTROL Breakdown]** ーションリストから「**[!UICONTROL Actual vs. Predicted]**」または「**[!UICONTROL Residuals]**」を選択します。
+  ![ モデル評価 ](../assets/model-assessment.png)
 
-* 各コ [!UICONTROL Model fitting metrics] バージョン指標に関する次の列を示した表。
+   * コンバージョンの実績と予測または残差を分類できるグラフ。
+ビジュアライゼーションを分類するには、ビジュアライゼーションリストから次のいずれかのオプションを選 **[!UICONTROL Breakdown]** します。
 
-   * 実際の変換
+      * **[!UICONTROL Actual vs Predicted]**：このオプションでは、実際の値がモデルの予測と比較されます。 多少の偏差は予想されますが、予測値は実際の値にしっかりと一致するのが理想的です。 大きなまたは系統的な逸脱またはパターンは、関係およびデータの欠落やバイアスの可能性を示唆する。
 
-   * モデル化された変換
+      * **[!UICONTROL Residuals]**：このオプションは、実際の値と予測された値の違いを表示します。 パフォーマンスの高いモデルには、明確なパターンやスプレッドの増加なしに、ランダムに分布する残差があります。 構造化されたトレンドや拡大する残差は、関係の欠落やデータまたは差異の問題を示している場合があります。
 
-   * 残差変換（実際の変換とモデル化された変換の差）
+   * 各コンバージョン指標に関する次の列を示す表：
 
-   * モデル品質スコア値：
-
-      * R2 （R-2 乗）：回帰モデルに対するデータの適合度（適合度）を示します。
-
-      * MAPE （平均絶対誤差率）：予測精度の測定に最も一般的に使用される KPI の 1 つで、予測誤差を実績値のパーセンテージで表します。
-
-      * RMSE （二乗平均誤差）：誤差の二乗に従って重み付けされた、平均誤差を表示します。
+      * **[!UICONTROL Actual Conversion]**
+      * **[!UICONTROL Predicted Conversion]**
+      * **[!UICONTROL Residual Conversion]**
+      * **[!UICONTROL R<sup>2</sup>]**：データが回帰モデルにどの程度適合するかを示すスコア（適合の良さ）。
+      * **[!UICONTROL MAPE]** （平均絶対誤差率）：予測精度を測定するために最も一般的に使用される KPI の 1 つで、予測誤差を実績値のパーセンテージで表します。
+      * **[!UICONTROL RMSE]** （二乗平均平方誤差）：誤差の二乗に従って重み付けされた、平均誤差を表示します。
 
   テーブルのデータを含む CSV ファイルをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」を選択します。
 
-* [!UICONTROL Touchpoint effectiveness] トリビューション AI アルゴリズムモデルの結果を表したテーブル。 このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
+* 各コ **[!UICONTROL Model training fit metrics]** バージョン指標に対して表示されるテーブル：
+
+  ![ モデルトレーニング適合性指標テーブル ](../assets/model-training-fit-metrics.png)
+
+   * **[!UICONTROL Training R<sup>2</sup>]**: モデルの予測によって説明された実際の値の差異の割合を 0 ～ 1 の範囲で示します。
+   * **[!UICONTROL Training sMAPE]** （対称平均絶対誤差率）: トレーニングデータの平均誤差率を測定します。 値が小さいほど、精度が高くなります。
+   * **[!UICONTROL Training RMSE]** （二乗平均誤差の根本）: トレーニングデータの平均誤差率を測定します。 MAPE よりも大きなエラーをペナルティで処理します。 RMSE が低いほど、予測精度が高いと示唆されるが、異常値の影響を受けやすい。
+   * **[!UICONTROL Out-of-sample sMAPE]**：予測の超過と過少のバランスを取りながら、見えないデータのエラーの割合を評価します。 一般化を評価するのに役立ちます。 現在、Mix Modelerでは、トレーニングデータの前四半期を除外セットとして使用して、エラーの割合を評価しています。
+   * **[!UICONTROL Out-of-sample RMSE]**：予測の超過と過少のバランスを取りながら、見えないデータのエラーの割合を評価します。 一般化を評価するのに役立ちます。 現在、Mix Modelerでは、トレーニングデータの前四半期を除外セットとして使用して、エラーの割合を評価しています。 RMSE は、MAPE よりも大きなエラーにペナルティを課します。
+
+
+* **[!UICONTROL Touchpoint effectiveness]** トリビューション AI アルゴリズムモデルの結果を表したテーブル。
+
+  ![ タッチポイント有効性テーブル ](../assets/touchpoint-effectiveness.png)
+
+  このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
 
   ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets/icons/SortOrderDown.svg) で表示されます。
 
-   * [!UICONTROL Paths touched]: コンバージョンを達成するパスの割合とコンバージョンを達成しないパスの割合を視覚化します。 タッチポイントの場合、アトリビューションコンバージョン率が高いと、より多くのアトリビューションコンバージョンが表示されます。 この比率では、コンバージョンにつながるパスの割合と、コンバージョンにつながる *つながらない* パスの割合が比較されます。
-   * [!UICONTROL Efficiency measure]: アルゴリズムアトリビューションモデルによって生成される効率測定は、タッチポイント量に関係なく、コンバージョンに対するタッチポイントの相対的な重要度を示します。 効率は 1～5 のスケールで測定されます。 タッチポイント量が多いからといって、効率測定が高くなるとは限りません。
-   * [!UICONTROL Total volume]：ユーザーがタッチポイントにタッチした合計回数。 この数は、コンバージョンを達成するパスと、コンバージョンに至るパス *ではない* に表示されるタッチポイントを含みます。
+   * **[!UICONTROL Paths touched]**: コンバージョンを達成するパスの割合とコンバージョンを達成しないパスの割合を視覚化します。 タッチポイントの場合、アトリビューションコンバージョン率が高いと、より多くのアトリビューションコンバージョンが表示されます。 この比率では、コンバージョンにつながるパスの割合と、コンバージョンにつながる *つながらない* パスの割合が比較されます。
+   * **[!UICONTROL Efficiency measure]**: アルゴリズムアトリビューションモデルによって生成される効率測定は、タッチポイント量に関係なく、コンバージョンに対するタッチポイントの相対的な重要度を示します。 効率は 1～5 のスケールで測定されます。 タッチポイント量が多いからといって、効率測定が高くなるとは限りません。
+   * **[!UICONTROL Total volume]**：ユーザーがタッチポイントにタッチした合計回数。 この数は、コンバージョンを達成するパスと、コンバージョンに至るパス *ではない* に表示されるタッチポイントを含みます。
 
-![ 診断 ](/help/assets/model-insights-diagnostics.png)
 
 ### モデルドリフト検出
 
