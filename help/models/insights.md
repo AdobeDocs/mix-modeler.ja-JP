@@ -237,7 +237,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 >id="models_diagnostics_modelassessment"
 >title="モデル評価グラフ"
 >abstract="モデル評価のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残余コンバージョンを分類します。"
->additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modelerの概要"
+>additional-url="https://experienceleague.adobe.com/ja/docs/mix-modeler/using/overview" text="Mix Modelerの概要"
 >additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler デモ"
 
 
