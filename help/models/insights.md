@@ -31,7 +31,7 @@ ht-degree: 0%
 次のタブを使用できます。
 
 * [モデルインサイト](#model-insights)
-* [ 要因 ](#factors-beta) [!BADGE &#x200B; ベータ版 &#x200B;]
+* [ 要因 ](#factors-beta)[!BADGE  ベータ版 ]
 * [ アトリビューション ](#attribution) （MTA 対応モデルのみ）
 * [ 診断 ](#diagnostics)
 * [ 履歴の概要 ](#historical-overview).
@@ -110,9 +110,9 @@ ht-degree: 0%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
-## **[!UICONTROL Factors]** [!BADGE &#x200B; ベータ版 &#x200B;]
+## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
 
-「要因 [!BADGE &#x200B; ベータ版 &#x200B;]」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 
@@ -237,8 +237,8 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 >id="models_diagnostics_modelassessment"
 >title="モデル評価グラフ"
 >abstract="モデル評価のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残余コンバージョンを分類します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/mix-modeler/using/overview" text="Mix Modelerの概要"
->additional-url="https://video.tv.adobe.com/v/3440795/?learn=on&amp;enablevpops&captions=jpn" text="Mix Modeler デモ"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modelerの概要"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler デモ"
 
 
 >[!CONTEXTUALHELP]
