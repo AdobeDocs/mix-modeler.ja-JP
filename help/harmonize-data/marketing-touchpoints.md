@@ -1,16 +1,22 @@
 ---
 title: マーケティングタッチポイント
-description: Mix Modeler内のデータの調和の一部として使用するマーケティングタッチポイントを作成する方法を説明します。
+description: Mix Modelerのデータの調和の一部として使用するマーケティングタッチポイントを作成する方法を説明します。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 935b179e31d1b677a8c83b1566c02b7aaa617e8d
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
 
-# マーケティングタッチポイント
+# マーケティングタッチポイント {#marketing-touchpoints}
+
+>[!CONTEXTUALHELP]
+>id="harmonizeddata_marketingtouchpoint"
+>title="マーケティングタッチポイント"
+>abstract="マーケティングタッチポイントは、数値または収益ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。"
+
 
 マーケティングタッチポイントは、数値または収益ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。
 
@@ -18,11 +24,11 @@ ht-degree: 0%
 
 ## マーケティングタッチポイントの管理
 
-Mix Modelerインターフェイスで使用可能なマーケティングタッチポイントのテーブルを表示するには：
+Mix Modeler インターフェイスで使用可能なマーケティングタッチポイントのテーブルを表示するには：
 
 1. 左パネルから ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** を選択します。
 
-1. 上部バーの「**[!UICONTROL Marketing touchpoint]**」を選択します。 マーケティングタッチポイントのテーブルが表示されます。 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用して、テーブルのページ間を移動します。
+1. 上部バーの「**[!UICONTROL Marketing touchpoint]**」を選択します。 マーケティングタッチポイントのテーブルが表示されます。 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の ![x](/help/assets/icons/ChevronRight.svg) で **[!UICONTROL Page _左向き矢印 _または_ 右向き矢印_]** を使用して、テーブルのページ間を移動します。
 
 テーブル列は、マーケティングタッチポイントの詳細を指定します。
 
@@ -48,11 +54,11 @@ Mix Modelerインターフェイスで使用可能なマーケティングタッ
 
    1. **[!UICONTROL Touchpoint rule]** を定義します。
 
-      1. **[!UICONTROL *統一された値を選択&#x200B;*]**&#x200B;から値を選択します（例：**[!UICONTROL Brand]**）。
+      1. **[!UICONTROL *統一された値を選択&#x200B;*]**から値を選択します（例：**[!UICONTROL Brand]**）。
 
       1. 演算子 ![ 山形 ](/help/assets/icons/ChevronDown.svg) の値を選択します（例：**[!UICONTROL is]**）。
 
-      1. **[!UICONTROL *値を選択&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
+      1. **[!UICONTROL *値を選択&#x200B;*]**から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
 
    1. **[!UICONTROL Touchpoint volume]** から統一フィールド（例：**[!UICONTROL Impressions]**）を選択します。
 

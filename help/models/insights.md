@@ -3,9 +3,9 @@ title: モデルインサイト
 description: Mix Modelerの履歴概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: e5fa52cee1725ddfe4d75c50857a1e5ef4daf5b2
+source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 次のタブを使用できます。
 
 * [モデルインサイト](#model-insights)
-* [ 要因 ](#factors-beta) [!BADGE &#x200B; ベータ版 &#x200B;]
+* [ 要因 ](#factors-beta)[!BADGE  ベータ版 ]
 * [ アトリビューション ](#attribution) （MTA 対応モデルのみ）
 * [ 診断 ](#diagnostics)
 * [ 履歴の概要 ](#historical-overview).
@@ -110,9 +110,9 @@ ht-degree: 0%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
-## **[!UICONTROL Factors]** [!BADGE &#x200B; ベータ版 &#x200B;]
+## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
 
-「要因 [!BADGE &#x200B; ベータ版 &#x200B;]」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 
@@ -230,9 +230,30 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 * これらのチャネルアトリビューションモデルのコントリビューションパーセンテージの合計。
 
 
-## [!UICONTROL Diagnostics]
+## [!UICONTROL Diagnostics] {#diagnostics}
 
-「診断」タブには、次のビジュアライゼーションが表示されます。
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modelassessment"
+>title="モデル評価グラフ"
+>abstract="モデル評価のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残余コンバージョンを分類します。"
+>additional-url="https://experienceleague.adobe.com/en/docs/mix-modeler/using/overview" text="Mix Modelerの概要"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler デモ"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_pathstouched"
+>title="タッチされたパス"
+>abstract="タッチされたパスは、各タッチポイントについて、コンバージョンを達成しているパスの割合と、コンバージョンを達成していないパスの割合です。"
+
+
+>[!CONTEXTUALHELP]
+>id="models_diagnostics_modeldateinfo"
+>title="モデルの日付（時点）"
+>abstract="このテーブルのデータは、特定の期間のみ生成されます。  **[!UICONTROL As of]** の日付は、データが生成された日付を示し、startDate から endDate までのデータに基づいています。"
+
+
+「**[!UICONTROL Diagnostics]**」タブには、次のビジュアライゼーションが表示されます。
 
 * 次の要素で構成されるビジュアライゼーションを **[!UICONTROL Model Assessment]** 成します。
 
@@ -271,7 +292,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 
   ![ タッチポイント有効性テーブル ](../assets/touchpoint-effectiveness.png)
 
-  このテーブルのデータは、特定の期間のみ生成されます。 詳細については、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
+  このテーブルのデータは、特定の期間のみ生成されます。 詳細は、「**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)」を選択してください。
 
   ビジュアライゼーションでは、タッチポイントご [!UICONTROL Efficiency measure] に降順 ![ 降順 ](/help/assets/icons/SortOrderDown.svg) で表示されます。
 
