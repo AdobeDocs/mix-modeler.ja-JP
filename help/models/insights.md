@@ -31,7 +31,7 @@ ht-degree: 3%
 次のタブを使用できます。
 
 * [モデルインサイト](#model-insights)
-* [ 要因 ](#factors-beta)[!BADGE  ベータ版 ]
+* [ 要因 ](#factors-beta) [!BADGE &#x200B; ベータ版 &#x200B;]
 * [ アトリビューション ](#attribution) （MTA 対応モデルのみ）
 * [診断](#diagnostics)
 * [ 履歴の概要 ](#historical-overview).
@@ -110,9 +110,9 @@ ht-degree: 3%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
-## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
+## **[!UICONTROL Factors]** [!BADGE &#x200B; ベータ版 &#x200B;]
 
-「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE &#x200B; ベータ版 &#x200B;]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 
