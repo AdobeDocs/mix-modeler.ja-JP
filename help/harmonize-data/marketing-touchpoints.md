@@ -6,7 +6,7 @@ exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -15,10 +15,10 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_marketingtouchpoint"
 >title="マーケティングタッチポイント"
->abstract="マーケティングタッチポイントは、数値または収益ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。"
+>abstract="マーケティングタッチポイントは、数値または売上高ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。"
 
 
-マーケティングタッチポイントは、数値または収益ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。
+マーケティングタッチポイントは、数値または売上高ベースのコンバージョンに対するマーケティング投資の影響を評価するために使用される、受信者、個人または cookie レベルのマーケティングイベントです。
 
 アトリビューション分析に役立つマーケティングタッチポイントを定義します。
 
@@ -54,11 +54,11 @@ Mix Modeler インターフェイスで使用可能なマーケティングタ�
 
    1. **[!UICONTROL Touchpoint rule]** を定義します。
 
-      1. **[!UICONTROL *統一された値を選択&#x200B;*]**&#x200B;から値を選択します（例：**[!UICONTROL Brand]**）。
+      1. **[!UICONTROL *統一された値を選択&#x200B;*]**から値を選択します（例：**[!UICONTROL Brand]**）。
 
       1. 演算子 ![ 山形 ](/help/assets/icons/ChevronDown.svg) の値を選択します（例：**[!UICONTROL is]**）。
 
-      1. **[!UICONTROL *値を選択&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
+      1. **[!UICONTROL *値を選択&#x200B;*]**から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
 
    1. **[!UICONTROL Touchpoint volume]** から統一フィールド（例：**[!UICONTROL Impressions]**）を選択します。
 

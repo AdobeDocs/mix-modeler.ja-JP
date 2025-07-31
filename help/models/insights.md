@@ -6,7 +6,7 @@ exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
 source-git-commit: b3e52a34f26574961823c08859f17e2e6f1fdcd3
 workflow-type: tm+mt
 source-wordcount: '2333'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 次のタブを使用できます。
 
 * [モデルインサイト](#model-insights)
-* [ 要因 ](#factors-beta) [!BADGE &#x200B; ベータ版 &#x200B;]
+* [ 要因 ](#factors-beta)[!BADGE  ベータ版 ]
 * [ アトリビューション ](#attribution) （MTA 対応モデルのみ）
-* [ 診断 ](#diagnostics)
+* [診断](#diagnostics)
 * [ 履歴の概要 ](#historical-overview).
 
 各タブのビジュアライゼーションの基になる期間を変更できます。 日付範囲を入力するか、「![ カレンダー ](/help/assets/icons/Calendar.svg)」を選択して日付範囲を選択します。
@@ -110,9 +110,9 @@ ht-degree: 0%
 
 タッチポイント分類テーブルのコンテンツをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download CSV]** 選択します。
 
-## **[!UICONTROL Factors]** [!BADGE &#x200B; ベータ版 &#x200B;]
+## **[!UICONTROL Factors]** [!BADGE  ベータ版 ]
 
-「要因 [!BADGE &#x200B; ベータ版 &#x200B;]」タブには、外部要因関連のインサイトが表示されます。
+「要因 [!BADGE  ベータ版 ]」タブには、外部要因関連のインサイトが表示されます。
 
 ![ 要因 ](/help/assets/factors.png)
 
@@ -236,21 +236,21 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modelassessment"
 >title="モデル評価グラフ"
->abstract="モデル評価のビジュアライゼーションは、実際のコンバージョンと予測コンバージョンまたは残余コンバージョンを分類します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/mix-modeler/using/overview" text="Mix Modelerの概要"
->additional-url="https://video.tv.adobe.com/v/3440795/?learn=on&enablevpops&captions=jpn" text="Mix Modeler デモ"
+>abstract="モデル評価のビジュアライゼーションでは、実際のコンバージョンと予測コンバージョンまたは残差コンバージョンが分類されます。"
+>additional-url="https://experienceleague.adobe.com/ja/docs/mix-modeler/using/overview" text="Mix Modeler の概要"
+>additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&amp;enablevpops" text="Mix Modeler デモ"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_pathstouched"
 >title="タッチされたパス"
->abstract="タッチされたパスは、各タッチポイントについて、コンバージョンを達成しているパスの割合と、コンバージョンを達成していないパスの割合です。"
+>abstract="タッチされたパスは、各タッチポイントでコンバージョンを達成しているパスの割合と、コンバージョンを達成していないパスの割合です。"
 
 
 >[!CONTEXTUALHELP]
 >id="models_diagnostics_modeldateinfo"
->title="モデルの日付（時点）"
->abstract="このテーブルのデータは、特定の期間のみ生成されます。  **[!UICONTROL As of]** の日付は、データが生成された日付を示し、startDate から endDate までのデータに基づいています。"
+>title="モデルの日付（日時）"
+>abstract="このテーブルのデータは、特定の期間のみ生成されます。**[!UICONTROL As of]** の日付は、データが生成された日付を示し、startDate から endDate までのデータに基づいています。"
 
 
 「**[!UICONTROL Diagnostics]**」タブには、次のビジュアライゼーションが表示されます。
