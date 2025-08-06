@@ -3,9 +3,9 @@ title: データセットルール
 description: Mix Modelerのデータの調和の一部として使用するデータセットルールを定義する方法について説明します。
 feature: Harmonized Data, Dataset Rules
 exl-id: 57d7940a-2900-4814-a30d-bb02bff7615d
-source-git-commit: 6862d9a49718fe9d1ee1d5bec75b0dc83e14a090
+source-git-commit: d22bb8c9526821c28c9a59967e1be399957d3051
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1628'
 ht-degree: 1%
 
 ---
@@ -68,17 +68,17 @@ Mix Modeler インターフェイスで、使用可能なデータセットル�
 
       1. **[!UICONTROL Count]** から **[!UICONTROL Sum]** または **[!UICONTROL Mapping type]** を選択します。
 
-      1. デフォルトで統一フィールドをマッピングする **[!UICONTROL *0&rbrace;AEP データセットフィールド &rbrace; を選択します。*]**
+      1. デフォルトで統一フィールドをマッピングする **[!UICONTROL *0}AEP データセットフィールド } を選択します。*]**
 
    1. 選択したフィールドのタイプがディメンションの場合：
 
       1. **[!UICONTROL Map Into]** から **[!UICONTROL Case]** または **[!UICONTROL Mapping type]** を選択します。
 
-      1. **[!UICONTROL Map Into]** を選択した場合、**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力した値にマッピングします。
+      1. **[!UICONTROL Map Into]** を選択した場合、**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力した値にマッピングします。
 
-      1. **[!UICONTROL Case]** を選択する場合、**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力された値にマップします。
+      1. **[!UICONTROL Case]** を選択する場合、**[!UICONTROL Field]** と **[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**とデフォルト値を選択して、デフォルトで統一フィールドをデータセットフィールドまたは入力された値にマップします。
 
-         1. 値を明示的に設定するには、1 つ以上の条件で構成される 1 つ以上のケースを定義します。 各条件は、特定の **[!UICONTROL *AEP データセットフィールドをチェックできます。フィールドの&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Exists]**&#x200B;か&#x200B;**[!UICONTROL Not Exists]**&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**、または&#x200B;**[!UICONTROL Ends With]**&#x200B;入力値を入力&#x200B;**[!UICONTROL * で入力された値 *]** あるかをチェックします。
+         1. 値を明示的に設定するには、1 つ以上の条件で構成される 1 つ以上のケースを定義します。 各条件は、特定の **[!UICONTROL *AEP データセットフィールドをチェックできます。フィールドの&#x200B;*]**または&#x200B;**[!UICONTROL Exists]**か&#x200B;**[!UICONTROL Not Exists]****[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**、または&#x200B;**[!UICONTROL Ends With]**入力値を入力**[!UICONTROL * で入力された値 *]** あるかをチェックします。
 
          1. 別のケースを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択します **[!UICONTROL Add case]**、別の条件を追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add condition]** を選択します。
 
@@ -114,7 +114,7 @@ Mix Modeler インターフェイスで、使用可能なデータセットル�
 
 >[!NOTE]
 >
->概要データセットルール専用の **[!UICONTROL Map to harmonized fields]** エクスペリエンスは廃止されました。 すべてのデータセットで、同じ汎用 **[!UICONTROL Map to harmonized fields]** エクスペリエンスが使用されるようになりました。 非推奨の **[!UICONTROL Map to harmonized fields]** エクスペリエンスを使用してルールを定義した概要データセットの場合は、これらのルールを汎用の **[!UICONTROL Map to harmonized field]** エクスペリエンスに照らして検証することをお勧めします。
+>概要データセットルール専用の **[!UICONTROL Map to harmonized fields]** エクスペリエンスは廃止されました。 データセットタイプに関係なく、すべてのデータセットルールが類似した **[!UICONTROL Map to harmonized fields]** エクスペリエンスを使用するようになりました。 非推奨の **[!UICONTROL Map to harmonized fields]** エクスペリエンスを使用してルールを定義した概要データセットの場合は、これらのルールを汎用の **[!UICONTROL Map to harmonized field]** エクスペリエンスに照らして検証することをお勧めします。
 >
 
 
@@ -156,7 +156,7 @@ Mix Modelerの ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Har
 
 >[!NOTE]
 >
->[!BADGE &#x200B; ベータ版 &#x200B;]{type=Informative} データ結合の環境設定はベータ版機能であり、その機能は変更される可能性があります。
+>[!BADGE  ベータ版 ]{type=Informative} データ結合の環境設定はベータ版機能であり、その機能は変更される可能性があります。
 
 モデルを正確に予測するには、データの結合の環境設定を定義します。 この機能を使用すると、ユーザーは概要レベルとイベントレベルのデータを結合した後に競合を解決できます。
 
@@ -180,9 +180,9 @@ Mix Modelerの ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Har
 データの結合の環境設定を指定するには：
 
 
-1. ![ データ結合環境設定 ](/help/assets/icons/Merge.svg) [!BADGE &#x200B; ベータ版 &#x200B;] を選択します。
+1. ![ データ結合環境設定 ](/help/assets/icons/Merge.svg)[!BADGE  ベータ版 ] を選択します。
 
-1. **[!UICONTROL Data merge preferences]** [!BADGE &#x200B; ベータ版 &#x200B;]{type=Informative} ダイアログで、
+1. **[!UICONTROL Data merge preferences]** [!BADGE  ベータ版 ]{type=Informative} ダイアログで、
 
    ![ データ結合環境設定 ](/help/assets/data-merge-preferences.png)
 
@@ -191,7 +191,7 @@ Mix Modelerの ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Har
    * 特定の指標ベースの環境設定を追加するには：
 
       1. ![Plus](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]** を選択します。
-         1. **[!UICONTROL *指標選択&#x200B;*]**&#x200B;リストから指標を選択します。
+         1. **[!UICONTROL *指標選択&#x200B;*]**リストから指標を選択します。
          1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。リストから、**[!UICONTROL All]** または特定のチャネルやコンバージョンのタイプを選択します。
          1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択して、データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に対して概要データまたはイベントデータを優先するかどうかを指定します。
 
