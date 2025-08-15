@@ -18,7 +18,7 @@ Experience Platform データガバナンスを使用すると、Experience Plat
 
 Experience Platformで使用されるデータセットに関して作成されるデータ使用ラベルおよびポリシーは、必要に応じてMix Modelerに表示されます。 例えば、これらのラベルは、統一データ内のデータセットルールの一部であるデータセットを削除する際にユーザーを停止または警告します。 データセットルールを作成する際に、ユーザーに対して制限されたスキーマフィールドを非表示にする
 
-データガバナンスの統合により、コンプライアンスをより効率的に管理できます。 組織のデータ管理人は、使用を制限するポリシーを設定できます。その結果、データ管理人が定義したポリシーに準拠するデータを使用できます。 詳しくは、[ラベルとポリシー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-governance)に関するドキュメントを参照してください。
+データガバナンスの統合により、コンプライアンスをより効率的に管理できます。 組織のデータ管理人は、使用を制限するポリシーを設定できます。その結果、データ管理人が定義したポリシーに準拠するデータを使用できます。 詳しくは、[ラベルとポリシー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)に関するドキュメントを参照してください。
 
 次のデータガバナンス機能を使用できます。
 
