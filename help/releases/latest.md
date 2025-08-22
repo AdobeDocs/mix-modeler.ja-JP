@@ -4,16 +4,16 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: be13e5c45603963b994b751c589901238e09d2dc
+source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '536'
 ht-degree: 3%
 
 ---
 
 # 最新のMix Modeler リリースノート
 
-**最終更新日**:2025 年 8 月 6 日（PT）。
+**最終更新日**:2025 年 8 月 20 日（PT）。
 
 これらのリリースノートは、Mix Modelerの最新リリースをカバーしています。 Mix Modeler リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
 
@@ -23,6 +23,7 @@ ht-degree: 3%
 
 | 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
 |---|---|---|---|
+| **[!UICONTROL Compare plans update]** | [ プランの比較 ](/help/plans/compare.md) UI に、有料マーケティングの追加の詳細（ROI または CPA、収益）が表示されるようになりました。 | 2025 年 8 月 20 日（Pt） | 2025 年 8 月 20 日（Pt） |
 | **調和の更新** | すべてのデータセットルールは、データセットタイプに関係なく、類似した [ 汎用マップを統一されたフィールドエクスペリエンスにマッピング ](/help/harmonize-data/dataset-rules.md) を使用するようになりました。 概要データセットから標準統一フィールドをマッピングすると、Mix Modelerは対応するExperience Platform データセットフィールドの推定を自動的に試みます。 | 2025年7月29日（PT） | 2025年7月29日（PT） |
 
 
