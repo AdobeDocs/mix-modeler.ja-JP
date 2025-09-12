@@ -4,19 +4,27 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 1bd08eb1f5e803c7405d11d371127d3db8f309c4
+source-git-commit: 9ac6acec2faa57a771386fc9df9cce655d711f3a
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '669'
 ht-degree: 3%
 
 ---
 
 # 最新のMix Modeler リリースノート
 
-**最終更新日**:2025 年 8 月 20 日（PT）。
+**最終更新日**:2025 年 9 月 12 日（PT）。
 
 これらのリリースノートは、Mix Modelerの最新リリースをカバーしています。 Mix Modeler リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
 
+
+## 9月2025日（PT）
+
+| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Dataset mapping validations]** | 統一されたフィールドのExperience Platform データセットマッピングに検証機能を追加しました。 | 2025 年 9 月 9 日（Pt） | 2025 年 9 月 9 日（Pt） |
+| **[!UICONTROL Context menu on links to model and plans]** | モデルおよび計画へのリンクに対してブラウザのコンテキスト メニューを有効にしました。 ブラウザの右クリック メニューを使用して、特定のプランまたはモデルを新しいタブまたはウィンドウで開くことができるようになりました。 | 2025 年 9 月 9 日（Pt） | 2025 年 9 月 9 日（Pt） |
+| **修正点** | 次のチケットの修正： <ul><li>AMM-3101：ルールの誤ったマッピング作成を修正しました。`event_date` ではなくフィールド名として `timestamp` が渡されました。</li><li>AMM-3092：重複した予算ベースの計画でチャネルの最大制約値を変更できない問題を修正しました。</li><li>AM3130：モデルの詳細ポップアップウィンドウの **[!UICONTROL Run frequency]** 情報の誤りを修正しました。</li><li>AMM3158: **[!UICONTROL Select target metric]** 計画作成 **[!UICONTROL Optimize]** インターフェイスの [ ペインの一部として、](/help/plans/build.md) オプションのラベルを更新しました。</li><li>AMM 3176:[ の「](/help/models/insights.md#breakdown)」タブに **[!UICONTROL Attribution]** チャネルによる分類 **[!UICONTROL Model Insights]** ビジュアライゼーションが表示されない問題を修正しました。</li></ul> | 2025 年 9 月 9 日（Pt） | 2025 年 9 月 9 日（Pt） |
 
 
 ## 2025年7月～8月
