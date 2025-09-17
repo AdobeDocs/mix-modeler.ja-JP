@@ -3,9 +3,9 @@ title: 計画の比較
 description: Mix Modelerでプランを比較する方法を説明します。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 4564c35bd8be69a586dc5a6c91ecd0db1e3298d6
+source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Mix Modeler計画インタフェースで計画を比較する手順は、次の
 
 * ROI は、（増分売上高 – 支出）/支出として定義されます。
 * CPA は、費用/増分コンバージョンとして定義されます。
+* 予測は、基本チャネルと非支出チャネルを含むように定義されます。
+* 有料マーケティングは、有料マーケティングチャネルに固有のものとしてのみ定義されます。
 
 
 ![ 計画の比較 ](/help/assets/compare-plans.png)
