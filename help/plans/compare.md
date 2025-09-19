@@ -3,9 +3,9 @@ title: 計画の比較
 description: Mix Modelerでプランを比較する方法を説明します。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: 05d9ccc11c8b4e1a5b537bba66dd4e4b162c1fcb
+source-git-commit: c66d4bd23aa6cf8e0be5bac179072ae562a97770
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '197'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,11 @@ Mix Modeler計画インタフェースで計画を比較する手順は、次の
 * **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** または **[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** （投資収益率）または **[!UICONTROL CPA]** （アクションあたりのコスト）
+   * 予測 ROI は、（ベースチャネルと非支出チャネルからの増分収益を含む）計画の全体的な ROI です。
+   * 予測 CPA は、プランの全体的な CPA です。
 * **[!UICONTROL Paid marketing ROI]** （投資収益率）または **[!UICONTROL CPA]** （アクションあたりのコスト）
+   * 有料マーケティング ROI は、プラン内の有料チャネルのみの ROI です。
+   * 有料マーケティング CPA は、プラン内の有料チャネルのみの CPA です。
 * **[!UICONTROL ROI]** （投資収益率）または **[!UICONTROL CPA]** （アクションあたりのコスト） **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted return]**
 * **[!UICONTROL Paid marketing revenue]**
@@ -36,8 +40,6 @@ Mix Modeler計画インタフェースで計画を比較する手順は、次の
 
 * ROI は、（増分売上高 – 支出）/支出として定義されます。
 * CPA は、費用/増分コンバージョンとして定義されます。
-* 予測は、基本チャネルと非支出チャネルを含むように定義されます。
-* 有料マーケティングは、有料マーケティングチャネルに固有のものとしてのみ定義されます。
 
 
 ![ 計画の比較 ](/help/assets/compare-plans.png)
