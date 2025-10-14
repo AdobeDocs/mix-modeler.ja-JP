@@ -14,9 +14,9 @@ ht-degree: 0%
 
 Mix Modeler計画インタフェースで計画を比較する手順は、次のとおりです。
 
-* 「![ 比較 ](/help/assets/icons/Compare.svg)」を選択し **[!UICONTROL Compare Plans]** す。 「計画の比較」で、各計画の計画を選択します **[!UICONTROL _計画の選択_]**。
+* 「![&#x200B; 比較 &#x200B;](/help/assets/icons/Compare.svg)」を選択し **[!UICONTROL Compare Plans]** す。 「計画の比較」で、各計画の計画を選択します **[!UICONTROL _計画の選択_]**。
 
-* または、「プラン」 テーブルから 2 つのプランを選択し、アクションバーから「![ 比較 ](/help/assets/icons/Compare.svg)」 **[!UICONTROL Compare]** を選択します。
+* または、「プラン」 テーブルから 2 つのプランを選択し、アクションバーから「![&#x200B; 比較 &#x200B;](/help/assets/icons/Compare.svg)」 **[!UICONTROL Compare]** を選択します。
 
 計画の比較インターフェイスには、次の項目に関する情報とビジュアライゼーションが表示されます。
 
@@ -32,13 +32,13 @@ Mix Modeler計画インタフェースで計画を比較する手順は、次の
 * **[!UICONTROL Paid marketing ROI]** 以 **[!UICONTROL CPA]**
    * 有料マーケティングの ROI は、予測 ROI のサブセットです。 有料マーケティング ROI は、プラン内の有料チャネルのみの ROI です。
    * 有料マーケティング CPA は、予測 CPA のサブセットです。 有料マーケティング CPA は、プラン内の有料チャネルのみの CPA です。
-* **[!UICONTROL ROI]** 以 **[!UICONTROL CPA]****[!UICONTROL breakdown]**
+* **[!UICONTROL ROI]** 以 **[!UICONTROL CPA]**&#x200B;**[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted revenue]** または **[!UICONTROL conversion]**。
 * **[!UICONTROL Paid marketing revenue]** または **[!UICONTROL conversion]**
 
 
 
-![ 計画の比較 ](/help/assets/compare-plans.png)
+![&#x200B; 計画の比較 &#x200B;](/help/assets/compare-plans.png)
 
 各ビジュアライゼーションの個々のグラフ要素にポインタを合わせると、詳細を含むポップオーバーが表示されます。
 
