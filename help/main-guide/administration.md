@@ -20,9 +20,9 @@ Adobe Experience Cloud UI で、次の操作を行います。
 
 1. 左パネルの「**[!UICONTROL ADMINISTRATION]**」の下にある「**[!UICONTROL Permissions]**」を選択します。
 
-1. 左側のパネルから ![ ユーザー ](/help/assets/icons/User.svg)**[!UICONTROL Roles]** を選択します。
+1. 左側のパネルから ![&#x200B; ユーザー &#x200B;](/help/assets/icons/User.svg)**[!UICONTROL Roles]** を選択します。
 
-1. 既存の役割を選択するか、**[!UICONTROL Create role]** を使用して役割を作成してください（例：**Mix Modeler**）。 既存の役割を選択する場合は、「![ 編集 ](/help/assets/icons/Edit.svg)」 **[!UICONTROL Edit]** を選択して、役割の権限を編集します。 詳しくは、[ 役割の管理 ](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
+1. 既存の役割を選択するか、**[!UICONTROL Create role]** を使用して役割を作成してください（例：**Mix Modeler**）。 既存の役割を選択する場合は、「![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)」 **[!UICONTROL Edit]** を選択して、役割の権限を編集します。 詳しくは、[&#x200B; 役割の管理 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/admin-console.html) を参照してください。
 
 1. その役割に 1 つ以上のサンドボックスを選択していることを確認してください。
 

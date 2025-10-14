@@ -12,25 +12,25 @@ ht-degree: 0%
 
 # 統一データ
 
-Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmonized data]**」タブには、取り込んだデータ **[!UICONTROL Overview]** 統一データの一部として使用するように設定した統一データに関するインサイトが表示されます。
+Mix Modeler![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmonized data]**」タブには、取り込んだデータ **[!UICONTROL Overview]** 統一データの一部として使用するように設定した統一データに関するインサイトが表示されます。
 
 この概要には、4 つの KPI ステータスカードのビジュアライゼーション （一番上の行）と、その他 6 つの設定可能なビジュアライゼーションが表示されます。
 
-ビジュアライゼーションに表示するデータの日付範囲を変更するには、開始日と終了日を手動で入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して期間を選択します。
+ビジュアライゼーションに表示するデータの日付範囲を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して期間を選択します。
 
 ## データフィルター
 
-![ フィルター ](/help/assets/icons/Filter.svg) データペインを使用して、すべてのビジュアライゼーションで表示される **[!UICONTROL Category Filters]** ータをフィルタリングできます。
+![&#x200B; フィルター &#x200B;](/help/assets/icons/Filter.svg) データペインを使用して、すべてのビジュアライゼーションで表示される **[!UICONTROL Category Filters]** ータをフィルタリングできます。
 
 各カテゴリに対して 1 つ以上のフィルターを選択します（**[!UICONTROL Brands]**、**[!UICONTROL Campaigns]**、**[!UICONTROL Channels Type]**、**[!UICONTROL Conversion types]**、**[!UICONTROL Datasets]**、**[!UICONTROL Media types]**、**[!UICONTROL Source types]** および **[!UICONTROL Traffic Source]**）。
 
 選択したフィルターは、**[!UICONTROL FILTERING BY:]** のビジュアライゼーションの上部に表示されます。
 
-1. 個々のフィルターを削除するには、**[!UICONTROL FILTERING BY:]** に一覧表示されているフィルターで ![ 閉じる ](/help/assets/icons/Close.svg) を選択します。
+1. 個々のフィルターを削除するには、**[!UICONTROL FILTERING BY:]** に一覧表示されているフィルターで ![&#x200B; 閉じる &#x200B;](/help/assets/icons/Close.svg) を選択します。
 
 1. **[!UICONTROL Clear All]** を使用すると、すべてのフィルターをすばやくクリアできます。
 
-![ 統一データの概要 ](/help/assets/harmonized-data-overview.png)
+![&#x200B; 統一データの概要 &#x200B;](/help/assets/harmonized-data-overview.png)
 
 
 ## ビジュアライゼーションの設定
@@ -39,7 +39,7 @@ Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmo
 
 * KPI ステータスカードのビジュアライゼーションで、次の操作を行います。
 
-   1. コンテキストメニューから ![ 編集 ](/help/assets/icons/Edit.svg) および ![ 編集 ](/help/assets/icons/Edit.svg)**[!UICONTROL Edit data]** を選択します。
+   1. コンテキストメニューから ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg) および ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)**[!UICONTROL Edit data]** を選択します。
 
    1. **[!UICONTROL KPI status card]** ダイアログで、次の手順を実行します。
 
@@ -49,7 +49,7 @@ Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmo
 
 * その他の設定可能なビジュアライゼーションでは、次の操作を行います。
 
-   1. コンテキストメニューから ![ 編集 ](/help/assets/icons/Edit.svg) および ![ 編集 ](/help/assets/icons/Edit.svg)**[!UICONTROL Edit data]** を選択します。
+   1. コンテキストメニューから ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg) および ![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)**[!UICONTROL Edit data]** を選択します。
 
    1. **[!UICONTROL Edit Data]** ダイアログで、次の手順を実行します。
 
@@ -62,8 +62,8 @@ Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Harmo
 
          [!UICONTROL Preview Area] ージ内の現在の選択の更新されたプレビューと、[!UICONTROL Current] の下の現在のビジュアライゼーションが表示されます。
 
-         ![ 統一データウィジェットを編集 ](/help/assets/edit-harmonized-data-widget.png)
+         ![&#x200B; 統一データウィジェットを編集 &#x200B;](/help/assets/edit-harmonized-data-widget.png)
 
-         データが利用できないのでプレビューをレンダリングできない場合は、![ データエラー ](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available] が表示されます。
+         データが利用できないのでプレビューをレンダリングできない場合は、![&#x200B; データエラー &#x200B;](/help/assets/icons/DataUnavailable.svg) [!UICONTROL Insights Not Available] - [!UICONTROL Harmonized fields are not available] が表示されます。
 
       1. 「**[!UICONTROL Apply]**」を選択して、ビジュアライゼーションに変更を適用します。 現在のビジュアライゼーションに対して行われた変更をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。

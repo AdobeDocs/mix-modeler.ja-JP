@@ -40,7 +40,7 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
 コンバージョンを追加するには、Mix Modelerの ![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]**/**[!UICONTROL Conversion]** インターフェイスで、次の手順を実行します。
 
-1. 「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択し **[!UICONTROL Add a conversion]** す。
+1. 「![&#x200B; 追加 &#x200B;](/help/assets/icons/AddCircle.svg)」を選択し **[!UICONTROL Add a conversion]** す。
 
 1. **[!UICONTROL Create conversion]** ダイアログで、次の手順を実行します。
 
@@ -50,7 +50,7 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
       1. **[!UICONTROL *調和を選択…*]**&#x200B;の値を選択します（例：`Conversion types`）。
 
-      1. 演算子 ![ 山形 ](/help/assets/icons/ChevronDown.svg) の値（例：**[!UICONTROL is]**）を選択します。
+      1. 演算子 ![&#x200B; 山形 &#x200B;](/help/assets/icons/ChevronDown.svg) の値（例：**[!UICONTROL is]**）を選択します。
 
       1. **[!UICONTROL *値を選択&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
 
@@ -60,7 +60,7 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
    1. 変換を作成するには、「**[!UICONTROL Create]**」を選択します。 コンバージョンの作成をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
-      ![ 代替テキスト ](/help/assets/create-conversion.png)
+      ![&#x200B; 代替テキスト &#x200B;](/help/assets/create-conversion.png)
 
 1. 作成されると、変換が変換テーブルに追加されます。
 
@@ -69,22 +69,22 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
 コンバージョンの詳細を表示するには：
 
-1. テーブル内のコンバージョン名にカーソルを合わせたときに「![ 詳細 ](/help/assets/icons/More.svg)」を選択します。
+1. テーブル内のコンバージョン名にカーソルを合わせたときに「![&#x200B; 詳細 &#x200B;](/help/assets/icons/More.svg)」を選択します。
 
-1. ![ 表示 ](/help/assets/icons/ViewDetail.svg)**詳細を表示** を選択します。 コンバージョンの詳細を示すダイアログが表示されます。 詳しくは、[ コンバージョンの追加 ](#add-a-conversion) を参照してください。 「**[!UICONTROL Cancel]**」を選択して、ダイアログを閉じます。
+1. ![&#x200B; 表示 &#x200B;](/help/assets/icons/ViewDetail.svg)**詳細を表示** を選択します。 コンバージョンの詳細を示すダイアログが表示されます。 詳しくは、[&#x200B; コンバージョンの追加 &#x200B;](#add-a-conversion) を参照してください。 「**[!UICONTROL Cancel]**」を選択して、ダイアログを閉じます。
 
 ## レポートを表示
 
 コンバージョンのレポートを表示するには：
 
-1. テーブル内のコンバージョン名にカーソルを合わせたときに「![ 詳細 ](/help/assets/icons/More.svg)」を選択します。
+1. テーブル内のコンバージョン名にカーソルを合わせたときに「![&#x200B; 詳細 &#x200B;](/help/assets/icons/More.svg)」を選択します。
 
 1. ![GraphTrend](/help/assets/icons/GraphTrend.svg)**レポートを表示** を選択します。 コンバージョンのレポートがダイアログに表示されます。
 
-   ![ コンバージョン表示レポート ](../assets/conversion-view-report.png)
+   ![&#x200B; コンバージョン表示レポート &#x200B;](../assets/conversion-view-report.png)
 
    * レポートする精度を変更するには、**[!UICONTROL Weekly]** ドロップダウンメニューから値を選択します。
-   * レポートする期間を変更するには、開始日と終了日を入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用してカレンダーポップアップで期間を定義します。
+   * レポートする期間を変更するには、開始日と終了日を入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用してカレンダーポップアップで期間を定義します。
 
 1. 「**[!UICONTROL Close]**」を選択して、ダイアログを閉じます。
 
@@ -92,5 +92,5 @@ Mix Modelerインターフェイスで使用可能なコンバージョンのテ
 
 コンバージョンを削除するには：
 
-1. テーブル内の変換名にカーソルを合わせたときに「![ 削除 ](/help/assets/icons/Delete.svg)**削除**」を選択します。
+1. テーブル内の変換名にカーソルを合わせたときに「![&#x200B; 削除 &#x200B;](/help/assets/icons/Delete.svg)**削除**」を選択します。
 1. **[!UICONTROL Delete conversion]** ダイアログの確認ダイアログで、コンバージョンを完全に削除する **[!UICONTROL Delete]** を選択します。

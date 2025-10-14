@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # ポリシー
 
-ワークフローを実行してモデルを作成しモデルの設定を送信したら、違反がないかどうかを [ ポリシーの適用 ](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) が確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ操作とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためです。
+ワークフローを実行してモデルを作成しモデルの設定を送信したら、違反がないかどうかを [&#x200B; ポリシーの適用 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/data-governance/enforcement/overview#automatic-enforcement) が確認します。 ポリシー違反が発生した場合は、1 つ以上のポリシーに違反したことを示すポップオーバーが表示されます。 このチェックは、Experience Platform内のデータ操作とマーケティングアクションがデータ使用ポリシーに準拠していることを確認するためです。
 
 デフォルトでは、Mix Modelerは次のラベルとマーケティングアクションに関連付けられたAdobe定義ポリシーの違反をチェックします。
 
@@ -41,7 +41,7 @@ ht-degree: 11%
 例：
 
 - コンバージョンデータスキーマの `totalCost` フィールドを、名前 `spend` （および表示名 `Spend`）の統一フィールドにマッピングするデータセットルールを設定しました。
-- 統一されたデータを少なくとも 1 回正常に同期しました（[ データセットルール – データの同期 ](/help/harmonize-data/dataset-rules.md#sync-data) を参照）。
+- 統一されたデータを少なくとも 1 回正常に同期しました（[&#x200B; データセットルール – データの同期 &#x200B;](/help/harmonize-data/dataset-rules.md#sync-data) を参照）。
 - [!UICONTROL Restrict data science] ポリシーは、関連するラベル [!UICONTROL C9] および関連するマーケティングアクション [!UICONTROL Data Science] に対して有効にします。
 - [!UICONTROL C9] - [!UICONTROL No data science] ラベルをコンバージョンデータスキーマの `totalCost` フィールドに適用します。
 
@@ -53,7 +53,7 @@ ht-degree: 11%
 
 検出されたデータガバナンスポリシー違反ポップオーバーは、違反に関する特定の情報を提供します。 これらの違反は、設定ワークフローに直接関係しないポリシー設定やその他の測定を通じて解決できます。 例えば、特定のフィールドをデータサイエンスの目的で使用できるようにラベルを変更できます。 または、モデル設定そのものを変更して、データ使用ラベルを持つオブジェクトをモデルが使用しないようにすることもできます。
 
-左側のパネルの「![ プライバシー ](/help/assets/icons/Privacy.svg)」 **[!UICONTROL Policies]** 選択を使用すると、Experience Platformの [!UICONTROL Policies] インターフェイスにアクセスでき、ポリシー、ラベル、マーケティングアクションを管理できます。
+左側のパネルの「![&#x200B; プライバシー &#x200B;](/help/assets/icons/Privacy.svg)」 **[!UICONTROL Policies]** 選択を使用すると、Experience Platformの [!UICONTROL Policies] インターフェイスにアクセスでき、ポリシー、ラベル、マーケティングアクションを管理できます。
 
 <!--
 Currently,  Mix Modeler does not support all of the data governance functionality offered by Experience Platform. Field level access control is supported. See [Field level access control](../harmonize-data/dataset-rules.md#field-level-access-control)

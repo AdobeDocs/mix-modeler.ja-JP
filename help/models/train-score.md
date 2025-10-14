@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # モデルのトレーニングとスコアリング
 
-モデルを [ 作成 ](/help/models/build.md) すると、モデルは自動的にトレーニングされ、スコアリングされます。 モデルを手動で再トレーニングまたは再コア化できます。
+モデルを [&#x200B; 作成 &#x200B;](/help/models/build.md) すると、モデルは自動的にトレーニングされ、スコアリングされます。 モデルを手動で再トレーニングまたは再コア化できます。
 
 ## トレイン
 
@@ -21,15 +21,15 @@ ht-degree: 0%
 
 1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
-1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Train]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** を選択します。
+1. モデルの ![&#x200B; 詳細 &#x200B;](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Train]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Train]** を選択します。
 
    **[!UICONTROL Train model]** ダイアログで、次の操作を実行するオプションを選択します。
 
    * **[!UICONTROL Train model with last 2 years of marketing data]**、または
    * **[!UICONTROL Train model using specific date range of data]**。
-日付範囲を指定します。 ![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。 最低 1 年のデータ範囲を選択する必要があります。
+日付範囲を指定します。 ![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。 最低 1 年のデータ範囲を選択する必要があります。
 
-   ![ モデルの再トレーニング ](../assets/retrain-model.png)
+   ![&#x200B; モデルの再トレーニング &#x200B;](../assets/retrain-model.png)
 
 1. モデルを再トレーニングする **[!UICONTROL Train]** を選択します。
 
@@ -51,15 +51,15 @@ ht-degree: 0%
 
 1. 左パネルから ![](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** を選択します。
 
-1. モデルの ![ 詳細 ](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Score]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** を選択します。
+1. モデルの ![&#x200B; 詳細 &#x200B;](/help/assets/icons/More.svg) を選択し、右クリック メニューから [**[!UICONTROL Score]**] を選択します。 または、青いアクションバーから ![DataRefresh](/help/assets/icons/DataRefresh.svg) **[!UICONTROL Score]** を選択します。
 
    **[!UICONTROL Score marketing data]** ダイアログで、次の操作を実行するオプションを選択します。
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**：新しいマーケティングデータを使用してモデルに増分的にスコアを付ける
    * 特定の日付範囲で再コアする **[!UICONTROL Score specific date range of marketing data]**。
-日付範囲を指定します。 ![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。
+日付範囲を指定します。 ![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して、日付範囲を選択できます。
 
-   ![ モデルの再コア ](../assets/rescore-model.png)
+   ![&#x200B; モデルの再コア &#x200B;](../assets/rescore-model.png)
 
 1. 「**[!UICONTROL Score]**」を選択します。 特定のデータ範囲を使用してモデルを再スコアリングすると、**[!UICONTROL Existing model is replaced]** のダイアログが表示され、選択した日付範囲の新しいスコアでモデルを置き換えるかどうかを確認するように求められます。 「**[!UICONTROL Replace model]**」を選択して確定します。
 

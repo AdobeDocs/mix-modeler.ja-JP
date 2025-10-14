@@ -14,18 +14,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler![ ホーム ](/help/assets/icons/Home.svg) の「**[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative}」タブはアルファ機能で **[!UICONTROL Overview]** その機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
+>Mix Modeler![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) の「**[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative}」タブはアルファ機能で **[!UICONTROL Overview]** その機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
 
 
 
 
-Mix Modeler ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** の **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。
+Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** の **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。
 
 KPI ステータス・カードおよびビジュアライゼーションに表示するデータを選択するには、次の手順を実行します。
 
 * **[!UICONTROL Plan name]** ドロップダウンメニューから **[!UICONTROL _オプションを選択…_]** を使用して、プランを選択します。
 
-* 期間を指定します。 日付範囲を変更するには、開始日と終了日を手動で入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択します。
+* 期間を指定します。 日付範囲を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択します。
 
 「**[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative}」タブには、次の情報が表示されます。
 
@@ -48,7 +48,7 @@ KPI ステータス・カードおよびビジュアライゼーションに表�
 
 ## KPI ステータスカード
 
-![KPI ステータスカード ](../assets/performance-to-plan-kpi-cards.png)
+![KPI ステータスカード &#x200B;](../assets/performance-to-plan-kpi-cards.png)
 
 
 ### 予算
@@ -77,7 +77,7 @@ KPI ステータス・カードおよびビジュアライゼーションに表�
 
 ## ビジュアライゼーション
 
-![ 表示 ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; 表示 &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### ROI：実際と予測の比較
 

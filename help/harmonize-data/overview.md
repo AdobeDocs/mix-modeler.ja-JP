@@ -17,7 +17,7 @@ Mix Modelerのデータは、ソースによって性質が異なります。 �
 * 集計または概要データ。例えば、ウォールドガーデンデータソースから収集したデータ、またはビルボードキャンペーン、イベントまたは物理的な広告キャンペーンの実行から収集したオフライン広告データ（支出など）、
 * イベントデータ（例：ファーストパーティデータソースから）。 このイベントデータは、Adobe AnalyticsからAdobe Analytics ソースコネクタを介して収集されたデータ、Experience Platform Web、Mobile SDKまたはEdge Network API を介して収集されたデータ、またはソースコネクタを使用して取り込まれたデータです。
 
-Mix Modelerのハーモナイゼーションサービスは、集計データとイベントデータを一貫性のあるデータビューに同化します。 このデータビューは、[ 内部要因データと外部要因データ ](#factors) と組み合わされ、Mix Modelerのモデルのソースとなります。 このサービスは、様々なデータセットにわたって最も高い精度を使用します。 例えば、あるデータセットの精度が月単位で、残りのデータセットの精度が週単位と日単位の場合、調和サービスは月単位の精度を使用してデータビューを作成します。
+Mix Modelerのハーモナイゼーションサービスは、集計データとイベントデータを一貫性のあるデータビューに同化します。 このデータビューは、[&#x200B; 内部要因データと外部要因データ &#x200B;](#factors) と組み合わされ、Mix Modelerのモデルのソースとなります。 このサービスは、様々なデータセットにわたって最も高い精度を使用します。 例えば、あるデータセットの精度が月単位で、残りのデータセットの精度が週単位と日単位の場合、調和サービスは月単位の精度を使用してデータビューを作成します。
 
 ## 要因
 
@@ -114,12 +114,12 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
 ## 統一データの設定
 
-簡略化された [ 例 ](#an-example-of-harmonized-data) のように統一データセットを作成するには、次の手順に従う必要があります。
+簡略化された [&#x200B; 例 &#x200B;](#an-example-of-harmonized-data) のように統一データセットを作成するには、次の手順に従う必要があります。
 
-1. 既に使用可能なグローバルな統一フィールドの他に使用する追加の [ 統一フィールド ](fields.md) を定義します。
-1. [ データセットルール ](dataset-rules.md) を設定して、集計またはエクスペリエンスイベントデータセットのフィールドを統一されたフィールドにマッピングします。
-1. 定義した標準および追加の統一フィールドを使用して [ マーケティングタッチポイント ](marketing-touchpoints.md) を定義します。
-1. 定義した標準フィールドと追加の統一フィールドを使用して、[ コンバージョン ](conversions.md) を定義します。
+1. 既に使用可能なグローバルな統一フィールドの他に使用する追加の [&#x200B; 統一フィールド &#x200B;](fields.md) を定義します。
+1. [&#x200B; データセットルール &#x200B;](dataset-rules.md) を設定して、集計またはエクスペリエンスイベントデータセットのフィールドを統一されたフィールドにマッピングします。
+1. 定義した標準および追加の統一フィールドを使用して [&#x200B; マーケティングタッチポイント &#x200B;](marketing-touchpoints.md) を定義します。
+1. 定義した標準フィールドと追加の統一フィールドを使用して、[&#x200B; コンバージョン &#x200B;](conversions.md) を定義します。
 
 
 ## 統一データの表示
@@ -130,13 +130,13 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
 1. 上部バーの「**[!UICONTROL Harmonized data]**」を選択します。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
 
-   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![ カレンダ ](/help/assets/icons/Calendar.svg) を使用してデータ範囲を選択します。
+   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![&#x200B; カレンダ &#x200B;](/help/assets/icons/Calendar.svg) を使用してデータ範囲を選択します。
 
-   1. 統一データテーブルに表示される統一フィールド列を変更するには、![ 設定 ](/help/assets/icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
+   1. 統一データテーブルに表示される統一フィールド列を変更するには、![&#x200B; 設定 &#x200B;](/help/assets/icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
 
-      1. **[!UICONTROL AVAILABLE COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets/icons/SelectBox.svg) 選択し、![ 右に山形 ](/help/assets/icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
+      1. **[!UICONTROL AVAILABLE COLUMNS]** から 1 つ以上の列を ![&#x200B; 選択ボックス &#x200B;](/help/assets/icons/SelectBox.svg) 選択し、![&#x200B; 右に山形 &#x200B;](/help/assets/icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
 
-      1. **[!UICONTROL SELECTED COLUMNS]** から 1 つ以上の列を ![ 選択ボックス ](/help/assets/icons/SelectBox.svg) 選択し、![ 左に山形記号 ](/help/assets/icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
+      1. **[!UICONTROL SELECTED COLUMNS]** から 1 つ以上の列を ![&#x200B; 選択ボックス &#x200B;](/help/assets/icons/SelectBox.svg) 選択し、![&#x200B; 左に山形記号 &#x200B;](/help/assets/icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
 
       1. **[!UICONTROL DEFAULT SORT]** から列を選択し、**[!UICONTROL Ascending]** または **[!UICONTROL Descending]** を切り替えます。
 
@@ -144,11 +144,11 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
    1. **[!UICONTROL Submit]** を選択して、列設定の変更を送信します。 「**[!UICONTROL Close]**」を選択して、加えた変更をキャンセルします。
 
-1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![ 左向き矢印 ](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用してページ間を移動します。
+1. 他のページが使用可能な場合は、![x](/help/assets/icons/ChevronLeft.svg) の **Page _x _で ![&#x200B; 左向き矢印 &#x200B;](/help/assets/icons/ChevronRight.svg) または_ 右向き矢印_** を使用してページ間を移動します。
 
 1. 必要に応じて、統一データをダウンロードできます。
 
-   1. 「![ ダウンロード ](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ版 &#x200B;]」を選択します。
+   1. 「![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ版 &#x200B;]」を選択します。
    1. ポップアップで、「![AddCircle](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Create]** プションを選択します。
    1. **[!UICONTROL Report name]** （例：`Test Report`）を入力します。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]** を選択します。

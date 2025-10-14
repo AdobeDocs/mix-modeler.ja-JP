@@ -21,4 +21,4 @@ Mix Modelerのホームの概要画面には、様々な設定可能なビジュ
 
 * [統一データ](harmonized-data.md)
 
-* [ 計画 ](plans.md) [!BADGE Alpha]{type=Informative}
+* [&#x200B; 計画 &#x200B;](plans.md) [!BADGE Alpha]{type=Informative}

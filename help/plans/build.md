@@ -27,23 +27,23 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
       1. **[!UICONTROL Plan name]** （例：`Goal based plan`）を入力します。 **[!UICONTROL Description]** （例：`A goal based plan`）を入力します。
       1. **[!UICONTROL Model]** オプショ **[!UICONTROL _を選択…_.]**
 
-         ![ プラン設定 ](/help/assets/plan-setup.png)
+         ![&#x200B; プラン設定 &#x200B;](/help/assets/plan-setup.png)
 
    1. 「**[!UICONTROL Goal]**」セクションで、計画を最適化する目標を選択します。 以下から選択できます
 
       * **[!UICONTROL I have a budget to spend]**
 
-        ![ 計画予算 ](../assets/plan-budget.png)
+        ![&#x200B; 計画予算 &#x200B;](../assets/plan-budget.png)
 
         このオプションを使用すると、1 つ以上の日付範囲の予算を入力できます。
 
          1. **[!UICONTROL Optimize]** コンテナで以下を実行します。
             1. コンバージョンをコンバージョ **[!UICONTROL Select conversion]** ドロップダウンメニューから選択します。
             1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
-         1. 日付を入力するか、**[!UICONTROL Date range]** カレン ![ ー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択して、日付を指定します。
+         1. 日付を入力するか、**[!UICONTROL Date range]** カレン ![&#x200B; ー &#x200B;](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択して、日付を指定します。
          1. **[!UICONTROL Budget]** を入力します。
 日付範囲を追加するには、それぞれ予算と共に ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** を選択します。
-日付範囲および関連する予算を削除するには、「![ クローズ ](/help/assets/icons/Close.svg)」を選択します。
+日付範囲および関連する予算を削除するには、「![&#x200B; クローズ &#x200B;](/help/assets/icons/Close.svg)」を選択します。
          1. オプションの最大予算を定義して計画を制約する手順は、次のとおりです。
             1. **[!UICONTROL Maximize budget]** をオンにします。
             1. 最大予算の金額を指定してください。 金額は、日付範囲に指定された予算の合計金額以上である必要があります。
@@ -51,16 +51,16 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
 
       * **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
-        ![ 目標を計画 ](../assets/plan-target.png)
+        ![&#x200B; 目標を計画 &#x200B;](../assets/plan-target.png)
 
          1. **[!UICONTROL Optimize]** コンテナ内
             1. コンバージョンをコンバージョ **[!UICONTROL Select conversion]** ドロップダウンメニューから選択します。
             1. **[!UICONTROL Select target metric]** ドロップダウンメニューからターゲット指標を選択します。 **[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**、**[!UICONTROL ROI]** から選択できます。
             1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
-         1. 日付を入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択して、日付範囲を指定します。
+         1. 日付を入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択して、日付範囲を指定します。
          1. 選択したターゲット指標の値を入力します。 例えば、**[!UICONTROL Total Conversions]** の場合は数値、**[!UICONTROL Paid Marketing ROI]** の場合はパーセンテージ、**[!UICONTROL Paid Marketing CPA]** と **[!UICONTROL Total Revenue]** の場合は通貨値です。
 日付範囲を追加するには、それぞれターゲット指標と共に ![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]** を選択します。
-日付範囲および関連するターゲット指標を削除するには、「![ 閉じる ](/help/assets/icons/Close.svg)」を選択します。
+日付範囲および関連するターゲット指標を削除するには、「![&#x200B; 閉じる &#x200B;](/help/assets/icons/Close.svg)」を選択します。
          1. オプションの最大予算を定義して計画を制約する手順は、次のとおりです。
             1. **[!UICONTROL Maximize budget]** をオンにします。
             1. 最大予算の金額を指定してください。
@@ -70,15 +70,15 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
 
 1. **[!UICONTROL Done with all required fields]** ダイアログで、次の手順を実行します。
 
-   ![ 計画完了 ](/help/assets/plan-done-required-fields.png)
+   ![&#x200B; 計画完了 &#x200B;](/help/assets/plan-done-required-fields.png)
 
-   * 予測 ROI を持つ AI 推奨プランを生成する場合は、「![ 新規プラン ](/help/assets/icons/NewPlan.svg)**[!UICONTROL Create plan now]**」を選択します。 「**[!UICONTROL OK]**」を選択します。 プランが作成されます。
-
-
+   * 予測 ROI を持つ AI 推奨プランを生成する場合は、「![&#x200B; 新規プラン &#x200B;](/help/assets/icons/NewPlan.svg)**[!UICONTROL Create plan now]**」を選択します。 「**[!UICONTROL OK]**」を選択します。 プランが作成されます。
 
 
 
-   * 予測 ROI を持つプランを作成する前にチャネル予算を編集して詳細設定を定義する場合は、「![ テーブル編集 ](/help/assets/icons/TableEdit.svg)」 **[!UICONTROL Edit channel budgets first]** を選択します。  「**[!UICONTROL OK]**」を選択すると、次の手順で **[!UICONTROL Spend selection]** でのチャネル支出を定義できます。
+
+
+   * 予測 ROI を持つプランを作成する前にチャネル予算を編集して詳細設定を定義する場合は、「![&#x200B; テーブル編集 &#x200B;](/help/assets/icons/TableEdit.svg)」 **[!UICONTROL Edit channel budgets first]** を選択します。  「**[!UICONTROL OK]**」を選択すると、次の手順で **[!UICONTROL Spend selection]** でのチャネル支出を定義できます。
 
 
      >[!IMPORTANT]
@@ -86,7 +86,7 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
      >以下の情報は、「![TableEdit](/help/assets/icons/TableEdit.svg)」を選択した場合にのみ関係し **[!UICONTROL Edit channel budgets first]** す。
 
 
-1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![ 山形 ](/help/assets/icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
+1. **[!UICONTROL Spend selection]** セクションの各予算の日付範囲で、![&#x200B; 山形 &#x200B;](/help/assets/icons/ChevronRight.svg) を使用して、そのデータ範囲のチャネル配分表示を開きます。
 
    過去のマーケティング費用データとインサイトを使用する場合は、履歴参照データを使用できます。 次の履歴リファレンスデータを考慮します。
 
@@ -96,7 +96,7 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
 
    過去の参照期間を選択した場合は、以前の支出パターンの環境設定に合わせて、Mix Modelerの計画機能で期待通りの計画を作成できます。 これらの計画は、最終的に関係者の信頼を高め、マーケティング計画が戦略的かつ効率的であり、これらの計画が実績データおよびビジネスニーズに基づいていることを確認する必要があります。
 
-   ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
+   ![&#x200B; 費用の選択 &#x200B;](/help/assets/plan-spend-selection.png)
 
    1. 「**[!UICONTROL Spend pattern]**」を選択します。
 
@@ -108,7 +108,7 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
    1. 通貨またはパーセンテージの入力を切り替えるには、「**[!UICONTROL $]**」で「**[!UICONTROL %]**」または「**[!UICONTROL View spend by]**」を選択します。 通貨ベースではないターゲット指標を選択した場合、この切替スイッチは無効になります。
 
    1. 終了したら「**[!UICONTROL Create]**」を選択します。
-      ![ 費用の選択 ](/help/assets/plan-spend-selection.png)
+      ![&#x200B; 費用の選択 &#x200B;](/help/assets/plan-spend-selection.png)
 
    1. **[!UICONTROL Next]** を選択します。
 
@@ -116,7 +116,7 @@ Mix Modelerでは、プランウィザードを使用してプランを作成し
 
 1. 「**[!UICONTROL Advanced configurations]**」セクションでは、オプションで詳細設定を入力できます。
 
-   ![ 計画の概要 ](../assets/plan-advanced-configurations.png)
+   ![&#x200B; 計画の概要 &#x200B;](../assets/plan-advanced-configurations.png)
 
    * 計画名、モデル、日付範囲および予算合計が要約されます。
 
