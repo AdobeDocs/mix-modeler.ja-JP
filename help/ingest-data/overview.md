@@ -3,27 +3,27 @@ title: データの取り込みの概要
 description: データをMix Modelerに取り込む方法を説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: bb05cee1d4e2245cf665e5dcea17a30c5c0cf203
+source-git-commit: f86454dd262a0a11a20d58e380b5d2b7c90fd2b9
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 10%
 
 ---
 
 # データの取り込みの概要
 
-Mix Modelerは、イベントレベルのデータ、様々な壁庭からの集計または概要マーケティング労力データ、他のソース（オフライン広告、内部要因、外部要因など）からの集計または概要データで動作します。
+Mix Modelerは、イベントレベルのデータ、様々なウォールガーデンからの集計またはサマリーマーケティングの取り組みデータで機能します。 また、オフライン広告、内部要因、外部要因など、他のソースからの集計データや概要データも使用できます。
 
 お客様は、Experience Platformにデータセットとして取り込まれ、XDM ExperienceEvent または XDM Summary Metrics を基本クラスとして使用するスキーマに基づく、あらゆる種類のデータを使用できます。
 
 例：
 
-* Adobe Analytics ソースコネクタを使用して収集されたデータで、Adobe Analytics スキーマのデフォルトまたはカスタムバージョン（または）に従ったデータセットに変換されたもの
-* web、モバイル、またはその他のタイプのデバイスに対する顧客のインタラクションを収集するためにExperience Platform Web SDK、Mobile SDKまたはEdge Network Server API を使用して収集されたデータ。
-* ウォールガーデン（Facebook、YouTubeなど）、交通源、オフライン広告データからの集計または概要データ
+* Adobe Analytics ソースコネクタを使用して収集されたデータ。 Adobe Analytics スキーマのデフォルトバージョンまたはカスタムバージョンに従ったデータセットに変換される。
+* Web、モバイル、またはその他のタイプのデバイスに対する顧客のインタラクションを収集するためにExperience Platform Web SDK、モバイル SDKまたはEdge Network Server API を使用して収集されたデータ。
+* 壁庭（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからの集計または概要データ。
 * モデルの構築に役立つ内部または外部の要因を含む、マーケティング以外の集計または概要データ。
 
-Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 取り込みメカニズムには、Experience Platform SDK、API、ソースコネクタ、ストリーミング取り込み、バッチ取り込みが含まれます。 Adobe Mix Modelerで使用するデータをExperience Platformで取り込む方法については、[&#x200B; データ取り込みの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home) を参照してください。
+Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングおよびバッチ取得など。 Adobe Mix Modelerで使用するデータをExperience Platformで取り込む方法については、[ データ取り込みの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home) を参照してください。
 
 ## ガイドライン
 
@@ -86,10 +86,10 @@ Mix Modelerのデータを操作するには、データセットで収集され
 
 データがMix Modelerで適切に使用可能かどうかを検証するには、次の操作を実行します。
 
-* [&#x200B; 概要 &#x200B;](/help/overview.md) でビジュアライゼーションを使用する。
-* 統一データセットの [&#x200B; 統一データ &#x200B;](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
+* [ 概要 ](/help/overview.md) でビジュアライゼーションを使用します。
+* 統一データセットの [ 統一データ ](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home) ことができます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) ことができます。
 
 
 >[!MORELIKETHIS]
