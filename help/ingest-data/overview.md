@@ -23,7 +23,7 @@ Mix Modelerは、イベントレベルのデータ、様々なウォールガー
 * 壁庭（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからの集計または概要データ。
 * モデルの構築に役立つ内部または外部の要因を含む、マーケティング以外の集計または概要データ。
 
-Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングおよびバッチ取得など。 Adobe Mix Modelerで使用するデータをExperience Platformで取り込む方法については、[ データ取り込みの概要 ](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home) を参照してください。
+Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングおよびバッチ取得など。 Adobe Mix Modelerで使用するデータをExperience Platformで取り込む方法については、[&#x200B; データ取り込みの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home) を参照してください。
 
 ## ガイドライン
 
@@ -86,10 +86,10 @@ Mix Modelerのデータを操作するには、データセットで収集され
 
 データがMix Modelerで適切に使用可能かどうかを検証するには、次の操作を実行します。
 
-* [ 概要 ](/help/overview.md) でビジュアライゼーションを使用します。
-* 統一データセットの [ 統一データ ](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
+* [&#x200B; 概要 &#x200B;](/help/overview.md) でビジュアライゼーションを使用します。
+* 統一データセットの [&#x200B; 統一データ &#x200B;](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する ](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) ことができます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/query/home) ことができます。
 
 
 >[!MORELIKETHIS]

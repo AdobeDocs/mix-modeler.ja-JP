@@ -22,7 +22,7 @@ If you are subject to the Health Insurance Portability and Accountability Act (H
 
 Mix Modeler インターフェイスで監査ログを調べるには、次の手順を実行します。
 
-1. ![ から ](/help/assets/icons/TaskList.svg) タスクリスト **[!UICONTROL Audits]****[!UICONTROL PRIVACY]** を選択します。
+1. ![&#x200B; から &#x200B;](/help/assets/icons/TaskList.svg) タスクリスト **[!UICONTROL Audits]**&#x200B;**[!UICONTROL PRIVACY]** を選択します。
 
 1. **[!UICONTROL Audits]** では、**[!UICONTROL Activity log]** を見つけることができます。 アクティビティログには、次のMix Modeler カテゴリ、アクション、ステータスのエントリが表示されます。
 
@@ -55,16 +55,16 @@ Mix Modeler インターフェイスで監査ログを調べるには、次の�
 
 1. アクティビティログでエントリを選択すると、パネルが開いて詳細を確認できます。
 
-   ![Mix Modeler監査 ](/help/assets/mix-modeler-audit.png)
+   ![Mix Modeler監査 &#x200B;](/help/assets/mix-modeler-audit.png)
 
-1. **[!UICONTROL Category]**、**[!UICONTROL Action]**、**[!UICONTROL Request ID]**、**[!UICONTROL User]**、**[!UICONTROL Status]** または **[!UICONTROL Date]** の範囲に対してフィルターを適用するには、「![ フィルター ](/help/assets/icons/Filter.svg)」を選択します。
+1. **[!UICONTROL Category]**、**[!UICONTROL Action]**、**[!UICONTROL Request ID]**、**[!UICONTROL User]**、**[!UICONTROL Status]** または **[!UICONTROL Date]** の範囲に対してフィルターを適用するには、「![&#x200B; フィルター &#x200B;](/help/assets/icons/Filter.svg)」を選択します。
 
-1. アクティビティログに表示されている列を変更するには、「![ 列 ](/help/assets/icons/ColumnSetting.svg)」を選択し、**[!UICONTROL Customize table]** ダイアログで表示する列を選択します。 **[!UICONTROL Apply]** を選択して選択を適用するか、**[!UICONTROL Cancel]** を選択して選択をキャンセルします。
+1. アクティビティログに表示されている列を変更するには、「![&#x200B; 列 &#x200B;](/help/assets/icons/ColumnSetting.svg)」を選択し、**[!UICONTROL Customize table]** ダイアログで表示する列を選択します。 **[!UICONTROL Apply]** を選択して選択を適用するか、**[!UICONTROL Cancel]** を選択して選択をキャンセルします。
 
-1. 監査ログをダウンロードするには、「![ ダウンロード ](/help/assets/icons/Download.svg)」 **[!UICONTROL Download log]** を選択します。 **[!UICONTROL Download log]** ダイアログで、形式として **[!UICONTROL CSV]** または **[!UICONTROL JSON]** を選択し、「**[!UICONTROL Download]**」を選択します。
+1. 監査ログをダウンロードするには、「![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)」 **[!UICONTROL Download log]** を選択します。 **[!UICONTROL Download log]** ダイアログで、形式として **[!UICONTROL CSV]** または **[!UICONTROL JSON]** を選択し、「**[!UICONTROL Download]**」を選択します。
 
 ## 監査ログへのアクセス
 
 組織に対してこの機能が有効になっている場合、アクティビティが発生すると監査ログが自動的に収集されます。 監査ログの収集を手動で有効にする必要はありません。
 
-監査ログを表示および書き出すには、監査ログのアクセスアクセス制御権限を付与されている必要があります。 Mix Modeler機能の個々の権限を管理する方法については、[ アクセス制御ドキュメント ](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home) を参照してください。
+監査ログを表示および書き出すには、監査ログのアクセスアクセス制御権限を付与されている必要があります。 Mix Modeler機能の個々の権限を管理する方法については、[&#x200B; アクセス制御ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home) を参照してください。

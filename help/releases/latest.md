@@ -20,48 +20,48 @@ ht-degree: 4%
 
 ## 2025年9月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
 | **[!UICONTROL Dataset mapping validations]** | 統一されたフィールドのExperience Platform データセットマッピングに検証機能を追加しました。 | 2025年9月9日（PT） | 2025年9月9日（PT） |
 | **[!UICONTROL Context menu on links to model and plans]** | モデルおよび計画へのリンクに対してブラウザのコンテキスト メニューを有効にしました。 ブラウザの右クリック メニューを使用して、特定のプランまたはモデルを新しいタブまたはウィンドウで開くことができるようになりました。 | 2025年9月9日（PT） | 2025年9月9日（PT） |
-| **修正点** | 次のチケットの修正： <ul><li>AMM-3101：ルールの誤ったマッピング作成を修正しました。`event_date` ではなくフィールド名として `timestamp` が渡されました。</li><li>AMM-3092：重複した予算ベースの計画でチャネルの最大制約値を変更できない問題を修正しました。</li><li>AM3130：モデルの詳細ポップアップウィンドウの **[!UICONTROL Run frequency]** 情報の誤りを修正しました。</li><li>AMM3158: **[!UICONTROL Select target metric]** 計画作成 **[!UICONTROL Optimize]** インターフェイスの [ ペインの一部として、](/help/plans/build.md) オプションのラベルを更新しました。</li><li>AMM 3176:[ の「](/help/models/insights.md#breakdown)」タブに **[!UICONTROL Attribution]** チャネルによる分類 **[!UICONTROL Model Insights]** ビジュアライゼーションが表示されない問題を修正しました。</li></ul> | 2025年9月9日（PT） | 2025年9月9日（PT） |
+| **修正点** | 次のチケットの修正： <ul><li>AMM-3101：ルールの誤ったマッピング作成を修正しました。`event_date` ではなくフィールド名として `timestamp` が渡されました。</li><li>AMM-3092：重複した予算ベースの計画でチャネルの最大制約値を変更できない問題を修正しました。</li><li>AM3130：モデルの詳細ポップアップウィンドウの **[!UICONTROL Run frequency]** 情報の誤りを修正しました。</li><li>AMM3158: **[!UICONTROL Select target metric]** 計画作成 **[!UICONTROL Optimize]** インターフェイスの [&#x200B; ペインの一部として、](/help/plans/build.md) オプションのラベルを更新しました。</li><li>AMM 3176:[&#x200B; の「](/help/models/insights.md#breakdown)」タブに **[!UICONTROL Attribution]** チャネルによる分類 **[!UICONTROL Model Insights]** ビジュアライゼーションが表示されない問題を修正しました。</li></ul> | 2025年9月9日（PT） | 2025年9月9日（PT） |
 | **修正点** | 次のチケットの修正： <ul><li>AMM-3174：既存のプランがない場合の操作性が向上しました。</li><li>AMM-3216：カスタム日付範囲の検証を強化しました。</li><li>AMM-3240：固定実行モデルの頻度表示。</ul> | 2025年9月23日（PT） | 2025年9月23日（PT） |
 
 
 ## 2025年7月～8月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Compare plans update]** | [ プランの比較 ](/help/plans/compare.md) UI に、有料マーケティングの追加の詳細（ROI または CPA、収益）が表示されるようになりました。 | 2025 年 8 月 20 日（Pt） | 2025 年 8 月 20 日（Pt） |
-| **調和の更新** | すべてのデータセットルールは、データセットタイプに関係なく、類似した [ 汎用マップを統一されたフィールドエクスペリエンスにマッピング ](/help/harmonize-data/dataset-rules.md) を使用するようになりました。 概要データセットから標準統一フィールドをマッピングすると、Mix Modelerは対応するExperience Platform データセットフィールドの推定を自動的に試みます。 | 2025年7月29日（PT） | 2025年7月29日（PT） |
+| **[!UICONTROL Compare plans update]** | [&#x200B; プランの比較 &#x200B;](/help/plans/compare.md) UI に、有料マーケティングの追加の詳細（ROI または CPA、収益）が表示されるようになりました。 | 2025 年 8 月 20 日（Pt） | 2025 年 8 月 20 日（Pt） |
+| **調和の更新** | すべてのデータセットルールは、データセットタイプに関係なく、類似した [&#x200B; 汎用マップを統一されたフィールドエクスペリエンスにマッピング &#x200B;](/help/harmonize-data/dataset-rules.md) を使用するようになりました。 概要データセットから標準統一フィールドをマッピングすると、Mix Modelerは対応するExperience Platform データセットフィールドの推定を自動的に試みます。 | 2025年7月29日（PT） | 2025年7月29日（PT） |
 
 
 ## 2025 年 5 月～6 月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
-| **目標ベースのプラン** | 予算の横では、計画を [ 作成 ](/help/plans/build.md) または編集 [ するときに目標（ターゲット ](/help/plans/insights.md#edit-plan) を定義できます。 ターゲット指標の例としては、売上高、コンバージョン、CPA または ROI があります。 | 2025 年 6 月 18 日（Pt） | 2025年7月8日（PT） |
-| **費用パターン設定** | プランを作成する際に、各予算の日付範囲に対して支出パターンを定義する際に、[ 履歴参照 ](/help/plans/build.md) データ（過去のマーケティング支出データやインサイトなど）を使用するオプションが追加されました。 | 2025 年 5 月 14 日（Pt） | 2025 年 5 月 14 日（Pt） |
-| **高度なプラン設定** | コンバージョンあたりの平均売上高やチャネルコストなど、プランの [ 高度な設定 ](/help/plans/build.md) を定義できます。 | 2025 年 5 月 14 日（Pt） | 2025 年 5 月 14 日（Pt） |
+| **目標ベースのプラン** | 予算の横では、計画を [&#x200B; 作成 &#x200B;](/help/plans/build.md) または編集 [&#x200B; するときに目標（ターゲット &#x200B;](/help/plans/insights.md#edit-plan) を定義できます。 ターゲット指標の例としては、売上高、コンバージョン、CPA または ROI があります。 | 2025 年 6 月 18 日（Pt） | 2025年7月8日（PT） |
+| **費用パターン設定** | プランを作成する際に、各予算の日付範囲に対して支出パターンを定義する際に、[&#x200B; 履歴参照 &#x200B;](/help/plans/build.md) データ（過去のマーケティング支出データやインサイトなど）を使用するオプションが追加されました。 | 2025 年 5 月 14 日（Pt） | 2025 年 5 月 14 日（Pt） |
+| **高度なプラン設定** | コンバージョンあたりの平均売上高やチャネルコストなど、プランの [&#x200B; 高度な設定 &#x200B;](/help/plans/build.md) を定義できます。 | 2025 年 5 月 14 日（Pt） | 2025 年 5 月 14 日（Pt） |
 
 ## 2025 年 3～4 月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
-| **モデルドリフト検出** | モデルを開くと、[ モデルのドリフトが検出されたときに、モデルを再トレーニングするように求めるプロンプト ](/help/models/insights.md#model-drift) が表示されます。 | 2025 年 4 月 3 日（Pt） | 2025年5月7日（PT） |
-| **プランインサイトでの限界的なチャネルリターン** | プランインサイトに [ マージナルチャネルリターン ](/help/plans/insights.md#marginal-channel-return) ビジュアライゼーションが追加され、すべてのチャネルまたは選択したチャネルに対して、マージナルブレークが均等でプランリターンが表示されます。 | 2025 年 4 月 3 日（Pt） | 2025 年 4 月 24 日（Pt） |
+| **モデルドリフト検出** | モデルを開くと、[&#x200B; モデルのドリフトが検出されたときに、モデルを再トレーニングするように求めるプロンプト &#x200B;](/help/models/insights.md#model-drift) が表示されます。 | 2025 年 4 月 3 日（Pt） | 2025年5月7日（PT） |
+| **プランインサイトでの限界的なチャネルリターン** | プランインサイトに [&#x200B; マージナルチャネルリターン &#x200B;](/help/plans/insights.md#marginal-channel-return) ビジュアライゼーションが追加され、すべてのチャネルまたは選択したチャネルに対して、マージナルブレークが均等でプランリターンが表示されます。 | 2025 年 4 月 3 日（Pt） | 2025 年 4 月 24 日（Pt） |
 
 
 ## 2025 年 1～2 月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
-| **ネストされた条件** | [ モデルの設定 ](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **レポートの表示** | データの調和の一部として定義した [ コンバージョン ](/help/harmonize-data/conversions.md#view-report) または [ マーケティングタッチポイント ](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **確認を削除** | [ プラン ](/help/plans/overview.md#delete-plans) または [ モデル ](/help/models/overview.md#delete-models) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **要因 UI の改善** | モデルインサイトに表示する [ 要因 ](/help/models/insights.md#factors-beta) を選択できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **ネストされた条件** | [&#x200B; モデルの設定 &#x200B;](/help/models/build.md#configure) の一部として適格なデータ母集団を定義する場合、AND および OR を使用してネストされた条件を作成できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **レポートの表示** | データの調和の一部として定義した [&#x200B; コンバージョン &#x200B;](/help/harmonize-data/conversions.md#view-report) または [&#x200B; マーケティングタッチポイント &#x200B;](/help/harmonize-data/marketing-touchpoints.md#view-report) に関するレポートを表示できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **確認を削除** | [&#x200B; プラン &#x200B;](/help/plans/overview.md#delete-plans) または [&#x200B; モデル &#x200B;](/help/models/overview.md#delete-models) の削除を確認するプロンプトが表示されます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **要因 UI の改善** | モデルインサイトに表示する [&#x200B; 要因 &#x200B;](/help/models/insights.md#factors-beta) を選択できます。 | 2025 年 1 月 15 日（Pt） | 2025 年 2 月 18 日（Pt） |
 | **エラー処理** | データのハーモナイゼーションと計画におけるエラーシナリオに対する、使いやすいエラーメッセージと改善されたユーザーエクスペリエンス。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
-| **モデルのステータス** | モデルのライフサイクル全体にわたる [ モデルのステータス ](/help/models/overview.md#manage-models) の再定義。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
+| **モデルのステータス** | モデルのライフサイクル全体にわたる [&#x200B; モデルのステータス &#x200B;](/help/models/overview.md#manage-models) の再定義。 | 2025 年 2 月 18 日（Pt） | 2025 年 2 月 18 日（Pt） |
 
 
 ## リリース方法
