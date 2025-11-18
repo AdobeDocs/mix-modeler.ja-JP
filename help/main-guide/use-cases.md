@@ -1,9 +1,9 @@
 ---
 title: Mix Modelerのユースケース
-description: Mix Modelerのユースケース。
+description: Mix Modelerの使用例。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: c0bae17b21322cafb50370dcd787bb86b8e3e471
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 3%
@@ -34,7 +34,7 @@ Mix Modelerでは、次の主要なユースケースが可能です。
 
 | 手順 | 詳細 |
 |---|---|
-| 取り込み | 共通スキーマの下でデータソースを特定して取り込みます。 <br/>Adobe AnalyticsまたはCustomer Journey Analyticsへの既存の投資をファストトラックのデプロイメントに適用します。 |
+| 取り込み | 共通スキーマの下でデータソースを特定して取り込みます。 <br/>Adobe AnalyticsまたはCustomer Journey Analyticsに対する既存の投資を迅速なデプロイメントに適用します。 |
 | 設定 | 特定のビジネス目標に合わせて AI-as-a-Service フレームワークを使用して柔軟なモデルを設定します <br/> 双方向転送学習により、タッチポイントとサマリーレベルの一貫性を自動的に確保します。 |
 | 分析 | マーケティング全体と個々のチャネル/サブチャネルの ROI を明確に理解します。<br/> 増分コンバージョンを推進するのに最適なタッチポイントを明確に理解します。 |
 
@@ -132,7 +132,7 @@ Successful implementation of this use can have the following impact:
 
 -->
 
-## Adobeアプリケーション全体で戦術的なインサイトをアクティブ化
+## Adobe アプリケーション全体で戦術的なインサイトをアクティブ化
 
 このユースケースは、タッチポイントスコアにアクセスして、顧客セグメントおよびジャーニーに関する戦略的な増分インサイトを得るのに役立ちます。
 
@@ -155,7 +155,7 @@ Successful implementation of this use can have the following impact:
 |---|---|
 | モデル | AI/ML モデルの設定とトレーニングにより、一貫性のある MTA タッチポイントスコアと MMM 集計の結果を取得します。 |
 | 分析 | 増分タッチポイントスコアのCustomer Journey Analyticsまたは外部 BI ツールへの書き出し。<br/> タッチポイントスコアを使用して、詳細な分析を実行し、高度なダッシュボードを構築します。 |
-| アクション | Real-time Customer Data Platformを使用して、上位の消費者セグメントへのルックアップを作成してアクティブ化します。<br/> 将来のキャンペーンに備えて、顧客セグメント別にデータ駆動型のマーケティング戦略を開発します。 |
+| アクション | Real-Time Customer Data Platformを使用して、上位の消費者セグメントへのルックアップを作成してアクティブ化します。<br/> 将来のキャンペーンに備えて、顧客セグメント別にデータ駆動型のマーケティング戦略を開発します。 |
 
 {style="table-layout:auto"}
 

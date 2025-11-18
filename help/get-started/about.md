@@ -1,17 +1,17 @@
 ---
-title: Mix Modelerの概要
+title: Mix Modeler の概要
 description: Mix Modeler の機能の概要を説明します。
 short-description: Mix Modeler の機能の概要を説明します。
 feature: Plans, Harmonized Data, Models
 exl-id: aa1018d5-b073-4dfb-b40c-ca16a8970b2f
-source-git-commit: 325bc55076467a8cab5a884ea5137249913d2350
+source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
 workflow-type: tm+mt
 source-wordcount: '745'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
-# Mix Modelerの概要
+# Mix Modeler の概要
 
 Adobe Senseiを活用したMix Modelerを使用すると、マーケターはキャンペーンを測定し、有料、有料、所有のすべてのチャネルにわたって総合的に計画を最適化できます。 この統一された方法論は、完全に一貫性のある結果を確保しながら、マーケティングタッチポイントと集計レベルの両方で増分的に測定します。
 
@@ -31,7 +31,7 @@ Mix Modelerは、戦略的および戦術的なレベルで、最適化され実
 
 AI/ML の双方向転送学習は、マーケティングミックスモデリング（MMM）とマルチタッチアトリビューション（MTA）の結果を統合して、cookie のない世界での測定と計画全体で一貫した結果を確保します。
 
-![&#x200B; 双方向変換学習 &#x200B;](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![ 双方向変換学習 ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## 機能
@@ -49,7 +49,7 @@ Mix Modelerは次の機能を提供します。
 
 >[!MORELIKETHIS]
 >
->[Mix Modelerのワークフローについて &#x200B;](workflow.md)
+>[Mix Modelerのワークフローについて ](workflow.md)
 
 
 ### マーケティングミックスモデリング（MMM）
@@ -86,9 +86,9 @@ Mix Modelerのマルチタッチアトリビューション機能は、次のユ
 
 * キャンペーン予算配分：マーケティングチャネル全体で予算配分の決定を通知します。
 * キャンペーンの最適化：各チャネル内で、どのキャンペーン、クリエイティブ、キーワードがどの SKU や地域でより効果的に機能しているかを把握します。 この理解により、マーケティングチームが戦術を最適化できるように、各チャネルを確認できます。
-* フルファネルイベントレベルのアトリビューション：カスタマージャーニー全体にわたるマーケティングの影響を把握します。 例えば、有料コンバージョン以降も継続される無料アカウントサインアップなど。
+* funnelのイベントレベルの完全なアトリビューション：カスタマージャーニー全体にわたるマーケティングの影響を把握します。 例えば、有料コンバージョン以降も継続される無料アカウントサインアップなど。
 * パートナー評価：アトリビューションの結果に基づいて、代理店とパートナーの有効性を評価します。
 
-Mix Modeler内のマルチタッチアトリビューションインサイトにアクセスする方法については、[&#x200B; モデルインサイト – アトリビューション &#x200B;](../models/insights.md#attribution) を参照してください。
+Mix Modeler内のマルチタッチアトリビューションインサイトにアクセスする方法については、[ モデルインサイト – アトリビューション ](../models/insights.md#attribution) を参照してください。
 
 
