@@ -4,18 +4,28 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 8b9f8b6b007f78e9c98e71be56bea48d335fb3c3
+source-git-commit: 6fc734793102533003c731e22dfe0d8c422a1cde
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '834'
 ht-degree: 4%
 
 ---
 
 # 最新のMix Modeler リリースノート
 
-**最終更新日**:2025 年 9 月 12 日（PT）。
+**最終更新日**:2025 年 11 月 12 日（PT）。
 
 これらのリリースノートは、Mix Modelerの最新リリースをカバーしています。 Mix Modeler リリースは、継続的な配信モデルに基づいて動作します。このモデルにより、毎月のおおよそのリリースサイクルが可能になります。 したがって、これらのリリースノートは更新されるので、定期的に確認してください。
+
+
+
+## 2025年11月
+
+| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+|---|---|---|---|
+| **[!UICONTROL Plans tracking]** | マーケティングプランの実行が予定通りにどのように追跡されるかをユーザーが理解できるようにします。 そのため、マーケティングのパフォーマンスに自信を持つことができます。 または、コースを修正してビジネス目標を達成するために、機会とリスクを早期に特定します。 [ プランのビジュアライゼーションに対するパフォーマンス ](/help/dashboard/plans.md#performance-to-plan) が更新され、指標と精度を設定できるようになりました。 | 2025 年 11 月 12 日（Pt） | 2025 年 11 月 12 日（Pt） |
+| **[!UICONTROL Channel synergy insights]** | マーケティングチャネルが連携してより大きな影響を与える仕組みを明らかにします。 これらのインサイトを使用すると、過去のマーケティング効果を自信を持って説明し、それに応じてマーケティング費用を調整して、マーケティングポートフォリオの全体的なリターンを最大化できます。 チャネルの相乗行列は、[ モデルインサイト ](/help/models/insights.md#channel-synergy) および [ プランインサイト ](/help/plans/insights.md#channel-synergies) で利用できます。 | 2025 年 11 月 12 日（Pt） | 2025 年 11 月 12 日（Pt） |
+| **修正点** | 次のチケットの修正： <ul><li>AMM-2920：作成フローと移行を計画します。</li><li>AMM-3282：大きなグリッドで小さな数値が変化する指数表記。</li></ul> | 2025 年 11 月 12 日（Pt） | 2025 年 11 月 12 日（Pt） |
 
 
 ## 2025年9月
