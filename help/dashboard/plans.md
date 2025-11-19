@@ -3,9 +3,9 @@ title: 計画するパフォーマンス
 description: Mix Modelerの Performance to Plan の概要を使用する方法を説明します。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 733fc969a780e777eae67042303180707ec4ed8d
+source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -14,41 +14,38 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) の「**[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative}」タブはアルファ機能で **[!UICONTROL Overview]** その機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
+>Mix Modeler **[!UICONTROL Performance to pan]** ホーム [!BADGE  の「]{type=Informative} ![Beta](/help/assets/icons/Home.svg)」タブはベータ版機能であり、**[!UICONTROL Overview]** の機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
 
+Mix Modeler **[!UICONTROL Plans]** ホーム [!BADGE  ]{type=Informative} の ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。 ステータスカードとビジュアライゼーションを使用して、実際のパフォーマンスと予定パフォーマンスを追跡できます。
 
-
-
-Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]** の **[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative} タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。
+このダッシュボードを使用すると、ギャップを特定し、リスクや機会を見つけ出して、計画や予算をタイムリーに調整できます。
 
 KPI ステータス・カードおよびビジュアライゼーションに表示するデータを選択するには、次の手順を実行します。
 
 * **[!UICONTROL Plan name]** ドロップダウンメニューから **[!UICONTROL _オプションを選択…_]** を使用して、プランを選択します。
 
-* 期間を指定します。 日付範囲を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択します。
+* 期間を指定します。 日付範囲を変更するには、開始日と終了日を手動で入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択します。
 
-「**[!UICONTROL Plans]** [!BADGE Alpha]{type=Informative}」タブには、次の情報が表示されます。
+「**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}」タブには、次の情報が表示されます。
 
-* KPI ステータスカード
+* [KPI ステータス カード ](#kpi-status-cards):
 
    * [予算](#budget)
    * [収益](#revenue)
    * [ROI](#roi)
-   * [注文件数](#orders)
+   * [KPI](#kpi)
 
-* ビジュアライゼーション：
-   * [ROI：実際と予測の比較](#roi-actual-vs-forecasted)
-   * [支出：実際と予定](#spend-actual-vs-planned)
-   * [日付範囲別の ROI](#roi-by-date-ranges)
-   * [収益：実収益と予測](#revenue-actual-vs-forecasted)
-   * [実際の日付範囲と予測日付範囲](#actual-vs-predicted-spend-by-date-ranges)
-   * [費用（日付範囲別）](#spend-by-date-ranges)
-   * [収益（日付範囲別）](#revenue-by-date-ranges)
-   * [日付範囲（およびチャネル）別の支出](#spend-by-date-ranges-and-channels)
+* [ ビジュアライゼーション ](#visualizations):
+   * [*指標*](#metric-actual-vs-planned)
+   * [*指標*](#metric-actual-vs-planned-by-granularity)
+   * [チャネル ](#channel-metric-by-granularity)
+   * [*指標*](#metric-vs-metric-by-channel)
+   * [*指標*](#metric-by-granularity)
+   * [*指標*](#metric-by-channel)
 
 ## KPI ステータスカード
 
-![KPI ステータスカード &#x200B;](../assets/performance-to-plan-kpi-cards.png)
+![KPI ステータスカード ](../assets/performance-to-plan-kpi-cards.png)
 
 
 ### 予算
@@ -65,54 +62,69 @@ KPI ステータス・カードおよびビジュアライゼーションに表�
 期間の ROI を表示する線のビジュアライゼーション。
 
 
-### 注文件数
+### KPI
 
-期間の注文を表示する折れ線グラフ ビジュアライゼーション。
+期間の KPI を表示する折れ線グラフ ビジュアライゼーション。
 
 別の KPI を選択する手順は、次のとおりです。
 
 1. 「![編集](/help/assets/icons/Edit.svg)」を選択します。
-1. **[!UICONTROL KPI status card]** ダイアログで、**[!UICONTROL KPI]** ドロップダウンメニューから KPI を選択します。
+1. **[!UICONTROL KPI status card]** ダイアログで、**[!UICONTROL KPI]** ドロップダウンメニューから KPI を選択します。 使用可能なオプションは、[!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI] および [!UICONTROL Spend] です。
 
 
 ## ビジュアライゼーション
 
-![&#x200B; 表示 &#x200B;](../assets/performance-to-plan-visualizations.png)
+6 つのビジュアライゼーションを使用でき、6 つのビジュアライゼーションをそれぞれ編集できます。
 
-### ROI：実際と予測の比較
+ビジュアライゼーションのサイズを変更するには、右下隅にある ┛ ハンドルを使用します。 ビジュアライゼーションを移動するには、ビジュアライゼーションを希望の位置にドラッグ&amp;ドロップします。
 
-期間の実際の ROI と予測 ROI を比較する線のビジュアライゼーション。
+ビジュアライゼーション内の線、棒グラフまたは散布図の要素の上にマウスポインターを置くと、追加情報を含むポップアップが表示されます。
 
+![ 表示 ](../assets/performance-to-plan-visualizations.png)
 
-### 支出：実際と予定
+### *指標*：実際と予定
 
-期間のチャネルをまたいで実際の支出と予定予算を比較する棒グラフビジュアライゼーション。
-
-### 日付範囲別の ROI
-
-期間の日付範囲ごとの ROI を表示する棒グラフビジュアライゼーション。
+選択した指標の値を累計、予定から累計および合計で比較する、積み重ね棒グラフのビジュアライゼーション。
 
 
-### 収益：実収益と予測
+### *指標*：実績対予定比 *精度*
 
-日付範囲の実収益と予測収益を比較する線のビジュアライゼーション。
-
-
-### 実績費用と予測費用（日付範囲別）
-
-日付範囲の日付範囲別に、実際の支出と予測された支出を示す棒グラフビジュアライゼーション。
+選択した指標の実際の値と予定値、および選択した精度を表示する折れ線グラフ ビジュアライゼーション。
 
 
-### 費用（日付範囲別）
+### チャネル *指標**精度*
 
-期間の日付範囲別の支出を表示する棒グラフビジュアライゼーション。
-
-
-### 収益（日付範囲別）
-
-期間の日付範囲ごとに売上高を表示する棒グラフビジュアライゼーション。
+選択した指標のチャネルと選択した精度を表示する積み重ね棒グラフを表示する積み重ね棒グラフのビジュアライゼーション。
 
 
-### 日付範囲とチャネル別の支出
+### チャネル別の *指標* 対 *指標*
 
-日付範囲および期間のチャネル別の支出を表示する積み重ね棒グラフビジュアライゼーション。
+選択した指標全体のチャネルの散布図を表示する散布図ビジュアライゼーション。
+
+
+### *指標* by *精度*
+
+選択した指標の実際の値と予定値を示す棒グラフ ビジュアライゼーション。
+
+
+### *指標* チャネル別
+
+選択した精度で選択した指標を表示する複数行のビジュアライゼーション。
+
+
+### ビジュアライゼーションの編集
+
+ビジュアライゼーションを編集するには：
+
+1. 「![ 編集 ](/help/assets/icons/Edit.svg)」を選択して、**[!UICONTROL Edit data]** ダイアログを開きます。
+1. ビジュアライゼーションに応じて、次を変更できます。
+
+   * 1 つまたは 2 つの指標：**[!UICONTROL Select metric]** ドロップダウンメニューから指標を選択します。
+
+      * ROI ベースプランの場合、オプションは [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]、[!UICONTROL Volume] です。
+      * CPA ベースのプランの場合、オプションは [!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend] および [!UICONTROL Volume] です。
+   * **[!UICONTROL Granularity]**: **[!UICONTROL date ranges]** ドロップダウンメニューから **[!UICONTROL week]** または **[!UICONTROL Granularity]** を選択します。
+
+   **[!UICONTROL Preview]** のビジュアライゼーションと **[!UICONTROL Current]** 変化の違いがわかります。
+
+1. 「**[!UICONTROL Apply]**」を選択して、変更を適用します。 「**[!UICONTROL Cancel]**」を選択して、ビジュアライゼーションに対する変更をキャンセルします。
