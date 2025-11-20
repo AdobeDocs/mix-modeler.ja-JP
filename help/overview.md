@@ -1,5 +1,5 @@
 ---
-title: Mix Modelerガイド
+title: Mix Modeler ガイド
 description: Mix Modeler を使用してキャンペーンを測定し、すべてのチャネルをまたいで総合的に計画を最適化する方法について説明します。
 short-description: Mix Modeler を使用してキャンペーンを測定し、すべてのチャネルをまたいで総合的に計画を最適化する方法について説明します。
 feature: Harmonized Data, Models, Plans
@@ -11,9 +11,9 @@ ht-degree: 18%
 
 ---
 
-# Adobe Mix Modelerガイド
+# Adobe Mix Modeler ガイド
 
-この技術ドキュメントガイドでは、Adobe **のMix Modeler** に関するセルフヘルプの支援を提供します。 Mix Modelerは、キャンペーンを測定し、有料、獲得、所有などのすべてのチャネルにわたって計画を総合的に最適化するAdobe Experience Cloud アプリケーションです。 Mix ModelerはAdobe Experience Platformをベースに構築され、Adobe Senseiを活用しています。
+この技術ドキュメントガイドでは、Adobe **Mix Modeler** のセルフヘルプ機能を提供します。 Mix Modelerは、キャンペーンを測定し、有料、獲得、所有などのすべてのチャネルにわたって計画を総合的に最適化するAdobe Experience Cloud アプリケーションです。 Mix Modelerは、Adobe Experience Platformをベースに構築され、Adobe Senseiを活用しています。
 
 ## 基本について学ぶ
 
@@ -21,11 +21,11 @@ ht-degree: 18%
   <tr style="border: 0;">
     <td>
     <a href="/help/get-started/about.md"><img src="assets/whatis-mm.png"></a>
-    <div><strong> クイックスタート </strong><br/>Mix Modelerのワークフローの概要とインサイトを取得します。</div>
+    <div><strong> クイックスタート </strong><br/>Mix Modelerのワークフローのおよびinsightの概要を説明します。</div>
     </td>
     <td>
     <a href="/help/ingest-data/overview.md"><img src="assets/data-ingestion-mm.png"></a>
-    <div><strong> データの取り込み </strong><br/> イベントおよび集計または概要データをMix Modelerに取り込む方法を説明します。</div>
+    <div><strong> データの取り込み </strong><br/> イベントおよび集計データまたは概要データをMix Modelerに取り込む方法を説明します。</div>
     </td>
     <td>
     <a href="/help/harmonize-data/overview.md"><img src="assets/plan-mm.png"/></a>
@@ -74,7 +74,7 @@ ht-degree: 18%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong>Tutorials</strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=ja"> 概要 </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=ja"> ユースケース </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=ja"> ユーザーワークフロー </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=ja"> ユーザーインターフェイスツアー </a>
+      <strong> チュートリアル </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en"> 概要 </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en"> ユースケース </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en"> ユーザーワークフロー </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en"> ユーザーインターフェイスツアー </a>
     </td>
   </tr>
 </table>

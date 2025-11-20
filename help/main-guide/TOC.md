@@ -5,7 +5,7 @@ user-guide-description: Mix Modeler の使用方法を学ぶ。
 source-git-commit: cc6f7810bf60c7b364280139cb1cbb39794595d8
 workflow-type: tm+mt
 source-wordcount: '88'
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 + [Mix Modeler ガイド](/help/overview.md)
 
-+ はじめに {#get-started}
++ 基本を学ぶ {#get-started}
    + [Mix Modelerとは](/help/get-started/about.md)
    + [アプリケーションワークフロー](/help/get-started/workflow.md)
 
@@ -43,7 +43,7 @@ ht-degree: 54%
    + [コンバージョン数](/help/harmonize-data/conversions.md)
    + [使用状況レポート](/help/harmonize-data/usage-report.md)
 
-+ データの取得 {#ingest-data}
++ データを取得 {#ingest-data}
    + [概要](/help/ingest-data/overview.md)
    + [スキーマ](/help/ingest-data/schemas.md)
    + [データセット](/help/ingest-data/datasets.md)

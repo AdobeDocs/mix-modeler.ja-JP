@@ -31,7 +31,7 @@ Mix Modelerは、戦略的および戦術的なレベルで、最適化され実
 
 AI/ML の双方向転送学習は、マーケティングミックスモデリング（MMM）とマルチタッチアトリビューション（MTA）の結果を統合して、cookie のない世界での測定と計画全体で一貫した結果を確保します。
 
-![&#x200B; 双方向変換学習 &#x200B;](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
+![ 双方向変換学習 ](/help/assets/birdirectional-transfer-learning.png){width="500" align="center"}
 
 
 ## 機能
@@ -49,7 +49,7 @@ Mix Modelerは次の機能を提供します。
 
 >[!MORELIKETHIS]
 >
->[Mix Modelerのワークフローについて &#x200B;](workflow.md)
+>[Mix Modelerのワークフローについて ](workflow.md)
 
 
 ### マーケティングミックスモデリング（MMM）
@@ -89,6 +89,6 @@ Mix Modelerのマルチタッチアトリビューション機能は、次のユ
 * funnelのイベントレベルの完全なアトリビューション：カスタマージャーニー全体にわたるマーケティングの影響を把握します。 例えば、有料コンバージョン以降も継続される無料アカウントサインアップなど。
 * パートナー評価：アトリビューションの結果に基づいて、代理店とパートナーの有効性を評価します。
 
-Mix Modeler内のマルチタッチアトリビューションインサイトにアクセスする方法については、[&#x200B; モデルインサイト – アトリビューション &#x200B;](../models/insights.md#attribution) を参照してください。
+Mix Modeler内のマルチタッチアトリビューションインサイトにアクセスする方法については、[ モデルインサイト – アトリビューション ](../models/insights.md#attribution) を参照してください。
 
 
