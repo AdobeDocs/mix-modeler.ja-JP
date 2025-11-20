@@ -3,7 +3,7 @@ title: 計画するパフォーマンス
 description: Mix Modelerの Performance to Plan の概要を使用する方法を説明します。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-source-git-commit: 7834a0c4a5fd18902b73e7c307f61847bee05bc0
+source-git-commit: 89def3d6f5a1415d8f7a91b05d68d70ca881bdf4
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to pan]** ホーム [!BADGE  の「]{type=Informative} ![Beta](/help/assets/icons/Home.svg)」タブはベータ版機能であり、**[!UICONTROL Overview]** の機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
+>Mix Modeler **[!UICONTROL Performance to plan]** ホーム [!BADGE  の「]{type=Informative} ![Beta](/help/assets/icons/Home.svg)」タブはベータ版機能であり、**[!UICONTROL Overview]** の機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
 
 Mix Modeler **[!UICONTROL Plans]** ホーム [!BADGE  ]{type=Informative} の ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。 ステータスカードとビジュアライゼーションを使用して、実際のパフォーマンスと予定パフォーマンスを追跡できます。
 
