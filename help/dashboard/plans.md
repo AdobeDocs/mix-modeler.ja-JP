@@ -14,9 +14,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler **[!UICONTROL Performance to plan]** ホーム [!BADGE  の「]{type=Informative} ![Beta](/help/assets/icons/Home.svg)」タブはベータ版機能であり、**[!UICONTROL Overview]** の機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
+>Mix Modeler **[!UICONTROL Performance to plan]** ホーム [!BADGE &#x200B; の「]{type=Informative} ![Beta](/help/assets/icons/Home.svg)」タブはベータ版機能であり、**[!UICONTROL Overview]** の機能は変更される場合があります。 この機能を使用できるのは、限られた数のお客様です。
 
-Mix Modeler **[!UICONTROL Plans]** ホーム [!BADGE  ]{type=Informative} の ![ ](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。 ステータスカードとビジュアライゼーションを使用して、実際のパフォーマンスと予定パフォーマンスを追跡できます。
+Mix Modeler **[!UICONTROL Plans]** ホーム [!BADGE &#x200B; &#x200B;]{type=Informative} の ![&#x200B; &#x200B;](/help/assets/icons/Home.svg)Beta **[!UICONTROL Overview]** タブには、マーケティングがプランに対してどの程度効果を発揮しているかを監視するトラッキングダッシュボードが表示されます。 ステータスカードとビジュアライゼーションを使用して、実際のパフォーマンスと予定パフォーマンスを追跡できます。
 
 このダッシュボードを使用すると、ギャップを特定し、リスクや機会を見つけ出して、計画や予算をタイムリーに調整できます。
 
@@ -24,28 +24,28 @@ KPI ステータス・カードおよびビジュアライゼーションに表�
 
 * **[!UICONTROL Plan name]** ドロップダウンメニューから **[!UICONTROL _オプションを選択…_]** を使用して、プランを選択します。
 
-* 期間を指定します。 日付範囲を変更するには、開始日と終了日を手動で入力するか、![ カレンダー ](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択します。
+* 期間を指定します。 日付範囲を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー &#x200B;](/help/assets/icons/Calendar.svg) を使用して日付範囲を選択します。
 
 「**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}」タブには、次の情報が表示されます。
 
-* [KPI ステータス カード ](#kpi-status-cards):
+* [KPI ステータス カード &#x200B;](#kpi-status-cards):
 
    * [予算](#budget)
    * [収益](#revenue)
    * [ROI](#roi)
    * [KPI](#kpi)
 
-* [ ビジュアライゼーション ](#visualizations):
+* [&#x200B; ビジュアライゼーション &#x200B;](#visualizations):
    * [*指標*](#metric-actual-vs-planned)
    * [*指標*](#metric-actual-vs-planned-by-granularity)
-   * [チャネル ](#channel-metric-by-granularity)
+   * [チャネル &#x200B;](#channel-metric-by-granularity)
    * [*指標*](#metric-vs-metric-by-channel)
    * [*指標*](#metric-by-granularity)
    * [*指標*](#metric-by-channel)
 
 ## KPI ステータスカード
 
-![KPI ステータスカード ](../assets/performance-to-plan-kpi-cards.png)
+![KPI ステータスカード &#x200B;](../assets/performance-to-plan-kpi-cards.png)
 
 
 ### 予算
@@ -80,7 +80,7 @@ KPI ステータス・カードおよびビジュアライゼーションに表�
 
 ビジュアライゼーション内の線、棒グラフまたは散布図の要素の上にマウスポインターを置くと、追加情報を含むポップアップが表示されます。
 
-![ 表示 ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; 表示 &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### *指標*：実際と予定
 
@@ -116,7 +116,7 @@ KPI ステータス・カードおよびビジュアライゼーションに表�
 
 ビジュアライゼーションを編集するには：
 
-1. 「![ 編集 ](/help/assets/icons/Edit.svg)」を選択して、**[!UICONTROL Edit data]** ダイアログを開きます。
+1. 「![&#x200B; 編集 &#x200B;](/help/assets/icons/Edit.svg)」を選択して、**[!UICONTROL Edit data]** ダイアログを開きます。
 1. ビジュアライゼーションに応じて、次を変更できます。
 
    * 1 つまたは 2 つの指標：**[!UICONTROL Select metric]** ドロップダウンメニューから指標を選択します。
