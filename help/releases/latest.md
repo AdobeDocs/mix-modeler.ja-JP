@@ -4,7 +4,7 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: f4755b5b83c50c1a0c63839854954154d0b141c1
+source-git-commit: b19ce70c5ba990b6b720fdf80ef68b5cf7aef07c
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 3%
@@ -21,11 +21,11 @@ ht-degree: 3%
 
 ## 2026年1月
 
-| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
+| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | データセットルールテーブルを更新しました。 1 つ以上のデータセットルールを検索し、テーブルから直接データセットルールを表示、編集または削除できます。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
-| **[!UICONTROL Current spend]** | モデルインサイトの [&#x200B; 限界応答曲線ビジュアライゼーション &#x200B;](/help/models/insights.md#marginal-response-curves) に現在の支出ポイントを追加します。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
-| **[!UICONTROL Sort and resize columns]** | [&#x200B; モデル &#x200B;](/help/models/overview.md) および [&#x200B; プラン &#x200B;](/help/plans/overview.md) テーブルに列の並べ替えとサイズ変更を追加しました。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
+| **[!UICONTROL Dataset rules]** | [ 更新されたデータセットルールテーブル ](/help/harmonize-data/dataset-rules.md)。 1 つ以上のデータセットルールを検索し、テーブルから直接データセットルールを表示、編集または削除できます。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
+| **[!UICONTROL Current spend]** | モデルインサイトの [ 限界応答曲線ビジュアライゼーション ](/help/models/insights.md#marginal-response-curves) に現在の支出ポイントを追加します。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
+| **[!UICONTROL Sort and resize columns]** | [ モデル ](/help/models/overview.md) および [ プラン ](/help/plans/overview.md) テーブルに列の並べ替えとサイズ変更を追加しました。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
 | **修正点** | 次のチケットの修正： <ul><li>AMM-3328：係数の新しい演算子でフィールド入力が無効になる</li><li>AMM-3359：日付選択とコンボボックスがロックされる。</li><li>AMM-3441：計画の複製で、日付範囲と予算が自動入力されない。</li></ul> | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
 
 
