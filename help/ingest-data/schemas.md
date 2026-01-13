@@ -16,9 +16,9 @@ Experience Platformで取り込み、Mix Modelerで使用するデータをサ�
 
 1. Mix Modeler インターフェイスに移動します。
 
-1. ![ の下の「](/help/assets/icons/Schemas.svg) スキーマ **[!UICONTROL Schemas]**」 **[!UICONTROL SETUP]** を選択します。
+1. ![&#x200B; の下の「](/help/assets/icons/Schemas.svg) スキーマ **[!UICONTROL Schemas]**」 **[!UICONTROL SETUP]** を選択します。
 
-詳しくは、[ スキーマ UI の概要 ](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.htm?lang=ja) を参照してください。
+詳しくは、[&#x200B; スキーマ UI の概要 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.htm?lang=ja) を参照してください。
 
 ## 集計または概要データ
 
@@ -38,7 +38,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 次の **[!DNL XDM Summary Metrics]** に示すように、**[!DNL ExternalFactorSummarySchema]** 基本クラスを使用するスキーマは単純にすることができます。
 
-![ 外部要因スキーマ ](/help/assets/external-factors-schema.png)
+![&#x200B; 外部要因スキーマ &#x200B;](/help/assets/external-factors-schema.png)
 
 この単純なスキーマを使用すると、次のようなデータを含んだデータセットを取り込むことができます。
 
@@ -65,7 +65,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 **[!DNL LumaPaidMarketingSchema]** を基本クラスとして使用する **[!DNL XDM Summary Metrics]** の包括的な例については、以下を参照してください。 スキーマは、指標（**[!DNL AMMMetrics]**）、ディメンション（**[!DNL AMMDimensions]**）およびその他の顧客固有の情報（**[!DNL CustomerSpecific]**）に対して、専用のフィールドグループ（色で注釈が付いています）を使用します。
 
-![ 概要スキーマ ](/help/assets/summary-schema.png)
+![&#x200B; 概要スキーマ &#x200B;](/help/assets/summary-schema.png)
 
 プロファイル取り込みは非同期なので、外部ソースから集計データや概要データを収集する場合は、外部Source システム監査の詳細フィールドグループをスキーマの一部として使用することをお勧めします。 このフィールドグループは、外部ソースの一連の監査プロパティを定義します。
 
@@ -75,8 +75,8 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 | フィールドの表示名 | フィールド名 | フィールドタイプ | データタイプ | 必須 | 説明 |
 |---|---|---|---|:-:|---|
-| 要素名 | factorName | ディメンション | 文字列 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | 要因の名前 |
-| 要素値 | factorValue | 指標 | Double | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | 係数の値 |
+| 要素名 | factorName | ディメンション | 文字列 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | 要因の名前 |
+| 要素値 | factorValue | 指標 | Double | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | 係数の値 |
 | 要素タイプ | factorType | ディメンション | 文字列（列挙） | | 係数のタイプ。<br/> 使用可能な値は次のとおりです。 <ul><li>内部（内部要因）</li><li>外部（外部要因）</li></ul> |
 | 値タイプ | valueType | ディメンション | 文字列（列挙） | | 使用可能な値：<ul><li>実際（実際の値）</li><li>予測（予測値）</li></ul>値がない場合、デフォルト値は「実際」です。 |
 | 精度 | 精度 | ディメンション | 文字列（列挙） | | 使用可能な値：<ul><li>毎日</li><li>毎週</li><li>毎月</li></ul> |
@@ -88,7 +88,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 ## サポートされるデータタイプ
 
-現在、Mix Modelerは、Experience Platform データタイプのサブセットをサポートしています。 [ スキーマ構成の基本）に記載されている次の基本データタイプ（フィールド ](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) がサポートされています。
+現在、Mix Modelerは、Experience Platform データタイプのサブセットをサポートしています。 [&#x200B; スキーマ構成の基本）に記載されている次の基本データタイプ（フィールド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) がサポートされています。
 
 - 文字列
 - 整数
