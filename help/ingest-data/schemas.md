@@ -88,7 +88,7 @@ XDM Summary Metrics クラスは、次の場合に使用します。
 
 ## サポートされるデータタイプ
 
-現在、Mix Modelerは、Experience Platform データタイプのサブセットをサポートしています。 [&#x200B; スキーマ構成の基本）に記載されている次の基本データタイプ（フィールド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type) がサポートされています。
+現在、Mix Modelerは、Experience Platform データタイプのサブセットをサポートしています。 [&#x200B; スキーマ構成の基本）に記載されている次の基本データタイプ（フィールド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#data-type) がサポートされています。
 
 - 文字列
 - 整数
