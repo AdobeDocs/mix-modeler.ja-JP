@@ -31,9 +31,9 @@ Mix Modelerの要因機能では、統一された要因ワークフローを使
 
 調和された要因のワークフローの一部として、次の操作を行います。
 
-1. [ データセットルール ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule) の要因データセットからの要因の統一されたフィールドを定義します。
-1. [ 同期 ](/help/harmonize-data/dataset-rules.md#sync-data) 統一されたデータ。
-1. [ 要因を使用 ](/help/models/build.md#configure) して、モデルを設定します。
+1. [&#x200B; データセットルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule) の要因データセットからの要因の統一されたフィールドを定義します。
+1. [&#x200B; 同期 &#x200B;](/help/harmonize-data/dataset-rules.md#sync-data) 統一されたデータ。
+1. [&#x200B; 要因を使用 &#x200B;](/help/models/build.md#configure) して、モデルを設定します。
 
 ### 移行
 
@@ -129,12 +129,12 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
 ## 統一データの設定
 
-簡略化された [ 例 ](#an-example-of-harmonized-data) のように統一データセットを作成するには、次の手順に従う必要があります。
+簡略化された [&#x200B; 例 &#x200B;](#an-example-of-harmonized-data) のように統一データセットを作成するには、次の手順に従う必要があります。
 
-1. 既に使用可能なグローバルな統一フィールドの他に使用する追加の [ 統一フィールド ](fields.md) を定義します。
-1. [ データセットルール ](dataset-rules.md) を設定して、集計またはエクスペリエンスイベントデータセットのフィールドを統一されたフィールドにマッピングします。
-1. 定義した標準および追加の統一フィールドを使用して [ マーケティングタッチポイント ](marketing-touchpoints.md) を定義します。
-1. 定義した標準フィールドと追加の統一フィールドを使用して、[ コンバージョン ](conversions.md) を定義します。
+1. 既に使用可能なグローバルな統一フィールドの他に使用する追加の [&#x200B; 統一フィールド &#x200B;](fields.md) を定義します。
+1. [&#x200B; データセットルール &#x200B;](dataset-rules.md) を設定して、集計またはエクスペリエンスイベントデータセットのフィールドを統一されたフィールドにマッピングします。
+1. 定義した標準および追加の統一フィールドを使用して [&#x200B; マーケティングタッチポイント &#x200B;](marketing-touchpoints.md) を定義します。
+1. 定義した標準フィールドと追加の統一フィールドを使用して、[&#x200B; コンバージョン &#x200B;](conversions.md) を定義します。
 
 
 ## 統一データの表示
@@ -145,13 +145,13 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
 1. 上部バーの「**[!UICONTROL Harmonized data]**」を選択します。 統一されたデータの概要は、定義したフィールド、データセットルール、マーケティングタッチポイントおよびコンバージョンに基づいて表示されます。
 
-   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![ カレンダ ](/help/assets/icons/Calendar.svg) を使用してデータ範囲を選択します。
+   1. 統一データの要約のベースとなる期間を再定義するには、**[!UICONTROL Date range]** の日付範囲を入力するか、![&#x200B; カレンダ &#x200B;](/help/assets/icons/Calendar.svg) を使用してデータ範囲を選択します。
 
-   1. 統一データテーブルに表示される統一フィールド列を変更するには、![ 設定 ](/help/assets/icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
+   1. 統一データテーブルに表示される統一フィールド列を変更するには、![&#x200B; 設定 &#x200B;](/help/assets/icons/Setting.svg) を使用して **[!UICONTROL Column settings]** ダイアログを開きます。
 
-      1. ![ から 1 つ以上の列を ](/help/assets/icons/SelectBox.svg) 選択ボックス **[!UICONTROL AVAILABLE COLUMNS]** 選択し、![ 右に山形 ](/help/assets/icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
+      1. ![&#x200B; から 1 つ以上の列を &#x200B;](/help/assets/icons/SelectBox.svg) 選択ボックス **[!UICONTROL AVAILABLE COLUMNS]** 選択し、![&#x200B; 右に山形 &#x200B;](/help/assets/icons/ChevronRight.svg) を使用して、これらの列を **[!UICONTROL SELECTED COLUMNS]** に追加します。
 
-      1. ![ から 1 つ以上の列を ](/help/assets/icons/SelectBox.svg) 選択ボックス **[!UICONTROL SELECTED COLUMNS]** 選択し、![ 左に山形記号 ](/help/assets/icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
+      1. ![&#x200B; から 1 つ以上の列を &#x200B;](/help/assets/icons/SelectBox.svg) 選択ボックス **[!UICONTROL SELECTED COLUMNS]** 選択し、![&#x200B; 左に山形記号 &#x200B;](/help/assets/icons/ChevronLeft.svg) を使用して、選択した列を削除し、これらの列を **[!UICONTROL AVAILABLE COLUMNS]** に戻します。
 
       1. **[!UICONTROL DEFAULT SORT]** から列を選択し、**[!UICONTROL Ascending]** または **[!UICONTROL Descending]** を切り替えます。
 
@@ -163,7 +163,7 @@ Facebook のマーケティング活動データセットが含まれ、集計�
 
 1. 必要に応じて、統一データをダウンロードできます。
 
-   1. 「![ ダウンロード ](/help/assets/icons/Download.svg)[!BADGE  ベータ版 ]」を選択します。
+   1. 「![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) [!BADGE &#x200B; ベータ版 &#x200B;]」を選択します。
    1. ポップアップで、「![AddCircle](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Create]** プションを選択します。
    1. **[!UICONTROL Report name]** （例：`Test Report`）を入力します。
    1. ![FileCSV](/help/assets/icons/FileCSV.svg) **[!UICONTROL Report]** を選択します。
