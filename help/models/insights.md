@@ -277,7 +277,7 @@ Mix Modelerのマルチタッチ アトリビューションのきめ細かい�
 >title="モデル評価グラフ"
 >abstract="モデル評価のビジュアライゼーションでは、実際のコンバージョンと予測コンバージョンまたは残差コンバージョンが分類されます。"
 >additional-url="https://experienceleague.adobe.com/ja/docs/mix-modeler/using/overview" text="Mix Modeler の概要"
->additional-url="https://video.tv.adobe.com/v/3440794/?learn=on&enablevpops" text="Mix Modeler デモ"
+>additional-url="https://video.tv.adobe.com/v/3440795/?captions=jpn&learn=on&enablevpops" text="Mix Modeler デモ"
 
 
 >[!CONTEXTUALHELP]
