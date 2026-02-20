@@ -15,7 +15,7 @@ ht-degree: 2%
 
 AI を利用したカスタムモデルを作成するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
 
-Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
+Mix Modelerの ![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、「**[!UICONTROL Open model canvas]**」を選択します。
 
 ## セットアップ
 
@@ -23,7 +23,7 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 1. モデル **[!UICONTROL Name]** （例：`Demo model`）を入力します。 **[!UICONTROL Description]** （例：`Demo model to explore AI features of Mix Modeler`）を入力します。
 
-   ![&#x200B; モデルの名前と説明 &#x200B;](/help/assets/model-name-description.png)
+   ![ モデルの名前と説明 ](/help/assets/model-name-description.png)
 
 1. 「**[!UICONTROL Next]**」を選択して、次の手順に進みます。 モデル設定をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
@@ -38,18 +38,18 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 1. **[!UICONTROL Conversion goal]** のセクションで以下を実行します。
 
-   ![&#x200B; モデル – コンバージョンステップ &#x200B;](/help/assets/model-conversion-step.png)
+   ![ モデル – コンバージョンステップ ](/help/assets/model-conversion-step.png)
 
-   1. コンバージョンをコンバージョ **[!UICONTROL Conversion]** ドロップダウンメニューから選択します。 使用可能なコンバージョンは、[&#x200B; で &#x200B;](../harmonize-data/conversions.md) コンバージョン [!UICONTROL Harmonized datasets] の一部として定義したコンバージョンです。 例：**[!UICONTROL Online Conversion]**。
+   1. コンバージョンをコンバージョ **[!UICONTROL Conversion]** ドロップダウンメニューから選択します。 使用可能なコンバージョンは、[ で ](../harmonize-data/conversions.md) コンバージョン [!UICONTROL Harmonized datasets] の一部として定義したコンバージョンです。 例：**[!UICONTROL Online Conversion]**。
 
    1. ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]** を選択して、モデル設定内から直接変換を作成できます。
 
 
 
-1. **[!UICONTROL Marketing touchpoints]** セクションでは、[&#x200B; で &#x200B;](../harmonize-data/marketing-touchpoints.md) マーケティングタッチポイント [!UICONTROL Harmonized datasets] の一部として定義したマーケティングタッチポイントに対応する 1 つ以上のマーケティングタッチポイントを選択できます。
+1. **[!UICONTROL Marketing touchpoints]** セクションでは、[ で ](../harmonize-data/marketing-touchpoints.md) マーケティングタッチポイント [!UICONTROL Harmonized datasets] の一部として定義したマーケティングタッチポイントに対応する 1 つ以上のマーケティングタッチポイントを選択できます。
 
 
-   ![&#x200B; モデル – マーケティングタッチポイントステップ &#x200B;](/help/assets/model-marketing-touchpoint-step.png)
+   ![ モデル – マーケティングタッチポイントステップ ](/help/assets/model-marketing-touchpoint-step.png)
 
    1. **[!UICONTROL Touchpoint include]** ドロップダウンメニューからマーケティングタッチポイントを 1 つ以上選択します。
 
@@ -64,7 +64,7 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 1. デフォルトでは、統一ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットにのみスコアを付けるには、「**[!UICONTROL Eligible data population]**」セクションのコンテナを使用して 1 つ以上のフィルターを定義します。
 
-   ![&#x200B; モデル – 適格なデータ母集団 &#x200B;](/help/assets/model-eligible-data-population-step.png)
+   ![ モデル – 適格なデータ母集団 ](/help/assets/model-eligible-data-population-step.png)
 
    * 各コンテナに対して 1 つ以上のイベントを定義します。
 
@@ -76,32 +76,32 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
          1. **[!UICONTROL _値を入力または選択_]** で値を入力または選択します。
 
-      1. コンテナにイベントを追加するには、「![&#x200B; 追加 &#x200B;](/help/assets/icons/AddCircle.svg)」を選択し **[!UICONTROL Add event]** す。
+      1. コンテナにイベントを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」を選択し **[!UICONTROL Add event]** す。
 
-      1. コンテナからイベントを削除するには、「![&#x200B; 閉じる &#x200B;](/help/assets/icons/CrossSize75.svg) を選択します。
+      1. コンテナからイベントを削除するには、「![ 閉じる ](/help/assets/icons/CrossSize75.svg) を選択します。
 
       1. コンテナで定義したすべてのイベントまたは複数のイベントを使用してフィルタリングするには、「**[!UICONTROL Any of]**」または「**[!UICONTROL All of]**」を選択します。 それに応じて、ラベルが **[!UICONTROL Include ... Or ...]** から **[!UICONTROL Include ... And ...]** に変更されます。
 
-   * 適格なデータ母集団コンテナを追加するには、「![&#x200B; 追加 &#x200B;](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add eligible population]** を選択します。
+   * 適格なデータ母集団コンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add eligible population]** を選択します。
 
-   * 適格なデータ母集団コンテナを削除するには、コンテナ内で ![&#x200B; 詳細 &#x200B;](/help/assets/icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove container]**」を選択します。
+   * 適格なデータ母集団コンテナを削除するには、コンテナ内で ![ 詳細 ](/help/assets/icons/More.svg) を選択し、コンテキストメニューから「**[!UICONTROL Remove container]**」を選択します。
 
    * コンテナ間で **AND** および **OR** を選択し、適格なデータ母集団に対してより複雑な定義を作成します。
 
 
 1. 外部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL External factors dataset]**」セクションの 1 つ以上のコンテナを使用します。 外部要因の例としては、S&amp;P インデックスがあります。
 
-   ![&#x200B; モデル – 外部要因データセット &#x200B;](/help/assets/model-external-factors-dataset-step.png)
+   ![ モデル – 外部要因データセット ](/help/assets/model-external-factors-dataset-step.png)
 
    * コンテナごとに、次の手順を実行します。
 
       1. **[!UICONTROL External factor name]** （例：`External Factors`）を入力します。
 
-      1. **[!UICONTROL Dataset]** ドロップダウンメニューからデータセットを選択します。 ![&#x200B; データ &#x200B;](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[&#x200B; データセット &#x200B;](../ingest-data/datasets.md) を参照してください。
+      1. **[!UICONTROL Dataset]** ドロップダウンメニューからデータセットを選択します。 ![ データ ](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
       1. **[!UICONTROL Impact on conversion]** ドロップダウンメニューからオプション（**[!UICONTROL Auto select]**、**[!UICONTROL Positive]**、**[!UICONTROL Negative]** のいずれか）を選択します。 デフォルトのオプションは **[!UICONTROL Auto select]** です。このオプションを使用すると、モデルが影響を判断できます。 デフォルトの設定は上書きできます。
 
-   * 追加の外部要因データセットコンテナを追加するには、「![&#x200B; 追加 &#x200B;](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add external factor]** プションを選択します。
+   * 追加の外部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add external factor]** プションを選択します。
 
    * 外部要因データセットコンテナを削除するには、「![RemoveCircle](/help/assets/icons/RemoveCircle.svg)」を選択します。
 
@@ -110,17 +110,17 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 1. 内部要因を含むデータセットをモデルに追加するには、「**[!UICONTROL Internal factors dataset]**」セクションの 1 つ以上のコンテナを使用します。 内部要因の例としては、メールマーケティングデータがあります。
 
-   ![&#x200B; モデル – 内部要因データセット &#x200B;](/help/assets/model-internal-factors-dataset-step.png)
+   ![ モデル – 内部要因データセット ](/help/assets/model-internal-factors-dataset-step.png)
 
    * コンテナごとに、次の手順を実行します。
 
       1. **[!UICONTROL Internal factor name]** （例：`Email Marketing Data`）を入力します。
 
-      1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![&#x200B; データ &#x200B;](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[&#x200B; データセット &#x200B;](../ingest-data/datasets.md) を参照してください。
+      1. **[!UICONTROL _データセットを選択_]** からデータセットを選択します。 ![ データ ](/help/assets/icons/Data.svg) を選択して、データセットを管理できます。 詳しくは、[ データセット ](../ingest-data/datasets.md) を参照してください。
 
       1. **[!UICONTROL Impact on conversion]** ドロップダウンメニューからオプション（**[!UICONTROL Auto select]**、**[!UICONTROL Positive]**、**[!UICONTROL Negative]** のいずれか）を選択します。
 
-   * 内部要因データセットコンテナを追加するには、「![&#x200B; 追加 &#x200B;](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add internal factor]** プションを選択します。
+   * 内部要因データセットコンテナを追加するには、「![ 追加 ](/help/assets/icons/AddCircle.svg)」 **[!UICONTROL Add internal factor]** プションを選択します。
 
    * 内部要因データセットコンテナを削除するには、「![RemoveCircle](/help/assets/icons/RemoveCircle.svg)」を選択します。
 
@@ -149,11 +149,11 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 1. **[!UICONTROL MTA enabled]** のセクションで以下を実行します。
 
-   * モデルの MTA 機能を有効にするには、**[!UICONTROL MTA enabled]** をアクティブにします。 MTA を有効にしている場合は、モデルのトレーニングとスコアリングが完了すると、マルチタッチのアトリビューションインサイトを利用できます。 詳しくは、[&#x200B; モデルインサイト &#x200B;](insights.md#attribution) の「[&#x200B; アトリビューション &#x200B;](insights.md)」タブを参照してください。
+   * モデルの MTA 機能を有効にするには、**[!UICONTROL MTA enabled]** をアクティブにします。 MTA を有効にしている場合は、モデルのトレーニングとスコアリングが完了すると、マルチタッチのアトリビューションインサイトを利用できます。 詳しくは、[ モデルインサイト ](insights.md#attribution) の「[ アトリビューション ](insights.md)」タブを参照してください。
 
 1. **[!UICONTROL Prior knowledge]** のセクションで以下を実行します。
 
-   ![&#x200B; モデル – 予備知識 &#x200B;](/help/assets/model-prior-knowledge-step.png)
+   ![ モデル – 予備知識 ](/help/assets/model-prior-knowledge-step.png)
 
    1. **[!UICONTROL Rule type]** （デフォルトは **[!UICONTROL Absolute values]**）を選択します。
 
@@ -166,14 +166,14 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 ## オプションを設定
 
-[&#x200B; ステップでは、モデルに対して &#x200B;](#schedule) トレーニングとスコアリングのスケジュール設定 [、](#training-window) トレーニングウィンドウの定義 [&#x200B; および &#x200B;](#granular-insights-reporting-fields) 詳細なインサイトレポートフィールド **[!UICONTROL Set options]** を指定できます。
+[ ステップでは、モデルに対して ](#schedule) トレーニングとスコアリングのスケジュール設定 [、](#training-window) トレーニングウィンドウの定義 [ および ](#granular-insights-reporting-fields) 詳細なインサイトレポートフィールド **[!UICONTROL Set options]** を指定できます。
 
 
 ### スケジュール
 
 **[!UICONTROL Schedule]** のセクションでは、モデルのトレーニングとスコアリングをスケジュールできます。
 
-![&#x200B; スケジュール モデル &#x200B;](../assets/model-schedule.png)
+![ スケジュール モデル ](../assets/model-schedule.png)
 
 スケジュール済モデルのスコアリングおよびトレーニングを実行する手順は、次のとおりです。
 
@@ -182,7 +182,7 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
    * **[!UICONTROL Daily]**：有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
    * **[!UICONTROL Weekly]**：曜日を選択して有効な時間（例：`05:22 pm`）を入力するか、![Clock](/help/assets/icons/Clock.svg) を使用します。
-   * **[!UICONTROL Monthly]**: 「実行するタイミング」ドロップダウンメニューから日付を選択し、有効な時刻（例：`05:22 pm`）を入力するか、![&#x200B; 時計 &#x200B;](/help/assets/icons/Clock.svg) を使用します。
+   * **[!UICONTROL Monthly]**: 「実行するタイミング」ドロップダウンメニューから日付を選択し、有効な時刻（例：`05:22 pm`）を入力するか、![ 時計 ](/help/assets/icons/Clock.svg) を使用します。
 
 1. ドロップダウンメニューから **[!UICONTROL Training frequency]** （**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、**[!UICONTROL None]** のいずれか）を選択します。
 
@@ -191,7 +191,7 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 **[!UICONTROL Define training window]** のセクションで、次のいずれかを選択します。
 
-![&#x200B; モデル – トレーニングウィンドウを定義 &#x200B;](/help/assets/model-define-training-window.png)
+![ モデル – トレーニングウィンドウを定義 ](/help/assets/model-define-training-window.png)
 
 * **[!UICONTROL Have Mix Modeler select a helpful training window]** と
 
@@ -202,7 +202,7 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 
 **[!UICONTROL Granular insights reporting fields]** の節では、詳細な増分レポート機能を使用します。 この機能を使用すると、統一されたフィールドを選択して、コンバージョンおよびタッチポイントの増分スコアを分類できます。
 
-![&#x200B; 詳細なインサイトレポートフィールドの定義 &#x200B;](/help/assets/granular-insights-reporting-fields.png)
+![ 詳細なインサイトレポートフィールドの定義 ](/help/assets/granular-insights-reporting-fields.png)
 
 これらの統一されたフィールドを定義すると、個別のモデルを作成する代わりに、詳細なレポート列を使用してモデルのレポートをドリルダウンできます。
 
@@ -212,9 +212,9 @@ Mix Modelerの ![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) *
 1. **[!UICONTROL *統一フィールド&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg) を選択して、選択した統一フィールドと共に、コンテナから統一フィールドを削除します。
 1. **[!UICONTROL Clear all]** を選択して、選択したすべての統一フィールドを削除します。
 
-詳細な増分レポート用に選択された統一フィールドは、モデルのスコアリング結果のExperience Platform [&#x200B; スキーマ &#x200B;](/help/ingest-data/schemas.md) および [&#x200B; データセット &#x200B;](/help/ingest-data/datasets.md) の一部として使用できます。 詳細なインサイトレポートフィールドは、**[!UICONTROL conversionPassthrough]** オブジェクトと **[!UICONTROL touchpointPassthrough]** オブジェクト内にあります。
+詳細な増分レポート用に選択された統一フィールドは、モデルのスコアリング結果のExperience Platform [ スキーマ ](/help/ingest-data/schemas.md) および [ データセット ](/help/ingest-data/datasets.md) の一部として使用できます。 詳細なインサイトレポートフィールドは、**[!UICONTROL conversionPassthrough]** オブジェクトと **[!UICONTROL touchpointPassthrough]** オブジェクト内にあります。
 
-![&#x200B; 詳細な増分レポートが有効になっているモデルに対する、スキーマ内の conversionPassthrough および touchpointPassthrough オブジェクトのスクリーンショット &#x200B;](/help/assets/schema-granular-insights-reporting.png)
+![ 詳細な増分レポートが有効になっているモデルに対する、スキーマ内の conversionPassthrough および touchpointPassthrough オブジェクトのスクリーンショット ](/help/assets/schema-granular-insights-reporting.png)
 
 
 ## 終了
