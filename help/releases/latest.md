@@ -20,18 +20,18 @@ ht-degree: 3%
 
 ## 2026年2月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
-| **調和された要因のワークフロー** | 要因は、[ 調和された要因ワークフロー ](/help/harmonize-data/overview.md#factors) の一部として管理されるようになりました。 これにより、[ 要因データを定義 ](/help/ingest-data/schemas.md#factor-standard-fields-field-group) する方法、[ データセットルールの一部として内部および外部の要因を管理 ](/help/harmonize-data/dataset-rules.md#factor-datasets) する方法、および [ モデル ](/help/models/build.md#configure) で要因データを使用する方法が簡素化されます。 | 2026 年 2 月 25 日（Pt） | 2026 年 2 月 25 日（Pt） |
-| **[!UICONTROL Granular incrementality reporting]** | 統一されたフィールドを定義すると、個別のモデルを作成する代わりに、[ 詳細なインサイトレポートフィールド ](/help/models/build.md#granular-insights-reporting-fields) を使用してモデルのレポートをドリルダウンできます。 | 2026 年 2 月 18 日（Pt） | 2026 年 2 月 18 日（Pt） |
+| **調和された要因のワークフロー** | 要因は、[&#x200B; 調和された要因ワークフロー &#x200B;](/help/harmonize-data/overview.md#factors) の一部として管理されるようになりました。 これにより、[&#x200B; 要因データを定義 &#x200B;](/help/ingest-data/schemas.md#factor-standard-fields-field-group) する方法、[&#x200B; データセットルールの一部として内部および外部の要因を管理 &#x200B;](/help/harmonize-data/dataset-rules.md#factor-datasets) する方法、および [&#x200B; モデル &#x200B;](/help/models/build.md#configure) で要因データを使用する方法が簡素化されます。 | 2026 年 2 月 25 日（Pt） | 2026 年 2 月 25 日（Pt） |
+| **[!UICONTROL Granular incrementality reporting]** | 統一されたフィールドを定義すると、個別のモデルを作成する代わりに、[&#x200B; 詳細なインサイトレポートフィールド &#x200B;](/help/models/build.md#granular-insights-reporting-fields) を使用してモデルのレポートをドリルダウンできます。 | 2026 年 2 月 18 日（Pt） | 2026 年 2 月 18 日（Pt） |
 
 ## 2026年1月
 
-| 機能 | 説明 | [ ロールアウト開始 ](#release-strategy) | [ 一般公開 ](#release-strategy) |
+| 機能 | 説明 | [&#x200B; ロールアウト開始 &#x200B;](#release-strategy) | [&#x200B; 一般公開 &#x200B;](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | [ 更新されたデータセットルールテーブル ](/help/harmonize-data/dataset-rules.md)。 1 つ以上のデータセットルールを検索し、テーブルから直接データセットルールを表示、編集または削除できます。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
-| **[!UICONTROL Current spend]** | モデルインサイトの [ 限界応答曲線ビジュアライゼーション ](/help/models/insights.md#marginal-response-curves) に現在の支出ポイントを追加します。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
-| **[!UICONTROL Sort and resize columns]** | [ モデル ](/help/models/overview.md) および [ プラン ](/help/plans/overview.md) テーブルに列の並べ替えとサイズ変更を追加しました。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
+| **[!UICONTROL Dataset rules]** | [&#x200B; 更新されたデータセットルールテーブル &#x200B;](/help/harmonize-data/dataset-rules.md)。 1 つ以上のデータセットルールを検索し、テーブルから直接データセットルールを表示、編集または削除できます。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
+| **[!UICONTROL Current spend]** | モデルインサイトの [&#x200B; 限界応答曲線ビジュアライゼーション &#x200B;](/help/models/insights.md#marginal-response-curves) に現在の支出ポイントを追加します。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
+| **[!UICONTROL Sort and resize columns]** | [&#x200B; モデル &#x200B;](/help/models/overview.md) および [&#x200B; プラン &#x200B;](/help/plans/overview.md) テーブルに列の並べ替えとサイズ変更を追加しました。 | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
 | **修正点** | 次のチケットの修正： <ul><li>AMM-3328：係数の新しい演算子でフィールド入力が無効になる</li><li>AMM-3359：日付選択とコンボボックスがロックされる。</li><li>AMM-3441：計画の複製で、日付範囲と予算が自動入力されない。</li></ul> | 2026 年 1 月 13 日（Pt） | 2026 年 1 月 13 日（Pt） |
 
 
