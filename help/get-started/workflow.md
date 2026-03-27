@@ -19,7 +19,7 @@ Mix Modelerのユーザーワークフローの概要については、このビ
 
 Mix Modelerの一般的なワークフローは、次のアクティビティで構成されます。
 
-![代替テキスト ](/help/assets/ApplicationWorkflow.svg)
+![代替テキスト &#x200B;](/help/assets/ApplicationWorkflow.svg)
 
 |  | アクティビティ | 説明 |
 |---|---|---|
@@ -28,7 +28,7 @@ Mix Modelerの一般的なワークフローは、次のアクティビティで
 | ![FileConfig](/help/assets/icons/FileGear.svg){width="100"} | [**モデルを作成**](../models/overview.md) | マーケティングのタッチポイント（チャネルなど）、コンバージョンの定義、社内外の要因を使用してモデルインスタンスを構築します。 |
 | ![FileData](/help/assets/icons/FileData.svg){width="100"} | [**モデルのトレーニングとスコアリング**](../models/overview.md) | マシンラーニングとスコアリングを利用して、集計レベルおよびイベントレベルのスコアを作成できます。 |
 | ![FileChart](/help/assets/icons/FileChart.svg){width="100"} | [**プランの作成**](../plans/overview.md) | 計画の策定： Mix Modelerのモデルから得られるアウトプットを活用して、ビジネス目標を達成するために必要なマーケティング資金の配分を決定します。 |
-| ![ ダッシュボード ](/help/assets/icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 設定可能なさまざまなビジュアライゼーションを使用して、調和されたデータ、モデル、計画に関するインサイトを得ることができます。 |
+| ![&#x200B; ダッシュボード &#x200B;](/help/assets/icons/Dashboard.svg){width="100"} | [**概要ダッシュボード**](../dashboard/overview.md) | 設定可能なさまざまなビジュアライゼーションを使用して、調和されたデータ、モデル、計画に関するインサイトを得ることができます。 |
 
 {style="table-layout:auto"}
 
