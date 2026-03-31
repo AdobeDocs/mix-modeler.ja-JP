@@ -32,9 +32,9 @@ ht-degree: 1%
 
 | 列の名前 | 詳細 |
 | ---------------------- | ----------|
-| **[!UICONTROL Dataset]** | データセットの名前。  データセットのアクションを選択するには、![More](/help/assets/icons/More.svg)を使用します。 実行できる操作は、次のとおりです。<ul><li>![&#x200B; プレビュー](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;して、データセット ルール設定を表示します。 すべてのフィールドが無効になっています。</li><li>![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;して、データセット ルール設定を編集します。</li><li>![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;して、データセット ルール設定を削除します。 データセットを削除ダイアログで削除を確認するように求められます。 データセット ルール設定を完全に削除するには、**[!UICONTROL Delete]**&#x200B;を選択します。</li><ul> |
+| **[!UICONTROL Dataset]** | データセットの名前。  データセットのアクションを選択するには、![More](/help/assets/icons/More.svg)を使用します。 実行できる操作は、次のとおりです。<ul><li>![ プレビュー](/help/assets/icons/Preview.svg) **[!UICONTROL View]**&#x200B;して、データセット ルール設定を表示します。 すべてのフィールドが無効になっています。</li><li>![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;して、データセット ルール設定を編集します。</li><li>![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;して、データセット ルール設定を削除します。 データセットを削除ダイアログで削除を確認するように求められます。 データセット ルール設定を完全に削除するには、**[!UICONTROL Delete]**&#x200B;を選択します。</li><ul> |
 | **[!UICONTROL Source]** | データセットのソース：Adobe Analytics、Experience Events、Summary （集計）、またはConsumer Experience Events。 |
-| **[!UICONTROL Schema]** | データセットが準拠するスキーマ。 スキーマ名をすばやく選択して、![&#x200B; スキーマ &#x200B;](/help/assets/icons/Schemas.svg) [&#x200B; スキーマ &#x200B;](../ingest-data/schemas.md)のスキーマエディターの新しいタブでスキーマを開くことができます。 |
+| **[!UICONTROL Schema]** | データセットが準拠するスキーマ。 スキーマ名をすばやく選択して、![ スキーマ ](/help/assets/icons/Schemas.svg) [ スキーマ ](../ingest-data/schemas.md)のスキーマエディターの新しいタブでスキーマを開くことができます。 |
 | **[!UICONTROL Granularity]** | データセット内のデータの精度： 指定できる値は、日単位、週単位、月単位または年単位です。 |
 | **[!UICONTROL Start of the week]** | 特定のデータセットに対して、新しい週の開始と見なされる曜日を指定します。 |
 | **[!UICONTROL Status]** | フィールドのステータス：![StatusGray](/help/assets/icons/StatusGray.svg) Draftまたは![StatusGreen](/help/assets/icons/StatusGreen.svg) Active |
@@ -68,17 +68,17 @@ ht-degree: 1%
 
       1. **[!UICONTROL Mapping type]**&#x200B;から&#x200B;**[!UICONTROL Count]**&#x200B;または&#x200B;**[!UICONTROL Sum]**&#x200B;を選択します。
 
-      1. 調和フィールドをデフォルトでマッピングする&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;を選択します。
+      1. 調和フィールドをデフォルトでマッピングする&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**を選択します。
 
    * 選択したフィールドがディメンション タイプの場合：
 
       1. **[!UICONTROL Mapping type]**&#x200B;から&#x200B;**[!UICONTROL Map Into]**&#x200B;または&#x200B;**[!UICONTROL Case]**&#x200B;を選択します。
 
-      1. **[!UICONTROL Map Into]**&#x200B;を選択したら、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
+      1. **[!UICONTROL Map Into]**&#x200B;を選択したら、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
 
-      1. **[!UICONTROL Case]**&#x200B;を選択すると、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
+      1. **[!UICONTROL Case]**&#x200B;を選択すると、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**または&#x200B;**[!UICONTROL Value]**を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
 
-         1. 値を明示的に設定するには、1つ以上の条件で構成される1つ以上のケースを定義します。 各条件は、特定の&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;について、**[!UICONTROL Exists]**&#x200B;または&#x200B;**[!UICONTROL Not Exists]**&#x200B;かどうか、または&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;または&#x200B;**[!UICONTROL Ends With]**&#x200B;が&#x200B;**[!UICONTROL *&#x200B;入力値&#x200B;*]**&#x200B;に入力された値かどうかを確認できます。
+         1. 値を明示的に設定するには、1つ以上の条件で構成される1つ以上のケースを定義します。 各条件は、特定の&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**について、**[!UICONTROL Exists]**または&#x200B;**[!UICONTROL Not Exists]**かどうか、または&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**または&#x200B;**[!UICONTROL Ends With]**が**[!UICONTROL *&#x200B;入力値&#x200B;*]**&#x200B;に入力された値かどうかを確認できます。
 
          1. 別のケースを追加するには、![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;を選択し、別の条件を追加するには、![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;を選択します。
 
@@ -97,7 +97,7 @@ ht-degree: 1%
          * **[!UICONTROL marketing.campaignName]**&#x200B;が`_black_friday`または`BlackFriday`の場合、`Black Friday`。
          * その他すべての場合は&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;の値に変換されます。
 
-        ![&#x200B; データセット ルール イベント &#x200B;](/help/assets/dataset-create-event.png)
+        ![ データセット ルール イベント ](/help/assets/dataset-create-event.png)
 
 1. 追加フィールドを定義するには、![追加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;を選択します。
 
@@ -122,7 +122,7 @@ ht-degree: 1%
 
 #### 因子データセット
 
-調和されたフィールドを因子データセットのフィールドにマッピングするので、[&#x200B; モデル設定の一部として因子を追加できます](/help/models/build.md)。
+調和されたフィールドを因子データセットのフィールドにマッピングするので、[ モデル設定の一部として因子を追加できます](/help/models/build.md)。
 
 調和フィールドを因子データセットのフィールドにマッピングする場合、次の点が適用されます。
 
@@ -130,11 +130,11 @@ ht-degree: 1%
 
 因子データセットから標準調和因子フィールドをマッピングし、因子データセットに1つの因子が含まれている場合は、**[!UICONTROL Map into]**&#x200B;を&#x200B;**[!UICONTROL Mapping type]**&#x200B;として使用し、**[!UICONTROL Factor Name]**&#x200B;調和因子フィールドのデフォルト値を入力します。
 
-![&#x200B; データセット ルール – マップの単一要素データセット &#x200B;](../assets/dataset-create-rule-factor-single.png)
+![ データセット ルール – マップの単一要素データセット ](../assets/dataset-create-rule-factor-single.png)
 
 因子データセットに複数の因子が含まれる場合は、**[!UICONTROL Case As]**&#x200B;を&#x200B;**[!UICONTROL Mapping Type]**&#x200B;として使用して、因子名の調和フィールドと各異なる因子名とのマッピングを定義します。
 
-![&#x200B; データセット ルール – マップの単一要素データセット &#x200B;](../assets/dataset-create-rule-factor-multiple.png)
+![ データセット ルール – マップの単一要素データセット ](../assets/dataset-create-rule-factor-multiple.png)
 
 
 ##### 因子タイプ
@@ -174,7 +174,7 @@ ht-degree: 1%
 
 * また、**[!UICONTROL Factor Name]**、**[!UICONTROL Factor Value]**&#x200B;および&#x200B;**[!UICONTROL Granularity]**&#x200B;に対して、次のデータセットルールを定義します。
 
-  ![&#x200B; データセット ルール – 要因の例](../assets/dataset-create-rule-factor-example.png)
+  ![ データセット ルール – 要因の例](../assets/dataset-create-rule-factor-example.png)
 
 * これにより、次の調和データが得られます。
 
@@ -190,7 +190,7 @@ ht-degree: 1%
 データセットルールを編集するには、Mix Modelerの![DataSearch](/help/assets/icons/DataCheck.svg) **[!UICONTROL Harmonized data]** > **[!UICONTROL Dataset rules]** インターフェイスで次の操作を行います。
 
 1. 編集するデータセットルールの&#x200B;**[!UICONTROL Dataset]**&#x200B;列の![詳細](/help/assets/icons/More.svg)を選択します。
-1. コンテキストメニューから、![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;を選択して、データセットルールの編集を開始します。 詳しくは、[&#x200B; データセットルールの作成](#create-a-dataset-rule)を参照してください。
+1. コンテキストメニューから、![編集](/help/assets/icons/Edit.svg) **[!UICONTROL Edit]**&#x200B;を選択して、データセットルールの編集を開始します。 詳しくは、[ データセットルールの作成](#create-a-dataset-rule)を参照してください。
 
 
 ### データセットルールの削除
@@ -215,7 +215,7 @@ ht-degree: 1%
 
 1. データセット内の調和されたデータとデータの間で、定義されたデータセット ルールに基づいて同期を開始するには、**[!UICONTROL Sync]**&#x200B;を選択します。 同期をキャンセルするには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
-   ![&#x200B; データの同期](/help/assets/sync-data.png)
+   ![ データの同期](/help/assets/sync-data.png)
 
 
 ## データ結合の環境設定 {#data-merge-preferences}
@@ -229,7 +229,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->[!BADGE &#x200B; ベータ版]{type=Informative} データ結合の環境設定はベータ版の機能であり、その機能は変更される可能性があります。
+>[!BADGE  ベータ版]{type=Informative} データ結合の環境設定はベータ版の機能であり、その機能は変更される可能性があります。
 
 正確なモデル予測を確実に行うために、データ結合の環境設定を定義できます。 この機能を使用すると、概要レベルとイベントレベルのデータを結合した後の競合を解決できます。
 
@@ -253,27 +253,27 @@ ht-degree: 1%
 データ結合の環境設定を行うには、次の手順を実行します。
 
 
-1. ![&#x200B; データ結合の環境設定](/help/assets/icons/Merge.svg) [!BADGE &#x200B; ベータ &#x200B;]を選択します。
+1. ![ データ結合の環境設定](/help/assets/icons/Merge.svg) [!BADGE  ベータ ]を選択します。
 
-1. **[!UICONTROL Data merge preferences]** [!BADGE &#x200B; ベータ &#x200B;]{type=Informative} ダイアログで、次の操作を行います。
+1. **[!UICONTROL Data merge preferences]** [!BADGE  ベータ ]{type=Informative} ダイアログで、次の操作を行います。
 
-   ![&#x200B; データ結合の環境設定](/help/assets/data-merge-preferences.png)
+   ![ データ結合の環境設定](/help/assets/data-merge-preferences.png)
 
    * **[!UICONTROL Default metric preference]**&#x200B;を選択します。 選択したデフォルトの指標の環境設定は、調和中に複数のデータソースが特定のチャネルの指標フィールドを更新する場合に適用されます。 環境設定は、特定の指標ベースの環境設定で上書きされない限り、サンドボックスレベルで適用されます。 **[!UICONTROL Summary data]**、**[!UICONTROL Event data]**、**[!UICONTROL Sum of summary and event data]**&#x200B;のいずれかを選択できます。
 
    * 特定の指標ベースの環境設定を追加するには：
 
-      1. ![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;を選択します。
-         1. **[!UICONTROL *指標の選択&#x200B;*]**&#x200B;リストから指標を選択します。
+      1. ![ プラス ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;を選択します。
+         1. **[!UICONTROL *指標の選択&#x200B;*]**リストから指標を選択します。
          1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。 リストから、**[!UICONTROL All]**&#x200B;または特定のチャネルまたはコンバージョンタイプを選択します。
          1. **[!UICONTROL Summary]**&#x200B;または&#x200B;**[!UICONTROL Event]**&#x200B;を選択して、データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に概要データまたはイベントデータを優先するかどうかを指定します。
 
          1つ以上の追加のチャネルまたはコンバージョンタイプを追加するには：
 
-         1. ![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;または![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;を選択します。
+         1. ![ プラス ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;または![ プラス ](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;を選択します。
          1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択します。
 
-         チャネルまたはコンバージョンタイプを削除するには、![&#x200B; クロス &#x200B;](/help/assets/icons/Close.svg)を選択します。
+         チャネルまたはコンバージョンタイプを削除するには、![ クロス ](/help/assets/icons/Close.svg)を選択します。
 
       1. より特定の指標ベースの環境設定を追加するには、前の手順を繰り返します。
 
@@ -285,7 +285,7 @@ ht-degree: 1%
 
 調和データで使用されているソース データセットを削除すると、そのソース データセットの基になるエントリが[[!UICONTROL Harmonized data]](/help/harmonize-data/overview.md)から削除されます。 ただし、削除されたソースデータセットを含むデータセットルールは、ソースデータセットが削除されたことを示すアイコン ![DataRemove](/help/assets/icons/DataRemove.svg)が付いたデータセットルール設定リストに残ります。 詳細については、以下を参照してください。
 
-* コンテキストメニューから「![詳細](/help/assets/icons/More.svg)」と「![&#x200B; プレビュー](/help/assets/icons/Preview.svg) **[!UICONTROL View]**」を選択します。
+* コンテキストメニューから「![詳細](/help/assets/icons/More.svg)」と「![ プレビュー](/help/assets/icons/Preview.svg) **[!UICONTROL View]**」を選択します。
 **[!UICONTROL Dataset rule mapping - Fields]** ダイアログには、削除されたソースデータセットと、データセットルール設定で使用されるフィールドに関する情報が表示されます。
 
 **[!UICONTROL Dataset rules]**&#x200B;設定に戻ると、1つ以上のソースデータセットが削除されたことを示すダイアログが表示されます。 調和されたデータは、次のアドホックまたはスケジュールされた同期に影響を受けます。 データセットルール設定を確認します。
