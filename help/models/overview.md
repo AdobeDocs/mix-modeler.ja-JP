@@ -3,9 +3,9 @@ title: モデルの概要
 description: Mix Modelerでマシンラーニングモデルを構築、トレーニング、スコアリング、管理し、マーケティング成果を測定、予測する方法を紹介します。
 feature: Models
 exl-id: c43d9bc9-4429-45c2-9247-bd24510a24be
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+source-git-commit: e78380c2f735c1658a8d4d69353c7953ceb9c8c3
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Mix Modelerのモデルは、マーケターの投資にもとづいて、特定
 
 ## モデルを構築
 
-モデルを構築するには、**[!UICONTROL Open model canvas]**&#x200B;を選択するときに利用できるMix Modelerのステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[&#x200B; モデルの構築](build.md)を参照してください。
+モデルを構築するには、**[!UICONTROL Open model canvas]**&#x200B;を選択するときに利用できるMix Modelerのステップバイステップのガイド付きモデル設定フローを使用します。 詳しくは、[ モデルの構築](build.md)を参照してください。
 
 ## モデルの管理
 
@@ -69,25 +69,25 @@ Mix Modelerのモデルは、マーケターの投資にもとづいて、特定
    * ![時計](/help/assets/icons/Clock.svg) - モデル ライフサイクルのステップの現在の進行中の実行を示します。
    * ![閉じる](/help/assets/icons/Close.svg) - モデル ライフサイクルのステップの実行に失敗したことを示します。
 
-   | ステータス | [&#x200B; ビルド &#x200B;](/help/models/build.md) | [&#x200B; トレーニング &#x200B;](/help/models/train-score.md#train) | [スコア](/help/models/train-score.md#score) | [再トレーニング &#x200B;](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
+   | ステータス | [ ビルド ](/help/models/build.md) | [ トレーニング ](/help/models/train-score.md#train) | [スコア](/help/models/train-score.md#score) | [再トレーニング ](/help/models/train-score.md#train) | [Rescore](/help/models/train-score.md#score) |
    |---|:---:|:---:|:---:|:---:|:---:|
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | | | | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | |
-   | 処理中 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) |
-   | トレーニングに失敗しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | | |
-   | トレーニングに失敗しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | |
-   | トレーニングの成功 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | | | |
-   | トレーニングの成功 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | |
-   | スコアリング失敗 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | |
-   | スコアリング失敗 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) |
-   | スコアリングに成功しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | | |
-   | スコアリングに成功しました | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) | |
+   | 処理中 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![時計](/help/assets/icons/Clock.svg) |
+   | トレーニングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | | |
+   | トレーニングに失敗しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | |
+   | トレーニングの成功 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | | |
+   | トレーニングの成功 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | |
+   | スコアリング失敗 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) | | |
+   | スコアリング失敗 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![閉じる](/help/assets/icons/Close.svg) |
+   | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | | |
+   | スコアリングに成功しました | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) |
 
    {style="table-layout:fixed"}
 
-1. リストに表示される列を変更するには、![列設定](/help/assets/icons/ColumnSetting.svg)を選択し、![&#x200B; チェック &#x200B;](/help/assets/icons/Checkmark.svg)またはオフで列を切り替えます。
+1. リストに表示される列を変更するには、![列設定](/help/assets/icons/ColumnSetting.svg)を選択し、![ チェック ](/help/assets/icons/Checkmark.svg)またはオフで列を切り替えます。
 
 特定のモデルに対して次のアクションを実行できます。
 
@@ -100,7 +100,7 @@ Mix Modelerのモデルは、マーケターの投資にもとづいて、特定
 1. 左側のパネルから「![FileData](/help/assets/icons/FileData.svg) **[!UICONTROL Models]**」を選択します。
 1. モデル名を選択します。
 
-「[&#x200B; モデルインサイト &#x200B;](insights.md)」にリダイレクトされます。
+「[ モデルインサイト ](insights.md)」にリダイレクトされます。
 
 ### 詳細を表示
 
@@ -131,7 +131,7 @@ Mix Modelerのモデルは、マーケターの投資にもとづいて、特定
 
    **[!UICONTROL Edit model]** ダイアログで、次の操作を行います。
 
-   ![&#x200B; モデルの編集](../assets/model-edit.png)
+   ![ モデルの編集](../assets/model-edit.png)
 
    * 新しい&#x200B;**[!UICONTROL Name]**&#x200B;と&#x200B;**[!UICONTROL Description]**&#x200B;を入力してください。
 
@@ -145,26 +145,25 @@ Mix Modelerのモデルは、マーケターの投資にもとづいて、特定
 
       1. ドロップダウンメニューから&#x200B;**[!UICONTROL Training frequency]**&#x200B;を選択します：**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、または&#x200B;**[!UICONTROL None]**。
 
-   * **[!UICONTROL Granular Insights Reporting Fields]** セクションの[詳細インサイト レポート フィールド &#x200B;](/help/models/build.md#granular-insights-reporting-fields)を更新するには：
+   * **[!UICONTROL Granular Insights Reporting Fields]** セクションの[詳細インサイト レポート フィールド ](/help/models/build.md#granular-insights-reporting-fields)を更新するには：
       1. **[!UICONTROL Includes]**&#x200B;の下の&#x200B;**[!UICONTROL _調和フィールド_]**&#x200B;から1つ以上の調和フィールドを選択します。 選択した調和フィールドがパネルに追加されます。
       1. **[!UICONTROL *調和フィールド&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択して、選択した調和フィールドを含む調和フィールドをコンテナから削除します。
       1. 選択したすべての調和フィールドを削除するには、**[!UICONTROL Clear all]**&#x200B;を選択します。
 
      >[!IMPORTANT]
-     >2026年2月18日&#x200B;**より前に**&#x200B;作成されたモデルに詳細なインサイト レポート フィールドを追加する場合は、モデルのリスコアリングが必要です。 このリスコアリングにより、モデルの基礎となるスキーマが、詳細なインサイトのレポートフィールドで更新されます。
-     >
-     >このようなモデルを複製することをお勧めします。 複製モデルの作成に、詳細なインサイトのレポートフィールドを含めることができます。
+     >2026年1月12日（PT）より前に作成されたMTAを持つモデルは、モデルの詳細なインサイトを得るために複製する必要があります。<br/>
+     >既存のモデルが更新された詳細ディメンションをスコアデータに反映するには、リスコアリングが必要です。
      >
 
 1. **[!UICONTROL Save]** を選択します。
 
 ### トレーニング
 
-新しい増分マーケティングや要因データを含める場合に、モデルを保持する。 詳しくは、[&#x200B; モデルのトレーニングとスコアモデル &#x200B;](train-score.md#train)を参照してください。
+新しい増分マーケティングや要因データを含める場合に、モデルを保持する。 詳しくは、[ モデルのトレーニングとスコアモデル ](train-score.md#train)を参照してください。
 
 ### Score
 
-新しいマーケティングデータにもとづいてモデルを段階的にスコアリングしたり、特定の日付範囲に合わせてモデルをスコアリングしたりできます。 詳しくは、[&#x200B; モデルのトレーニングとスコアモデル &#x200B;](train-score.md#score)を参照してください。
+新しいマーケティングデータにもとづいてモデルを段階的にスコアリングしたり、特定の日付範囲に合わせてモデルをスコアリングしたりできます。 詳しくは、[ モデルのトレーニングとスコアモデル ](train-score.md#score)を参照してください。
 
 ### モデルの削除
 
@@ -178,5 +177,5 @@ Mix Modelerのモデルは、マーケターの投資にもとづいて、特定
 
 1. 複数のモデルを選択。
 1. 青いアクションバーから、![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;を選択して、モデルを削除します。
-1. **[!UICONTROL Delete *x *モデル]**&#x200B;の確認ダイアログで&#x200B;**[!UICONTROL Delete]**&#x200B;を選択して、モデルを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択してください。
+1. **[!UICONTROL Delete *x *モデル]**の確認ダイアログで&#x200B;**[!UICONTROL Delete]**を選択して、モデルを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**を選択してください。
 
