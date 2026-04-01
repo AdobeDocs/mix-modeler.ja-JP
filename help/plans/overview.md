@@ -33,7 +33,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 
 ## プランの構築
 
-プランを作成するには、Mix Modeler プラン作成ウィザードを使用します。 詳しくは、[ プランの作成](build.md)を参照してください。
+プランを作成するには、Mix Modeler プラン作成ウィザードを使用します。 詳しくは、[&#x200B; プランの作成](build.md)を参照してください。
 
 
 ## プランの管理
@@ -55,7 +55,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
    | **[!UICONTROL Plan target]** | ターゲットベースのプランに定義されたターゲット指標。 |
    | **[!UICONTROL Forecasted return]** | プランの[予測収益](/help/main-guide/glossary.md) |
    | **[!UICONTROL Forecasted ROI]** | [は、プランのROIを予測](/help/main-guide/glossary.md)しました。 |
-   | **[!UICONTROL Forecasted conversion]** | プランの[予測コンバージョン ](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Forecasted conversion]** | プランの[予測コンバージョン &#x200B;](/help/main-guide/glossary.md) |
    | **[!UICONTROL Forecasted CPA]** | プランの[予測CPA](/help/main-guide/glossary.md)です |
    | **[!UICONTROL Status]** | プランのステータス：<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**、<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]**、または<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**。 |
 
@@ -75,7 +75,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 
 1. プラン名を選択します。
 
-「[ プランのインサイト ](insights.md)」にリダイレクトされます。
+「[&#x200B; プランのインサイト &#x200B;](insights.md)」にリダイレクトされます。
 
 
 ### プランの複製
@@ -85,7 +85,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 - プランの![詳細](/help/assets/icons/More.svg)を選択します。 コンテキストメニューから、**[!UICONTROL Duplicate]**&#x200B;を選択します。
 - または、テーブル ![SelectBox](/help/assets/icons/SelectBox.svg)でプランを選択し、青いアクションバーから![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**&#x200B;を選択します。
 
-元のプランの名前に&#x200B;**[!UICONTROL (Copy)]（_n_）**&#x200B;が付いた新しいプランが作成されます。 コピーしたプランの更新された詳細を提供するため、[ プラン作成](build.md)に自動的にリダイレクトされます。
+元のプランの名前に&#x200B;**[!UICONTROL (Copy)]（_n_）**&#x200B;が付いた新しいプランが作成されます。 コピーしたプランの更新された詳細を提供するため、[&#x200B; プラン作成](build.md)に自動的にリダイレクトされます。
 
 - 元のプランの詳細（説明、予算など）がコピーされます。
 - 元のプランの予算制約は、新しく作成したプランにコピーされます。
@@ -116,6 +116,6 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 
 1. 複数のプランを選択します。
 1. 青いアクションバーから、![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;を選択してプランを削除します。
-1. **[!UICONTROL Delete *x *プラン]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、プランを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**を選択してください。
+1. **[!UICONTROL Delete *x *プラン]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、プランを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択してください。
 
 
