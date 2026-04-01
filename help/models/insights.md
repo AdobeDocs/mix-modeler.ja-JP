@@ -21,7 +21,7 @@ ht-degree: 3%
 
 これらのインサイトは、リソースの優先順位付けと割り当てをサポートするのに役立ちます。
 
-モデルのインサイトを表示するには、[!DNL Mix Modeler]の![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで次の操作を行います。
+モデルのインサイトを表示するには、[!DNL Mix Modeler]の![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで次の操作を行います。
 
 1. **[!UICONTROL Models]** テーブルから、**[!UICONTROL Last run status]**&#x200B;の![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Success]**&#x200B;を持つモデルの名前を選択します。
 
@@ -33,12 +33,12 @@ ht-degree: 3%
 
 * [モデルインサイト](#model-insights)
 * [チャネル分析](#channel-analysis)
-* [要因](#factors) [!BADGE &#x200B; ベータ &#x200B;]
-* [&#x200B; アトリビューション &#x200B;](#attribution) （MTA対応モデルのみ）
+* [要因](#factors) [!BADGE  ベータ ]
+* [ アトリビューション ](#attribution) （MTA対応モデルのみ）
 * [診断](#diagnostics)
 * [履歴の概要](#historical-overview)。
 
-各タブのビジュアライゼーションの基となる日付の期間を変更できます。 日付期間を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を選択して日付期間を選択します。
+各タブのビジュアライゼーションの基となる日付の期間を変更できます。 日付期間を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を選択して日付期間を選択します。
 
 ## モデルドリフト
 
@@ -46,19 +46,19 @@ ht-degree: 3%
 
 モデルのドリフトがモデル上で検出された場合は、後で通知するオプションや、モデルをすぐに[**[!UICONTROL Retrain]**](overview.md#retrain)するためのオプションを含む&#x200B;**[!UICONTROL Model drift detected]** ダイアログが表示されます。 **[!UICONTROL Remind me later]**&#x200B;を選択すると、次の日または次のログイン時にリマインドされます。
 
-![&#x200B; モデルドリフト検出ダイアログ &#x200B;](/help/assets/model-drift-dialog.png)
+![ モデルドリフト検出ダイアログ ](/help/assets/model-drift-dialog.png)
 
 ## モデルインサイト {#model-insights-section}
 
-「**[!UICONTROL Model insights]**」タブには、[日付およびベースメディア別の貢献度](#contribution-by-date-and-base-media)、[&#x200B; チャネル別の貢献度](#contribution-by-channel)、[&#x200B; マーケティングパフォーマンスの概要](#marketing-performance-summary)、[限界応答カーブ &#x200B;](#marginal-response-curves)のビジュアライゼーションが表示されます。 このタブには、[&#x200B; タッチポイントの分類](#touchpoint-breakdown) テーブルも表示されます。
+「**[!UICONTROL Model insights]**」タブには、[日付およびベースメディア別の貢献度](#contribution-by-date-and-base-media)、[ チャネル別の貢献度](#contribution-by-channel)、[ マーケティングパフォーマンスの概要](#marketing-performance-summary)、[限界応答カーブ ](#marginal-response-curves)のビジュアライゼーションが表示されます。 このタブには、[ タッチポイントの分類](#touchpoint-breakdown) テーブルも表示されます。
 
-![&#x200B; モデル – モデルインサイト &#x200B;](/help/assets/model-insights-insights.png)
+![ モデル – モデルインサイト ](/help/assets/model-insights-insights.png)
 
 * 各ビジュアライゼーションの個々のグラフ要素にカーソルを合わせると、より詳細なポップオーバーが表示されます。
 
-* ビジュアライゼーションのデータを含むCSV ファイルをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を選択します。
+* ビジュアライゼーションのデータを含むCSV ファイルをダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg)を選択します。
 
-* Microsoft® Excel形式で完全なモデルインサイトデータをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**&#x200B;を選択します。
+* Microsoft® Excel形式で完全なモデルインサイトデータをダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg) **[!UICONTROL Download data]**&#x200B;を選択します。
 
 
 ### 日付およびベースメディア別の貢献度
@@ -102,7 +102,7 @@ ht-degree: 3%
 
 タッチポイントの内訳テーブルには、すべてのチャネルまたは選択したチャネルの週次タッチポイントの内訳が週次ベースで表示され、それぞれに関連する主要な指標が表示されます。 この表を使用すると、簡単に比較、トレンドの特定、パフォーマンスの追跡をより詳細なチャネルレベルで行うことができます。 このテーブルは、日付と基本メディアによる[貢献度](#contribution-by-date-and-base-media)のビジュアライゼーションと、チャネルによる[貢献度](#contribution-by-channel)のビジュアライゼーションを明示的に補完します。
 
-![&#x200B; タッチポイントの内訳](../assets/touchpoint-breakdown.png)
+![ タッチポイントの内訳](../assets/touchpoint-breakdown.png)
 
 次の列を使用できます。
 
@@ -118,7 +118,7 @@ ht-degree: 3%
 
 特定のチャネルまたはすべてのチャネルを選択するには、**[!UICONTROL View]** ドロップダウンメニューからを選択します。
 
-タッチポイント分類テーブルの内容をダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;を選択します。
+タッチポイント分類テーブルの内容をダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg) **[!UICONTROL Download CSV]**&#x200B;を選択します。
 
 
 ## チャネル分析
@@ -139,11 +139,11 @@ ht-degree: 3%
 
 >[!TAB  シナジー効果を減らす]
 
-![&#x200B; チャネルシナジーの計画](/help/assets/model-channel-synergies-less.png)
+![ チャネルシナジーの計画](/help/assets/model-channel-synergies-less.png)
 
 >[!TAB すべてのシナジーを表示]
 
-![&#x200B; チャネルシナジーの計画](/help/assets/model-channel-synergies-all.png)
+![ チャネルシナジーの計画](/help/assets/model-channel-synergies-all.png)
 
 >[!ENDTABS]
 
@@ -154,7 +154,7 @@ ht-degree: 3%
 
 * 相乗効果の詳細を表示するには、ビジュアライゼーションのセルにカーソルを合わせます。
 
-* 行列を表すCSV ファイルをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg) **[!UICONTROL Download]**&#x200B;を選択します。
+* 行列を表すCSV ファイルをダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg) **[!UICONTROL Download]**&#x200B;を選択します。
 
 >[!NOTE]
 >
@@ -173,11 +173,11 @@ ht-degree: 3%
 
 >[!TAB すべてのadstockを表示]
 
-![&#x200B; チャネルシナジーの計画](/help/assets/model-channel-adstock-all.png)
+![ チャネルシナジーの計画](/help/assets/model-channel-adstock-all.png)
 
 >[!TAB 選択したadstockを表示]
 
-![&#x200B; チャネルシナジーの計画](/help/assets/model-channel-adstock-selected.png)
+![ チャネルシナジーの計画](/help/assets/model-channel-adstock-selected.png)
 
 >[!ENDTABS]
 
@@ -192,7 +192,7 @@ ht-degree: 3%
 >abstract="要素貢献度の分類は、モデルに含まれる様々な要因に起因する基本コンバージョンの割合を示します。<br/><br/>純粋なベースは、マーケティングのタッチポイントとモデルに含まれる要因に依存せずに発生する基本コンバージョンを表します。 これには、ブランドエクイティ、リピート購入、オーガニック需要、長期的な市場トレンドや季節性によるコンバージョンが含まれます。"
 
 
-「要因[!BADGE &#x200B; ベータ版]」タブには、外部要因に関連するインサイトが表示されます。
+「要因[!BADGE  ベータ版]」タブには、外部要因に関連するインサイトが表示されます。
 
 ![要因](/help/assets/factors.png)
 
@@ -202,7 +202,7 @@ ht-degree: 3%
 
 <!-- need to update the image when we do have a proper example -->
 
-テーブルのデータを含むCSV ファイルをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を選択します。
+テーブルのデータを含むCSV ファイルをダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg)を選択します。
 
 使用可能なデータがない場合は、![TableAndChart](/help/assets/icons/TableAndChart.svg) **[!UICONTROL No data is available, you may need to retrain your model, or change the date range to view insights]**&#x200B;というメッセージが表示されます。
 
@@ -225,7 +225,7 @@ ht-degree: 3%
 >
 >「アトリビューション」タブは、MTA対応モデルでのみ使用できます。
 
-「[!UICONTROL Attribution]」タブを使用すると、イベントレベルのデータを持つタッチポイントおよびマーケティングキャンペーンの効果を把握できます。  [&#x200B; モデルの構築](build.md)を参照してください。
+「[!UICONTROL Attribution]」タブを使用すると、イベントレベルのデータを持つタッチポイントおよびマーケティングキャンペーンの効果を把握できます。  [ モデルの構築](build.md)を参照してください。
 
 次のアトリビューションモデルがサポートされています。
 
@@ -239,7 +239,7 @@ ht-degree: 3%
    * 線形
    * Ushape
 
-[!DNL Mix Modeler]のマルチタッチアトリビューション機能の概要については、[&#x200B; マルチタッチアトリビューション &#x200B;](../get-started/about.md#multi-touch-attribution)を参照してください。
+[!DNL Mix Modeler]のマルチタッチアトリビューション機能の概要については、[ マルチタッチアトリビューション ](../get-started/about.md#multi-touch-attribution)を参照してください。
 
 **[!UICONTROL Attribution Model]** ドロップダウンメニューから1つ以上のアトリビューションモデルを選択します。 選択したアトリビューションモデルは、「アトリビューション」タブのすべてのビジュアライゼーションに適用されます。
 
@@ -364,7 +364,7 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
 
 * **[!UICONTROL Model Assessment]**&#x200B;個のビジュアライゼーション：
 
-  ![&#x200B; モデル評価](../assets/model-assessment.png)
+  ![ モデル評価](../assets/model-assessment.png)
 
    * 実際のコンバージョンと予測コンバージョン、または残差コンバージョンを分析できるグラフです。
 ビジュアライゼーションを分類するには、**[!UICONTROL Breakdown]** リストから次のいずれかのオプションを選択します。
@@ -382,11 +382,11 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
       * **[!UICONTROL MAPE]** （平均絶対割合エラー）は、最もよく使用されるKPIの1つで、予測精度を測定し、予測誤差を実際の値に対する割合で表します。
       * **[!UICONTROL RMSE]** （ルート平均平方誤差）：平均エラーを示し、エラーの正方形に従って重み付けされます。
 
-  テーブルのデータを含むCSV ファイルをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を選択します。
+  テーブルのデータを含むCSV ファイルをダウンロードするには、![ ダウンロード ](/help/assets/icons/Download.svg)を選択します。
 
 * 各コンバージョン指標に表示される&#x200B;**[!UICONTROL Model training fit metrics]** テーブル：
 
-  ![&#x200B; モデル トレーニング フィット指標テーブル &#x200B;](../assets/model-training-fit-metrics.png)
+  ![ モデル トレーニング フィット指標テーブル ](../assets/model-training-fit-metrics.png)
 
    * **[!UICONTROL Training R<sup>2</sup>]**: モデルの予測によって説明される実際の値の分散の割合を示します（0 ～ 1の範囲）。
    * **[!UICONTROL Training sMAPE]** （対称平均絶対割合エラー）：学習データの平均割合エラーを測定します。 値が小さいほど、精度が向上します。
@@ -397,7 +397,7 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
 
 * **[!UICONTROL Touchpoint effectiveness]** テーブル。アトリビューション AI アルゴリズムモデルの結果を表します。
 
-  ![&#x200B; タッチポイント有効性テーブル &#x200B;](../assets/touchpoint-effectiveness.png)
+  ![ タッチポイント有効性テーブル ](../assets/touchpoint-effectiveness.png)
 
   このテーブルのデータは、特定の期間のみ生成されます。 詳細については、**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)を選択してください。
 
@@ -412,12 +412,12 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
 
 >[!AVAILABILITY]
 >
->このセクションで説明する機能は、リリースの限定テスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般に利用可能な場合に削除されます。 [!DNL Mix Modeler]のリリースプロセスについて詳しくは、[Mix Modeler機能リリース &#x200B;](/help/releases/latest.md)を参照してください。
+>このセクションで説明する機能は、リリースの限定テスト段階にあり、お使いの環境ではまだ利用できない場合があります。 このメモは、機能が一般に利用可能な場合に削除されます。 [!DNL Mix Modeler]のリリースプロセスについて詳しくは、[Mix Modeler機能リリース ](/help/releases/latest.md)を参照してください。
 >
 
 モデルドリフトが検出された場合は、上部に&#x200B;**[!UICONTROL Model drift detected]**&#x200B;通知が表示されます。
 
-![&#x200B; モデルドリフト通知](/help/assets/model-drift-notification.png)
+![ モデルドリフト通知](/help/assets/model-drift-notification.png)
 
 通知を非表示にするには、**[!UICONTROL Hide]**&#x200B;を選択します。 通知は、翌日または次のログイン時に再度表示されます。
 
@@ -426,7 +426,7 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
 
 「履歴の概要」タブには、次のビジュアライゼーションが表示されます。
 
-![&#x200B; モデル – 履歴の概要](/help/assets/model-insights-historical-overview.png)
+![ モデル – 履歴の概要](/help/assets/model-insights-historical-overview.png)
 
 
 ### 会計四半期および製品別のコンバージョンと支出
@@ -477,6 +477,6 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
 
       1. ドロップダウンメニューから&#x200B;**[!UICONTROL Training frequency]**&#x200B;を選択します：**[!UICONTROL Monthly]**、**[!UICONTROL Quarterly]**、**[!UICONTROL Yearly]**、または&#x200B;**[!UICONTROL None]**。
 
-     ![&#x200B; モデルの編集](../assets/model-edit.png)
+     ![ モデルの編集](../assets/model-edit.png)
 
 1. **[!UICONTROL Save]** を選択します。
