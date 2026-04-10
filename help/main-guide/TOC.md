@@ -2,10 +2,10 @@
 user-guide-title: Mix Modeler ガイド
 breadcrumb-title: Mix Modeler ガイド
 user-guide-description: Mix Modeler の使用方法を学ぶ。
-source-git-commit: 2775c5a3779f6731f7f3143f6ed21db2993c0955
+source-git-commit: 8340b8a6c32670f372fff489fd46ea1003ff1d02
 workflow-type: tm+mt
 source-wordcount: '90'
-ht-degree: 55%
+ht-degree: 54%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 55%
 + [Mix Modeler ガイド](/help/overview.md)
 
 + 基本を学ぶ {#get-started}
-   + [Mix Modelerとは](/help/get-started/about.md)
+   + [Mix Modelerとは？](/help/get-started/about.md)
    + [アプリケーションワークフロー](/help/get-started/workflow.md)
 
 + ホーム {#dashboard}
@@ -24,24 +24,24 @@ ht-degree: 55%
 
 + モデル {#models}
    + [概要](/help/models/overview.md)
-   + [モデルを作成](/help/models/build.md)
+   + [モデルを構築](/help/models/build.md)
    + [モデルのトレーニングとスコアリング](/help/models/train-score.md)
    + [モデルインサイト](/help/models/insights.md)
-   + [スコアリングデータの使用](/help/models/scoring-data.md)
+   + [スコアリングデータの活用](/help/models/scoring-data.md)
 
 + プラン {#plans}
    + [概要](/help/plans/overview.md)
-   + [プランの作成](/help/plans/build.md)
+   + [プランの構築](/help/plans/build.md)
    + [プランインサイト](/help/plans/insights.md)
-   + [計画の比較](/help/plans/compare.md)
+   + [プランの比較](/help/plans/compare.md)
 
-+ データセットの調和 {#harmonize-data}
++ データセットを調和させる {#harmonize-data}
    + [概要](/help/harmonize-data/overview.md)
    + [フィールド](/help/harmonize-data/fields.md)
    + [データセットルール](/help/harmonize-data/dataset-rules.md)
    + [マーケティングタッチポイント](/help/harmonize-data/marketing-touchpoints.md)
    + [コンバージョン数](/help/harmonize-data/conversions.md)
-   + [使用状況レポート](/help/harmonize-data/usage-report.md)
+   + [利用状況レポート](/help/harmonize-data/usage-report.md)
 
 + データを取得 {#ingest-data}
    + [概要](/help/ingest-data/overview.md)
@@ -60,10 +60,10 @@ ht-degree: 55%
 
 + リリース {#releases}
    + [最新リリース](/help/releases/latest.md)
-   + [2025 年リリース](/help/releases/2025.md)
-   + [2024 年リリース](/help/releases/2024.md)
-   + [2023 年リリース](/help/releases/2023.md)
-   + [テスト](../releases/test.md)
+   + [2025 リリース](/help/releases/2025.md)
+   + [2024 リリース](/help/releases/2024.md)
+   + [2023 リリース](/help/releases/2023.md)
+   + {hide-from-toc}[&#x200B; テスト &#x200B;](../releases/test.md)
 
 + [用語集](/help/main-guide/glossary.md)
 
