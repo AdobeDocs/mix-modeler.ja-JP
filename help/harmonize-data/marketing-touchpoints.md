@@ -54,17 +54,17 @@ Mix Modeler インターフェイスで使用可能なマーケティングの�
 
    1. **[!UICONTROL Touchpoint rule]**&#x200B;を定義します。
 
-      1. **[!UICONTROL *調和&#x200B;*]**から値を選択します（例：**[!UICONTROL Brand]**）。
+      1. **[!UICONTROL *調和&#x200B;*]**&#x200B;から値を選択します（例：**[!UICONTROL Brand]**）。
 
       1. 演算子![Chevron](/help/assets/icons/ChevronDown.svg)の値（例：**[!UICONTROL is]**）を選択します。
 
-      1. **[!UICONTROL *値&#x200B;*]**から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
+      1. **[!UICONTROL *値&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
 
    1. **[!UICONTROL Touchpoint volume]**&#x200B;から調和されたフィールド （例：**[!UICONTROL Impressions]**）を選択します。
 
    1. **[!UICONTROL Touchpoint spend]**&#x200B;から調和されたフィールド （例：**[!UICONTROL Cost]**）を選択します。
 
-      ![ マーケティングタッチポイント ](/help/assets/create-touchpoint.png)
+      ![&#x200B; マーケティングタッチポイント &#x200B;](/help/assets/create-touchpoint.png)
 
    1. マーケティング タッチポイントを作成するには、**[!UICONTROL Create]**&#x200B;を選択します。 マーケティングタッチポイントの作成をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
@@ -77,7 +77,7 @@ Mix Modeler インターフェイスで使用可能なマーケティングの�
 
 1. テーブル内のマーケティングタッチポイント名にカーソルを合わせると、![詳細](/help/assets/icons/More.svg)を選択します。
 
-1. ![ ビュー](/help/assets/icons/ViewDetail.svg) **ビュー**&#x200B;を選択します。 ダイアログに、マーケティングのタッチポイントの詳細が表示されます。 詳しくは、[ マーケティングタッチポイントの追加](#add-a-marketing-touchpoint)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. ![&#x200B; ビュー](/help/assets/icons/ViewDetail.svg) **ビュー**&#x200B;を選択します。 ダイアログに、マーケティングのタッチポイントの詳細が表示されます。 詳しくは、[&#x200B; マーケティングタッチポイントの追加](#add-a-marketing-touchpoint)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
 
 ## レポートを読む
@@ -88,10 +88,10 @@ Mix Modeler インターフェイスで使用可能なマーケティングの�
 
 1. 「![GraphTrend](/help/assets/icons/GraphTrend.svg) **レポートを表示**」を選択します。 ダイアログに、マーケティングのタッチポイントのレポートが表示されます。
 
-   ![ マーケティングタッチポイントビューレポート ](../assets/marketingtouchpoint-view-report.png)
+   ![&#x200B; マーケティングタッチポイントビューレポート &#x200B;](../assets/marketingtouchpoint-view-report.png)
 
    * レポートする精度を変更するには、**[!UICONTROL Weekly]** ドロップダウンメニューから値を選択します。
-   * レポートする期間を変更するには、開始日と終了日を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
+   * レポートする期間を変更するには、開始日と終了日を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
 
 1. ダイアログを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 

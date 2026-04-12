@@ -55,11 +55,11 @@ ht-degree: 2%
 
    1. **[!UICONTROL Conversion category]**&#x200B;を定義します。
 
-      1. **[!UICONTROL *調和を選択…*]**から値を選択します（例：`Conversion types`）。
+      1. **[!UICONTROL *調和を選択…*]**&#x200B;から値を選択します（例：`Conversion types`）。
 
       1. 演算子![Chevron](/help/assets/icons/ChevronDown.svg)の値（例：**[!UICONTROL is]**）を選択します。
 
-      1. **[!UICONTROL *値&#x200B;*]**から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
+      1. **[!UICONTROL *値&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
 
    1. **[!UICONTROL Conversion metric for analysis]**&#x200B;から調和されたフィールド （例：**[!UICONTROL Orders]**）を選択します。
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    1. コンバージョンを作成するには、**[!UICONTROL Create]**&#x200B;を選択します。 コンバージョンの作成をキャンセルするには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
-      ![代替テキスト ](/help/assets/create-conversion.png)
+      ![代替テキスト &#x200B;](/help/assets/create-conversion.png)
 
 1. 作成すると、コンバージョンがコンバージョンテーブルに追加されます。
 
@@ -78,7 +78,7 @@ ht-degree: 2%
 
 1. テーブル内のコンバージョン名にカーソルを合わせると、![詳細](/help/assets/icons/More.svg)を選択します。
 
-1. ![表示](/help/assets/icons/ViewDetail.svg) **詳細を表示**&#x200B;を選択します。 ダイアログにコンバージョンの詳細が表示されます。 詳しくは、[ コンバージョンの追加](#add-a-conversion)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. ![表示](/help/assets/icons/ViewDetail.svg) **詳細を表示**&#x200B;を選択します。 ダイアログにコンバージョンの詳細が表示されます。 詳しくは、[&#x200B; コンバージョンの追加](#add-a-conversion)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
 ## レポートを読む
 
@@ -88,10 +88,10 @@ ht-degree: 2%
 
 1. 「![GraphTrend](/help/assets/icons/GraphTrend.svg) **レポートを表示**」を選択します。 ダイアログには、コンバージョンのレポートが表示されます。
 
-   ![ コンバージョンビューレポート ](../assets/conversion-view-report.png)
+   ![&#x200B; コンバージョンビューレポート &#x200B;](../assets/conversion-view-report.png)
 
    * レポートする精度を変更するには、**[!UICONTROL Weekly]** ドロップダウンメニューから値を選択します。
-   * レポートする期間を変更するには、開始日と終了日を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
+   * レポートする期間を変更するには、開始日と終了日を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
 
 1. ダイアログを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 
