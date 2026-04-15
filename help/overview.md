@@ -4,7 +4,7 @@ description: Mix Modeler を使用してキャンペーンを測定し、すべ�
 short-description: Mix Modeler を使用してキャンペーンを測定し、すべてのチャネルをまたいで総合的に計画を最適化する方法について説明します。
 feature: Harmonized Data, Models, Plans
 exl-id: 3427c338-f2a0-416b-bb4c-d8fef929c38a
-source-git-commit: be8ff78c9f286356e9335b81f11a4efb07e39956
+source-git-commit: 51e259410b5d6af8cc9d17b051a7d7ca9ed59d2a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 14%
@@ -74,7 +74,8 @@ ht-degree: 14%
     </td>
         <td>
       <img src="assets/Learn.svg" width="35px"><br/>
-      <strong> チュートリアル </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=ja">概要</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=ja"> ユースケース </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=ja"> ユーザーワークフロー</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=ja"> ユーザーインターフェイスツアー</a>
+      <strong> チュートリアル </strong><br/><a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/overview.html?lang=en">概要</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/use-cases.html?lang=en"> ユースケース </a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-workflow.html?lang=en"> ユーザーワークフロー</a> - <a href="https://experienceleague.adobe.com/docs/mix-modeler-learn/tutorials/intro/user-interface-tour.html?lang=en"> ユーザーインターフェイスツアー</a>
     </td>
   </tr>
 </table>
+
