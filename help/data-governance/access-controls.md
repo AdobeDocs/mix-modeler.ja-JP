@@ -27,7 +27,7 @@ ht-degree: 25%
 
 # アクセス制御
 
-Mix Modelerのアクセス制御は、[Adobe Admin Console](https://adminconsole.adobe.com/)のExperience PlatformおよびExperience Platformの[権限](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/home#platform-permissions)を通じて提供されます。 この機能は、権限とサンドボックスをユーザーにリンクさせるAdmin Consoleの製品プロファイルを活用します。
+Mix Modelerのアクセス制御は、[Adobe Admin Console](https://adminconsole.adobe.com/)のExperience PlatformおよびExperience Platformの[権限](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home#platform-permissions)を通じて提供されます。 この機能は、権限とサンドボックスをユーザーにリンクさせるAdmin Consoleの製品プロファイルを活用します。
 
 アクセス制御について詳しくは、[&#x200B; アクセス制御の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/home)を参照してください。
 
@@ -37,13 +37,13 @@ Experience PlatformでMix Modeler ユーザーとユーザーグループに対�
 
 ## 属性ベースのアクセス制御
 
-[属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)は、管理者が属性に基づいて特定のオブジェクトや機能へのアクセスを制御できるようにするExperience Platformの機能です。 属性は、スキーマフィールドやセグメントに追加されるラベルなど、オブジェクトに追加されるメタデータであることがあります。 管理者は、ユーザーアクセス権限を管理する属性を含めた、アクセスポリシーを定義します。
+[属性ベースのアクセス制御](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/overview)は、管理者が属性に基づいて特定のオブジェクトや機能へのアクセスを制御できるようにするExperience Platformの機能です。 属性は、スキーマフィールドやセグメントに追加されるラベルなど、オブジェクトに追加されるメタデータであることがあります。 管理者は、ユーザーアクセス権限を管理する属性を含めた、アクセスポリシーを定義します。
 
 この機能を使用すると、エクスペリエンスデータモデル（XDM）スキーマフィールドに、組織またはデータの使用範囲を定義するラベルを付けることができます。 また、管理者は、ユーザーと役割の管理インターフェイスを使用して、XDM スキーマフィールドに対するアクセスポリシーを定義できます。 ユーザーまたはユーザーグループ（内部、外部、またはサードパーティユーザー）に与えられるアクセスをより適切に管理します。 また、属性ベースのアクセス制御により、管理者は特定のセグメントへのアクセスを管理できます。
 
 管理者は、属性ベースのアクセス制御を通じて、Adobe Experience Platformのあらゆるワークフローとリソースをまたいで、機密性の高い個人データ（SPD）と個人を特定できる情報（PII）の両方へのユーザーのアクセスを制御できます。 管理者は、特定のフィールドと、それらのフィールドに対応するデータにのみアクセスできるユーザーの役割を定義できます。
 
-統一されたデータセットのデータセットルールを設定する場合、Experience Platformの[属性ベースのアクセス制御](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/overview)はフィールドレベルで適用されます。 ラベルがスキーマフィールドに添付されている場合、フィールドは制限されます。 そのフィールドへのアクセスを拒否するアクティブなポリシーが有効になっています。 これにより、
+統一されたデータセットのデータセットルールを設定する場合、Experience Platformの[属性ベースのアクセス制御](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/overview)はフィールドレベルで適用されます。 ラベルがスキーマフィールドに添付されている場合、フィールドは制限されます。 そのフィールドへのアクセスを拒否するアクティブなポリシーが有効になっています。 これにより、
 
 * データセットルールの作成時に制限されているスキーマフィールドが表示されません，
 * 自分に制限されている1つ以上のスキーマフィールドのマッピングを表示または編集できません。 このような制限付きフィールドを含むデータセットルールを編集または表示すると、次の画面が表示されます。

@@ -27,7 +27,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL SETUP]**&#x200B;の下にある![&#x200B; スキーマ &#x200B;](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;を選択します。
 
-詳しくは、[&#x200B; スキーマ UIの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)を参照してください。
+詳しくは、[&#x200B; スキーマ UIの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=ja)を参照してください。
 
 ## 集計データまたは概要データ
 
@@ -97,7 +97,7 @@ XDM Summary Metrics クラスを使用して、次の操作を行います。
 
 ## サポートされているデータタイプ
 
-現在、Mix ModelerはExperience Platform データタイプのサブセットをサポートしています。 次の基本的なデータタイプ（フィールド）がサポートされています。これは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)に記載されています。
+現在、Mix ModelerはExperience Platform データタイプのサブセットをサポートしています。 次の基本的なデータタイプ（フィールド）がサポートされています。これは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=ja#data-type)に記載されています。
 
 - 文字列
 - 整数

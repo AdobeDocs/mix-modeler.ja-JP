@@ -36,7 +36,7 @@ Experience Platform Data Governanceは、Experience Platformを介してデー�
 
 必要に応じて、Mix Modeler内のExperience Platform サーフェスで使用されるデータセットに作成されるデータ使用ラベルとポリシー。 例えば、これらのラベルは、調和データ内のデータセットルールの一部であるデータセットを削除する際に、ユーザーを停止または警告します。 または、データセットルールの作成時にユーザーに制限されているスキーマフィールドを非表示にします。
 
-データガバナンス統合により、コンプライアンスをより効率的に管理できます。 組織のデータ管理人は、使用を制限するポリシーを設定できます。 その結果、データ管理人が定義したポリシーに準拠するデータを使用できます。 詳しくは、[ラベルとポリシー](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/data-governance)に関するドキュメントを参照してください。
+データガバナンス統合により、コンプライアンスをより効率的に管理できます。 組織のデータ管理人は、使用を制限するポリシーを設定できます。 その結果、データ管理人が定義したポリシーに準拠するデータを使用できます。 詳しくは、[ラベルとポリシー](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-dataviews/data-governance)に関するドキュメントを参照してください。
 
 次のデータガバナンス機能を使用できます。
 

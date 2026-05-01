@@ -38,7 +38,7 @@ Unicode文字を使用したテーブルのテスト
 
 >[!BEGINSHADEBOX]
 
-この記事では、![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;のアトリビューションパネルについて説明します。<br/>この記事の![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**&#x200B;版については、[&#x200B; アトリビューションパネル &#x200B;](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/attribution)を参照してください。
+この記事では、![Adobe Analytics](/help/assets/icons/AdobeAnalytics.svg) **Adobe Analytics**&#x200B;のアトリビューションパネルについて説明します。<br/>この記事の![CustomerJourneyAnalytics](/help/assets/icons/CustomerJourneyAnalytics.svg) **Customer Journey Analytics**&#x200B;版については、[&#x200B; アトリビューションパネル &#x200B;](https://experienceleague.adobe.com/ja/docs/analytics-platform/using/cja-workspace/panels/attribution)を参照してください。
 
 >[!ENDSHADEBOX]
 
