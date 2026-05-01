@@ -5,10 +5,15 @@ feature: Models
 exl-id: c4fbe13e-4548-421b-ba90-274fc42f4be2
 TQID: https://experienceleague.adobe.com/yHi6d-zZeT5fpedJeqNAj-Q01NlEK-y3MybA5p54DhE
 autotag-review: '2026-05-01T09:03:34.273Z'
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2: id: cb40363e-1205-4921-971c-9ee6bdb18329
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: cb40363e-1205-4921-971c-9ee6bdb18329
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 374
@@ -18,7 +23,7 @@ ht-degree: 0%
 
 # モデルのトレーニングとスコアリング
 
-モデルを[ ビルド ](/help/models/build.md)すると、モデルは自動的にトレーニングされ、スコアリングされます。 モデルを手動で再トレーニングまたは再スコアリングできます。
+モデルを[&#x200B; ビルド &#x200B;](/help/models/build.md)すると、モデルは自動的にトレーニングされ、スコアリングされます。 モデルを手動で再トレーニングまたは再スコアリングできます。
 
 ## トレーニング
 
@@ -34,9 +39,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Train model with last 2 years of marketing data]**、または
    * **[!UICONTROL Train model using specific date range of data]**.
-日付範囲を指定します。 ![ カレンダー](/help/assets/icons/Calendar.svg)を使用して、日付範囲を選択できます。 1年以上のデータ範囲を選択する必要があります。
+日付範囲を指定します。 ![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して、日付範囲を選択できます。 1年以上のデータ範囲を選択する必要があります。
 
-   ![ モデルの保持](../assets/retrain-model.png)
+   ![&#x200B; モデルの保持](../assets/retrain-model.png)
 
 1. モデルを再トレーニングするには、**[!UICONTROL Train]**&#x200B;を選択します。
 
@@ -64,9 +69,9 @@ ht-degree: 0%
 
    * **[!UICONTROL Score new marketing data from *mm/dd/yyyy *]**、新しいマーケティングデータを使用してモデルを段階的にスコアリングする、または
    * 特定の日付範囲のコアを再コアする&#x200B;**[!UICONTROL Score specific date range of marketing data]**。
-日付範囲を指定します。 ![ カレンダー](/help/assets/icons/Calendar.svg)を使用して、日付範囲を選択できます。
+日付範囲を指定します。 ![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して、日付範囲を選択できます。
 
-   ![ モデルの再評価](../assets/rescore-model.png)
+   ![&#x200B; モデルの再評価](../assets/rescore-model.png)
 
 1. **[!UICONTROL Score]** を選択します。 特定のデータ範囲を使用してモデルをスコアリングする場合、**[!UICONTROL Existing model is replaced]** ダイアログが表示され、選択した日付範囲の新しいスコアでモデルを置き換えるかどうかを確認するように求められます。 確認するには、**[!UICONTROL Replace model]**&#x200B;を選択してください。
 

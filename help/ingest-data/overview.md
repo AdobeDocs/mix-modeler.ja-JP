@@ -4,10 +4,19 @@ description: Mix Modelerにデータを取り込む方法について説明し�
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
 TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
-subfeature_v2: id: ad7101f7-ae92-401b-a25a-d3060d42989did: d1167c89-f64a-42ca-ac95-1d91b7790df2id: ee1bf083-e090-4def-936b-c111d29f42d0id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2:
+  - id: ad7101f7-ae92-401b-a25a-d3060d42989d
+  - id: d1167c89-f64a-42ca-ac95-1d91b7790df2
+  - id: ee1bf083-e090-4def-936b-c111d29f42d0
+  - id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:11:34.506Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -29,7 +38,7 @@ Mix Modelerは、さまざまなウォールドガーデンからのイベント
 * ウォールドガーデン（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからデータを集約または要約します。
 * モデル構築に役立つ内部要因または外部要因を含む、マーケティング以外の集計データまたは概要データ。
 
-Experience Platformでサポートされている任意の種類の仕組みを使用して、エクスペリエンスイベントレベル、マーケティング活動データ、その他のソースからデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングやバッチ取り込みなど。 Adobe Mix Modelerで使用するためにExperience Platformでデータを取り込む方法について詳しくは、[ データ取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)を参照してください。
+Experience Platformでサポートされている任意の種類の仕組みを使用して、エクスペリエンスイベントレベル、マーケティング活動データ、その他のソースからデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングやバッチ取り込みなど。 Adobe Mix Modelerで使用するためにExperience Platformでデータを取り込む方法について詳しくは、[&#x200B; データ取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)を参照してください。
 
 ## ガイドライン
 
@@ -93,9 +102,9 @@ Mix Modelerでデータを使用するには、データセットで収集され
 Mix Modelerでデータが適切に使用可能かどうかを検証するには、次の操作を行います。
 
 * [概要](/help/overview.md)でビジュアライゼーションを使用します。
-* 調和されたデータセットの[調和されたデータ ](/help/harmonize-data/overview.md)からデータをダウンロードして検査します。
+* 調和されたデータセットの[調和されたデータ &#x200B;](/help/harmonize-data/overview.md)からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、Experience Platform クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home)を使用してSQL クエリを[書き込み、実行できます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、Experience Platform クエリサービス [&#128279;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home)を使用してSQL クエリを書き込み、実行できます。
 
 
 >[!MORELIKETHIS]

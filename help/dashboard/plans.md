@@ -4,10 +4,17 @@ description: Mix ModelerでPerformance to Planの概要を使用する方法を�
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
 TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
-subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+  - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:20:18.412Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -20,9 +27,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Mix Modeler ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}」タブはベータ機能であり、その機能は変更される可能性があります。 この機能は、限られた数のお客様にご利用いただけます。
+>Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}」タブはベータ機能であり、その機能は変更される可能性があります。 この機能は、限られた数のお客様にご利用いただけます。
 
-Mix Modeler ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} タブには、計画に対するマーケティングのパフォーマンスを監視するためのトラッキングダッシュボードが用意されています。 ステータスカードとビジュアライゼーション機能を利用して、実際のパフォーマンスと計画されたパフォーマンスを追跡することができます。
+Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} タブには、計画に対するマーケティングのパフォーマンスを監視するためのトラッキングダッシュボードが用意されています。 ステータスカードとビジュアライゼーション機能を利用して、実際のパフォーマンスと計画されたパフォーマンスを追跡することができます。
 
 ダッシュボードは、ギャップを特定し、リスクや機会を特定し、計画や予算をタイムリーに調整するのに役立ちます。
 
@@ -30,18 +37,18 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 * **[!UICONTROL _オプションを選択…_]**&#x200B;を使用して、**[!UICONTROL Plan name]** ドロップダウンメニューからプランを選択します。
 
-* 日付期間を指定します。 日付期間を変更するには、開始日と終了日を手動で入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して日付期間を選択します。
+* 日付期間を指定します。 日付期間を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付期間を選択します。
 
 「**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}」タブには、次の情報が表示されます。
 
-* [KPI ステータスカード ](#kpi-status-cards):
+* [KPI ステータスカード &#x200B;](#kpi-status-cards):
 
    * [予算](#budget)
    * [売上高](#revenue)
    * [ROI](#roi)
    * [KPI](#kpi)
 
-* [ ビジュアライゼーション ](#visualizations):
+* [&#x200B; ビジュアライゼーション &#x200B;](#visualizations):
    * [*指標*：実際の指標と計画された指標の比較](#metric-actual-vs-planned)
    * [*指標*：実際の指標と&#x200B;*精度*&#x200B;で計画された指標の比較](#metric-actual-vs-planned-by-granularity)
    * [チャネル *指標* by *精度*](#channel-metric-by-granularity)
@@ -51,7 +58,7 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 ## KPI ステータスカード
 
-![KPI ステータスカード ](../assets/performance-to-plan-kpi-cards.png)
+![KPI ステータスカード &#x200B;](../assets/performance-to-plan-kpi-cards.png)
 
 
 ### 予算
@@ -86,7 +93,7 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 ビジュアライゼーションの任意の行、棒グラフまたは散布要素にカーソルを合わせると、追加情報を含むポップアップが表示されます。
 
-![ ビジュアライゼーション ](../assets/performance-to-plan-visualizations.png)
+![&#x200B; ビジュアライゼーション &#x200B;](../assets/performance-to-plan-visualizations.png)
 
 ### *指標*：実際の指標と計画された指標の比較
 

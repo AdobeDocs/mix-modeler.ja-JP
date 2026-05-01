@@ -5,11 +5,22 @@ feature: Models
 solution: Mix Modeler
 exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: f40f1683-8300-4054-aab8-77da06ad63ff
-subfeature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15id: a9505d76-24a1-4ffe-bd01-6ac32d5af453id: bc2f5225-03d4-4bc8-89ec-99d78c30e6ddid: c89e26b6-808d-4500-8b01-450a63466999
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: e0abf868-dae2-4c1c-83e9-b21799232845
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+  - id: c89e26b6-808d-4500-8b01-450a63466999
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
 source-wordcount: 1578
@@ -21,7 +32,7 @@ ht-degree: 2%
 
 AIを活用したカスタムモデルを構築するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
 
-[!DNL Mix Modeler]の![ モデル ](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、**[!UICONTROL Open model canvas]**&#x200B;を選択します。
+[!DNL Mix Modeler]の![&#x200B; モデル &#x200B;](/help/assets/icons/FileData.svg) **[!UICONTROL Models]** インターフェイスで、**[!UICONTROL Open model canvas]**&#x200B;を選択します。
 
 ## セットアップ
 
@@ -29,7 +40,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 1. モデル **[!UICONTROL Name]**&#x200B;を入力します（例：`Demo model`）。 **[!UICONTROL Description]**&#x200B;を入力します（例：`Demo model to explore AI features of Mix Modeler`）。
 
-   ![ モデル名と説明](/help/assets/model-name-description.png)
+   ![&#x200B; モデル名と説明](/help/assets/model-name-description.png)
 
 1. **[!UICONTROL Next]**&#x200B;を選択して次の手順に進みます。 モデル設定をキャンセルするには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
@@ -45,18 +56,18 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 1. **[!UICONTROL Conversion goal]** セクション：
 
-   ![ モデル – コンバージョンステップ ](/help/assets/model-conversion-step.png)
+   ![&#x200B; モデル – コンバージョンステップ &#x200B;](/help/assets/model-conversion-step.png)
 
-   1. **[!UICONTROL Conversion]** ドロップダウンメニューからコンバージョンを選択します。 使用可能なコンバージョンは、[!UICONTROL Harmonized datasets]の[ コンバージョン ](../harmonize-data/conversions.md)の一部として定義したコンバージョンです。 例：**[!UICONTROL Online Conversion]**。
+   1. **[!UICONTROL Conversion]** ドロップダウンメニューからコンバージョンを選択します。 使用可能なコンバージョンは、[!UICONTROL Harmonized datasets]の[&#x200B; コンバージョン &#x200B;](../harmonize-data/conversions.md)の一部として定義したコンバージョンです。 例：**[!UICONTROL Online Conversion]**。
 
    1. ![LinkOutLight](/help/assets/icons/LinkOutLight.svg) **[!UICONTROL Create a conversion]**&#x200B;を選択して、モデル設定内から直接コンバージョンを作成できます。
 
 
 
-1. **[!UICONTROL Marketing touchpoints]** セクションでは、[!UICONTROL Harmonized datasets]の[ マーケティング タッチポイント ](../harmonize-data/marketing-touchpoints.md)の一部として定義したマーケティング タッチポイントに対応する1つ以上のマーケティング タッチポイントを選択できます。
+1. **[!UICONTROL Marketing touchpoints]** セクションでは、[!UICONTROL Harmonized datasets]の[&#x200B; マーケティング タッチポイント &#x200B;](../harmonize-data/marketing-touchpoints.md)の一部として定義したマーケティング タッチポイントに対応する1つ以上のマーケティング タッチポイントを選択できます。
 
 
-   ![ モデル – マーケティング タッチポイント ステップ ](/help/assets/model-marketing-touchpoint-step.png)
+   ![&#x200B; モデル – マーケティング タッチポイント ステップ &#x200B;](/help/assets/model-marketing-touchpoint-step.png)
 
    1. **[!UICONTROL Touchpoint include]** ドロップダウンメニューから1つ以上のマーケティングのタッチポイントを選択します。
 
@@ -71,7 +82,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 1. デフォルトでは、調和ビューのすべてのデータに対してスコアが生成されます。 母集団のサブセットのみをスコアリングするには、**[!UICONTROL Eligible data population]** セクションのコンテナを使用して1つ以上のフィルターを定義します。
 
-   ![ モデル – 対象となるデータ母集団](/help/assets/model-eligible-data-population-step.png)
+   ![&#x200B; モデル – 対象となるデータ母集団](/help/assets/model-eligible-data-population-step.png)
 
    * 各コンテナについて、1つ以上のイベントを定義します。
 
@@ -97,11 +108,11 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 1. 内部要因または外部要因を含むデータセットは、**[!UICONTROL Factor dataset]** セクションで管理できます。
 
-   ![ モデル – 因子データセット ステップ ](../assets/model-factors-dataset-step.png)
+   ![&#x200B; モデル – 因子データセット ステップ &#x200B;](../assets/model-factors-dataset-step.png)
 
    * 因子データセットを追加するには、**[!UICONTROL Add Factor]**&#x200B;を選択します。 モデルには最大30個の要素を追加できます。
 
-      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Factor dataset]**&#x200B;を選択します。 使用可能な要因は、[ データセット ルール ](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)で調和フィールドを定義した要因です。
+      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Factor dataset]**&#x200B;を選択します。 使用可能な要因は、[&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)で調和フィールドを定義した要因です。
 選択したデータセットに基づいて、**[!UICONTROL Factor type]**&#x200B;は&#x200B;**[!UICONTROL Internal]**&#x200B;または&#x200B;**[!UICONTROL External]**&#x200B;です。
 
       1. ドロップダウンメニューから&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;を選択します。 利用できるオプションは&#x200B;**[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;または&#x200B;**[!UICONTROL Negative]**&#x200B;です。 デフォルトのオプションは&#x200B;**[!UICONTROL Auto]**&#x200B;です。これにより、モデルは因子データセットの影響を判断できます。
@@ -113,7 +124,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 1. モデルのトレーニングウィンドウを定義するには、**[!UICONTROL Define training window]**&#x200B;で、コンバージョンのスコアリングを開始する場所を選択します。
 
-   ![ モデル – トレーニングウィンドウを定義](/help/assets/model-define-training-window.png)
+   ![&#x200B; モデル – トレーニングウィンドウを定義](/help/assets/model-define-training-window.png)
 
    次のいずれかを選択できます。
 
@@ -133,7 +144,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 >title="Channel adstock"
 >abstract="ドメインの専門知識、実験結果、または以前のチャネル分析をモデル設定に直接組み込みます。 Adstock設定は、モデルが現実の期待に沿うように導き、出力の解釈可能性と信頼性を向上させるのに役立ちます。 ルックバック週とチャネルごとのラグ週の合計は、設定されたトレーニングウィンドウの8分の1に上限が設定されます。 このキャップを使用すると、モデルがアドストック効果を学習するのに十分なデータを取得できます。"
 
-**[!UICONTROL Advanced]** ステップで詳細設定を指定できます。 この手順では、[費用シェア ](#spend-share)を定義し、[ マルチタッチアトリビューション（MTA） ](#mta)のモデルを有効にし、[事前知識](#prior-knowledge)を定義し、[ チャネル adstock](#channel-adstock)を定義できます。
+**[!UICONTROL Advanced]** ステップで詳細設定を指定できます。 この手順では、[費用シェア &#x200B;](#spend-share)を定義し、[&#x200B; マルチタッチアトリビューション（MTA） &#x200B;](#mta)のモデルを有効にし、[事前知識](#prior-knowledge)を定義し、[&#x200B; チャネル adstock](#channel-adstock)を定義できます。
 
 ### 費用の共有
 
@@ -152,14 +163,14 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 **[!UICONTROL MTA enabled]** セクション：
 
-* モデルのMTA機能を有効にするには、**[!UICONTROL MTA enabled]**&#x200B;を有効にします。 MTAを有効にしている場合、モデルのトレーニングとスコアリングを行うと、マルチタッチアトリビューションインサイトを利用できるようになります。 [ モデルインサイト ](insights.md)の「[ アトリビューション ](insights.md#attribution)」タブを参照してください。
+* モデルのMTA機能を有効にするには、**[!UICONTROL MTA enabled]**&#x200B;を有効にします。 MTAを有効にしている場合、モデルのトレーニングとスコアリングを行うと、マルチタッチアトリビューションインサイトを利用できるようになります。 [&#x200B; モデルインサイト &#x200B;](insights.md)の「[&#x200B; アトリビューション &#x200B;](insights.md#attribution)」タブを参照してください。
 
 
 ### 事前知識
 
 **[!UICONTROL Prior knowledge]** セクション：
 
-![ モデル – 事前知識](/help/assets/model-prior-knowledge-step.png)
+![&#x200B; モデル – 事前知識](/help/assets/model-prior-knowledge-step.png)
 
 1. **[!UICONTROL Rule type]**&#x200B;を選択します。デフォルトは&#x200B;**[!UICONTROL Absolute values]**&#x200B;です。
 
@@ -178,7 +189,7 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 チャネル広告の設定は、チャネル固有のニュアンスをキャプチャするのに役立ちます。 例えば、TV キャンペーンの長期的な影響、有料検索の短期的な影響、インフルエンサーの支出と観察可能なコンバージョンのタイムラグなどがあります。 Adobe Stockのルックバックパラメーターとラグパラメーターを試して、より正確でカスタマイズされた、信頼できるインサイトを生成することができます。 最終的に、チャネル広告の設定により、より正確な予算配分と優れたビジネス上の意思決定がもたらされます。
 
-![ チャネル adstock](/help/assets/channel-ad-stock.png)
+![&#x200B; チャネル adstock](/help/assets/channel-ad-stock.png)
 
 チャネル adstockを設定するには：
 
@@ -195,14 +206,14 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 ## オプションを設定
 
-[ トレーニングとスコアリング ](#schedule)をスケジュールし、**[!UICONTROL Set options]**&#x200B;手順でモデルの[詳細インサイト レポート フィールド ](#granular-insights-reporting-fields)を指定できます。
+[&#x200B; トレーニングとスコアリング &#x200B;](#schedule)をスケジュールし、**[!UICONTROL Set options]**&#x200B;手順でモデルの[詳細インサイト レポート フィールド &#x200B;](#granular-insights-reporting-fields)を指定できます。
 
 
 ### スケジュール
 
 **[!UICONTROL Schedule]** セクションでは、モデルのトレーニングとスコアリングをスケジュールできます。
 
-![ モデルのスケジュール ](../assets/model-schedule.png)
+![&#x200B; モデルのスケジュール &#x200B;](../assets/model-schedule.png)
 
 モデルのスコアリングとトレーニングをスケジュールするには、次の手順に従います。
 
@@ -230,9 +241,9 @@ AIを活用したカスタムモデルを構築するために、インターフ
 1. **[!UICONTROL *調和フィールド&#x200B;*]**![CrossSize100](/help/assets/icons/CrossSize100.svg)を選択して、選択した調和フィールドを含む調和フィールドをコンテナから削除します。
 1. 選択したすべての調和フィールドを削除するには、**[!UICONTROL Clear all]**&#x200B;を選択します。
 
-きめ細かい増分レポート用に選択された調和フィールドは、モデルのスコアリングの結果であるExperience Platform [ スキーマ ](/help/ingest-data/schemas.md)および[ データセット ](/help/ingest-data/datasets.md)の一部として使用できます。 詳細なインサイト レポート フィールドは、**[!UICONTROL conversionPassthrough]**&#x200B;および&#x200B;**[!UICONTROL touchpointPassthrough]** オブジェクト内にあります。
+きめ細かい増分レポート用に選択された調和フィールドは、モデルのスコアリングの結果であるExperience Platform [&#x200B; スキーマ &#x200B;](/help/ingest-data/schemas.md)および[&#x200B; データセット &#x200B;](/help/ingest-data/datasets.md)の一部として使用できます。 詳細なインサイト レポート フィールドは、**[!UICONTROL conversionPassthrough]**&#x200B;および&#x200B;**[!UICONTROL touchpointPassthrough]** オブジェクト内にあります。
 
-詳細な増分レポート用に有効になっているモデルのスキーマのconversionPassthrough オブジェクトとtouchpointPassthrough オブジェクトの![ スクリーンショット ](/help/assets/schema-granular-insights-reporting.png)
+詳細な増分レポート用に有効になっているモデルのスキーマのconversionPassthrough オブジェクトとtouchpointPassthrough オブジェクトの![&#x200B; スクリーンショット &#x200B;](/help/assets/schema-granular-insights-reporting.png)
 
 
 ## 終了

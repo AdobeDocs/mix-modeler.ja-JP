@@ -4,9 +4,13 @@ description: Mix Modelerにデータを取り込むために必要なスキー�
 feature: Schemas
 exl-id: 08289581-5af9-4422-b049-8c24105e2a8e
 TQID: https://experienceleague.adobe.com/E41pnyBetoLPOOulNmKh033myMvfF4bV9A2Xd3FXqcs
-product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2: id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T08:56:54.552Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
@@ -21,9 +25,9 @@ ht-degree: 7%
 
 1. Mix Modelerのインターフェイスに移動します。
 
-1. **[!UICONTROL SETUP]**&#x200B;の下にある![ スキーマ ](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;を選択します。
+1. **[!UICONTROL SETUP]**&#x200B;の下にある![&#x200B; スキーマ &#x200B;](/help/assets/icons/Schemas.svg) **[!UICONTROL Schemas]**&#x200B;を選択します。
 
-詳しくは、[ スキーマ UIの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)を参照してください。
+詳しくは、[&#x200B; スキーマ UIの概要](https://experienceleague.adobe.com/docs/experience-platform/xdm/ui/overview.html?lang=en)を参照してください。
 
 ## 集計データまたは概要データ
 
@@ -43,7 +47,7 @@ XDM Summary Metrics クラスを使用して、次の操作を行います。
 
 以下の&#x200B;**[!DNL ExternalFactorSummarySchema]**&#x200B;に示すように、**[!DNL XDM Summary Metrics]**&#x200B;基本クラスを使用するスキーマは簡単です。
 
-![外部要因スキーマ ](/help/assets/external-factors-schema.png)
+![外部要因スキーマ &#x200B;](/help/assets/external-factors-schema.png)
 
 このシンプルなスキーマを使用すると、次のようなデータを含むデータセットを取り込むことができます。
 
@@ -70,7 +74,7 @@ XDM Summary Metrics クラスを使用して、次の操作を行います。
 
 **[!DNL XDM Summary Metrics]**&#x200B;を基本クラスとして使用する&#x200B;**[!DNL LumaPaidMarketingSchema]**&#x200B;のより包括的な例については、以下を参照してください。 スキーマは、指標（**[!DNL AMMMetrics]**）、ディメンション（**[!DNL AMMDimensions]**）、およびその他の顧客固有の情報（**[!DNL CustomerSpecific]**）に専用のフィールドグループ（色で注釈が付いた）を使用します。
 
-![概要スキーマ ](/help/assets/summary-schema.png)
+![概要スキーマ &#x200B;](/help/assets/summary-schema.png)
 
 プロファイル取り込みの非同期性を考慮すると、外部ソースから集計データまたはサマリーデータを収集する場合は、スキーマの一部としてExternal Source System Audit Details フィールドグループを使用することをお勧めします。 このフィールドグループは、外部ソースの監査プロパティのセットを定義します。
 
@@ -80,8 +84,8 @@ XDM Summary Metrics クラスを使用して、次の操作を行います。
 
 | フィールド表示名 | フィールド名 | フィールドタイプ | データタイプ | 必須 | 説明 |
 |---|---|---|---|:-:|---|
-| 因子名 | factorName | ディメンション | 文字列 | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | ファクターの名前 |
-| 係数の値 | factorValue | 指標 | Double | ![ チェックマーク ](/help/assets/icons/Checkmark.svg) | 係数の値 |
+| 因子名 | factorName | ディメンション | 文字列 | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | ファクターの名前 |
+| 係数の値 | factorValue | 指標 | Double | ![&#x200B; チェックマーク &#x200B;](/help/assets/icons/Checkmark.svg) | 係数の値 |
 | 因子タイプ | factorType | ディメンション | 文字列（列挙） | | 要因のタイプ。<br/>使用可能な値は次のとおりです。 <ul><li>内部（内部要因）</li><li>外部（外部要因）</li></ul> |
 | 値タイプ | valueType | ディメンション | 文字列（列挙） | | 使用可能な値：<ul><li>実際の値（実際の値）</li><li>予測値（Forecasted Value）</li></ul>値がない場合は、「実際」がデフォルト値になります。 |
 | 精度 | 精度 | ディメンション | 文字列（列挙） | | 使用可能な値：<ul><li>毎日</li><li>毎週</li><li>毎月</li></ul> |
@@ -93,7 +97,7 @@ XDM Summary Metrics クラスを使用して、次の操作を行います。
 
 ## サポートされているデータタイプ
 
-現在、Mix ModelerはExperience Platform データタイプのサブセットをサポートしています。 次の基本的なデータタイプ（フィールド）がサポートされています。これは、[ スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)に記載されています。
+現在、Mix ModelerはExperience Platform データタイプのサブセットをサポートしています。 次の基本的なデータタイプ（フィールド）がサポートされています。これは、[&#x200B; スキーマ構成の基本](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#data-type)に記載されています。
 
 - 文字列
 - 整数
