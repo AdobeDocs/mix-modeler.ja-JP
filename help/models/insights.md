@@ -3,13 +3,26 @@ title: モデルインサイト
 description: Mix Modelerで、過去の概要、モデルインサイト、モデル品質など、モデルに関する詳細を取得する方法を説明します。
 feature: Models
 exl-id: d99852f9-ba0d-4a2e-b5f3-ca0efe6002fd
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIObIow
+autotag-review: '2026-05-01T08:59:31.397Z'
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+subfeature_v2:
+  - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '2896'
+source-wordcount: 2896
 ht-degree: 3%
 
 ---
-
 
 # モデルインサイト
 
@@ -379,31 +392,31 @@ Mix Modelerのマルチタッチアトリビューションの詳細なイベン
       * **[!UICONTROL Predicted Conversion]**
       * **[!UICONTROL Residual Conversion]**
       * **[!UICONTROL R<sup>2</sup>]**。データが回帰モデルにどの程度適合しているか（適合の良さ）を示すスコア。
-      * **[!UICONTROL MAPE]** (Mean Absolute Percentage Error), which is one of the most commonly used KPIs to measure forecast accuracy and expresses the forecast error as a percentage of the actual value.
+      * **[!UICONTROL MAPE]** （平均絶対割合エラー）は、最もよく使用されるKPIの1つで、予測精度を測定し、予測誤差を実際の値に対する割合で表します。
       * **[!UICONTROL RMSE]** （ルート平均平方誤差）：平均エラーを示し、エラーの正方形に従って重み付けされます。
 
   テーブルのデータを含むCSV ファイルをダウンロードするには、![&#x200B; ダウンロード &#x200B;](/help/assets/icons/Download.svg)を選択します。
 
-* **[!UICONTROL Model training fit metrics]** table that displays for each conversion metric:
+* 各コンバージョン指標に表示される&#x200B;**[!UICONTROL Model training fit metrics]** テーブル：
 
-  ![Model training fit metrics table](../assets/model-training-fit-metrics.png)
+  ![&#x200B; モデル トレーニング フィット指標テーブル &#x200B;](../assets/model-training-fit-metrics.png)
 
-   * **[!UICONTROL Training R<sup>2</sup>]**: Indicates the proportion of variance in the actual values explained by the model&#39;s predictions, ranging from 0 to 1.
-   * **[!UICONTROL Training sMAPE]** (symmetric Mean Absolute Percentage Error): Measures average percentage error on training data. Lower values indicate better accuracy.
-   * **[!UICONTROL Training RMSE]** (Root Mean Squared Error): Measures average percentage error on training data. Penalizes larger errors more than MAPE. Lower RMSE suggests better predictive accuracy but is sensitive to outliers.
-   * **[!UICONTROL Out-of-sample sMAPE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps to assess generalization. Currently, Mix Modeler evaluates percentage error using the last quarter of training data as a holdout set.
-   * **[!UICONTROL Out-of-sample RMSE]**: Evaluates percentage error on unseen data, balancing over- and under-predictions. Helps assess generalization. Currently, [!DNL Mix Modeler] evaluates percentage error using the last quarter of training data as a holdout set. RMSE penalizes larger errors more than MAPE.
+   * **[!UICONTROL Training R<sup>2</sup>]**: モデルの予測によって説明される実際の値の分散の割合を示します（0 ～ 1の範囲）。
+   * **[!UICONTROL Training sMAPE]** （対称平均絶対割合エラー）：学習データの平均割合エラーを測定します。 値が小さいほど、精度が向上します。
+   * **[!UICONTROL Training RMSE]** （ルート平均二乗エラー）：学習データの平均パーセンテージ エラーを測定します。 MAPEよりも大きなエラーにペナルティを与えます。 RMSEが低い場合は、予測精度は高くなりますが、異常値の影響を受けやすくなります。
+   * **[!UICONTROL Out-of-sample sMAPE]**：見えないデータに対するパーセンテージ エラーを評価し、過剰と過小予測のバランスをとります。 一般化を評価するのに役立ちます。 現在、Mix Modelerでは、トレーニングデータの最後の四半期をホールドアウトセットとして使用してパーセンテーションエラーを評価しています。
+   * **[!UICONTROL Out-of-sample RMSE]**：見えないデータに対するパーセンテージ エラーを評価し、過剰と過小予測のバランスをとります。 一般化の評価に役立ちます。 現在、[!DNL Mix Modeler]は、トレーニング データの最後の四半期をホールドアウト セットとして使用してパーセンテージ エラーを評価しています。 RMSEは、MAPEよりも大きなエラーにペナルティを課します。
 
 
-* **[!UICONTROL Touchpoint effectiveness]** table, representing the outcome of the Attribution AI algorithmic model.
+* **[!UICONTROL Touchpoint effectiveness]** テーブル。アトリビューション AI アルゴリズムモデルの結果を表します。
 
-  ![Touchpoint effectiveness table](../assets/touchpoint-effectiveness.png)
+  ![&#x200B; タッチポイント有効性テーブル &#x200B;](../assets/touchpoint-effectiveness.png)
 
-  このテーブルのデータは、特定の期間のみ生成されます。 Select **[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg) for more details.
+  このテーブルのデータは、特定の期間のみ生成されます。 詳細については、**[!UICONTROL As of *xx/xx/xx, xx:xx TZ *]**![Info](/help/assets/icons/InfoOutline.svg)を選択してください。
 
-  The visualization shows, in descending order of [!UICONTROL Efficiency measure] ![Descending Order](/help/assets/icons/SortOrderDown.svg), for each touchpoint:
+  ビジュアライゼーションは、各タッチポイントに対して[!UICONTROL Efficiency measure] ![降順](/help/assets/icons/SortOrderDown.svg)の降順で表示されます。
 
-   * **[!UICONTROL Paths touched]**: visualizes the percentage of paths achieving conversion and percentage of paths not achieving conversion. For a touchpoint, you see more attributed conversions when the attribution conversion ratio is high. This ratio compares the percentage of paths that lead to conversion versus the percentage of paths that do *not* lead to conversion.
+   * **[!UICONTROL Paths touched]**: コンバージョンを達成しているパスの割合と、コンバージョンを達成していないパスの割合を視覚化します。 タッチポイントの場合、アトリビューションコンバージョン率が高いと、より多くのアトリビューションコンバージョンが表示されます。 この比率は、コンバージョンにつながるパスの割合と、コンバージョンにつながるパスの割合を&#x200B;*not*&#x200B;と比較します。
    * **[!UICONTROL Efficiency measure]**: アルゴリズムのアトリビューションモデルによって生成された効率性の測定値は、タッチポイントの数に依存せずに、コンバージョンに向けたタッチポイントの相対的な重要性を示します。 効率は1～5のスケールで測定されます。 タッチポイントの数が多いからといって、効率が高いとは限りません。
    * **[!UICONTROL Total volume]**: ユーザーがタッチポイントに触れた回数の集計。 この数値には、コンバージョンを達成するパス上に表示されるタッチポイントと、コンバージョンを実現するパス *not*&#x200B;が含まれます。
 

@@ -1,45 +1,56 @@
 ---
-title: 計画の比較
-description: Mix Modelerでプランを比較する方法を説明します。
+title: プランの比較
+description: Mix Modelerのプランを比較する方法を説明します。
 feature: Plans
 exl-id: 40f6ade5-77eb-4ef7-ba60-4a2d2fcf1a60
-source-git-commit: d6cf7e75b91ca3c3a50b95c0909e2d250af07317
+TQID: https://experienceleague.adobe.com/SJ2SlIAgIaRsrkhzebjky7FvHs4yOvWCxjWjaPi--fc
+product_v2:
+  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2:
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2:
+  - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:07:12.191Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 0%
+source-wordcount: 205
+ht-degree: 1%
 
 ---
 
-# 計画の比較
+# プランの比較
 
-Mix Modeler計画インタフェースで計画を比較する手順は、次のとおりです。
+Mix Modeler プランのインターフェイスでプランを比較するには：
 
-* 「![&#x200B; 比較 &#x200B;](/help/assets/icons/Compare.svg)」を選択し **[!UICONTROL Compare Plans]** す。 「計画の比較」で、各計画の計画を選択します **[!UICONTROL _計画の選択_]**。
+* ![比較](/help/assets/icons/Compare.svg) **[!UICONTROL Compare Plans]**&#x200B;を選択します。 「プランを比較」で、各&#x200B;**[!UICONTROL _プランを選択_]**&#x200B;します。
 
-* または、「プラン」 テーブルから 2 つのプランを選択し、アクションバーから「![&#x200B; 比較 &#x200B;](/help/assets/icons/Compare.svg)」 **[!UICONTROL Compare]** を選択します。
+* または、「プラン」テーブルから2つのプランを選択し、アクションバーから「![比較](/help/assets/icons/Compare.svg) **[!UICONTROL Compare]**」を選択することもできます。
 
-計画の比較インターフェイスには、次の項目に関する情報とビジュアライゼーションが表示されます。
+プランを比較インターフェイスには、次の情報とビジュアライゼーションが表示されます。
 
-* **[!UICONTROL Plan]**。プランがターゲットベースのプラン（ROI や CPA など）の場合は、ターゲットのステータス（Target 達成可能など）を示すバッジが表示されます。
+* **[!UICONTROL Plan]**. プランがターゲットベースのプラン（ROIやCPAなど）の場合は、ターゲットのステータス（Target achievableなど）を表示するバッジが表示されます。
 * **[!UICONTROL Date range]**
 * **[!UICONTROL Model]**
 * **[!UICONTROL Total budget]**
-* **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]** または **[!UICONTROL Custom + AI]**
+* **[!UICONTROL Channel budgeting]**: **[!UICONTROL AI automated]**&#x200B;または&#x200B;**[!UICONTROL Custom + AI]**
 * **[!UICONTROL Planned spend]**
 * **[!UICONTROL Forecasted ROI]** または **[!UICONTROL CPA]**
-   * 予測 ROI は、プランの全体的な予測 ROI （ベースチャネルと支出外チャネルからの増分収益を含む）です。
-   * 予測 CPA は、プランの全体的な予測 CPA です（ベースチャネルと非支出チャネルからの増分収益を含む）。
-* **[!UICONTROL Paid marketing ROI]** 以 **[!UICONTROL CPA]**
-   * 有料マーケティングの ROI は、予測 ROI のサブセットです。 有料マーケティング ROI は、プラン内の有料チャネルのみの ROI です。
-   * 有料マーケティング CPA は、予測 CPA のサブセットです。 有料マーケティング CPA は、プラン内の有料チャネルのみの CPA です。
-* **[!UICONTROL ROI]** 以 **[!UICONTROL CPA]**&#x200B;**[!UICONTROL breakdown]**
+   * 予測ROIは、計画の全体的な予測ROI （基本チャネルと非支出チャネルの増分売上を含む）です。
+   * 予測CPAは、計画の全体的な予測CPA （基本チャネルと非支出チャネルからの増分収益を含む）です。
+* **[!UICONTROL Paid marketing ROI]**&#x200B;または&#x200B;**[!UICONTROL CPA]**
+   * 有料マーケティングのROIは、予測ROIのサブセットです。 ペイドマーケティングのROIは、プランのペイドチャネルごとのROIです。
+   * ペイドマーケティング CPAは、予測CPAのサブセットです。 ペイドマーケティング CPAは、プラン内のペイドチャネルのみのCPAです。
+* **[!UICONTROL ROI]**&#x200B;または&#x200B;**[!UICONTROL CPA]** **[!UICONTROL breakdown]**
 * **[!UICONTROL Forecasted revenue]** または **[!UICONTROL conversion]**。
 * **[!UICONTROL Paid marketing revenue]** または **[!UICONTROL conversion]**
 
 
 
-![&#x200B; 計画の比較 &#x200B;](/help/assets/compare-plans.png)
+![&#x200B; プランを比較](/help/assets/compare-plans.png)
 
-各ビジュアライゼーションの個々のグラフ要素にポインタを合わせると、詳細を含むポップオーバーが表示されます。
+各ビジュアライゼーションの個々のグラフ要素にカーソルを合わせると、より詳細なポップオーバーが表示されます。
 
-「**[!UICONTROL Close]**」を選択して、計画の概要に戻ります。
+「**[!UICONTROL Close]**」を選択して、プランの概要に戻ります。
