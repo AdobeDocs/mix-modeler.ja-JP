@@ -3,9 +3,16 @@ title: プランの概要
 description: Mix Modelerでプランを表示、選択、およびアクションする方法について説明します。
 feature: Plans
 exl-id: 45a8dc30-3259-493d-8ea5-1899903733a6
-source-git-commit: 7836e378a0f9068fc868dcede0ab8b3e2803776a
+TQID: https://experienceleague.adobe.com/0cBg65pu0-gkk1AlWOvQHxn5RUaIRkOs1Yz7FPppcsk
+autotag-review: '2026-05-01T09:05:53.776Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+subfeature_v2: id: d7b067e6-4f39-41e9-a081-7650346a84cdid: b2520ae7-8f6c-4952-935e-aacc2c10256fid: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: 679
 ht-degree: 0%
 
 ---
@@ -33,7 +40,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 
 ## プランの構築
 
-プランを作成するには、Mix Modeler プラン作成ウィザードを使用します。 詳しくは、[&#x200B; プランの作成](build.md)を参照してください。
+プランを作成するには、Mix Modeler プラン作成ウィザードを使用します。 詳しくは、[ プランの作成](build.md)を参照してください。
 
 
 ## プランの管理
@@ -55,7 +62,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
    | **[!UICONTROL Plan target]** | ターゲットベースのプランに定義されたターゲット指標。 |
    | **[!UICONTROL Forecasted return]** | プランの[予測収益](/help/main-guide/glossary.md) |
    | **[!UICONTROL Forecasted ROI]** | [は、プランのROIを予測](/help/main-guide/glossary.md)しました。 |
-   | **[!UICONTROL Forecasted conversion]** | プランの[予測コンバージョン &#x200B;](/help/main-guide/glossary.md) |
+   | **[!UICONTROL Forecasted conversion]** | プランの[予測コンバージョン ](/help/main-guide/glossary.md) |
    | **[!UICONTROL Forecasted CPA]** | プランの[予測CPA](/help/main-guide/glossary.md)です |
    | **[!UICONTROL Status]** | プランのステータス：<br/>![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Failed]**、<br/>![StatusBlue](/help/assets/icons/StatusBlue.svg) **[!UICONTROL Processing]**、または<br/>![StatusGreen](/help/assets/icons/StatusGreen.svg) **[!UICONTROL Complete]**。 |
 
@@ -75,7 +82,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 
 1. プラン名を選択します。
 
-「[&#x200B; プランのインサイト &#x200B;](insights.md)」にリダイレクトされます。
+「[ プランのインサイト ](insights.md)」にリダイレクトされます。
 
 
 ### プランの複製
@@ -85,7 +92,7 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 - プランの![詳細](/help/assets/icons/More.svg)を選択します。 コンテキストメニューから、**[!UICONTROL Duplicate]**&#x200B;を選択します。
 - または、テーブル ![SelectBox](/help/assets/icons/SelectBox.svg)でプランを選択し、青いアクションバーから![Copy](/help/assets/icons/Copy.svg) **[!UICONTROL Duplicate]**&#x200B;を選択します。
 
-元のプランの名前に&#x200B;**[!UICONTROL (Copy)]（_n_）**&#x200B;が付いた新しいプランが作成されます。 コピーしたプランの更新された詳細を提供するため、[&#x200B; プラン作成](build.md)に自動的にリダイレクトされます。
+元のプランの名前に&#x200B;**[!UICONTROL (Copy)]（_n_）**&#x200B;が付いた新しいプランが作成されます。 コピーしたプランの更新された詳細を提供するため、[ プラン作成](build.md)に自動的にリダイレクトされます。
 
 - 元のプランの詳細（説明、予算など）がコピーされます。
 - 元のプランの予算制約は、新しく作成したプランにコピーされます。
@@ -116,6 +123,6 @@ Mix Modelerのプランでは、事業部門やチャネルごとに予算を割
 
 1. 複数のプランを選択します。
 1. 青いアクションバーから、![削除](/help/assets/icons/Delete.svg) **[!UICONTROL Delete]**&#x200B;を選択してプランを削除します。
-1. **[!UICONTROL Delete *x *プラン]**&#x200B;確認ダイアログで「**[!UICONTROL Delete]**」を選択して、プランを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択してください。
+1. **[!UICONTROL Delete *x *プラン]**確認ダイアログで「**[!UICONTROL Delete]**」を選択して、プランを削除します。 キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**を選択してください。
 
 

@@ -3,9 +3,15 @@ title: マーケティングタッチポイント
 description: Mix Modelerでデータを調和させる一環として使用するマーケティングのタッチポイントを作成する方法について説明します。
 feature: Harmonized Data, Marketing Touch Points
 exl-id: 42851107-7568-4bc9-92ca-3cba713a522e
-source-git-commit: 51a8449f41ec7488e23b15e8f1a280de60b7e7fa
+TQID: https://experienceleague.adobe.com/6HEgtbsEegA-XyeNQTCQd5JhMZyKZ9BzxPAiJGOr1N0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: b2d4aeb9-eabe-49f6-8edb-bb2862d5980b
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:13:36.558Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: 477
 ht-degree: 12%
 
 ---
@@ -54,17 +60,17 @@ Mix Modeler インターフェイスで使用可能なマーケティングの�
 
    1. **[!UICONTROL Touchpoint rule]**&#x200B;を定義します。
 
-      1. **[!UICONTROL *調和&#x200B;*]**&#x200B;から値を選択します（例：**[!UICONTROL Brand]**）。
+      1. **[!UICONTROL *調和&#x200B;*]**から値を選択します（例：**[!UICONTROL Brand]**）。
 
       1. 演算子![Chevron](/help/assets/icons/ChevronDown.svg)の値（例：**[!UICONTROL is]**）を選択します。
 
-      1. **[!UICONTROL *値&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
+      1. **[!UICONTROL *値&#x200B;*]**から値を選択するか、値（例：**[!DNL Luma]**）を入力します。
 
    1. **[!UICONTROL Touchpoint volume]**&#x200B;から調和されたフィールド （例：**[!UICONTROL Impressions]**）を選択します。
 
    1. **[!UICONTROL Touchpoint spend]**&#x200B;から調和されたフィールド （例：**[!UICONTROL Cost]**）を選択します。
 
-      ![&#x200B; マーケティングタッチポイント &#x200B;](/help/assets/create-touchpoint.png)
+      ![ マーケティングタッチポイント ](/help/assets/create-touchpoint.png)
 
    1. マーケティング タッチポイントを作成するには、**[!UICONTROL Create]**&#x200B;を選択します。 マーケティングタッチポイントの作成をキャンセルするには、「**[!UICONTROL Cancel]**」を選択します。
 
@@ -77,7 +83,7 @@ Mix Modeler インターフェイスで使用可能なマーケティングの�
 
 1. テーブル内のマーケティングタッチポイント名にカーソルを合わせると、![詳細](/help/assets/icons/More.svg)を選択します。
 
-1. ![&#x200B; ビュー](/help/assets/icons/ViewDetail.svg) **ビュー**&#x200B;を選択します。 ダイアログに、マーケティングのタッチポイントの詳細が表示されます。 詳しくは、[&#x200B; マーケティングタッチポイントの追加](#add-a-marketing-touchpoint)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. ![ ビュー](/help/assets/icons/ViewDetail.svg) **ビュー**&#x200B;を選択します。 ダイアログに、マーケティングのタッチポイントの詳細が表示されます。 詳しくは、[ マーケティングタッチポイントの追加](#add-a-marketing-touchpoint)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
 
 ## レポートを読む
@@ -88,10 +94,10 @@ Mix Modeler インターフェイスで使用可能なマーケティングの�
 
 1. 「![GraphTrend](/help/assets/icons/GraphTrend.svg) **レポートを表示**」を選択します。 ダイアログに、マーケティングのタッチポイントのレポートが表示されます。
 
-   ![&#x200B; マーケティングタッチポイントビューレポート &#x200B;](../assets/marketingtouchpoint-view-report.png)
+   ![ マーケティングタッチポイントビューレポート ](../assets/marketingtouchpoint-view-report.png)
 
    * レポートする精度を変更するには、**[!UICONTROL Weekly]** ドロップダウンメニューから値を選択します。
-   * レポートする期間を変更するには、開始日と終了日を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
+   * レポートする期間を変更するには、開始日と終了日を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
 
 1. ダイアログを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 

@@ -1,66 +1,72 @@
 ---
 title: データの取り込みの概要
-description: データをMix Modelerに取り込む方法を説明します。
+description: Mix Modelerにデータを取り込む方法について説明します。
 feature: Datasets, Event Datasets, Summary Datasets, Aggregate Datasets
 exl-id: dc16a601-bbd9-467b-8a7e-c32654d4069a
-source-git-commit: 1a9df9f9819d9e0031e58443ec6a9e755a151ba0
+TQID: https://experienceleague.adobe.com/XPr8Av7skzHBYoU6WtNw8PtHFrPH-MokICrLwoB2-J0
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: e0abf868-dae2-4c1c-83e9-b21799232845id: fbd94e4b-f9b8-42a4-8df5-3f917aabae24
+subfeature_v2: id: ad7101f7-ae92-401b-a25a-d3060d42989did: d1167c89-f64a-42ca-ac95-1d91b7790df2id: ee1bf083-e090-4def-936b-c111d29f42d0id: a4dc3e7d-bd07-4ac8-8e49-ff2e8fecf1e7
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+autotag-review: '2026-05-01T09:11:34.506Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 10%
+source-wordcount: 584
+ht-degree: 17%
 
 ---
 
 # データの取り込みの概要
 
-Mix Modelerは、イベントレベルのデータ、様々なウォールガーデンからの集計またはサマリーマーケティングの取り組みデータで機能します。 また、オフライン広告、内部要因、外部要因など、他のソースからの集計データや概要データも使用できます。
+Mix Modelerは、さまざまなウォールドガーデンからのイベントレベルのデータ、集計または要約マーケティング活動データを扱います。 オフライン広告、内部要因、外部要因など、他のソースからのデータを集約または要約して使用できます。
 
-お客様は、Experience Platformにデータセットとして取り込まれ、XDM ExperienceEvent または XDM Summary Metrics を基本クラスとして使用するスキーマに基づく、あらゆる種類のデータを使用できます。
+お客様は、Experience Platformにデータセットとして取り込まれ、XDM ExperienceEventまたはXDM Summary Metricsをベースクラスとして使用するスキーマに基づく、あらゆる種類のデータを使用できます。
 
 例：
 
-* Adobe Analytics ソースコネクタを使用して収集されたデータ。 Adobe Analytics スキーマのデフォルトバージョンまたはカスタムバージョンに従ったデータセットに変換される。
-* Web、モバイル、またはその他のタイプのデバイスに対する顧客のインタラクションを収集するためにExperience Platform Web SDK、モバイル SDKまたはEdge Network Server API を使用して収集されたデータ。
-* 壁庭（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからの集計または概要データ。
-* モデルの構築に役立つ内部または外部の要因を含む、マーケティング以外の集計または概要データ。
+* Adobe Analytics ソースコネクタを使用して収集されたデータ。 Adobe Analyticsスキーマのデフォルトまたはカスタムバージョンに準拠するデータセットに変換されます。
+* Experience Platform Web SDK、モバイルSDK、Edge Network Server APIを使用して、web、モバイル、その他のタイプのデバイスでお客様とのやり取りを収集するデータ。
+* ウォールドガーデン（Facebook、YouTubeなど）、トラフィックソース、オフライン広告データからデータを集約または要約します。
+* モデル構築に役立つ内部要因または外部要因を含む、マーケティング以外の集計データまたは概要データ。
 
-Experience Platformでサポートされているあらゆる種類のメカニズムを使用して、エクスペリエンスイベントレベル、マーケティング活動データの集計、他のソースからのデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングおよびバッチ取得など。 Adobe Mix Modelerで使用するデータをExperience Platformで取り込む方法については、[&#x200B; データ取り込みの概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home) を参照してください。
+Experience Platformでサポートされている任意の種類の仕組みを使用して、エクスペリエンスイベントレベル、マーケティング活動データ、その他のソースからデータを取り込むことができます。 Experience Platform SDK、API、ソースコネクタ、ストリーミングやバッチ取り込みなど。 Adobe Mix Modelerで使用するためにExperience Platformでデータを取り込む方法について詳しくは、[ データ取り込みの概要](https://experienceleague.adobe.com/ja/docs/experience-platform/ingestion/home)を参照してください。
 
 ## ガイドライン
 
-Mix Modelerで使用するデータをExperience Platformに取り込むには、次のガイドラインに従います。
+Mix Modelerで使用するためにExperience Platformにデータを取り込むには、次のガイドラインに従います。
 
-* データセットに追加される増分データには、重複がないようにする必要があります。
-* 単一のソースからのすべてのデータは、同じ精度にする必要があります。
-* 日付と精度は、データセットとして取り込まれるすべての集計データの基になるスキーマの必須フィールドです
-* チャネルは、データセットとして取り込まれたすべてのマーケティング活動/費用データの基になるスキーマの必須フィールドです。
+* データセットに追加される増分データに重複が生じないようにします。
+* 単一のソースからのデータはすべて、同じ粒度である必要があります。
+* 日付と精度は、データセットとして取り込まれたすべての集計データの基礎となるスキーマの必須フィールドです
+* チャネルは、データセットとして取り込まれたすべてのマーケティング活動/支出データの基礎となるスキーマの必須フィールドです。
 
 
 ## 例
 
-より標準的なエクスペリエンスイベントデータに加えて、Mix Modelerで通常使用されるデータの例をいくつか以下に示します。
+ここでは、Mix Modelerで一般的に使用されるデータの例をいくつか紹介します。
 
 +++ マーケティング活動データの集計
 
-| ジオ | 日付 | 日付タイプ | チャネル | Campaign | クリック | 獲得済み | エンゲージメント | インプレッション | Open | 所有 | 送信済み | 費用 |
+| 地域 | 日付 | 日付タイプ | チャネル | Campaign | Click | アーンド | エンゲージメント | インプレッション | オープン | 所有 | 送信済み | 支出 |
 |---|:--|---|:---:|---|--:|---|--:|---|---|---|--:|--:|
-| アメル | 2021-10-31 | 日 | EMAIL | | 12752 | | | | | | 1132945 | |
-| アメル | 2021-10-31 | 日 | FB | | 148844 | | | | | | | 42111 |
-| アメル | 2021-10-31 | 日 | YT | | | | 2314452 | | | | | 10540 |
-| 日本 | 2021-10-21 | 日 | EMAIL | | 21089 | | | | | | 3283626 | |
-| 日本 | 2021-10-21 | 日 | ソーシャル | | | | 621 | | | | | 74512 |
+| AMER | 2021-10-31 | 日 | EMAIL | | 12752 | | | | | | 1132945 | |
+| AMER | 2021-10-31 | 日 | FB | | 148844 | | | | | | | 42111 |
+| AMER | 2021-10-31 | 日 | YT | | | | 2314452 | | | | | 10540 |
+| JPN | 2021-10-21 | 日 | EMAIL | | 21089 | | | | | | 3283626 | |
+| JPN | 2021-10-21 | 日 | ソーシャル | | | | 621 | | | | | 74512 |
 
 {style="table-layout:auto"}
 
 +++
 
-+++ コンバージョンデータを集計
++++ コンバージョンデータの集計
 
-| ジオ | 日付 | 日付タイプ | 製品 | 販売数 | 収益 |
+| 地域 | 日付 | 日付タイプ | 製品 | 販売個数 | 売上高 |
 |---|:---|:---:|---|--:|--:|
-| EMEA | 2021-09-13 | 日 | 創造者経済 | 603 | 36537.68 |
+| EMEA | 2021-09-13 | 日 | クリエイターエコノミー | 603 | 36537.68 |
 | EMEA | 2021-09-13 | 日 | メタバース | 55 | 21704.37 |
-| 日本 | 2022-05-30 | 日 | Pro イメージング | 487 | 64469.60 |
-| 日本 | 2022-05-30 | 日 | Document Cloud | 642 | 100509.07 |
+| JPN | 2022-05-30 | 日 | Pro Imaging | 487 | 64469.60 |
+| JPN | 2022-05-30 | 日 | Document Cloud | 642 | 100509.07 |
 
 {style="table-layout:auto"}
 
@@ -68,33 +74,33 @@ Mix Modelerで使用するデータをExperience Platformに取り込むには�
 
 +++ 外部要因データ
 
-| データ | 日付タイプ | 要因 | 値 |
+| データ | 日付タイプ | 因子 | 値 |
 |---|:---:|:---:|:---|
-| 2020-08-02 | 週間 | SPX | 3325.866 |
-| 2020-08-09 | 週間 | SPX | 3364.158 |
-| 2020-08-16 | 週間 | SPX | 3385.858 |
-| 2020-08-23 | 週間 | SPX | 3497.965 |
+| 2020-08-02 | 週 | SPX | 3325.866 |
+| 2020-08-09 | 週 | SPX | 3364.158 |
+| 2020-08-16 | 週 | SPX | 3385.858 |
+| 2020-08-23 | 週 | SPX | 3497.965 |
 
 {style="table-layout:auto"}
 
 +++
 
-Mix Modelerのデータを操作するには、データセットで収集され、Experience Platformのスキーマに倣ってモデル化されたデータが必要です。 Mix Modeler インターフェイスを使用すると、Experience Platform スキーマとデータセット UI の両方に簡単にアクセスできます。
+Mix Modelerでデータを使用するには、データセットで収集され、Experience Platformのスキーマに従ってモデル化されたデータが必要です。 Mix Modeler インターフェイスでは、Experience Platform スキーマとデータセット UIの両方に簡単にアクセスできます。
 
 
 ## 検証
 
-データがMix Modelerで適切に使用可能かどうかを検証するには、次の操作を実行します。
+Mix Modelerでデータが適切に使用可能かどうかを検証するには、次の操作を行います。
 
-* [&#x200B; 概要 &#x200B;](/help/overview.md) でビジュアライゼーションを使用します。
-* 統一データセットの [&#x200B; 統一データ &#x200B;](/help/harmonize-data/overview.md) からデータをダウンロードして検査します。
+* [概要](/help/overview.md)でビジュアライゼーションを使用します。
+* 調和されたデータセットの[調和されたデータ ](/help/harmonize-data/overview.md)からデータをダウンロードして検査します。
 
-データがExperience Platformに正しく取り込まれているかどうかを検証するには、[Experience Platform クエリサービスを使用して SQL クエリを記述し、実行する &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home) ことができます。
+データがExperience Platformに正しく取り込まれているかどうかを検証するには、Experience Platform クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home)を使用してSQL クエリを[書き込み、実行できます。
 
 
 >[!MORELIKETHIS]
 >
->スキーマとデータセットの管理方法について詳しくは、を参照してください。
+>スキーマとデータセットの管理方法について詳しくは、以下を参照してください。
 >
 >* [スキーマ](schemas.md)
 >* [データセット](datasets.md)

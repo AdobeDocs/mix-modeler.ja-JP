@@ -4,9 +4,15 @@ description: Mix Modeler の最新のリリースノート
 feature-set: Experience Cloud
 feature: Release Notes
 exl-id: 38a47672-2af2-437c-b769-4d5febb941f5
-source-git-commit: 6115ec9f26dbc02377dc69190fc990d6355165d5
+TQID: https://experienceleague.adobe.com/8o2hpkneIUMbBNEZfw9TsQLaGuPOxqF-XA2TV9cJnqc
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: ca6bcd6f-f5ca-4e5f-a5ae-7dce7177bde9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+autotag-review: '2026-05-01T09:06:55.437Z'
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 435
 ht-degree: 5%
 
 ---
@@ -19,24 +25,24 @@ ht-degree: 5%
 
 ## 2026 年 3 月
 
-| 機能 | 説明 | [&#x200B; ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
+| 機能 | 説明 | [ ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
 |---|---|---|---|
-| **チャネル adstock** | [Channel adstock](/help/models/build.md#channel-adstock)を通じて、ドメインの専門知識、実験結果、または以前のチャネル分析をモデルの詳細設定に直接組み込むことができます。 モデルのチャネル分析内で[&#x200B; チャネル広告インサイト &#x200B;](/help/models/insights.md#channel-adstock)を表示します。 | 2026年3月30日（PT） | 2026年3月30日（PT） |
+| **チャネル adstock** | [Channel adstock](/help/models/build.md#channel-adstock)を通じて、ドメインの専門知識、実験結果、または以前のチャネル分析をモデルの詳細設定に直接組み込むことができます。 モデルのチャネル分析内で[ チャネル広告インサイト ](/help/models/insights.md#channel-adstock)を表示します。 | 2026年3月30日（PT） | 2026年3月30日（PT） |
 
 ## 2026年2月
 
-| 機能 | 説明 | [&#x200B; ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
+| 機能 | 説明 | [ ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
 |---|---|---|---|
-| **調整済み要因ワークフロー** | 要素は、[調整済み要素ワークフロー](/help/harmonize-data/overview.md#factors)の一部として管理されるようになりました。 これにより、[因子データを定義](/help/ingest-data/schemas.md#factor-standard-fields-field-group)する方法、[&#x200B; データセット ルールの一部として内部要因と外部要因を管理する方法](/help/harmonize-data/dataset-rules.md#factor-datasets)、および[&#x200B; モデル &#x200B;](/help/models/build.md#configure)で因子データを使用する方法が簡略化されます。 | 2026 年 2 月 25 日（Pt） | 2026 年 2 月 25 日（Pt） |
-| **[!UICONTROL Granular incrementality reporting]** | 統一されたフィールドを定義して、[詳細なインサイト レポートフィールド &#x200B;](/help/models/build.md#granular-insights-reporting-fields)を使用してモデルのレポートをドリルダウンできるようにします。モデルを個別に作成する必要はありません。 | 2026年2月18日（PT） | 2026年2月18日（PT） |
+| **調整済み要因ワークフロー** | 要素は、[調整済み要素ワークフロー](/help/harmonize-data/overview.md#factors)の一部として管理されるようになりました。 これにより、[因子データを定義](/help/ingest-data/schemas.md#factor-standard-fields-field-group)する方法、[ データセット ルールの一部として内部要因と外部要因を管理する方法](/help/harmonize-data/dataset-rules.md#factor-datasets)、および[ モデル ](/help/models/build.md#configure)で因子データを使用する方法が簡略化されます。 | 2026 年 2 月 25 日（Pt） | 2026 年 2 月 25 日（Pt） |
+| **[!UICONTROL Granular incrementality reporting]** | 統一されたフィールドを定義して、[詳細なインサイト レポートフィールド ](/help/models/build.md#granular-insights-reporting-fields)を使用してモデルのレポートをドリルダウンできるようにします。モデルを個別に作成する必要はありません。 | 2026年2月18日（PT） | 2026年2月18日（PT） |
 
 ## 2026年1月
 
-| 機能 | 説明 | [&#x200B; ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
+| 機能 | 説明 | [ ロールアウト開始](#release-strategy) | [一般提供](#release-strategy) |
 |---|---|---|---|
-| **[!UICONTROL Dataset rules]** | [&#x200B; データセット ルール テーブル &#x200B;](/help/harmonize-data/dataset-rules.md)を更新しました。 1つ以上のデータセットルールを検索し、テーブルから直接データセットルールを表示、編集または削除できます。 | 2026年1月13日（PT） | 2026年1月13日（PT） |
-| **[!UICONTROL Current spend]** | モデルインサイトの[限界応答曲線ビジュアライゼーション &#x200B;](/help/models/insights.md#marginal-response-curves)に現在の支出点を追加します。 | 2026年1月13日（PT） | 2026年1月13日（PT） |
-| **[!UICONTROL Sort and resize columns]** | [&#x200B; モデル &#x200B;](/help/models/overview.md)および[&#x200B; プラン &#x200B;](/help/plans/overview.md) テーブルに列の並べ替えとサイズ変更を追加しました。 | 2026年1月13日（PT） | 2026年1月13日（PT） |
+| **[!UICONTROL Dataset rules]** | [ データセット ルール テーブル ](/help/harmonize-data/dataset-rules.md)を更新しました。 1つ以上のデータセットルールを検索し、テーブルから直接データセットルールを表示、編集または削除できます。 | 2026年1月13日（PT） | 2026年1月13日（PT） |
+| **[!UICONTROL Current spend]** | モデルインサイトの[限界応答曲線ビジュアライゼーション ](/help/models/insights.md#marginal-response-curves)に現在の支出点を追加します。 | 2026年1月13日（PT） | 2026年1月13日（PT） |
+| **[!UICONTROL Sort and resize columns]** | [ モデル ](/help/models/overview.md)および[ プラン ](/help/plans/overview.md) テーブルに列の並べ替えとサイズ変更を追加しました。 | 2026年1月13日（PT） | 2026年1月13日（PT） |
 | **修正点** | 次のチケットの修正： <ul><li>AMM-3328：新しい演算子のフィールド入力が無効になりました</li><li>AMM-3359：日付選択とコンボボックスのロックが発生する。</li><li>AMM-3441：計画を複製すると、日付範囲と予算が自動的に入力されません。</li></ul> | 2026年1月13日（PT） | 2026年1月13日（PT） |
 
 

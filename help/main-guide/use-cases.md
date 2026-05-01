@@ -3,9 +3,15 @@ title: Mix Modelerのユースケース
 description: Mix Modelerのユースケース。
 feature: Schemas, Datasets, Conversions, Harmonized Data, Marketing Touch Points, Models, Plans
 exl-id: cc82abec-d0ce-44bf-ad7e-fc379a394185
-source-git-commit: e6f24c96e873804b37011a1afafb7012d999fc1b
+TQID: https://experienceleague.adobe.com/AaVm2Jwz9MX-zuURspqkXLG9ZoO91iBowQU-hWBg-4M
+autotag-review: '2026-05-01T08:58:19.052Z'
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a234aebd-3855-4376-a64d-29b38411e0c5id: fe1c9ae8-a908-4ae1-a0b6-fcf35177b134
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: 645
 ht-degree: 3%
 
 ---
@@ -34,9 +40,9 @@ Mix Modelerでは、次の主要なユースケースを有効にします。
 
 | 手順 | 詳細 |
 |---|---|
-| 取り込み | 共通スキーマの下でデータソースを特定し、取り込むことができます。<br/>Adobe AnalyticsまたはCustomer Journey Analyticsへの既存の投資を活用して、迅速な展開を実現。 |
+| 取り込み | 共通スキーマの下でデータソースを特定し、取り込むことができます。 <br/>Adobe AnalyticsまたはCustomer Journey Analyticsへの既存の投資を適用して、迅速な導入を実現します。 |
 | 設定 | 特定のビジネス目標に対するAIaaS （サービスとしてのAI）フレームワークを使用して、柔軟なモデルを設定します<br/>双方向の転移学習により、タッチポイントと概要レベルの間の一貫性を自動的に確保します。 |
-| 分析 | マーケティング全体と個々のチャネル/サブチャネルのROIを明確に把握します。<br/>増分コンバージョンを最も促進するタッチポイントを明確に把握します。 |
+| 分析 | マーケティング全体と各チャネル/サブチャネルのROIを明確に把握。<br/>増分コンバージョンを最も促進するタッチポイントを明確に把握します。 |
 
 {style="table-layout:auto"}
 
@@ -73,9 +79,9 @@ Mix Modelerでは、次の主要なユースケースを有効にします。
 
 | 手順 | 詳細 |
 |---|---|
-| 設定 | ビジネス目標に合わせて測定モデルを簡単にカスタマイズできます。<br/> チャネル、地域、セールスサイクル、遅延、社内外のビジネス要因など、コーディングは不要で、数回クリックしてパラメーターを定義できます。 |
+| 設定 | ビジネス目標に合わせて測定モデルを容易にカスタマイズ。<br/>数回のクリックでパラメーターを定義します。コーディングは不要です。チャネル、地域、セールスサイクル、ラグ、社内および社外のビジネス要因など。 |
 | トレーニング | 設定されたAI/ML モデルをトレーニングし、入力データに最適な方法を学習することで、最も正確な結果を得ることができます。 |
-| 最適化 | モデルの予測に基づいて自動的に最適化された予算配分を取得します。<br/>直感的なUIを使用して、数回クリックするだけで複数の予算シナリオを開発および比較できます。 |
+| 最適化 | モデルの予測にもとづいて自動的に最適化された予算割り当てを取得できます。<br/>直感的なUIを使用して、数回クリックするだけで複数の予算シナリオを開発して比較できます。 |
 
 {style="table-layout:auto"}
 
@@ -155,7 +161,7 @@ Successful implementation of this use can have the following impact:
 | 手順 | 詳細 |
 |---|---|
 | モデル | AI/ML モデルを設定およびトレーニングして、一貫したMTA タッチポイントスコアとMMM集計結果を取得します。 |
-| 分析 | 増分タッチポイント スコアをCustomer Journey Analyticsまたは外部BI ツールにエクスポートします。<br/>詳細な分析を実行し、タッチポイント スコアを使用して高度なダッシュボードを構築します。 |
+| 分析 | タッチポイントスコアをCustomer Journey Analyticsまたは外部BI ツールにエクスポートできます。<br/> タッチポイント スコアを使用して詳細な分析を実行し、高度なダッシュボードを構築します。 |
 | アクション | Real-Time Customer Data Platformを使用して、主要な消費者セグメントに類似したコンテンツを作成し、アクティベートします。<br/>今後のキャンペーンのために、顧客セグメント別にデータドリブン型マーケティング戦略を開発します。 |
 
 {style="table-layout:auto"}
