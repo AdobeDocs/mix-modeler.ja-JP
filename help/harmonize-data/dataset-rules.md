@@ -22,7 +22,7 @@ autotag-review: '2026-05-01T09:12:48.985Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 2106
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -234,13 +234,13 @@ ht-degree: 1%
    ![&#x200B; データの同期](/help/assets/sync-data.png)
 
 
-## データ結合の環境設定 {#data-merge-preferences}
+## データ結合環境設定 {#data-merge-preferences}
 
 
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_datasetrules_datamergepreferences"
->title="デフォルトの指標プリファレンス"
->abstract="調和の際に、複数のデータソースが特定のチャネルの指標フィールドを更新しようとすると、デフォルトの環境設定が適用されます。 この環境設定は、以下で定義されている特定の指標の環境設定で上書きされない限り、サンドボックスレベルで適用されます。"
+>title="デフォルトの指標環境設定"
+>abstract="ハーモナイゼーション中に複数のデータソースが特定のチャネルの指標フィールドを更新しようとすると、デフォルトの環境設定が適用されます。 この環境設定は、以下に定義されている場合に特定の指標の環境設定で上書きされない限り、サンドボックスレベルで適用されます。"
 
 
 >[!NOTE]
