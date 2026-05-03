@@ -4,20 +4,15 @@ description: Mix Modelerでデータを調和させる一環として使用す�
 feature: Harmonized Data, Conversions
 exl-id: a8559426-452a-43e8-9a60-0c0bc97d863c
 TQID: https://experienceleague.adobe.com/rjFYd9XMTc5z4frFlq41PJqh9Zim-qoHSToyZenTPXE
-product_v2:
-  - id: b88c80e3-31df-4609-989d-d4dac0e6d973
-feature_v2:
-  - id: a567f0f7-0057-4079-8ded-5b24cc25af15
-subfeature_v2:
-  - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: b88c80e3-31df-4609-989d-d4dac0e6d973
+feature_v2: id: a567f0f7-0057-4079-8ded-5b24cc25af15
+subfeature_v2: id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 autotag-review: '2026-05-01T09:15:50.061Z'
 source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
 workflow-type: tm+mt
 source-wordcount: 424
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
@@ -27,10 +22,10 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="harmonizeddata_conversions_create"
 >title="変換"
->abstract="コンバージョンイベントとは、マーケティング活動の影響を特定するビジネス目標のことです。 例：コマース注文、実店舗での購入、web サイトへの訪問など"
+>abstract="コンバージョンイベントは、マーケティングアクティビティの影響を識別するビジネス目標です。 例：e コマースの注文、店舗での購入、web サイトへの訪問など。"
 
 
-コンバージョンイベントとは、マーケティング活動の影響を特定するビジネス目標のことです。 例：コマース注文、実店舗での購入、web サイトへの訪問など
+コンバージョンイベントは、マーケティングアクティビティの影響を識別するビジネス目標です。 例：コマース注文、実店舗での購入、web サイトへの訪問など
 
 アトリビューション分析用にマーケティングコンバージョンを定義します。
 
@@ -66,11 +61,11 @@ ht-degree: 2%
 
    1. **[!UICONTROL Conversion category]**&#x200B;を定義します。
 
-      1. **[!UICONTROL *調和を選択…*]**&#x200B;から値を選択します（例：`Conversion types`）。
+      1. **[!UICONTROL *調和を選択…*]**から値を選択します（例：`Conversion types`）。
 
       1. 演算子![Chevron](/help/assets/icons/ChevronDown.svg)の値（例：**[!UICONTROL is]**）を選択します。
 
-      1. **[!UICONTROL *値&#x200B;*]**&#x200B;から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
+      1. **[!UICONTROL *値&#x200B;*]**から値を選択するか、値（例：**[!UICONTROL Store]**）を入力します。
 
    1. **[!UICONTROL Conversion metric for analysis]**&#x200B;から調和されたフィールド （例：**[!UICONTROL Orders]**）を選択します。
 
@@ -78,7 +73,7 @@ ht-degree: 2%
 
    1. コンバージョンを作成するには、**[!UICONTROL Create]**&#x200B;を選択します。 コンバージョンの作成をキャンセルするには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
-      ![代替テキスト &#x200B;](/help/assets/create-conversion.png)
+      ![代替テキスト ](/help/assets/create-conversion.png)
 
 1. 作成すると、コンバージョンがコンバージョンテーブルに追加されます。
 
@@ -89,7 +84,7 @@ ht-degree: 2%
 
 1. テーブル内のコンバージョン名にカーソルを合わせると、![詳細](/help/assets/icons/More.svg)を選択します。
 
-1. ![表示](/help/assets/icons/ViewDetail.svg) **詳細を表示**&#x200B;を選択します。 ダイアログにコンバージョンの詳細が表示されます。 詳しくは、[&#x200B; コンバージョンの追加](#add-a-conversion)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
+1. ![表示](/help/assets/icons/ViewDetail.svg) **詳細を表示**&#x200B;を選択します。 ダイアログにコンバージョンの詳細が表示されます。 詳しくは、[ コンバージョンの追加](#add-a-conversion)を参照してください。 ダイアログを閉じるには、**[!UICONTROL Cancel]**&#x200B;を選択します。
 
 ## レポートを読む
 
@@ -99,10 +94,10 @@ ht-degree: 2%
 
 1. 「![GraphTrend](/help/assets/icons/GraphTrend.svg) **レポートを表示**」を選択します。 ダイアログには、コンバージョンのレポートが表示されます。
 
-   ![&#x200B; コンバージョンビューレポート &#x200B;](../assets/conversion-view-report.png)
+   ![ コンバージョンビューレポート ](../assets/conversion-view-report.png)
 
    * レポートする精度を変更するには、**[!UICONTROL Weekly]** ドロップダウンメニューから値を選択します。
-   * レポートする期間を変更するには、開始日と終了日を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
+   * レポートする期間を変更するには、開始日と終了日を入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用してカレンダーのポップアップで期間を定義します。
 
 1. ダイアログを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 
