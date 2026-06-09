@@ -63,7 +63,7 @@ ht-degree: 53%
    + [2025 リリース](/help/releases/2025.md)
    + [2024 リリース](/help/releases/2024.md)
    + [2023 リリース](/help/releases/2023.md)
-   + {hide-from-toc}[ テスト ](../releases/test.md)
+   + {hide-from-toc}[&#x200B; テスト &#x200B;](../releases/test.md)
 
 + {hide-from-toc}[深掘り](/help/get-started/deep-dive.md)
 
