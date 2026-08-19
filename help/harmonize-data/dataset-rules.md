@@ -19,10 +19,10 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 autotag-review: '2026-05-01T09:12:48.985Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
 workflow-type: tm+mt
-source-wordcount: 2106
-ht-degree: 3%
+source-wordcount: 2161
+ht-degree: 4%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 3%
 * Adobe Experience Platformに取り込んだ集計データの場合、使用可能なデータセットフィールドの1つ以上を、適切な調和フィールドにマッピングします。
 * イベントデータの場合、1つ以上の調和されたフィールドをデータセットのフィールドに個別にマッピングしたり、直接条件を使用したりできます。
 
+![&#x200B; データセット ルール リスト &#x200B;](/help/assets/harmonize-dataset-rules-list.png)
 
 ## データセットルールの管理
 
@@ -42,7 +43,15 @@ ht-degree: 3%
 
 1. 上部バーから&#x200B;**[!UICONTROL Dataset rules]**&#x200B;を選択します。 データセットルールのテーブルが表示されます。
 
-![検索](/help/assets/icons/Search.svg) **[!UICONTROL _データセット名_]**&#x200B;を入力すると、データセットをすばやく検索できます。
+データセットを検索してフィルタリングできます。
+
+* ![検索](/help/assets/icons/Search.svg) **[!UICONTROL _データセット名_]**&#x200B;を入力して、データセットをすばやく検索します。
+* 次を使用してデータセットをフィルタリング：
+  * **[!UICONTROL Source]**: **[!UICONTROL all]**、**[!UICONTROL Summary]**、**[!UICONTROL Adobe Analytics]**、**[!UICONTROL Adobe Audience Manager]**、**[!UICONTROL Experience Events]**、**[!UICONTROL Consumer Experience Events]**、または&#x200B;**[!UICONTROL Factors]**&#x200B;のいずれかを選択します。
+  * **[!UICONTROL Granularity]**: **[!UICONTROL all]**、**[!UICONTROL Daily]**、**[!UICONTROL Weekly]**、**[!UICONTROL Monthly]**&#x200B;または&#x200B;**[!UICONTROL Yearly]**&#x200B;のいずれかを選択します。
+  * **[!UICONTROL Start of the week]**：すべて、または可能な平日（**[!UICONTROL Monday]** ～ **[!UICONTROL Sunday]**）を選択します。
+
+![CrossSize200](/help/assets/icons/CrossSize200.svg) **[!UICONTROL Clear]**&#x200B;を使用して、すべてのフィルターと検索フィールドをクリアします。
 
 テーブル列には、データセットルールに関する詳細が指定されます。
 
@@ -82,38 +91,38 @@ ht-degree: 3%
 
    * 選択した調和フィールドが指標タイプの場合：
 
-      1. **[!UICONTROL Mapping type]**&#x200B;から&#x200B;**[!UICONTROL Count]**&#x200B;または&#x200B;**[!UICONTROL Sum]**&#x200B;を選択します。
+     1. **[!UICONTROL Mapping type]**&#x200B;から&#x200B;**[!UICONTROL Count]**&#x200B;または&#x200B;**[!UICONTROL Sum]**&#x200B;を選択します。
 
-      1. 調和フィールドをデフォルトでマッピングする&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;を選択します。
+     1. 調和フィールドをデフォルトでマッピングする&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;を選択します。
 
    * 選択したフィールドがディメンション タイプの場合：
 
-      1. **[!UICONTROL Mapping type]**&#x200B;から&#x200B;**[!UICONTROL Map Into]**&#x200B;または&#x200B;**[!UICONTROL Case]**&#x200B;を選択します。
+     1. **[!UICONTROL Mapping type]**&#x200B;から&#x200B;**[!UICONTROL Map Into]**&#x200B;または&#x200B;**[!UICONTROL Case]**&#x200B;を選択します。
 
-      1. **[!UICONTROL Map Into]**&#x200B;を選択したら、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
+     1. **[!UICONTROL Map Into]**&#x200B;を選択したら、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
 
-      1. **[!UICONTROL Case]**&#x200B;を選択すると、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
+     1. **[!UICONTROL Case]**&#x200B;を選択すると、**[!UICONTROL Field]**&#x200B;と&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;または&#x200B;**[!UICONTROL Value]**&#x200B;を選択し、デフォルト値を指定して、調整フィールドをデータセットフィールドまたは入力された値にマッピングします。
 
-         1. 値を明示的に設定するには、1つ以上の条件で構成される1つ以上のケースを定義します。 各条件は、特定の&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;について、**[!UICONTROL Exists]**&#x200B;または&#x200B;**[!UICONTROL Not Exists]**&#x200B;かどうか、または&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;または&#x200B;**[!UICONTROL Ends With]**&#x200B;が&#x200B;**[!UICONTROL *&#x200B;入力値&#x200B;*]**&#x200B;に入力された値かどうかを確認できます。
+        1. 値を明示的に設定するには、1つ以上の条件で構成される1つ以上のケースを定義します。 各条件は、特定の&#x200B;**[!UICONTROL *AEP データセットフィールド&#x200B;*]**&#x200B;について、**[!UICONTROL Exists]**&#x200B;または&#x200B;**[!UICONTROL Not Exists]**&#x200B;かどうか、または&#x200B;**[!UICONTROL Contains]**、**[!UICONTROL Not Contains]**、**[!UICONTROL Equals]**、**[!UICONTROL Not Equals]**、**[!UICONTROL Starts With]**&#x200B;または&#x200B;**[!UICONTROL Ends With]**&#x200B;が&#x200B;**[!UICONTROL *&#x200B;入力値&#x200B;*]**&#x200B;に入力された値かどうかを確認できます。
 
-         1. 別のケースを追加するには、![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;を選択し、別の条件を追加するには、![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;を選択します。
+        1. 別のケースを追加するには、![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add case]**&#x200B;を選択し、別の条件を追加するには、![Add](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add condition]**&#x200B;を選択します。
 
-         1. ケースまたは条件を削除するには、対応するコンテナで![閉じる](/help/assets/icons/Close.svg)を選択します。
+        1. ケースまたは条件を削除するには、対応するコンテナで![閉じる](/help/assets/icons/Close.svg)を選択します。
 
-         1. ケースに適用する条件をすべて選択するには、**[!UICONTROL Any of]**&#x200B;または&#x200B;**[!UICONTROL All of]**&#x200B;を選択します。
+        1. ケースに適用する条件をすべて選択するには、**[!UICONTROL Any of]**&#x200B;または&#x200B;**[!UICONTROL All of]**&#x200B;を選択します。
 
-         1. ケースの結果値を設定するには、値を&#x200B;**[!UICONTROL Then]**&#x200B;に入力します。
+        1. ケースの結果値を設定するには、値を&#x200B;**[!UICONTROL Then]**&#x200B;に入力します。
 
      次の例を示します。
 
-      * **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;を使用して、調和された&#x200B;**[!UICONTROL Channel Type At Source]** フィールドを&#x200B;**[!DNL Luma Transactions]** データセットの&#x200B;**[!UICONTROL channel_type]** フィールドにマッピングします。
+     * **[!UICONTROL Map Into]** **[!UICONTROL Mapping type]**&#x200B;を使用して、調和された&#x200B;**[!UICONTROL Channel Type At Source]** フィールドを&#x200B;**[!DNL Luma Transactions]** データセットの&#x200B;**[!UICONTROL channel_type]** フィールドにマッピングします。
 
-      * **[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;を使用して、条件付きで&#x200B;**[!DNL Luma Transactions]** データセットの&#x200B;**[!UICONTROL marketing.campaignName]** フィールドの値を&#x200B;**[!UICONTROL Campaign]**&#x200B;調和フィールドにマッピングします。 Campaign harmonized フィールドは次のように設定されます。
+     * **[!UICONTROL Case]** **[!UICONTROL Mapping type]**&#x200B;を使用して、条件付きで&#x200B;**[!DNL Luma Transactions]** データセットの&#x200B;**[!UICONTROL marketing.campaignName]** フィールドの値を&#x200B;**[!UICONTROL Campaign]**&#x200B;調和フィールドにマッピングします。 Campaign harmonized フィールドは次のように設定されます。
 
-         * **[!UICONTROL marketing.campaignName]**&#x200B;が`_black_friday`または`BlackFriday`の場合、`Black Friday`。
-         * その他すべての場合は&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;の値に変換されます。
+       * **[!UICONTROL marketing.campaignName]**&#x200B;が`_black_friday`または`BlackFriday`の場合、`Black Friday`。
+       * その他すべての場合は&#x200B;**[!UICONTROL marketing.campaignName]**&#x200B;の値に変換されます。
 
-        ![&#x200B; データセット ルール イベント &#x200B;](/help/assets/dataset-create-event.png)
+       ![&#x200B; データセット ルール イベント &#x200B;](/help/assets/dataset-create-event.png)
 
 1. 追加フィールドを定義するには、![追加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add field]**&#x200B;を選択します。
 
@@ -279,19 +288,19 @@ ht-degree: 3%
 
    * 特定の指標ベースの環境設定を追加するには：
 
-      1. ![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;を選択します。
-         1. **[!UICONTROL *指標の選択&#x200B;*]**&#x200B;リストから指標を選択します。
-         1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。 リストから、**[!UICONTROL All]**&#x200B;または特定のチャネルまたはコンバージョンタイプを選択します。
-         1. **[!UICONTROL Summary]**&#x200B;または&#x200B;**[!UICONTROL Event]**&#x200B;を選択して、データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に概要データまたはイベントデータを優先するかどうかを指定します。
+     1. ![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a metric]**&#x200B;を選択します。
+        1. **[!UICONTROL *指標の選択&#x200B;*]**&#x200B;リストから指標を選択します。
+        1. **[!UICONTROL CHANNELS]** または **[!UICONTROL CONVERSION TYPES]** を選択します。 リストから、**[!UICONTROL All]**&#x200B;または特定のチャネルまたはコンバージョンタイプを選択します。
+        1. **[!UICONTROL Summary]**&#x200B;または&#x200B;**[!UICONTROL Event]**&#x200B;を選択して、データを結合する際に、指標（およびすべてのチャネルまたは選択したチャネル）に概要データまたはイベントデータを優先するかどうかを指定します。
 
-         1つ以上の追加のチャネルまたはコンバージョンタイプを追加するには：
+        1つ以上の追加のチャネルまたはコンバージョンタイプを追加するには：
 
-         1. ![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;または![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;を選択します。
-         1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択します。
+        1. ![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a channel]**&#x200B;または![&#x200B; プラス &#x200B;](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add a conversion type]**&#x200B;を選択します。
+        1. **[!UICONTROL Summary]** または **[!UICONTROL Event]** を選択します。
 
-         チャネルまたはコンバージョンタイプを削除するには、![&#x200B; クロス &#x200B;](/help/assets/icons/Close.svg)を選択します。
+        チャネルまたはコンバージョンタイプを削除するには、![&#x200B; クロス &#x200B;](/help/assets/icons/Close.svg)を選択します。
 
-      1. より特定の指標ベースの環境設定を追加するには、前の手順を繰り返します。
+     1. より特定の指標ベースの環境設定を追加するには、前の手順を繰り返します。
 
    * 既存の特定の指標ベースの環境設定を削除するには、![削除](/help/assets/icons/Delete.svg)を選択します。
 
