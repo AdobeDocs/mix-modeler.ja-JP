@@ -7,23 +7,28 @@ TQID: https://experienceleague.adobe.com/Ml1WZzjI8bruwu0xV5r6Y9DY34aZad-nMhUMoIO
 autotag-review: '2026-05-01T08:59:31.397Z'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 0e1bd1a2e96e96b98be502b9c8413d63816efa3d
+    internal-label: Insights
+source-git-commit: 4c3c5548ced77cf84daf5cd8eb6708bfbc3dbb48
 workflow-type: tm+mt
-source-wordcount: 2957
+source-wordcount: '2951'
 ht-degree: 11%
-
 ---
-
 # モデルインサイト
 
 モデルインサイトの各ビジュアライゼーションは、次のことを実行できるように設計されています。
@@ -235,7 +240,7 @@ ht-degree: 11%
 >[!CONTEXTUALHELP]
 >id="models_attribution_breakdownbychannel"
 >title="チャネル別コンバージョン数"
->abstract="**[!UICONTROL Breakdown by channel]**&#x200B;は、顧客体験イベントスキーマに基づいて、定義された顧客接点のチャネルタイプによる内訳です。 ![詳細](https://spectrum.adobe.com/static/icons/workflow_18/Smock_MoreSmallList_18_N.svg)と&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;を選択して、タッチポイントごとの内訳を表示します。"
+>abstract="**[!UICONTROL Breakdown by channel]**&#x200B;は、顧客体験イベントスキーマに基づいて、定義された顧客接点のチャネルタイプによる内訳です。 ![詳細](/help/assets/icons/More.svg)と&#x200B;**[!UICONTROL Breakdown by touchpoint]**&#x200B;を選択して、タッチポイントごとの内訳を表示します。"
 
 
 >[!CONTEXTUALHELP]
