@@ -7,27 +7,36 @@ exl-id: e1093c09-1e23-460b-92de-cfb0061112fd
 TQID: https://experienceleague.adobe.com/cFNaPV6-R3d5ogcBfOyEVNqJoIvfg2JBzVeedjrtEq4
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: e0abf868-dae2-4c1c-83e9-b21799232845
+    internal-label: Datasets
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
 subfeature_v2:
   - id: a567f0f7-0057-4079-8ded-5b24cc25af15
+    internal-label: Harmonized Data
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
   - id: bc2f5225-03d4-4bc8-89ec-99d78c30e6dd
+    internal-label: Conversions
   - id: c89e26b6-808d-4500-8b01-450a63466999
+    internal-label: Build model
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 source-git-commit: 4420f8b550f642dd55fd9d2af9675326e08a8af9
 workflow-type: tm+mt
-source-wordcount: 1578
-ht-degree: 8%
-
+source-wordcount: '1591'
+ht-degree: 9%
 ---
-
 # モデルを構築
 
 AIを活用したカスタムモデルを構築するために、インターフェイスにはステップバイステップのガイド付きモデル設定フローが用意されています。
@@ -86,19 +95,19 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
    * 各コンテナについて、1つ以上のイベントを定義します。
 
-      1. 各イベントについて：
+     1. 各イベントについて：
 
-         1. **[!UICONTROL _調和フィールド_]**&#x200B;から指標またはディメンションを選択します。
+        1. **[!UICONTROL _調和フィールド_]**&#x200B;から指標またはディメンションを選択します。
 
-         1. 適切な演算子を選択：**[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;または&#x200B;**[!UICONTROL is not in]**。
+        1. 適切な演算子を選択：**[!UICONTROL equals]**、**[!UICONTROL not equals]**、**[!UICONTROL less than]**、**[!UICONTROL greater than]**、**[!UICONTROL starts with]**、**[!UICONTROL doesn't start with]**、**[!UICONTROL ends with]**、**[!UICONTROL doesn't end with]**、**[!UICONTROL contains]**、**[!UICONTROL doesn't contain]**、**[!UICONTROL is in]**&#x200B;または&#x200B;**[!UICONTROL is not in]**。
 
-         1. 値を&#x200B;**[!UICONTROL _に入力するか、値を選択します。値を入力するか、値を選択します_]**。
+        1. 値を&#x200B;**[!UICONTROL _に入力するか、値を選択します。値を入力するか、値を選択します_]**。
 
-      1. コンテナに追加のイベントを追加するには、![追加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**&#x200B;を選択します。
+     1. コンテナに追加のイベントを追加するには、![追加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add event]**&#x200B;を選択します。
 
-      1. コンテナからイベントを削除するには、![閉じる](/help/assets/icons/CrossSize75.svg)を選択します。
+     1. コンテナからイベントを削除するには、![閉じる](/help/assets/icons/CrossSize75.svg)を選択します。
 
-      1. コンテナで定義されている複数のイベントのすべてまたは任意のイベントを使用してフィルタリングするには、**[!UICONTROL Any of]**&#x200B;または&#x200B;**[!UICONTROL All of]**&#x200B;を選択します。 ラベルが&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;から&#x200B;**[!UICONTROL Include ... And ...]**&#x200B;に対応して変更されます。
+     1. コンテナで定義されている複数のイベントのすべてまたは任意のイベントを使用してフィルタリングするには、**[!UICONTROL Any of]**&#x200B;または&#x200B;**[!UICONTROL All of]**&#x200B;を選択します。 ラベルが&#x200B;**[!UICONTROL Include ... Or ...]**&#x200B;から&#x200B;**[!UICONTROL Include ... And ...]**&#x200B;に対応して変更されます。
 
    * 適格なデータ母集団コンテナを追加するには、![追加](/help/assets/icons/AddCircle.svg) **[!UICONTROL Add eligible population]**&#x200B;を選択します。
 
@@ -112,10 +121,10 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
    * 因子データセットを追加するには、**[!UICONTROL Add Factor]**&#x200B;を選択します。 モデルには最大30個の要素を追加できます。
 
-      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Factor dataset]**&#x200B;を選択します。 使用可能な要因は、[&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)で調和フィールドを定義した要因です。
-選択したデータセットに基づいて、**[!UICONTROL Factor type]**&#x200B;は&#x200B;**[!UICONTROL Internal]**&#x200B;または&#x200B;**[!UICONTROL External]**&#x200B;です。
+     1. ドロップダウンメニューから&#x200B;**[!UICONTROL Factor dataset]**&#x200B;を選択します。 使用可能な要因は、[&#x200B; データセット ルール &#x200B;](/help/harmonize-data/dataset-rules.md#create-a-dataset-rule)で調和フィールドを定義した要因です。
+        選択したデータセットに基づいて、**[!UICONTROL Factor type]**&#x200B;は&#x200B;**[!UICONTROL Internal]**&#x200B;または&#x200B;**[!UICONTROL External]**&#x200B;です。
 
-      1. ドロップダウンメニューから&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;を選択します。 利用できるオプションは&#x200B;**[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;または&#x200B;**[!UICONTROL Negative]**&#x200B;です。 デフォルトのオプションは&#x200B;**[!UICONTROL Auto]**&#x200B;です。これにより、モデルは因子データセットの影響を判断できます。
+     1. ドロップダウンメニューから&#x200B;**[!UICONTROL Impact on conversion]**&#x200B;を選択します。 利用できるオプションは&#x200B;**[!UICONTROL Auto]**、**[!UICONTROL Positive]**&#x200B;または&#x200B;**[!UICONTROL Negative]**&#x200B;です。 デフォルトのオプションは&#x200B;**[!UICONTROL Auto]**&#x200B;です。これにより、モデルは因子データセットの影響を判断できます。
 
    * 因子データセットを削除するには、![CrossSize200](/help/assets/icons/CrossSize400.svg)を選択します。
 
@@ -151,8 +160,8 @@ AIを活用したカスタムモデルを構築するために、インターフ
 **[!UICONTROL Spend share]** セクション：
 
 * 過去のマーケティング投資比率を使用して、マーケティングデータがスパースな場合にモデルに通知するには、**[!UICONTROL Allow spend share]**&#x200B;をアクティブにします。 この設定は、特に次のシナリオで推奨されます。
-   * チャネルには十分な観測値がありません（たとえば、購入頻度が低い、インプレッション数やクリック数など）。
-   * 例えば、データが希薄なメディア（一部のブランドではTVなど）を日常的に使用し、急上昇を遂げているメディアを制作します。
+  * チャネルには十分な観測値がありません（たとえば、購入頻度が低い、インプレッション数やクリック数など）。
+  * 例えば、データが希薄なメディア（一部のブランドではTVなど）を日常的に使用し、急上昇を遂げているメディアを制作します。
 
   >[!NOTE]
   >
@@ -195,13 +204,13 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 * 各チャネル （**[!UICONTROL Name]**）に対して、**[!UICONTROL Lag (weeks)]**、**[!UICONTROL Min Lookback (weeks)]**、**[!UICONTROL Max Lookback (weeks)]**&#x200B;の値を定義します。 各値について：
 
-   * 値を増やすには![Add](/help/assets/icons/Add.svg)を使用し、値を減らすには![Subtract](/help/assets/icons/Subtract.svg)を使用するか、手動で値を入力します。
+  * 値を増やすには![Add](/help/assets/icons/Add.svg)を使用し、値を減らすには![Subtract](/help/assets/icons/Subtract.svg)を使用するか、手動で値を入力します。
 
   ラグ週の合計とチャネルごとの最大ルックバック週の合計は、設定されたトレーニングウィンドウの1/8に上限が設定されます。 このキャップにより、モデルが広告ストック効果を学習するのに十分なデータが得られます。 例えば、2年間のトレーニングウィンドウの場合、チャネルの最大&#x200B;**[!UICONTROL Lag (weeks)]**&#x200B;と&#x200B;**[!UICONTROL Lookback (weeks)]**&#x200B;は13週間です。 このキャップは、値を定義するときに適用されます。
 
 * すべてのチャネルのadstockをデフォルトにリセットするには：
 
-   * **[!UICONTROL Reset to defaults]** を選択します。
+  * **[!UICONTROL Reset to defaults]** を選択します。
 
 
 ## オプションを設定
@@ -250,11 +259,11 @@ AIを活用したカスタムモデルを構築するために、インターフ
 
 * モデル設定を完了するには、**[!UICONTROL Finish]**&#x200B;を選択します。
 
-   * **[!UICONTROL Create instance?]** ダイアログで「**[!UICONTROL Ok]**」を選択して、最初のトレーニングとスコアリングの実行を直ちにトリガーします。 お使いのモデルはステータス ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**&#x200B;でリストされます。
+  * **[!UICONTROL Create instance?]** ダイアログで「**[!UICONTROL Ok]**」を選択して、最初のトレーニングとスコアリングの実行を直ちにトリガーします。 お使いのモデルはステータス ![StatusOrange](/help/assets/icons/StatusOrange.svg) **[!UICONTROL Awaiting training]**&#x200B;でリストされます。
 
-     キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択してください。
+    キャンセルする場合は&#x200B;**[!UICONTROL Cancel]**&#x200B;を選択してください。
 
-   * 追加の設定が必要な場合は、赤いアウトラインとテキストで、追加の設定が必要な内容を説明します。
+  * 追加の設定が必要な場合は、赤いアウトラインとテキストで、追加の設定が必要な内容を説明します。
 
 * **[!UICONTROL Back]**&#x200B;を選択して、前の手順に戻ります。
 
