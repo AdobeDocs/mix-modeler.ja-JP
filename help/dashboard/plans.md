@@ -3,33 +3,44 @@ title: パフォーマンスからプランへ
 description: Mix ModelerでPerformance to Planの概要を使用する方法を説明します。
 feature: Dashboard, Plans, Models
 exl-id: 930fc1d5-8e28-4610-af7b-c4ec91f86a8a
-TQID: https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU
+autotag-review: '2026-05-01T09:20:18.412Z'
+TQID: 'https://experienceleague.adobe.com/iRFbGXoCx5jzg6ATId2tNLTfyigoTzD4JQIqlPU5isU'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
+  - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: fe2edbb1-46f9-4347-a27c-577cab3640cb
+    internal-label: Administration
 subfeature_v2:
   - id: d7b067e6-4f39-41e9-a081-7650346a84cd
+    internal-label: Build plans
   - id: b2520ae7-8f6c-4952-935e-aacc2c10256f
+    internal-label: Compare plans
   - id: e6c284e0-b6e6-4f82-bf96-e96bb5157b90
+    internal-label: Plan insights
+  - id: c564971c-1597-4a46-a354-33d74ee8a5d1
+    internal-label: Dashboard
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-autotag-review: '2026-05-01T09:20:18.412Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Admin
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 537
+source-wordcount: '537'
 ht-degree: 0%
-
 ---
-
 # パフォーマンスからプランへ
 
 >[!NOTE]
 >
->Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}」タブはベータ機能であり、その機能は変更される可能性があります。 この機能は、限られた数のお客様にご利用いただけます。
+>Mix Modeler ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の「**[!UICONTROL Performance to plan]** [!BADGE Beta]{type=Informative}」タブはベータ機能であり、その機能は変更される可能性があります。 この機能は、限られた数のお客様にご利用いただけます。
 
-Mix Modeler ![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} タブには、計画に対するマーケティングのパフォーマンスを監視するためのトラッキングダッシュボードが用意されています。 ステータスカードとビジュアライゼーション機能を利用して、実際のパフォーマンスと計画されたパフォーマンスを追跡することができます。
+Mix Modeler ![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**&#x200B;の&#x200B;**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative} タブには、計画に対するマーケティングのパフォーマンスを監視するためのトラッキングダッシュボードが用意されています。 ステータスカードとビジュアライゼーション機能を利用して、実際のパフォーマンスと計画されたパフォーマンスを追跡することができます。
 
 ダッシュボードは、ギャップを特定し、リスクや機会を特定し、計画や予算をタイムリーに調整するのに役立ちます。
 
@@ -37,28 +48,28 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 * **[!UICONTROL _オプションを選択…_]**&#x200B;を使用して、**[!UICONTROL Plan name]** ドロップダウンメニューからプランを選択します。
 
-* 日付期間を指定します。 日付期間を変更するには、開始日と終了日を手動で入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付期間を選択します。
+* 日付期間を指定します。 日付期間を変更するには、開始日と終了日を手動で入力するか、![ カレンダー](/help/assets/icons/Calendar.svg)を使用して日付期間を選択します。
 
 「**[!UICONTROL Plans]** [!BADGE Beta]{type=Informative}」タブには、次の情報が表示されます。
 
-* [KPI ステータスカード &#x200B;](#kpi-status-cards):
+* [KPI ステータスカード ](#kpi-status-cards):
 
-   * [予算](#budget)
-   * [売上高](#revenue)
-   * [ROI](#roi)
-   * [KPI](#kpi)
+  * [予算](#budget)
+  * [売上高](#revenue)
+  * [ROI](#roi)
+  * [KPI](#kpi)
 
-* [&#x200B; ビジュアライゼーション &#x200B;](#visualizations):
-   * [*指標*：実際の指標と計画された指標の比較](#metric-actual-vs-planned)
-   * [*指標*：実際の指標と&#x200B;*精度*&#x200B;で計画された指標の比較](#metric-actual-vs-planned-by-granularity)
-   * [チャネル *指標* by *精度*](#channel-metric-by-granularity)
-   * [チャネル別&#x200B;*指標*&#x200B;対&#x200B;*指標*](#metric-vs-metric-by-channel)
-   * [*粒度*&#x200B;による&#x200B;*指標*](#metric-by-granularity)
-   * [チャネル別&#x200B;*指標*](#metric-by-channel)
+* [ ビジュアライゼーション ](#visualizations):
+  * [*指標*：実際の指標と計画された指標の比較](#metric-actual-vs-planned)
+  * [*指標*：実際の指標と&#x200B;*精度*&#x200B;で計画された指標の比較](#metric-actual-vs-planned-by-granularity)
+  * [チャネル *指標* by *精度*](#channel-metric-by-granularity)
+  * [チャネル別&#x200B;*指標*&#x200B;対&#x200B;*指標*](#metric-vs-metric-by-channel)
+  * [*粒度*&#x200B;による&#x200B;*指標*](#metric-by-granularity)
+  * [チャネル別&#x200B;*指標*](#metric-by-channel)
 
 ## KPI ステータスカード
 
-![KPI ステータスカード &#x200B;](../assets/performance-to-plan-kpi-cards.png)
+![KPI ステータスカード ](../assets/performance-to-plan-kpi-cards.png)
 
 
 ### 予算
@@ -93,7 +104,7 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
 ビジュアライゼーションの任意の行、棒グラフまたは散布要素にカーソルを合わせると、追加情報を含むポップアップが表示されます。
 
-![&#x200B; ビジュアライゼーション &#x200B;](../assets/performance-to-plan-visualizations.png)
+![ ビジュアライゼーション ](../assets/performance-to-plan-visualizations.png)
 
 ### *指標*：実際の指標と計画された指標の比較
 
@@ -134,8 +145,8 @@ KPI ステータス カードとビジュアライゼーションに表示され
 
    * 1つまたは2つの指標：**[!UICONTROL Select metric]** ドロップダウンメニューから指標を選択します。
 
-      * ROI ベースのプランの場合、オプションは[!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]および[!UICONTROL Volume]です。
-      * CPA ベースのプランの場合、オプションは[!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend]、および[!UICONTROL Volume]です。
+     * ROI ベースのプランの場合、オプションは[!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Revenue]、[!UICONTROL ROI]、[!UICONTROL Spend]および[!UICONTROL Volume]です。
+     * CPA ベースのプランの場合、オプションは[!UICONTROL Conversions]、[!UICONTROL CPA]、[!UICONTROL Spend]、および[!UICONTROL Volume]です。
    * **[!UICONTROL Granularity]**: **[!UICONTROL Granularity]** ドロップダウンメニューから&#x200B;**[!UICONTROL date ranges]**&#x200B;または&#x200B;**[!UICONTROL week]**&#x200B;のいずれかを選択します。
 
    **[!UICONTROL Preview]**&#x200B;で、変更が&#x200B;**[!UICONTROL Current]** ビジュアライゼーションとどのように異なるかがわかります。
