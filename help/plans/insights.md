@@ -3,26 +3,32 @@ title: プランインサイト
 description: Mix Modelerでプランのインサイトを確認し、プランを編集する方法を説明します。
 feature: Plans
 exl-id: 91385595-284f-4fcb-b54b-9539905e552b
-TQID: https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM
+autotag-review: '2026-04-28T06:09:37.014Z'
+TQID: 'https://experienceleague.adobe.com/Qi-C1-9Dbi71TbUTi64xlxs1pNXijt0nasTghWiD6AM'
 product_v2:
   - id: b88c80e3-31df-4609-989d-d4dac0e6d973
+    internal-label: Mix Modeler
 feature_v2:
   - id: f40f1683-8300-4054-aab8-77da06ad63ff
+    internal-label: Models
+  - id: d822825b-9821-40d5-9b0d-42a9e3f317c5
+    internal-label: Plans
 subfeature_v2:
   - id: a9505d76-24a1-4ffe-bd01-6ac32d5af453
+    internal-label: Model insights
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-autotag-review: '2026-04-28T06:09:37.014Z'
-source-git-commit: 5579087b9381c4d8e909ed5fe3099fd42d5c6799
+    internal-label: Insights
+source-git-commit: 6d83679f1c053f0be6eefd17929364d53221a31a
 workflow-type: tm+mt
-source-wordcount: 1174
+source-wordcount: '1190'
 ht-degree: 0%
-
 ---
-
 # プランインサイト
 
 
@@ -32,12 +38,12 @@ ht-degree: 0%
 インサイトが作成されると、次の内容で構成されるプランの概要が表示されます。
 
 - プランのベースとなる[!UICONTROL Model]、[!UICONTROL Data range]および[!UICONTROL Plan target]を表示するヘッダー。
-   - 目標ベースのプランを定義した場合、バッジはターゲットのステータスを示します。考えられるオプションは次のとおりです。
+  - 目標ベースのプランを定義した場合、バッジはターゲットのステータスを示します。考えられるオプションは次のとおりです。
 
-      - [!BADGE 達成可能な目標]{type=Positive}
-      - [!BADGE 目標は達成不能]{type=Negative}
+    - [!BADGE 達成可能な目標]{type=Positive}
+    - [!BADGE 目標は達成不能]{type=Negative}
 
-   - 詳細を表示するには、![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;を選択します。
+  - 詳細を表示するには、![ChevronDown](/help/assets/icons/ChevronDown.svg) **[!UICONTROL Show more]**&#x200B;を選択します。
 
 - [[!UICONTROL Forecasted paid channel ROI] ビジュアライゼーション](#forecasted-paid-channel-spend-and-roi)
 - [[!UICONTROL Forecasted revenue] ビジュアライゼーション](#forecasted-revenue)
@@ -45,12 +51,12 @@ ht-degree: 0%
 - [[!UICONTROL Marginal channel return] ビジュアライゼーション](#marginal-channel-return)
 - プラン [&#128279;](#date-range-breakdown)の[!UICONTROL Data range breakdown] テーブル。の列が表示されます
 
-   - チャネル
-   - ROI
-   - CPA
-   - 売上高
-   - コンバージョン目標
-   - 支出
+  - チャネル
+  - ROI
+  - CPA
+  - 売上高
+  - コンバージョン目標
+  - 支出
 
 インターフェイスを閉じるには、**[!UICONTROL Close]**&#x200B;を選択します。
 
@@ -151,33 +157,33 @@ ht-degree: 0%
 
            このオプションを使用すると、1つ以上の日付範囲の予算を入力できます。
 
-            1. **[!UICONTROL Optimize]** コンテナ内：
-               1. **[!UICONTROL Select conversion]** ドロップダウンメニューからコンバージョンを選択します。
-               1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
-            1. 日付を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、**[!UICONTROL Date range]**&#x200B;を指定します。
-            1. **[!UICONTROL Budget]**&#x200B;を入力します。
-各予算を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;を選択します。
-日付範囲と関連する予算を削除するには、![閉じる](/help/assets/icons/Close.svg)を選択します。
-            1. プランを制限するオプションの最大予算を定義するには、次の手順を実行します。
-               1. **[!UICONTROL Maximize budget]**&#x200B;を切り替えます。
-               1. 予算の最大額を指定します。 金額は、日付範囲に指定された予算の合計金額と同じか、それ以上である必要があります。
+           1. **[!UICONTROL Optimize]** コンテナ内：
+              1. **[!UICONTROL Select conversion]** ドロップダウンメニューからコンバージョンを選択します。
+              1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
+           1. 日付を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、**[!UICONTROL Date range]**&#x200B;を指定します。
+           1. **[!UICONTROL Budget]**&#x200B;を入力します。
+              各予算を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;を選択します。
+              日付範囲と関連する予算を削除するには、![閉じる](/help/assets/icons/Close.svg)を選択します。
+           1. プランを制限するオプションの最大予算を定義するには、次の手順を実行します。
+              1. **[!UICONTROL Maximize budget]**&#x200B;を切り替えます。
+              1. 予算の最大額を指定します。 金額は、日付範囲に指定された予算の合計金額と同じか、それ以上である必要があります。
 
 
          - **[!UICONTROL I have a target to achieve]** [!BADGE Beta]
 
            ![&#x200B; プランのターゲット &#x200B;](../assets/plan-target.png)
 
-            1. **[!UICONTROL Optimize]** コンテナ内
-               1. **[!UICONTROL Select conversion]** ドロップダウンメニューからコンバージョンを選択します。
-               1. **[!UICONTROL Select target metric]** ドロップダウンメニューからターゲット指標を選択します。 **[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;または&#x200B;**[!UICONTROL ROI]**&#x200B;のいずれかを選択できます。
-               1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
-            1. 日付を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、日付範囲を指定します。
-            1. 選択したターゲット指標の値を入力します。 例えば、**[!UICONTROL Conversion]**&#x200B;の数値、**[!UICONTROL ROI]**&#x200B;の割合、**[!UICONTROL CPA]**&#x200B;と&#x200B;**[!UICONTROL Revenue]**&#x200B;の通貨値などです。
-ターゲット指標を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;を選択します。
-日付範囲と関連するターゲット指標を削除するには、![閉じる](/help/assets/icons/Close.svg)を選択します。
-            1. プランを制限するオプションの最大予算を定義するには、次の手順を実行します。
-               1. **[!UICONTROL Maximize budget]**&#x200B;を切り替えます。
-               1. 予算の最大額を指定します。
+           1. **[!UICONTROL Optimize]** コンテナ内
+              1. **[!UICONTROL Select conversion]** ドロップダウンメニューからコンバージョンを選択します。
+              1. **[!UICONTROL Select target metric]** ドロップダウンメニューからターゲット指標を選択します。 **[!UICONTROL Conversion]**、**[!UICONTROL CPA]**、**[!UICONTROL Revenue]**&#x200B;または&#x200B;**[!UICONTROL ROI]**&#x200B;のいずれかを選択できます。
+              1. **[!UICONTROL Select model]** ドロップダウンメニューからモデルを選択します。
+           1. 日付を入力するか、![&#x200B; カレンダー](/help/assets/icons/Calendar.svg)を使用して日付範囲を選択して、日付範囲を指定します。
+           1. 選択したターゲット指標の値を入力します。 例えば、**[!UICONTROL Conversion]**&#x200B;の数値、**[!UICONTROL ROI]**&#x200B;の割合、**[!UICONTROL CPA]**&#x200B;と&#x200B;**[!UICONTROL Revenue]**&#x200B;の通貨値などです。
+              ターゲット指標を含む日付範囲を追加するには、![CalendarAdd](/help/assets/icons/CalendarAdd.svg) **[!UICONTROL Add row]**&#x200B;を選択します。
+              日付範囲と関連するターゲット指標を削除するには、![閉じる](/help/assets/icons/Close.svg)を選択します。
+           1. プランを制限するオプションの最大予算を定義するには、次の手順を実行します。
+              1. **[!UICONTROL Maximize budget]**&#x200B;を切り替えます。
+              1. 予算の最大額を指定します。
 
          1. 「**[!UICONTROL Next]**」を選択して、**[!UICONTROL Spend selection]** セクションに戻ります。
 
