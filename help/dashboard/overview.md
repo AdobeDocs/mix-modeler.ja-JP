@@ -41,10 +41,10 @@ ht-degree: 0%
 
 Mix Modelerのホームの概要画面には、調整済みデータと計画の概要が、設定可能な様々なビジュアライゼーションを通じて表示されます。
 
-概要にアクセスするには、Mix Modeler インターフェイスの左側のパネルから「![ ホーム ](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**」を選択します。
+概要にアクセスするには、Mix Modeler インターフェイスの左側のパネルから「![&#x200B; ホーム &#x200B;](/help/assets/icons/Home.svg) **[!UICONTROL Overview]**」を選択します。
 
 ここから、次の項目について詳しく確認できます。
 
 * [調和されたデータ](harmonized-data.md)
 
-* [計画に対するパフォーマンス ](plans.md) [!BADGE Beta]{type=Informative}
+* [計画に対するパフォーマンス &#x200B;](plans.md) [!BADGE Beta]{type=Informative}

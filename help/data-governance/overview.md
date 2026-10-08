@@ -53,9 +53,9 @@ Experience Platform Data Governanceは、Experience Platformを介してデー�
 
 | 機能 | 詳細 |
 |---|---|
-| アクセス制御 | ロールベースのアクセス制御と属性ベース（フィールドレベル）のアクセス制御がサポートされています。 詳しくは、[ アクセス制御](access-controls.md)を参照してください。 |
-| 監査ログ | ユーザーが特定のMix Modeler カテゴリを作成、更新または削除すると、Experience Platform監査機能は監査ログにアクティビティを記録します。 詳しくは、[監査ログ ](audit-logs.md)を参照してください。 |
-| ポリシー | 統一されたデータワークフローの一部として、Experience Platform定義ポリシーが適用されます。 データ使用ラベルの違反は、ユーザーに報告され、表示されます。 詳しくは、[ ポリシー](policies.md)を参照してください。 |
+| アクセス制御 | ロールベースのアクセス制御と属性ベース（フィールドレベル）のアクセス制御がサポートされています。 詳しくは、[&#x200B; アクセス制御](access-controls.md)を参照してください。 |
+| 監査ログ | ユーザーが特定のMix Modeler カテゴリを作成、更新または削除すると、Experience Platform監査機能は監査ログにアクティビティを記録します。 詳しくは、[監査ログ &#x200B;](audit-logs.md)を参照してください。 |
+| ポリシー | 統一されたデータワークフローの一部として、Experience Platform定義ポリシーが適用されます。 データ使用ラベルの違反は、ユーザーに報告され、表示されます。 詳しくは、[&#x200B; ポリシー](policies.md)を参照してください。 |
 | 暗号化 | モデルの入力と出力に使用されるすべてのデータセットは、Experience Platform ガイドラインに従います。 Experience Platformのデータ暗号化は、保存中および転送中のデータに適用されます。 |
-| データハイジーン | モデルの入力とアウトに使用されるすべてのデータセットは、Experience Platform ガイドラインに従います。 Experience Platformには、様々な種類のデータ有効期限のサポートなど、顧客データのライフサイクルを管理するための一連のツールが用意されています。 調和済みデータの一部として使用されているExperience Platformからソースデータセットを削除すると、通知が送信されます。 詳しくは、[ データセットルール ](/help/harmonize-data/dataset-rules.md)を参照してください。 |
+| データハイジーン | モデルの入力とアウトに使用されるすべてのデータセットは、Experience Platform ガイドラインに従います。 Experience Platformには、様々な種類のデータ有効期限のサポートなど、顧客データのライフサイクルを管理するための一連のツールが用意されています。 調和済みデータの一部として使用されているExperience Platformからソースデータセットを削除すると、通知が送信されます。 詳しくは、[&#x200B; データセットルール &#x200B;](/help/harmonize-data/dataset-rules.md)を参照してください。 |
 | 顧客管理キー | Privacy Security Shield アドオンを使用してMix Modelerのライセンスを取得した場合は、Customer Managed Keys機能を使用してAzure Key Vaultを活用し、API経由で独自のキーを取得できます。 Mix Modelerのモデル内で処理されるデータを包括的に管理できます。 |
